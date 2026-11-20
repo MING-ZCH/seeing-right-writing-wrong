@@ -1,0 +1,180 @@
+Exp-55 perception-first instruction in the USER turn (pre-registered: outputs/e55/prereg.txt)
+
+PRIMARY (U1 - Direct, mean over 7 models): cue set -4.51 [-6.3, -2.6]; BLINK+CV-Bench depth -4.44 [-5.7, -3.2] -> met: False (complete: True)
+  weaker 'removes the CoT loss' criterion: False
+
+== Cue-factorial set (1,600)  (n = 1600, clusters = 400)
+  Qwen2.5-VL-3B   Dir  52.4 CoT  53.0 U1  53.1 U2  51.8 P1(E44)  53.2 | U1-DIR +0.7 [-3.0, +4.4] U1-COT +0.1 [-2.4, +2.6] U2-DIR -0.7 [-4.4, +2.8] U2-COT -1.3 [-3.9, +1.2] U2-U1 -1.4 [-3.6, +0.9] COT-DIR +0.6 [-2.8, +4.1] P1-DIR +0.8 [+0.1, +1.4] U1-P1 -0.1 [-3.6, +3.4] U2-P1 -1.4 [-4.9, +2.0]
+  Qwen2.5-VL-7B   Dir  53.4 CoT  56.9 U1  57.2 U2  57.1 P1(E44)  53.5 | U1-DIR +3.8 [+0.2, +7.7] U1-COT +0.3 [-2.2, +2.9] U2-DIR +3.8 [+0.1, +7.4] U2-COT +0.3 [-2.1, +2.8] U2-U1 -0.1 [-1.6, +1.4] COT-DIR +3.5 [+0.4, +6.8] P1-DIR +0.1 [-3.6, +3.9] U1-P1 +3.7 [+1.4, +5.8] U2-P1 +3.6 [+1.5, +5.7]
+  InternVL3-8B    Dir  63.7 CoT  68.4 U1  61.3 U2  61.0 P1(E44)  56.9 | U1-DIR -2.4 [-4.8, -0.1] U1-COT -7.1 [-9.9, -4.2] U2-DIR -2.7 [-4.9, -0.4] U2-COT -7.4 [-10.7, -4.3] U2-U1 -0.3 [-2.3, +1.8] COT-DIR +4.8 [+1.3, +8.2] P1-DIR -6.8 [-9.7, -3.8] U1-P1 +4.4 [+1.8, +7.0] U2-P1 +4.1 [+1.2, +6.9]
+  Phi-3.5-V       Dir  59.5 CoT  57.2 U1  51.4 U2  53.8 P1(E44)  53.9 | U1-DIR -8.1 [-10.7, -5.4] U1-COT -5.8 [-8.4, -3.1] U2-DIR -5.7 [-8.3, -3.2] U2-COT -3.4 [-6.3, -0.7] U2-U1 +2.4 [+0.0, +4.7] COT-DIR -2.3 [-5.1, +0.6] P1-DIR -5.6 [-7.4, -3.8] U1-P1 -2.5 [-5.1, +0.0] U2-P1 -0.1 [-2.6, +2.3]
+  Molmo-7B-D      Dir  88.2 CoT  75.1 U1  61.0 U2  61.4 P1(E44)  69.1 | U1-DIR -27.2 [-29.4, -25.1] U1-COT -14.1 [-16.7, -11.5] U2-DIR -26.8 [-29.2, -24.2] U2-COT -13.7 [-16.6, -10.8] U2-U1 +0.4 [-2.3, +2.9] COT-DIR -13.1 [-15.2, -10.9] P1-DIR -19.1 [-20.7, -17.4] U1-P1 -8.1 [-10.4, -6.1] U2-P1 -7.8 [-10.1, -5.4]
+  Qwen3-VL-8B     Dir  78.9 CoT  77.3 U1  75.8 U2  79.9 P1(E44)  80.4 | U1-DIR -3.1 [-5.6, -0.4] U1-COT -1.5 [-4.1, +1.1] U2-DIR +1.1 [-1.6, +3.7] U2-COT +2.6 [+0.4, +4.8] U2-U1 +4.1 [+1.9, +6.6] COT-DIR -1.6 [-4.5, +1.6] P1-DIR +1.5 [-0.6, +3.8] U1-P1 -4.6 [-6.7, -2.4] U2-P1 -0.4 [-2.8, +1.9]
+  InternVL3.5-8B  Dir  55.6 CoT  60.1 U1  60.2 U2  61.2 P1(E44)  55.1 | U1-DIR +4.6 [+2.0, +7.3] U1-COT +0.1 [-2.2, +2.3] U2-DIR +5.6 [+3.4, +7.8] U2-COT +1.1 [-1.1, +3.1] U2-U1 +1.0 [-0.9, +2.8] COT-DIR +4.6 [+2.4, +6.8] P1-DIR -0.4 [-2.9, +2.2] U1-P1 +5.1 [+3.1, +7.1] U2-P1 +6.1 [+4.1, +8.0]
+  MEAN (7)        Dir  64.5 CoT  64.0 U1  60.0 U2  60.9 P1(E44)  60.3 | U1-DIR -4.5 [-6.3, -2.6] U1-COT -4.0 [-4.9, -3.1] U2-DIR -3.6 [-5.4, -1.7] U2-COT -3.1 [-4.0, -2.2] U2-U1 +0.9 [+0.1, +1.7] COT-DIR -0.5 [-2.5, +1.5] P1-DIR -4.2 [-5.6, -2.7] U1-P1 -0.3 [-1.2, +0.6] U2-P1 +0.6 [-0.3, +1.5]
+  per-model CI>0 / CI<0 counts: u1-direct 2/4; u1-cot 0/3; u2-direct 2/3; u2-cot 1/3; u2-u1 1/0; cot-direct 3/1; p1-direct 1/3; u1-p1 3/2; u2-p1 3/1
+
+== Cue set, 'in front of' (800)  (n = 800, clusters = 400)
+  Qwen2.5-VL-3B   Dir  53.8 CoT  52.1 U1  52.1 U2  51.8 P1(E44)  55.5 | U1-DIR -1.6 [-5.9, +2.9] U1-COT +0.0 [-3.8, +3.4] U2-DIR -2.0 [-6.1, +2.5] U2-COT -0.4 [-4.2, +3.1] U2-U1 -0.4 [-2.8, +1.9] COT-DIR -1.6 [-6.3, +3.0] P1-DIR +1.8 [+0.5, +3.1] U1-P1 -3.4 [-7.6, +1.0] U2-P1 -3.8 [-7.9, +0.5]
+  Qwen2.5-VL-7B   Dir  55.8 CoT  62.4 U1  65.2 U2  64.4 P1(E44)  55.4 | U1-DIR +9.5 [+5.9, +13.1] U1-COT +2.9 [-0.9, +6.6] U2-DIR +8.6 [+5.0, +12.4] U2-COT +2.0 [-1.6, +5.5] U2-U1 -0.9 [-3.1, +1.5] COT-DIR +6.6 [+3.1, +10.1] P1-DIR -0.4 [-4.4, +3.8] U1-P1 +9.9 [+5.9, +13.5] U2-P1 +9.0 [+5.2, +12.6]
+  InternVL3-8B    Dir  62.6 CoT  69.6 U1  59.4 U2  59.8 P1(E44)  56.8 | U1-DIR -3.3 [-6.1, -0.5] U1-COT -10.3 [-14.1, -6.6] U2-DIR -2.9 [-5.4, -0.4] U2-COT -9.9 [-14.0, -6.0] U2-U1 +0.4 [-2.1, +2.8] COT-DIR +7.0 [+2.9, +11.2] P1-DIR -5.9 [-9.4, -2.1] U1-P1 +2.6 [-0.5, +5.9] U2-P1 +3.0 [-0.6, +6.5]
+  Phi-3.5-V       Dir  62.0 CoT  56.8 U1  51.2 U2  51.4 P1(E44)  58.0 | U1-DIR -10.8 [-14.0, -7.6] U1-COT -5.5 [-8.6, -2.4] U2-DIR -10.6 [-13.5, -7.9] U2-COT -5.4 [-8.6, -2.2] U2-U1 +0.1 [-2.1, +2.4] COT-DIR -5.3 [-8.6, -2.0] P1-DIR -4.0 [-6.2, -1.9] U1-P1 -6.8 [-9.8, -4.0] U2-P1 -6.6 [-9.2, -4.1]
+  Molmo-7B-D      Dir  94.9 CoT  78.1 U1  55.0 U2  67.0 P1(E44)  88.2 | U1-DIR -39.9 [-42.6, -37.0] U1-COT -23.1 [-26.8, -19.5] U2-DIR -27.9 [-31.0, -24.6] U2-COT -11.1 [-14.9, -7.1] U2-U1 +12.0 [+8.6, +15.1] COT-DIR -16.8 [-19.8, -13.6] P1-DIR -6.6 [-8.6, -4.5] U1-P1 -33.3 [-36.2, -30.0] U2-P1 -21.3 [-24.6, -17.6]
+  Qwen3-VL-8B     Dir  92.0 CoT  77.8 U1  76.0 U2  79.6 P1(E44)  79.9 | U1-DIR -16.0 [-18.6, -13.1] U1-COT -1.8 [-4.9, +1.5] U2-DIR -12.4 [-15.2, -9.7] U2-COT +1.9 [-1.0, +4.8] U2-U1 +3.6 [+0.5, +6.8] COT-DIR -14.3 [-17.4, -11.2] P1-DIR -12.1 [-14.8, -9.5] U1-P1 -3.9 [-6.8, -1.0] U2-P1 -0.3 [-3.5, +2.9]
+  InternVL3.5-8B  Dir  57.5 CoT  63.1 U1  62.6 U2  64.1 P1(E44)  58.0 | U1-DIR +5.1 [+1.5, +8.8] U1-COT -0.5 [-3.8, +2.8] U2-DIR +6.6 [+3.5, +9.8] U2-COT +1.0 [-2.0, +4.1] U2-U1 +1.5 [-1.2, +4.1] COT-DIR +5.6 [+2.7, +8.6] P1-DIR +0.5 [-3.4, +4.5] U1-P1 +4.6 [+2.0, +7.2] U2-P1 +6.1 [+3.5, +8.9]
+  MEAN (7)        Dir  68.4 CoT  65.7 U1  60.2 U2  62.6 P1(E44)  64.5 | U1-DIR -8.1 [-9.9, -6.3] U1-COT -5.5 [-6.9, -4.2] U2-DIR -5.8 [-7.4, -4.1] U2-COT -3.1 [-4.5, -1.7] U2-U1 +2.3 [+1.4, +3.3] COT-DIR -2.7 [-4.7, -0.6] P1-DIR -3.8 [-5.4, -2.2] U1-P1 -4.3 [-5.4, -3.2] U2-P1 -2.0 [-3.1, -0.8]
+  per-model CI>0 / CI<0 counts: u1-direct 2/4; u1-cot 0/3; u2-direct 2/4; u2-cot 0/3; u2-u1 2/0; cot-direct 3/3; p1-direct 1/4; u1-p1 2/3; u2-p1 2/2
+
+== Cue set, 'behind' (800)  (n = 800, clusters = 400)
+  Qwen2.5-VL-3B   Dir  51.1 CoT  53.9 U1  54.1 U2  51.8 P1(E44)  50.9 | U1-DIR +3.0 [-0.8, +6.8] U1-COT +0.3 [-3.6, +4.2] U2-DIR +0.6 [-3.4, +4.6] U2-COT -2.1 [-6.0, +1.9] U2-U1 -2.4 [-6.0, +1.1] COT-DIR +2.8 [-0.8, +6.1] P1-DIR -0.3 [-0.6, +0.0] U1-P1 +3.3 [-0.6, +7.1] U2-P1 +0.9 [-3.1, +4.9]
+  Qwen2.5-VL-7B   Dir  51.0 CoT  51.4 U1  49.1 U2  49.9 P1(E44)  51.6 | U1-DIR -1.9 [-6.6, +2.6] U1-COT -2.3 [-5.4, +0.6] U2-DIR -1.1 [-5.9, +3.3] U2-COT -1.5 [-4.6, +1.4] U2-U1 +0.8 [-1.0, +2.5] COT-DIR +0.4 [-3.2, +4.0] P1-DIR +0.6 [-3.6, +4.6] U1-P1 -2.5 [-5.1, +0.1] U2-P1 -1.8 [-4.4, +1.1]
+  InternVL3-8B    Dir  64.8 CoT  67.2 U1  63.2 U2  62.2 P1(E44)  57.1 | U1-DIR -1.5 [-4.8, +1.6] U1-COT -4.0 [-7.4, -0.5] U2-DIR -2.5 [-5.9, +0.8] U2-COT -5.0 [-9.0, -0.8] U2-U1 -1.0 [-4.4, +2.5] COT-DIR +2.5 [-2.0, +6.6] P1-DIR -7.6 [-11.5, -4.0] U1-P1 +6.1 [+2.5, +9.8] U2-P1 +5.1 [+1.1, +9.1]
+  Phi-3.5-V       Dir  57.0 CoT  57.8 U1  51.6 U2  56.2 P1(E44)  49.9 | U1-DIR -5.4 [-9.4, -1.4] U1-COT -6.1 [-10.1, -2.0] U2-DIR -0.8 [-5.1, +3.6] U2-COT -1.5 [-5.9, +2.9] U2-U1 +4.6 [+0.2, +8.6] COT-DIR +0.8 [-3.5, +5.0] P1-DIR -7.1 [-10.0, -4.2] U1-P1 +1.8 [-2.1, +5.6] U2-P1 +6.4 [+1.9, +10.8]
+  Molmo-7B-D      Dir  81.5 CoT  72.0 U1  67.0 U2  55.8 P1(E44)  50.0 | U1-DIR -14.5 [-18.2, -10.9] U1-COT -5.0 [-9.0, -1.1] U2-DIR -25.8 [-29.8, -21.8] U2-COT -16.3 [-20.4, -11.9] U2-U1 -11.3 [-15.6, -6.9] COT-DIR -9.5 [-12.9, -6.0] P1-DIR -31.5 [-34.1, -29.0] U1-P1 +17.0 [+13.8, +20.1] U2-P1 +5.8 [+2.6, +8.8]
+  Qwen3-VL-8B     Dir  65.8 CoT  76.9 U1  75.6 U2  80.2 P1(E44)  80.9 | U1-DIR +9.9 [+5.8, +13.9] U1-COT -1.3 [-4.9, +2.5] U2-DIR +14.5 [+10.5, +18.4] U2-COT +3.4 [+0.2, +6.6] U2-U1 +4.6 [+1.0, +8.1] COT-DIR +11.1 [+6.8, +15.2] P1-DIR +15.1 [+11.5, +18.4] U1-P1 -5.3 [-8.9, -1.9] U2-P1 -0.6 [-3.8, +2.4]
+  InternVL3.5-8B  Dir  53.6 CoT  57.1 U1  57.8 U2  58.2 P1(E44)  52.2 | U1-DIR +4.1 [+1.6, +6.9] U1-COT +0.6 [-2.8, +3.9] U2-DIR +4.6 [+2.6, +6.9] U2-COT +1.1 [-1.8, +4.0] U2-U1 +0.5 [-2.1, +3.4] COT-DIR +3.5 [+0.6, +6.4] P1-DIR -1.4 [-3.6, +1.0] U1-P1 +5.5 [+2.5, +8.8] U2-P1 +6.0 [+3.4, +8.6]
+  MEAN (7)        Dir  60.7 CoT  62.3 U1  59.8 U2  59.2 P1(E44)  56.1 | U1-DIR -0.9 [-3.1, +1.1] U1-COT -2.5 [-3.9, -1.2] U2-DIR -1.5 [-3.7, +0.7] U2-COT -3.1 [-4.5, -1.7] U2-U1 -0.6 [-1.9, +0.7] COT-DIR +1.6 [-0.6, +3.8] P1-DIR -4.6 [-6.2, -3.1] U1-P1 +3.7 [+2.4, +5.1] U2-P1 +3.1 [+1.8, +4.4]
+  per-model CI>0 / CI<0 counts: u1-direct 2/2; u1-cot 0/3; u2-direct 2/1; u2-cot 1/2; u2-u1 2/1; cot-direct 2/1; p1-direct 1/3; u1-p1 3/1; u2-p1 4/0
+
+== Synthetic Depth (500)  (n = 500, clusters = 500)
+  Qwen2.5-VL-3B   Dir  84.8 CoT  57.4 U1  54.8 U2  57.6 P1(E44)  79.4 | U1-DIR -30.0 [-34.6, -25.6] U1-COT -2.6 [-6.4, +1.6] U2-DIR -27.2 [-31.8, -23.0] U2-COT +0.2 [-4.4, +4.6] U2-U1 +2.8 [-0.8, +6.0] COT-DIR -27.4 [-32.4, -23.0] P1-DIR -5.4 [-7.6, -3.2] U1-P1 -24.6 [-29.0, -20.6] U2-P1 -21.8 [-26.0, -17.6]
+  Qwen2.5-VL-7B   Dir  77.6 CoT  66.4 U1  87.2 U2  88.8 P1(E44)  71.6 | U1-DIR +9.6 [+5.8, +13.2] U1-COT +20.8 [+16.4, +25.2] U2-DIR +11.2 [+7.4, +15.0] U2-COT +22.4 [+18.0, +26.8] U2-U1 +1.6 [-0.6, +3.8] COT-DIR -11.2 [-15.8, -6.6] P1-DIR -6.0 [-10.0, -2.4] U1-P1 +15.6 [+11.0, +20.0] U2-P1 +17.2 [+12.8, +21.8]
+  InternVL3-8B    Dir  90.2 CoT  63.4 U1  80.0 U2  78.2 P1(E44)  56.0 | U1-DIR -10.2 [-14.4, -5.8] U1-COT +16.6 [+11.6, +21.6] U2-DIR -12.0 [-16.0, -7.6] U2-COT +14.8 [+9.6, +19.8] U2-U1 -1.8 [-5.0, +1.2] COT-DIR -26.8 [-31.8, -21.4] P1-DIR -34.2 [-39.4, -28.8] U1-P1 +24.0 [+19.8, +28.4] U2-P1 +22.2 [+17.6, +27.0]
+  Phi-3.5-V       Dir  63.4 CoT  59.6 U1  55.0 U2  58.4 P1(E44)  64.2 | U1-DIR -8.4 [-13.8, -3.0] U1-COT -4.6 [-11.0, +1.2] U2-DIR -5.0 [-10.4, +1.0] U2-COT -1.2 [-7.4, +4.8] U2-U1 +3.4 [-0.4, +7.2] COT-DIR -3.8 [-8.8, +1.8] P1-DIR +0.8 [-2.8, +4.4] U1-P1 -9.2 [-14.0, -4.4] U2-P1 -5.8 [-10.4, -1.0]
+  Molmo-7B-D      Dir  89.6 CoT  75.4 U1  55.2 U2  63.0 P1(E44)  87.4 | U1-DIR -34.4 [-39.8, -29.2] U1-COT -20.2 [-25.4, -15.2] U2-DIR -26.6 [-32.0, -21.4] U2-COT -12.4 [-17.8, -7.0] U2-U1 +7.8 [+3.6, +12.4] COT-DIR -14.2 [-18.6, -10.0] P1-DIR -2.2 [-4.8, +0.4] U1-P1 -32.2 [-37.8, -26.2] U2-P1 -24.4 [-30.0, -18.6]
+  Qwen3-VL-8B     Dir  77.8 CoT  60.4 U1  79.4 U2  72.2 P1(E44)  75.6 | U1-DIR +1.6 [-2.2, +5.4] U1-COT +19.0 [+14.4, +23.8] U2-DIR -5.6 [-9.2, -1.8] U2-COT +11.8 [+7.2, +16.2] U2-U1 -7.2 [-11.2, -3.0] COT-DIR -17.4 [-21.8, -12.8] P1-DIR -2.2 [-4.8, +0.4] U1-P1 +3.8 [+0.0, +7.4] U2-P1 -3.4 [-7.2, +0.4]
+  InternVL3.5-8B  Dir  56.0 CoT  59.6 U1  63.8 U2  64.6 P1(E44)  61.8 | U1-DIR +7.8 [+3.8, +12.0] U1-COT +4.2 [-0.4, +8.4] U2-DIR +8.6 [+4.4, +12.8] U2-COT +5.0 [+0.2, +9.2] U2-U1 +0.8 [-3.0, +4.6] COT-DIR +3.6 [-0.4, +8.0] P1-DIR +5.8 [+1.8, +10.0] U1-P1 +2.0 [-1.2, +5.2] U2-P1 +2.8 [-0.8, +6.4]
+  MEAN (7)        Dir  77.1 CoT  63.2 U1  67.9 U2  69.0 P1(E44)  70.9 | U1-DIR -9.1 [-11.5, -6.7] U1-COT +4.7 [+2.6, +6.8] U2-DIR -8.1 [-10.3, -5.9] U2-COT +5.8 [+3.8, +7.7] U2-U1 +1.1 [-0.3, +2.5] COT-DIR -13.9 [-15.7, -12.0] P1-DIR -6.2 [-7.9, -4.5] U1-P1 -2.9 [-4.6, -1.3] U2-P1 -1.9 [-3.5, -0.3]
+  per-model CI>0 / CI<0 counts: u1-direct 2/4; u1-cot 3/1; u2-direct 2/4; u2-cot 4/1; u2-u1 1/1; cot-direct 0/5; p1-direct 1/3; u1-p1 2/3; u2-p1 2/3
+
+== BLINK Rel. Depth (124)  (n = 124, clusters = 124)
+  Qwen2.5-VL-3B   Dir  66.1 CoT  56.5 U1  56.5 U2  54.0 P1(E44)  70.2 | U1-DIR -9.7 [-19.4, +0.0] U1-COT +0.0 [-8.9, +8.9] U2-DIR -12.1 [-22.6, -2.4] U2-COT -2.4 [-11.3, +6.5] U2-U1 -2.4 [-11.3, +6.5] COT-DIR -9.7 [-19.4, +0.8] P1-DIR +4.0 [-1.6, +10.5] U1-P1 -13.7 [-23.4, -4.0] U2-P1 -16.1 [-26.6, -6.4]
+  Qwen2.5-VL-7B   Dir  82.3 CoT  71.0 U1  70.2 U2  66.9 P1(E44)  79.8 | U1-DIR -12.1 [-21.0, -3.2] U1-COT -0.8 [-8.1, +6.5] U2-DIR -15.3 [-23.4, -7.3] U2-COT -4.0 [-12.1, +3.2] U2-U1 -3.2 [-10.5, +4.0] COT-DIR -11.3 [-19.4, -3.2] P1-DIR -2.4 [-7.3, +2.4] U1-P1 -9.7 [-18.5, -0.8] U2-P1 -12.9 [-21.8, -4.0]
+  InternVL3-8B    Dir  80.6 CoT  76.6 U1  75.8 U2  76.6 P1(E44)  79.0 | U1-DIR -4.8 [-13.7, +4.0] U1-COT -0.8 [-8.9, +8.1] U2-DIR -4.0 [-10.5, +3.2] U2-COT +0.0 [-8.1, +8.1] U2-U1 +0.8 [-6.5, +8.9] COT-DIR -4.0 [-10.5, +2.4] P1-DIR -1.6 [-7.3, +4.0] U1-P1 -3.2 [-12.1, +6.5] U2-P1 -2.4 [-9.7, +5.6]
+  Phi-3.5-V       Dir  74.2 CoT  68.5 U1  68.5 U2  62.9 P1(E44)  72.6 | U1-DIR -5.6 [-10.5, -0.8] U1-COT +0.0 [-6.5, +6.5] U2-DIR -11.3 [-19.4, -3.2] U2-COT -5.6 [-12.9, +2.4] U2-U1 -5.6 [-12.9, +1.6] COT-DIR -5.6 [-10.5, -1.6] P1-DIR -1.6 [-6.5, +3.2] U1-P1 -4.0 [-9.7, +1.6] U2-P1 -9.7 [-17.7, -2.4]
+  Molmo-7B-D      Dir  66.1 CoT  59.7 U1  59.7 U2  54.0 P1(E44)  66.9 | U1-DIR -6.5 [-17.7, +4.8] U1-COT +0.0 [-11.3, +11.3] U2-DIR -12.1 [-23.4, -0.8] U2-COT -5.6 [-16.9, +5.6] U2-U1 -5.6 [-15.3, +4.8] COT-DIR -6.5 [-16.9, +4.8] P1-DIR +0.8 [-2.4, +4.8] U1-P1 -7.3 [-18.5, +4.0] U2-P1 -12.9 [-25.0, -1.6]
+  Qwen3-VL-8B     Dir  87.9 CoT  80.6 U1  83.1 U2  80.6 P1(E44)  91.1 | U1-DIR -4.8 [-10.5, +0.8] U1-COT +2.4 [-3.2, +8.1] U2-DIR -7.3 [-13.7, -1.6] U2-COT +0.0 [-5.6, +5.6] U2-U1 -2.4 [-7.3, +3.2] COT-DIR -7.3 [-13.7, -0.8] P1-DIR +3.2 [+0.8, +6.5] U1-P1 -8.1 [-13.7, -2.4] U2-P1 -10.5 [-16.1, -4.8]
+  InternVL3.5-8B  Dir  78.2 CoT  75.8 U1  75.8 U2  75.0 P1(E44)  74.2 | U1-DIR -2.4 [-11.3, +6.5] U1-COT +0.0 [-7.3, +7.3] U2-DIR -3.2 [-12.1, +4.8] U2-COT -0.8 [-8.9, +6.5] U2-U1 -0.8 [-8.1, +6.5] COT-DIR -2.4 [-10.5, +5.6] P1-DIR -4.0 [-10.5, +2.4] U1-P1 +1.6 [-6.5, +9.7] U2-P1 +0.8 [-6.5, +8.1]
+  MEAN (7)        Dir  76.5 CoT  69.8 U1  69.9 U2  67.2 P1(E44)  76.3 | U1-DIR -6.6 [-9.7, -3.5] U1-COT +0.1 [-3.1, +3.3] U2-DIR -9.3 [-12.8, -5.9] U2-COT -2.6 [-6.5, +1.0] U2-U1 -2.8 [-5.6, +0.2] COT-DIR -6.7 [-9.8, -3.2] P1-DIR -0.2 [-2.3, +1.8] U1-P1 -6.3 [-9.2, -3.3] U2-P1 -9.1 [-12.4, -5.5]
+  per-model CI>0 / CI<0 counts: u1-direct 0/2; u1-cot 0/0; u2-direct 0/5; u2-cot 0/0; u2-u1 0/0; cot-direct 0/3; p1-direct 1/0; u1-p1 0/3; u2-p1 0/5
+
+== CV-Bench 3D Depth (600)  (n = 600, clusters = 600)
+  Qwen2.5-VL-3B   Dir  78.8 CoT  69.7 U1  73.0 U2  71.3 P1(E44)  76.2 | U1-DIR -5.8 [-9.7, -2.0] U1-COT +3.3 [-0.5, +7.3] U2-DIR -7.5 [-11.0, -3.8] U2-COT +1.7 [-2.0, +5.3] U2-U1 -1.7 [-4.8, +1.5] COT-DIR -9.2 [-13.0, -5.7] P1-DIR -2.7 [-5.0, -0.5] U1-P1 -3.2 [-7.2, +0.7] U2-P1 -4.8 [-8.7, -1.2]
+  Qwen2.5-VL-7B   Dir  85.0 CoT  82.8 U1  81.2 U2  84.5 P1(E44)  74.3 | U1-DIR -3.8 [-7.2, -0.3] U1-COT -1.7 [-4.8, +1.5] U2-DIR -0.5 [-3.7, +2.5] U2-COT +1.7 [-1.2, +4.5] U2-U1 +3.3 [+0.5, +6.0] COT-DIR -2.2 [-5.3, +1.3] P1-DIR -10.7 [-13.8, -7.5] U1-P1 +6.8 [+2.8, +11.2] U2-P1 +10.2 [+6.2, +14.0]
+  InternVL3-8B    Dir  85.5 CoT  85.7 U1  81.8 U2  84.5 P1(E44)  85.2 | U1-DIR -3.7 [-6.0, -1.5] U1-COT -3.8 [-6.5, -1.2] U2-DIR -1.0 [-3.2, +1.2] U2-COT -1.2 [-3.5, +1.3] U2-U1 +2.7 [+0.2, +5.0] COT-DIR +0.2 [-2.5, +2.7] P1-DIR -0.3 [-2.3, +1.7] U1-P1 -3.3 [-5.8, -1.0] U2-P1 -0.7 [-3.0, +1.5]
+  Phi-3.5-V       Dir  76.3 CoT  53.5 U1  61.3 U2  62.0 P1(E44)  68.2 | U1-DIR -15.0 [-19.8, -10.2] U1-COT +7.8 [+4.0, +11.7] U2-DIR -14.3 [-19.0, -9.5] U2-COT +8.5 [+4.8, +12.3] U2-U1 +0.7 [-2.8, +4.2] COT-DIR -22.8 [-27.8, -17.5] P1-DIR -8.2 [-12.2, -4.5] U1-P1 -6.8 [-11.3, -2.3] U2-P1 -6.2 [-10.3, -2.0]
+  Molmo-7B-D      Dir  68.0 CoT  71.2 U1  74.0 U2  72.0 P1(E44)  78.5 | U1-DIR +6.0 [+1.3, +10.5] U1-COT +2.8 [-1.5, +7.3] U2-DIR +4.0 [-0.7, +8.7] U2-COT +0.8 [-3.7, +5.3] U2-U1 -2.0 [-6.2, +2.2] COT-DIR +3.2 [-1.0, +7.3] P1-DIR +10.5 [+7.0, +14.2] U1-P1 -4.5 [-9.0, +0.0] U2-P1 -6.5 [-11.0, -2.2]
+  Qwen3-VL-8B     Dir  95.2 CoT  92.0 U1  92.0 U2  94.0 P1(E44)  95.0 | U1-DIR -3.2 [-5.2, -1.2] U1-COT +0.0 [-2.2, +2.2] U2-DIR -1.2 [-3.2, +0.8] U2-COT +2.0 [+0.0, +3.8] U2-U1 +2.0 [-0.2, +4.2] COT-DIR -3.2 [-5.2, -1.2] P1-DIR -0.2 [-1.3, +1.2] U1-P1 -3.0 [-5.2, -1.0] U2-P1 -1.0 [-3.0, +0.8]
+  InternVL3.5-8B  Dir  87.2 CoT  86.7 U1  84.7 U2  86.7 P1(E44)  81.3 | U1-DIR -2.5 [-4.8, -0.2] U1-COT -2.0 [-4.5, +0.7] U2-DIR -0.5 [-2.3, +1.3] U2-COT +0.0 [-2.3, +2.5] U2-U1 +2.0 [-0.3, +4.3] COT-DIR -0.5 [-3.0, +1.8] P1-DIR -5.8 [-8.5, -3.2] U1-P1 +3.3 [+0.3, +6.5] U2-P1 +5.3 [+2.5, +8.2]
+  MEAN (7)        Dir  82.3 CoT  77.4 U1  78.3 U2  79.3 P1(E44)  79.8 | U1-DIR -4.0 [-5.3, -2.7] U1-COT +0.9 [-0.4, +2.2] U2-DIR -3.0 [-4.2, -1.8] U2-COT +1.9 [+0.7, +3.1] U2-U1 +1.0 [-0.1, +2.1] COT-DIR -4.9 [-6.3, -3.5] P1-DIR -2.5 [-3.5, -1.5] U1-P1 -1.5 [-3.0, -0.0] U2-P1 -0.5 [-2.0, +0.9]
+  per-model CI>0 / CI<0 counts: u1-direct 1/6; u1-cot 1/1; u2-direct 0/2; u2-cot 1/0; u2-u1 2/0; cot-direct 0/3; p1-direct 1/4; u1-p1 2/3; u2-p1 2/3
+
+== BLINK + CV-Bench depth (724)  (n = 724, clusters = 724)
+  Qwen2.5-VL-3B   Dir  76.7 CoT  67.4 U1  70.2 U2  68.4 P1(E44)  75.1 | U1-DIR -6.5 [-10.4, -2.9] U1-COT +2.8 [-0.8, +6.4] U2-DIR -8.3 [-12.2, -4.8] U2-COT +1.0 [-2.6, +4.3] U2-U1 -1.8 [-4.8, +1.1] COT-DIR -9.3 [-12.8, -5.8] P1-DIR -1.5 [-3.6, +0.6] U1-P1 -5.0 [-8.4, -1.5] U2-P1 -6.8 [-10.4, -3.3]
+  Qwen2.5-VL-7B   Dir  84.5 CoT  80.8 U1  79.3 U2  81.5 P1(E44)  75.3 | U1-DIR -5.2 [-8.6, -1.9] U1-COT -1.5 [-4.3, +1.2] U2-DIR -3.0 [-6.2, -0.1] U2-COT +0.7 [-1.8, +3.3] U2-U1 +2.2 [-0.4, +5.1] COT-DIR -3.7 [-7.0, -0.8] P1-DIR -9.3 [-12.0, -6.5] U1-P1 +4.0 [+0.1, +7.9] U2-P1 +6.2 [+2.6, +9.9]
+  InternVL3-8B    Dir  84.7 CoT  84.1 U1  80.8 U2  83.1 P1(E44)  84.1 | U1-DIR -3.9 [-6.4, -1.4] U1-COT -3.3 [-5.9, -0.7] U2-DIR -1.5 [-3.7, +0.7] U2-COT -1.0 [-3.5, +1.5] U2-U1 +2.3 [+0.0, +4.6] COT-DIR -0.6 [-2.9, +1.8] P1-DIR -0.6 [-2.5, +1.4] U1-P1 -3.3 [-5.8, -0.8] U2-P1 -1.0 [-3.2, +1.2]
+  Phi-3.5-V       Dir  76.0 CoT  56.1 U1  62.6 U2  62.2 P1(E44)  68.9 | U1-DIR -13.4 [-17.3, -9.3] U1-COT +6.5 [+3.0, +9.8] U2-DIR -13.8 [-17.7, -9.8] U2-COT +6.1 [+2.8, +9.3] U2-U1 -0.4 [-3.6, +2.6] COT-DIR -19.9 [-24.3, -15.6] P1-DIR -7.0 [-10.4, -3.9] U1-P1 -6.4 [-9.9, -2.5] U2-P1 -6.8 [-10.4, -3.2]
+  Molmo-7B-D      Dir  67.7 CoT  69.2 U1  71.5 U2  68.9 P1(E44)  76.5 | U1-DIR +3.9 [-0.3, +8.1] U1-COT +2.3 [-1.8, +6.5] U2-DIR +1.2 [-3.0, +5.8] U2-COT -0.3 [-4.6, +3.9] U2-U1 -2.6 [-6.5, +1.4] COT-DIR +1.5 [-2.2, +5.4] P1-DIR +8.8 [+5.8, +11.7] U1-P1 -5.0 [-9.0, -0.8] U2-P1 -7.6 [-11.5, -3.5]
+  Qwen3-VL-8B     Dir  93.9 CoT  90.1 U1  90.5 U2  91.7 P1(E44)  94.3 | U1-DIR -3.5 [-5.4, -1.5] U1-COT +0.4 [-1.7, +2.5] U2-DIR -2.2 [-4.1, -0.3] U2-COT +1.7 [-0.3, +3.7] U2-U1 +1.2 [-0.7, +3.3] COT-DIR -3.9 [-5.8, -1.8] P1-DIR +0.4 [-0.7, +1.7] U1-P1 -3.9 [-5.8, -1.9] U2-P1 -2.6 [-4.6, -0.7]
+  InternVL3.5-8B  Dir  85.6 CoT  84.8 U1  83.1 U2  84.7 P1(E44)  80.1 | U1-DIR -2.5 [-5.1, +0.0] U1-COT -1.7 [-4.1, +0.8] U2-DIR -1.0 [-3.0, +1.2] U2-COT -0.1 [-2.5, +2.2] U2-U1 +1.5 [-0.7, +3.9] COT-DIR -0.8 [-3.2, +1.7] P1-DIR -5.5 [-8.1, -3.0] U1-P1 +3.0 [+0.0, +5.9] U2-P1 +4.6 [+1.9, +7.2]
+  MEAN (7)        Dir  81.3 CoT  76.1 U1  76.9 U2  77.2 P1(E44)  79.2 | U1-DIR -4.4 [-5.7, -3.2] U1-COT +0.8 [-0.4, +2.0] U2-DIR -4.1 [-5.2, -2.9] U2-COT +1.1 [-0.0, +2.3] U2-U1 +0.4 [-0.7, +1.4] COT-DIR -5.2 [-6.4, -4.0] P1-DIR -2.1 [-3.0, -1.1] U1-P1 -2.3 [-3.7, -1.0] U2-P1 -2.0 [-3.3, -0.7]
+  per-model CI>0 / CI<0 counts: u1-direct 0/5; u1-cot 1/1; u2-direct 0/4; u2-cot 1/0; u2-u1 0/0; cot-direct 0/4; p1-direct 1/3; u1-p1 1/5; u2-p1 2/4
+
+== Cue set by phrasing (accuracy / yes-rate)
+  Qwen2.5-VL-3B   front: direct 53.8/55 cot 52.1/68 u1 52.1/88 u2 51.7/87 p1 55.5/59 | behind: direct 51.1/50 cot 53.9/53 u1 54.1/55 u2 51.7/59 p1 50.9/50
+  Qwen2.5-VL-7B   front: direct 55.8/51 cot 62.4/34 u1 65.2/47 u2 64.4/57 p1 55.4/84 | behind: direct 51.0/48 cot 51.4/18 u1 49.1/4 u2 49.9/6 p1 51.6/14
+  InternVL3-8B    front: direct 62.6/56 cot 69.6/66 u1 59.4/71 u2 59.8/66 p1 56.8/82 | behind: direct 64.8/41 cot 67.2/26 u1 63.2/21 u2 62.3/51 p1 57.1/36
+  Phi-3.5-V       front: direct 62.0/83 cot 56.8/73 u1 51.2/90 u2 51.4/95 p1 58.0/88 | behind: direct 57.0/66 cot 57.8/45 u1 51.6/23 u2 56.2/37 p1 49.9/42
+  Molmo-7B-D      front: direct 94.9/49 cot 78.1/62 u1 55.0/84 u2 67.0/72 p1 88.2/38 | behind: direct 81.5/40 cot 72.0/33 u1 67.0/65 u2 55.8/32 p1 50.0/0
+  Qwen3-VL-8B     front: direct 92.0/56 cot 77.8/67 u1 76.0/70 u2 79.6/65 p1 79.9/69 | behind: direct 65.8/21 cot 76.9/49 u1 75.6/52 u2 80.2/58 p1 80.9/63
+  InternVL3.5-8B  front: direct 57.5/58 cot 63.1/64 u1 62.6/82 u2 64.1/74 p1 58.0/88 | behind: direct 53.6/49 cot 57.1/50 u1 57.8/47 u2 58.2/53 p1 52.2/46
+
+== Cue-set AMEs (points; probit GLM, twin-pair bootstrap)
+  Qwen2.5-VL-3B   occlusion Dir +4.7 CoT +6.0 U1 +6.3 U2 +3.3 P1 +6.0 | U1-D +1.6 [-2.1, +5.5] U1-CoT +0.3 [-4.7, +5.6] U2-D -1.4 [-5.3, +2.8] CoT-D +1.3 [-2.8, +5.5]
+  Qwen2.5-VL-3B   vertical  Dir +92.4 CoT +38.7 U1 +34.7 U2 +31.3 P1 +89.6 | U1-D -57.7 [-61.6, -54.0] U1-CoT -4.0 [-9.2, +0.6] U2-D -61.0 [-65.2, -57.2] CoT-D -53.6 [-57.5, -49.6]
+  Qwen2.5-VL-7B   occlusion Dir +6.5 CoT +13.3 U1 +13.3 U2 +13.4 P1 +6.5 | U1-D +6.8 [+3.0, +10.0] U1-CoT +0.0 [-4.6, +4.8] U2-D +6.9 [+3.5, +10.5] CoT-D +6.8 [+3.1, +10.8]
+  Qwen2.5-VL-7B   vertical  Dir +91.5 CoT +41.4 U1 +31.4 U2 +32.5 P1 +25.0 | U1-D -60.1 [-63.6, -56.5] U1-CoT -10.0 [-14.7, -5.1] U2-D -58.9 [-62.3, -55.7] CoT-D -50.1 [-54.1, -46.3]
+  InternVL3-8B    occlusion Dir +27.3 CoT +36.9 U1 +22.2 U2 +21.5 P1 +14.1 | U1-D -5.1 [-9.0, -1.0] U1-CoT -14.7 [-19.5, -10.0] U2-D -5.9 [-9.9, -1.6] CoT-D +9.6 [+4.9, +14.3]
+  InternVL3-8B    vertical  Dir +70.0 CoT +17.1 U1 +45.4 U2 +59.0 P1 +33.3 | U1-D -24.6 [-28.5, -20.6] U1-CoT +28.4 [+23.3, +33.1] U2-D -11.0 [-15.4, -7.4] CoT-D -52.9 [-57.8, -48.0]
+  Phi-3.5-V       occlusion Dir +19.2 CoT +14.4 U1 +2.9 U2 +7.7 P1 +8.7 | U1-D -16.3 [-21.1, -11.5] U1-CoT -11.4 [-16.2, -6.3] U2-D -11.6 [-16.0, -7.3] CoT-D -4.9 [-10.0, +0.1]
+  Phi-3.5-V       vertical  Dir +24.7 CoT +10.4 U1 +3.6 U2 +8.4 P1 +25.9 | U1-D -21.0 [-26.0, -16.4] U1-CoT -6.8 [-12.3, -2.0] U2-D -16.2 [-20.8, -11.9] CoT-D -14.2 [-19.1, -9.1]
+  Molmo-7B-D      occlusion Dir +76.2 CoT +50.1 U1 +21.5 U2 +22.8 P1 +38.2 | U1-D -54.7 [-59.4, -50.6] U1-CoT -28.6 [-33.9, -23.7] U2-D -53.4 [-58.4, -48.4] CoT-D -26.1 [-30.4, -21.6]
+  Molmo-7B-D      vertical  Dir +14.4 CoT +8.4 U1 +13.3 U2 +3.6 P1 -0.8 | U1-D -1.1 [-5.6, +3.0] U1-CoT +4.8 [-0.6, +10.2] U2-D -10.8 [-15.8, -6.1] CoT-D -5.9 [-10.2, -2.0]
+  Qwen3-VL-8B     occlusion Dir +56.7 CoT +54.6 U1 +51.7 U2 +59.9 P1 +60.6 | U1-D -4.9 [-9.8, -0.4] U1-CoT -2.8 [-7.2, +1.8] U2-D +3.3 [-1.2, +7.7] CoT-D -2.1 [-6.7, +2.4]
+  Qwen3-VL-8B     vertical  Dir +26.0 CoT -16.5 U1 +1.8 U2 -9.3 P1 +8.4 | U1-D -24.2 [-28.7, -19.5] U1-CoT +18.3 [+13.6, +23.3] U2-D -35.3 [-39.7, -30.8] CoT-D -42.5 [-47.5, -37.7]
+  InternVL3.5-8B  occlusion Dir +10.9 CoT +20.0 U1 +20.6 U2 +22.4 P1 +10.4 | U1-D +9.8 [+6.2, +13.5] U1-CoT +0.7 [-3.8, +5.1] U2-D +11.5 [+7.9, +14.8] CoT-D +9.1 [+5.4, +12.8]
+  InternVL3.5-8B  vertical  Dir +87.8 CoT +63.2 U1 +50.0 U2 +61.6 P1 +47.7 | U1-D -37.8 [-41.1, -34.6] U1-CoT -13.2 [-17.6, -9.1] U2-D -26.2 [-29.2, -22.8] CoT-D -24.6 [-28.0, -21.0]
+
+== Written relation (claim_parse v3; last claim; x = written acc - Direct on parsed items)
+  Qwen2.5-VL-3B   cues cot: cov 96 wr 54.3 x +1.4 agree T/F 77.2/75.5 | u1: cov 99 wr 55.2 x +2.8 agree T/F 73.3/71.9 | u2: cov 100 wr 54.2 x +1.8 agree T/F 72.5/72.8 | p1: cov 0 wr nan x nan agree T/F None/None
+  Qwen2.5-VL-3B   syn  cot: cov 98 wr 53.2 x -32.1 agree T/F 94.2/84.7 | u1: cov 98 wr 57.1 x -27.9 agree T/F 92.5/95.7 | u2: cov 99 wr 60.5 x -24.6 agree T/F 93.3/96.9 | p1: cov 0 wr nan x nan agree T/F None/None
+  Qwen2.5-VL-7B   cues cot: cov 92 wr 56.8 x +3.0 agree T/F 90.5/86.3 | u1: cov 89 wr 62.0 x +8.2 agree T/F 67.0/57.2 | u2: cov 95 wr 62.6 x +8.4 agree T/F 68.5/61.9 | p1: cov 97 wr 54.1 x +0.4 agree T/F 77.8/74.8
+  Qwen2.5-VL-7B   syn  cot: cov 96 wr 65.3 x -12.7 agree T/F 93.6/85.0 | u1: cov 96 wr 89.4 x +11.6 agree T/F 97.2/98.0 | u2: cov 97 wr 91.0 x +12.6 agree T/F 97.7/95.5 | p1: cov 40 wr 61.0 x -13.0 agree T/F 98.4/94.9
+  InternVL3-8B    cues cot: cov 96 wr 65.8 x +1.8 agree T/F 96.0/86.6 | u1: cov 98 wr 55.3 x -8.4 agree T/F 87.1/71.3 | u2: cov 97 wr 56.6 x -6.7 agree T/F 96.1/85.7 | p1: cov 78 wr 57.1 x -7.5 agree T/F 84.7/80.1
+  InternVL3-8B    syn  cot: cov 92 wr 62.0 x -28.9 agree T/F 95.8/86.3 | u1: cov 92 wr 78.9 x -11.8 agree T/F 99.7/91.8 | u2: cov 98 wr 77.6 x -12.6 agree T/F 99.5/96.4 | p1: cov 71 wr 44.1 x -46.0 agree T/F 100.0/95.5
+  Phi-3.5-V       cues cot: cov 69 wr 65.3 x +5.3 agree T/F 83.8/83.0 | u1: cov 94 wr 55.5 x -4.1 agree T/F 71.1/73.2 | u2: cov 86 wr 54.6 x -4.3 agree T/F 90.7/90.2 | p1: cov 0 wr nan x nan agree T/F None/None
+  Phi-3.5-V       syn  cot: cov 68 wr 52.5 x -14.1 agree T/F 96.6/86.4 | u1: cov 92 wr 54.2 x -9.6 agree T/F 100.0/97.6 | u2: cov 91 wr 58.0 x -5.5 agree T/F 100.0/98.4 | p1: cov 0 wr nan x nan agree T/F None/None
+  Molmo-7B-D      cues cot: cov 95 wr 80.8 x -7.7 agree T/F 87.7/78.0 | u1: cov 86 wr 63.8 x -23.4 agree T/F 68.2/52.3 | u2: cov 89 wr 70.0 x -18.1 agree T/F 75.4/71.0 | p1: cov 0 wr nan x nan agree T/F None/None
+  Molmo-7B-D      syn  cot: cov 92 wr 78.3 x -11.5 agree T/F 93.9/91.0 | u1: cov 89 wr 63.9 x -25.6 agree T/F 63.5/60.2 | u2: cov 89 wr 76.1 x -13.0 agree T/F 76.8/79.4 | p1: cov 0 wr nan x nan agree T/F None/None
+  Qwen3-VL-8B     cues cot: cov 98 wr 76.6 x -2.2 agree T/F 99.6/94.8 | u1: cov 99 wr 74.1 x -4.6 agree T/F 97.3/84.3 | u2: cov 98 wr 70.7 x -8.3 agree T/F 96.9/59.7 | p1: cov 97 wr 80.5 x +1.4 agree T/F 99.4/99.0
+  Qwen3-VL-8B     syn  cot: cov 97 wr 60.6 x -17.7 agree T/F 95.9/93.8 | u1: cov 98 wr 79.9 x +1.8 agree T/F 97.7/89.9 | u2: cov 98 wr 69.7 x -8.3 agree T/F 96.2/82.6 | p1: cov 83 wr 76.5 x -2.7 agree T/F 99.7/100.0
+  InternVL3.5-8B  cues cot: cov 89 wr 62.1 x +5.4 agree T/F 85.3/78.1 | u1: cov 99 wr 60.7 x +5.2 agree T/F 90.9/87.2 | u2: cov 99 wr 62.2 x +6.8 agree T/F 86.3/80.8 | p1: cov 93 wr 54.4 x -1.1 agree T/F 97.3/97.7
+  InternVL3.5-8B  syn  cot: cov 91 wr 62.0 x +3.5 agree T/F 87.2/80.3 | u1: cov 100 wr 63.7 x +7.8 agree T/F 96.9/94.5 | u2: cov 100 wr 63.8 x +7.8 agree T/F 97.5/93.4 | p1: cov 94 wr 61.8 x +3.8 agree T/F 99.0/95.0
+
+== Sanity / format (gen: per set x arm, empty %, mean tokens, truncation %)
+  Qwen2.5-VL-3B   reread cues 64/64 syn 64/64 nat 64/64
+                  cues  cot: empty 0.0% tok 112 trunc 0.0% | u1: empty 0.0% tok 99 trunc 0.0% | u2: empty 0.0% tok 103 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  syn   cot: empty 0.0% tok 124 trunc 0.0% | u1: empty 0.0% tok 110 trunc 0.0% | u2: empty 0.0% tok 112 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  blink cot: empty 0.0% tok 175 trunc 0.0% | u1: empty 0.0% tok 187 trunc 0.0% | u2: empty 0.0% tok 182 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  cvb   cot: empty 0.0% tok 121 trunc 0.0% | u1: empty 0.0% tok 160 trunc 0.0% | u2: empty 0.0% tok 138 trunc 0.0% | p1: empty 92.2% tok 1 trunc 0.0%
+                  nat   cot: empty 0.0% tok 130 trunc 0.0% | u1: empty 0.0% tok 164 trunc 0.0% | u2: empty 0.0% tok 146 trunc 0.0% | p1: empty 93.5% tok 1 trunc 0.0%
+                  cues_front cot: empty 0.0% tok 120 trunc 0.0% | u1: empty 0.0% tok 101 trunc 0.0% | u2: empty 0.0% tok 106 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  cues_behind cot: empty 0.0% tok 105 trunc 0.0% | u1: empty 0.0% tok 97 trunc 0.0% | u2: empty 0.0% tok 100 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+  Qwen2.5-VL-7B   reread cues 64/64 syn 64/64 nat 64/64
+                  cues  cot: empty 0.0% tok 52 trunc 0.0% | u1: empty 0.0% tok 59 trunc 0.0% | u2: empty 0.0% tok 57 trunc 0.0% | p1: empty 2.9% tok 43 trunc 0.0%
+                  syn   cot: empty 0.0% tok 52 trunc 0.0% | u1: empty 0.0% tok 54 trunc 0.0% | u2: empty 0.0% tok 54 trunc 0.0% | p1: empty 60.0% tok 15 trunc 0.0%
+                  blink cot: empty 0.0% tok 88 trunc 0.0% | u1: empty 0.0% tok 147 trunc 0.0% | u2: empty 0.0% tok 154 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  cvb   cot: empty 0.0% tok 76 trunc 0.0% | u1: empty 0.0% tok 165 trunc 0.0% | u2: empty 0.0% tok 156 trunc 0.0% | p1: empty 39.2% tok 22 trunc 0.0%
+                  nat   cot: empty 0.0% tok 78 trunc 0.0% | u1: empty 0.0% tok 162 trunc 0.0% | u2: empty 0.0% tok 156 trunc 0.0% | p1: empty 49.6% tok 19 trunc 0.0%
+                  cues_front cot: empty 0.0% tok 55 trunc 0.0% | u1: empty 0.0% tok 57 trunc 0.0% | u2: empty 0.0% tok 56 trunc 0.0% | p1: empty 2.9% tok 44 trunc 0.0%
+                  cues_behind cot: empty 0.0% tok 49 trunc 0.0% | u1: empty 0.0% tok 61 trunc 0.0% | u2: empty 0.0% tok 59 trunc 0.0% | p1: empty 3.0% tok 42 trunc 0.0%
+  InternVL3-8B    reread cues 64/64 syn 64/64 nat 64/64
+                  cues  cot: empty 0.0% tok 94 trunc 0.0% | u1: empty 0.0% tok 55 trunc 0.0% | u2: empty 0.0% tok 66 trunc 0.0% | p1: empty 0.0% tok 31 trunc 0.0%
+                  syn   cot: empty 0.0% tok 86 trunc 0.0% | u1: empty 0.0% tok 50 trunc 0.0% | u2: empty 0.0% tok 55 trunc 0.0% | p1: empty 0.0% tok 25 trunc 0.0%
+                  blink cot: empty 0.0% tok 175 trunc 0.0% | u1: empty 0.0% tok 140 trunc 0.0% | u2: empty 0.0% tok 126 trunc 0.0% | p1: empty 2.4% tok 24 trunc 0.0%
+                  cvb   cot: empty 0.0% tok 180 trunc 0.0% | u1: empty 0.0% tok 166 trunc 0.0% | u2: empty 0.0% tok 168 trunc 0.0% | p1: empty 0.0% tok 12 trunc 0.0%
+                  nat   cot: empty 0.0% tok 179 trunc 0.0% | u1: empty 0.0% tok 161 trunc 0.0% | u2: empty 0.0% tok 161 trunc 0.0% | p1: empty 0.4% tok 14 trunc 0.0%
+                  cues_front cot: empty 0.0% tok 96 trunc 0.0% | u1: empty 0.0% tok 54 trunc 0.0% | u2: empty 0.0% tok 57 trunc 0.0% | p1: empty 0.0% tok 28 trunc 0.0%
+                  cues_behind cot: empty 0.0% tok 93 trunc 0.0% | u1: empty 0.0% tok 56 trunc 0.0% | u2: empty 0.0% tok 74 trunc 0.0% | p1: empty 0.0% tok 34 trunc 0.0%
+  Phi-3.5-V       reread cues 64/64 syn 64/64 nat 128/128
+                  cues  cot: empty 3.3% tok 38 trunc 0.0% | u1: empty 0.0% tok 68 trunc 0.0% | u2: empty 0.0% tok 70 trunc 0.1% | p1: empty 99.8% tok 2 trunc 0.0%
+                  syn   cot: empty 14.6% tok 35 trunc 0.0% | u1: empty 0.0% tok 73 trunc 0.2% | u2: empty 0.0% tok 80 trunc 0.2% | p1: empty 100.0% tok 2 trunc 0.0%
+                  blink cot: empty 100.0% tok 2 trunc 0.0% | u1: empty 87.1% tok 19 trunc 0.0% | u2: empty 28.2% tok 102 trunc 1.6% | p1: empty 100.0% tok 2 trunc 0.0%
+                  cvb   cot: empty 0.0% tok 50 trunc 0.2% | u1: empty 0.0% tok 79 trunc 0.5% | u2: empty 0.0% tok 68 trunc 0.0% | p1: empty 63.7% tok 6 trunc 0.0%
+                  nat   cot: empty 17.1% tok 42 trunc 0.1% | u1: empty 14.9% tok 69 trunc 0.4% | u2: empty 4.8% tok 74 trunc 0.3% | p1: empty 69.9% tok 5 trunc 0.0%
+                  cues_front cot: empty 6.6% tok 36 trunc 0.0% | u1: empty 0.0% tok 69 trunc 0.0% | u2: empty 0.0% tok 72 trunc 0.0% | p1: empty 100.0% tok 2 trunc 0.0%
+                  cues_behind cot: empty 0.0% tok 41 trunc 0.0% | u1: empty 0.0% tok 67 trunc 0.0% | u2: empty 0.0% tok 67 trunc 0.1% | p1: empty 99.6% tok 2 trunc 0.0%
+  Molmo-7B-D      reread cues 64/64 syn 64/64 nat 64/64
+                  cues  cot: empty 0.0% tok 73 trunc 0.0% | u1: empty 0.0% tok 75 trunc 0.0% | u2: empty 0.0% tok 121 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  syn   cot: empty 0.0% tok 72 trunc 0.0% | u1: empty 0.0% tok 80 trunc 0.0% | u2: empty 0.0% tok 120 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  blink cot: empty 0.0% tok 104 trunc 0.0% | u1: empty 0.0% tok 147 trunc 0.0% | u2: empty 0.0% tok 148 trunc 0.8% | p1: empty 100.0% tok 1 trunc 0.0%
+                  cvb   cot: empty 0.0% tok 117 trunc 0.0% | u1: empty 0.0% tok 127 trunc 0.0% | u2: empty 0.0% tok 143 trunc 0.3% | p1: empty 100.0% tok 1 trunc 0.0%
+                  nat   cot: empty 0.0% tok 115 trunc 0.0% | u1: empty 0.0% tok 131 trunc 0.0% | u2: empty 0.0% tok 144 trunc 0.4% | p1: empty 100.0% tok 1 trunc 0.0%
+                  cues_front cot: empty 0.0% tok 76 trunc 0.0% | u1: empty 0.0% tok 78 trunc 0.0% | u2: empty 0.0% tok 122 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+                  cues_behind cot: empty 0.0% tok 69 trunc 0.0% | u1: empty 0.0% tok 72 trunc 0.0% | u2: empty 0.0% tok 120 trunc 0.0% | p1: empty 100.0% tok 1 trunc 0.0%
+  Qwen3-VL-8B     reread cues 64/64 syn 64/64 nat 64/64
+                  cues  cot: empty 0.0% tok 178 trunc 0.1% | u1: empty 0.0% tok 205 trunc 1.8% | u2: empty 0.0% tok 238 trunc 3.3% | p1: empty 1.2% tok 35 trunc 0.2%
+                  syn   cot: empty 0.0% tok 177 trunc 2.2% | u1: empty 0.0% tok 211 trunc 4.8% | u2: empty 0.0% tok 243 trunc 5.6% | p1: empty 17.2% tok 26 trunc 0.2%
+                  blink cot: empty 0.0% tok 284 trunc 15.3% | u1: empty 0.0% tok 365 trunc 18.6% | u2: empty 0.0% tok 368 trunc 21.0% | p1: empty 99.2% tok 2 trunc 0.0%
+                  cvb   cot: empty 0.0% tok 248 trunc 2.0% | u1: empty 0.0% tok 286 trunc 1.0% | u2: empty 0.0% tok 299 trunc 1.5% | p1: empty 84.3% tok 9 trunc 0.5%
+                  nat   cot: empty 0.0% tok 254 trunc 4.3% | u1: empty 0.0% tok 299 trunc 4.0% | u2: empty 0.0% tok 311 trunc 4.8% | p1: empty 86.9% tok 8 trunc 0.4%
+                  cues_front cot: empty 0.0% tok 176 trunc 0.2% | u1: empty 0.0% tok 205 trunc 0.9% | u2: empty 0.0% tok 222 trunc 2.8% | p1: empty 2.4% tok 29 trunc 0.1%
+                  cues_behind cot: empty 0.0% tok 179 trunc 0.0% | u1: empty 0.0% tok 205 trunc 2.6% | u2: empty 0.0% tok 253 trunc 3.9% | p1: empty 0.0% tok 41 trunc 0.4%
+  InternVL3.5-8B  reread cues 64/64 syn 64/64 nat 64/64
+                  cues  cot: empty 0.0% tok 61 trunc 0.0% | u1: empty 0.0% tok 76 trunc 0.0% | u2: empty 0.0% tok 74 trunc 0.0% | p1: empty 0.0% tok 27 trunc 0.0%
+                  syn   cot: empty 0.0% tok 67 trunc 0.0% | u1: empty 0.0% tok 59 trunc 0.0% | u2: empty 0.0% tok 61 trunc 0.0% | p1: empty 0.0% tok 28 trunc 0.0%
+                  blink cot: empty 0.0% tok 211 trunc 0.0% | u1: empty 0.0% tok 167 trunc 0.0% | u2: empty 0.0% tok 144 trunc 0.0% | p1: empty 0.0% tok 38 trunc 2.4%
+                  cvb   cot: empty 0.0% tok 186 trunc 0.0% | u1: empty 0.0% tok 87 trunc 0.0% | u2: empty 0.0% tok 86 trunc 0.0% | p1: empty 0.0% tok 42 trunc 0.0%
+                  nat   cot: empty 0.0% tok 191 trunc 0.0% | u1: empty 0.0% tok 101 trunc 0.0% | u2: empty 0.0% tok 96 trunc 0.0% | p1: empty 0.0% tok 41 trunc 0.4%
+                  cues_front cot: empty 0.0% tok 57 trunc 0.0% | u1: empty 0.0% tok 70 trunc 0.0% | u2: empty 0.0% tok 66 trunc 0.0% | p1: empty 0.0% tok 31 trunc 0.0%
+                  cues_behind cot: empty 0.0% tok 64 trunc 0.0% | u1: empty 0.0% tok 82 trunc 0.0% | u2: empty 0.0% tok 82 trunc 0.0% | p1: empty 0.0% tok 22 trunc 0.0%

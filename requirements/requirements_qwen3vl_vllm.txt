@@ -1,0 +1,2 @@
+# Optional: vLLM >= 0.11 for Qwen3-VL generation. Pins torch==2.8.0.
+vllm==0.11.0

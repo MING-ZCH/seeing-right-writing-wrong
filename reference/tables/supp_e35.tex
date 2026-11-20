@@ -1,0 +1,24 @@
+\begin{tabular}{llrrrrrrrrrrrr}
+\toprule
+Model & Data & Cov. & \texttt{Dir.} & \texttt{Dir.}$|$p & \texttt{CoT} & $W$ & Agr.\ T/F & $x$ & $y$ & $y|$p & $\hat y$ & $y-\hat y$ & \texttt{D+C$-$}/\texttt{D$-$C+} \\
+\midrule
+Qwen2.5-VL-3B & CV-Bench 3D Depth & 96.0 & 78.8 & 79.3 & 70.8 & 71.5 & 98/98 & $-7.8$ & $-8.0$ & $-8.5$ & $-8.2$ & $+0.2$ & 94/46 \\
+Qwen2.5-VL-7B & CV-Bench 3D Depth & 98.5 & 85.0 & 85.3 & 82.7 & 82.7 & 100/99 & $-2.5$ & $-2.3$ & $-2.4$ & $-3.6$ & $+1.3$ & 56/42 \\
+InternVL3-8B & CV-Bench 3D Depth & 99.7 & 85.5 & 85.6 & 86.2 & 86.0 & 99/94 & $+0.3$ & $+0.7$ & $+0.5$ & $-1.1$ & $+1.8$ & 28/32 \\
+Phi-3.5-V & CV-Bench 3D Depth & 99.5 & 76.3 & 76.4 & 53.3 & 53.8 & 99/100 & $-22.6$ & $-23.0$ & $-22.8$ & $-21.1$ & $-1.9$ & 210/72 \\
+Molmo-7B-D & CV-Bench 3D Depth & 55.2 & 68.0 & 67.7 & 71.0 & 78.5 & 96/97 & $+10.9$ & $+3.0$ & $+8.2$ & $+8.1$ & $-5.1$ & 74/92 \\
+Qwen3-VL-8B & CV-Bench 3D Depth & 99.3 & 95.2 & 95.1 & 92.3 & 93.0 & 99/100 & $-2.2$ & $-2.8$ & $-2.9$ & $-3.3$ & $+0.5$ & 26/9 \\
+InternVL3.5-8B & CV-Bench 3D Depth & 98.3 & 87.2 & 88.0 & 87.2 & 86.1 & 98/79 & $-1.9$ & $+0.0$ & $-0.5$ & $-3.0$ & $+3.0$ & 24/24 \\
+Qwen3-VL-8B-Think.$^\dagger$ & CV-Bench 3D Depth & 93.5 & 94.0 & 94.3 & 94.5 & 94.8 & 100/100 & $+0.5$ & $+0.5$ & $+0.5$ & $-0.9$ & $+1.4$ & 14/17 \\
+\midrule
+Qwen2.5-VL-3B & BLINK Rel. Depth & 64.5 & 66.1 & 65.0 & 55.6 & 53.8 & 100/100 & $-11.2$ & $-10.5$ & $-11.2$ & $-11.2$ & $+0.7$ & 27/14 \\
+Qwen2.5-VL-7B & BLINK Rel. Depth & 91.1 & 82.3 & 82.3 & 71.0 & 72.6 & 100/90 & $-9.7$ & $-11.3$ & $-7.1$ & $-9.9$ & $-1.4$ & 22/8 \\
+InternVL3-8B & BLINK Rel. Depth & 87.9 & 80.6 & 84.4 & 76.6 & 80.7 & 99/100 & $-3.7$ & $-4.0$ & $-4.6$ & $-4.6$ & $+0.6$ & 11/6 \\
+Phi-3.5-V & BLINK Rel. Depth & 0.0 & 74.2 & -- & 68.5 & \multicolumn{3}{c}{not parseable (empty rationales)} & $-5.6$ & -- & -- & -- & 8/1 \\
+Molmo-7B-D & BLINK Rel. Depth & 41.9 & 66.1 & 63.5 & 55.6 & 53.8 & 93/92 & $-9.6$ & $-10.5$ & $-9.6$ & $-9.8$ & $-0.7$ & 34/21 \\
+Qwen3-VL-8B & BLINK Rel. Depth & 92.7 & 87.9 & 89.6 & 83.1 & 86.1 & 100/100 & $-3.5$ & $-4.8$ & $-3.5$ & $-4.4$ & $-0.4$ & 11/5 \\
+InternVL3.5-8B & BLINK Rel. Depth & 91.9 & 78.2 & 78.9 & 75.0 & 76.3 & 100/96 & $-2.6$ & $-3.2$ & $-1.8$ & $-3.7$ & $+0.5$ & 16/12 \\
+Qwen3-VL-8B-Think.$^\dagger$ & BLINK Rel. Depth & 79.0 & 83.9 & 84.7 & 76.6 & 77.6 & 96/100 & $-7.1$ & $-7.3$ & $-10.2$ & $-7.6$ & $+0.4$ & 14/5 \\
+\bottomrule
+\multicolumn{14}{p{0.97\linewidth}}{\scriptsize Written relation $W$: the option that the last depth claim of the CoT rationale names as closer to the camera, after removing the answer and concluding sentences (uniform rule, \cref{sec:supp_engine}); text-only consensus of Claude Opus 5.5 and GPT-6-Astra (agreement 99.0\%, $\kappa=0.98$); Cov.: share of items with a consensus claim. $x = W - $\texttt{Dir.}$|$p (parsed items); $y=$ \texttt{CoT}$-$\texttt{Dir.} (all items); $y|$p on parsed items. $\hat y = -1.40 + 0.871\,x$: synthetic fit of \cref{tab:supp_two_channel} (21 points), not refit. This fit uses rule-parsed $x$ on conclusion-kept synthetic text, whereas $x$ here is judge-extracted after conclusion removal. The protocol-matched synthetic fit of \cref{tab:supp_e45} ($-4.55+0.745\,x$) predicts the same $13$ points worse: MAE $2.8$ (bias $+2.4$; $+1.4$ $[+0.5, +1.9]$ over the fit used here, image bootstrap), sign $11/13$. $y=x$ predicts best ($1.3$) because natural points carry no answer-step loss ($A\approx0$). Closed points: sign $4/13$ (this fit), $2/13$ (matched), $13/13$ ($y=x$). Out of sample (13 instruct points): MAE 1.4 pts vs.\ 5.0 (predict mean synthetic $y$; difference [$-$5.2, $-$1.7]), 6.5 (predict 0; [$-$6.4, $-$2.6]) and 1.3 ($y=x$; [$-$0.3, +0.3]); $r(\hat y, y) = 0.96$ [0.78, 0.97]; sign agreement 11/13 (misses: InternVL3-8B and InternVL3.5-8B on CV-Bench, $|y| \le 0.7$); mean $y-\hat y$ $-0.1$ [$-$1.3, +1.2]. Over the $13$ instruct points, $x<0$ in $11$ (the body relation is less accurate than \texttt{Direct}), and the answer-step term $A$ of \cref{tab:supp_e45} is within $\pm1.4$ points in $11$ ($-2.7$ \texttt{Molmo-7B-D} CV-Bench, $+2.7$ \texttt{Qwen2.5-VL-7B} BLINK). Brackets: image bootstrap (2,000), MAE differences paired. Agr.\ T/F: CoT answer agrees with the written relation when it is true / false (\%). $^\dagger$Native thinking trace, not in the out-of-sample statistics.} \\
+\end{tabular}

@@ -1,0 +1,31 @@
+% Suggested caption: \textbf{Image knockout after writing, with the conclusion removed} (Exp-59). Teacher-forced
+% readout at ``Answer: ('' for Direct and for the stored rationale with its concluding sentence removed (R$_\mathrm{cut}$,
+% the truncation of the fixed-rationale twin swap). \emph{Image (all text)} = image tokens blocked from every
+% text position after the image (question, rationale, answer prefix); flips = answers that change, $|\Delta P|$ =
+% mean absolute change of P(gold), both in points; ratio = $|\Delta P|$ under R$_\mathrm{cut}$ / under Direct.
+% Occlusion = cue-factorial set + occlusion twins (400 + 400 prompts per model, stratified by Direct/CoT cell,
+% population-weighted); 2D left/right = CV-Bench 2D Relation + Synthetic Relative Position (400 items per model).
+% Full R = Exp-52 protocol (rationale with its conclusion). Last relation = answer prefix $\to$ last remaining
+% relational sentence of R$_\mathrm{cut}$ blocked. Last two columns (2D left/right, exploratory, prereg addendum):
+% R$_\mathrm{cut}$ + appended conclusion ``Therefore, the answer is (Y)'', $S$ = P(answer = Y $|$ Y gold) $-$
+% P(answer = Y $|$ Y wrong) (as in Tab.~supp\_answer\_step), without knockout and with the image blocked from all text.
+% 95\% cluster bootstrap CIs (twin pairs / image groups). Bare tabular; compiles standalone under \resizebox.
+\begin{tabular}{llcccccccccc}
+\toprule
+ & & \multicolumn{2}{c}{Direct, image (all text)} & \multicolumn{2}{c}{R$_\mathrm{cut}$, image (all text)} & & Full R, image (all text) & \multicolumn{2}{c}{R$_\mathrm{cut}$, last relation} & \multicolumn{2}{c}{R$_\mathrm{cut}$ + concl.: $S$} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){8-8}\cmidrule(lr){9-10}\cmidrule(lr){11-12}
+Items & Model & flips & $|\Delta P|$ & flips & $|\Delta P|$ & ratio & flips & flips & $|\Delta P|$ & none & image (all text) \\
+\midrule
+Occlusion & Qwen2.5-VL-3B & 53.9\,{\tiny[50.2,57.7]} & 38.2 & 9.0\,{\tiny[6.7,11.6]} & 10.7 & 0.28 & 0.0\,{\tiny[0.0,0.0]} & 17.2\,{\tiny[14.7,19.8]} & 19.4 & -- & -- \\
+ & Qwen2.5-VL-7B & 49.6\,{\tiny[45.9,53.1]} & 41.0 & 2.1\,{\tiny[1.0,3.4]} & 3.2 & 0.08 & 0.0\,{\tiny[0.0,0.0]} & 10.3\,{\tiny[8.6,12.4]} & 12.4 & -- & -- \\
+ & InternVL3-8B & 49.6\,{\tiny[46.4,52.8]} & 30.2 & 2.2\,{\tiny[1.2,3.3]} & 2.9 & 0.10 & 1.3\,{\tiny[0.5,2.2]} & 23.6\,{\tiny[20.7,26.7]} & 26.6 & -- & -- \\
+ & Phi-3.5-V & 26.6\,{\tiny[23.5,30.1]} & 18.0 & 7.7\,{\tiny[5.9,9.6]} & 7.9 & 0.44 & 1.2\,{\tiny[0.5,2.2]} & 22.5\,{\tiny[18.9,26.4]} & 26.6 & -- & -- \\
+ & Molmo-7B-D & 43.5\,{\tiny[40.0,47.2]} & 25.4 & 7.4\,{\tiny[5.5,9.4]} & 7.4 & 0.29 & 0.2\,{\tiny[0.0,0.7]} & 17.8\,{\tiny[15.0,20.7]} & 20.0 & -- & -- \\
+ & Qwen3-VL-8B & 38.3\,{\tiny[34.8,41.9]} & 38.6 & 4.6\,{\tiny[2.9,6.4]} & 5.1 & 0.13 & 0.0\,{\tiny[0.0,0.0]} & 19.1\,{\tiny[16.2,22.2]} & 19.9 & -- & -- \\
+ & InternVL3.5-8B & 46.0\,{\tiny[42.1,49.9]} & 38.4 & 5.1\,{\tiny[3.2,7.1]} & 4.8 & 0.12 & 3.2\,{\tiny[1.6,4.9]} & 12.3\,{\tiny[10.2,14.7]} & 14.6 & -- & -- \\
+\midrule
+2D left/right & Qwen2.5-VL-7B & 56.7\,{\tiny[51.3,61.7]} & 46.2 & 1.2\,{\tiny[0.3,2.5]} & 1.6 & 0.03 & -- & 5.0\,{\tiny[3.2,7.0]} & 6.9 & +53.9\,{\tiny[+48.9,+58.4]} & +21.5\,{\tiny[+17.1,+25.6]} \\
+ & InternVL3-8B & 51.8\,{\tiny[47.7,56.2]} & 46.7 & 0.5\,{\tiny[0.0,1.3]} & 0.8 & 0.02 & -- & 4.1\,{\tiny[2.4,5.9]} & 5.4 & +86.7\,{\tiny[+83.2,+90.1]} & +36.9\,{\tiny[+31.8,+42.4]} \\
+ & InternVL3.5-8B & 50.0\,{\tiny[45.3,54.7]} & 45.1 & 0.8\,{\tiny[0.1,1.8]} & 1.2 & 0.03 & -- & 2.9\,{\tiny[1.5,4.5]} & 3.2 & +84.0\,{\tiny[+80.1,+87.6]} & +69.5\,{\tiny[+64.6,+74.5]} \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,8316 @@
+{
+ "heur": {
+  "_doc": "rule accuracy = share of images whose rule-chosen front shape is the true front shape (0.5 credit if the rule is undefined). Rules answer by relation, not by phrasing, so accuracy is identical under both object orders / both phrasings of the same image. size_visible: larger visible area is in front; size_drawn: larger drawn (unoccluded) area; lower: lower in the image is closer. Synthetic Depth geometry: syn_depth_geometry.json (px = visible pixels, cy = vertical centre); twins: e2d meta; cue set: e10 *_cues meta; hard set: e2h meta.",
+  "syn_depth": {
+   "all": {
+    "n": 500,
+    "size_visible": 98.6,
+    "size_visible_ci": [
+     97.1,
+     99.3
+    ],
+    "lower": 52.4,
+    "lower_ci": [
+     48.0,
+     56.7
+    ],
+    "n_size_wrong": 7,
+    "n_lower_wrong": 231,
+    "agree_coverage": 51.6,
+    "agree_acc": 98.1,
+    "size_else_lower": 98.6,
+    "agree_else_coin": 74.8,
+    "logistic_cv_acc": 98.2
+   },
+   "overlap431": {
+    "n": 431,
+    "size_visible": 98.4,
+    "size_visible_ci": [
+     96.7,
+     99.2
+    ],
+    "lower": 50.8,
+    "lower_ci": [
+     46.1,
+     55.5
+    ],
+    "n_size_wrong": 7,
+    "n_lower_wrong": 212,
+    "agree_coverage": 51.5,
+    "agree_acc": 97.7,
+    "size_else_lower": 98.4,
+    "agree_else_coin": 74.6,
+    "logistic_cv_acc": 98.1
+   },
+   "touch_or_gap": {
+    "n": 40,
+    "size_visible": 100.0,
+    "size_visible_ci": [
+     91.2,
+     100.0
+    ],
+    "lower": 65.0,
+    "lower_ci": [
+     49.5,
+     77.9
+    ],
+    "n_size_wrong": 0,
+    "n_lower_wrong": 7,
+    "agree_coverage": 47.5,
+    "agree_acc": 100.0,
+    "size_else_lower": 100.0,
+    "agree_else_coin": 73.8,
+    "logistic_cv_acc": 100.0
+   },
+   "near_total": {
+    "n": 29,
+    "size_visible": 100.0,
+    "size_visible_ci": [
+     88.3,
+     100.0
+    ],
+    "lower": 58.6,
+    "lower_ci": [
+     40.7,
+     74.5
+    ],
+    "n_size_wrong": 0,
+    "n_lower_wrong": 12,
+    "agree_coverage": 58.6,
+    "agree_acc": 100.0,
+    "size_else_lower": 100.0,
+    "agree_else_coin": 79.3,
+    "logistic_cv_acc": 100.0
+   },
+   "ratio_low": {
+    "n": 162,
+    "size_visible": 95.7,
+    "lower": 59.9
+   },
+   "ratio_mid": {
+    "n": 162,
+    "size_visible": 100.0,
+    "lower": 46.3
+   },
+   "ratio_high": {
+    "n": 162,
+    "size_visible": 100.0,
+    "lower": 51.2
+   },
+   "ratio_terciles": [
+    3.17,
+    8.36
+   ],
+   "median_visible_ratio": 4.86
+  },
+  "twins": {
+   "n_images": 400,
+   "size_drawn": 0.0,
+   "size_visible": 61.0,
+   "size_visible_ci": [
+    56.1,
+    65.7
+   ],
+   "smaller_visible_in_front": 39.0,
+   "lower": 50.0,
+   "mean_visible_ratio_front_over_back": 1.1,
+   "mean_drawn_ratio_front_over_back": 0.77,
+   "drawn_and_lower": {
+    "agree_coverage": 50.0,
+    "agree_acc": 0.0,
+    "size_else_lower": 0.0,
+    "agree_else_coin": 25.0
+   },
+   "visible_and_lower": {
+    "agree_coverage": 51.5,
+    "agree_acc": 60.7,
+    "size_else_lower": 61.0,
+    "agree_else_coin": 55.5,
+    "logistic_cv_acc": 63.0
+   }
+  },
+  "cues": {
+   "n_images": 1600,
+   "size_drawn": 50.0,
+   "size_visible": 64.6,
+   "size_visible_ci": [
+    62.2,
+    66.9
+   ],
+   "smaller_visible_in_front": 35.4,
+   "lower": 50.0,
+   "mean_visible_ratio_front_over_back": 1.65,
+   "mean_drawn_ratio_front_over_back": 1.08,
+   "drawn_and_lower": {
+    "agree_coverage": 50.0,
+    "agree_acc": 50.0,
+    "size_else_lower": 50.0,
+    "agree_else_coin": 50.0
+   },
+   "visible_and_lower": {
+    "agree_coverage": 50.6,
+    "agree_acc": 64.4,
+    "size_else_lower": 64.6,
+    "agree_else_coin": 57.3,
+    "logistic_cv_acc": 64.4
+   }
+  },
+  "hard": {
+   "n_images": 288,
+   "size_drawn": 0.0,
+   "size_visible": 14.2,
+   "size_visible_ci": [
+    10.7,
+    18.7
+   ],
+   "smaller_visible_in_front": 85.8,
+   "lower": 50.0,
+   "mean_visible_ratio_front_over_back": 0.85,
+   "mean_drawn_ratio_front_over_back": 0.81,
+   "drawn_and_lower": {
+    "agree_coverage": 50.0,
+    "agree_acc": 0.0,
+    "size_else_lower": 0.0,
+    "agree_else_coin": 25.0
+   },
+   "visible_and_lower": {
+    "agree_coverage": 47.6,
+    "agree_acc": 12.4,
+    "size_else_lower": 14.2,
+    "agree_else_coin": 32.1,
+    "logistic_cv_acc": 86.5
+   },
+   "levels": {
+    "L3": 96,
+    "L3b": 96,
+    "L4": 96
+   },
+   "by_level": {
+    "L3": {
+     "size_visible": 18.8,
+     "lower": 50.0
+    },
+    "L3b": {
+     "size_visible": 15.6,
+     "lower": 50.0
+    },
+    "L4": {
+     "size_visible": 8.3,
+     "lower": 50.0
+    }
+   }
+  },
+  "syn_model": {
+   "qwen3b": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 82.2,
+      "ci": [
+       79.9,
+       84.3
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 82.0,
+      "ci": [
+       79.7,
+       84.1
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 57.0,
+      "ci": [
+       53.4,
+       60.6
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 75.108,
+      "ci": [
+       71.4,
+       78.8
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 88.29,
+      "ci": [
+       85.7,
+       90.9
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 99.0,
+     "acc_overlap431_two_order": {
+      "mean": 80.858,
+      "ci": [
+       78.4,
+       83.2
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 57.0,
+      "ci": [
+       54.6,
+       59.4
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 56.8,
+      "ci": [
+       54.4,
+       59.2
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 52.4,
+      "ci": [
+       50.0,
+       55.0
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 54.113,
+      "ci": [
+       50.6,
+       57.4
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 59.48,
+      "ci": [
+       55.9,
+       63.0
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.6,
+     "acc_overlap431_two_order": {
+      "mean": 56.845,
+      "ci": [
+       54.3,
+       59.4
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    }
+   },
+   "qwen7b": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 78.3,
+      "ci": [
+       75.1,
+       81.4
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 78.1,
+      "ci": [
+       75.1,
+       81.2
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 68.9,
+      "ci": [
+       65.3,
+       72.5
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 60.173,
+      "ci": [
+       55.0,
+       65.4
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 93.866,
+      "ci": [
+       91.6,
+       95.9
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 99.0,
+     "acc_overlap431_two_order": {
+      "mean": 79.35,
+      "ci": [
+       76.1,
+       82.5
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 69.1,
+      "ci": [
+       66.1,
+       72.1
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 69.3,
+      "ci": [
+       66.2,
+       72.2
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 60.5,
+      "ci": [
+       57.2,
+       63.8
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 6,
+      "n": 14,
+      "pct": 42.9,
+      "wilson": [
+       21.4,
+       67.4
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 58.874,
+      "ci": [
+       53.9,
+       63.6
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 77.881,
+      "ci": [
+       74.5,
+       81.2
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 99.1,
+     "acc_overlap431_two_order": {
+      "mean": 69.722,
+      "ci": [
+       66.4,
+       72.9
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 6,
+      "n": 14
+     }
+    }
+   },
+   "internvl3_8b": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 90.3,
+      "ci": [
+       88.1,
+       92.4
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 90.1,
+      "ci": [
+       87.8,
+       92.2
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 60.5,
+      "ci": [
+       56.3,
+       64.5
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 81.385,
+      "ci": [
+       77.1,
+       85.5
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 97.955,
+      "ci": [
+       96.7,
+       99.1
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 99.1,
+     "acc_overlap431_two_order": {
+      "mean": 91.067,
+      "ci": [
+       88.7,
+       93.4
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 64.5,
+      "ci": [
+       61.5,
+       67.5
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 63.9,
+      "ci": [
+       60.8,
+       66.9
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 54.5,
+      "ci": [
+       51.2,
+       57.5
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 10,
+      "n": 14,
+      "pct": 71.4,
+      "wilson": [
+       45.4,
+       88.3
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 60.606,
+      "ci": [
+       56.1,
+       64.7
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 67.844,
+      "ci": [
+       63.8,
+       71.6
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.4,
+     "acc_overlap431_two_order": {
+      "mean": 64.965,
+      "ci": [
+       61.8,
+       68.1
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 10,
+      "n": 14
+     }
+    }
+   },
+   "phi35v": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 65.0,
+      "ci": [
+       61.8,
+       68.1
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 65.0,
+      "ci": [
+       61.8,
+       68.1
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 52.6,
+      "ci": [
+       49.0,
+       56.1
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 7,
+      "n": 14,
+      "pct": 50.0,
+      "wilson": [
+       26.8,
+       73.2
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 61.039,
+      "ci": [
+       56.3,
+       65.8
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 68.401,
+      "ci": [
+       64.1,
+       72.5
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.9,
+     "acc_overlap431_two_order": {
+      "mean": 63.805,
+      "ci": [
+       60.4,
+       67.4
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 7,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 57.8,
+      "ci": [
+       54.8,
+       60.8
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 57.6,
+      "ci": [
+       54.7,
+       60.5
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 51.6,
+      "ci": [
+       48.5,
+       54.7
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 56.061,
+      "ci": [
+       51.5,
+       60.4
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 59.294,
+      "ci": [
+       55.0,
+       63.2
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.6,
+     "acc_overlap431_two_order": {
+      "mean": 57.077,
+      "ci": [
+       54.1,
+       60.2
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    }
+   },
+   "molmo7b": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 88.5,
+      "ci": [
+       86.5,
+       90.5
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 88.1,
+      "ci": [
+       86.0,
+       90.2
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 50.3,
+      "ci": [
+       46.3,
+       54.4
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 9,
+      "n": 14,
+      "pct": 64.3,
+      "wilson": [
+       38.8,
+       83.7
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 90.909,
+      "ci": [
+       88.1,
+       93.5
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 86.431,
+      "ci": [
+       83.5,
+       89.4
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 99.0,
+     "acc_overlap431_two_order": {
+      "mean": 90.719,
+      "ci": [
+       88.6,
+       92.7
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 9,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 73.3,
+      "ci": [
+       70.7,
+       75.8
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 73.1,
+      "ci": [
+       70.4,
+       75.7
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 52.7,
+      "ci": [
+       49.4,
+       56.1
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 71.861,
+      "ci": [
+       68.2,
+       75.8
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 74.535,
+      "ci": [
+       70.8,
+       78.1
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.9,
+     "acc_overlap431_two_order": {
+      "mean": 74.942,
+      "ci": [
+       72.3,
+       77.6
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    }
+   },
+   "qwen3vl_8b": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 77.9,
+      "ci": [
+       75.5,
+       80.2
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 77.1,
+      "ci": [
+       74.7,
+       79.6
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 57.9,
+      "ci": [
+       54.7,
+       61.2
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 11,
+      "n": 14,
+      "pct": 78.6,
+      "wilson": [
+       52.4,
+       92.4
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 71.645,
+      "ci": [
+       68.2,
+       75.1
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 83.271,
+      "ci": [
+       80.3,
+       86.1
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.6,
+     "acc_overlap431_two_order": {
+      "mean": 80.742,
+      "ci": [
+       78.2,
+       83.2
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 11,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 61.7,
+      "ci": [
+       59.1,
+       64.5
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 60.3,
+      "ci": [
+       57.5,
+       63.2
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 51.5,
+      "ci": [
+       48.4,
+       54.5
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 14,
+      "n": 14,
+      "pct": 100.0,
+      "wilson": [
+       78.5,
+       100.0
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 61.039,
+      "ci": [
+       56.7,
+       65.2
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 62.268,
+      "ci": [
+       58.2,
+       66.2
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 97.7,
+     "acc_overlap431_two_order": {
+      "mean": 62.529,
+      "ci": [
+       59.4,
+       65.8
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 14,
+      "n": 14
+     }
+    }
+   },
+   "internvl35_8b": {
+    "direct": {
+     "acc_two_order": {
+      "mean": 55.8,
+      "ci": [
+       52.8,
+       58.8
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 55.6,
+      "ci": [
+       52.6,
+       58.5
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 70.6,
+      "ci": [
+       68.3,
+       73.0
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 33.766,
+      "ci": [
+       30.1,
+       37.4
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 74.721,
+      "ci": [
+       71.6,
+       77.9
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.6,
+     "acc_overlap431_two_order": {
+      "mean": 55.22,
+      "ci": [
+       52.0,
+       58.7
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    },
+    "cot": {
+     "acc_two_order": {
+      "mean": 59.3,
+      "ci": [
+       56.4,
+       62.1
+      ],
+      "n": 1000
+     },
+     "agree_size_rule": {
+      "mean": 59.1,
+      "ci": [
+       56.2,
+       62.0
+      ],
+      "n": 1000
+     },
+     "agree_lower_rule": {
+      "mean": 63.1,
+      "ci": [
+       60.4,
+       65.9
+      ],
+      "n": 1000
+     },
+     "acc_where_size_wrong": {
+      "k": 8,
+      "n": 14,
+      "pct": 57.1,
+      "wilson": [
+       32.6,
+       78.6
+      ]
+     },
+     "acc_where_lower_wrong": {
+      "mean": 43.939,
+      "ci": [
+       39.8,
+       47.8
+      ],
+      "n": 462
+     },
+     "acc_where_lower_right": {
+      "mean": 72.491,
+      "ci": [
+       69.0,
+       75.7
+      ],
+      "n": 538
+     },
+     "share_correct_also_size_right": 98.7,
+     "acc_overlap431_two_order": {
+      "mean": 58.469,
+      "ci": [
+       55.3,
+       61.4
+      ],
+      "n": 862
+     },
+     "acc_where_size_wrong_overlap": {
+      "k": 8,
+      "n": 14
+     }
+    }
+   }
+  },
+  "occ_model": {
+   "qwen3b": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 51.5,
+       "ci": [
+        44.7,
+        57.9
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 98.0,
+       "ci": [
+        97.0,
+        98.9
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 52.0,
+       "ci": [
+        45.5,
+        58.5
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 52.5,
+       "ci": [
+        48.9,
+        56.2
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 68.5,
+       "ci": [
+        65.6,
+        71.4
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 50.25,
+       "ci": [
+        46.4,
+        54.0
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 52.438,
+       "ci": [
+        48.1,
+        57.1
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 96.188,
+       "ci": [
+        95.2,
+        97.1
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 51.562,
+       "ci": [
+        47.0,
+        56.0
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 53.0,
+       "ci": [
+        50.2,
+        55.8
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 69.375,
+       "ci": [
+        67.4,
+        71.5
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 51.875,
+       "ci": [
+        49.2,
+        54.5
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   },
+   "qwen7b": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 54.0,
+       "ci": [
+        47.5,
+        60.1
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 95.5,
+       "ci": [
+        93.6,
+        97.1
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 53.75,
+       "ci": [
+        47.4,
+        60.0
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 58.0,
+       "ci": [
+        54.1,
+        61.6
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 70.75,
+       "ci": [
+        67.9,
+        73.4
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 52.75,
+       "ci": [
+        48.6,
+        56.6
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 53.375,
+       "ci": [
+        49.2,
+        57.9
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 95.625,
+       "ci": [
+        94.4,
+        96.7
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 51.75,
+       "ci": [
+        47.2,
+        56.1
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 56.875,
+       "ci": [
+        54.3,
+        59.6
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 70.375,
+       "ci": [
+        68.4,
+        72.4
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 51.625,
+       "ci": [
+        48.8,
+        54.4
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   },
+   "internvl3_8b": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 63.375,
+       "ci": [
+        58.0,
+        68.4
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 84.125,
+       "ci": [
+        81.1,
+        86.9
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 55.625,
+       "ci": [
+        50.2,
+        60.8
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 67.25,
+       "ci": [
+        64.0,
+        70.5
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 59.75,
+       "ci": [
+        56.1,
+        63.5
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 54.25,
+       "ci": [
+        50.4,
+        58.2
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 63.688,
+       "ci": [
+        60.1,
+        67.4
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 84.938,
+       "ci": [
+        82.9,
+        86.9
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 55.812,
+       "ci": [
+        52.0,
+        59.7
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 68.438,
+       "ci": [
+        66.2,
+        70.6
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 58.562,
+       "ci": [
+        56.1,
+        61.3
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 57.938,
+       "ci": [
+        55.2,
+        60.6
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   },
+   "phi35v": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 63.375,
+       "ci": [
+        60.2,
+        66.4
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 64.875,
+       "ci": [
+        61.9,
+        67.8
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 52.375,
+       "ci": [
+        48.6,
+        56.0
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 58.625,
+       "ci": [
+        55.5,
+        61.8
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 56.875,
+       "ci": [
+        53.6,
+        60.0
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 52.875,
+       "ci": [
+        49.5,
+        56.2
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 59.5,
+       "ci": [
+        57.3,
+        61.8
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 62.625,
+       "ci": [
+        60.6,
+        64.8
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 47.625,
+       "ci": [
+        45.2,
+        50.1
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 57.25,
+       "ci": [
+        55.1,
+        59.6
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 55.25,
+       "ci": [
+        53.1,
+        57.4
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 52.75,
+       "ci": [
+        50.4,
+        55.2
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   },
+   "molmo7b": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 88.125,
+       "ci": [
+        86.0,
+        90.2
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 58.375,
+       "ci": [
+        52.8,
+        63.9
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 58.375,
+       "ci": [
+        52.9,
+        63.9
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 74.125,
+       "ci": [
+        71.4,
+        76.8
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 50.375,
+       "ci": [
+        46.1,
+        54.4
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 55.125,
+       "ci": [
+        51.1,
+        59.2
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 88.188,
+       "ci": [
+        86.8,
+        89.7
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 57.188,
+       "ci": [
+        53.4,
+        61.1
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 61.062,
+       "ci": [
+        57.1,
+        65.1
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 75.062,
+       "ci": [
+        73.1,
+        77.2
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 54.062,
+       "ci": [
+        50.9,
+        57.2
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 58.188,
+       "ci": [
+        55.2,
+        61.2
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   },
+   "qwen3vl_8b": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 81.125,
+       "ci": [
+        78.4,
+        83.9
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 61.375,
+       "ci": [
+        56.4,
+        66.2
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 56.875,
+       "ci": [
+        51.9,
+        61.8
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 79.125,
+       "ci": [
+        76.2,
+        82.1
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 43.875,
+       "ci": [
+        39.0,
+        48.8
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 56.125,
+       "ci": [
+        51.5,
+        60.9
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 78.875,
+       "ci": [
+        77.0,
+        80.8
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 62.25,
+       "ci": [
+        59.4,
+        65.4
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 56.0,
+       "ci": [
+        52.6,
+        59.4
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 77.312,
+       "ci": [
+        75.0,
+        79.4
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 41.438,
+       "ci": [
+        38.2,
+        44.8
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 52.938,
+       "ci": [
+        49.5,
+        56.4
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   },
+   "qwen3vl_8b_think": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 87.125,
+       "ci": [
+        84.9,
+        89.2
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 59.625,
+       "ci": [
+        54.1,
+        64.8
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 59.375,
+       "ci": [
+        54.0,
+        64.5
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 88.625,
+       "ci": [
+        86.1,
+        90.9
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 48.625,
+       "ci": [
+        42.8,
+        54.2
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 58.875,
+       "ci": [
+        53.5,
+        64.4
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    }
+   },
+   "internvl35_8b": {
+    "twins": {
+     "direct": {
+      "acc": {
+       "mean": 56.625,
+       "ci": [
+        50.6,
+        62.5
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 92.625,
+       "ci": [
+        90.5,
+        94.5
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 51.625,
+       "ci": [
+        45.2,
+        57.5
+       ],
+       "n": 800
+      },
+      "n": 800
+     },
+     "cot": {
+      "acc": {
+       "mean": 61.25,
+       "ci": [
+        56.5,
+        65.8
+       ],
+       "n": 800
+      },
+      "agree_lower": {
+       "mean": 78.5,
+       "ci": [
+        75.2,
+        81.6
+       ],
+       "n": 800
+      },
+      "agree_visible_larger": {
+       "mean": 53.0,
+       "ci": [
+        48.0,
+        57.6
+       ],
+       "n": 800
+      },
+      "n": 800
+     }
+    },
+    "cues": {
+     "direct": {
+      "acc": {
+       "mean": 55.562,
+       "ci": [
+        51.3,
+        60.1
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 93.812,
+       "ci": [
+        92.5,
+        95.1
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 51.062,
+       "ci": [
+        46.8,
+        55.3
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     },
+     "cot": {
+      "acc": {
+       "mean": 60.125,
+       "ci": [
+        56.7,
+        63.9
+       ],
+       "n": 1600
+      },
+      "agree_lower": {
+       "mean": 81.625,
+       "ci": [
+        79.6,
+        83.8
+       ],
+       "n": 1600
+      },
+      "agree_visible_larger": {
+       "mean": 50.5,
+       "ci": [
+        46.6,
+        54.3
+       ],
+       "n": 1600
+      },
+      "n": 1600
+     }
+    }
+   }
+  }
+ },
+ "comp": {
+  "rule": "occlusion-competent := (i) Direct accuracy on the size- and vertical-balanced cue-factorial set has 95% CI lower bound > 70% AND (ii) the Direct probit-GLM occlusion weight on that set has CI lower bound > 0. Models without a cue-set run (Qwen3-VL-8B-Thinking) are 'not evaluable' under the rule. Secondary, reported only: Direct twin pair-matched d' CI lower bound > 1 and twin accuracy CI lower bound > 70%.",
+  "models": {
+   "qwen3b": {
+    "cue_direct_acc": {
+     "mean": 52.438,
+     "ci": [
+      49.2,
+      55.8
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 53.0,
+     "ci": [
+      50.4,
+      55.5
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": 0.562,
+     "ci": [
+      -2.2,
+      3.4
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 0.69,
+     "ci": [
+      0.43,
+      0.93
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 4.08,
+     "ci": [
+      3.83,
+      4.58
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -0.51,
+     "ci": [
+      -0.81,
+      -0.24
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -2.99,
+     "ci": [
+      -3.47,
+      -2.69
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": -0.033,
+     "ci": [
+      -0.069,
+      0.004
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 0.04,
+     "ci": [
+      -0.13,
+      0.2
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": 0.08,
+     "ci": [
+      -0.06,
+      0.21
+     ]
+    },
+    "twin_pooled_d_direct": 0.08,
+    "twin_pooled_d_delta": {
+     "d": 0.05,
+     "ci": [
+      -0.2,
+      0.31
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 51.5,
+     "ci": [
+      44.7,
+      57.9
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": 1.0,
+     "ci": [
+      -4.0,
+      6.1
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 2.03,
+    "syn_dpair_delta": {
+     "d": -1.505,
+     "ci": [
+      -1.987,
+      -1.156
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": -1.772,
+     "ci": [
+      -2.125,
+      -1.487
+     ]
+    },
+    "syn_acc_delta": {
+     "d": -27.4,
+     "ci": [
+      -31.8,
+      -22.6
+     ],
+     "direct": 84.8
+    },
+    "commit_D+C-": {
+     "k": 37,
+     "n_judgeable": 37,
+     "n": 40,
+     "pct": 100.0
+    },
+    "commit_D+C+": {
+     "k": 2,
+     "n_judgeable": 26,
+     "n": 40,
+     "pct": 7.7
+    },
+    "DCm_commit": {
+     "all": [
+      100.0,
+      37
+     ],
+     "direct_pair_correct": [
+      100.0,
+      33
+     ],
+     "counts_all": [
+      37,
+      37
+     ],
+     "counts_pc": [
+      33,
+      33
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      6.7,
+      30
+     ],
+     "direct_pair_correct": [
+      8.7,
+      23
+     ],
+     "counts_all": [
+      2,
+      30
+     ],
+     "counts_pc": [
+      2,
+      23
+     ]
+    },
+    "claim_edit_all": {
+     "n_DCm": 218,
+     "DCm_correct": 93.1,
+     "DCm_neutral": 37.2,
+     "DCm_correct_minus_neutral": [
+      56.0,
+      49.1,
+      62.8
+     ],
+     "n_DCp": 389,
+     "DCp_wrong": 14.4,
+     "DCp_neutral": 87.7,
+     "DCp_wrong_minus_neutral": [
+      -73.3,
+      -78.1,
+      -68.4
+     ]
+    },
+    "claim_edit_syn": {
+     "n_DCm": 144,
+     "DCm_correct": 94.4,
+     "DCm_neutral": 33.3,
+     "DCm_correct_minus_neutral": [
+      61.1,
+      51.4,
+      69.4
+     ],
+     "n_DCp": 258,
+     "DCp_wrong": 9.7,
+     "DCp_neutral": 92.2,
+     "DCp_wrong_minus_neutral": [
+      -82.6,
+      -87.6,
+      -77.1
+     ]
+    },
+    "claim_edit_occ": {
+     "n_DCm": 74,
+     "DCm_correct": 90.5,
+     "DCm_neutral": 44.6,
+     "DCm_correct_minus_neutral": [
+      45.9,
+      33.8,
+      58.3
+     ],
+     "n_DCp": 131,
+     "DCp_wrong": 23.7,
+     "DCp_neutral": 78.6,
+     "DCp_wrong_minus_neutral": [
+      -55.0,
+      -64.2,
+      -45.4
+     ]
+    },
+    "locus_cues": {
+     "direct": 52.4,
+     "first_claim_correct": 54.5,
+     "cot": 53.0,
+     "claim_stage_loss": -1.6,
+     "post_claim_loss": 1.4,
+     "classification": "Direct near chance: no loss to localize"
+    },
+    "locus_twins": {
+     "direct": 51.5,
+     "first_claim_correct": 53.5,
+     "cot": 52.0,
+     "claim_stage_loss": -1.9,
+     "post_claim_loss": 1.6,
+     "classification": "Direct near chance: no loss to localize"
+    },
+    "competent": false,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": false,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": false,
+     "twin_acc_ci_lo_gt70": false
+    }
+   },
+   "qwen7b": {
+    "cue_direct_acc": {
+     "mean": 53.375,
+     "ci": [
+      50.2,
+      56.6
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 56.875,
+     "ci": [
+      54.5,
+      59.2
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": 3.5,
+     "ci": [
+      0.9,
+      6.0
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 0.91,
+     "ci": [
+      0.66,
+      1.3
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 3.86,
+     "ci": [
+      3.65,
+      4.27
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -0.34,
+     "ci": [
+      -0.76,
+      -0.07
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -2.19,
+     "ci": [
+      -2.6,
+      -1.94
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": -0.036,
+     "ci": [
+      -0.055,
+      -0.017
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 0.1,
+     "ci": [
+      -0.07,
+      0.27
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": 0.32,
+     "ci": [
+      0.18,
+      0.48
+     ]
+    },
+    "twin_pooled_d_direct": 0.2,
+    "twin_pooled_d_delta": {
+     "d": 0.21,
+     "ci": [
+      0.01,
+      0.43
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 54.0,
+     "ci": [
+      47.5,
+      60.1
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": 4.0,
+     "ci": [
+      -0.4,
+      8.1
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 0.997,
+    "syn_dpair_delta": {
+     "d": -0.16,
+     "ci": [
+      -0.319,
+      -0.008
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": -0.581,
+     "ci": [
+      -0.792,
+      -0.384
+     ]
+    },
+    "syn_acc_delta": {
+     "d": -7.6,
+     "ci": [
+      -11.8,
+      -3.2
+     ],
+     "direct": 77.6
+    },
+    "commit_D+C-": {
+     "k": 20,
+     "n_judgeable": 35,
+     "n": 40,
+     "pct": 57.1
+    },
+    "commit_D+C+": {
+     "k": 2,
+     "n_judgeable": 23,
+     "n": 40,
+     "pct": 8.7
+    },
+    "DCm_commit": {
+     "all": [
+      57.1,
+      35
+     ],
+     "direct_pair_correct": [
+      54.8,
+      31
+     ],
+     "counts_all": [
+      20,
+      35
+     ],
+     "counts_pc": [
+      17,
+      31
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      9.4,
+      32
+     ],
+     "direct_pair_correct": [
+      6.7,
+      30
+     ],
+     "counts_all": [
+      3,
+      32
+     ],
+     "counts_pc": [
+      2,
+      30
+     ]
+    },
+    "claim_edit_all": {
+     "n_DCm": 112,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 58.0,
+     "DCm_correct_minus_neutral": [
+      42.0,
+      33.0,
+      51.8
+     ],
+     "n_DCp": 470,
+     "DCp_wrong": 23.0,
+     "DCp_neutral": 87.9,
+     "DCp_wrong_minus_neutral": [
+      -64.9,
+      -69.4,
+      -60.6
+     ]
+    },
+    "claim_edit_syn": {
+     "n_DCm": 78,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 57.7,
+     "DCm_correct_minus_neutral": [
+      42.3,
+      30.8,
+      52.6
+     ],
+     "n_DCp": 298,
+     "DCp_wrong": 16.4,
+     "DCp_neutral": 84.2,
+     "DCp_wrong_minus_neutral": [
+      -67.8,
+      -73.2,
+      -61.7
+     ]
+    },
+    "claim_edit_occ": {
+     "n_DCm": 34,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 58.8,
+     "DCm_correct_minus_neutral": [
+      41.2,
+      23.5,
+      58.8
+     ],
+     "n_DCp": 172,
+     "DCp_wrong": 34.3,
+     "DCp_neutral": 94.2,
+     "DCp_wrong_minus_neutral": [
+      -59.9,
+      -66.5,
+      -53.3
+     ]
+    },
+    "locus_cues": {
+     "direct": 53.4,
+     "first_claim_correct": 53.4,
+     "cot": 56.9,
+     "claim_stage_loss": 0.4,
+     "post_claim_loss": -4.0,
+     "classification": "Direct near chance: no loss to localize"
+    },
+    "locus_twins": {
+     "direct": 54.0,
+     "first_claim_correct": 58.0,
+     "cot": 57.6,
+     "claim_stage_loss": -4.5,
+     "post_claim_loss": 0.6,
+     "classification": "Direct near chance: no loss to localize"
+    },
+    "competent": false,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": false,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": false,
+     "twin_acc_ci_lo_gt70": false
+    }
+   },
+   "internvl3_8b": {
+    "cue_direct_acc": {
+     "mean": 63.688,
+     "ci": [
+      60.8,
+      66.5
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 68.438,
+     "ci": [
+      66.6,
+      70.5
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": 4.75,
+     "ci": [
+      1.8,
+      7.6
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 1.81,
+     "ci": [
+      1.61,
+      2.14
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 3.05,
+     "ci": [
+      2.82,
+      3.36
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -0.56,
+     "ci": [
+      -0.92,
+      -0.32
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -2.44,
+     "ci": [
+      -2.81,
+      -2.21
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": 0.037,
+     "ci": [
+      0.014,
+      0.056
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 0.44,
+     "ci": [
+      0.27,
+      0.63
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": 0.65,
+     "ci": [
+      0.41,
+      0.93
+     ]
+    },
+    "twin_pooled_d_direct": 0.7,
+    "twin_pooled_d_delta": {
+     "d": 0.43,
+     "ci": [
+      0.15,
+      0.7
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 63.375,
+     "ci": [
+      58.0,
+      68.4
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": 3.875,
+     "ci": [
+      -0.9,
+      8.8
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 1.637,
+    "syn_dpair_delta": {
+     "d": -0.938,
+     "ci": [
+      -1.233,
+      -0.673
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": -1.834,
+     "ci": [
+      -2.146,
+      -1.527
+     ]
+    },
+    "syn_acc_delta": {
+     "d": -24.2,
+     "ci": [
+      -29.2,
+      -19.4
+     ],
+     "direct": 90.2
+    },
+    "commit_D+C-": {
+     "k": 33,
+     "n_judgeable": 34,
+     "n": 40,
+     "pct": 97.1
+    },
+    "commit_D+C+": {
+     "k": 7,
+     "n_judgeable": 27,
+     "n": 40,
+     "pct": 25.9
+    },
+    "DCm_commit": {
+     "all": [
+      97.1,
+      34
+     ],
+     "direct_pair_correct": [
+      96.8,
+      31
+     ],
+     "counts_all": [
+      33,
+      34
+     ],
+     "counts_pc": [
+      30,
+      31
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      15.2,
+      33
+     ],
+     "direct_pair_correct": [
+      15.6,
+      32
+     ],
+     "counts_all": [
+      5,
+      33
+     ],
+     "counts_pc": [
+      5,
+      32
+     ]
+    },
+    "claim_edit_all": {
+     "n_DCm": 194,
+     "DCm_correct": 99.5,
+     "DCm_neutral": 38.1,
+     "DCm_correct_minus_neutral": [
+      61.3,
+      54.4,
+      67.9
+     ],
+     "n_DCp": 484,
+     "DCp_wrong": 25.0,
+     "DCp_neutral": 81.0,
+     "DCp_wrong_minus_neutral": [
+      -56.0,
+      -60.6,
+      -51.5
+     ]
+    },
+    "claim_edit_syn": {
+     "n_DCm": 144,
+     "DCm_correct": 99.3,
+     "DCm_neutral": 33.3,
+     "DCm_correct_minus_neutral": [
+      66.0,
+      58.3,
+      73.6
+     ],
+     "n_DCp": 286,
+     "DCp_wrong": 12.2,
+     "DCp_neutral": 78.3,
+     "DCp_wrong_minus_neutral": [
+      -66.1,
+      -71.3,
+      -60.1
+     ]
+    },
+    "claim_edit_occ": {
+     "n_DCm": 50,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 52.0,
+     "DCm_correct_minus_neutral": [
+      48.0,
+      34.7,
+      62.0
+     ],
+     "n_DCp": 198,
+     "DCp_wrong": 43.4,
+     "DCp_neutral": 84.8,
+     "DCp_wrong_minus_neutral": [
+      -41.4,
+      -48.4,
+      -34.1
+     ]
+    },
+    "locus_cues": {
+     "direct": 63.7,
+     "first_claim_correct": 69.0,
+     "cot": 68.4,
+     "claim_stage_loss": -5.0,
+     "post_claim_loss": 1.2,
+     "classification": "little loss on this set"
+    },
+    "locus_twins": {
+     "direct": 63.4,
+     "first_claim_correct": 68.2,
+     "cot": 66.6,
+     "claim_stage_loss": -3.9,
+     "post_claim_loss": 2.6,
+     "classification": "little loss on this set"
+    },
+    "hard": {
+     "direct_acc": 49.1,
+     "direct_acc_ci": [
+      42.7,
+      55.6
+     ],
+     "cot_acc": 48.5,
+     "direct_d": -0.04,
+     "direct_d_ci": [
+      -0.37,
+      0.28
+     ],
+     "d_delta": [
+      -0.03,
+      -0.3,
+      0.22
+     ]
+    },
+    "competent": false,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": false,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": false,
+     "twin_acc_ci_lo_gt70": false
+    }
+   },
+   "phi35v": {
+    "cue_direct_acc": {
+     "mean": 59.5,
+     "ci": [
+      57.5,
+      61.6
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 57.25,
+     "ci": [
+      55.2,
+      59.3
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": -2.25,
+     "ci": [
+      -4.9,
+      0.5
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 0.72,
+     "ci": [
+      0.6,
+      0.87
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 0.91,
+     "ci": [
+      0.76,
+      1.07
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -0.31,
+     "ci": [
+      -0.49,
+      -0.15
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -0.62,
+     "ci": [
+      -0.79,
+      -0.45
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": -0.071,
+     "ci": [
+      -0.099,
+      -0.036
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 0.92,
+     "ci": [
+      0.69,
+      1.18
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": -0.43,
+     "ci": [
+      -0.7,
+      -0.2
+     ]
+    },
+    "twin_pooled_d_direct": 0.69,
+    "twin_pooled_d_delta": {
+     "d": -0.23,
+     "ci": [
+      -0.43,
+      -0.05
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 63.375,
+     "ci": [
+      60.2,
+      66.4
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": -4.75,
+     "ci": [
+      -8.3,
+      -1.4
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 0.623,
+    "syn_dpair_delta": {
+     "d": -0.228,
+     "ci": [
+      -0.412,
+      -0.048
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": -0.396,
+     "ci": [
+      -0.588,
+      -0.207
+     ]
+    },
+    "syn_acc_delta": {
+     "d": -4.2,
+     "ci": [
+      -9.4,
+      1.0
+     ],
+     "direct": 63.4
+    },
+    "commit_D+C-": {
+     "k": 36,
+     "n_judgeable": 36,
+     "n": 40,
+     "pct": 100.0
+    },
+    "commit_D+C+": {
+     "k": 8,
+     "n_judgeable": 33,
+     "n": 40,
+     "pct": 24.2
+    },
+    "DCm_commit": {
+     "all": [
+      100.0,
+      36
+     ],
+     "direct_pair_correct": [
+      100.0,
+      26
+     ],
+     "counts_all": [
+      36,
+      36
+     ],
+     "counts_pc": [
+      26,
+      26
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      16.7,
+      36
+     ],
+     "direct_pair_correct": [
+      24.0,
+      25
+     ],
+     "counts_all": [
+      6,
+      36
+     ],
+     "counts_pc": [
+      6,
+      25
+     ]
+    },
+    "claim_edit_all": {
+     "n_DCm": 130,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 56.2,
+     "DCm_correct_minus_neutral": [
+      43.8,
+      35.6,
+      51.9
+     ],
+     "n_DCp": 259,
+     "DCp_wrong": 0.0,
+     "DCp_neutral": 81.9,
+     "DCp_wrong_minus_neutral": [
+      -81.9,
+      -86.5,
+      -77.0
+     ]
+    },
+    "claim_edit_syn": {
+     "n_DCm": 94,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 61.7,
+     "DCm_correct_minus_neutral": [
+      38.3,
+      28.7,
+      47.9
+     ],
+     "n_DCp": 129,
+     "DCp_wrong": 0.0,
+     "DCp_neutral": 78.3,
+     "DCp_wrong_minus_neutral": [
+      -78.3,
+      -85.3,
+      -70.5
+     ]
+    },
+    "claim_edit_occ": {
+     "n_DCm": 36,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 41.7,
+     "DCm_correct_minus_neutral": [
+      58.3,
+      42.9,
+      73.5
+     ],
+     "n_DCp": 130,
+     "DCp_wrong": 0.0,
+     "DCp_neutral": 85.4,
+     "DCp_wrong_minus_neutral": [
+      -85.4,
+      -91.3,
+      -78.9
+     ]
+    },
+    "locus_cues": {
+     "direct": 59.5,
+     "first_claim_correct": 66.3,
+     "cot": 57.2,
+     "claim_stage_loss": -6.2,
+     "post_claim_loss": 5.7,
+     "classification": "loss after the first claim (later text or readout)"
+    },
+    "locus_twins": {
+     "direct": 63.4,
+     "first_claim_correct": 69.0,
+     "cot": 58.6,
+     "claim_stage_loss": -4.7,
+     "post_claim_loss": 7.3,
+     "classification": "loss after the first claim (later text or readout)"
+    },
+    "competent": false,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": false,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": false,
+     "twin_acc_ci_lo_gt70": false
+    }
+   },
+   "molmo7b": {
+    "cue_direct_acc": {
+     "mean": 88.188,
+     "ci": [
+      86.6,
+      89.7
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 75.062,
+     "ci": [
+      73.1,
+      77.1
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": -13.125,
+     "ci": [
+      -15.3,
+      -10.8
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 2.72,
+     "ci": [
+      2.56,
+      2.93
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 0.85,
+     "ci": [
+      0.68,
+      1.02
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -1.18,
+     "ci": [
+      -1.39,
+      -1.01
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -0.55,
+     "ci": [
+      -0.72,
+      -0.33
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": -0.166,
+     "ci": [
+      -0.19,
+      -0.149
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 2.49,
+     "ci": [
+      2.08,
+      3.15
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": -0.88,
+     "ci": [
+      -1.66,
+      -0.33
+     ]
+    },
+    "twin_pooled_d_direct": 2.41,
+    "twin_pooled_d_delta": {
+     "d": -0.94,
+     "ci": [
+      -1.23,
+      -0.68
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 88.125,
+     "ci": [
+      86.0,
+      90.2
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": -14.0,
+     "ci": [
+      -17.2,
+      -10.9
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 2.033,
+    "syn_dpair_delta": {
+     "d": -0.73,
+     "ci": [
+      -1.137,
+      -0.413
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": -1.191,
+     "ci": [
+      -1.453,
+      -0.939
+     ]
+    },
+    "syn_acc_delta": {
+     "d": -14.0,
+     "ci": [
+      -18.6,
+      -9.6
+     ],
+     "direct": 89.6
+    },
+    "commit_D+C-": {
+     "k": 24,
+     "n_judgeable": 31,
+     "n": 40,
+     "pct": 77.4
+    },
+    "commit_D+C+": {
+     "k": 1,
+     "n_judgeable": 21,
+     "n": 40,
+     "pct": 4.8
+    },
+    "DCm_commit": {
+     "all": [
+      77.4,
+      31
+     ],
+     "direct_pair_correct": [
+      73.1,
+      26
+     ],
+     "counts_all": [
+      24,
+      31
+     ],
+     "counts_pc": [
+      19,
+      26
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      14.7,
+      34
+     ],
+     "direct_pair_correct": [
+      16.1,
+      31
+     ],
+     "counts_all": [
+      5,
+      34
+     ],
+     "counts_pc": [
+      5,
+      31
+     ]
+    },
+    "claim_edit_all": {
+     "n_DCm": 175,
+     "DCm_correct": 68.6,
+     "DCm_neutral": 56.0,
+     "DCm_correct_minus_neutral": [
+      12.6,
+      4.0,
+      21.5
+     ],
+     "n_DCp": 607,
+     "DCp_wrong": 18.6,
+     "DCp_neutral": 81.9,
+     "DCp_wrong_minus_neutral": [
+      -63.3,
+      -67.3,
+      -59.1
+     ]
+    },
+    "claim_edit_syn": {
+     "n_DCm": 94,
+     "DCm_correct": 72.3,
+     "DCm_neutral": 52.1,
+     "DCm_correct_minus_neutral": [
+      20.2,
+      8.5,
+      30.9
+     ],
+     "n_DCp": 324,
+     "DCp_wrong": 12.7,
+     "DCp_neutral": 85.8,
+     "DCp_wrong_minus_neutral": [
+      -73.1,
+      -78.4,
+      -68.2
+     ]
+    },
+    "claim_edit_occ": {
+     "n_DCm": 81,
+     "DCm_correct": 64.2,
+     "DCm_neutral": 60.5,
+     "DCm_correct_minus_neutral": [
+      3.7,
+      -10.5,
+      17.4
+     ],
+     "n_DCp": 283,
+     "DCp_wrong": 25.4,
+     "DCp_neutral": 77.4,
+     "DCp_wrong_minus_neutral": [
+      -51.9,
+      -58.8,
+      -45.4
+     ]
+    },
+    "locus_cues": {
+     "direct": 88.2,
+     "first_claim_correct": 84.2,
+     "cot": 75.1,
+     "claim_stage_loss": 4.2,
+     "post_claim_loss": 9.2,
+     "classification": "loss both at the first claim and after it"
+    },
+    "locus_twins": {
+     "direct": 88.2,
+     "first_claim_correct": 83.7,
+     "cot": 73.6,
+     "claim_stage_loss": 4.7,
+     "post_claim_loss": 10.0,
+     "classification": "loss both at the first claim and after it"
+    },
+    "hard": {
+     "direct_acc": 55.2,
+     "direct_acc_ci": [
+      52.8,
+      57.8
+     ],
+     "cot_acc": 50.9,
+     "direct_d": 0.26,
+     "direct_d_ci": [
+      0.14,
+      0.39
+     ],
+     "d_delta": [
+      -0.22,
+      -0.4,
+      -0.04
+     ]
+    },
+    "competent": true,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": true,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": true,
+     "twin_acc_ci_lo_gt70": true
+    }
+   },
+   "qwen3vl_8b": {
+    "cue_direct_acc": {
+     "mean": 78.875,
+     "ci": [
+      77.0,
+      80.8
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 77.312,
+     "ci": [
+      75.2,
+      79.2
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": -1.562,
+     "ci": [
+      -4.4,
+      1.1
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 2.79,
+     "ci": [
+      2.53,
+      3.11
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 1.49,
+     "ci": [
+      1.31,
+      1.68
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -1.01,
+     "ci": [
+      -1.36,
+      -0.7
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -2.13,
+     "ci": [
+      -2.38,
+      -1.91
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": -0.099,
+     "ci": [
+      -0.127,
+      -0.074
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 1.88,
+     "ci": [
+      1.59,
+      2.31
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": 0.02,
+     "ci": [
+      -0.54,
+      0.74
+     ]
+    },
+    "twin_pooled_d_direct": 2.25,
+    "twin_pooled_d_delta": {
+     "d": -0.46,
+     "ci": [
+      -0.87,
+      -0.08
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 81.125,
+     "ci": [
+      78.4,
+      83.9
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": -2.0,
+     "ci": [
+      -6.0,
+      2.1
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 1.949,
+    "syn_dpair_delta": {
+     "d": -1.316,
+     "ci": [
+      -1.772,
+      -0.982
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": -1.184,
+     "ci": [
+      -1.408,
+      -0.974
+     ]
+    },
+    "syn_acc_delta": {
+     "d": -17.0,
+     "ci": [
+      -21.2,
+      -12.4
+     ],
+     "direct": 77.8
+    },
+    "commit_D+C-": {
+     "k": 26,
+     "n_judgeable": 27,
+     "n": 40,
+     "pct": 96.3
+    },
+    "commit_D+C+": {
+     "k": 2,
+     "n_judgeable": 25,
+     "n": 40,
+     "pct": 8.0
+    },
+    "DCm_commit": {
+     "all": [
+      96.3,
+      27
+     ],
+     "direct_pair_correct": [
+      95.0,
+      20
+     ],
+     "counts_all": [
+      26,
+      27
+     ],
+     "counts_pc": [
+      19,
+      20
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      3.6,
+      28
+     ],
+     "direct_pair_correct": [
+      5.3,
+      19
+     ],
+     "counts_all": [
+      1,
+      28
+     ],
+     "counts_pc": [
+      1,
+      19
+     ]
+    },
+    "claim_edit_all": {
+     "n_DCm": 183,
+     "DCm_correct": 97.8,
+     "DCm_neutral": 30.1,
+     "DCm_correct_minus_neutral": [
+      67.8,
+      60.7,
+      74.6
+     ],
+     "n_DCp": 564,
+     "DCp_wrong": 6.6,
+     "DCp_neutral": 91.1,
+     "DCp_wrong_minus_neutral": [
+      -84.6,
+      -87.4,
+      -81.6
+     ]
+    },
+    "claim_edit_syn": {
+     "n_DCm": 115,
+     "DCm_correct": 96.5,
+     "DCm_neutral": 33.9,
+     "DCm_correct_minus_neutral": [
+      62.6,
+      53.9,
+      71.3
+     ],
+     "n_DCp": 268,
+     "DCp_wrong": 4.9,
+     "DCp_neutral": 89.6,
+     "DCp_wrong_minus_neutral": [
+      -84.7,
+      -88.8,
+      -80.2
+     ]
+    },
+    "claim_edit_occ": {
+     "n_DCm": 68,
+     "DCm_correct": 100.0,
+     "DCm_neutral": 23.5,
+     "DCm_correct_minus_neutral": [
+      76.5,
+      66.1,
+      85.5
+     ],
+     "n_DCp": 296,
+     "DCp_wrong": 8.1,
+     "DCp_neutral": 92.6,
+     "DCp_wrong_minus_neutral": [
+      -84.5,
+      -88.4,
+      -80.4
+     ]
+    },
+    "locus_cues": {
+     "direct": 78.9,
+     "first_claim_correct": 78.2,
+     "cot": 77.3,
+     "claim_stage_loss": 0.7,
+     "post_claim_loss": 0.7,
+     "classification": "little loss on this set"
+    },
+    "locus_twins": {
+     "direct": 81.1,
+     "first_claim_correct": 78.8,
+     "cot": 78.6,
+     "claim_stage_loss": 2.3,
+     "post_claim_loss": -0.1,
+     "classification": "little loss on this set"
+    },
+    "hard": {
+     "direct_acc": 54.9,
+     "direct_acc_ci": [
+      50.9,
+      59.2
+     ],
+     "cot_acc": 63.5,
+     "direct_d": 0.32,
+     "direct_d_ci": [
+      0.06,
+      0.62
+     ],
+     "d_delta": [
+      0.54,
+      0.13,
+      0.96
+     ]
+    },
+    "competent": true,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": true,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": true,
+     "twin_acc_ci_lo_gt70": true
+    }
+   },
+   "qwen3vl_8b_think": {
+    "twin_dpair_direct": {
+     "d": 3.75,
+     "ci": [
+      3.72,
+      3.79
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": -1.38,
+     "ci": [
+      -1.77,
+      -0.61
+     ]
+    },
+    "twin_pooled_d_direct": 3.05,
+    "twin_pooled_d_delta": {
+     "d": -0.65,
+     "ci": [
+      -1.25,
+      -0.25
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 87.125,
+     "ci": [
+      84.9,
+      89.2
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": 1.5,
+     "ci": [
+      -1.4,
+      4.4
+     ],
+     "n": 800
+    },
+    "syn_acc_delta": {
+     "d": -12.4,
+     "ci": [
+      -16.2,
+      -8.8
+     ],
+     "direct": 89.0
+    },
+    "hard": {
+     "direct_acc": 58.5,
+     "direct_acc_ci": [
+      53.6,
+      63.2
+     ],
+     "cot_acc": 63.4,
+     "direct_d": 0.44,
+     "direct_d_ci": [
+      0.19,
+      0.7
+     ],
+     "d_delta": [
+      0.24,
+      -0.12,
+      0.62
+     ]
+    },
+    "competent": null,
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": true,
+     "twin_acc_ci_lo_gt70": true
+    }
+   },
+   "internvl35_8b": {
+    "cue_direct_acc": {
+     "mean": 55.562,
+     "ci": [
+      52.5,
+      58.8
+     ],
+     "n": 1600
+    },
+    "cue_cot_acc": {
+     "mean": 60.125,
+     "ci": [
+      57.3,
+      62.9
+     ],
+     "n": 1600
+    },
+    "cue_cot_minus_direct": {
+     "mean": 4.562,
+     "ci": [
+      2.6,
+      6.6
+     ],
+     "n": 1600
+    },
+    "cue_glm_occl_direct": {
+     "d": 1.49,
+     "ci": [
+      1.2,
+      1.97
+     ]
+    },
+    "cue_glm_vert_direct": {
+     "d": 4.35,
+     "ci": [
+      4.06,
+      5.01
+     ]
+    },
+    "cue_glm_occl_delta": {
+     "d": -0.6,
+     "ci": [
+      -1.07,
+      -0.32
+     ]
+    },
+    "cue_glm_vert_delta": {
+     "d": -2.19,
+     "ci": [
+      -2.81,
+      -1.89
+     ]
+    },
+    "cue_auc_delta": {
+     "diff": 0.017,
+     "ci": [
+      0.001,
+      0.036
+     ]
+    },
+    "twin_dpair_direct": {
+     "d": 0.18,
+     "ci": [
+      0.01,
+      0.36
+     ]
+    },
+    "twin_dpair_delta": {
+     "d": 0.23,
+     "ci": [
+      0.13,
+      0.34
+     ]
+    },
+    "twin_pooled_d_direct": 0.34,
+    "twin_pooled_d_delta": {
+     "d": 0.25,
+     "ci": [
+      0.09,
+      0.41
+     ]
+    },
+    "twin_direct_acc": {
+     "mean": 56.625,
+     "ci": [
+      50.6,
+      62.5
+     ],
+     "n": 800
+    },
+    "twin_cot_minus_direct": {
+     "mean": 4.625,
+     "ci": [
+      1.5,
+      7.8
+     ],
+     "n": 800
+    },
+    "syn_dpair_direct": 0.288,
+    "syn_dpair_delta": {
+     "d": 0.201,
+     "ci": [
+      0.046,
+      0.36
+     ]
+    },
+    "syn_dpooled_delta": {
+     "d": 0.237,
+     "ci": [
+      0.058,
+      0.41
+     ]
+    },
+    "syn_acc_delta": {
+     "d": 4.8,
+     "ci": [
+      1.0,
+      8.8
+     ],
+     "direct": 56.0
+    },
+    "commit_D+C-": {
+     "k": 32,
+     "n_judgeable": 35,
+     "n": 40,
+     "pct": 91.4
+    },
+    "commit_D+C+": {
+     "k": 1,
+     "n_judgeable": 26,
+     "n": 40,
+     "pct": 3.8
+    },
+    "DCm_commit": {
+     "all": [
+      91.4,
+      35
+     ],
+     "direct_pair_correct": [
+      84.2,
+      19
+     ],
+     "counts_all": [
+      32,
+      35
+     ],
+     "counts_pc": [
+      16,
+      19
+     ]
+    },
+    "DCp_rel_commitpos_relcomp": {
+     "all": [
+      0.0,
+      33
+     ],
+     "direct_pair_correct": [
+      0.0,
+      14
+     ],
+     "counts_all": [
+      0,
+      33
+     ],
+     "counts_pc": [
+      0,
+      14
+     ]
+    },
+    "locus_cues": {
+     "direct": 55.6,
+     "first_claim_correct": 62.1,
+     "cot": 60.1,
+     "claim_stage_loss": -5.4,
+     "post_claim_loss": 0.8,
+     "classification": "Direct near chance: no loss to localize"
+    },
+    "locus_twins": {
+     "direct": 56.6,
+     "first_claim_correct": 67.2,
+     "cot": 64.1,
+     "claim_stage_loss": -10.1,
+     "post_claim_loss": 2.7,
+     "classification": "Direct near chance: no loss to localize"
+    },
+    "competent": false,
+    "rule_parts": {
+     "cue_acc_ci_lo_gt70": false,
+     "glm_occl_ci_lo_gt0": true
+    },
+    "secondary": {
+     "twin_dpair_ci_lo_gt1": false,
+     "twin_acc_ci_lo_gt70": false
+    }
+   }
+  },
+  "competent": [
+   "molmo7b",
+   "qwen3vl_8b"
+  ],
+  "not_competent": [
+   "qwen3b",
+   "qwen7b",
+   "internvl3_8b",
+   "phi35v",
+   "internvl35_8b"
+  ],
+  "not_evaluable": [
+   "qwen3vl_8b_think"
+  ],
+  "pooled_audit": {
+   "competent": {
+    "DCm": {
+     "k": 50,
+     "n": 58,
+     "pct": 86.2,
+     "wilson": [
+      75.1,
+      92.8
+     ]
+    },
+    "DCp_rel": {
+     "k": 6,
+     "n": 62,
+     "pct": 9.7,
+     "wilson": [
+      4.5,
+      19.5
+     ]
+    },
+    "DCm_direct_pair_correct": {
+     "k": 38,
+     "n": 46,
+     "pct": 82.6,
+     "wilson": [
+      69.3,
+      90.9
+     ]
+    }
+   },
+   "rest": {
+    "DCm": {
+     "k": 158,
+     "n": 177,
+     "pct": 89.3,
+     "wilson": [
+      83.8,
+      93.0
+     ]
+    },
+    "DCp_rel": {
+     "k": 16,
+     "n": 164,
+     "pct": 9.8,
+     "wilson": [
+      6.1,
+      15.3
+     ]
+    },
+    "DCm_direct_pair_correct": {
+     "k": 122,
+     "n": 140,
+     "pct": 87.1,
+     "wilson": [
+      80.6,
+      91.7
+     ]
+    }
+   },
+   "all7": {
+    "DCm": {
+     "k": 208,
+     "n": 235,
+     "pct": 88.5,
+     "wilson": [
+      83.8,
+      92.0
+     ]
+    },
+    "DCp_rel": {
+     "k": 22,
+     "n": 226,
+     "pct": 9.7,
+     "wilson": [
+      6.5,
+      14.3
+     ]
+    }
+   }
+  }
+ },
+ "desc": {
+  "twins": {
+   "qwen3b": {
+    "d_direct": 0.08,
+    "d_cot": 0.13,
+    "d_desc": 0.25,
+    "cot_minus_direct": [
+     0.05,
+     [
+      -0.2,
+      0.31
+     ]
+    ],
+    "desc_minus_direct": [
+     0.18,
+     [
+      -0.08,
+      0.44
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -0.32,
+      "ci": [
+       -0.79,
+       0.09
+      ]
+     },
+     "desc-direct": {
+      "d": -0.16,
+      "ci": [
+       -0.63,
+       0.22
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -3.15,
+      "ci": [
+       -3.7,
+       -2.81
+      ]
+     },
+     "desc-direct": {
+      "d": -3.54,
+      "ci": [
+       -4.13,
+       -3.21
+      ]
+     }
+    }
+   },
+   "qwen7b": {
+    "d_direct": 0.2,
+    "d_cot": 0.42,
+    "d_desc": -0.21,
+    "cot_minus_direct": [
+     0.21,
+     [
+      0.01,
+      0.43
+     ]
+    ],
+    "desc_minus_direct": [
+     -0.41,
+     [
+      -0.77,
+      -0.0
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -0.44,
+      "ci": [
+       -0.91,
+       -0.13
+      ]
+     },
+     "desc-direct": {
+      "d": -1.15,
+      "ci": [
+       -1.64,
+       -0.83
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -2.55,
+      "ci": [
+       -3.07,
+       -2.23
+      ]
+     },
+     "desc-direct": {
+      "d": -3.95,
+      "ci": [
+       -4.47,
+       -3.66
+      ]
+     }
+    }
+   },
+   "internvl3_8b": {
+    "d_direct": 0.7,
+    "d_cot": 1.13,
+    "d_desc": 0.83,
+    "cot_minus_direct": [
+     0.43,
+     [
+      0.15,
+      0.7
+     ]
+    ],
+    "desc_minus_direct": [
+     0.13,
+     [
+      -0.25,
+      0.51
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -0.3,
+      "ci": [
+       -0.7,
+       0.03
+      ]
+     },
+     "desc-direct": {
+      "d": -0.54,
+      "ci": [
+       -0.94,
+       -0.22
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -2.0,
+      "ci": [
+       -2.43,
+       -1.67
+      ]
+     },
+     "desc-direct": {
+      "d": -3.11,
+      "ci": [
+       -3.52,
+       -2.84
+      ]
+     }
+    }
+   },
+   "phi35v": {
+    "d_direct": 0.69,
+    "d_cot": 0.46,
+    "d_desc": 0.2,
+    "cot_minus_direct": [
+     -0.23,
+     [
+      -0.43,
+      -0.05
+     ]
+    ],
+    "desc_minus_direct": [
+     -0.49,
+     [
+      -0.7,
+      -0.29
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -0.29,
+      "ci": [
+       -0.47,
+       -0.11
+      ]
+     },
+     "desc-direct": {
+      "d": -0.54,
+      "ci": [
+       -0.74,
+       -0.35
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -0.47,
+      "ci": [
+       -0.66,
+       -0.28
+      ]
+     },
+     "desc-direct": {
+      "d": -0.84,
+      "ci": [
+       -1.03,
+       -0.65
+      ]
+     }
+    }
+   },
+   "molmo7b": {
+    "d_direct": 2.41,
+    "d_cot": 1.46,
+    "d_desc": 1.2,
+    "cot_minus_direct": [
+     -0.94,
+     [
+      -1.23,
+      -0.68
+     ]
+    ],
+    "desc_minus_direct": [
+     -1.21,
+     [
+      -1.47,
+      -0.98
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -1.23,
+      "ci": [
+       -1.53,
+       -0.96
+      ]
+     },
+     "desc-direct": {
+      "d": -1.44,
+      "ci": [
+       -1.73,
+       -1.2
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -0.76,
+      "ci": [
+       -1.07,
+       -0.51
+      ]
+     },
+     "desc-direct": {
+      "d": -0.77,
+      "ci": [
+       -1.04,
+       -0.53
+      ]
+     }
+    }
+   },
+   "qwen3vl_8b": {
+    "d_direct": 2.25,
+    "d_cot": 1.8,
+    "d_desc": 1.63,
+    "cot_minus_direct": [
+     -0.46,
+     [
+      -0.87,
+      -0.08
+     ]
+    ],
+    "desc_minus_direct": [
+     -0.62,
+     [
+      -1.01,
+      -0.3
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -0.85,
+      "ci": [
+       -1.17,
+       -0.52
+      ]
+     },
+     "desc-direct": {
+      "d": -1.0,
+      "ci": [
+       -1.3,
+       -0.69
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -1.64,
+      "ci": [
+       -1.95,
+       -1.33
+      ]
+     },
+     "desc-direct": {
+      "d": -1.2,
+      "ci": [
+       -1.48,
+       -0.91
+      ]
+     }
+    }
+   },
+   "internvl35_8b": {
+    "d_direct": 0.34,
+    "d_cot": 0.59,
+    "d_desc": 0.64,
+    "cot_minus_direct": [
+     0.25,
+     [
+      0.09,
+      0.41
+     ]
+    ],
+    "desc_minus_direct": [
+     0.31,
+     [
+      -0.07,
+      0.68
+     ]
+    ],
+    "occl_component": {
+     "cot-direct": {
+      "d": -0.07,
+      "ci": [
+       -0.5,
+       0.31
+      ]
+     },
+     "desc-direct": {
+      "d": -0.41,
+      "ci": [
+       -0.89,
+       0.02
+      ]
+     }
+    },
+    "vert_component": {
+     "cot-direct": {
+      "d": -1.73,
+      "ci": [
+       -2.21,
+       -1.42
+      ]
+     },
+     "desc-direct": {
+      "d": -3.54,
+      "ci": [
+       -4.07,
+       -3.21
+      ]
+     }
+    }
+   }
+  },
+  "heldout": {
+   "qwen3b": {
+    "desc_minus_direct": "1.7 [-1.6, 4.7]",
+    "cot_minus_direct": "-0.1 [-4.3, 3.9]"
+   },
+   "qwen7b": {
+    "desc_minus_direct": "-4.6 [-7.8, -1.2]",
+    "cot_minus_direct": "-3.1 [-6.4, 0.3]"
+   },
+   "internvl3_8b": {
+    "desc_minus_direct": "-1.8 [-4.6, 0.9]",
+    "cot_minus_direct": "1.3 [-1.7, 4.4]"
+   },
+   "phi35v": {
+    "desc_minus_direct": "0.4 [-2.6, 3.3]",
+    "cot_minus_direct": "0.3 [-3.4, 4.0]"
+   },
+   "molmo7b": {
+    "desc_minus_direct": "0.9 [-2.1, 3.9]",
+    "cot_minus_direct": "0.0 [-4.0, 4.0]"
+   },
+   "qwen3vl_8b": {
+    "desc_minus_direct": "-2.2 [-4.6, 0.1]",
+    "cot_minus_direct": "-0.5 [-3.5, 2.4]"
+   },
+   "internvl35_8b": {
+    "desc_minus_direct": "1.6 [-1.2, 4.7]",
+    "cot_minus_direct": "0.3 [-3.0, 3.4]"
+   }
+  },
+  "cues": "no question-blind description arm was run on the cue-factorial set (e10 cue conditions: direct, cot, state, filler_S+turn, filler_R+turn); the structured JSON state arm is question-aware and is the closest analogue"
+ },
+ "closed": {
+  "protocol": {
+   "direct_prompt": "user turn: question + options + \"Answer with the option's letter only.\"; answer parsed from the returned text",
+   "cot_prompt": "user turn: question + options + \"Let's think step by step: first describe what you see that matters for the question, then reason, and end with 'Answer: (X)' where X is the option letter.\"; answer parsed from 'Answer: (X)' in the returned text",
+   "open_model_cot": "open models: CoT is an assistant-turn prefix 'Let's think step by step.' continued greedily (<= 512 tokens), answer read as the forced next-token distribution after 'Answer: (' (same turn); Direct = forced readout right after the question",
+   "effort_mechanism": "api_client.chat sends reasoning_effort=<effort> (Gemini since 2026-11-13: thinking_config.thinking_level); temperature not set (provider default); max_completion_tokens 16,384 (Direct/CoT) or 512 (direct_nr)",
+   "e9x_default_effort": "e9x_api.py --effort default 'high' for both Direct and CoT; research_log Exp-9x: 'effort=high'; records written before the 'effort' field was added carry None",
+   "direct_nr": "only Direct was re-run without reasoning ('direct_nr': none for DeepSeek / Qwen3.8-Max; Claude 'minimal'; GPT 'low'); no CoT arm at reasoning none/low exists except DeepSeek-V4.1-Flash on the cue set (both arms 'none')"
+  },
+  "per_model": {
+   "claude-opus-5-5": {
+    "blink_depth": {
+     "cot": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 159.3,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 96.0,
+      "mean_reasoning_tokens": 125.2,
+      "source": "e9x"
+     }
+    },
+    "blink_relation": {
+     "cot": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 82.2,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 83.9,
+      "mean_reasoning_tokens": 63.3,
+      "source": "e9x"
+     }
+    },
+    "hard": {
+     "cot": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 157.6,
+      "source": "e9h"
+     },
+     "direct": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 135.6,
+      "source": "e9h"
+     },
+     "direct_nr": {
+      "n": 576,
+      "effort_recorded": {
+       "minimal": 576
+      },
+      "effort_used": "minimal",
+      "frac_with_reasoning_tokens": 89.6,
+      "mean_reasoning_tokens": 83.0,
+      "source": "e9h"
+     }
+    },
+    "syn_depth": {
+     "cot": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 104.6,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 99.6,
+      "mean_reasoning_tokens": 88.3,
+      "source": "e9x"
+     }
+    },
+    "twins": {
+     "cot": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 56.5,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 77.6,
+      "mean_reasoning_tokens": 36.3,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 800,
+      "effort_recorded": {
+       "minimal": 800
+      },
+      "effort_used": "minimal",
+      "frac_with_reasoning_tokens": 22.8,
+      "mean_reasoning_tokens": 8.4,
+      "source": "e9x"
+     }
+    }
+   },
+   "deepseek-v4.1-flash": {
+    "blink_depth": {
+     "cot": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1170.2,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 557.7,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "none (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9x"
+     }
+    },
+    "blink_relation": {
+     "cot": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 284.0,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 230.9,
+      "source": "e9x"
+     }
+    },
+    "cues": {
+     "cot": {
+      "n": 1588,
+      "effort_recorded": {
+       "none": 1588
+      },
+      "effort_used": "none",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9c_cues"
+     },
+     "direct": {
+      "n": 1590,
+      "effort_recorded": {
+       "none": 1590
+      },
+      "effort_used": "none",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9c_cues"
+     }
+    },
+    "hard": {
+     "cot": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1128.7,
+      "source": "e9h"
+     },
+     "direct": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 325.6,
+      "source": "e9h"
+     },
+     "direct_nr": {
+      "n": 576,
+      "effort_recorded": {
+       "none": 576
+      },
+      "effort_used": "none",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9h"
+     }
+    },
+    "syn_depth": {
+     "cot": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 319.7,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 258.3,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "none (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9x"
+     }
+    },
+    "twins": {
+     "cot": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 314.3,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 250.1,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 799,
+      "effort_recorded": {
+       "None": 799
+      },
+      "effort_used": "none (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9x"
+     }
+    }
+   },
+   "gemini-4-argon": {
+    "blink_depth": {
+     "cot": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 538.0,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 473.6,
+      "source": "e9x"
+     }
+    },
+    "blink_relation": {
+     "cot": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 511.8,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 297.4,
+      "source": "e9x"
+     }
+    },
+    "hard": {
+     "cot": {
+      "n": 82,
+      "effort_recorded": {
+       "high": 82
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 318.3,
+      "source": "e9h"
+     },
+     "direct": {
+      "n": 79,
+      "effort_recorded": {
+       "high": 79
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 143.5,
+      "source": "e9h"
+     }
+    },
+    "syn_depth": {
+     "cot": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 237.7,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 149.9,
+      "source": "e9x"
+     }
+    },
+    "twins": {
+     "cot": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 215.8,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 125.6,
+      "source": "e9x"
+     }
+    }
+   },
+   "gpt-6-astra": {
+    "blink_depth": {
+     "cot": {
+      "n": 122,
+      "effort_recorded": {
+       "None": 122
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 96.7,
+      "mean_reasoning_tokens": 115.2,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 122,
+      "effort_recorded": {
+       "None": 122
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 83.6,
+      "mean_reasoning_tokens": 50.6,
+      "source": "e9x"
+     }
+    },
+    "blink_relation": {
+     "cot": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 55.2,
+      "mean_reasoning_tokens": 39.4,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 59.4,
+      "mean_reasoning_tokens": 19.7,
+      "source": "e9x"
+     }
+    },
+    "hard": {
+     "cot": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 99.8,
+      "mean_reasoning_tokens": 85.8,
+      "source": "e9h"
+     },
+     "direct": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 99.1,
+      "mean_reasoning_tokens": 46.0,
+      "source": "e9h"
+     },
+     "direct_nr": {
+      "n": 576,
+      "effort_recorded": {
+       "low": 576
+      },
+      "effort_used": "low",
+      "frac_with_reasoning_tokens": 29.3,
+      "mean_reasoning_tokens": 8.6,
+      "source": "e9h"
+     }
+    },
+    "syn_depth": {
+     "cot": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 93.2,
+      "mean_reasoning_tokens": 56.6,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 78.4,
+      "mean_reasoning_tokens": 20.5,
+      "source": "e9x"
+     }
+    },
+    "twins": {
+     "cot": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 75.2,
+      "mean_reasoning_tokens": 32.1,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 51.7,
+      "mean_reasoning_tokens": 7.0,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 800,
+      "effort_recorded": {
+       "low": 800
+      },
+      "effort_used": "low",
+      "frac_with_reasoning_tokens": 0.2,
+      "mean_reasoning_tokens": 0.1,
+      "source": "e9x"
+     }
+    }
+   },
+   "hy4": {
+    "blink_depth": {
+     "cot": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 6105.8,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 5729.7,
+      "source": "e9x"
+     }
+    },
+    "blink_relation": {
+     "cot": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 2188.6,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1795.1,
+      "source": "e9x"
+     }
+    },
+    "hard": {
+     "cot": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 6585.5,
+      "source": "e9h"
+     },
+     "direct": {
+      "n": 576,
+      "effort_recorded": {
+       "high": 576
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 5587.4,
+      "source": "e9h"
+     }
+    },
+    "syn_depth": {
+     "cot": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 4177.5,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 3510.5,
+      "source": "e9x"
+     }
+    },
+    "twins": {
+     "cot": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 2366.6,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1578.9,
+      "source": "e9x"
+     }
+    }
+   },
+   "qwen3.8-max-0902": {
+    "blink_depth": {
+     "cot": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 3455.4,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 3070.0,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 124,
+      "effort_recorded": {
+       "None": 124
+      },
+      "effort_used": "none (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9x"
+     }
+    },
+    "blink_relation": {
+     "cot": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1409.8,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 143,
+      "effort_recorded": {
+       "None": 143
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1103.0,
+      "source": "e9x"
+     }
+    },
+    "hard": {
+     "cot": {
+      "n": 852,
+      "effort_recorded": {
+       "high": 852
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 5218.5,
+      "source": "e9h"
+     },
+     "direct": {
+      "n": 854,
+      "effort_recorded": {
+       "high": 854
+      },
+      "effort_used": "high",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 4839.9,
+      "source": "e9h"
+     },
+     "direct_nr": {
+      "n": 576,
+      "effort_recorded": {
+       "none": 576
+      },
+      "effort_used": "none",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9h"
+     }
+    },
+    "syn_depth": {
+     "cot": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1734.0,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 1281.7,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 250,
+      "effort_recorded": {
+       "None": 250
+      },
+      "effort_used": "none (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9x"
+     }
+    },
+    "twins": {
+     "cot": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 765.7,
+      "source": "e9x"
+     },
+     "direct": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "high (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 100.0,
+      "mean_reasoning_tokens": 511.3,
+      "source": "e9x"
+     },
+     "direct_nr": {
+      "n": 800,
+      "effort_recorded": {
+       "None": 800
+      },
+      "effort_used": "none (script default / launch arg; field not recorded)",
+      "frac_with_reasoning_tokens": 0.0,
+      "mean_reasoning_tokens": 0.0,
+      "source": "e9x"
+     }
+    }
+   }
+  }
+ },
+ "ovl": {
+  "_doc": "431 = syn_overlap 'overlap' category (contact >= 0.15 and both shapes >= 100 visible px). Two-order statistics as rigor_e17p.stats (image bootstrap 2,000, seed 27); single-order accuracy / d' from syn_overlap.json (Tab. S11). Commit audit = e20 judge records (Sec. 5 cells) restricted to overlapping item ids; consensus as commit_judge.json.",
+  "models": {
+   "qwen3b": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 2.03,
+     "dpair_cot": 0.52,
+     "dpair_delta": -1.505,
+     "dpair_delta_ci": [
+      -2.01,
+      -1.16
+     ],
+     "dpooled_direct": 2.32,
+     "dpooled_cot": 0.55,
+     "dpooled_delta": -1.772,
+     "dpooled_delta_ci": [
+      -2.12,
+      -1.48
+     ],
+     "acc2_delta": -25.2,
+     "acc2_delta_ci": [
+      -28.5,
+      -22.1
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 2.04,
+     "dpair_cot": 0.5,
+     "dpair_delta": -1.538,
+     "dpair_delta_ci": [
+      -2.05,
+      -1.14
+     ],
+     "dpooled_direct": 2.41,
+     "dpooled_cot": 0.54,
+     "dpooled_delta": -1.87,
+     "dpooled_delta_ci": [
+      -2.27,
+      -1.53
+     ],
+     "acc2_delta": -24.01,
+     "acc2_delta_ci": [
+      -27.38,
+      -20.53
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 84.8,
+      "acc_cot": 57.4,
+      "acc_diff": -27.4,
+      "acc_diff_ci": [
+       -31.8,
+       -22.6
+      ],
+      "dprime_direct": 2.42,
+      "dprime_cot": 0.48,
+      "dprime_diff": -1.93,
+      "dprime_diff_ci": [
+       -2.38,
+       -1.52
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 84.0,
+      "acc_cot": 58.2,
+      "acc_diff": -25.8,
+      "acc_diff_ci": [
+       -30.6,
+       -20.6
+      ],
+      "dprime_direct": 2.52,
+      "dprime_cot": 0.47,
+      "dprime_diff": -2.05,
+      "dprime_diff_ci": [
+       -2.63,
+       -1.65
+      ]
+     }
+    }
+   },
+   "qwen7b": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 1.0,
+     "dpair_cot": 0.84,
+     "dpair_delta": -0.16,
+     "dpair_delta_ci": [
+      -0.3,
+      -0.01
+     ],
+     "dpooled_direct": 1.6,
+     "dpooled_cot": 1.02,
+     "dpooled_delta": -0.581,
+     "dpooled_delta_ci": [
+      -0.78,
+      -0.39
+     ],
+     "acc2_delta": -9.2,
+     "acc2_delta_ci": [
+      -12.1,
+      -6.3
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 0.99,
+     "dpair_cot": 0.85,
+     "dpair_delta": -0.142,
+     "dpair_delta_ci": [
+      -0.3,
+      0.03
+     ],
+     "dpooled_direct": 1.65,
+     "dpooled_cot": 1.05,
+     "dpooled_delta": -0.603,
+     "dpooled_delta_ci": [
+      -0.83,
+      -0.38
+     ],
+     "acc2_delta": -9.63,
+     "acc2_delta_ci": [
+      -13.11,
+      -6.26
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 77.6,
+      "acc_cot": 70.0,
+      "acc_diff": -7.6,
+      "acc_diff_ci": [
+       -11.8,
+       -3.2
+      ],
+      "dprime_direct": 1.57,
+      "dprime_cot": 1.1,
+      "dprime_diff": -0.47,
+      "dprime_diff_ci": [
+       -0.76,
+       -0.19
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 78.7,
+      "acc_cot": 70.3,
+      "acc_diff": -8.4,
+      "acc_diff_ci": [
+       -12.8,
+       -3.7
+      ],
+      "dprime_direct": 1.62,
+      "dprime_cot": 1.13,
+      "dprime_diff": -0.49,
+      "dprime_diff_ci": [
+       -0.79,
+       -0.19
+      ]
+     }
+    }
+   },
+   "internvl3_8b": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 1.64,
+     "dpair_cot": 0.7,
+     "dpair_delta": -0.938,
+     "dpair_delta_ci": [
+      -1.25,
+      -0.67
+     ],
+     "dpooled_direct": 2.62,
+     "dpooled_cot": 0.79,
+     "dpooled_delta": -1.834,
+     "dpooled_delta_ci": [
+      -2.14,
+      -1.54
+     ],
+     "acc2_delta": -25.8,
+     "acc2_delta_ci": [
+      -29.3,
+      -22.4
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 1.63,
+     "dpair_cot": 0.69,
+     "dpair_delta": -0.94,
+     "dpair_delta_ci": [
+      -1.25,
+      -0.68
+     ],
+     "dpooled_direct": 2.7,
+     "dpooled_cot": 0.81,
+     "dpooled_delta": -1.893,
+     "dpooled_delta_ci": [
+      -2.24,
+      -1.59
+     ],
+     "acc2_delta": -26.1,
+     "acc2_delta_ci": [
+      -29.93,
+      -22.51
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 90.2,
+      "acc_cot": 66.0,
+      "acc_diff": -24.2,
+      "acc_diff_ci": [
+       -29.2,
+       -19.4
+      ],
+      "dprime_direct": 2.67,
+      "dprime_cot": 0.85,
+      "dprime_diff": -1.82,
+      "dprime_diff_ci": [
+       -2.25,
+       -1.47
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 91.0,
+      "acc_cot": 67.1,
+      "acc_diff": -23.9,
+      "acc_diff_ci": [
+       -29.0,
+       -19.0
+      ],
+      "dprime_direct": 2.76,
+      "dprime_cot": 0.88,
+      "dprime_diff": -1.88,
+      "dprime_diff_ci": [
+       -2.36,
+       -1.52
+      ]
+     }
+    }
+   },
+   "phi35v": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 0.62,
+     "dpair_cot": 0.39,
+     "dpair_delta": -0.228,
+     "dpair_delta_ci": [
+      -0.42,
+      -0.05
+     ],
+     "dpooled_direct": 0.79,
+     "dpooled_cot": 0.39,
+     "dpooled_delta": -0.396,
+     "dpooled_delta_ci": [
+      -0.59,
+      -0.2
+     ],
+     "acc2_delta": -7.2,
+     "acc2_delta_ci": [
+      -10.9,
+      -3.5
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 0.58,
+     "dpair_cot": 0.37,
+     "dpair_delta": -0.206,
+     "dpair_delta_ci": [
+      -0.4,
+      0.0
+     ],
+     "dpooled_direct": 0.73,
+     "dpooled_cot": 0.36,
+     "dpooled_delta": -0.379,
+     "dpooled_delta_ci": [
+      -0.59,
+      -0.16
+     ],
+     "acc2_delta": -6.73,
+     "acc2_delta_ci": [
+      -10.67,
+      -2.67
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 63.4,
+      "acc_cot": 59.2,
+      "acc_diff": -4.2,
+      "acc_diff_ci": [
+       -9.4,
+       1.0
+      ],
+      "dprime_direct": 0.69,
+      "dprime_cot": 0.47,
+      "dprime_diff": -0.22,
+      "dprime_diff_ci": [
+       -0.51,
+       0.04
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 62.6,
+      "acc_cot": 58.2,
+      "acc_diff": -4.4,
+      "acc_diff_ci": [
+       -10.7,
+       1.6
+      ],
+      "dprime_direct": 0.63,
+      "dprime_cot": 0.42,
+      "dprime_diff": -0.21,
+      "dprime_diff_ci": [
+       -0.53,
+       0.1
+      ]
+     }
+    }
+   },
+   "molmo7b": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 2.03,
+     "dpair_cot": 1.3,
+     "dpair_delta": -0.73,
+     "dpair_delta_ci": [
+      -1.15,
+      -0.41
+     ],
+     "dpooled_direct": 2.48,
+     "dpooled_cot": 1.29,
+     "dpooled_delta": -1.191,
+     "dpooled_delta_ci": [
+      -1.45,
+      -0.95
+     ],
+     "acc2_delta": -15.2,
+     "acc2_delta_ci": [
+      -18.2,
+      -12.2
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 2.27,
+     "dpair_cot": 1.49,
+     "dpair_delta": -0.782,
+     "dpair_delta_ci": [
+      -1.34,
+      -0.36
+     ],
+     "dpooled_direct": 2.71,
+     "dpooled_cot": 1.45,
+     "dpooled_delta": -1.26,
+     "dpooled_delta_ci": [
+      -1.57,
+      -0.98
+     ],
+     "acc2_delta": -15.78,
+     "acc2_delta_ci": [
+      -19.03,
+      -12.64
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 89.6,
+      "acc_cot": 75.6,
+      "acc_diff": -14.0,
+      "acc_diff_ci": [
+       -18.6,
+       -9.6
+      ],
+      "dprime_direct": 2.54,
+      "dprime_cot": 1.42,
+      "dprime_diff": -1.12,
+      "dprime_diff_ci": [
+       -1.48,
+       -0.79
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 92.3,
+      "acc_cot": 78.4,
+      "acc_diff": -13.9,
+      "acc_diff_ci": [
+       -18.6,
+       -9.3
+      ],
+      "dprime_direct": 2.86,
+      "dprime_cot": 1.64,
+      "dprime_diff": -1.22,
+      "dprime_diff_ci": [
+       -1.68,
+       -0.77
+      ]
+     }
+    }
+   },
+   "qwen3vl_8b": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 1.95,
+     "dpair_cot": 0.63,
+     "dpair_delta": -1.316,
+     "dpair_delta_ci": [
+      -1.8,
+      -1.01
+     ],
+     "dpooled_direct": 1.87,
+     "dpooled_cot": 0.69,
+     "dpooled_delta": -1.184,
+     "dpooled_delta_ci": [
+      -1.43,
+      -0.97
+     ],
+     "acc2_delta": -16.2,
+     "acc2_delta_ci": [
+      -19.2,
+      -13.3
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 2.19,
+     "dpair_cot": 0.64,
+     "dpair_delta": -1.551,
+     "dpair_delta_ci": [
+      -2.14,
+      -1.18
+     ],
+     "dpooled_direct": 2.5,
+     "dpooled_cot": 0.79,
+     "dpooled_delta": -1.708,
+     "dpooled_delta_ci": [
+      -2.12,
+      -1.4
+     ],
+     "acc2_delta": -18.21,
+     "acc2_delta_ci": [
+      -21.58,
+      -15.08
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 77.8,
+      "acc_cot": 60.8,
+      "acc_diff": -17.0,
+      "acc_diff_ci": [
+       -21.2,
+       -12.4
+      ],
+      "dprime_direct": 1.74,
+      "dprime_cot": 0.59,
+      "dprime_diff": -1.15,
+      "dprime_diff_ci": [
+       -1.46,
+       -0.86
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 82.1,
+      "acc_cot": 61.9,
+      "acc_diff": -20.2,
+      "acc_diff_ci": [
+       -25.1,
+       -15.1
+      ],
+      "dprime_direct": 2.28,
+      "dprime_cot": 0.64,
+      "dprime_diff": -1.65,
+      "dprime_diff_ci": [
+       -2.12,
+       -1.27
+      ]
+     }
+    }
+   },
+   "internvl35_8b": {
+    "all": {
+     "n": 500,
+     "dpair_direct": 0.29,
+     "dpair_cot": 0.49,
+     "dpair_delta": 0.201,
+     "dpair_delta_ci": [
+      0.04,
+      0.36
+     ],
+     "dpooled_direct": 0.35,
+     "dpooled_cot": 0.59,
+     "dpooled_delta": 0.237,
+     "dpooled_delta_ci": [
+      0.05,
+      0.42
+     ],
+     "acc2_delta": 3.5,
+     "acc2_delta_ci": [
+      0.7,
+      6.3
+     ]
+    },
+    "overlap": {
+     "n": 431,
+     "dpair_direct": 0.26,
+     "dpair_cot": 0.45,
+     "dpair_delta": 0.189,
+     "dpair_delta_ci": [
+      0.02,
+      0.38
+     ],
+     "dpooled_direct": 0.34,
+     "dpooled_cot": 0.55,
+     "dpooled_delta": 0.21,
+     "dpooled_delta_ci": [
+      0.0,
+      0.43
+     ],
+     "acc2_delta": 3.25,
+     "acc2_delta_ci": [
+      0.12,
+      6.5
+     ]
+    },
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 56.0,
+      "acc_cot": 60.8,
+      "acc_diff": 4.8,
+      "acc_diff_ci": [
+       1.0,
+       8.8
+      ],
+      "dprime_direct": 0.31,
+      "dprime_cot": 0.61,
+      "dprime_diff": 0.3,
+      "dprime_diff_ci": [
+       0.06,
+       0.54
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 56.1,
+      "acc_cot": 60.6,
+      "acc_diff": 4.4,
+      "acc_diff_ci": [
+       0.2,
+       8.8
+      ],
+      "dprime_direct": 0.28,
+      "dprime_cot": 0.55,
+      "dprime_diff": 0.27,
+      "dprime_diff_ci": [
+       -0.0,
+       0.56
+      ]
+     }
+    }
+   },
+   "qwen3vl_8b_think": {
+    "single_order": {
+     "all": {
+      "n": 500,
+      "acc_direct": 89.0,
+      "acc_cot": 76.6,
+      "acc_diff": -12.4,
+      "acc_diff_ci": [
+       -16.2,
+       -8.8
+      ],
+      "dprime_direct": 2.46,
+      "dprime_cot": 1.57,
+      "dprime_diff": -0.89,
+      "dprime_diff_ci": [
+       -1.23,
+       -0.59
+      ]
+     },
+     "overlap": {
+      "n": 431,
+      "acc_direct": 92.6,
+      "acc_cot": 79.6,
+      "acc_diff": -13.0,
+      "acc_diff_ci": [
+       -16.9,
+       -9.3
+      ],
+      "dprime_direct": 3.08,
+      "dprime_cot": 1.92,
+      "dprime_diff": -1.16,
+      "dprime_diff_ci": [
+       -1.7,
+       -0.69
+      ]
+     }
+    }
+   }
+  },
+  "commit_audit": {
+   "DCm_commit": {
+    "qwen3b": {
+     "all": [
+      37,
+      37,
+      100.0
+     ],
+     "overlap": [
+      30,
+      30,
+      100.0
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 32,
+     "wilson_overlap": [
+      88.6,
+      100.0
+     ]
+    },
+    "qwen7b": {
+     "all": [
+      20,
+      35,
+      57.1
+     ],
+     "overlap": [
+      15,
+      29,
+      51.7
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 34,
+     "wilson_overlap": [
+      34.4,
+      68.6
+     ]
+    },
+    "internvl3_8b": {
+     "all": [
+      33,
+      34,
+      97.1
+     ],
+     "overlap": [
+      29,
+      30,
+      96.7
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 34,
+     "wilson_overlap": [
+      83.3,
+      99.4
+     ]
+    },
+    "phi35v": {
+     "all": [
+      36,
+      36,
+      100.0
+     ],
+     "overlap": [
+      33,
+      33,
+      100.0
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 35,
+     "wilson_overlap": [
+      89.6,
+      100.0
+     ]
+    },
+    "molmo7b": {
+     "all": [
+      24,
+      31,
+      77.4
+     ],
+     "overlap": [
+      20,
+      26,
+      76.9
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 33,
+     "wilson_overlap": [
+      57.9,
+      89.0
+     ]
+    },
+    "qwen3vl_8b": {
+     "all": [
+      26,
+      27,
+      96.3
+     ],
+     "overlap": [
+      26,
+      27,
+      96.3
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 39,
+     "wilson_overlap": [
+      81.7,
+      99.3
+     ]
+    },
+    "internvl35_8b": {
+     "all": [
+      32,
+      35,
+      91.4
+     ],
+     "overlap": [
+      31,
+      34,
+      91.2
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 36,
+     "wilson_overlap": [
+      77.0,
+      97.0
+     ]
+    },
+    "pooled": {
+     "all": [
+      208,
+      235,
+      88.5
+     ],
+     "overlap": [
+      184,
+      209,
+      88.0
+     ],
+     "n_items_all": 280,
+     "n_items_overlap": 243,
+     "wilson_overlap": [
+      82.9,
+      91.8
+     ]
+    }
+   },
+   "DCp_rel": {
+    "qwen3b": {
+     "all": [
+      2,
+      30,
+      6.7
+     ],
+     "overlap": [
+      2,
+      28,
+      7.1
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 37,
+     "wilson_overlap": [
+      2.0,
+      22.6
+     ]
+    },
+    "qwen7b": {
+     "all": [
+      3,
+      32,
+      9.4
+     ],
+     "overlap": [
+      2,
+      30,
+      6.7
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 36,
+     "wilson_overlap": [
+      1.8,
+      21.3
+     ]
+    },
+    "internvl3_8b": {
+     "all": [
+      5,
+      33,
+      15.2
+     ],
+     "overlap": [
+      5,
+      32,
+      15.6
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 37,
+     "wilson_overlap": [
+      6.9,
+      31.8
+     ]
+    },
+    "phi35v": {
+     "all": [
+      6,
+      36,
+      16.7
+     ],
+     "overlap": [
+      6,
+      32,
+      18.8
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 34,
+     "wilson_overlap": [
+      8.9,
+      35.3
+     ]
+    },
+    "molmo7b": {
+     "all": [
+      5,
+      34,
+      14.7
+     ],
+     "overlap": [
+      3,
+      30,
+      10.0
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 34,
+     "wilson_overlap": [
+      3.5,
+      25.6
+     ]
+    },
+    "qwen3vl_8b": {
+     "all": [
+      1,
+      28,
+      3.6
+     ],
+     "overlap": [
+      1,
+      23,
+      4.3
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 34,
+     "wilson_overlap": [
+      0.8,
+      21.0
+     ]
+    },
+    "internvl35_8b": {
+     "all": [
+      0,
+      33,
+      0.0
+     ],
+     "overlap": [
+      0,
+      28,
+      0.0
+     ],
+     "n_items_all": 40,
+     "n_items_overlap": 31,
+     "wilson_overlap": [
+      0.0,
+      12.1
+     ]
+    },
+    "pooled": {
+     "all": [
+      22,
+      226,
+      9.7
+     ],
+     "overlap": [
+      19,
+      203,
+      9.4
+     ],
+     "n_items_all": 280,
+     "n_items_overlap": 243,
+     "wilson_overlap": [
+      6.1,
+      14.2
+     ]
+    }
+   }
+  },
+  "summary": {
+   "single_order_acc_delta_range_all": [
+    -27.4,
+    -4.2
+   ],
+   "single_order_acc_delta_range_431": [
+    -25.8,
+    -4.4
+   ],
+   "dpair_fall_ci_lt0_all": [
+    "qwen3b",
+    "qwen7b",
+    "internvl3_8b",
+    "phi35v",
+    "molmo7b",
+    "qwen3vl_8b"
+   ],
+   "dpair_fall_ci_lt0_431": [
+    "qwen3b",
+    "internvl3_8b",
+    "molmo7b",
+    "qwen3vl_8b"
+   ],
+   "dpair_range_falls_all": [
+    -1.505,
+    -0.16
+   ],
+   "dpair_range_falls_431": [
+    -1.551,
+    -0.782
+   ],
+   "dpooled_fall_ci_lt0_431": [
+    "qwen3b",
+    "qwen7b",
+    "internvl3_8b",
+    "phi35v",
+    "molmo7b",
+    "qwen3vl_8b"
+   ],
+   "dpooled_range_falls_431": [
+    -1.893,
+    -0.379
+   ],
+   "commit_pooled_all": [
+    208,
+    235,
+    88.5
+   ],
+   "commit_pooled_431": [
+    184,
+    209,
+    88.0
+   ],
+   "relcomp_pooled_all": [
+    22,
+    226,
+    9.7
+   ],
+   "relcomp_pooled_431": [
+    19,
+    203,
+    9.4
+   ]
+  }
+ },
+ "cons": {
+  "reshow": {
+   "per_model": {
+    "qwen3b": {
+     "conds": [
+      "cot",
+      "cot+reimage",
+      "cot+reimage_restate",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "direct+restate",
+      "filler",
+      "filler+reimage",
+      "filler+restate",
+      "filler+turn",
+      "filler1024",
+      "filler1024+restate",
+      "filler1024+turn",
+      "filler512",
+      "filler512+reimage",
+      "filler512+restate",
+      "filler512+turn"
+     ],
+     "cot+turn": 0.281,
+     "cot+turn_counts": [
+      2046,
+      2038,
+      2850
+     ],
+     "cot+restate": 0.807,
+     "cot+restate_counts": [
+      2061,
+      2038,
+      2850
+     ],
+     "cot+reimage": 0.526,
+     "cot+reimage_counts": [
+      2053,
+      2038,
+      2850
+     ],
+     "cot+reimage_restate": 1.439,
+     "cot+reimage_restate_counts": [
+      2079,
+      2038,
+      2850
+     ]
+    },
+    "qwen7b": {
+     "conds": [
+      "cot",
+      "cot+reimage",
+      "cot+reimage_restate",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "direct+restate",
+      "filler",
+      "filler+reimage",
+      "filler+restate",
+      "filler+turn",
+      "filler1024",
+      "filler1024+restate",
+      "filler1024+turn",
+      "filler512",
+      "filler512+reimage",
+      "filler512+restate",
+      "filler512+turn"
+     ],
+     "cot+turn": 0.0,
+     "cot+turn_counts": [
+      2339,
+      2339,
+      2850
+     ],
+     "cot+restate": 0.561,
+     "cot+restate_counts": [
+      2355,
+      2339,
+      2850
+     ],
+     "cot+reimage": 0.105,
+     "cot+reimage_counts": [
+      2342,
+      2339,
+      2850
+     ],
+     "cot+reimage_restate": 0.912,
+     "cot+reimage_restate_counts": [
+      2365,
+      2339,
+      2850
+     ]
+    },
+    "internvl3_8b": {
+     "conds": [
+      "cot",
+      "cot+reimage",
+      "cot+reimage_restate",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "direct+restate",
+      "filler",
+      "filler+reimage",
+      "filler+restate",
+      "filler+turn",
+      "filler1024",
+      "filler1024+restate",
+      "filler1024+turn",
+      "filler512",
+      "filler512+reimage",
+      "filler512+restate",
+      "filler512+turn"
+     ],
+     "cot+turn": 0.386,
+     "cot+turn_counts": [
+      2420,
+      2409,
+      2850
+     ],
+     "cot+restate": 0.421,
+     "cot+restate_counts": [
+      2421,
+      2409,
+      2850
+     ],
+     "cot+reimage": 0.0,
+     "cot+reimage_counts": [
+      2409,
+      2409,
+      2850
+     ],
+     "cot+reimage_restate": 1.439,
+     "cot+reimage_restate_counts": [
+      2450,
+      2409,
+      2850
+     ]
+    },
+    "phi35v": {
+     "conds": [
+      "cot",
+      "cot+reimage",
+      "cot+reimage_restate",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "direct+restate",
+      "filler",
+      "filler+reimage",
+      "filler+restate",
+      "filler+turn",
+      "filler1024",
+      "filler1024+restate",
+      "filler1024+turn",
+      "filler512",
+      "filler512+reimage",
+      "filler512+restate",
+      "filler512+turn"
+     ],
+     "cot+turn": -0.07,
+     "cot+turn_counts": [
+      1914,
+      1916,
+      2850
+     ],
+     "cot+restate": 0.772,
+     "cot+restate_counts": [
+      1938,
+      1916,
+      2850
+     ],
+     "cot+reimage": 0.772,
+     "cot+reimage_counts": [
+      1938,
+      1916,
+      2850
+     ],
+     "cot+reimage_restate": 0.947,
+     "cot+reimage_restate_counts": [
+      1943,
+      1916,
+      2850
+     ]
+    },
+    "molmo7b": {
+     "conds": [
+      "cot",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "direct+restate",
+      "filler",
+      "filler+restate",
+      "filler+turn",
+      "filler512",
+      "filler512+restate",
+      "filler512+turn"
+     ],
+     "cot+turn": -0.175,
+     "cot+turn_counts": [
+      2070,
+      2075,
+      2850
+     ],
+     "cot+restate": 0.456,
+     "cot+restate_counts": [
+      2088,
+      2075,
+      2850
+     ]
+    },
+    "qwen3vl_8b": {
+     "conds": [
+      "cot",
+      "cot+reimage",
+      "cot+reimage_restate",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "filler",
+      "filler+turn",
+      "filler512"
+     ],
+     "cot+turn": -0.07,
+     "cot+turn_counts": [
+      2494,
+      2496,
+      2850
+     ],
+     "cot+restate": 0.0,
+     "cot+restate_counts": [
+      2496,
+      2496,
+      2850
+     ],
+     "cot+reimage": 0.07,
+     "cot+reimage_counts": [
+      2498,
+      2496,
+      2850
+     ],
+     "cot+reimage_restate": 0.0,
+     "cot+reimage_restate_counts": [
+      2496,
+      2496,
+      2850
+     ]
+    },
+    "qwen3vl_8b_think": {
+     "conds": [
+      "cot",
+      "cot+turn",
+      "direct",
+      "filler+turn"
+     ],
+     "cot+turn": 0.0,
+     "cot+turn_counts": [
+      2605,
+      2605,
+      2850
+     ]
+    },
+    "internvl35_8b": {
+     "conds": [
+      "cot",
+      "cot+reimage",
+      "cot+reimage_restate",
+      "cot+restate",
+      "cot+turn",
+      "direct",
+      "filler",
+      "filler+turn",
+      "filler512"
+     ],
+     "cot+turn": 0.14,
+     "cot+turn_counts": [
+      2449,
+      2445,
+      2850
+     ],
+     "cot+restate": 0.421,
+     "cot+restate_counts": [
+      2457,
+      2445,
+      2850
+     ],
+     "cot+reimage": 0.105,
+     "cot+reimage_counts": [
+      2448,
+      2445,
+      2850
+     ],
+     "cot+reimage_restate": 0.702,
+     "cot+reimage_restate_counts": [
+      2465,
+      2445,
+      2850
+     ]
+    }
+   },
+   "post_cot_resupply_range": [
+    0.0,
+    1.439
+   ],
+   "argmax": [
+    "qwen3b",
+    "cot+reimage_restate",
+    1.439
+   ],
+   "argmin": [
+    "internvl3_8b",
+    "cot+reimage",
+    0.0
+   ],
+   "incl_cot_turn_range": [
+    -0.175,
+    1.439
+   ]
+  },
+  "sym_direct": {
+   "qwen3b": {
+    "direct": 80.2807,
+    "sym_direct": 82.2456,
+    "sym_direct_minus_direct": 1.9649,
+    "sym_cot_minus_direct": -5.4737,
+    "cot_consistent_else_direct_minus_direct": -1.5088,
+    "cot_minus_direct": -8.7719,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": 1.96,
+     "sym_cot_minus_direct": -5.47
+    },
+    "printed_old": "+2.0",
+    "printed_correct": "+2.0"
+   },
+   "qwen7b": {
+    "direct": 85.9298,
+    "sym_direct": 87.193,
+    "sym_direct_minus_direct": 1.2632,
+    "sym_cot_minus_direct": -0.4912,
+    "cot_consistent_else_direct_minus_direct": 0.3158,
+    "cot_minus_direct": -3.8596,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": 1.26,
+     "sym_cot_minus_direct": -0.49
+    },
+    "printed_old": "+1.3",
+    "printed_correct": "+1.3"
+   },
+   "internvl3_8b": {
+    "direct": 89.6491,
+    "sym_direct": 90.0,
+    "sym_direct_minus_direct": 0.3509,
+    "sym_cot_minus_direct": -2.3158,
+    "cot_consistent_else_direct_minus_direct": -1.3333,
+    "cot_minus_direct": -5.1228,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": 0.35,
+     "sym_cot_minus_direct": -2.32
+    },
+    "printed_old": "+0.3",
+    "printed_correct": "+0.4"
+   },
+   "phi35v": {
+    "direct": 76.4211,
+    "sym_direct": 75.5789,
+    "sym_direct_minus_direct": -0.8421,
+    "sym_cot_minus_direct": -7.193,
+    "cot_consistent_else_direct_minus_direct": -4.4211,
+    "cot_minus_direct": -9.193,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": -0.84,
+     "sym_cot_minus_direct": -7.19
+    },
+    "printed_old": "-0.8",
+    "printed_correct": "-0.8"
+   },
+   "molmo7b": {
+    "direct": 74.4912,
+    "sym_direct": 78.6667,
+    "sym_direct_minus_direct": 4.1754,
+    "sym_cot_minus_direct": 1.2982,
+    "cot_consistent_else_direct_minus_direct": 4.4912,
+    "cot_minus_direct": -1.6842,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": 4.18,
+     "sym_cot_minus_direct": 1.3
+    },
+    "printed_old": "+4.2",
+    "printed_correct": "+4.2"
+   },
+   "qwen3vl_8b": {
+    "direct": 91.0877,
+    "sym_direct": 94.0351,
+    "sym_direct_minus_direct": 2.9474,
+    "sym_cot_minus_direct": -0.5263,
+    "cot_consistent_else_direct_minus_direct": -0.2105,
+    "cot_minus_direct": -3.5088,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": 2.95,
+     "sym_cot_minus_direct": -0.53
+    },
+    "printed_old": "+3.0",
+    "printed_correct": "+2.9"
+   },
+   "internvl35_8b": {
+    "direct": 83.2632,
+    "sym_direct": 83.5439,
+    "sym_direct_minus_direct": 0.2807,
+    "sym_cot_minus_direct": 2.5965,
+    "cot_consistent_else_direct_minus_direct": 2.4912,
+    "cot_minus_direct": 2.5263,
+    "stored_numbers_json": {
+     "sym_direct_minus_direct": 0.28,
+     "sym_cot_minus_direct": 2.6
+    },
+    "printed_old": "+0.3",
+    "printed_correct": "+0.3"
+   }
+  },
+  "depth_valid_dup": {
+   "n": 324,
+   "same_direct_pred": 247,
+   "same_cot_pred": 255,
+   "cot_minus_direct_net_items": [
+    -15,
+    -15
+   ],
+   "items_with_different_cot_delta": 97,
+   "sym_net_items": [
+    -4,
+    -4
+   ],
+   "items_with_different_sym_delta": 38,
+   "direct_acc": [
+    81.79,
+    75.93
+   ],
+   "stored_unrounded": {
+    "qwen3vl_8b": {
+     "cot_minus_direct": {
+      "mean": -4.6296,
+      "lo": -9.5679,
+      "hi": 0.3086,
+      "n": 324
+     },
+     "sym_minus_direct": {
+      "mean": -1.2346,
+      "lo": -4.0123,
+      "hi": 1.5432,
+      "n": 324
+     }
+    },
+    "internvl35_8b": {
+     "cot_minus_direct": {
+      "mean": -4.6296,
+      "lo": -9.5679,
+      "hi": 0.3164,
+      "n": 324
+     },
+     "sym_minus_direct": {
+      "mean": -1.2346,
+      "lo": -4.0123,
+      "hi": 1.5432,
+      "n": 324
+     }
+    }
+   }
+  },
+  "tab_s24": {
+   "qwen3b": {
+    "d_dprime_old": -1.94,
+    "d_dprime_new": -1.93,
+    "acc_loss": 27.4,
+    "balanced_acc_loss": 28.1,
+    "sens_plus_crit": 28.1,
+    "sens_old": 29.2,
+    "sens_new": 29.1,
+    "crit_old": -1.2,
+    "crit_new": -1.0
+   },
+   "qwen7b": {
+    "d_dprime_old": -0.47,
+    "d_dprime_new": -0.47,
+    "acc_loss": 7.6,
+    "balanced_acc_loss": 7.5,
+    "sens_plus_crit": 7.5,
+    "sens_old": 7.5,
+    "sens_new": 7.5,
+    "crit_old": 0.1,
+    "crit_new": 0.0
+   },
+   "internvl3_8b": {
+    "d_dprime_old": -1.82,
+    "d_dprime_new": -1.82,
+    "acc_loss": 24.2,
+    "balanced_acc_loss": 24.8,
+    "sens_plus_crit": 24.8,
+    "sens_old": 24.5,
+    "sens_new": 24.5,
+    "crit_old": 0.4,
+    "crit_new": 0.3
+   },
+   "phi35v": {
+    "d_dprime_old": -0.22,
+    "d_dprime_new": -0.22,
+    "acc_loss": 4.2,
+    "balanced_acc_loss": 3.8,
+    "sens_plus_crit": 3.8,
+    "sens_old": 4.2,
+    "sens_new": 4.2,
+    "crit_old": -0.4,
+    "crit_new": -0.4
+   },
+   "molmo7b": {
+    "d_dprime_old": -1.12,
+    "d_dprime_new": -1.12,
+    "acc_loss": 14.0,
+    "balanced_acc_loss": 14.4,
+    "sens_plus_crit": 14.5,
+    "sens_old": 13.7,
+    "sens_new": 13.7,
+    "crit_old": 0.7,
+    "crit_new": 0.8
+   },
+   "qwen3vl_8b": {
+    "d_dprime_old": -1.15,
+    "d_dprime_new": -1.15,
+    "acc_loss": 17.0,
+    "balanced_acc_loss": 17.1,
+    "sens_plus_crit": 17.1,
+    "sens_old": 19.3,
+    "sens_new": 19.2,
+    "crit_old": -2.2,
+    "crit_new": -2.1
+   },
+   "qwen3vl_8b_think": {
+    "d_dprime_old": -0.89,
+    "d_dprime_new": -0.89,
+    "acc_loss": 12.4,
+    "balanced_acc_loss": 12.8,
+    "sens_plus_crit": 12.7,
+    "sens_old": 10.6,
+    "sens_new": 10.6,
+    "crit_old": 2.2,
+    "crit_new": 2.1
+   },
+   "internvl35_8b": {
+    "d_dprime_old": 0.3,
+    "d_dprime_new": 0.3,
+    "acc_loss": -4.8,
+    "balanced_acc_loss": -4.8,
+    "sens_plus_crit": -4.8,
+    "sens_old": -5.8,
+    "sens_new": -5.8,
+    "crit_old": 1.0,
+    "crit_new": 1.0
+   }
+  },
+  "fig2b": {
+   "per_model": {
+    "qwen3b": {
+     "rel_of_committed": 85.4,
+     "n_committed": 444,
+     "n_DCm": 458,
+     "rel_of_all_DCm": 82.8,
+     "fig2b_bar_label": 82.8
+    },
+    "qwen7b": {
+     "rel_of_committed": 87.6,
+     "n_committed": 282,
+     "n_DCm": 284,
+     "rel_of_all_DCm": 87.0,
+     "fig2b_bar_label": 87.0
+    },
+    "internvl3_8b": {
+     "rel_of_committed": 82.3,
+     "n_committed": 248,
+     "n_DCm": 267,
+     "rel_of_all_DCm": 76.4,
+     "fig2b_bar_label": 76.4
+    },
+    "phi35v": {
+     "rel_of_committed": 83.2,
+     "n_committed": 530,
+     "n_DCm": 601,
+     "rel_of_all_DCm": 73.4,
+     "fig2b_bar_label": 73.4
+    },
+    "molmo7b": {
+     "rel_of_committed": 69.3,
+     "n_committed": 388,
+     "n_DCm": 421,
+     "rel_of_all_DCm": 63.9,
+     "fig2b_bar_label": 63.9
+    },
+    "qwen3vl_8b": {
+     "rel_of_committed": 83.3,
+     "n_committed": 186,
+     "n_DCm": 190,
+     "rel_of_all_DCm": 81.5,
+     "fig2b_bar_label": 81.6
+    },
+    "internvl35_8b": {
+     "rel_of_committed": 88.5,
+     "n_committed": 104,
+     "n_DCm": 119,
+     "rel_of_all_DCm": 77.3,
+     "fig2b_bar_label": 77.3
+    }
+   },
+   "range_committed": [
+    69.3,
+    88.5
+   ],
+   "range_all_DCm": [
+    63.9,
+    87.0
+   ]
+  },
+  "fig4_lr": {
+   "qwen3b": {
+    "S_orig_LR": 12.6,
+    "S_gray_LR": 2.7,
+    "S_mirror_LR": 1.4,
+    "S_orig_full": 6.8,
+    "n_LR": 641
+   },
+   "qwen7b": {
+    "S_orig_LR": 55.4,
+    "S_gray_LR": 22.9,
+    "S_mirror_LR": 2.9,
+    "S_orig_full": 36.3,
+    "n_LR": 650
+   },
+   "internvl3_8b": {
+    "S_orig_LR": 85.1,
+    "S_gray_LR": 24.6,
+    "S_mirror_LR": -23.7,
+    "S_orig_full": 61.1,
+    "n_LR": 651
+   },
+   "phi35v": {
+    "S_orig_LR": 0.2,
+    "S_gray_LR": 0.0,
+    "S_mirror_LR": 0.0,
+    "S_orig_full": 0.1,
+    "n_LR": 443
+   },
+   "molmo7b": {
+    "S_orig_LR": 0.0,
+    "S_gray_LR": 0.0,
+    "S_mirror_LR": 0.0,
+    "S_orig_full": 0.0,
+    "n_LR": 651
+   },
+   "qwen3vl_8b": {
+    "S_orig_LR": 3.1,
+    "S_gray_LR": 0.5,
+    "S_mirror_LR": 0.2,
+    "S_orig_full": 1.8,
+    "n_LR": 646
+   },
+   "internvl35_8b": {
+    "S_orig_LR": 85.7,
+    "S_gray_LR": 70.7,
+    "S_mirror_LR": -34.6,
+    "S_orig_full": 68.2,
+    "n_LR": 651
+   }
+  },
+  "probe_controls": {
+   "per_model": {
+    "qwen3vl_8b": {
+     "filler": {
+      "bal": 0.603,
+      "recall_DCm_wrong": 0.491
+     },
+     "layer0_r": {
+      "bal": 0.578,
+      "recall_DCm_wrong": 0.685
+     },
+     "text": {
+      "bal": 0.69,
+      "recall_DCm_wrong": 0.68
+     },
+     "cue": {
+      "bal": 0.604,
+      "recall_DCm_wrong": 0.725
+     }
+    },
+    "molmo7b": {
+     "filler": {
+      "bal": 0.664,
+      "recall_DCm_wrong": 0.544
+     },
+     "layer0_r": {
+      "bal": 0.529,
+      "recall_DCm_wrong": 0.36
+     },
+     "text": {
+      "bal": 0.729,
+      "recall_DCm_wrong": 0.544
+     },
+     "cue": {
+      "bal": 0.549,
+      "recall_DCm_wrong": 0.667
+     }
+    },
+    "qwen7b": {
+     "filler": {
+      "bal": 0.678,
+      "recall_DCm_wrong": 0.692
+     },
+     "layer0_r": {
+      "bal": 0.573,
+      "recall_DCm_wrong": 0.541
+     },
+     "text": {
+      "bal": 0.664,
+      "recall_DCm_wrong": 0.669
+     },
+     "cue": {
+      "bal": 0.546,
+      "recall_DCm_wrong": 0.586
+     }
+    }
+   },
+   "bal_range": [
+    0.529,
+    0.729
+   ],
+   "recall_range": [
+    0.36,
+    0.725
+   ]
+  },
+  "appM": {
+   "per_model": {
+    "qwen3b": {
+     "diff": -0.49,
+     "ci": [
+      -0.78,
+      -0.21
+     ]
+    },
+    "qwen7b": {
+     "diff": -0.24,
+     "ci": [
+      -0.52,
+      0.02
+     ]
+    },
+    "internvl3_8b": {
+     "diff": 0.05,
+     "ci": [
+      -0.17,
+      0.27
+     ]
+    },
+    "phi35v": {
+     "diff": -1.2,
+     "ci": [
+      -1.51,
+      -0.91
+     ]
+    },
+    "molmo7b": {
+     "diff": -0.43,
+     "ci": [
+      -0.8,
+      -0.12
+     ]
+    },
+    "qwen3vl_8b": {
+     "diff": -0.59,
+     "ci": [
+      -1.01,
+      -0.26
+     ]
+    },
+    "internvl35_8b": {
+     "diff": -0.02,
+     "ci": [
+      -0.23,
+      0.19
+     ]
+    },
+    "qwen3vl_8b_think": {
+     "diff": 0.04,
+     "ci": [
+      -0.29,
+      0.38
+     ]
+    }
+   },
+   "point_lt0": [
+    "qwen3b",
+    "qwen7b",
+    "phi35v",
+    "molmo7b",
+    "qwen3vl_8b",
+    "internvl35_8b"
+   ],
+   "ci_lt0": [
+    "qwen3b",
+    "phi35v",
+    "molmo7b",
+    "qwen3vl_8b"
+   ],
+   "point_le_m025": [
+    "qwen3b",
+    "phi35v",
+    "molmo7b",
+    "qwen3vl_8b"
+   ]
+  },
+  "first_claim_jstar": {
+   "per_model": {
+    "qwen3b": {
+     "n_committed": 148,
+     "first_claim_is_jstar_full": 72.3,
+     "sample_tabS30": 77.5
+    },
+    "qwen7b": {
+     "n_committed": 81,
+     "first_claim_is_jstar_full": 67.9,
+     "sample_tabS30": 70.0
+    },
+    "internvl3_8b": {
+     "n_committed": 148,
+     "first_claim_is_jstar_full": 49.3,
+     "sample_tabS30": 52.5
+    },
+    "phi35v": {
+     "n_committed": 109,
+     "first_claim_is_jstar_full": 72.5,
+     "sample_tabS30": 70.0
+    },
+    "molmo7b": {
+     "n_committed": 100,
+     "first_claim_is_jstar_full": 39.0,
+     "sample_tabS30": 42.5
+    },
+    "qwen3vl_8b": {
+     "n_committed": 117,
+     "first_claim_is_jstar_full": 29.9,
+     "sample_tabS30": 27.5
+    },
+    "internvl35_8b": {
+     "n_committed": 46,
+     "first_claim_is_jstar_full": 63.0,
+     "sample_tabS30": 60.0
+    }
+   },
+   "range_full": [
+    29.9,
+    72.5
+   ],
+   "range_sample": [
+    27.5,
+    77.5
+   ],
+   "pooled_sample": 57.1
+  },
+  "twins_counts": {
+   "per_model": {
+    "qwen3b": {
+     "delta": 0.08,
+     "ci": [
+      -0.06,
+      0.21
+     ],
+     "class": "flat"
+    },
+    "qwen7b": {
+     "delta": 0.32,
+     "ci": [
+      0.18,
+      0.48
+     ],
+     "class": "rise"
+    },
+    "internvl3_8b": {
+     "delta": 0.65,
+     "ci": [
+      0.41,
+      0.93
+     ],
+     "class": "rise"
+    },
+    "phi35v": {
+     "delta": -0.43,
+     "ci": [
+      -0.7,
+      -0.2
+     ],
+     "class": "fall"
+    },
+    "molmo7b": {
+     "delta": -0.88,
+     "ci": [
+      -1.66,
+      -0.33
+     ],
+     "class": "fall"
+    },
+    "qwen3vl_8b": {
+     "delta": 0.02,
+     "ci": [
+      -0.54,
+      0.74
+     ],
+     "class": "flat"
+    },
+    "qwen3vl_8b_think": {
+     "delta": -1.38,
+     "ci": [
+      -1.77,
+      -0.61
+     ],
+     "class": "fall"
+    },
+    "internvl35_8b": {
+     "delta": 0.23,
+     "ci": [
+      0.13,
+      0.34
+     ],
+     "class": "rise"
+    }
+   },
+   "non_thinking7": {
+    "flat": 2,
+    "rise": 3,
+    "fall": 2
+   },
+   "all8": {
+    "flat": 2,
+    "rise": 3,
+    "fall": 3
+   }
+  },
+  "other": {
+   "closed_qwen38max_blink": [
+    4.0,
+    -0.8,
+    9.7
+   ],
+   "state_keys": [
+    "qwen3b",
+    "qwen7b",
+    "internvl3_8b",
+    "phi35v",
+    "molmo7b"
+   ]
+  }
+ },
+ "readout": {
+  "engines": {
+   "V0_exact_full_vocab": [
+    "qwen3b",
+    "qwen7b",
+    "internvl3_8b",
+    "phi35v"
+   ],
+   "V1_top20": [
+    "molmo7b",
+    "qwen3vl_8b",
+    "qwen3vl_8b_think",
+    "internvl35_8b"
+   ]
+  },
+  "usage": {
+   "Tab. 1 / Tab. S3 / Fig. 1c / Tab. S4 left / Tab. 2 main pool / Tab. S11 / S24-S27": "e1x exact readout for V0 models (legacy greedy rationales re-read), top-20 for V1 models",
+   "Sec. 5 D+-C+- cells (Fig. 2a,b, Tab. S28-S32 commit / rescue / judge samples, steering, claim edits)": "original (legacy) runs' top-20 letter scores for all models (results/v2 e1, e4)",
+   "Tab. S38 (state), Tab. S62 (probe x-dist), Tab. S16/S17 cue set, twins via e10": "e10 re-run: CoT regenerated greedily in a new run, same engine as Direct",
+   "Tab. S35/S36 (gate), Tab. S37 (AFE)": "e22 / e25 re-run: plain CoT = one-shot greedy generation in that run"
+  },
+  "cells": {
+   "qwen3b": {
+    "items_cell_differs_2850": 83,
+    "syn_tab1": [
+     158,
+     21
+    ],
+    "syn_legacy": [
+     149,
+     23
+    ]
+   },
+   "qwen7b": {
+    "items_cell_differs_2850": 27,
+    "syn_tab1": [
+     81,
+     43
+    ],
+    "syn_legacy": [
+     81,
+     42
+    ]
+   },
+   "internvl3_8b": {
+    "items_cell_differs_2850": 22,
+    "syn_tab1": [
+     153,
+     32
+    ],
+    "syn_legacy": [
+     153,
+     32
+    ]
+   },
+   "phi35v": {
+    "items_cell_differs_2850": 40,
+    "syn_tab1": [
+     115,
+     94
+    ],
+    "syn_legacy": [
+     117,
+     93
+    ]
+   },
+   "molmo7b": {
+    "items_cell_differs_2850": 0,
+    "syn_tab1": [
+     101,
+     31
+    ],
+    "syn_legacy": [
+     101,
+     31
+    ]
+   },
+   "qwen3vl_8b": {
+    "items_cell_differs_2850": 0,
+    "syn_tab1": [
+     117,
+     32
+    ],
+    "syn_legacy": [
+     117,
+     32
+    ]
+   },
+   "qwen3vl_8b_think": {
+    "items_cell_differs_2850": 0,
+    "syn_tab1": [
+     81,
+     19
+    ],
+    "syn_legacy": [
+     81,
+     19
+    ]
+   },
+   "internvl35_8b": {
+    "items_cell_differs_2850": 0,
+    "syn_tab1": [
+     48,
+     72
+    ],
+    "syn_legacy": [
+     48,
+     72
+    ]
+   }
+  },
+  "drift_syn_depth": {
+   "qwen3b": {
+    "n": 500,
+    "cot_acc_tab1": 57.4,
+    "cot_acc_e10": 57.4,
+    "delta": 0.0,
+    "identical_rationale_text": 45.4,
+    "same_cot_pred": 94.4,
+    "same_direct_pred": 100.0
+   },
+   "qwen7b": {
+    "n": 500,
+    "cot_acc_tab1": 70.0,
+    "cot_acc_e10": 66.4,
+    "delta": -3.6,
+    "identical_rationale_text": 56.6,
+    "same_cot_pred": 91.2,
+    "same_direct_pred": 100.0
+   },
+   "internvl3_8b": {
+    "n": 500,
+    "cot_acc_tab1": 66.0,
+    "cot_acc_e10": 63.4,
+    "delta": -2.6,
+    "identical_rationale_text": 36.6,
+    "same_cot_pred": 83.0,
+    "same_direct_pred": 100.0
+   },
+   "phi35v": {
+    "n": 500,
+    "cot_acc_tab1": 59.2,
+    "cot_acc_e10": 59.6,
+    "delta": 0.4,
+    "identical_rationale_text": 69.0,
+    "same_cot_pred": 92.4,
+    "same_direct_pred": 100.0
+   },
+   "molmo7b": {
+    "n": 500,
+    "cot_acc_tab1": 75.6,
+    "cot_acc_e10": 75.4,
+    "delta": -0.2,
+    "identical_rationale_text": 79.8,
+    "same_cot_pred": 96.2,
+    "same_direct_pred": 100.0
+   },
+   "qwen3vl_8b": {
+    "n": 500,
+    "cot_acc_tab1": 60.8,
+    "cot_acc_e10": 60.4,
+    "delta": -0.4,
+    "identical_rationale_text": 35.8,
+    "same_cot_pred": 92.4,
+    "same_direct_pred": 100.0
+   },
+   "internvl35_8b": {
+    "n": 500,
+    "cot_acc_tab1": 60.8,
+    "cot_acc_e10": 59.6,
+    "delta": -1.2,
+    "identical_rationale_text": 75.6,
+    "same_cot_pred": 97.2,
+    "same_direct_pred": 100.0
+   }
+  },
+  "disclosure": "All open-model runs decode greedily (T = 0, seed 0) with vLLM; batch composition and engine version change floating-point reductions, so a rationale regenerated in a later run can differ from the stored one: Tab. 1 re-reads the original rationales, while the state, probe, gate and answer-first experiments regenerate them, which moves Synthetic Depth CoT accuracy by up to 3.6 points (Direct answers are unchanged); the D+/-C+/- cells of Sec. 5 use the original runs' top-20 readout and differ from Tab. 1 on 22-83 near-tie items in the four exact-readout models."
+ },
+ "_bias_sensitivity_unrounded": {
+  "qwen3b": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 84.8,
+    "balanced_acc": 84.3,
+    "hit": 0.967,
+    "fa": 0.283,
+    "yes_rate": 0.638,
+    "dprime": 2.42,
+    "c": -0.63,
+    "acc_unbiased_at_dprime": 88.7
+   },
+   "cot": {
+    "acc": 57.4,
+    "balanced_acc": 56.3,
+    "hit": 0.879,
+    "fa": 0.754,
+    "yes_rate": 0.82,
+    "dprime": 0.48,
+    "c": -0.93,
+    "acc_unbiased_at_dprime": 59.5
+   },
+   "cot+turn": {
+    "acc": 57.4,
+    "balanced_acc": 56.3,
+    "hit": 0.879,
+    "fa": 0.754,
+    "yes_rate": 0.82,
+    "dprime": 0.48,
+    "c": -0.93,
+    "acc_unbiased_at_dprime": 59.5
+   },
+   "filler+turn": {
+    "acc": 82.6,
+    "balanced_acc": 82.2,
+    "hit": 0.925,
+    "fa": 0.283,
+    "yes_rate": 0.616,
+    "dprime": 2.01,
+    "c": -0.43,
+    "acc_unbiased_at_dprime": 84.3
+   },
+   "cot_vs_direct": {
+    "d_dprime": -1.93,
+    "d_dprime_ci": [
+     -2.4,
+     -1.53
+    ],
+    "d_c": -0.29,
+    "d_c_ci": [
+     -0.5,
+     -0.05
+    ],
+    "d_fa": 0.471,
+    "acc_loss": 27.4,
+    "balanced_acc_loss": 28.1,
+    "loss_from_sensitivity": 29.1,
+    "loss_from_criterion": -1.0
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -1.93,
+    "d_dprime_ci": [
+     -2.4,
+     -1.53
+    ],
+    "d_c": -0.29,
+    "d_c_ci": [
+     -0.5,
+     -0.07
+    ],
+    "d_fa": 0.471,
+    "acc_loss": 27.4,
+    "balanced_acc_loss": 28.1,
+    "loss_from_sensitivity": 29.1,
+    "loss_from_criterion": -1.0
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": -0.4,
+    "d_dprime_ci": [
+     -0.75,
+     -0.15
+    ],
+    "d_c": 0.2,
+    "d_c_ci": [
+     0.07,
+     0.37
+    ],
+    "d_fa": 0.0,
+    "acc_loss": 2.2,
+    "balanced_acc_loss": 2.1,
+    "loss_from_sensitivity": 4.4,
+    "loss_from_criterion": -2.2
+   }
+  },
+  "qwen7b": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 77.6,
+    "balanced_acc": 77.9,
+    "hit": 0.706,
+    "fa": 0.151,
+    "yes_rate": 0.438,
+    "dprime": 1.57,
+    "c": 0.25,
+    "acc_unbiased_at_dprime": 78.4
+   },
+   "cot": {
+    "acc": 70.0,
+    "balanced_acc": 70.3,
+    "hit": 0.61,
+    "fa": 0.205,
+    "yes_rate": 0.414,
+    "dprime": 1.1,
+    "c": 0.27,
+    "acc_unbiased_at_dprime": 70.9
+   },
+   "cot+turn": {
+    "acc": 70.0,
+    "balanced_acc": 70.3,
+    "hit": 0.61,
+    "fa": 0.205,
+    "yes_rate": 0.414,
+    "dprime": 1.1,
+    "c": 0.27,
+    "acc_unbiased_at_dprime": 70.9
+   },
+   "filler+turn": {
+    "acc": 79.8,
+    "balanced_acc": 80.1,
+    "hit": 0.71,
+    "fa": 0.11,
+    "yes_rate": 0.42,
+    "dprime": 1.78,
+    "c": 0.34,
+    "acc_unbiased_at_dprime": 81.3
+   },
+   "cot_vs_direct": {
+    "d_dprime": -0.47,
+    "d_dprime_ci": [
+     -0.76,
+     -0.19
+    ],
+    "d_c": 0.03,
+    "d_c_ci": [
+     -0.12,
+     0.16
+    ],
+    "d_fa": 0.054,
+    "acc_loss": 7.6,
+    "balanced_acc_loss": 7.5,
+    "loss_from_sensitivity": 7.5,
+    "loss_from_criterion": 0.0
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -0.47,
+    "d_dprime_ci": [
+     -0.74,
+     -0.19
+    ],
+    "d_c": 0.03,
+    "d_c_ci": [
+     -0.1,
+     0.17
+    ],
+    "d_fa": 0.054,
+    "acc_loss": 7.6,
+    "balanced_acc_loss": 7.5,
+    "loss_from_sensitivity": 7.5,
+    "loss_from_criterion": 0.0
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": 0.21,
+    "d_dprime_ci": [
+     0.09,
+     0.34
+    ],
+    "d_c": 0.09,
+    "d_c_ci": [
+     0.03,
+     0.16
+    ],
+    "d_fa": -0.041,
+    "acc_loss": -2.2,
+    "balanced_acc_loss": -2.3,
+    "loss_from_sensitivity": -2.9,
+    "loss_from_criterion": 0.6
+   }
+  },
+  "internvl3_8b": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 90.2,
+    "balanced_acc": 90.4,
+    "hit": 0.86,
+    "fa": 0.056,
+    "yes_rate": 0.472,
+    "dprime": 2.67,
+    "c": 0.26,
+    "acc_unbiased_at_dprime": 90.9
+   },
+   "cot": {
+    "acc": 66.0,
+    "balanced_acc": 65.5,
+    "hit": 0.783,
+    "fa": 0.473,
+    "yes_rate": 0.634,
+    "dprime": 0.85,
+    "c": -0.36,
+    "acc_unbiased_at_dprime": 66.4
+   },
+   "cot+turn": {
+    "acc": 66.8,
+    "balanced_acc": 66.3,
+    "hit": 0.794,
+    "fa": 0.469,
+    "yes_rate": 0.638,
+    "dprime": 0.9,
+    "c": -0.37,
+    "acc_unbiased_at_dprime": 67.3
+   },
+   "filler+turn": {
+    "acc": 87.8,
+    "balanced_acc": 88.1,
+    "hit": 0.81,
+    "fa": 0.052,
+    "yes_rate": 0.444,
+    "dprime": 2.51,
+    "c": 0.38,
+    "acc_unbiased_at_dprime": 89.5
+   },
+   "cot_vs_direct": {
+    "d_dprime": -1.82,
+    "d_dprime_ci": [
+     -2.23,
+     -1.46
+    ],
+    "d_c": -0.61,
+    "d_c_ci": [
+     -0.82,
+     -0.43
+    ],
+    "d_fa": 0.417,
+    "acc_loss": 24.2,
+    "balanced_acc_loss": 24.8,
+    "loss_from_sensitivity": 24.5,
+    "loss_from_criterion": 0.3
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -1.77,
+    "d_dprime_ci": [
+     -2.21,
+     -1.41
+    ],
+    "d_c": -0.63,
+    "d_c_ci": [
+     -0.82,
+     -0.44
+    ],
+    "d_fa": 0.413,
+    "acc_loss": 23.4,
+    "balanced_acc_loss": 24.0,
+    "loss_from_sensitivity": 23.6,
+    "loss_from_criterion": 0.5
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": -0.16,
+    "d_dprime_ci": [
+     -0.3,
+     -0.03
+    ],
+    "d_c": 0.12,
+    "d_c_ci": [
+     0.06,
+     0.2
+    ],
+    "d_fa": -0.004,
+    "acc_loss": 2.4,
+    "balanced_acc_loss": 2.3,
+    "loss_from_sensitivity": 1.4,
+    "loss_from_criterion": 0.9
+   }
+  },
+  "phi35v": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 63.4,
+    "balanced_acc": 63.0,
+    "hit": 0.729,
+    "fa": 0.469,
+    "yes_rate": 0.604,
+    "dprime": 0.69,
+    "c": -0.27,
+    "acc_unbiased_at_dprime": 63.4
+   },
+   "cot": {
+    "acc": 59.2,
+    "balanced_acc": 59.2,
+    "hit": 0.579,
+    "fa": 0.395,
+    "yes_rate": 0.49,
+    "dprime": 0.47,
+    "c": 0.03,
+    "acc_unbiased_at_dprime": 59.2
+   },
+   "cot+turn": {
+    "acc": 56.8,
+    "balanced_acc": 56.7,
+    "hit": 0.583,
+    "fa": 0.448,
+    "yes_rate": 0.518,
+    "dprime": 0.34,
+    "c": -0.04,
+    "acc_unbiased_at_dprime": 56.7
+   },
+   "filler+turn": {
+    "acc": 61.8,
+    "balanced_acc": 62.0,
+    "hit": 0.575,
+    "fa": 0.337,
+    "yes_rate": 0.46,
+    "dprime": 0.61,
+    "c": 0.12,
+    "acc_unbiased_at_dprime": 62.0
+   },
+   "cot_vs_direct": {
+    "d_dprime": -0.22,
+    "d_dprime_ci": [
+     -0.51,
+     0.07
+    ],
+    "d_c": 0.3,
+    "d_c_ci": [
+     0.16,
+     0.46
+    ],
+    "d_fa": -0.074,
+    "acc_loss": 4.2,
+    "balanced_acc_loss": 3.8,
+    "loss_from_sensitivity": 4.2,
+    "loss_from_criterion": -0.4
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -0.35,
+    "d_dprime_ci": [
+     -0.63,
+     -0.06
+    ],
+    "d_c": 0.23,
+    "d_c_ci": [
+     0.08,
+     0.37
+    ],
+    "d_fa": -0.021,
+    "acc_loss": 6.6,
+    "balanced_acc_loss": 6.3,
+    "loss_from_sensitivity": 6.7,
+    "loss_from_criterion": -0.4
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": -0.08,
+    "d_dprime_ci": [
+     -0.28,
+     0.12
+    ],
+    "d_c": 0.38,
+    "d_c_ci": [
+     0.29,
+     0.49
+    ],
+    "d_fa": -0.132,
+    "acc_loss": 1.6,
+    "balanced_acc_loss": 1.1,
+    "loss_from_sensitivity": 1.5,
+    "loss_from_criterion": -0.4
+   }
+  },
+  "molmo7b": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 89.6,
+    "balanced_acc": 89.7,
+    "hit": 0.867,
+    "fa": 0.076,
+    "yes_rate": 0.486,
+    "dprime": 2.54,
+    "c": 0.16,
+    "acc_unbiased_at_dprime": 89.8
+   },
+   "cot": {
+    "acc": 75.6,
+    "balanced_acc": 75.3,
+    "hit": 0.844,
+    "fa": 0.341,
+    "yes_rate": 0.602,
+    "dprime": 1.42,
+    "c": -0.3,
+    "acc_unbiased_at_dprime": 76.1
+   },
+   "cot+turn": {
+    "acc": 75.6,
+    "balanced_acc": 75.3,
+    "hit": 0.844,
+    "fa": 0.341,
+    "yes_rate": 0.602,
+    "dprime": 1.42,
+    "c": -0.3,
+    "acc_unbiased_at_dprime": 76.1
+   },
+   "filler+turn": {
+    "acc": 91.6,
+    "balanced_acc": 91.8,
+    "hit": 0.867,
+    "fa": 0.035,
+    "yes_rate": 0.466,
+    "dprime": 2.92,
+    "c": 0.35,
+    "acc_unbiased_at_dprime": 92.8
+   },
+   "cot_vs_direct": {
+    "d_dprime": -1.12,
+    "d_dprime_ci": [
+     -1.49,
+     -0.78
+    ],
+    "d_c": -0.46,
+    "d_c_ci": [
+     -0.65,
+     -0.28
+    ],
+    "d_fa": 0.265,
+    "acc_loss": 14.0,
+    "balanced_acc_loss": 14.4,
+    "loss_from_sensitivity": 13.7,
+    "loss_from_criterion": 0.8
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -1.12,
+    "d_dprime_ci": [
+     -1.52,
+     -0.78
+    ],
+    "d_c": -0.46,
+    "d_c_ci": [
+     -0.65,
+     -0.28
+    ],
+    "d_fa": 0.265,
+    "acc_loss": 14.0,
+    "balanced_acc_loss": 14.4,
+    "loss_from_sensitivity": 13.7,
+    "loss_from_criterion": 0.8
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": 0.38,
+    "d_dprime_ci": [
+     0.17,
+     0.68
+    ],
+    "d_c": 0.19,
+    "d_c_ci": [
+     0.08,
+     0.33
+    ],
+    "d_fa": -0.041,
+    "acc_loss": -2.0,
+    "balanced_acc_loss": -2.1,
+    "loss_from_sensitivity": -3.0,
+    "loss_from_criterion": 0.9
+   }
+  },
+  "qwen3vl_8b": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 77.8,
+    "balanced_acc": 77.2,
+    "hit": 0.925,
+    "fa": 0.382,
+    "yes_rate": 0.664,
+    "dprime": 1.74,
+    "c": -0.57,
+    "acc_unbiased_at_dprime": 80.8
+   },
+   "cot": {
+    "acc": 60.8,
+    "balanced_acc": 60.1,
+    "hit": 0.794,
+    "fa": 0.593,
+    "yes_rate": 0.698,
+    "dprime": 0.59,
+    "c": -0.53,
+    "acc_unbiased_at_dprime": 61.5
+   },
+   "cot+turn": {
+    "acc": 60.6,
+    "balanced_acc": 59.9,
+    "hit": 0.79,
+    "fa": 0.593,
+    "yes_rate": 0.696,
+    "dprime": 0.57,
+    "c": -0.52,
+    "acc_unbiased_at_dprime": 61.3
+   },
+   "filler+turn": {
+    "acc": 80.2,
+    "balanced_acc": 79.7,
+    "hit": 0.937,
+    "fa": 0.345,
+    "yes_rate": 0.652,
+    "dprime": 1.93,
+    "c": -0.56,
+    "acc_unbiased_at_dprime": 83.2
+   },
+   "cot_vs_direct": {
+    "d_dprime": -1.15,
+    "d_dprime_ci": [
+     -1.48,
+     -0.85
+    ],
+    "d_c": 0.04,
+    "d_c_ci": [
+     -0.11,
+     0.2
+    ],
+    "d_fa": 0.211,
+    "acc_loss": 17.0,
+    "balanced_acc_loss": 17.1,
+    "loss_from_sensitivity": 19.2,
+    "loss_from_criterion": -2.1
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -1.17,
+    "d_dprime_ci": [
+     -1.5,
+     -0.89
+    ],
+    "d_c": 0.05,
+    "d_c_ci": [
+     -0.1,
+     0.21
+    ],
+    "d_fa": 0.211,
+    "acc_loss": 17.2,
+    "balanced_acc_loss": 17.3,
+    "loss_from_sensitivity": 19.5,
+    "loss_from_criterion": -2.2
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": 0.19,
+    "d_dprime_ci": [
+     0.07,
+     0.33
+    ],
+    "d_c": 0.01,
+    "d_c_ci": [
+     -0.06,
+     0.06
+    ],
+    "d_fa": -0.037,
+    "acc_loss": -2.4,
+    "balanced_acc_loss": -2.4,
+    "loss_from_sensitivity": -2.4,
+    "loss_from_criterion": -0.0
+   }
+  },
+  "qwen3vl_8b_think": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 89.0,
+    "balanced_acc": 88.9,
+    "hit": 0.917,
+    "fa": 0.143,
+    "yes_rate": 0.544,
+    "dprime": 2.46,
+    "c": -0.16,
+    "acc_unbiased_at_dprime": 89.0
+   },
+   "cot": {
+    "acc": 76.6,
+    "balanced_acc": 76.1,
+    "hit": 0.894,
+    "fa": 0.374,
+    "yes_rate": 0.644,
+    "dprime": 1.57,
+    "c": -0.46,
+    "acc_unbiased_at_dprime": 78.4
+   },
+   "cot+turn": {
+    "acc": 76.6,
+    "balanced_acc": 76.1,
+    "hit": 0.894,
+    "fa": 0.374,
+    "yes_rate": 0.644,
+    "dprime": 1.57,
+    "c": -0.46,
+    "acc_unbiased_at_dprime": 78.4
+   },
+   "filler+turn": {
+    "acc": 91.4,
+    "balanced_acc": 91.6,
+    "hit": 0.871,
+    "fa": 0.043,
+    "yes_rate": 0.472,
+    "dprime": 2.84,
+    "c": 0.29,
+    "acc_unbiased_at_dprime": 92.3
+   },
+   "cot_vs_direct": {
+    "d_dprime": -0.89,
+    "d_dprime_ci": [
+     -1.19,
+     -0.6
+    ],
+    "d_c": -0.3,
+    "d_c_ci": [
+     -0.45,
+     -0.16
+    ],
+    "d_fa": 0.231,
+    "acc_loss": 12.4,
+    "balanced_acc_loss": 12.8,
+    "loss_from_sensitivity": 10.6,
+    "loss_from_criterion": 2.1
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": -0.89,
+    "d_dprime_ci": [
+     -1.2,
+     -0.59
+    ],
+    "d_c": -0.3,
+    "d_c_ci": [
+     -0.46,
+     -0.16
+    ],
+    "d_fa": 0.231,
+    "acc_loss": 12.4,
+    "balanced_acc_loss": 12.8,
+    "loss_from_sensitivity": 10.6,
+    "loss_from_criterion": 2.1
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": 0.39,
+    "d_dprime_ci": [
+     0.13,
+     0.7
+    ],
+    "d_c": 0.45,
+    "d_c_ci": [
+     0.32,
+     0.61
+    ],
+    "d_fa": -0.1,
+    "acc_loss": -2.4,
+    "balanced_acc_loss": -2.7,
+    "loss_from_sensitivity": -3.2,
+    "loss_from_criterion": 0.6
+   }
+  },
+  "internvl35_8b": {
+   "n": 500,
+   "n_gold_yes": 259,
+   "direct": {
+    "acc": 56.0,
+    "balanced_acc": 55.2,
+    "hit": 0.775,
+    "fa": 0.671,
+    "yes_rate": 0.726,
+    "dprime": 0.31,
+    "c": -0.6,
+    "acc_unbiased_at_dprime": 56.2
+   },
+   "cot": {
+    "acc": 60.8,
+    "balanced_acc": 60.0,
+    "hit": 0.821,
+    "fa": 0.622,
+    "yes_rate": 0.726,
+    "dprime": 0.61,
+    "c": -0.62,
+    "acc_unbiased_at_dprime": 62.0
+   },
+   "cot+turn": {
+    "acc": 61.6,
+    "balanced_acc": 60.9,
+    "hit": 0.813,
+    "fa": 0.597,
+    "yes_rate": 0.71,
+    "dprime": 0.64,
+    "c": -0.57,
+    "acc_unbiased_at_dprime": 62.6
+   },
+   "filler+turn": {
+    "acc": 60.0,
+    "balanced_acc": 59.2,
+    "hit": 0.821,
+    "fa": 0.638,
+    "yes_rate": 0.734,
+    "dprime": 0.57,
+    "c": -0.64,
+    "acc_unbiased_at_dprime": 61.1
+   },
+   "cot_vs_direct": {
+    "d_dprime": 0.3,
+    "d_dprime_ci": [
+     0.03,
+     0.56
+    ],
+    "d_c": -0.02,
+    "d_c_ci": [
+     -0.16,
+     0.12
+    ],
+    "d_fa": -0.049,
+    "acc_loss": -4.8,
+    "balanced_acc_loss": -4.8,
+    "loss_from_sensitivity": -5.8,
+    "loss_from_criterion": 1.0
+   },
+   "cot+turn_vs_direct": {
+    "d_dprime": 0.33,
+    "d_dprime_ci": [
+     0.08,
+     0.6
+    ],
+    "d_c": 0.03,
+    "d_c_ci": [
+     -0.09,
+     0.16
+    ],
+    "d_fa": -0.074,
+    "acc_loss": -5.6,
+    "balanced_acc_loss": -5.7,
+    "loss_from_sensitivity": -6.5,
+    "loss_from_criterion": 0.8
+   },
+   "filler+turn_vs_direct": {
+    "d_dprime": 0.25,
+    "d_dprime_ci": [
+     0.14,
+     0.38
+    ],
+    "d_c": -0.04,
+    "d_c_ci": [
+     -0.1,
+     0.02
+    ],
+    "d_fa": -0.033,
+    "acc_loss": -4.0,
+    "balanced_acc_loss": -4.0,
+    "loss_from_sensitivity": -4.9,
+    "loss_from_criterion": 1.0
+   }
+  }
+ },
+ "fixrefresh": {
+  "changes": {
+   "qwen7b": {
+    "fix_main_pool:cot_consistent_rate:printed": [
+     "+85.0",
+     "+85.1"
+    ],
+    "fix_heldout:vote4:printed": [
+     "+64.2",
+     "+64.1"
+    ]
+   },
+   "internvl3_8b": {
+    "fix_main_pool:direct:printed": [
+     "+89.7",
+     "+89.6"
+    ],
+    "fix_main_pool:sym_direct_minus_direct:printed": [
+     "+0.3",
+     "+0.4"
+    ],
+    "fix_main_pool:cot_consistent_rate:printed": [
+     "+87.0",
+     "+87.1"
+    ],
+    "fix_heldout:sym_direct:printed": [
+     "+68.5",
+     "+68.4"
+    ]
+   },
+   "qwen3vl_8b": {
+    "fix_main_pool:sym_direct_minus_direct:printed": [
+     "+3.0",
+     "+2.9"
+    ],
+    "fix_heldout:desc:printed": [
+     "+68.5",
+     "+68.4"
+    ]
+   },
+   "internvl35_8b": {
+    "fix_main_pool:cot_consistent_rate:printed": [
+     "+86.3",
+     "+86.4"
+    ],
+    "fix_heldout:vote4:printed": [
+     "+67.0",
+     "+66.9"
+    ]
+   }
+  }
+ },
+ "facts": {
+  "facts": [
+   {
+    "tag": "H1",
+    "fact": "Synthetic Depth (500 images): 'larger visible area is in front' is right on 98.6% [97.1, 99.3] (wrong on 7 images); on the 431 overlapping images 98.4%; 'lower is closer' 52.4% [48.0, 56.7]; both agree on 51.6% of images (accuracy 98.1%); size-else-lower 98.6%; 5-fold logistic on log visible ratio + vertical offset 98.2%. Median visible ratio 4.86x. Rules answer by relation, so accuracy is identical under both object orders.",
+    "source": "e27_reframe.json heur.syn_depth (syn_depth_geometry.json px/cy; front from e2a cfq question+gold; category from rigor_e17i)"
+   },
+   {
+    "tag": "H2",
+    "fact": "Original twins (400 images): drawn-size rule 0.0% (front never drawn larger; mean drawn ratio 0.77), visible-size rule 61.0% [56.1, 65.7] (front fully visible, back partly hidden; mean visible ratio 1.1), lower rule 50.0%, visible-size-else-lower 61.0% (logistic 63.0%).",
+    "source": "e27_reframe.json heur.twins (e2d meta: area_front_px, area_back_px, back_hidden_frac, front_above)"
+   },
+   {
+    "tag": "H3",
+    "fact": "Cue-factorial set (1,600 images): drawn-size 50.0%, lower 50.0% (balanced by design), visible-size 64.6% [62.2, 66.9] (occlusion hides part of the back shape, so the front is visibly larger even when drawn smaller), visible-size-else-lower 64.6% (logistic 64.4%).",
+    "source": "e27_reframe.json heur.cues (e10 *_cues meta)"
+   },
+   {
+    "tag": "H4",
+    "fact": "Hard occlusion set (288 images): drawn-size 0.0%, visible-size 14.2% (i.e. 'smaller visible area is in front' 85.8%), lower 50.0%; a fitted logistic on visible ratio reaches 86.5% by learning the reversed size rule. By level visible-size {'L3': {'size_visible': 18.8, 'lower': 50.0}, 'L3b': {'size_visible': 15.6, 'lower': 50.0}, 'L4': {'size_visible': 8.3, 'lower': 50.0}}.",
+    "source": "e27_reframe.json heur.hard (e2h meta)"
+   },
+   {
+    "tag": "H5-qwen3b",
+    "fact": "Qwen2.5-VL-3B: Synthetic Depth Direct two-order accuracy 82.2 [79.9, 84.3], agreement with the size rule 82.0 [79.7, 84.1] (CoT 56.8 [54.4, 59.2]); 99.0% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 8/14. Direct agreement with 'lower is closer': twins 98.0 [97.0, 98.9], cue set 96.2 [95.2, 97.1] (CoT 69.4 [67.4, 71.5]); with the visible-size rule on the cue set 51.6 [47.0, 56.0].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H5-qwen7b",
+    "fact": "Qwen2.5-VL-7B: Synthetic Depth Direct two-order accuracy 78.3 [75.1, 81.4], agreement with the size rule 78.1 [75.1, 81.2] (CoT 69.3 [66.2, 72.2]); 99.0% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 8/14. Direct agreement with 'lower is closer': twins 95.5 [93.6, 97.1], cue set 95.6 [94.4, 96.7] (CoT 70.4 [68.4, 72.4]); with the visible-size rule on the cue set 51.8 [47.2, 56.1].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H5-internvl3_8b",
+    "fact": "InternVL3-8B: Synthetic Depth Direct two-order accuracy 90.3 [88.1, 92.4], agreement with the size rule 90.1 [87.8, 92.2] (CoT 63.9 [60.8, 66.9]); 99.1% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 8/14. Direct agreement with 'lower is closer': twins 84.1 [81.1, 86.9], cue set 84.9 [82.9, 86.9] (CoT 58.6 [56.1, 61.3]); with the visible-size rule on the cue set 55.8 [52.0, 59.7].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H5-phi35v",
+    "fact": "Phi-3.5-V: Synthetic Depth Direct two-order accuracy 65.0 [61.8, 68.1], agreement with the size rule 65.0 [61.8, 68.1] (CoT 57.6 [54.7, 60.5]); 98.9% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 7/14. Direct agreement with 'lower is closer': twins 64.9 [61.9, 67.8], cue set 62.6 [60.6, 64.8] (CoT 55.2 [53.1, 57.4]); with the visible-size rule on the cue set 47.6 [45.2, 50.1].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H5-molmo7b",
+    "fact": "Molmo-7B-D: Synthetic Depth Direct two-order accuracy 88.5 [86.5, 90.5], agreement with the size rule 88.1 [86.0, 90.2] (CoT 73.1 [70.4, 75.7]); 99.0% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 9/14. Direct agreement with 'lower is closer': twins 58.4 [52.8, 63.9], cue set 57.2 [53.4, 61.1] (CoT 54.1 [50.9, 57.2]); with the visible-size rule on the cue set 61.1 [57.1, 65.1].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H5-qwen3vl_8b",
+    "fact": "Qwen3-VL-8B: Synthetic Depth Direct two-order accuracy 77.9 [75.5, 80.2], agreement with the size rule 77.1 [74.7, 79.6] (CoT 60.3 [57.5, 63.2]); 98.6% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 11/14. Direct agreement with 'lower is closer': twins 61.4 [56.4, 66.2], cue set 62.2 [59.4, 65.4] (CoT 41.4 [38.2, 44.8]); with the visible-size rule on the cue set 56.0 [52.6, 59.4].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H5-internvl35_8b",
+    "fact": "InternVL3.5-8B: Synthetic Depth Direct two-order accuracy 55.8 [52.8, 58.8], agreement with the size rule 55.6 [52.6, 58.5] (CoT 59.1 [56.2, 62.0]); 98.6% of Direct-correct answers are also size-rule answers; accuracy on the 7 size-rule-wrong images (both orders) 8/14. Direct agreement with 'lower is closer': twins 92.6 [90.5, 94.5], cue set 93.8 [92.5, 95.1] (CoT 81.6 [79.6, 83.8]); with the visible-size rule on the cue set 51.1 [46.8, 55.3].",
+    "source": "e27_reframe.json heur.syn_model / heur.occ_model (Tab. 1 readout + e2a cfq; e2d; e10 cues)"
+   },
+   {
+    "tag": "H6",
+    "fact": "On Synthetic Depth size and occlusion are collinear (size rule wrong on 7/500 images), so the share of Direct accuracy 'explained' by size is not identifiable there: Direct agreement with the size rule equals Direct accuracy within 0.8 points in every model. The size-controlled sets separate them.",
+    "source": "e27_reframe.json heur.syn_model"
+   },
+   {
+    "tag": "C0",
+    "fact": "occlusion-competent := (i) Direct accuracy on the size- and vertical-balanced cue-factorial set has 95% CI lower bound > 70% AND (ii) the Direct probit-GLM occlusion weight on that set has CI lower bound > 0. Models without a cue-set run (Qwen3-VL-8B-Thinking) are 'not evaluable' under the rule. Secondary, reported only: Direct twin pair-matched d' CI lower bound > 1 and twin accuracy CI lower bound > 70%.",
+    "source": "pre-stated in rigor_e27.comp before reading the per-model table"
+   },
+   {
+    "tag": "C1",
+    "fact": "Competent: ['Molmo-7B-D', 'Qwen3-VL-8B']; not competent: ['Qwen2.5-VL-3B', 'Qwen2.5-VL-7B', 'InternVL3-8B', 'Phi-3.5-V', 'InternVL3.5-8B']; not evaluable (no cue-set run): ['Qwen3-VL-8B-Thinking']. InternVL3-8B fails (i) only: cue Direct 63.7 [60.8, 66.5], occlusion weight {'d': 1.81, 'ci': [1.61, 2.14]}. Thinking: twins Direct 87.1 [84.9, 89.2], d'_pair {'d': 3.75, 'ci': [3.72, 3.79]} (BW = 0 cap, lower bound) meets the secondary twin criteria.",
+    "source": "e27_reframe.json comp.models (e10 cues, glm_decomp.json, syn_pair_sdt_mh.json twins, e2d)"
+   },
+   {
+    "tag": "C2-molmo7b",
+    "fact": "Molmo-7B-D: cue set Direct 88.2 [86.6, 89.7], CoT-Direct -13.1 [-15.3, -10.8]; GLM occlusion 2.72 -> change -1.18 [-1.39, -1.01], vertical 0.85 -> change -0.55 [-0.72, -0.33]; AUC change {'diff': -0.166, 'ci': [-0.19, -0.149]}. Twins Direct 88.1 [86.0, 90.2], CoT-Direct -14.0 [-17.2, -10.9]; d'_pair 2.49 change -0.88 [-1.66, -0.33] (pooled d' change -0.94 [-1.23, -0.68]). Synthetic Depth accuracy change -14.0 [-18.6, -9.6], d'_pair 2.033 change -0.73 [-1.14, -0.41]; on 431 overlapping -0.78 [-1.34, -0.36]. Hard set Direct 55.2% [52.8, 57.8], d' 0.26 [0.14, 0.39], CoT d' change [-0.22, -0.4, -0.04].",
+    "source": "e27_reframe.json comp.models + ovl.models (Tab. S12-S17, S26, e2h/summary.json)"
+   },
+   {
+    "tag": "C3-molmo7b",
+    "fact": "Molmo-7B-D: commit audit (Tab. S30 sample, Synthetic Depth) D+C- 24/31 judgeable contradict the image (77.4%); relational D+C+ comparator [14.7, 34]; D+C- on images Direct gets right under both orders [73.1, 26]. Claim edit (same-turn regeneration, Tab. S33): D+C- correct claim 68.6% vs neutral 56.0% (diff [12.6, 4.0, 21.5]); D+C+ wrong claim 18.6% vs neutral 81.9%; twins only: D+C- correct 64.2% vs 60.5% (n=81), D+C+ wrong 25.4% vs 77.4%. Loss locus (Tab. S19) cues {'direct': 88.2, 'first_claim_correct': 84.2, 'cot': 75.1, 'claim_stage_loss': 4.2, 'post_claim_loss': 9.2, 'classification': 'loss both at the first claim and after it'}; twins {'direct': 88.2, 'first_claim_correct': 83.7, 'cot': 73.6, 'claim_stage_loss': 4.7, 'post_claim_loss': 10.0, 'classification': 'loss both at the first claim and after it'}.",
+    "source": "commit_judge.json, syn_pair_sdt.json seeing, claim_edit.json, e17k.json locus"
+   },
+   {
+    "tag": "C2-qwen3vl_8b",
+    "fact": "Qwen3-VL-8B: cue set Direct 78.9 [77.0, 80.8], CoT-Direct -1.6 [-4.4, +1.1]; GLM occlusion 2.79 -> change -1.01 [-1.36, -0.70], vertical 1.49 -> change -2.13 [-2.38, -1.91]; AUC change {'diff': -0.099, 'ci': [-0.127, -0.074]}. Twins Direct 81.1 [78.4, 83.9], CoT-Direct -2.0 [-6.0, +2.1]; d'_pair 1.88 change +0.02 [-0.54, +0.74] (pooled d' change -0.46 [-0.87, -0.08]). Synthetic Depth accuracy change -17.0 [-21.2, -12.4], d'_pair 1.949 change -1.32 [-1.77, -0.98]; on 431 overlapping -1.55 [-2.14, -1.18]. Hard set Direct 54.9% [50.9, 59.2], d' 0.32 [0.06, 0.62], CoT d' change [0.54, 0.13, 0.96].",
+    "source": "e27_reframe.json comp.models + ovl.models (Tab. S12-S17, S26, e2h/summary.json)"
+   },
+   {
+    "tag": "C3-qwen3vl_8b",
+    "fact": "Qwen3-VL-8B: commit audit (Tab. S30 sample, Synthetic Depth) D+C- 26/27 judgeable contradict the image (96.3%); relational D+C+ comparator [3.6, 28]; D+C- on images Direct gets right under both orders [95.0, 20]. Claim edit (same-turn regeneration, Tab. S33): D+C- correct claim 97.8% vs neutral 30.1% (diff [67.8, 60.7, 74.6]); D+C+ wrong claim 6.6% vs neutral 91.1%; twins only: D+C- correct 100.0% vs 23.5% (n=68), D+C+ wrong 8.1% vs 92.6%. Loss locus (Tab. S19) cues {'direct': 78.9, 'first_claim_correct': 78.2, 'cot': 77.3, 'claim_stage_loss': 0.7, 'post_claim_loss': 0.7, 'classification': 'little loss on this set'}; twins {'direct': 81.1, 'first_claim_correct': 78.8, 'cot': 78.6, 'claim_stage_loss': 2.3, 'post_claim_loss': -0.1, 'classification': 'little loss on this set'}.",
+    "source": "commit_judge.json, syn_pair_sdt.json seeing, claim_edit.json, e17k.json locus"
+   },
+   {
+    "tag": "C4",
+    "fact": "Pooled over the two competent models: commit sentences contradict the image in 50/58 = 86.2% [75.1, 92.8] vs 6/62 = 9.7% [4.5, 19.5] for matched relational D+C+ sentences; restricted to images Direct gets right under both orders 38/46 = 82.6%. Other five models 89.3% vs 9.8%.",
+    "source": "e27_reframe.json comp.pooled_audit (e20 judge records via syn_pair_sdt.json seeing)"
+   },
+   {
+    "tag": "O1",
+    "fact": "431 overlapping items: single-order CoT-Direct accuracy drops range [-25.8, -4.4] (all 500: [-27.4, -4.2]); Qwen2.5-VL-3B -27.4 -> -25.8; pooled d' falls CI<0 in 6/7 ([-1.893, -0.379]); d'_pair falls CI<0 in 4/7 ['Qwen2.5-VL-3B', 'InternVL3-8B', 'Molmo-7B-D', 'Qwen3-VL-8B'] (all 500: 6/7), range [-1.551, -0.782]; Qwen2.5-VL-7B -0.14 [-0.3, 0.03], Phi-3.5-V -0.21 [-0.4, 0.0]; InternVL3.5-8B still rises. Commit audit pooled [208, 235, 88.5] -> [184, 209, 88.0]; relational comparator [22, 226, 9.7] -> [19, 203, 9.4].",
+    "source": "e27_reframe.json ovl (syn_overlap.json categories; rigor_e17p.stats; e20 judge records)"
+   },
+   {
+    "tag": "D1",
+    "fact": "Description control (question-blind, twins, pooled d' change Desc-Direct vs CoT-Direct): Qwen2.5-VL-3B +0.18 [-0.08, 0.44] vs +0.05; Qwen2.5-VL-7B -0.41 [-0.77, -0.0] vs +0.21; InternVL3-8B +0.13 [-0.25, 0.51] vs +0.43; Phi-3.5-V -0.49 [-0.7, -0.29] vs -0.23; Molmo-7B-D -1.21 [-1.47, -0.98] vs -0.94; Qwen3-VL-8B -0.62 [-1.01, -0.3] vs -0.46; InternVL3.5-8B +0.31 [-0.07, 0.68] vs +0.25. Occlusion component (cue-cell decomposition) Desc-Direct vs CoT-Direct: Qwen2.5-VL-3B -0.16 vs -0.32; Qwen2.5-VL-7B -1.15 vs -0.44; InternVL3-8B -0.54 vs -0.30; Phi-3.5-V -0.54 vs -0.29; Molmo-7B-D -1.44 vs -1.23; Qwen3-VL-8B -1.00 vs -0.85; InternVL3.5-8B -0.41 vs -0.07. Held-out (767) Desc-Direct accuracy: Qwen2.5-VL-3B 1.7 [-1.6, 4.7]; Qwen2.5-VL-7B -4.6 [-7.8, -1.2]; InternVL3-8B -1.8 [-4.6, 0.9]; Phi-3.5-V 0.4 [-2.6, 3.3]; Molmo-7B-D 0.9 [-2.1, 3.9]; Qwen3-VL-8B -2.2 [-4.6, 0.1]; InternVL3.5-8B 1.6 [-1.2, 4.7]. no question-blind description arm was run on the cue-factorial set (e10 cue conditions: direct, cot, state, filler_S+turn, filler_R+turn); the structured JSON state arm is question-aware and is the closest analogue.",
+    "source": "dprime_ci.json, cues.json twins.decomposition, e6_eval.json"
+   },
+   {
+    "tag": "Q1",
+    "fact": "Closed models: Direct and CoT both ran with reasoning_effort='high' (Gemini: thinking_level high) on twins, Synthetic Depth (250) and BLINK (e9x) and on the hard set (e9h); hidden reasoning was present in both arms (Direct calls with reasoning tokens: Claude Opus 5.5 77.6-100%, GPT-6-Astra 51.7-99.1%, Gemini/DeepSeek/Qwen3.8-Max/HY4 100%). CoT was a user-turn instruction ('Let's think step by step: first describe ..., end with Answer: (X)') with the answer parsed from text; open models get the CoT as an assistant prefix and a forced single-token readout. A reasoning-off Direct ('direct_nr') exists for twins / Synthetic Depth / BLINK Depth (DeepSeek, Qwen3.8-Max: none, 0% reasoning; Claude: minimal, 22.8% of twin calls still reason; GPT: low, 0.2%) and on the hard set (Claude minimal 89.6%, GPT low 29.3%, DeepSeek/Qwen3.8-Max none 0%). No CoT arm at reasoning none exists except DeepSeek-V4.1-Flash on the cue set (both arms none, 0% reasoning). Temperature not set (provider default); one call per item.",
+    "source": "e9x_api.py, api_client.py, outputs/e9x|e9h|e9c_cues records (effort, reasoning_tokens); research_log Exp-9x"
+   },
+   {
+    "tag": "Q2",
+    "fact": "Gemini-4-Argon hard set is partial (79 Direct / 82 CoT of 576); Qwen3.8-Max hard set has 854/852 records for 576 prompts (duplicate rows from a re-run).",
+    "source": "outputs/e9h/*.jsonl counts"
+   },
+   {
+    "tag": "R1",
+    "fact": "Readouts: V0 exact full-vocabulary (Qwen2.5-VL-3B/7B, InternVL3-8B, Phi-3.5-V) for Tab. 1/S3/S4/S11/S24-S27/Tab. 2 main pool; V1 top-20 (Molmo-7B-D, Qwen3-VL-8B, -Thinking, InternVL3.5-8B) throughout; Sec. 5 groups (Fig. 2a,b, Tab. S28-S34, steering) use the original runs' top-20 letter scores for all models.",
+    "source": "build_bundle.py docstring, Tab. S4 note, e27_reframe.json readout.usage"
+   },
+   {
+    "tag": "R2",
+    "fact": "All open-model runs decode greedily (T = 0, seed 0) with vLLM; batch composition and engine version change floating-point reductions, so a rationale regenerated in a later run can differ from the stored one: Tab. 1 re-reads the original rationales, while the state, probe, gate and answer-first experiments regenerate them, which moves Synthetic Depth CoT accuracy by up to 3.6 points (Direct answers are unchanged); the D+/-C+/- cells of Sec. 5 use the original runs' top-20 readout and differ from Tab. 1 on 22-83 near-tie items in the four exact-readout models.",
+    "source": "e27_reframe.json readout.drift_syn_depth, readout.cells"
+   }
+  ],
+  "fixes": [
+   {
+    "id": "a",
+    "item": "Tab. 2 / Tab. S46 depth-valid rows Qwen3-VL-8B = InternVL3.5-8B",
+    "old": "-4.6 [-9.6, +0.3]; Sym -1.2 [-4.0, +1.5] (both)",
+    "new": "values unchanged, not a copy: per-item CoT-Direct deltas differ on 97 items and Sym-Direct on 38, both nets equal (-15/324, -4/324); unrounded CoT-Direct upper bounds +0.31 vs +0.32",
+    "source": "heldout_breakdown.model_rows (e6x, e5c)",
+    "changed": "footnote in Tab. 2 (make_tab3.py) and note row in Tab. S46 (make_supp_tables.py)"
+   },
+   {
+    "id": "b",
+    "item": "Tab. 2 Sym-Direct",
+    "old": "Qwen2.5-VL-3B +2.0, Qwen3-VL-8B +3.0, InternVL3-8B +0.3",
+    "new": "Qwen2.5-VL-3B +2.0 (correct: 1.9649; Sym = 82.2456, the earlier +1.9 used the rounded 82.2), Qwen3-VL-8B +2.9 (2.9474), InternVL3-8B +0.4 (0.3509); the same double rounding also fixed InternVL3-8B Direct 89.7 -> 89.6 and CoT consistency 85.0/87.0/86.3 -> 85.1/87.1/86.4 (Qwen2.5-VL-7B / InternVL3-8B / InternVL3.5-8B)",
+    "source": "build_bundle.sym_and_gate at 4 dp; numbers.json had 2-dp means that make_tab3 re-rounded",
+    "changed": "numbers.json fix_main_pool/fix_heldout (4 dp), Tab. 2 regenerated"
+   },
+   {
+    "id": "c",
+    "item": "Tab. 1 re-show +1.5 vs text +1.4",
+    "old": "Tab. 1 marginals implied +1.5 (Qwen2.5-VL-3B, InternVL3-8B)",
+    "new": "unrounded max post-CoT re-supply gain +1.44 (41/2,850 items) in both models; range [0.0, 1.439] (with CoT+turn -0.17); Tab. 1 also double-rounded 4 cells: InternVL3-8B Direct 89.7 -> 89.6, InternVL3-8B CoT+restate 85.0 -> 84.9, Qwen2.5-VL-3B CoT+both 73.0 -> 72.9, Qwen3-VL-8B CoT+reimage 87.7 -> 87.6",
+    "source": "build_bundle.load_main (e1x exact readout / legacy)",
+    "changed": "tables/tab2_behavioral_and_tasks.tex (hand-maintained, 4 cells)"
+   },
+   {
+    "id": "d",
+    "item": "Tab. S24 'Loss: sens./crit.'",
+    "old": "labelled accuracy loss; e.g. Qwen2.5-VL-3B 29.2/-1.2",
+    "new": "relabelled 'Bal.-acc. loss: sens./crit.' (sums to the balanced-accuracy change by construction); values from unrounded estimates: Qwen2.5-VL-3B 29.1/-1.0 (bal 28.1, acc 27.4); Qwen2.5-VL-7B 7.5/0.0 (bal 7.5, acc 7.6); InternVL3-8B 24.5/0.3 (bal 24.8, acc 24.2); Phi-3.5-V 4.2/-0.4 (bal 3.8, acc 4.2); Molmo-7B-D 13.7/0.8 (bal 14.4, acc 14.0); Qwen3-VL-8B 19.2/-2.1 (bal 17.1, acc 17.0); Qwen3-VL-8B-Thinking 10.6/2.1 (bal 12.8, acc 12.4); InternVL3.5-8B -5.8/1.0 (bal -4.8, acc -4.8). Appendix caption still says 'accuracy loss' (editor).",
+    "source": "rigor_e17.bias_sensitivity (now unrounded differences)",
+    "changed": "bias_sensitivity.json, Tab. S24 header+values (also Delta c last digit), Tab. S25 'single' column (now read from bias_sensitivity.json)"
+   },
+   {
+    "id": "e",
+    "item": "Fig. 2b normalization",
+    "old": "bars/labels 63.9-87.0 (all D+C-) vs text 69.3-88.5 (committed)",
+    "new": "both correct, different denominators: of all D+C- [63.9, 87.0], of committed D+C- [69.3, 88.5]; caption should say 'share of all D+C- items (incl. no commit)', text should cite 'of committed items' with Tab. S28",
+    "source": "commit_baseline.json, numbers.json error_onset",
+    "changed": "none (caption/text for editor)"
+   },
+   {
+    "id": "f",
+    "item": "Fig. 4 mirrored S vs full-pool S_orig",
+    "old": "S_orig 68.2/61.1/36.3 (full pool) next to S_mirror on L/R items",
+    "new": "S_orig on the same L/R items: InternVL3.5-8B 85.7, InternVL3-8B 85.1, Qwen2.5-VL-7B 55.4 (n 651/651/650); now drawn as a '|' marker on each Mirrored row",
+    "source": "e3x_same_subset.json",
+    "changed": "make_figures_v3.build_fig3_swaps; fig3_swaps.pdf/png regenerated (same 3.28x3.58 in)"
+   },
+   {
+    "id": "g",
+    "item": "probe control range 0.53-0.73",
+    "old": "stated 'under the same metrics'",
+    "new": "balanced accuracy [0.529, 0.729]; wrong-claim recall [0.36, 0.725]",
+    "source": "probe_controls.json (filler r, layer0_r, baselines.text, baselines.cue)",
+    "changed": "none (text)"
+   },
+   {
+    "id": "h",
+    "item": "App. M 'five of eight' (CV-Bench 3D Depth d')",
+    "old": "lowers d' by 0.25-1.21 in five of eight",
+    "new": "point estimate <= -0.24 in five (Tab. S40: -0.25 to -1.21), CI<0 in four (['Qwen2.5-VL-3B', 'Phi-3.5-V', 'Molmo-7B-D', 'Qwen3-VL-8B']); Qwen2.5-VL-7B -0.25 [-0.52, +0.02] n.s.",
+    "source": "Tab. S40 (e17l.json cvb), heldout_breakdown.json natural_sdt",
+    "changed": "none (text)"
+   },
+   {
+    "id": "i",
+    "item": "Sec. 5 'first claim is j* in 30-89%'",
+    "old": "30-89%",
+    "new": "Tab. S30 audited sample [27.5, 77.5] (pooled 57.1); recomputed on all committed Synthetic Depth D+C- items with the same parser [29.9, 72.5] (7 models); the 89% upper end is not reproduced by the current parser",
+    "source": "e2b trajectories + e20_commit_judge.first_claim_idx/commit_idx; commit_judge.json",
+    "changed": "none (text)"
+   },
+   {
+    "id": "j",
+    "item": "Qwen2.5-VL-3B single-phrasing delta d'",
+    "old": "-1.93 (Tab. S11) vs -1.94 (Tab. S24)",
+    "new": "-1.93 in both (S24 took the difference of rounded d'); Tab. S11 should be labelled single-phrasing (main text uses the polarity-pooled -1.77)",
+    "source": "bias_sensitivity.json (unrounded), syn_overlap.json",
+    "changed": "Tab. S24"
+   },
+   {
+    "id": "k",
+    "item": "twin d'_pair counts",
+    "old": "abstract 'falls in three, rises in three'",
+    "new": "7 non-Thinking: fall 2 (Phi-3.5-V, Molmo-7B-D), flat 2 (Qwen2.5-VL-3B, Qwen3-VL-8B), rise 3 (Qwen2.5-VL-7B, InternVL3-8B, InternVL3.5-8B); with Thinking: fall 3, flat 2, rise 3",
+    "source": "syn_pair_sdt_mh.json twins (Tab. S13)",
+    "changed": "none (text)"
+   },
+   {
+    "id": "l1",
+    "item": "greedy re-run drift (Tab. S3 vs S38/S62; S26 vs S35)",
+    "old": "Qwen2.5-VL-7B 70.0 vs 66.4; InternVL3-8B 66.0 vs 63.4",
+    "new": "Qwen2.5-VL-3B 57.4 vs 57.4 (identical text 45.4%, same CoT answer 94.4%); Qwen2.5-VL-7B 70.0 vs 66.4 (identical text 56.6%, same CoT answer 91.2%); InternVL3-8B 66.0 vs 63.4 (identical text 36.6%, same CoT answer 83.0%); Phi-3.5-V 59.2 vs 59.6 (identical text 69.0%, same CoT answer 92.4%); Molmo-7B-D 75.6 vs 75.4 (identical text 79.8%, same CoT answer 96.2%); Qwen3-VL-8B 60.8 vs 60.4 (identical text 35.8%, same CoT answer 92.4%); InternVL3.5-8B 60.8 vs 59.6 (identical text 75.6%, same CoT answer 97.2%). Cause: Tab. 1 re-reads the original (legacy) greedy rationales; e10/e22/e25 regenerate them in a later vLLM run; Direct answers identical (100%).",
+    "source": "e1x / results/v2 e1 vs e10 *.jsonl",
+    "changed": "none (disclosure sentence)"
+   },
+   {
+    "id": "l2",
+    "item": "Tab. 1 / Sec. 5 D+-C+- cells",
+    "old": "83/27/22/40 items differ (Tab. S4)",
+    "new": "confirmed [83, 27, 22, 40] (V0 models), 0 for V1 models",
+    "source": "churn.json, build_bundle.groups_from",
+    "changed": "none"
+   },
+   {
+    "id": "l3",
+    "item": "Qwen3.8-Max BLINK +4.0 vs 90.3 -> 94.4",
+    "old": "+4.0",
+    "new": "+4.0 correct (117-112 = 5/124 = 4.03); 94.4 - 90.3 = 4.1 is rounded marginals",
+    "source": "e9x_summary.json",
+    "changed": "none"
+   },
+   {
+    "id": "l4",
+    "item": "Phi-3.5-V BLINK CoT empty",
+    "old": "-",
+    "new": "100% empty rationales on BLINK Relative Depth (format effect; exclude from CoT means or mark)",
+    "source": "heldout_breakdown.json blink_depth.format.empty_cot_share",
+    "changed": "none"
+   }
+  ]
+ },
+ "proposal": {
+  "title": "Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial VQA (verbatim)",
+  "scope_sentence": "'Seeing right' is claimed only for models that pass the pre-stated occlusion-competence rule (Molmo-7B-D, Qwen3-VL-8B); Synthetic Depth is a size-confounded stress test (size rule 98.6%), not evidence of occlusion reading.",
+  "claims": [
+   {
+    "n": 1,
+    "claim": "In occlusion-competent models, writing a rationale weakens the answer's dependence on occlusion on a set where size and vertical position are balanced.",
+    "primary_estimator": "cue-factorial probit-GLM occlusion weight, CoT - Direct (d' units, twin-pair bootstrap)",
+    "values": "Molmo-7B-D -1.18 [-1.39, -1.01] (2.72 -> 1.54); Qwen3-VL-8B -1.01 [-1.36, -0.70] (2.79 -> 1.78)",
+    "secondary": "cue accuracy Molmo -13.1 [-15.3, -10.8], Qwen3-VL-8B -1.6 [-4.4, +1.1] (vertical prior flips 1.49 -> -0.64, offsetting); twins d'_pair -0.88 [-1.66, -0.33] / +0.02 [-0.54, +0.74]; Synthetic Depth 431 d'_pair -0.78 / -1.55; caveat: other cue weights shrink too (not occlusion-selective)",
+    "source": "glm_decomp.json cues, e27_reframe.json comp/ovl"
+   },
+   {
+    "n": 2,
+    "claim": "The loss enters at a written relational claim that contradicts the image, and the answer follows that claim.",
+    "primary_estimator": "two-judge consensus contradiction rate of commit sentences j* (D+C-) vs position-matched relational D+C+ sentences, pooled over the competent models",
+    "values": "50/58 = 86.2% [75.1, 92.8] vs 6/62 = 9.7% [4.5, 19.5]; 38/46 = 82.6% on images Direct answers correctly under both object orders (all seven models: 208/235 = 88.5% vs 22/226 = 9.7%; 431 overlapping items: 184/209 = 88.0% vs 19/203 = 9.4%)",
+    "secondary": "claim edits (same-turn regeneration): D+C- correct claim Qwen3-VL-8B 97.8% vs neutral 30.1% (twins 100.0 vs 23.5), Molmo 68.6 vs 56.0 (twins 64.2 vs 60.5, n.s.); D+C+ wrong claim 6.6% / 18.6% vs neutral 91.1 / 81.9; human check n=9 D+C- 6/9 (Exp-24) as a caveat; copier/checker answer-step taxonomy",
+    "source": "commit_judge.json, syn_pair_sdt.json seeing, claim_edit.json, e27_reframe.json comp.pooled_audit / ovl.commit_audit"
+   },
+   {
+    "n": 3,
+    "claim": "Elsewhere the effect is not a corrupted readout: in shortcut-reliant models Direct mostly follows 'lower is closer' and CoT dilutes that prior (accuracy flat or up on balanced sets), and on natural images the CoT-Direct effect is small and benchmark-specific.",
+    "primary_estimator": "pre-registered held-out pool (767 BLINK + 3DSRBench items) CoT - Direct accuracy per model",
+    "values": "-3.1 to +1.3 points; no per-model 95% CI excludes zero (Qwen2.5-VL-7B -3.1 [-6.4, +0.3]; Gemini-Argon review's 'significant in Qwen2.5-VL-7B' is not supported) (e6_eval.json pooled, Tab. 2B)",
+    "secondary": "cue set Direct agreement with lower-is-closer 84.9-96.2% in Qwen2.5-VL-3B/7B, InternVL3-8B, InternVL3.5-8B (CoT 58.6-81.6%), cue accuracy +0.6 to +4.8; BLINK Relative Depth vs Filler+turn CI<0 in 1/7; 3DSRBench depth flat, height/above/left improve; depth-valid 324: 0/7 CI<0 (post hoc)",
+    "source": "e6_eval.json, heldout_breakdown.json, e27_reframe.json heur.occ_model"
+   }
+  ],
+  "move_to_supp": "gate, AFE, symmetrization, vote prediction, structured state, steering, scale ladder details, closed-model table (with the reasoning-effort disclosure)",
+  "closed_model_disclosure": "Closed models were queried once per item through an API with reasoning_effort=high in both arms (hidden reasoning present in both), CoT requested in the user turn and the answer parsed from text; only Direct was also run with reasoning off or at the lowest level, so the closed-model contrast is visible-plus-hidden versus hidden reasoning, not CoT versus a reasoning-free readout.",
+  "readout_disclosure": "All open-model runs decode greedily (T = 0, seed 0) with vLLM; batch composition and engine version change floating-point reductions, so a rationale regenerated in a later run can differ from the stored one: Tab. 1 re-reads the original rationales, while the state, probe, gate and answer-first experiments regenerate them, which moves Synthetic Depth CoT accuracy by up to 3.6 points (Direct answers are unchanged); the D+/-C+/- cells of Sec. 5 use the original runs' top-20 readout and differ from Tab. 1 on 22-83 near-tie items in the four exact-readout models."
+ }
+}

@@ -1,0 +1,942 @@
+{
+ "_sources": {
+  "2x2": "per item, cue-factorial set (e10 <m>_cues.jsonl CoT text + CoT answer); last relational claim by claim_parse v3 over e2f split_sents; agree = answer implied by the written front object equals the CoT answer; denominators = cue items with a parsed last claim; twin-pair (image) cluster bootstrap 2,000. Twins / Syn. Depth 431 versions in 'twins' / 'syn431'.",
+  "dvis": "imgswap.json full:all dvis (Tab. supp_recheck 'full R, all'): own full rationale, image v -> identity-swapped twin v_cf, 800 twin queries per model; full:wrongR = items whose rationale has a wrong claim.",
+  "edit": "claim_edit_uncond.json 'all' (Tab. supp_claim_uncond): Synthetic Depth (500 images) + occlusion twins ('in front' phrasing), items whose stored rationale has a parsable first claim, all four Direct x CoT cells; edit at the first claim, same-turn continuation.",
+  "S_orig": "relation_sensitivity.json: S = P(follows appended gold conclusion) - P(follows appended wrong conclusion) under R_cut, original image, CV-Bench 2D left/right items (Fig. 4 value) and depth items (CV-Bench 3D Depth + Synthetic Depth); checker = rationale-body checker (InternVL3-8B, InternVL3.5-8B, Qwen2.5-VL-7B), copier = the rest.",
+  "commit": "commit_baseline.json / commit_nulls.json (Tab. supp_commit_nulls): D+C- rationales of the 2,850-item pool (Sec. 5 cells, e2b trajectories); commit share = rationales with a commit j* / all D+C-; relational share = rule-typed relational j* / committed."
+ },
+ "models": {
+  "qwen3b": {
+   "cues": {
+    "n": 1536,
+    "n_true": 834,
+    "n_false": 702,
+    "k_true_agree": 644,
+    "k_false_agree": 530,
+    "p_agree_true": 77.2,
+    "p_agree_true_ci": [
+     74.2,
+     80.1
+    ],
+    "p_agree_false": 75.5,
+    "p_agree_false_ci": [
+     72.1,
+     78.8
+    ]
+   },
+   "twins": {
+    "n": 775,
+    "n_true": 408,
+    "n_false": 367,
+    "k_true_agree": 323,
+    "k_false_agree": 282,
+    "p_agree_true": 79.2,
+    "p_agree_true_ci": [
+     74.7,
+     83.3
+    ],
+    "p_agree_false": 76.8,
+    "p_agree_false_ci": [
+     72.0,
+     81.7
+    ]
+   },
+   "syn431": {
+    "n": 419,
+    "n_true": 232,
+    "n_false": 187,
+    "k_true_agree": 218,
+    "k_false_agree": 162,
+    "p_agree_true": 94.0,
+    "p_agree_true_ci": [
+     90.8,
+     96.8
+    ],
+    "p_agree_false": 86.6,
+    "p_agree_false_ci": [
+     81.7,
+     91.5
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 349
+   },
+   "edit": {
+    "all": {
+     "n": 875,
+     "correct_minus_direct": {
+      "mean": 15.8857,
+      "lo": 12.1352,
+      "hi": 19.5969,
+      "n": 875
+     },
+     "neutral_minus_direct": {
+      "mean": -11.4286,
+      "lo": -15.2944,
+      "hi": -7.6734,
+      "n": 875
+     },
+     "acc_direct": 69.3714,
+     "acc_correct": 85.2571
+    },
+    "syn": {
+     "n": 486,
+     "correct_minus_direct": {
+      "mean": 4.7325,
+      "lo": 0.4115,
+      "hi": 9.2593,
+      "n": 486
+     },
+     "neutral_minus_direct": {
+      "mean": -20.1646,
+      "lo": -24.8971,
+      "hi": -15.6379,
+      "n": 486
+     },
+     "acc_direct": 82.716,
+     "acc_correct": 87.4486
+    },
+    "occ": {
+     "n": 389,
+     "correct_minus_direct": {
+      "mean": 29.8201,
+      "lo": 23.7586,
+      "hi": 36.1763,
+      "n": 389
+     },
+     "neutral_minus_direct": {
+      "mean": -0.5141,
+      "lo": -6.8882,
+      "hi": 6.2176,
+      "n": 389
+     },
+     "acc_direct": 52.6992,
+     "acc_correct": 82.5193
+    }
+   },
+   "type": "copier",
+   "S_orig_LR": {
+    "mean": 12.6365,
+    "lo": 10.0639,
+    "hi": 15.1661,
+    "n": 641
+   },
+   "S_orig_depth": {
+    "mean": 2.4658,
+    "lo": 1.4612,
+    "hi": 3.4703,
+    "n": 1095
+   },
+   "commit": {
+    "n_DCm": 458,
+    "n_committed": 444,
+    "commit_share": 96.9,
+    "relational_share_of_commits": 85.4,
+    "relational_share_of_all_DCm": 82.8
+   }
+  },
+  "qwen7b": {
+   "cues": {
+    "n": 1466,
+    "n_true": 833,
+    "n_false": 633,
+    "k_true_agree": 754,
+    "k_false_agree": 546,
+    "p_agree_true": 90.5,
+    "p_agree_true_ci": [
+     88.4,
+     92.6
+    ],
+    "p_agree_false": 86.3,
+    "p_agree_false_ci": [
+     83.4,
+     89.0
+    ]
+   },
+   "twins": {
+    "n": 747,
+    "n_true": 432,
+    "n_false": 315,
+    "k_true_agree": 391,
+    "k_false_agree": 273,
+    "p_agree_true": 90.5,
+    "p_agree_true_ci": [
+     87.3,
+     93.3
+    ],
+    "p_agree_false": 86.7,
+    "p_agree_false_ci": [
+     82.6,
+     90.4
+    ]
+   },
+   "syn431": {
+    "n": 420,
+    "n_true": 290,
+    "n_false": 130,
+    "k_true_agree": 271,
+    "k_false_agree": 105,
+    "p_agree_true": 93.4,
+    "p_agree_true_ci": [
+     90.6,
+     96.2
+    ],
+    "p_agree_false": 80.8,
+    "p_agree_false_ci": [
+     74.3,
+     87.3
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 0.125,
+    "lo": 0.0,
+    "hi": 0.375,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": 0.2732,
+    "lo": 0.0,
+    "hi": 0.8451,
+    "n": 366
+   },
+   "edit": {
+    "all": {
+     "n": 856,
+     "correct_minus_direct": {
+      "mean": 27.2196,
+      "lo": 24.0236,
+      "hi": 30.5497,
+      "n": 856
+     },
+     "neutral_minus_direct": {
+      "mean": -2.3364,
+      "lo": -5.4155,
+      "hi": 0.9379,
+      "n": 856
+     },
+     "acc_direct": 67.9907,
+     "acc_correct": 95.2103
+    },
+    "syn": {
+     "n": 481,
+     "correct_minus_direct": {
+      "mean": 19.5426,
+      "lo": 16.2162,
+      "hi": 23.0769,
+      "n": 481
+     },
+     "neutral_minus_direct": {
+      "mean": -8.9397,
+      "lo": -13.0977,
+      "hi": -4.5738,
+      "n": 481
+     },
+     "acc_direct": 78.1705,
+     "acc_correct": 97.7131
+    },
+    "occ": {
+     "n": 375,
+     "correct_minus_direct": {
+      "mean": 37.0667,
+      "lo": 31.283,
+      "hi": 43.2448,
+      "n": 375
+     },
+     "neutral_minus_direct": {
+      "mean": 6.1333,
+      "lo": 1.604,
+      "hi": 10.4565,
+      "n": 375
+     },
+     "acc_direct": 54.9333,
+     "acc_correct": 92.0
+    }
+   },
+   "type": "checker",
+   "S_orig_LR": {
+    "mean": 55.3846,
+    "lo": 51.846,
+    "hi": 58.9063,
+    "n": 650
+   },
+   "S_orig_depth": {
+    "mean": 27.9091,
+    "lo": 24.2705,
+    "hi": 31.5455,
+    "n": 1100
+   },
+   "commit": {
+    "n_DCm": 284,
+    "n_committed": 282,
+    "commit_share": 99.3,
+    "relational_share_of_commits": 87.6,
+    "relational_share_of_all_DCm": 87.0
+   }
+  },
+  "internvl3_8b": {
+   "cues": {
+    "n": 1534,
+    "n_true": 1010,
+    "n_false": 524,
+    "k_true_agree": 970,
+    "k_false_agree": 454,
+    "p_agree_true": 96.0,
+    "p_agree_true_ci": [
+     94.8,
+     97.1
+    ],
+    "p_agree_false": 86.6,
+    "p_agree_false_ci": [
+     83.6,
+     89.5
+    ]
+   },
+   "twins": {
+    "n": 763,
+    "n_true": 511,
+    "n_false": 252,
+    "k_true_agree": 477,
+    "k_false_agree": 223,
+    "p_agree_true": 93.3,
+    "p_agree_true_ci": [
+     90.7,
+     95.7
+    ],
+    "p_agree_false": 88.5,
+    "p_agree_false_ci": [
+     84.5,
+     92.3
+    ]
+   },
+   "syn431": {
+    "n": 395,
+    "n_true": 265,
+    "n_false": 130,
+    "k_true_agree": 259,
+    "k_false_agree": 121,
+    "p_agree_true": 97.7,
+    "p_agree_true_ci": [
+     95.8,
+     99.3
+    ],
+    "p_agree_false": 93.1,
+    "p_agree_false_ci": [
+     88.2,
+     97.0
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 6.75,
+    "lo": 4.625,
+    "hi": 9.0,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": 10.1818,
+    "lo": 6.3197,
+    "hi": 14.717,
+    "n": 275
+   },
+   "edit": {
+    "all": {
+     "n": 874,
+     "correct_minus_direct": {
+      "mean": 19.4508,
+      "lo": 16.2565,
+      "hi": 22.4634,
+      "n": 874
+     },
+     "neutral_minus_direct": {
+      "mean": -12.5858,
+      "lo": -16.7065,
+      "hi": -8.6213,
+      "n": 874
+     },
+     "acc_direct": 77.5744,
+     "acc_correct": 97.0252
+    },
+    "syn": {
+     "n": 476,
+     "correct_minus_direct": {
+      "mean": 9.2437,
+      "lo": 6.5126,
+      "hi": 12.1849,
+      "n": 476
+     },
+     "neutral_minus_direct": {
+      "mean": -27.1008,
+      "lo": -32.3529,
+      "hi": -22.0588,
+      "n": 476
+     },
+     "acc_direct": 90.3361,
+     "acc_correct": 99.5798
+    },
+    "occ": {
+     "n": 398,
+     "correct_minus_direct": {
+      "mean": 31.6583,
+      "lo": 26.3803,
+      "hi": 37.1228,
+      "n": 398
+     },
+     "neutral_minus_direct": {
+      "mean": 4.7739,
+      "lo": -1.2594,
+      "hi": 10.5534,
+      "n": 398
+     },
+     "acc_direct": 62.3116,
+     "acc_correct": 93.9698
+    }
+   },
+   "type": "checker",
+   "S_orig_LR": {
+    "mean": 85.0998,
+    "lo": 81.7889,
+    "hi": 88.1098,
+    "n": 651
+   },
+   "S_orig_depth": {
+    "mean": 49.0,
+    "lo": 45.4545,
+    "hi": 52.6364,
+    "n": 1100
+   },
+   "commit": {
+    "n_DCm": 267,
+    "n_committed": 248,
+    "commit_share": 92.9,
+    "relational_share_of_commits": 82.3,
+    "relational_share_of_all_DCm": 76.4
+   }
+  },
+  "phi35v": {
+   "cues": {
+    "n": 1102,
+    "n_true": 720,
+    "n_false": 382,
+    "k_true_agree": 603,
+    "k_false_agree": 317,
+    "p_agree_true": 83.8,
+    "p_agree_true_ci": [
+     80.9,
+     86.4
+    ],
+    "p_agree_false": 83.0,
+    "p_agree_false_ci": [
+     79.1,
+     86.9
+    ]
+   },
+   "twins": {
+    "n": 532,
+    "n_true": 362,
+    "n_false": 170,
+    "k_true_agree": 301,
+    "k_false_agree": 143,
+    "p_agree_true": 83.1,
+    "p_agree_true_ci": [
+     79.2,
+     86.8
+    ],
+    "p_agree_false": 84.1,
+    "p_agree_false_ci": [
+     78.5,
+     89.4
+    ]
+   },
+   "syn431": {
+    "n": 291,
+    "n_true": 154,
+    "n_false": 137,
+    "k_true_agree": 149,
+    "k_false_agree": 125,
+    "p_agree_true": 96.8,
+    "p_agree_true_ci": [
+     93.6,
+     99.3
+    ],
+    "p_agree_false": 91.2,
+    "p_agree_false_ci": [
+     86.4,
+     95.8
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 0.375,
+    "lo": -0.75,
+    "hi": 1.625,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": -0.9852,
+    "lo": -2.5,
+    "hi": 0.0,
+    "n": 203
+   },
+   "edit": {
+    "all": {
+     "n": 598,
+     "correct_minus_direct": {
+      "mean": 34.9498,
+      "lo": 31.4286,
+      "hi": 38.652,
+      "n": 598
+     },
+     "neutral_minus_direct": {
+      "mean": -6.8562,
+      "lo": -11.0545,
+      "hi": -2.5509,
+      "n": 598
+     },
+     "acc_direct": 65.0502,
+     "acc_correct": 100.0
+    },
+    "syn": {
+     "n": 338,
+     "correct_minus_direct": {
+      "mean": 34.0237,
+      "lo": 28.6982,
+      "hi": 39.0533,
+      "n": 338
+     },
+     "neutral_minus_direct": {
+      "mean": -5.0296,
+      "lo": -11.2426,
+      "hi": 0.8876,
+      "n": 338
+     },
+     "acc_direct": 65.9763,
+     "acc_correct": 100.0
+    },
+    "occ": {
+     "n": 260,
+     "correct_minus_direct": {
+      "mean": 36.1538,
+      "lo": 31.4171,
+      "hi": 40.9266,
+      "n": 260
+     },
+     "neutral_minus_direct": {
+      "mean": -9.2308,
+      "lo": -14.5109,
+      "hi": -3.7705,
+      "n": 260
+     },
+     "acc_direct": 63.8462,
+     "acc_correct": 100.0
+    }
+   },
+   "type": "copier",
+   "S_orig_LR": {
+    "mean": 0.2257,
+    "lo": 0.0,
+    "hi": 0.6945,
+    "n": 443
+   },
+   "S_orig_depth": {
+    "mean": 0.1949,
+    "lo": -0.3899,
+    "hi": 0.9747,
+    "n": 513
+   },
+   "commit": {
+    "n_DCm": 601,
+    "n_committed": 530,
+    "commit_share": 88.2,
+    "relational_share_of_commits": 83.2,
+    "relational_share_of_all_DCm": 73.4
+   }
+  },
+  "molmo7b": {
+   "cues": {
+    "n": 1514,
+    "n_true": 1223,
+    "n_false": 291,
+    "k_true_agree": 1072,
+    "k_false_agree": 227,
+    "p_agree_true": 87.7,
+    "p_agree_true_ci": [
+     85.8,
+     89.4
+    ],
+    "p_agree_false": 78.0,
+    "p_agree_false_ci": [
+     73.1,
+     82.8
+    ]
+   },
+   "twins": {
+    "n": 766,
+    "n_true": 611,
+    "n_false": 155,
+    "k_true_agree": 541,
+    "k_false_agree": 129,
+    "p_agree_true": 88.5,
+    "p_agree_true_ci": [
+     85.9,
+     91.0
+    ],
+    "p_agree_false": 83.2,
+    "p_agree_false_ci": [
+     77.5,
+     88.6
+    ]
+   },
+   "syn431": {
+    "n": 402,
+    "n_true": 327,
+    "n_false": 75,
+    "k_true_agree": 308,
+    "k_false_agree": 66,
+    "p_agree_true": 94.2,
+    "p_agree_true_ci": [
+     91.5,
+     96.6
+    ],
+    "p_agree_false": 88.0,
+    "p_agree_false_ci": [
+     79.7,
+     95.2
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 145
+   },
+   "edit": {
+    "all": {
+     "n": 857,
+     "correct_minus_direct": {
+      "mean": -12.252,
+      "lo": -15.5745,
+      "hi": -9.2376,
+      "n": 857
+     },
+     "neutral_minus_direct": {
+      "mean": -16.3361,
+      "lo": -19.5127,
+      "hi": -13.1517,
+      "n": 857
+     },
+     "acc_direct": 91.2485,
+     "acc_correct": 78.9965
+    },
+    "syn": {
+     "n": 464,
+     "correct_minus_direct": {
+      "mean": -12.931,
+      "lo": -17.8879,
+      "hi": -8.1897,
+      "n": 464
+     },
+     "neutral_minus_direct": {
+      "mean": -13.5776,
+      "lo": -18.1034,
+      "hi": -9.2619,
+      "n": 464
+     },
+     "acc_direct": 90.0862,
+     "acc_correct": 77.1552
+    },
+    "occ": {
+     "n": 393,
+     "correct_minus_direct": {
+      "mean": -11.4504,
+      "lo": -15.4822,
+      "hi": -6.9226,
+      "n": 393
+     },
+     "neutral_minus_direct": {
+      "mean": -19.5929,
+      "lo": -24.2981,
+      "hi": -14.9351,
+      "n": 393
+     },
+     "acc_direct": 92.6209,
+     "acc_correct": 81.1705
+    }
+   },
+   "type": "copier",
+   "S_orig_LR": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 651
+   },
+   "S_orig_depth": {
+    "mean": 0.0917,
+    "lo": 0.0,
+    "hi": 0.275,
+    "n": 1091
+   },
+   "commit": {
+    "n_DCm": 421,
+    "n_committed": 388,
+    "commit_share": 92.2,
+    "relational_share_of_commits": 69.3,
+    "relational_share_of_all_DCm": 63.9
+   }
+  },
+  "qwen3vl_8b": {
+   "cues": {
+    "n": 1561,
+    "n_true": 1196,
+    "n_false": 365,
+    "k_true_agree": 1191,
+    "k_false_agree": 346,
+    "p_agree_true": 99.6,
+    "p_agree_true_ci": [
+     99.2,
+     99.9
+    ],
+    "p_agree_false": 94.8,
+    "p_agree_false_ci": [
+     92.5,
+     97.0
+    ]
+   },
+   "twins": {
+    "n": 790,
+    "n_true": 625,
+    "n_false": 165,
+    "k_true_agree": 622,
+    "k_false_agree": 160,
+    "p_agree_true": 99.5,
+    "p_agree_true_ci": [
+     98.9,
+     100.0
+    ],
+    "p_agree_false": 97.0,
+    "p_agree_false_ci": [
+     94.1,
+     99.4
+    ]
+   },
+   "syn431": {
+    "n": 425,
+    "n_true": 263,
+    "n_false": 162,
+    "k_true_agree": 259,
+    "k_false_agree": 158,
+    "p_agree_true": 98.5,
+    "p_agree_true_ci": [
+     96.9,
+     99.6
+    ],
+    "p_agree_false": 97.5,
+    "p_agree_false_ci": [
+     95.0,
+     99.4
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "n": 172
+   },
+   "edit": {
+    "all": {
+     "n": 888,
+     "correct_minus_direct": {
+      "mean": 14.3018,
+      "lo": 11.8694,
+      "hi": 16.7986,
+      "n": 888
+     },
+     "neutral_minus_direct": {
+      "mean": -13.7387,
+      "lo": -17.0219,
+      "hi": -10.6126,
+      "n": 888
+     },
+     "acc_direct": 84.1216,
+     "acc_correct": 98.4234
+    },
+    "syn": {
+     "n": 491,
+     "correct_minus_direct": {
+      "mean": 19.1446,
+      "lo": 15.4786,
+      "hi": 23.0143,
+      "n": 491
+     },
+     "neutral_minus_direct": {
+      "mean": -12.6273,
+      "lo": -17.3116,
+      "hi": -7.7393,
+      "n": 491
+     },
+     "acc_direct": 78.0041,
+     "acc_correct": 97.1487
+    },
+    "occ": {
+     "n": 397,
+     "correct_minus_direct": {
+      "mean": 8.3123,
+      "lo": 5.5416,
+      "hi": 11.1392,
+      "n": 397
+     },
+     "neutral_minus_direct": {
+      "mean": -15.1134,
+      "lo": -19.5489,
+      "hi": -10.8861,
+      "n": 397
+     },
+     "acc_direct": 91.6877,
+     "acc_correct": 100.0
+    }
+   },
+   "type": "copier",
+   "S_orig_LR": {
+    "mean": 3.096,
+    "lo": 1.8546,
+    "hi": 4.4753,
+    "n": 646
+   },
+   "S_orig_depth": {
+    "mean": 0.1869,
+    "lo": 0.0,
+    "hi": 0.4673,
+    "n": 1070
+   },
+   "commit": {
+    "n_DCm": 190,
+    "n_committed": 186,
+    "commit_share": 97.9,
+    "relational_share_of_commits": 83.3,
+    "relational_share_of_all_DCm": 81.6
+   }
+  },
+  "internvl35_8b": {
+   "cues": {
+    "n": 1418,
+    "n_true": 880,
+    "n_false": 538,
+    "k_true_agree": 751,
+    "k_false_agree": 420,
+    "p_agree_true": 85.3,
+    "p_agree_true_ci": [
+     82.4,
+     88.1
+    ],
+    "p_agree_false": 78.1,
+    "p_agree_false_ci": [
+     73.7,
+     82.1
+    ]
+   },
+   "twins": {
+    "n": 718,
+    "n_true": 480,
+    "n_false": 238,
+    "k_true_agree": 397,
+    "k_false_agree": 190,
+    "p_agree_true": 82.7,
+    "p_agree_true_ci": [
+     78.2,
+     86.7
+    ],
+    "p_agree_false": 79.8,
+    "p_agree_false_ci": [
+     74.5,
+     84.8
+    ]
+   },
+   "syn431": {
+    "n": 399,
+    "n_true": 249,
+    "n_false": 150,
+    "k_true_agree": 221,
+    "k_false_agree": 122,
+    "p_agree_true": 88.8,
+    "p_agree_true_ci": [
+     84.7,
+     92.4
+    ],
+    "p_agree_false": 81.3,
+    "p_agree_false_ci": [
+     75.0,
+     87.6
+    ]
+   },
+   "dvis_full_all": {
+    "mean": 8.5,
+    "lo": 4.0,
+    "hi": 12.8781,
+    "n": 800
+   },
+   "dvis_full_wrongR": {
+    "mean": 5.1546,
+    "lo": -1.6725,
+    "hi": 12.1429,
+    "n": 291
+   },
+   "type": "checker",
+   "S_orig_LR": {
+    "mean": 85.7143,
+    "lo": 82.362,
+    "hi": 88.8365,
+    "n": 651
+   },
+   "S_orig_depth": {
+    "mean": 51.6364,
+    "lo": 47.0,
+    "hi": 56.0909,
+    "n": 1100
+   },
+   "commit": {
+    "n_DCm": 119,
+    "n_committed": 104,
+    "commit_share": 87.4,
+    "relational_share_of_commits": 88.5,
+    "relational_share_of_all_DCm": 77.3
+   }
+  }
+ },
+ "qwen3vl_8b_think_twins_2x2": {
+  "n": 593,
+  "n_true": 499,
+  "n_false": 94,
+  "k_true_agree": 491,
+  "k_false_agree": 59,
+  "p_agree_true": 98.4,
+  "p_agree_true_ci": [
+   97.2,
+   99.4
+  ],
+  "p_agree_false": 62.8,
+  "p_agree_false_ci": [
+   53.7,
+   71.3
+  ]
+ },
+ "cue_commit_share_e28_note": "cue-set D+C- commit share (Exp-28): Qwen3-VL-8B 247/252 = 98.0%, Molmo-7B-D 270/301 = 89.7%"
+}

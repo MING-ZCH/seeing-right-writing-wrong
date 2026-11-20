@@ -1,0 +1,391 @@
+{
+ "n": 560,
+ "agree": 0.9,
+ "kappa_clear": 0.921,
+ "rows": {
+  "qwen3b|D+C-": {
+   "n": 40,
+   "opus_incorrect": 97.4,
+   "opus_ci": [
+    86.5,
+    99.5
+   ],
+   "opus_noclaim": 5.0,
+   "gpt_incorrect": 97.4,
+   "gpt_ci": [
+    86.8,
+    99.5
+   ],
+   "gpt_noclaim": 2.5,
+   "consensus_incorrect": 100.0,
+   "consensus_ci": [
+    90.6,
+    100.0
+   ],
+   "consensus_n": 37,
+   "is_first_claim": 77.5,
+   "commit_is_first_claim_consensus_incorrect": 100.0,
+   "commit_is_first_claim_n": 30,
+   "commit_later_or_other_consensus_incorrect": 100.0,
+   "commit_later_or_other_n": 7
+  },
+  "qwen3b|D+C+": {
+   "n": 40,
+   "opus_incorrect": 10.3,
+   "opus_ci": [
+    3.6,
+    26.4
+   ],
+   "opus_noclaim": 25.0,
+   "gpt_incorrect": 7.4,
+   "gpt_ci": [
+    2.1,
+    23.4
+   ],
+   "gpt_noclaim": 30.0,
+   "consensus_incorrect": 7.7,
+   "consensus_ci": [
+    2.1,
+    24.1
+   ],
+   "consensus_n": 26,
+   "is_first_claim": 22.5
+  },
+  "qwen7b|D+C-": {
+   "n": 40,
+   "opus_incorrect": 55.3,
+   "opus_ci": [
+    39.7,
+    69.9
+   ],
+   "opus_noclaim": 5.0,
+   "gpt_incorrect": 57.9,
+   "gpt_ci": [
+    42.2,
+    72.1
+   ],
+   "gpt_noclaim": 5.0,
+   "consensus_incorrect": 57.1,
+   "consensus_ci": [
+    40.9,
+    72.0
+   ],
+   "consensus_n": 35,
+   "is_first_claim": 70.0,
+   "commit_is_first_claim_consensus_incorrect": 69.2,
+   "commit_is_first_claim_n": 26,
+   "commit_later_or_other_consensus_incorrect": 22.2,
+   "commit_later_or_other_n": 9
+  },
+  "qwen7b|D+C+": {
+   "n": 40,
+   "opus_incorrect": 18.5,
+   "opus_ci": [
+    8.2,
+    36.7
+   ],
+   "opus_noclaim": 22.5,
+   "gpt_incorrect": 7.4,
+   "gpt_ci": [
+    2.1,
+    23.4
+   ],
+   "gpt_noclaim": 30.0,
+   "consensus_incorrect": 8.7,
+   "consensus_ci": [
+    2.4,
+    26.8
+   ],
+   "consensus_n": 23,
+   "is_first_claim": 45.0
+  },
+  "internvl3_8b|D+C-": {
+   "n": 40,
+   "opus_incorrect": 94.9,
+   "opus_ci": [
+    83.1,
+    98.6
+   ],
+   "opus_noclaim": 2.5,
+   "gpt_incorrect": 97.1,
+   "gpt_ci": [
+    85.5,
+    99.5
+   ],
+   "gpt_noclaim": 12.5,
+   "consensus_incorrect": 97.1,
+   "consensus_ci": [
+    85.1,
+    99.5
+   ],
+   "consensus_n": 34,
+   "is_first_claim": 52.5,
+   "commit_is_first_claim_consensus_incorrect": 95.0,
+   "commit_is_first_claim_n": 20,
+   "commit_later_or_other_consensus_incorrect": 100.0,
+   "commit_later_or_other_n": 14
+  },
+  "internvl3_8b|D+C+": {
+   "n": 40,
+   "opus_incorrect": 25.0,
+   "opus_ci": [
+    12.7,
+    43.4
+   ],
+   "opus_noclaim": 27.5,
+   "gpt_incorrect": 25.9,
+   "gpt_ci": [
+    13.2,
+    44.7
+   ],
+   "gpt_noclaim": 32.5,
+   "consensus_incorrect": 25.9,
+   "consensus_ci": [
+    13.2,
+    44.7
+   ],
+   "consensus_n": 27,
+   "is_first_claim": 27.5
+  },
+  "phi35v|D+C-": {
+   "n": 40,
+   "opus_incorrect": 94.9,
+   "opus_ci": [
+    83.1,
+    98.6
+   ],
+   "opus_noclaim": 0.0,
+   "gpt_incorrect": 97.4,
+   "gpt_ci": [
+    86.5,
+    99.5
+   ],
+   "gpt_noclaim": 0.0,
+   "consensus_incorrect": 100.0,
+   "consensus_ci": [
+    90.4,
+    100.0
+   ],
+   "consensus_n": 36,
+   "is_first_claim": 70.0,
+   "commit_is_first_claim_consensus_incorrect": 100.0,
+   "commit_is_first_claim_n": 26,
+   "commit_later_or_other_consensus_incorrect": 100.0,
+   "commit_later_or_other_n": 10
+  },
+  "phi35v|D+C+": {
+   "n": 40,
+   "opus_incorrect": 25.7,
+   "opus_ci": [
+    14.2,
+    42.1
+   ],
+   "opus_noclaim": 10.0,
+   "gpt_incorrect": 25.7,
+   "gpt_ci": [
+    14.2,
+    42.1
+   ],
+   "gpt_noclaim": 12.5,
+   "consensus_incorrect": 24.2,
+   "consensus_ci": [
+    12.8,
+    41.0
+   ],
+   "consensus_n": 33,
+   "is_first_claim": 57.5
+  },
+  "molmo7b|D+C-": {
+   "n": 40,
+   "opus_incorrect": 75.8,
+   "opus_ci": [
+    59.0,
+    87.2
+   ],
+   "opus_noclaim": 15.0,
+   "gpt_incorrect": 75.8,
+   "gpt_ci": [
+    59.0,
+    87.2
+   ],
+   "gpt_noclaim": 17.5,
+   "consensus_incorrect": 77.4,
+   "consensus_ci": [
+    60.2,
+    88.6
+   ],
+   "consensus_n": 31,
+   "is_first_claim": 42.5,
+   "commit_is_first_claim_consensus_incorrect": 82.4,
+   "commit_is_first_claim_n": 17,
+   "commit_later_or_other_consensus_incorrect": 71.4,
+   "commit_later_or_other_n": 14
+  },
+  "molmo7b|D+C+": {
+   "n": 40,
+   "opus_incorrect": 4.2,
+   "opus_ci": [
+    0.7,
+    20.2
+   ],
+   "opus_noclaim": 30.0,
+   "gpt_incorrect": 8.7,
+   "gpt_ci": [
+    2.4,
+    26.8
+   ],
+   "gpt_noclaim": 42.5,
+   "consensus_incorrect": 4.8,
+   "consensus_ci": [
+    0.8,
+    22.7
+   ],
+   "consensus_n": 21,
+   "is_first_claim": 30.0
+  },
+  "qwen3vl_8b|D+C-": {
+   "n": 40,
+   "opus_incorrect": 96.3,
+   "opus_ci": [
+    81.7,
+    99.3
+   ],
+   "opus_noclaim": 32.5,
+   "gpt_incorrect": 96.3,
+   "gpt_ci": [
+    81.7,
+    99.3
+   ],
+   "gpt_noclaim": 32.5,
+   "consensus_incorrect": 96.3,
+   "consensus_ci": [
+    81.7,
+    99.3
+   ],
+   "consensus_n": 27,
+   "is_first_claim": 27.5,
+   "commit_is_first_claim_consensus_incorrect": 90.9,
+   "commit_is_first_claim_n": 11,
+   "commit_later_or_other_consensus_incorrect": 100.0,
+   "commit_later_or_other_n": 16
+  },
+  "qwen3vl_8b|D+C+": {
+   "n": 40,
+   "opus_incorrect": 7.7,
+   "opus_ci": [
+    2.1,
+    24.1
+   ],
+   "opus_noclaim": 30.0,
+   "gpt_incorrect": 10.3,
+   "gpt_ci": [
+    3.6,
+    26.4
+   ],
+   "gpt_noclaim": 27.5,
+   "consensus_incorrect": 8.0,
+   "consensus_ci": [
+    2.2,
+    25.0
+   ],
+   "consensus_n": 25,
+   "is_first_claim": 15.0
+  },
+  "internvl35_8b|D+C-": {
+   "n": 40,
+   "opus_incorrect": 86.8,
+   "opus_ci": [
+    72.7,
+    94.2
+   ],
+   "opus_noclaim": 2.5,
+   "gpt_incorrect": 91.7,
+   "gpt_ci": [
+    78.2,
+    97.1
+   ],
+   "gpt_noclaim": 5.0,
+   "consensus_incorrect": 91.4,
+   "consensus_ci": [
+    77.6,
+    97.0
+   ],
+   "consensus_n": 35,
+   "is_first_claim": 60.0,
+   "commit_is_first_claim_consensus_incorrect": 87.5,
+   "commit_is_first_claim_n": 24,
+   "commit_later_or_other_consensus_incorrect": 100.0,
+   "commit_later_or_other_n": 11
+  },
+  "internvl35_8b|D+C+": {
+   "n": 40,
+   "opus_incorrect": 9.7,
+   "opus_ci": [
+    3.3,
+    24.9
+   ],
+   "opus_noclaim": 20.0,
+   "gpt_incorrect": 3.6,
+   "gpt_ci": [
+    0.6,
+    17.7
+   ],
+   "gpt_noclaim": 27.5,
+   "consensus_incorrect": 3.8,
+   "consensus_ci": [
+    0.7,
+    18.9
+   ],
+   "consensus_n": 26,
+   "is_first_claim": 47.5
+  },
+  "pooled|D+C-": {
+   "n": 280,
+   "opus_incorrect": 85.7,
+   "opus_ci": [
+    80.9,
+    89.5
+   ],
+   "opus_noclaim": 8.9,
+   "gpt_incorrect": 87.4,
+   "gpt_ci": [
+    82.7,
+    91.0
+   ],
+   "gpt_noclaim": 10.7,
+   "consensus_incorrect": 88.5,
+   "consensus_ci": [
+    83.8,
+    92.0
+   ],
+   "consensus_n": 235,
+   "is_first_claim": 57.1,
+   "commit_is_first_claim_consensus_incorrect": 89.6,
+   "commit_is_first_claim_n": 154,
+   "commit_later_or_other_consensus_incorrect": 86.4,
+   "commit_later_or_other_n": 81
+  },
+  "pooled|D+C+": {
+   "n": 280,
+   "opus_incorrect": 15.0,
+   "opus_ci": [
+    10.7,
+    20.6
+   ],
+   "opus_noclaim": 23.6,
+   "gpt_incorrect": 13.3,
+   "gpt_ci": [
+    9.2,
+    18.7
+   ],
+   "gpt_noclaim": 28.9,
+   "consensus_incorrect": 12.7,
+   "consensus_ci": [
+    8.6,
+    18.3
+   ],
+   "consensus_n": 181,
+   "is_first_claim": 35.0
+  }
+ }
+}

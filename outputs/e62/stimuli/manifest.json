@@ -1,0 +1,211 @@
+{
+ "n_pairs": 233,
+ "n_images": 466,
+ "dropped_pairs": [
+  "e62p047",
+  "e62p151",
+  "e62p173",
+  "e62p176",
+  "e62p222",
+  "e62p228",
+  "e62p229"
+ ],
+ "report": {
+  "tag": "final",
+  "n_pairs": 233,
+  "n_images": 466,
+  "n_items": 1398,
+  "n_categories": 42,
+  "front_higher_frac": 0.5,
+  "front_large_frac": 0.5,
+  "front_left_frac": 0.5,
+  "small_higher_pair_frac": 0.4892703862660944,
+  "gold_A_frac": {
+   "closer": 0.5,
+   "farther": 0.5,
+   "which": 0.5
+  },
+  "overlap_frac_small": [
+   0.1790136089225417,
+   0.28144682382580527,
+   0.37445942508267616
+  ],
+  "vis_ratio_front_over_back_quartiles": [
+   0.9771185103361212,
+   0.9995799649540278,
+   1.225028293049124,
+   1.7833352306799422,
+   2.2041295166588455
+  ],
+  "category_counts": [
+   [
+    "clock",
+    25
+   ],
+   [
+    "cat",
+    24
+   ],
+   [
+    "microwave",
+    22
+   ],
+   [
+    "cup",
+    21
+   ],
+   [
+    "laptop",
+    18
+   ],
+   [
+    "elephant",
+    18
+   ],
+   [
+    "dog",
+    17
+   ],
+   [
+    "teddy bear",
+    17
+   ],
+   [
+    "bear",
+    17
+   ],
+   [
+    "pizza",
+    16
+   ],
+   [
+    "cell phone",
+    16
+   ],
+   [
+    "bird",
+    16
+   ],
+   [
+    "cake",
+    15
+   ],
+   [
+    "zebra",
+    15
+   ],
+   [
+    "horse",
+    14
+   ],
+   [
+    "car",
+    14
+   ],
+   [
+    "orange",
+    13
+   ],
+   [
+    "vase",
+    13
+   ],
+   [
+    "broccoli",
+    12
+   ],
+   [
+    "bowl",
+    11
+   ],
+   [
+    "suitcase",
+    11
+   ],
+   [
+    "keyboard",
+    11
+   ],
+   [
+    "donut",
+    11
+   ],
+   [
+    "banana",
+    10
+   ],
+   [
+    "motorcycle",
+    10
+   ],
+   [
+    "chair",
+    9
+   ],
+   [
+    "cow",
+    9
+   ],
+   [
+    "sheep",
+    9
+   ],
+   [
+    "sandwich",
+    7
+   ],
+   [
+    "carrot",
+    6
+   ],
+   [
+    "mouse",
+    6
+   ],
+   [
+    "potted plant",
+    5
+   ],
+   [
+    "umbrella",
+    5
+   ],
+   [
+    "bottle",
+    5
+   ],
+   [
+    "book",
+    5
+   ],
+   [
+    "frisbee",
+    3
+   ],
+   [
+    "toaster",
+    3
+   ],
+   [
+    "giraffe",
+    2
+   ],
+   [
+    "apple",
+    2
+   ],
+   [
+    "scissors",
+    1
+   ],
+   [
+    "bicycle",
+    1
+   ],
+   [
+    "baseball glove",
+    1
+   ]
+  ]
+ }
+}

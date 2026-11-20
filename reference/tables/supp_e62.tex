@@ -1,0 +1,29 @@
+% Tab. supp_e62 (Exp-62, rigor_e62.py). Suggested caption:
+% \textbf{Natural-object occlusion twins} (Exp-62). Two segmented COCO objects pasted on a natural background
+% with 15-40\% overlap; the twin image swaps only the paste order (233 pairs, 1398 prompts:
+% closer / farther yes-no and which-is-closer, asked in camera terms). Direct = forced readout; both-correct =
+% both twins answered correctly for the same question (image-blind answering gives 0, coin flipping 25);
+% CoT = greedy rationale, same-turn readout. Image effect E = P(answer = g_v | v) - P(answer = g_v | v_cf) in points
+% with the context fixed: Direct, or the model's own rationale on v with its concluding sentence removed (R_cut).
+% Written = relation stated by R_cut (two text-only judges, consensus; fixed 360-item sample): its accuracy / Direct
+% accuracy on the same items (coverage = share of R_cut with a stated relation), and share of R_cut readouts under
+% v_cf that follow it. Qwen3-VL-32B is not in the mean. 95\% twin-pair bootstrap CIs (2,000). Compiles under \resizebox.
+\begin{tabular}{lcccccccc}
+\toprule
+ & \multicolumn{3}{c}{Accuracy (\%)} & \multicolumn{3}{c}{Image effect $E$ (points)} & \multicolumn{2}{c}{Written relation of R$_\mathrm{cut}$} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-9}
+Model & Direct & both-correct & CoT$-$Direct & Direct & R$_\mathrm{cut}$ fixed & ratio & acc.\ / Direct (cov.) & follows, $v_\mathrm{cf}$ \\
+\midrule
+Qwen2.5-VL-3B & $58.9$\,{\tiny$[57.3, 60.7]$} & $21.2$\,{\tiny$[18.2, 24.5]$} & $-3.0$\,{\tiny$[-5.7, -0.4]$} & $+10.3$\,{\tiny$[+9.3, +11.2]$} & $+1.3$\,{\tiny$[+0.9, +1.6]$} & 0.12 & 55.6 / 62.7 (94) & 91.4 \\
+Qwen2.5-VL-7B & $65.5$\,{\tiny$[63.5, 67.3]$} & $31.5$\,{\tiny$[27.6, 35.2]$} & $-2.9$\,{\tiny$[-5.5, -0.4]$} & $+23.1$\,{\tiny$[+21.1, +25.0]$} & $+4.6$\,{\tiny$[+3.9, +5.4]$} & 0.20 & 65.1 / 70.3 (96) & 88.8 \\
+InternVL3-8B & $69.0$\,{\tiny$[67.1, 71.0]$} & $38.3$\,{\tiny$[34.5, 42.2]$} & $-4.9$\,{\tiny$[-7.2, -2.6]$} & $+25.5$\,{\tiny$[+23.7, +27.3]$} & $+2.7$\,{\tiny$[+2.1, +3.2]$} & 0.11 & 68.7 / 74.6 (93) & 92.2 \\
+Phi-3.5-Vision & $56.7$\,{\tiny$[55.2, 58.2]$} & $18.2$\,{\tiny$[15.6, 20.9]$} & $-3.5$\,{\tiny$[-5.7, -1.3]$} & $+10.7$\,{\tiny$[+9.5, +12.0]$} & $+0.4$\,{\tiny$[+0.0, +0.8]$} & 0.04 & 55.4 / 60.8 (92) & 84.0 \\
+Molmo-7B-D & $59.6$\,{\tiny$[58.1, 61.1]$} & $20.6$\,{\tiny$[17.7, 23.5]$} & $+1.0$\,{\tiny$[-1.6, +3.7]$} & $+9.9$\,{\tiny$[+9.0, +10.8]$} & $+1.4$\,{\tiny$[+0.9, +2.0]$} & 0.14 & 70.1 / 63.7 (77) & 84.2 \\
+Qwen3-VL-8B & $72.5$\,{\tiny$[70.3, 74.7]$} & $45.2$\,{\tiny$[40.9, 49.6]$} & $+1.4$\,{\tiny$[-1.1, +3.9]$} & $+40.7$\,{\tiny$[+37.4, +43.9]$} & $+2.9$\,{\tiny$[+2.2, +3.7]$} & 0.07 & 81.0 / 79.8 (91) & 95.4 \\
+InternVL3.5-8B & $67.5$\,{\tiny$[65.7, 69.3]$} & $35.6$\,{\tiny$[32.2, 39.2]$} & $+3.9$\,{\tiny$[+1.4, +6.7]$} & $+23.0$\,{\tiny$[+21.6, +24.6]$} & $+7.4$\,{\tiny$[+6.3, +8.5]$} & 0.32 & 72.2 / 68.9 (84) & 95.4 \\
+\midrule
+Qwen3-VL-32B & $73.2$\,{\tiny$[71.3, 75.2]$} & $46.5$\,{\tiny$[42.8, 50.4]$} & $+5.5$\,{\tiny$[+3.2, +7.7]$} & $+45.6$\,{\tiny$[+42.2, +48.9]$} & $+0.4$\,{\tiny$[-0.1, +0.9]$} & 0.01 & 83.6 / 78.5 (98) & 97.7 \\
+\midrule
+Mean of 7 & $64.2$\,{\tiny$[63.3, 65.1]$} & & $-1.1$\,{\tiny$[-2.1, -0.2]$} & $+20.5$\,{\tiny$[+19.3, +21.5]$} & $+3.0$\,{\tiny$[+2.7, +3.3]$} & & & \\
+\bottomrule
+\end{tabular}

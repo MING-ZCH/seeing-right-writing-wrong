@@ -1,0 +1,236 @@
+== qwen3vl_8b cues n=1600 clusters=400
+  acc  direct 78.9  cot 77.1  gate 79.4  rand 78.1  tgate 79.4
+  cot   -Direct -1.8 [-4.9, +1.0]
+  gate  -Direct +0.6 [-1.1, +2.2]  -CoT +2.4 [+0.1, +4.8]  -Rand +1.3 [-1.0, +3.8]  -TextGate +0.0 [-2.2, +2.3]
+  rand  -Direct -0.8 [-3.7, +1.9]  -CoT +1.1 [-0.1, +2.4]
+  tgate -Direct +0.6 [-2.2, +3.1]  -CoT +2.4 [+1.1, +3.7]
+  d'   direct 2.06  cot 1.55  gate 1.94  rand 1.66  tgate 1.72
+  d' cot   -Direct -0.52 [-0.80, -0.27]
+  d' gate  -Direct -0.13 [-0.32, +0.06]  -CoT +0.39 [+0.22, +0.59]  -Rand +0.28 [+0.10, +0.48]
+  d' rand  -Direct -0.41 [-0.69, -0.16]  -CoT +0.11 [+0.03, +0.19]
+  d' tgate -Direct -0.34 [-0.61, -0.09]  -CoT +0.17 [+0.09, +0.27]
+  desc cot   {"n": 1600, "D+C-": 255, "D-C+": 226, "net_vs_direct": -29, "agree_direct_pct": 69.9, "body_tok_mean": 177.4, "gen_tok_mean": 178.4, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 10.97, "consistency_pct": 98.4, "claim_parsed_pct": 97.8, "any_claim_contradicts_answer_pct": 12.4, "states_letter_pct": 99.9, "claims_true_pct": 78.4, "claims_per_item": 2.76}
+  desc gate  {"n": 1600, "D+C-": 69, "D-C+": 78, "net_vs_direct": 9, "agree_direct_pct": 90.8, "body_tok_mean": 187.7, "gen_tok_mean": 813.7, "gen_tok_ratio_vs_cot": 4.56, "readouts_mean": 25.23, "consistency_pct": 85.6, "claim_parsed_pct": 94.8, "any_claim_contradicts_answer_pct": 25.8, "states_letter_pct": 82.6, "claims_true_pct": 79.6, "claims_per_item": 2.71, "event_sent_conclusion_pct": 41.4, "event_sent_claim_pct": 46.4, "replaced_sent_claim_true_pct": 53.1, "kept_sample_claim_true_pct": 58.1, "kept_sample_with_claim": 339, "gated_pct": 42.4, "events_mean": 1.7, "events_mean_gated": 4.01, "resamples": 1273, "drops": 1449, "tries_mean": 1.84, "cap_hit_pct": 7.7, "cot_DpCm": 255, "repaired": 187, "repaired_pct": 73.3, "cot_DmCp": 226, "rescues_lost": 149, "rescues_lost_pct": 65.9, "cot_DpCp_broken": 1, "cot_traj_cross_pct": 42.4, "p0_below_half_pct": 1.9}
+  desc rand  {"n": 1600, "D+C-": 216, "D-C+": 204, "net_vs_direct": -12, "agree_direct_pct": 73.8, "body_tok_mean": 165.9, "gen_tok_mean": 327.9, "gen_tok_ratio_vs_cot": 1.84, "readouts_mean": 0.0, "consistency_pct": 98.1, "claim_parsed_pct": 96.9, "any_claim_contradicts_answer_pct": 11.7, "states_letter_pct": 93.8, "claims_true_pct": 80.8, "claims_per_item": 2.62, "event_sent_conclusion_pct": 18.7, "event_sent_claim_pct": 26.9, "replaced_sent_claim_true_pct": 61.9, "kept_sample_claim_true_pct": 63.8, "kept_sample_with_claim": 254, "gated_pct": 42.4, "events_mean": 1.39, "events_mean_gated": 3.27, "resamples": 1140, "drops": 1079, "tries_mean": 1.0, "cap_hit_pct": 1.5, "cot_DpCm": 255, "repaired": 54, "repaired_pct": 21.2, "cot_DmCp": 226, "rescues_lost": 24, "rescues_lost_pct": 10.6, "cot_DpCp_broken": 15}
+  desc tgate {"n": 1600, "D+C-": 200, "D-C+": 209, "net_vs_direct": 9, "agree_direct_pct": 74.4, "body_tok_mean": 192.5, "gen_tok_mean": 633.5, "gen_tok_ratio_vs_cot": 3.55, "readouts_mean": 0.0, "consistency_pct": 92.3, "claim_parsed_pct": 80.4, "any_claim_contradicts_answer_pct": 6.9, "states_letter_pct": 98.4, "claims_true_pct": 88.1, "claims_per_item": 2.13, "event_sent_conclusion_pct": 35.0, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 51.8, "kept_sample_claim_true_pct": 68.2, "kept_sample_with_claim": 154, "gated_pct": 36.3, "events_mean": 1.27, "events_mean_gated": 3.5, "resamples": 1488, "drops": 545, "tries_mean": 1.57, "cap_hit_pct": 2.3, "cot_DpCm": 255, "repaired": 58, "repaired_pct": 22.7, "cot_DmCp": 226, "rescues_lost": 34, "rescues_lost_pct": 15.0, "cot_DpCp_broken": 3}
+  GLM direct occ +2.79 [2.59, 3.05] vert +1.49 [1.32, 1.68] size -0.43 | AUC 0.921
+  GLM cot   occ +1.77 [1.62, 1.94] vert -0.69 [-0.86, -0.56] size -0.53 | AUC 0.826
+      cot-Direct occ -1.02 [-1.3, -0.75] vert -2.18 [-2.41, -1.99]
+  GLM gate  occ +2.04 [1.88, 2.23] vert +0.42 [0.21, 0.56] size -0.28 | AUC 0.872
+      gate-Direct occ -0.75 [-1.03, -0.53] vert -1.07 [-1.28, -0.92]
+  GLM rand  occ +1.80 [1.68, 1.96] vert -0.51 [-0.67, -0.38] size -0.41 | AUC 0.844
+      rand-Direct occ -0.99 [-1.3, -0.71] vert -2.00 [-2.19, -1.81]
+  GLM tgate occ +1.91 [1.77, 2.09] vert -0.51 [-0.69, -0.38] size -0.49 | AUC 0.865
+      tgate-Direct occ -0.88 [-1.14, -0.62] vert -2.00 [-2.25, -1.82]
+== qwen3vl_8b twins n=800 clusters=200
+  acc  direct 81.1  cot 79.8  gate 81.4  rand 80.4  tgate 82.2
+  cot   -Direct -1.4 [-5.6, +2.9]
+  gate  -Direct +0.2 [-2.2, +2.6]  -CoT +1.6 [-1.4, +4.6]  -Rand +1.0 [-1.8, +3.8]  -TextGate -0.9 [-3.6, +1.9]
+  rand  -Direct -0.8 [-4.6, +3.2]  -CoT +0.6 [-1.0, +2.2]
+  tgate -Direct +1.1 [-2.8, +5.1]  -CoT +2.5 [+0.5, +4.5]
+  d'   direct 2.25  cot 1.80  gate 2.11  rand 1.86  tgate 1.95
+  d' cot   -Direct -0.46 [-0.89, -0.05]
+  d' gate  -Direct -0.14 [-0.48, +0.16]  -CoT +0.31 [+0.08, +0.56]  -Rand +0.25 [+0.04, +0.48]
+  d' rand  -Direct -0.40 [-0.81, +0.00]  -CoT +0.06 [-0.05, +0.17]
+  d' tgate -Direct -0.30 [-0.71, +0.07]  -CoT +0.15 [+0.00, +0.30]
+  desc cot   {"n": 800, "D+C-": 117, "D-C+": 106, "net_vs_direct": -11, "agree_direct_pct": 72.1, "body_tok_mean": 178.0, "gen_tok_mean": 179.0, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 11.1, "consistency_pct": 98.4, "claim_parsed_pct": 99.0, "any_claim_contradicts_answer_pct": 11.8, "states_letter_pct": 99.9, "claims_true_pct": 79.4, "claims_per_item": 2.86}
+  desc gate  {"n": 800, "D+C-": 41, "D-C+": 43, "net_vs_direct": 2, "agree_direct_pct": 89.5, "body_tok_mean": 185.7, "gen_tok_mean": 778.0, "gen_tok_ratio_vs_cot": 4.35, "readouts_mean": 23.8, "consistency_pct": 87.0, "claim_parsed_pct": 97.0, "any_claim_contradicts_answer_pct": 23.8, "states_letter_pct": 85.5, "claims_true_pct": 82.6, "claims_per_item": 2.8, "event_sent_conclusion_pct": 41.8, "event_sent_claim_pct": 44.6, "replaced_sent_claim_true_pct": 51.2, "kept_sample_claim_true_pct": 63.8, "kept_sample_with_claim": 152, "gated_pct": 38.8, "events_mean": 1.53, "events_mean_gated": 3.95, "resamples": 583, "drops": 640, "tries_mean": 1.72, "cap_hit_pct": 6.8, "cot_DpCm": 117, "repaired": 82, "repaired_pct": 70.1, "cot_DmCp": 106, "rescues_lost": 63, "rescues_lost_pct": 59.4, "cot_DpCp_broken": 6, "cot_traj_cross_pct": 38.8, "p0_below_half_pct": 2.8}
+  desc rand  {"n": 800, "D+C-": 97, "D-C+": 91, "net_vs_direct": -6, "agree_direct_pct": 76.5, "body_tok_mean": 168.0, "gen_tok_mean": 316.7, "gen_tok_ratio_vs_cot": 1.77, "readouts_mean": 0.0, "consistency_pct": 98.2, "claim_parsed_pct": 98.2, "any_claim_contradicts_answer_pct": 10.9, "states_letter_pct": 95.6, "claims_true_pct": 81.6, "claims_per_item": 2.69, "event_sent_conclusion_pct": 18.4, "event_sent_claim_pct": 27.0, "replaced_sent_claim_true_pct": 56.2, "kept_sample_claim_true_pct": 56.5, "kept_sample_with_claim": 115, "gated_pct": 38.8, "events_mean": 1.26, "events_mean_gated": 3.25, "resamples": 525, "drops": 481, "tries_mean": 1.0, "cap_hit_pct": 1.9, "cot_DpCm": 117, "repaired": 26, "repaired_pct": 22.2, "cot_DmCp": 106, "rescues_lost": 15, "rescues_lost_pct": 14.2, "cot_DpCp_broken": 6}
+  desc tgate {"n": 800, "D+C-": 90, "D-C+": 99, "net_vs_direct": 9, "agree_direct_pct": 76.4, "body_tok_mean": 185.8, "gen_tok_mean": 584.9, "gen_tok_ratio_vs_cot": 3.27, "readouts_mean": 0.0, "consistency_pct": 93.0, "claim_parsed_pct": 82.5, "any_claim_contradicts_answer_pct": 6.1, "states_letter_pct": 99.1, "claims_true_pct": 89.9, "claims_per_item": 2.27, "event_sent_conclusion_pct": 34.8, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 49.4, "kept_sample_claim_true_pct": 73.6, "kept_sample_with_claim": 87, "gated_pct": 34.5, "events_mean": 1.11, "events_mean_gated": 3.21, "resamples": 628, "drops": 259, "tries_mean": 1.55, "cap_hit_pct": 1.0, "cot_DpCm": 117, "repaired": 31, "repaired_pct": 26.5, "cot_DmCp": 106, "rescues_lost": 16, "rescues_lost_pct": 15.1, "cot_DpCp_broken": 4}
+== qwen3vl_8b syn n=1000 clusters=500
+  acc  direct 77.9  cot 61.2  gate 76.2  rand 63.6  tgate 65.3
+  cot   -Direct -16.7 [-19.5, -13.7]
+  gate  -Direct -1.7 [-3.1, -0.3]  -CoT +15.0 [+12.1, +17.6]  -Rand +12.6 [+9.9, +15.1]  -TextGate +10.9 [+8.3, +13.3]
+  rand  -Direct -14.3 [-16.8, -11.7]  -CoT +2.4 [+0.6, +4.3]
+  tgate -Direct -12.6 [-15.1, -10.0]  -CoT +4.1 [+2.3, +5.7]
+  d'   direct 1.87  cot 0.66  gate 1.62  rand 0.80  tgate 0.91
+  d' cot   -Direct -1.21 [-1.44, -1.00]
+  d' gate  -Direct -0.25 [-0.39, -0.12]  -CoT +0.97 [+0.78, +1.15]  -Rand +0.83 [+0.64, +1.02]
+  d' rand  -Direct -1.07 [-1.29, -0.88]  -CoT +0.14 [+0.03, +0.25]
+  d' tgate -Direct -0.96 [-1.17, -0.77]  -CoT +0.25 [+0.15, +0.35]
+  d'pair direct 1.95  cot 0.62  gate 1.49  rand 0.79  tgate 0.89
+  d'pair cot   -Direct -1.33 [-1.81, -1.02]
+  d'pair gate  -Direct -0.46 [-0.82, -0.23]  -CoT +0.88 [+0.65, +1.15]
+  d'pair rand  -Direct -1.16 [-1.61, -0.83]  -CoT +0.18 [+0.05, +0.32]
+  d'pair tgate -Direct -1.06 [-1.51, -0.75]  -CoT +0.27 [+0.14, +0.41]
+  desc cot   {"n": 1000, "D+C-": 219, "D-C+": 52, "net_vs_direct": -167, "agree_direct_pct": 72.9, "body_tok_mean": 176.0, "gen_tok_mean": 177.0, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 10.73, "consistency_pct": 95.9, "claim_parsed_pct": 96.6, "any_claim_contradicts_answer_pct": 12.1, "states_letter_pct": 97.4, "claims_true_pct": 63.2, "claims_per_item": 2.4}
+  desc gate  {"n": 1000, "D+C-": 34, "D-C+": 17, "net_vs_direct": -17, "agree_direct_pct": 94.9, "body_tok_mean": 181.2, "gen_tok_mean": 885.5, "gen_tok_ratio_vs_cot": 5.0, "readouts_mean": 24.95, "consistency_pct": 90.7, "claim_parsed_pct": 93.8, "any_claim_contradicts_answer_pct": 17.2, "states_letter_pct": 89.3, "claims_true_pct": 73.5, "claims_per_item": 2.34, "event_sent_conclusion_pct": 20.1, "event_sent_claim_pct": 40.6, "replaced_sent_claim_true_pct": 29.6, "kept_sample_claim_true_pct": 62.9, "kept_sample_with_claim": 167, "gated_pct": 46.9, "events_mean": 1.42, "events_mean_gated": 3.02, "resamples": 834, "drops": 582, "tries_mean": 1.74, "cap_hit_pct": 4.5, "cot_DpCm": 219, "repaired": 189, "repaired_pct": 86.3, "cot_DmCp": 52, "rescues_lost": 35, "rescues_lost_pct": 67.3, "cot_DpCp_broken": 4, "cot_traj_cross_pct": 46.9, "p0_below_half_pct": 4.8}
+  desc rand  {"n": 1000, "D+C-": 192, "D-C+": 49, "net_vs_direct": -143, "agree_direct_pct": 75.9, "body_tok_mean": 171.0, "gen_tok_mean": 334.2, "gen_tok_ratio_vs_cot": 1.89, "readouts_mean": 0.0, "consistency_pct": 95.0, "claim_parsed_pct": 95.4, "any_claim_contradicts_answer_pct": 13.4, "states_letter_pct": 94.3, "claims_true_pct": 67.3, "claims_per_item": 2.31, "event_sent_conclusion_pct": 17.4, "event_sent_claim_pct": 23.2, "replaced_sent_claim_true_pct": 44.6, "kept_sample_claim_true_pct": 49.7, "kept_sample_with_claim": 149, "gated_pct": 46.9, "events_mean": 1.16, "events_mean_gated": 2.48, "resamples": 746, "drops": 415, "tries_mean": 1.0, "cap_hit_pct": 0.9, "cot_DpCm": 219, "repaired": 50, "repaired_pct": 22.8, "cot_DmCp": 52, "rescues_lost": 13, "rescues_lost_pct": 25.0, "cot_DpCp_broken": 23}
+  desc tgate {"n": 1000, "D+C-": 165, "D-C+": 39, "net_vs_direct": -126, "agree_direct_pct": 79.6, "body_tok_mean": 186.7, "gen_tok_mean": 493.4, "gen_tok_ratio_vs_cot": 2.79, "readouts_mean": 0.0, "consistency_pct": 94.8, "claim_parsed_pct": 80.0, "any_claim_contradicts_answer_pct": 4.4, "states_letter_pct": 95.4, "claims_true_pct": 80.7, "claims_per_item": 1.96, "event_sent_conclusion_pct": 34.7, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 16.5, "kept_sample_claim_true_pct": 81.1, "kept_sample_with_claim": 95, "gated_pct": 33.7, "events_mean": 0.85, "events_mean_gated": 2.52, "resamples": 641, "drops": 208, "tries_mean": 1.56, "cap_hit_pct": 1.0, "cot_DpCm": 219, "repaired": 61, "repaired_pct": 27.9, "cot_DmCp": 52, "rescues_lost": 14, "rescues_lost_pct": 26.9, "cot_DpCp_broken": 7}
+== qwen7b cues n=1600 clusters=400
+  acc  direct 53.4  cot 56.9  gate 53.1  rand 56.9  tgate 55.5
+  cot   -Direct +3.5 [+0.3, +6.6]
+  gate  -Direct -0.3 [-1.0, +0.3]  -CoT -3.8 [-6.8, -0.8]  -Rand -3.9 [-6.4, -1.3]  -TextGate -2.4 [-4.7, -0.2]
+  rand  -Direct +3.6 [+0.8, +6.2]  -CoT +0.1 [-1.2, +1.3]
+  tgate -Direct +2.1 [-0.2, +4.4]  -CoT -1.4 [-3.4, +0.6]
+  d'   direct 0.17  cot 0.35  gate 0.15  rand 0.35  tgate 0.28
+  d' cot   -Direct +0.18 [+0.02, +0.34]
+  d' gate  -Direct -0.02 [-0.05, +0.02]  -CoT -0.20 [-0.35, -0.05]  -Rand -0.20 [-0.33, -0.07]
+  d' rand  -Direct +0.18 [+0.05, +0.32]  -CoT +0.00 [-0.07, +0.07]
+  d' tgate -Direct +0.11 [-0.01, +0.22]  -CoT -0.07 [-0.18, +0.03]
+  desc cot   {"n": 1600, "D+C-": 197, "D-C+": 253, "net_vs_direct": 56, "agree_direct_pct": 71.9, "body_tok_mean": 51.1, "gen_tok_mean": 52.1, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 5.38, "consistency_pct": 88.7, "claim_parsed_pct": 91.6, "any_claim_contradicts_answer_pct": 24.9, "states_letter_pct": 100.0, "claims_true_pct": 56.1, "claims_per_item": 1.55}
+  desc gate  {"n": 1600, "D+C-": 16, "D-C+": 11, "net_vs_direct": -5, "agree_direct_pct": 98.3, "body_tok_mean": 51.1, "gen_tok_mean": 138.2, "gen_tok_ratio_vs_cot": 2.65, "readouts_mean": 8.52, "consistency_pct": 87.8, "claim_parsed_pct": 88.8, "any_claim_contradicts_answer_pct": 21.5, "states_letter_pct": 98.1, "claims_true_pct": 54.5, "claims_per_item": 1.43, "event_sent_conclusion_pct": 12.8, "event_sent_claim_pct": 68.6, "replaced_sent_claim_true_pct": 50.8, "kept_sample_claim_true_pct": 44.4, "kept_sample_with_claim": 270, "gated_pct": 28.8, "events_mean": 0.49, "events_mean_gated": 1.71, "resamples": 611, "drops": 178, "tries_mean": 1.72, "cap_hit_pct": 0.0, "cot_DpCm": 197, "repaired": 181, "repaired_pct": 91.9, "cot_DmCp": 253, "rescues_lost": 242, "rescues_lost_pct": 95.7, "cot_DpCp_broken": 0, "cot_traj_cross_pct": 28.8, "p0_below_half_pct": 0.5}
+  desc rand  {"n": 1600, "D+C-": 151, "D-C+": 208, "net_vs_direct": 57, "agree_direct_pct": 77.6, "body_tok_mean": 50.7, "gen_tok_mean": 69.8, "gen_tok_ratio_vs_cot": 1.34, "readouts_mean": 0.0, "consistency_pct": 88.0, "claim_parsed_pct": 91.2, "any_claim_contradicts_answer_pct": 23.9, "states_letter_pct": 98.6, "claims_true_pct": 56.3, "claims_per_item": 1.54, "event_sent_conclusion_pct": 28.9, "event_sent_claim_pct": 40.2, "replaced_sent_claim_true_pct": 48.9, "kept_sample_claim_true_pct": 51.2, "kept_sample_with_claim": 211, "gated_pct": 28.8, "events_mean": 0.44, "events_mean_gated": 1.53, "resamples": 545, "drops": 161, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 197, "repaired": 47, "repaired_pct": 23.9, "cot_DmCp": 253, "rescues_lost": 48, "rescues_lost_pct": 19.0, "cot_DpCp_broken": 1}
+  desc tgate {"n": 1600, "D+C-": 120, "D-C+": 154, "net_vs_direct": 34, "agree_direct_pct": 82.9, "body_tok_mean": 51.1, "gen_tok_mean": 149.6, "gen_tok_ratio_vs_cot": 2.87, "readouts_mean": 0.0, "consistency_pct": 89.6, "claim_parsed_pct": 83.6, "any_claim_contradicts_answer_pct": 8.7, "states_letter_pct": 100.0, "claims_true_pct": 56.8, "claims_per_item": 1.31, "event_sent_conclusion_pct": 19.3, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 51.4, "kept_sample_claim_true_pct": 52.6, "kept_sample_with_claim": 327, "gated_pct": 39.9, "events_mean": 0.52, "events_mean_gated": 1.3, "resamples": 711, "drops": 122, "tries_mean": 1.55, "cap_hit_pct": 0.0, "cot_DpCm": 197, "repaired": 86, "repaired_pct": 43.7, "cot_DmCp": 253, "rescues_lost": 104, "rescues_lost_pct": 41.1, "cot_DpCp_broken": 9}
+  GLM direct occ +0.91 [0.68, 1.33] vert +3.86 [3.68, 4.28] size -0.13 | AUC 0.615
+  GLM cot   occ +0.57 [0.43, 0.72] vert +1.68 [1.5, 1.82] size +0.07 | AUC 0.579
+      cot-Direct occ -0.34 [-0.75, -0.09] vert -2.19 [-2.62, -1.98]
+  GLM gate  occ +0.61 [0.41, 0.83] vert +3.47 [3.27, 3.71] size -0.16 | AUC 0.551
+      gate-Direct occ -0.30 [-0.7, -0.17] vert -0.40 [-0.77, -0.26]
+  GLM rand  occ +0.59 [0.44, 0.76] vert +1.94 [1.78, 2.12] size +0.03 | AUC 0.581
+      rand-Direct occ -0.32 [-0.75, -0.09] vert -1.92 [-2.37, -1.65]
+  GLM tgate occ +0.54 [0.38, 0.7] vert +2.34 [2.17, 2.52] size +0.01 | AUC 0.561
+      tgate-Direct occ -0.38 [-0.82, -0.15] vert -1.53 [-1.94, -1.34]
+== qwen7b twins n=800 clusters=200
+  acc  direct 54.0  cot 57.9  gate 54.1  rand 57.1  tgate 56.0
+  cot   -Direct +3.9 [-0.4, +8.0]
+  gate  -Direct +0.1 [-0.8, +1.0]  -CoT -3.8 [-7.9, +0.4]  -Rand -3.0 [-6.5, +0.6]  -TextGate -1.9 [-4.9, +1.1]
+  rand  -Direct +3.1 [-0.4, +6.6]  -CoT -0.8 [-2.9, +1.2]
+  tgate -Direct +2.0 [-1.1, +5.1]  -CoT -1.9 [-4.6, +0.8]
+  d'   direct 0.20  cot 0.41  gate 0.21  rand 0.36  tgate 0.30
+  d' cot   -Direct +0.21 [-0.01, +0.41]
+  d' gate  -Direct +0.01 [-0.04, +0.05]  -CoT -0.20 [-0.40, +0.01]  -Rand -0.16 [-0.33, +0.02]
+  d' rand  -Direct +0.16 [-0.01, +0.34]  -CoT -0.04 [-0.15, +0.06]
+  d' tgate -Direct +0.10 [-0.05, +0.26]  -CoT -0.10 [-0.24, +0.03]
+  desc cot   {"n": 800, "D+C-": 94, "D-C+": 125, "net_vs_direct": 31, "agree_direct_pct": 72.6, "body_tok_mean": 52.9, "gen_tok_mean": 53.9, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 5.44, "consistency_pct": 88.0, "claim_parsed_pct": 93.5, "any_claim_contradicts_answer_pct": 26.1, "states_letter_pct": 100.0, "claims_true_pct": 57.7, "claims_per_item": 1.58}
+  desc gate  {"n": 800, "D+C-": 6, "D-C+": 7, "net_vs_direct": 1, "agree_direct_pct": 98.4, "body_tok_mean": 52.7, "gen_tok_mean": 135.7, "gen_tok_ratio_vs_cot": 2.52, "readouts_mean": 8.45, "consistency_pct": 87.3, "claim_parsed_pct": 90.8, "any_claim_contradicts_answer_pct": 22.2, "states_letter_pct": 98.9, "claims_true_pct": 55.6, "claims_per_item": 1.48, "event_sent_conclusion_pct": 16.9, "event_sent_claim_pct": 70.4, "replaced_sent_claim_true_pct": 55.4, "kept_sample_claim_true_pct": 45.6, "kept_sample_with_claim": 136, "gated_pct": 27.5, "events_mean": 0.47, "events_mean_gated": 1.72, "resamples": 305, "drops": 74, "tries_mean": 1.69, "cap_hit_pct": 0.0, "cot_DpCm": 94, "repaired": 88, "repaired_pct": 93.6, "cot_DmCp": 125, "rescues_lost": 118, "rescues_lost_pct": 94.4, "cot_DpCp_broken": 0, "cot_traj_cross_pct": 27.5, "p0_below_half_pct": 0.8}
+  desc rand  {"n": 800, "D+C-": 68, "D-C+": 93, "net_vs_direct": 25, "agree_direct_pct": 79.9, "body_tok_mean": 52.2, "gen_tok_mean": 71.1, "gen_tok_ratio_vs_cot": 1.32, "readouts_mean": 0.0, "consistency_pct": 89.2, "claim_parsed_pct": 92.9, "any_claim_contradicts_answer_pct": 24.0, "states_letter_pct": 98.6, "claims_true_pct": 55.9, "claims_per_item": 1.55, "event_sent_conclusion_pct": 28.3, "event_sent_claim_pct": 40.8, "replaced_sent_claim_true_pct": 56.4, "kept_sample_claim_true_pct": 45.4, "kept_sample_with_claim": 108, "gated_pct": 27.5, "events_mean": 0.43, "events_mean_gated": 1.56, "resamples": 277, "drops": 66, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 94, "repaired": 26, "repaired_pct": 27.7, "cot_DmCp": 125, "rescues_lost": 32, "rescues_lost_pct": 25.6, "cot_DpCp_broken": 0}
+  desc tgate {"n": 800, "D+C-": 59, "D-C+": 75, "net_vs_direct": 16, "agree_direct_pct": 83.2, "body_tok_mean": 53.1, "gen_tok_mean": 155.1, "gen_tok_ratio_vs_cot": 2.88, "readouts_mean": 0.0, "consistency_pct": 89.0, "claim_parsed_pct": 86.1, "any_claim_contradicts_answer_pct": 9.5, "states_letter_pct": 100.0, "claims_true_pct": 55.9, "claims_per_item": 1.35, "event_sent_conclusion_pct": 20.0, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 56.9, "kept_sample_claim_true_pct": 47.3, "kept_sample_with_claim": 169, "gated_pct": 41.4, "events_mean": 0.54, "events_mean_gated": 1.3, "resamples": 364, "drops": 65, "tries_mean": 1.59, "cap_hit_pct": 0.0, "cot_DpCm": 94, "repaired": 40, "repaired_pct": 42.6, "cot_DmCp": 125, "rescues_lost": 52, "rescues_lost_pct": 41.6, "cot_DpCp_broken": 5}
+== qwen7b syn n=1000 clusters=500
+  acc  direct 78.3  cot 68.1  gate 77.9  rand 71.0  tgate 73.3
+  cot   -Direct -10.2 [-13.2, -6.9]
+  gate  -Direct -0.4 [-1.0, +0.2]  -CoT +9.8 [+6.6, +12.7]  -Rand +6.9 [+4.2, +9.5]  -TextGate +4.6 [+2.6, +6.7]
+  rand  -Direct -7.3 [-9.9, -4.5]  -CoT +2.9 [+1.3, +4.6]
+  tgate -Direct -5.0 [-7.0, -3.0]  -CoT +5.2 [+2.6, +7.7]
+  d'   direct 1.60  cot 0.97  gate 1.58  rand 1.15  tgate 1.29
+  d' cot   -Direct -0.63 [-0.82, -0.43]
+  d' gate  -Direct -0.03 [-0.07, +0.02]  -CoT +0.61 [+0.41, +0.79]  -Rand +0.42 [+0.26, +0.59]
+  d' rand  -Direct -0.45 [-0.62, -0.27]  -CoT +0.18 [+0.09, +0.29]
+  d' tgate -Direct -0.31 [-0.45, -0.17]  -CoT +0.32 [+0.16, +0.48]
+  d'pair direct 1.00  cot 0.78  gate 0.98  rand 0.86  tgate 0.92
+  d'pair cot   -Direct -0.22 [-0.37, -0.07]
+  d'pair gate  -Direct -0.01 [-0.05, +0.02]  -CoT +0.20 [+0.05, +0.35]
+  d'pair rand  -Direct -0.13 [-0.26, +0.01]  -CoT +0.09 [+0.01, +0.17]
+  d'pair tgate -Direct -0.08 [-0.18, +0.02]  -CoT +0.14 [+0.01, +0.27]
+  desc cot   {"n": 1000, "D+C-": 176, "D-C+": 74, "net_vs_direct": -102, "agree_direct_pct": 75.0, "body_tok_mean": 51.0, "gen_tok_mean": 52.0, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 5.3, "consistency_pct": 90.1, "claim_parsed_pct": 95.8, "any_claim_contradicts_answer_pct": 22.5, "states_letter_pct": 100.0, "claims_true_pct": 62.9, "claims_per_item": 1.55}
+  desc gate  {"n": 1000, "D+C-": 7, "D-C+": 3, "net_vs_direct": -4, "agree_direct_pct": 99.0, "body_tok_mean": 53.0, "gen_tok_mean": 130.9, "gen_tok_ratio_vs_cot": 2.51, "readouts_mean": 7.99, "consistency_pct": 91.6, "claim_parsed_pct": 94.0, "any_claim_contradicts_answer_pct": 20.4, "states_letter_pct": 99.4, "claims_true_pct": 71.1, "claims_per_item": 1.51, "event_sent_conclusion_pct": 7.9, "event_sent_claim_pct": 74.6, "replaced_sent_claim_true_pct": 44.7, "kept_sample_claim_true_pct": 70.2, "kept_sample_with_claim": 168, "gated_pct": 29.2, "events_mean": 0.39, "events_mean_gated": 1.35, "resamples": 358, "drops": 35, "tries_mean": 1.51, "cap_hit_pct": 0.0, "cot_DpCm": 176, "repaired": 169, "repaired_pct": 96.0, "cot_DmCp": 74, "rescues_lost": 71, "rescues_lost_pct": 95.9, "cot_DpCp_broken": 0, "cot_traj_cross_pct": 29.2, "p0_below_half_pct": 3.0}
+  desc rand  {"n": 1000, "D+C-": 133, "D-C+": 60, "net_vs_direct": -73, "agree_direct_pct": 80.7, "body_tok_mean": 51.9, "gen_tok_mean": 68.2, "gen_tok_ratio_vs_cot": 1.31, "readouts_mean": 0.0, "consistency_pct": 89.4, "claim_parsed_pct": 95.2, "any_claim_contradicts_answer_pct": 23.6, "states_letter_pct": 99.5, "claims_true_pct": 65.7, "claims_per_item": 1.55, "event_sent_conclusion_pct": 33.2, "event_sent_claim_pct": 40.0, "replaced_sent_claim_true_pct": 37.7, "kept_sample_claim_true_pct": 61.7, "kept_sample_with_claim": 115, "gated_pct": 29.2, "events_mean": 0.39, "events_mean_gated": 1.32, "resamples": 350, "drops": 35, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 176, "repaired": 50, "repaired_pct": 28.4, "cot_DmCp": 74, "rescues_lost": 15, "rescues_lost_pct": 20.3, "cot_DpCp_broken": 7}
+  desc tgate {"n": 1000, "D+C-": 82, "D-C+": 32, "net_vs_direct": -50, "agree_direct_pct": 88.6, "body_tok_mean": 52.8, "gen_tok_mean": 154.4, "gen_tok_ratio_vs_cot": 2.97, "readouts_mean": 0.0, "consistency_pct": 93.7, "claim_parsed_pct": 88.4, "any_claim_contradicts_answer_pct": 5.6, "states_letter_pct": 100.0, "claims_true_pct": 80.3, "claims_per_item": 1.38, "event_sent_conclusion_pct": 13.1, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 25.6, "kept_sample_claim_true_pct": 81.9, "kept_sample_with_claim": 216, "gated_pct": 39.6, "events_mean": 0.52, "events_mean_gated": 1.31, "resamples": 458, "drops": 62, "tries_mean": 1.52, "cap_hit_pct": 0.0, "cot_DpCm": 176, "repaired": 110, "repaired_pct": 62.5, "cot_DmCp": 74, "rescues_lost": 43, "rescues_lost_pct": 58.1, "cot_DpCp_broken": 16}
+== internvl3_8b cues n=1600 clusters=400
+  acc  direct 63.7  cot 68.4  gate 63.4  rand 68.6  tgate 68.6
+  cot   -Direct +4.8 [+1.2, +8.1]
+  gate  -Direct -0.2 [-1.6, +1.1]  -CoT -5.0 [-7.8, -2.1]  -Rand -5.2 [-7.6, -2.7]  -TextGate -5.1 [-7.4, -2.8]
+  rand  -Direct +4.9 [+1.8, +7.7]  -CoT +0.2 [-1.5, +1.8]
+  tgate -Direct +4.9 [+2.2, +7.4]  -CoT +0.1 [-1.8, +2.0]
+  d'   direct 0.71  cot 1.16  gate 0.72  rand 1.16  tgate 1.13
+  d' cot   -Direct +0.45 [+0.25, +0.64]
+  d' gate  -Direct +0.01 [-0.06, +0.08]  -CoT -0.44 [-0.60, -0.26]  -Rand -0.44 [-0.58, -0.27]
+  d' rand  -Direct +0.45 [+0.27, +0.60]  -CoT -0.00 [-0.12, +0.10]
+  d' tgate -Direct +0.42 [+0.27, +0.57]  -CoT -0.03 [-0.16, +0.11]
+  desc cot   {"n": 1600, "D+C-": 216, "D-C+": 292, "net_vs_direct": 76, "agree_direct_pct": 68.2, "body_tok_mean": 93.5, "gen_tok_mean": 94.5, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 6.04, "consistency_pct": 92.8, "claim_parsed_pct": 95.9, "any_claim_contradicts_answer_pct": 21.8, "states_letter_pct": 100.0, "claims_true_pct": 69.6, "claims_per_item": 1.61}
+  desc gate  {"n": 1600, "D+C-": 55, "D-C+": 51, "net_vs_direct": -4, "agree_direct_pct": 93.4, "body_tok_mean": 96.9, "gen_tok_mean": 333.6, "gen_tok_ratio_vs_cot": 3.53, "readouts_mean": 11.26, "consistency_pct": 92.3, "claim_parsed_pct": 91.6, "any_claim_contradicts_answer_pct": 24.4, "states_letter_pct": 95.4, "claims_true_pct": 68.1, "claims_per_item": 1.54, "event_sent_conclusion_pct": 12.2, "event_sent_claim_pct": 54.5, "replaced_sent_claim_true_pct": 68.6, "kept_sample_claim_true_pct": 57.3, "kept_sample_with_claim": 295, "gated_pct": 37.1, "events_mean": 0.81, "events_mean_gated": 2.19, "resamples": 957, "drops": 343, "tries_mean": 1.76, "cap_hit_pct": 0.7, "cot_DpCm": 216, "repaired": 161, "repaired_pct": 74.5, "cot_DmCp": 292, "rescues_lost": 242, "rescues_lost_pct": 82.9, "cot_DpCp_broken": 0, "cot_traj_cross_pct": 37.1, "p0_below_half_pct": 3.8}
+  desc rand  {"n": 1600, "D+C-": 172, "D-C+": 251, "net_vs_direct": 79, "agree_direct_pct": 73.6, "body_tok_mean": 93.8, "gen_tok_mean": 161.8, "gen_tok_ratio_vs_cot": 1.71, "readouts_mean": 0.0, "consistency_pct": 92.5, "claim_parsed_pct": 93.4, "any_claim_contradicts_answer_pct": 23.6, "states_letter_pct": 96.9, "claims_true_pct": 70.8, "claims_per_item": 1.59, "event_sent_conclusion_pct": 16.0, "event_sent_claim_pct": 28.9, "replaced_sent_claim_true_pct": 69.3, "kept_sample_claim_true_pct": 67.6, "kept_sample_with_claim": 210, "gated_pct": 37.1, "events_mean": 0.7, "events_mean_gated": 1.89, "resamples": 866, "drops": 253, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 216, "repaired": 64, "repaired_pct": 29.6, "cot_DmCp": 292, "rescues_lost": 71, "rescues_lost_pct": 24.3, "cot_DpCp_broken": 20}
+  desc tgate {"n": 1600, "D+C-": 132, "D-C+": 210, "net_vs_direct": 78, "agree_direct_pct": 78.6, "body_tok_mean": 98.6, "gen_tok_mean": 294.1, "gen_tok_ratio_vs_cot": 3.11, "readouts_mean": 0.0, "consistency_pct": 91.3, "claim_parsed_pct": 80.4, "any_claim_contradicts_answer_pct": 7.0, "states_letter_pct": 99.5, "claims_true_pct": 72.1, "claims_per_item": 1.24, "event_sent_conclusion_pct": 6.4, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 58.4, "kept_sample_claim_true_pct": 55.7, "kept_sample_with_claim": 255, "gated_pct": 44.5, "events_mean": 0.76, "events_mean_gated": 1.7, "resamples": 1055, "drops": 156, "tries_mean": 1.61, "cap_hit_pct": 0.0, "cot_DpCm": 216, "repaired": 96, "repaired_pct": 44.4, "cot_DmCp": 292, "rescues_lost": 113, "rescues_lost_pct": 38.7, "cot_DpCp_broken": 12}
+  GLM direct occ +1.81 [1.59, 2.11] vert +3.05 [2.85, 3.37] size +0.13 | AUC 0.759
+  GLM cot   occ +1.24 [1.12, 1.4] vert +0.61 [0.48, 0.76] size +0.24 | AUC 0.796
+      cot-Direct occ -0.56 [-0.86, -0.3] vert -2.44 [-2.78, -2.17]
+  GLM gate  occ +1.18 [1.03, 1.35] vert +2.13 [1.99, 2.33] size +0.14 | AUC 0.724
+      gate-Direct occ -0.63 [-0.88, -0.4] vert -0.92 [-1.18, -0.68]
+  GLM rand  occ +1.33 [1.18, 1.54] vert +0.99 [0.85, 1.15] size +0.26 | AUC 0.786
+      rand-Direct occ -0.48 [-0.78, -0.21] vert -2.06 [-2.4, -1.78]
+  GLM tgate occ +1.38 [1.21, 1.56] vert +1.28 [1.14, 1.45] size +0.19 | AUC 0.771
+      tgate-Direct occ -0.43 [-0.7, -0.19] vert -1.77 [-2.05, -1.52]
+== internvl3_8b twins n=800 clusters=200
+  acc  direct 63.4  cot 66.5  gate 63.6  rand 67.8  tgate 69.0
+  cot   -Direct +3.1 [-1.6, +8.1]
+  gate  -Direct +0.2 [-1.2, +1.8]  -CoT -2.9 [-7.4, +1.4]  -Rand -4.1 [-8.0, -0.6]  -TextGate -5.4 [-8.8, -2.2]
+  rand  -Direct +4.4 [+0.4, +8.5]  -CoT +1.2 [-1.1, +3.6]
+  tgate -Direct +5.6 [+2.0, +9.4]  -CoT +2.5 [-0.4, +5.3]
+  d'   direct 0.70  cot 1.11  gate 0.73  rand 1.13  tgate 1.20
+  d' cot   -Direct +0.41 [+0.13, +0.70]
+  d' gate  -Direct +0.03 [-0.05, +0.11]  -CoT -0.37 [-0.65, -0.12]  -Rand -0.40 [-0.61, -0.20]
+  d' rand  -Direct +0.43 [+0.22, +0.66]  -CoT +0.03 [-0.15, +0.21]
+  d' tgate -Direct +0.49 [+0.30, +0.70]  -CoT +0.09 [-0.11, +0.29]
+  desc cot   {"n": 800, "D+C-": 110, "D-C+": 135, "net_vs_direct": 25, "agree_direct_pct": 69.4, "body_tok_mean": 93.8, "gen_tok_mean": 94.8, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 6.08, "consistency_pct": 92.8, "claim_parsed_pct": 95.5, "any_claim_contradicts_answer_pct": 19.1, "states_letter_pct": 100.0, "claims_true_pct": 68.6, "claims_per_item": 1.56}
+  desc gate  {"n": 800, "D+C-": 16, "D-C+": 18, "net_vs_direct": 2, "agree_direct_pct": 95.8, "body_tok_mean": 97.5, "gen_tok_mean": 318.7, "gen_tok_ratio_vs_cot": 3.36, "readouts_mean": 11.06, "consistency_pct": 91.3, "claim_parsed_pct": 92.9, "any_claim_contradicts_answer_pct": 22.5, "states_letter_pct": 95.6, "claims_true_pct": 66.7, "claims_per_item": 1.53, "event_sent_conclusion_pct": 12.8, "event_sent_claim_pct": 52.7, "replaced_sent_claim_true_pct": 65.3, "kept_sample_claim_true_pct": 56.9, "kept_sample_with_claim": 153, "gated_pct": 37.9, "events_mean": 0.78, "events_mean_gated": 2.06, "resamples": 475, "drops": 149, "tries_mean": 1.72, "cap_hit_pct": 0.5, "cot_DpCm": 110, "repaired": 95, "repaired_pct": 86.4, "cot_DmCp": 135, "rescues_lost": 118, "rescues_lost_pct": 87.4, "cot_DpCp_broken": 1, "cot_traj_cross_pct": 37.9, "p0_below_half_pct": 1.9}
+  desc rand  {"n": 800, "D+C-": 82, "D-C+": 117, "net_vs_direct": 35, "agree_direct_pct": 75.1, "body_tok_mean": 94.8, "gen_tok_mean": 163.0, "gen_tok_ratio_vs_cot": 1.72, "readouts_mean": 0.0, "consistency_pct": 92.7, "claim_parsed_pct": 94.8, "any_claim_contradicts_answer_pct": 20.2, "states_letter_pct": 98.0, "claims_true_pct": 70.4, "claims_per_item": 1.59, "event_sent_conclusion_pct": 14.1, "event_sent_claim_pct": 30.7, "replaced_sent_claim_true_pct": 64.9, "kept_sample_claim_true_pct": 62.0, "kept_sample_with_claim": 108, "gated_pct": 37.9, "events_mean": 0.69, "events_mean_gated": 1.81, "resamples": 433, "drops": 115, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 110, "repaired": 35, "repaired_pct": 31.8, "cot_DmCp": 135, "rescues_lost": 33, "rescues_lost_pct": 24.4, "cot_DpCp_broken": 7}
+  desc tgate {"n": 800, "D+C-": 60, "D-C+": 105, "net_vs_direct": 45, "agree_direct_pct": 79.4, "body_tok_mean": 98.7, "gen_tok_mean": 271.9, "gen_tok_ratio_vs_cot": 2.87, "readouts_mean": 0.0, "consistency_pct": 92.8, "claim_parsed_pct": 79.8, "any_claim_contradicts_answer_pct": 5.8, "states_letter_pct": 99.6, "claims_true_pct": 69.9, "claims_per_item": 1.23, "event_sent_conclusion_pct": 5.9, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 62.0, "kept_sample_claim_true_pct": 54.6, "kept_sample_with_claim": 119, "gated_pct": 42.0, "events_mean": 0.7, "events_mean_gated": 1.67, "resamples": 479, "drops": 81, "tries_mean": 1.58, "cap_hit_pct": 0.0, "cot_DpCm": 110, "repaired": 52, "repaired_pct": 47.3, "cot_DmCp": 135, "rescues_lost": 48, "rescues_lost_pct": 35.6, "cot_DpCp_broken": 2}
+== internvl3_8b syn n=1000 clusters=500
+  acc  direct 90.3  cot 62.1  gate 83.9  rand 71.7  tgate 75.5
+  cot   -Direct -28.2 [-31.7, -24.5]
+  gate  -Direct -6.4 [-8.3, -4.7]  -CoT +21.8 [+18.5, +25.2]  -Rand +12.2 [+9.1, +15.3]  -TextGate +8.4 [+5.7, +11.2]
+  rand  -Direct -18.6 [-21.6, -15.5]  -CoT +9.6 [+7.2, +12.2]
+  tgate -Direct -14.8 [-17.6, -12.0]  -CoT +13.4 [+10.7, +16.1]
+  d'   direct 2.62  cot 0.66  gate 2.00  rand 1.19  tgate 1.46
+  d' cot   -Direct -1.96 [-2.27, -1.66]
+  d' gate  -Direct -0.62 [-0.81, -0.45]  -CoT +1.34 [+1.11, +1.59]  -Rand +0.81 [+0.59, +1.04]
+  d' rand  -Direct -1.43 [-1.72, -1.16]  -CoT +0.54 [+0.40, +0.69]
+  d' tgate -Direct -1.17 [-1.44, -0.92]  -CoT +0.80 [+0.64, +0.97]
+  d'pair direct 1.64  cot 0.59  gate 1.52  rand 1.06  tgate 1.43
+  d'pair cot   -Direct -1.05 [-1.34, -0.78]
+  d'pair gate  -Direct -0.12 [-0.28, +0.05]  -CoT +0.94 [+0.68, +1.23]
+  d'pair rand  -Direct -0.57 [-0.85, -0.31]  -CoT +0.48 [+0.33, +0.66]
+  d'pair tgate -Direct -0.21 [-0.46, +0.05]  -CoT +0.84 [+0.63, +1.13]
+  desc cot   {"n": 1000, "D+C-": 338, "D-C+": 56, "net_vs_direct": -282, "agree_direct_pct": 60.6, "body_tok_mean": 85.7, "gen_tok_mean": 86.7, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 5.9, "consistency_pct": 93.2, "claim_parsed_pct": 92.0, "any_claim_contradicts_answer_pct": 14.1, "states_letter_pct": 100.0, "claims_true_pct": 62.0, "claims_per_item": 1.48}
+  desc gate  {"n": 1000, "D+C-": 77, "D-C+": 13, "net_vs_direct": -64, "agree_direct_pct": 91.0, "body_tok_mean": 94.3, "gen_tok_mean": 322.4, "gen_tok_ratio_vs_cot": 3.72, "readouts_mean": 11.22, "consistency_pct": 93.3, "claim_parsed_pct": 89.8, "any_claim_contradicts_answer_pct": 16.8, "states_letter_pct": 93.9, "claims_true_pct": 79.7, "claims_per_item": 1.46, "event_sent_conclusion_pct": 15.2, "event_sent_claim_pct": 52.7, "replaced_sent_claim_true_pct": 23.3, "kept_sample_claim_true_pct": 62.6, "kept_sample_with_claim": 195, "gated_pct": 45.0, "events_mean": 0.84, "events_mean_gated": 1.87, "resamples": 678, "drops": 163, "tries_mean": 1.58, "cap_hit_pct": 0.3, "cot_DpCm": 338, "repaired": 263, "repaired_pct": 77.8, "cot_DmCp": 56, "rescues_lost": 43, "rescues_lost_pct": 76.8, "cot_DpCp_broken": 2, "cot_traj_cross_pct": 45.0, "p0_below_half_pct": 2.6}
+  desc rand  {"n": 1000, "D+C-": 235, "D-C+": 49, "net_vs_direct": -186, "agree_direct_pct": 71.6, "body_tok_mean": 88.7, "gen_tok_mean": 159.6, "gen_tok_ratio_vs_cot": 1.84, "readouts_mean": 0.0, "consistency_pct": 94.8, "claim_parsed_pct": 90.6, "any_claim_contradicts_answer_pct": 11.9, "states_letter_pct": 97.2, "claims_true_pct": 70.2, "claims_per_item": 1.45, "event_sent_conclusion_pct": 16.4, "event_sent_claim_pct": 29.2, "replaced_sent_claim_true_pct": 47.5, "kept_sample_claim_true_pct": 45.6, "kept_sample_with_claim": 149, "gated_pct": 45.0, "events_mean": 0.75, "events_mean_gated": 1.67, "resamples": 617, "drops": 134, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 338, "repaired": 126, "repaired_pct": 37.3, "cot_DmCp": 56, "rescues_lost": 12, "rescues_lost_pct": 21.4, "cot_DpCp_broken": 23}
+  desc tgate {"n": 1000, "D+C-": 192, "D-C+": 44, "net_vs_direct": -148, "agree_direct_pct": 76.4, "body_tok_mean": 92.4, "gen_tok_mean": 256.9, "gen_tok_ratio_vs_cot": 2.96, "readouts_mean": 0.0, "consistency_pct": 90.4, "claim_parsed_pct": 77.0, "any_claim_contradicts_answer_pct": 7.4, "states_letter_pct": 99.5, "claims_true_pct": 93.8, "claims_per_item": 1.21, "event_sent_conclusion_pct": 11.1, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 15.3, "kept_sample_claim_true_pct": 91.3, "kept_sample_with_claim": 149, "gated_pct": 43.0, "events_mean": 0.69, "events_mean_gated": 1.61, "resamples": 605, "drops": 88, "tries_mean": 1.53, "cap_hit_pct": 0.0, "cot_DpCm": 338, "repaired": 159, "repaired_pct": 47.0, "cot_DmCp": 56, "rescues_lost": 17, "rescues_lost_pct": 30.4, "cot_DpCp_broken": 13}
+== molmo7b cues n=1600 clusters=400
+  acc  direct 88.1  cot 75.3  gate 86.0  rand 77.4  tgate 77.1
+  cot   -Direct -12.8 [-14.9, -10.6]
+  gate  -Direct -2.1 [-3.1, -1.2]  -CoT +10.7 [+8.6, +12.7]  -Rand +8.6 [+6.6, +10.4]  -TextGate +8.9 [+7.1, +10.7]
+  rand  -Direct -10.7 [-12.7, -8.7]  -CoT +2.1 [+0.6, +3.6]
+  tgate -Direct -11.1 [-12.8, -9.2]  -CoT +1.8 [+0.2, +3.3]
+  d'   direct 2.42  cot 1.54  gate 2.30  rand 1.72  tgate 1.69
+  d' cot   -Direct -0.88 [-1.07, -0.70]
+  d' gate  -Direct -0.12 [-0.22, -0.02]  -CoT +0.76 [+0.59, +0.93]  -Rand +0.58 [+0.42, +0.74]
+  d' rand  -Direct -0.69 [-0.87, -0.52]  -CoT +0.18 [+0.07, +0.29]
+  d' tgate -Direct -0.73 [-0.89, -0.57]  -CoT +0.15 [+0.03, +0.27]
+  desc cot   {"n": 1600, "D+C-": 296, "D-C+": 91, "net_vs_direct": -205, "agree_direct_pct": 75.8, "body_tok_mean": 71.8, "gen_tok_mean": 72.8, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 6.5, "consistency_pct": 86.2, "claim_parsed_pct": 94.8, "any_claim_contradicts_answer_pct": 24.4, "states_letter_pct": 100.0, "claims_true_pct": 83.3, "claims_per_item": 1.86}
+  desc gate  {"n": 1600, "D+C-": 54, "D-C+": 20, "net_vs_direct": -34, "agree_direct_pct": 95.4, "body_tok_mean": 73.6, "gen_tok_mean": 194.9, "gen_tok_ratio_vs_cot": 2.68, "readouts_mean": 10.02, "consistency_pct": 88.3, "claim_parsed_pct": 92.4, "any_claim_contradicts_answer_pct": 20.9, "states_letter_pct": 95.1, "claims_true_pct": 87.1, "claims_per_item": 1.76, "event_sent_conclusion_pct": 9.8, "event_sent_claim_pct": 51.5, "replaced_sent_claim_true_pct": 70.6, "kept_sample_claim_true_pct": 86.2, "kept_sample_with_claim": 160, "gated_pct": 28.6, "events_mean": 0.51, "events_mean_gated": 1.79, "resamples": 660, "drops": 159, "tries_mean": 1.62, "cap_hit_pct": 0.1, "cot_DpCm": 296, "repaired": 245, "repaired_pct": 82.8, "cot_DmCp": 91, "rescues_lost": 72, "rescues_lost_pct": 79.1, "cot_DpCp_broken": 3, "cot_traj_cross_pct": 28.6, "p0_below_half_pct": 9.8}
+  desc rand  {"n": 1600, "D+C-": 245, "D-C+": 74, "net_vs_direct": -171, "agree_direct_pct": 80.1, "body_tok_mean": 71.8, "gen_tok_mean": 101.6, "gen_tok_ratio_vs_cot": 1.4, "readouts_mean": 0.0, "consistency_pct": 85.6, "claim_parsed_pct": 93.4, "any_claim_contradicts_answer_pct": 23.7, "states_letter_pct": 95.6, "claims_true_pct": 84.7, "claims_per_item": 1.78, "event_sent_conclusion_pct": 17.8, "event_sent_claim_pct": 38.2, "replaced_sent_claim_true_pct": 73.6, "kept_sample_claim_true_pct": 74.2, "kept_sample_with_claim": 159, "gated_pct": 28.6, "events_mean": 0.45, "events_mean_gated": 1.58, "resamples": 599, "drops": 124, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 296, "repaired": 92, "repaired_pct": 31.1, "cot_DmCp": 91, "rescues_lost": 21, "rescues_lost_pct": 23.1, "cot_DpCp_broken": 41}
+  desc tgate {"n": 1600, "D+C-": 225, "D-C+": 48, "net_vs_direct": -177, "agree_direct_pct": 82.9, "body_tok_mean": 72.2, "gen_tok_mean": 166.7, "gen_tok_ratio_vs_cot": 2.29, "readouts_mean": 0.0, "consistency_pct": 87.0, "claim_parsed_pct": 87.7, "any_claim_contradicts_answer_pct": 11.4, "states_letter_pct": 97.1, "claims_true_pct": 93.8, "claims_per_item": 1.59, "event_sent_conclusion_pct": 3.1, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 38.5, "kept_sample_claim_true_pct": 76.0, "kept_sample_with_claim": 150, "gated_pct": 29.7, "events_mean": 0.41, "events_mean_gated": 1.37, "resamples": 581, "drops": 69, "tries_mean": 1.54, "cap_hit_pct": 0.0, "cot_DpCm": 296, "repaired": 91, "repaired_pct": 30.7, "cot_DmCp": 91, "rescues_lost": 53, "rescues_lost_pct": 58.2, "cot_DpCp_broken": 20}
+  GLM direct occ +2.71 [2.54, 2.91] vert +0.85 [0.71, 1.05] size -0.11 | AUC 0.965
+  GLM cot   occ +1.56 [1.41, 1.72] vert +0.33 [0.18, 0.46] size -0.00 | AUC 0.802
+      cot-Direct occ -1.14 [-1.38, -0.97] vert -0.52 [-0.75, -0.34]
+  GLM gate  occ +2.58 [2.38, 2.82] vert +0.76 [0.57, 0.99] size -0.16 | AUC 0.909
+      gate-Direct occ -0.13 [-0.27, 0.03] vert -0.09 [-0.25, 0.02]
+  GLM rand  occ +1.80 [1.62, 2.01] vert +0.34 [0.17, 0.47] size +0.08 | AUC 0.805
+      rand-Direct occ -0.91 [-1.12, -0.73] vert -0.52 [-0.72, -0.34]
+  GLM tgate occ +1.71 [1.58, 1.86] vert +0.30 [0.15, 0.45] size -0.07 | AUC 0.813
+      tgate-Direct occ -1.00 [-1.19, -0.85] vert -0.56 [-0.79, -0.37]
+== molmo7b twins n=800 clusters=200
+  acc  direct 88.2  cot 74.2  gate 86.0  rand 79.0  tgate 77.8
+  cot   -Direct -14.0 [-17.2, -11.0]
+  gate  -Direct -2.2 [-3.6, -0.9]  -CoT +11.8 [+9.1, +14.6]  -Rand +7.0 [+4.5, +9.8]  -TextGate +8.2 [+5.8, +10.9]
+  rand  -Direct -9.2 [-12.2, -6.5]  -CoT +4.8 [+2.6, +6.9]
+  tgate -Direct -10.5 [-13.2, -8.0]  -CoT +3.5 [+1.6, +5.5]
+  d'   direct 2.42  cot 1.48  gate 2.28  rand 1.77  tgate 1.72
+  d' cot   -Direct -0.94 [-1.24, -0.67]
+  d' gate  -Direct -0.13 [-0.27, +0.01]  -CoT +0.81 [+0.58, +1.06]  -Rand +0.51 [+0.28, +0.76]
+  d' rand  -Direct -0.64 [-0.91, -0.38]  -CoT +0.30 [+0.14, +0.46]
+  d' tgate -Direct -0.69 [-0.96, -0.45]  -CoT +0.25 [+0.09, +0.41]
+  desc cot   {"n": 800, "D+C-": 155, "D-C+": 43, "net_vs_direct": -112, "agree_direct_pct": 75.2, "body_tok_mean": 71.8, "gen_tok_mean": 72.8, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 6.48, "consistency_pct": 87.2, "claim_parsed_pct": 95.9, "any_claim_contradicts_answer_pct": 24.5, "states_letter_pct": 100.0, "claims_true_pct": 82.9, "claims_per_item": 1.87}
+  desc gate  {"n": 800, "D+C-": 28, "D-C+": 10, "net_vs_direct": -18, "agree_direct_pct": 95.2, "body_tok_mean": 73.4, "gen_tok_mean": 203.0, "gen_tok_ratio_vs_cot": 2.79, "readouts_mean": 10.2, "consistency_pct": 87.9, "claim_parsed_pct": 93.2, "any_claim_contradicts_answer_pct": 20.9, "states_letter_pct": 94.4, "claims_true_pct": 87.2, "claims_per_item": 1.76, "event_sent_conclusion_pct": 10.3, "event_sent_claim_pct": 47.2, "replaced_sent_claim_true_pct": 65.5, "kept_sample_claim_true_pct": 83.7, "kept_sample_with_claim": 86, "gated_pct": 29.9, "events_mean": 0.55, "events_mean_gated": 1.82, "resamples": 357, "drops": 79, "tries_mean": 1.55, "cap_hit_pct": 0.2, "cot_DpCm": 155, "repaired": 130, "repaired_pct": 83.9, "cot_DmCp": 43, "rescues_lost": 33, "rescues_lost_pct": 76.7, "cot_DpCp_broken": 3, "cot_traj_cross_pct": 29.9, "p0_below_half_pct": 11.9}
+  desc rand  {"n": 800, "D+C-": 110, "D-C+": 36, "net_vs_direct": -74, "agree_direct_pct": 81.8, "body_tok_mean": 71.9, "gen_tok_mean": 106.8, "gen_tok_ratio_vs_cot": 1.47, "readouts_mean": 0.0, "consistency_pct": 86.8, "claim_parsed_pct": 94.4, "any_claim_contradicts_answer_pct": 23.0, "states_letter_pct": 95.6, "claims_true_pct": 85.2, "claims_per_item": 1.78, "event_sent_conclusion_pct": 15.4, "event_sent_claim_pct": 36.4, "replaced_sent_claim_true_pct": 71.9, "kept_sample_claim_true_pct": 69.6, "kept_sample_with_claim": 92, "gated_pct": 29.9, "events_mean": 0.48, "events_mean_gated": 1.6, "resamples": 321, "drops": 61, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 155, "repaired": 62, "repaired_pct": 40.0, "cot_DmCp": 43, "rescues_lost": 10, "rescues_lost_pct": 23.3, "cot_DpCp_broken": 17}
+  desc tgate {"n": 800, "D+C-": 113, "D-C+": 29, "net_vs_direct": -84, "agree_direct_pct": 82.2, "body_tok_mean": 71.0, "gen_tok_mean": 170.0, "gen_tok_ratio_vs_cot": 2.34, "readouts_mean": 0.0, "consistency_pct": 87.0, "claim_parsed_pct": 86.4, "any_claim_contradicts_answer_pct": 11.4, "states_letter_pct": 95.2, "claims_true_pct": 94.3, "claims_per_item": 1.58, "event_sent_conclusion_pct": 2.3, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 39.4, "kept_sample_claim_true_pct": 73.0, "kept_sample_with_claim": 63, "gated_pct": 31.4, "events_mean": 0.44, "events_mean_gated": 1.39, "resamples": 302, "drops": 48, "tries_mean": 1.47, "cap_hit_pct": 0.0, "cot_DpCm": 155, "repaired": 46, "repaired_pct": 29.7, "cot_DmCp": 43, "rescues_lost": 19, "rescues_lost_pct": 44.2, "cot_DpCp_broken": 4}
+== molmo7b syn n=1000 clusters=500
+  acc  direct 88.6  cot 73.0  gate 87.3  rand 79.6  tgate 79.8
+  cot   -Direct -15.6 [-18.6, -12.7]
+  gate  -Direct -1.3 [-2.4, -0.2]  -CoT +14.3 [+11.5, +17.2]  -Rand +7.7 [+5.1, +10.4]  -TextGate +7.5 [+5.3, +9.8]
+  rand  -Direct -9.0 [-11.6, -6.4]  -CoT +6.6 [+4.5, +8.7]
+  tgate -Direct -8.8 [-11.2, -6.5]  -CoT +6.8 [+4.6, +9.2]
+  d'   direct 2.50  cot 1.27  gate 2.33  rand 1.65  tgate 1.67
+  d' cot   -Direct -1.23 [-1.49, -1.00]
+  d' gate  -Direct -0.17 [-0.31, -0.02]  -CoT +1.06 [+0.84, +1.30]  -Rand +0.68 [+0.46, +0.93]
+  d' rand  -Direct -0.85 [-1.11, -0.62]  -CoT +0.38 [+0.24, +0.53]
+  d' tgate -Direct -0.82 [-1.05, -0.63]  -CoT +0.40 [+0.25, +0.57]
+  d'pair direct 2.08  cot 1.31  gate 2.06  rand 1.64  tgate 1.59
+  d'pair cot   -Direct -0.77 [-1.20, -0.44]
+  d'pair gate  -Direct -0.02 [-0.18, +0.14]  -CoT +0.75 [+0.44, +1.17]
+  d'pair rand  -Direct -0.45 [-0.85, -0.09]  -CoT +0.32 [+0.10, +0.57]
+  d'pair tgate -Direct -0.50 [-0.86, -0.21]  -CoT +0.27 [+0.04, +0.53]
+  desc cot   {"n": 1000, "D+C-": 225, "D-C+": 69, "net_vs_direct": -156, "agree_direct_pct": 70.6, "body_tok_mean": 71.1, "gen_tok_mean": 72.1, "gen_tok_ratio_vs_cot": 1.0, "readouts_mean": 6.55, "consistency_pct": 91.8, "claim_parsed_pct": 91.9, "any_claim_contradicts_answer_pct": 12.9, "states_letter_pct": 99.9, "claims_true_pct": 78.4, "claims_per_item": 1.4}
+  desc gate  {"n": 1000, "D+C-": 24, "D-C+": 11, "net_vs_direct": -13, "agree_direct_pct": 96.5, "body_tok_mean": 74.0, "gen_tok_mean": 198.9, "gen_tok_ratio_vs_cot": 2.76, "readouts_mean": 10.43, "consistency_pct": 92.9, "claim_parsed_pct": 87.5, "any_claim_contradicts_answer_pct": 11.6, "states_letter_pct": 93.8, "claims_true_pct": 86.9, "claims_per_item": 1.32, "event_sent_conclusion_pct": 6.6, "event_sent_claim_pct": 48.5, "replaced_sent_claim_true_pct": 42.9, "kept_sample_claim_true_pct": 67.9, "kept_sample_with_claim": 109, "gated_pct": 34.9, "events_mean": 0.58, "events_mean_gated": 1.65, "resamples": 507, "drops": 70, "tries_mean": 1.58, "cap_hit_pct": 0.0, "cot_DpCm": 225, "repaired": 202, "repaired_pct": 89.8, "cot_DmCp": 69, "rescues_lost": 58, "rescues_lost_pct": 84.1, "cot_DpCp_broken": 1, "cot_traj_cross_pct": 34.9, "p0_below_half_pct": 4.9}
+  desc rand  {"n": 1000, "D+C-": 150, "D-C+": 60, "net_vs_direct": -90, "agree_direct_pct": 79.0, "body_tok_mean": 72.3, "gen_tok_mean": 112.2, "gen_tok_ratio_vs_cot": 1.56, "readouts_mean": 0.0, "consistency_pct": 90.7, "claim_parsed_pct": 89.6, "any_claim_contradicts_answer_pct": 13.5, "states_letter_pct": 95.3, "claims_true_pct": 83.1, "claims_per_item": 1.38, "event_sent_conclusion_pct": 16.5, "event_sent_claim_pct": 25.4, "replaced_sent_claim_true_pct": 65.2, "kept_sample_claim_true_pct": 71.2, "kept_sample_with_claim": 111, "gated_pct": 34.9, "events_mean": 0.54, "events_mean_gated": 1.56, "resamples": 482, "drops": 62, "tries_mean": 1.0, "cap_hit_pct": 0.0, "cot_DpCm": 225, "repaired": 93, "repaired_pct": 41.3, "cot_DmCp": 69, "rescues_lost": 12, "rescues_lost_pct": 17.4, "cot_DpCp_broken": 18}
+  desc tgate {"n": 1000, "D+C-": 126, "D-C+": 38, "net_vs_direct": -88, "agree_direct_pct": 83.6, "body_tok_mean": 72.4, "gen_tok_mean": 153.0, "gen_tok_ratio_vs_cot": 2.12, "readouts_mean": 0.0, "consistency_pct": 91.8, "claim_parsed_pct": 80.5, "any_claim_contradicts_answer_pct": 6.6, "states_letter_pct": 95.8, "claims_true_pct": 94.3, "claims_per_item": 1.19, "event_sent_conclusion_pct": 0.8, "event_sent_claim_pct": 100.0, "replaced_sent_claim_true_pct": 26.1, "kept_sample_claim_true_pct": 83.3, "kept_sample_with_claim": 84, "gated_pct": 28.8, "events_mean": 0.38, "events_mean_gated": 1.33, "resamples": 345, "drops": 38, "tries_mean": 1.45, "cap_hit_pct": 0.0, "cot_DpCm": 225, "repaired": 102, "repaired_pct": 45.3, "cot_DmCp": 69, "rescues_lost": 32, "rescues_lost_pct": 46.4, "cot_DpCp_broken": 3}

@@ -1,0 +1,12594 @@
+{
+ "qwen3vl_8b": {
+  "cues": {
+   "n": 1600,
+   "n_clusters": 400,
+   "n_direct_wrong": 338,
+   "acc": {
+    "cot": 77.06,
+    "gate": 79.44,
+    "afe": 78.88,
+    "direct": 78.88
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 90.9,
+   "afe_post_readout_acc": 77.9,
+   "afe_eos_pct": 97.9,
+   "boot": {
+    "claim_true_cot": {
+     "est": 78.444,
+     "ci": [
+      76.263,
+      80.509
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 80.32,
+     "ci": [
+      78.068,
+      82.644
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 71.865,
+     "ci": [
+      67.343,
+      76.085
+     ]
+    },
+    "any_false_cot": {
+     "est": 29.375,
+     "ci": [
+      27.061,
+      31.812
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 30.051,
+     "ci": [
+      27.577,
+      32.591
+     ]
+    },
+    "consistency_cot": {
+     "est": 98.402,
+     "ci": [
+      97.772,
+      98.981
+     ]
+    },
+    "contra_cot": {
+     "est": 12.375,
+     "ci": [
+      10.812,
+      13.939
+     ]
+    },
+    "rat_any_cot": {
+     "est": 44.083,
+     "ci": [
+      38.727,
+      49.853
+     ]
+    },
+    "rat_last_cot": {
+     "est": 33.432,
+     "ci": [
+      28.358,
+      39.118
+     ]
+    },
+    "dissent_cot": {
+     "est": 76.923,
+     "ci": [
+      71.962,
+      81.503
+     ]
+    },
+    "tok_cot": {
+     "est": 178.387,
+     "ci": [
+      176.012,
+      180.821
+     ]
+    },
+    "body_tok_cot": {
+     "est": 177.39,
+     "ci": [
+      175.013,
+      179.825
+     ]
+    },
+    "claimed_cot": {
+     "est": 97.75,
+     "ci": [
+      96.812,
+      98.625
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 2.763,
+     "ci": [
+      2.711,
+      2.815
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 86.486,
+     "ci": [
+      84.195,
+      88.549
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 70.055,
+     "ci": [
+      66.681,
+      73.399
+     ]
+    },
+    "vgap_cot": {
+     "est": -16.431,
+     "ci": [
+      -20.286,
+      -12.643
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 79.322,
+     "ci": [
+      77.159,
+      81.519
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 30.473,
+     "ci": [
+      25.148,
+      35.693
+     ]
+    },
+    "claim_true_gate": {
+     "est": 79.641,
+     "ci": [
+      76.928,
+      82.174
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 84.913,
+     "ci": [
+      81.844,
+      87.701
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 60.942,
+     "ci": [
+      55.634,
+      66.007
+     ]
+    },
+    "any_false_gate": {
+     "est": 27.688,
+     "ci": [
+      25.5,
+      30.0
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 29.202,
+     "ci": [
+      26.938,
+      31.669
+     ]
+    },
+    "consistency_gate": {
+     "est": 85.63,
+     "ci": [
+      83.851,
+      87.384
+     ]
+    },
+    "contra_gate": {
+     "est": 25.75,
+     "ci": [
+      23.75,
+      27.812
+     ]
+    },
+    "rat_any_gate": {
+     "est": 57.988,
+     "ci": [
+      52.257,
+      63.312
+     ]
+    },
+    "rat_last_gate": {
+     "est": 45.858,
+     "ci": [
+      40.453,
+      51.534
+     ]
+    },
+    "dissent_gate": {
+     "est": 71.006,
+     "ci": [
+      66.031,
+      75.686
+     ]
+    },
+    "tok_gate": {
+     "est": 813.656,
+     "ci": [
+      759.832,
+      868.362
+     ]
+    },
+    "body_tok_gate": {
+     "est": 187.692,
+     "ci": [
+      183.904,
+      191.38
+     ]
+    },
+    "claimed_gate": {
+     "est": 94.812,
+     "ci": [
+      93.625,
+      95.938
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 2.714,
+     "ci": [
+      2.621,
+      2.818
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 84.004,
+     "ci": [
+      80.614,
+      86.828
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 75.106,
+     "ci": [
+      70.794,
+      79.117
+     ]
+    },
+    "vgap_gate": {
+     "est": -8.898,
+     "ci": [
+      -14.271,
+      -3.767
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 78.721,
+     "ci": [
+      75.244,
+      81.795
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 37.87,
+     "ci": [
+      32.716,
+      43.207
+     ]
+    },
+    "claim_true_afe": {
+     "est": 76.044,
+     "ci": [
+      73.829,
+      78.067
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 80.614,
+     "ci": [
+      78.113,
+      83.06
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 62.244,
+     "ci": [
+      57.708,
+      66.369
+     ]
+    },
+    "any_false_afe": {
+     "est": 35.375,
+     "ci": [
+      33.188,
+      37.75
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 36.051,
+     "ci": [
+      33.841,
+      38.482
+     ]
+    },
+    "consistency_afe": {
+     "est": 84.65,
+     "ci": [
+      82.785,
+      86.519
+     ]
+    },
+    "contra_afe": {
+     "est": 34.938,
+     "ci": [
+      32.812,
+      37.064
+     ]
+    },
+    "rat_any_afe": {
+     "est": 78.107,
+     "ci": [
+      73.75,
+      82.353
+     ]
+    },
+    "rat_last_afe": {
+     "est": 70.118,
+     "ci": [
+      64.762,
+      74.928
+     ]
+    },
+    "dissent_afe": {
+     "est": 76.036,
+     "ci": [
+      71.236,
+      80.38
+     ]
+    },
+    "tok_afe": {
+     "est": 116.941,
+     "ci": [
+      112.93,
+      121.102
+     ]
+    },
+    "body_tok_afe": {
+     "est": 115.962,
+     "ci": [
+      111.944,
+      120.13
+     ]
+    },
+    "claimed_afe": {
+     "est": 98.125,
+     "ci": [
+      97.25,
+      98.875
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 2.575,
+     "ci": [
+      2.494,
+      2.661
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 78.788,
+     "ci": [
+      76.086,
+      81.295
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 73.157,
+     "ci": [
+      69.679,
+      76.384
+     ]
+    },
+    "vgap_afe": {
+     "est": -5.631,
+     "ci": [
+      -9.929,
+      -1.663
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 77.984,
+     "ci": [
+      75.472,
+      80.352
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 35.207,
+     "ci": [
+      30.275,
+      40.533
+     ]
+    },
+    "n_mcot": {
+     "est": 112.0,
+     "ci": [
+      92.0,
+      133.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 98.214,
+     "ci": [
+      95.312,
+      100.0
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 69.643,
+     "ci": [
+      60.87,
+      78.219
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 87.5,
+     "ci": [
+      80.87,
+      93.223
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 60.714,
+     "ci": [
+      51.514,
+      69.644
+     ]
+    },
+    "n_mgate": {
+     "est": 260.0,
+     "ci": [
+      231.975,
+      289.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 61.923,
+     "ci": [
+      56.043,
+      67.83
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 41.923,
+     "ci": [
+      35.887,
+      47.956
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 80.385,
+     "ci": [
+      75.619,
+      85.081
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 38.462,
+     "ci": [
+      32.669,
+      44.84
+     ]
+    },
+    "n_rcot": {
+     "est": 226.0,
+     "ci": [
+      200.0,
+      251.025
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 17.257,
+     "ci": [
+      12.553,
+      22.116
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 11.062,
+     "ci": [
+      7.245,
+      15.08
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 73.451,
+     "ci": [
+      67.796,
+      78.948
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 22.566,
+     "ci": [
+      17.117,
+      28.194
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": -10.714,
+     "ci": [
+      -16.982,
+      -5.505
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 18.462,
+     "ci": [
+      11.267,
+      25.557
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 56.195,
+     "ci": [
+      49.557,
+      63.286
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": -8.929,
+     "ci": [
+      -15.789,
+      -2.04
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": -3.462,
+     "ci": [
+      -9.054,
+      2.335
+     ]
+    },
+    "acc_direct": {
+     "est": 78.875,
+     "ci": [
+      76.998,
+      80.75
+     ]
+    },
+    "post_acc_afe": {
+     "est": 77.938,
+     "ci": [
+      75.938,
+      79.812
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": -0.938,
+     "ci": [
+      -2.625,
+      0.688
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": -2.4,
+     "ci": [
+      -4.652,
+      -0.311
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 0.294,
+     "ci": [
+      -2.361,
+      2.717
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -9.622,
+     "ci": [
+      -14.559,
+      -4.821
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": 6.0,
+     "ci": [
+      3.561,
+      8.5
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": 6.0,
+     "ci": [
+      3.439,
+      8.538
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -13.752,
+     "ci": [
+      -15.675,
+      -11.771
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": 22.562,
+     "ci": [
+      20.061,
+      25.0
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 34.024,
+     "ci": [
+      27.873,
+      40.492
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 36.686,
+     "ci": [
+      29.967,
+      43.481
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -0.888,
+     "ci": [
+      -5.689,
+      3.955
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -61.447,
+     "ci": [
+      -65.629,
+      -57.105
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -61.428,
+     "ci": [
+      -65.616,
+      -57.074
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 0.375,
+     "ci": [
+      -0.438,
+      1.188
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.188,
+     "ci": [
+      -0.269,
+      -0.101
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": -7.699,
+     "ci": [
+      -10.41,
+      -5.026
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 3.102,
+     "ci": [
+      -0.052,
+      6.225
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 10.801,
+     "ci": [
+      6.708,
+      15.023
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": -1.338,
+     "ci": [
+      -3.79,
+      1.164
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 4.734,
+     "ci": [
+      0.28,
+      9.296
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": -3.597,
+     "ci": [
+      -6.435,
+      -0.603
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": -4.299,
+     "ci": [
+      -7.555,
+      -0.81
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 1.301,
+     "ci": [
+      -4.569,
+      7.531
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": 7.688,
+     "ci": [
+      5.187,
+      10.188
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": 6.849,
+     "ci": [
+      4.296,
+      9.376
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -0.98,
+     "ci": [
+      -3.323,
+      1.382
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 9.188,
+     "ci": [
+      6.625,
+      11.688
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 20.118,
+     "ci": [
+      13.714,
+      26.525
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 24.26,
+     "ci": [
+      16.973,
+      31.289
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 5.03,
+     "ci": [
+      0.287,
+      9.884
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -696.716,
+     "ci": [
+      -750.519,
+      -644.341
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -71.731,
+     "ci": [
+      -76.245,
+      -66.682
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 3.312,
+     "ci": [
+      2.188,
+      4.438
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": -0.139,
+     "ci": [
+      -0.245,
+      -0.036
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": -5.216,
+     "ci": [
+      -8.75,
+      -1.378
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": -1.948,
+     "ci": [
+      -6.165,
+      2.65
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": 3.267,
+     "ci": [
+      -2.251,
+      9.184
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": -0.737,
+     "ci": [
+      -4.355,
+      2.969
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": -2.663,
+     "ci": [
+      -7.932,
+      2.306
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 1.197,
+     "ci": [
+      -1.085,
+      3.14
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 4.593,
+     "ci": [
+      2.097,
+      6.727
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -10.923,
+     "ci": [
+      -15.369,
+      -7.413
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -1.688,
+     "ci": [
+      -3.188,
+      -0.25
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -0.849,
+     "ci": [
+      -2.29,
+      0.508
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -12.772,
+     "ci": [
+      -14.554,
+      -11.102
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": 13.375,
+     "ci": [
+      11.438,
+      15.312
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 13.905,
+     "ci": [
+      9.816,
+      17.898
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 12.426,
+     "ci": [
+      8.814,
+      16.235
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -5.917,
+     "ci": [
+      -8.735,
+      -3.478
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 635.269,
+     "ci": [
+      582.202,
+      689.737
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 10.303,
+     "ci": [
+      7.273,
+      13.361
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.938,
+     "ci": [
+      -3.875,
+      -2.062
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.049,
+     "ci": [
+      -0.128,
+      0.043
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": -2.483,
+     "ci": [
+      -5.118,
+      -0.335
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 5.05,
+     "ci": [
+      1.549,
+      7.893
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": 7.533,
+     "ci": [
+      3.332,
+      11.534
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": -0.6,
+     "ci": [
+      -3.565,
+      1.843
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 7.396,
+     "ci": [
+      3.636,
+      11.112
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.656,
+     "ci": [
+      0.633,
+      0.679
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.144,
+     "ci": [
+      0.135,
+      0.153
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 4.561,
+     "ci": [
+      4.276,
+      4.855
+     ]
+    }
+   }
+  },
+  "twins": {
+   "n": 800,
+   "n_clusters": 200,
+   "n_direct_wrong": 151,
+   "acc": {
+    "cot": 79.75,
+    "gate": 81.38,
+    "afe": 81.12,
+    "direct": 81.12
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 91.1,
+   "afe_post_readout_acc": 81.5,
+   "afe_eos_pct": 98.9,
+   "boot": {
+    "claim_true_cot": {
+     "est": 79.398,
+     "ci": [
+      76.481,
+      82.206
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 81.419,
+     "ci": [
+      78.16,
+      84.847
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 71.011,
+     "ci": [
+      63.59,
+      78.173
+     ]
+    },
+    "any_false_cot": {
+     "est": 27.5,
+     "ci": [
+      24.125,
+      30.875
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 27.778,
+     "ci": [
+      24.399,
+      31.148
+     ]
+    },
+    "consistency_cot": {
+     "est": 98.359,
+     "ci": [
+      97.348,
+      99.242
+     ]
+    },
+    "contra_cot": {
+     "est": 11.75,
+     "ci": [
+      9.5,
+      14.0
+     ]
+    },
+    "rat_any_cot": {
+     "est": 43.046,
+     "ci": [
+      34.328,
+      51.83
+     ]
+    },
+    "rat_last_cot": {
+     "est": 29.801,
+     "ci": [
+      22.287,
+      37.423
+     ]
+    },
+    "dissent_cot": {
+     "est": 80.132,
+     "ci": [
+      73.134,
+      86.577
+     ]
+    },
+    "tok_cot": {
+     "est": 178.952,
+     "ci": [
+      175.41,
+      182.525
+     ]
+    },
+    "body_tok_cot": {
+     "est": 177.954,
+     "ci": [
+      174.411,
+      181.527
+     ]
+    },
+    "claimed_cot": {
+     "est": 99.0,
+     "ci": [
+      98.125,
+      99.75
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 2.864,
+     "ci": [
+      2.783,
+      2.945
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 85.017,
+     "ci": [
+      81.438,
+      88.451
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 73.553,
+     "ci": [
+      68.899,
+      78.261
+     ]
+    },
+    "vgap_cot": {
+     "est": -11.464,
+     "ci": [
+      -17.533,
+      -5.434
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 79.58,
+     "ci": [
+      76.47,
+      82.59
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 29.801,
+     "ci": [
+      21.481,
+      38.621
+     ]
+    },
+    "claim_true_gate": {
+     "est": 82.634,
+     "ci": [
+      79.755,
+      85.374
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 86.504,
+     "ci": [
+      83.596,
+      89.569
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 66.435,
+     "ci": [
+      58.507,
+      73.753
+     ]
+    },
+    "any_false_gate": {
+     "est": 24.75,
+     "ci": [
+      21.5,
+      28.125
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 25.515,
+     "ci": [
+      22.066,
+      28.904
+     ]
+    },
+    "consistency_gate": {
+     "est": 86.985,
+     "ci": [
+      84.675,
+      89.231
+     ]
+    },
+    "contra_gate": {
+     "est": 23.75,
+     "ci": [
+      21.0,
+      26.253
+     ]
+    },
+    "rat_any_gate": {
+     "est": 48.344,
+     "ci": [
+      39.86,
+      56.708
+     ]
+    },
+    "rat_last_gate": {
+     "est": 37.748,
+     "ci": [
+      29.252,
+      46.259
+     ]
+    },
+    "dissent_gate": {
+     "est": 76.821,
+     "ci": [
+      69.563,
+      83.704
+     ]
+    },
+    "tok_gate": {
+     "est": 777.997,
+     "ci": [
+      697.735,
+      857.787
+     ]
+    },
+    "body_tok_gate": {
+     "est": 185.708,
+     "ci": [
+      179.59,
+      191.529
+     ]
+    },
+    "claimed_gate": {
+     "est": 97.0,
+     "ci": [
+      95.875,
+      98.125
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 2.8,
+     "ci": [
+      2.68,
+      2.92
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 87.058,
+     "ci": [
+      83.465,
+      90.395
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 77.891,
+     "ci": [
+      73.458,
+      82.445
+     ]
+    },
+    "vgap_gate": {
+     "est": -9.167,
+     "ci": [
+      -14.676,
+      -3.339
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 81.208,
+     "ci": [
+      77.887,
+      84.428
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 32.45,
+     "ci": [
+      24.427,
+      41.307
+     ]
+    },
+    "claim_true_afe": {
+     "est": 78.477,
+     "ci": [
+      75.351,
+      81.284
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 83.057,
+     "ci": [
+      79.27,
+      86.544
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 63.011,
+     "ci": [
+      56.563,
+      69.154
+     ]
+    },
+    "any_false_afe": {
+     "est": 31.375,
+     "ci": [
+      28.125,
+      34.75
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 32.097,
+     "ci": [
+      28.826,
+      35.476
+     ]
+    },
+    "consistency_afe": {
+     "est": 84.527,
+     "ci": [
+      81.969,
+      87.193
+     ]
+    },
+    "contra_afe": {
+     "est": 32.375,
+     "ci": [
+      29.125,
+      35.5
+     ]
+    },
+    "rat_any_afe": {
+     "est": 74.172,
+     "ci": [
+      66.46,
+      81.334
+     ]
+    },
+    "rat_last_afe": {
+     "est": 64.238,
+     "ci": [
+      55.703,
+      72.484
+     ]
+    },
+    "dissent_afe": {
+     "est": 79.47,
+     "ci": [
+      72.258,
+      86.0
+     ]
+    },
+    "tok_afe": {
+     "est": 115.073,
+     "ci": [
+      110.043,
+      120.426
+     ]
+    },
+    "body_tok_afe": {
+     "est": 114.084,
+     "ci": [
+      109.052,
+      119.444
+     ]
+    },
+    "claimed_afe": {
+     "est": 97.75,
+     "ci": [
+      96.625,
+      98.75
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 2.544,
+     "ci": [
+      2.442,
+      2.646
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 79.635,
+     "ci": [
+      76.535,
+      82.75
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 77.264,
+     "ci": [
+      72.179,
+      82.121
+     ]
+    },
+    "vgap_afe": {
+     "est": -2.371,
+     "ci": [
+      -8.429,
+      3.453
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 80.139,
+     "ci": [
+      76.928,
+      83.118
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 35.099,
+     "ci": [
+      26.53,
+      43.294
+     ]
+    },
+    "n_mcot": {
+     "est": 45.0,
+     "ci": [
+      32.0,
+      59.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 100.0,
+     "ci": [
+      100.0,
+      100.0
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 71.111,
+     "ci": [
+      56.095,
+      84.375
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 82.222,
+     "ci": [
+      70.452,
+      92.308
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 57.778,
+     "ci": [
+      42.101,
+      71.119
+     ]
+    },
+    "n_mgate": {
+     "est": 108.0,
+     "ci": [
+      89.0,
+      127.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 57.407,
+     "ci": [
+      47.423,
+      66.667
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 39.815,
+     "ci": [
+      30.079,
+      49.628
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 78.704,
+     "ci": [
+      70.588,
+      86.17
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 37.963,
+     "ci": [
+      28.123,
+      47.009
+     ]
+    },
+    "n_rcot": {
+     "est": 106.0,
+     "ci": [
+      88.0,
+      125.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 18.868,
+     "ci": [
+      11.998,
+      27.103
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 12.264,
+     "ci": [
+      6.451,
+      18.92
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 70.755,
+     "ci": [
+      61.983,
+      79.283
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 25.472,
+     "ci": [
+      17.893,
+      33.654
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": -17.778,
+     "ci": [
+      -29.548,
+      -7.692
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 21.296,
+     "ci": [
+      9.648,
+      33.637
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 51.887,
+     "ci": [
+      40.775,
+      62.245
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": -13.333,
+     "ci": [
+      -27.5,
+      0.0
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": -1.852,
+     "ci": [
+      -10.87,
+      7.549
+     ]
+    },
+    "acc_direct": {
+     "est": 81.125,
+     "ci": [
+      78.375,
+      83.875
+     ]
+    },
+    "post_acc_afe": {
+     "est": 81.5,
+     "ci": [
+      78.75,
+      84.125
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.375,
+     "ci": [
+      -2.0,
+      2.75
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": -0.921,
+     "ci": [
+      -3.855,
+      1.923
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 1.638,
+     "ci": [
+      -1.7,
+      4.919
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -8.0,
+     "ci": [
+      -15.654,
+      -0.918
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": 3.875,
+     "ci": [
+      0.125,
+      7.625
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": 4.319,
+     "ci": [
+      0.462,
+      8.171
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -13.832,
+     "ci": [
+      -16.628,
+      -10.92
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": 20.625,
+     "ci": [
+      17.0,
+      24.25
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 31.126,
+     "ci": [
+      20.496,
+      41.429
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 34.437,
+     "ci": [
+      24.624,
+      44.056
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -0.662,
+     "ci": [
+      -7.643,
+      6.164
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -63.88,
+     "ci": [
+      -69.594,
+      -57.831
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -63.87,
+     "ci": [
+      -69.59,
+      -57.819
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": -1.25,
+     "ci": [
+      -2.5,
+      0.0
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.32,
+     "ci": [
+      -0.444,
+      -0.19
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": -5.382,
+     "ci": [
+      -8.828,
+      -1.865
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 3.711,
+     "ci": [
+      -0.863,
+      8.485
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 9.093,
+     "ci": [
+      3.278,
+      14.849
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 0.559,
+     "ci": [
+      -2.641,
+      3.682
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 5.298,
+     "ci": [
+      -2.6,
+      13.139
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": -4.157,
+     "ci": [
+      -7.111,
+      -1.269
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": -3.447,
+     "ci": [
+      -6.731,
+      -0.311
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": -3.424,
+     "ci": [
+      -11.646,
+      4.29
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": 6.625,
+     "ci": [
+      3.0,
+      10.25
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": 6.582,
+     "ci": [
+      2.994,
+      10.258
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -2.458,
+     "ci": [
+      -5.616,
+      0.733
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 8.625,
+     "ci": [
+      5.375,
+      12.0
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 25.828,
+     "ci": [
+      15.862,
+      36.095
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 26.49,
+     "ci": [
+      16.049,
+      37.21
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 2.649,
+     "ci": [
+      -5.032,
+      10.127
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -662.925,
+     "ci": [
+      -742.126,
+      -583.887
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -71.624,
+     "ci": [
+      -78.379,
+      -64.7
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 0.75,
+     "ci": [
+      -0.75,
+      2.375
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": -0.256,
+     "ci": [
+      -0.409,
+      -0.106
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": -7.423,
+     "ci": [
+      -10.524,
+      -4.189
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": -0.627,
+     "ci": [
+      -5.35,
+      4.007
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": 6.796,
+     "ci": [
+      1.282,
+      12.166
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": -1.069,
+     "ci": [
+      -4.141,
+      2.098
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 2.649,
+     "ci": [
+      -5.406,
+      10.885
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 3.236,
+     "ci": [
+      1.711,
+      4.832
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 5.085,
+     "ci": [
+      3.313,
+      7.115
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -4.576,
+     "ci": [
+      -8.952,
+      0.068
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -2.75,
+     "ci": [
+      -4.75,
+      -0.75
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -2.262,
+     "ci": [
+      -4.237,
+      -0.33
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -11.374,
+     "ci": [
+      -13.73,
+      -8.978
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": 12.0,
+     "ci": [
+      9.625,
+      14.625
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 5.298,
+     "ci": [
+      -0.585,
+      11.334
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 7.947,
+     "ci": [
+      2.919,
+      13.288
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -3.311,
+     "ci": [
+      -6.79,
+      0.0
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 599.045,
+     "ci": [
+      519.934,
+      676.907
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 7.754,
+     "ci": [
+      3.8,
+      11.968
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.0,
+     "ci": [
+      -3.0,
+      -1.0
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.064,
+     "ci": [
+      -0.143,
+      0.029
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": 2.041,
+     "ci": [
+      0.223,
+      3.993
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 4.338,
+     "ci": [
+      1.748,
+      7.108
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": 2.297,
+     "ci": [
+      -1.032,
+      5.765
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 1.627,
+     "ci": [
+      -0.188,
+      3.441
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 2.649,
+     "ci": [
+      -1.974,
+      7.434
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.643,
+     "ci": [
+      0.614,
+      0.675
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.148,
+     "ci": [
+      0.134,
+      0.164
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 4.348,
+     "ci": [
+      3.921,
+      4.767
+     ]
+    }
+   }
+  },
+  "syn": {
+   "n": 1000,
+   "n_clusters": 500,
+   "n_direct_wrong": 221,
+   "acc": {
+    "cot": 61.2,
+    "gate": 76.2,
+    "afe": 77.9,
+    "direct": 77.9
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 92.2,
+   "afe_post_readout_acc": 72.7,
+   "afe_eos_pct": 97.3,
+   "boot": {
+    "claim_true_cot": {
+     "est": 63.25,
+     "ci": [
+      60.303,
+      66.284
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 71.746,
+     "ci": [
+      68.714,
+      74.834
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 27.802,
+     "ci": [
+      21.132,
+      34.455
+     ]
+    },
+    "any_false_cot": {
+     "est": 43.4,
+     "ci": [
+      40.5,
+      46.2
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 44.928,
+     "ci": [
+      41.969,
+      47.787
+     ]
+    },
+    "consistency_cot": {
+     "est": 95.859,
+     "ci": [
+      94.277,
+      97.22
+     ]
+    },
+    "contra_cot": {
+     "est": 12.1,
+     "ci": [
+      10.0,
+      14.4
+     ]
+    },
+    "rat_any_cot": {
+     "est": 73.303,
+     "ci": [
+      66.968,
+      79.071
+     ]
+    },
+    "rat_last_cot": {
+     "est": 69.231,
+     "ci": [
+      62.962,
+      75.363
+     ]
+    },
+    "dissent_cot": {
+     "est": 29.412,
+     "ci": [
+      23.383,
+      35.716
+     ]
+    },
+    "tok_cot": {
+     "est": 176.98,
+     "ci": [
+      171.965,
+      182.392
+     ]
+    },
+    "body_tok_cot": {
+     "est": 176.011,
+     "ci": [
+      170.987,
+      181.437
+     ]
+    },
+    "claimed_cot": {
+     "est": 96.6,
+     "ci": [
+      95.4,
+      97.7
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 2.4,
+     "ci": [
+      2.328,
+      2.471
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 63.692,
+     "ci": [
+      60.657,
+      66.912
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 65.158,
+     "ci": [
+      58.737,
+      71.497
+     ]
+    },
+    "claim_true_gate": {
+     "est": 73.482,
+     "ci": [
+      70.609,
+      76.289
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 87.328,
+     "ci": [
+      85.151,
+      89.334
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 14.414,
+     "ci": [
+      10.214,
+      19.105
+     ]
+    },
+    "any_false_gate": {
+     "est": 33.6,
+     "ci": [
+      30.7,
+      36.5
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 35.821,
+     "ci": [
+      32.771,
+      38.854
+     ]
+    },
+    "consistency_gate": {
+     "est": 90.725,
+     "ci": [
+      88.842,
+      92.652
+     ]
+    },
+    "contra_gate": {
+     "est": 17.2,
+     "ci": [
+      14.8,
+      19.8
+     ]
+    },
+    "rat_any_gate": {
+     "est": 80.995,
+     "ci": [
+      75.472,
+      85.982
+     ]
+    },
+    "rat_last_gate": {
+     "est": 80.09,
+     "ci": [
+      74.458,
+      85.149
+     ]
+    },
+    "dissent_gate": {
+     "est": 20.362,
+     "ci": [
+      15.048,
+      25.778
+     ]
+    },
+    "tok_gate": {
+     "est": 885.53,
+     "ci": [
+      810.565,
+      958.636
+     ]
+    },
+    "body_tok_gate": {
+     "est": 181.232,
+     "ci": [
+      175.695,
+      187.132
+     ]
+    },
+    "claimed_gate": {
+     "est": 93.8,
+     "ci": [
+      92.1,
+      95.202
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 2.338,
+     "ci": [
+      2.258,
+      2.424
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 71.268,
+     "ci": [
+      68.171,
+      74.259
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 71.946,
+     "ci": [
+      65.81,
+      77.543
+     ]
+    },
+    "claim_true_afe": {
+     "est": 70.201,
+     "ci": [
+      66.835,
+      73.41
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 79.755,
+     "ci": [
+      76.187,
+      83.306
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 26.154,
+     "ci": [
+      14.548,
+      36.449
+     ]
+    },
+    "any_false_afe": {
+     "est": 35.7,
+     "ci": [
+      32.9,
+      38.6
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 36.578,
+     "ci": [
+      33.676,
+      39.594
+     ]
+    },
+    "consistency_afe": {
+     "est": 88.422,
+     "ci": [
+      86.34,
+      90.491
+     ]
+    },
+    "contra_afe": {
+     "est": 18.8,
+     "ci": [
+      16.5,
+      21.2
+     ]
+    },
+    "rat_any_afe": {
+     "est": 88.688,
+     "ci": [
+      84.141,
+      92.705
+     ]
+    },
+    "rat_last_afe": {
+     "est": 85.52,
+     "ci": [
+      80.632,
+      90.095
+     ]
+    },
+    "dissent_afe": {
+     "est": 12.217,
+     "ci": [
+      8.134,
+      16.445
+     ]
+    },
+    "tok_afe": {
+     "est": 118.305,
+     "ci": [
+      113.902,
+      123.057
+     ]
+    },
+    "body_tok_afe": {
+     "est": 117.331,
+     "ci": [
+      112.921,
+      122.091
+     ]
+    },
+    "claimed_afe": {
+     "est": 97.6,
+     "ci": [
+      96.6,
+      98.5
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 2.188,
+     "ci": [
+      2.101,
+      2.283
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 69.207,
+     "ci": [
+      65.389,
+      72.657
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 75.113,
+     "ci": [
+      69.194,
+      81.044
+     ]
+    },
+    "n_mcot": {
+     "est": 169.0,
+     "ci": [
+      148.0,
+      191.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 88.757,
+     "ci": [
+      83.797,
+      93.289
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 78.698,
+     "ci": [
+      72.436,
+      84.971
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 90.533,
+     "ci": [
+      85.714,
+      94.798
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 79.29,
+     "ci": [
+      72.987,
+      85.235
+     ]
+    },
+    "n_mgate": {
+     "est": 204.0,
+     "ci": [
+      181.975,
+      228.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 86.765,
+     "ci": [
+      81.778,
+      91.133
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 76.961,
+     "ci": [
+      70.874,
+      82.387
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 88.725,
+     "ci": [
+      84.058,
+      92.958
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 76.961,
+     "ci": [
+      71.013,
+      82.76
+     ]
+    },
+    "n_rcot": {
+     "est": 52.0,
+     "ci": [
+      39.0,
+      66.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 23.077,
+     "ci": [
+      12.494,
+      35.185
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 21.154,
+     "ci": [
+      10.637,
+      33.333
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 82.692,
+     "ci": [
+      72.337,
+      92.308
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 61.538,
+     "ci": [
+      48.214,
+      74.194
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 1.775,
+     "ci": [
+      -2.959,
+      6.79
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 1.961,
+     "ci": [
+      -2.817,
+      6.977
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 59.615,
+     "ci": [
+      45.45,
+      73.587
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 0.592,
+     "ci": [
+      -6.145,
+      7.694
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": 0.0,
+     "ci": [
+      -6.133,
+      6.73
+     ]
+    },
+    "acc_direct": {
+     "est": 77.9,
+     "ci": [
+      75.5,
+      80.2
+     ]
+    },
+    "post_acc_afe": {
+     "est": 72.7,
+     "ci": [
+      69.9,
+      75.5
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": -5.2,
+     "ci": [
+      -6.9,
+      -3.5
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 6.951,
+     "ci": [
+      3.568,
+      10.234
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 8.009,
+     "ci": [
+      3.958,
+      11.745
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -1.648,
+     "ci": [
+      -13.022,
+      8.617
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -7.7,
+     "ci": [
+      -10.6,
+      -4.5
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -8.35,
+     "ci": [
+      -11.308,
+      -5.082
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -7.437,
+     "ci": [
+      -9.606,
+      -5.253
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": 6.7,
+     "ci": [
+      3.9,
+      9.7
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 15.385,
+     "ci": [
+      9.632,
+      21.296
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 16.29,
+     "ci": [
+      9.478,
+      22.872
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -17.195,
+     "ci": [
+      -24.091,
+      -10.748
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -58.675,
+     "ci": [
+      -65.278,
+      -52.431
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -58.68,
+     "ci": [
+      -65.293,
+      -52.43
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 1.0,
+     "ci": [
+      -0.4,
+      2.3
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.212,
+     "ci": [
+      -0.317,
+      -0.1
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 5.515,
+     "ci": [
+      1.54,
+      9.297
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 9.955,
+     "ci": [
+      3.111,
+      17.031
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": -3.281,
+     "ci": [
+      -6.713,
+      -0.091
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": -7.573,
+     "ci": [
+      -11.378,
+      -3.986
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 11.739,
+     "ci": [
+      -0.225,
+      22.607
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": 2.1,
+     "ci": [
+      -0.8,
+      4.9
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": 0.757,
+     "ci": [
+      -2.202,
+      3.674
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -2.303,
+     "ci": [
+      -4.607,
+      0.088
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 1.6,
+     "ci": [
+      -1.4,
+      4.4
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 7.692,
+     "ci": [
+      2.155,
+      13.333
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 5.43,
+     "ci": [
+      -0.841,
+      11.659
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": -8.145,
+     "ci": [
+      -14.097,
+      -2.323
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -767.225,
+     "ci": [
+      -838.788,
+      -693.516
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -63.901,
+     "ci": [
+      -70.43,
+      -57.539
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 3.8,
+     "ci": [
+      2.2,
+      5.4
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": -0.15,
+     "ci": [
+      -0.257,
+      -0.038
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": -2.061,
+     "ci": [
+      -6.318,
+      1.862
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 3.167,
+     "ci": [
+      -3.058,
+      9.957
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 10.232,
+     "ci": [
+      7.822,
+      12.46
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 15.583,
+     "ci": [
+      13.153,
+      17.882
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -13.387,
+     "ci": [
+      -18.924,
+      -7.773
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -9.8,
+     "ci": [
+      -12.0,
+      -7.498
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -9.107,
+     "ci": [
+      -11.237,
+      -6.688
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -5.134,
+     "ci": [
+      -6.751,
+      -3.432
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": 5.1,
+     "ci": [
+      3.0,
+      7.3
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 7.692,
+     "ci": [
+      3.255,
+      12.055
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 10.86,
+     "ci": [
+      6.087,
+      15.671
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -9.05,
+     "ci": [
+      -13.943,
+      -4.186
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 708.55,
+     "ci": [
+      635.08,
+      779.065
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 5.221,
+     "ci": [
+      -0.494,
+      10.399
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.8,
+     "ci": [
+      -4.3,
+      -1.4
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.062,
+     "ci": [
+      -0.128,
+      0.007
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 7.577,
+     "ci": [
+      5.05,
+      10.008
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 6.787,
+     "ci": [
+      2.283,
+      11.484
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.668,
+     "ci": [
+      0.639,
+      0.699
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.134,
+     "ci": [
+      0.124,
+      0.145
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 5.004,
+     "ci": [
+      4.621,
+      5.372
+     ]
+    }
+   }
+  }
+ },
+ "qwen7b": {
+  "cues": {
+   "n": 1600,
+   "n_clusters": 400,
+   "n_direct_wrong": 746,
+   "acc": {
+    "cot": 56.88,
+    "gate": 53.06,
+    "afe": 53.37,
+    "direct": 53.37
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 99.8,
+   "afe_post_readout_acc": 53.6,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 56.084,
+     "ci": [
+      53.741,
+      58.534
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 70.523,
+     "ci": [
+      68.057,
+      73.08
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 38.667,
+     "ci": [
+      35.708,
+      41.563
+     ]
+    },
+    "any_false_cot": {
+     "est": 50.25,
+     "ci": [
+      47.562,
+      53.002
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 54.843,
+     "ci": [
+      52.135,
+      57.518
+     ]
+    },
+    "consistency_cot": {
+     "est": 88.677,
+     "ci": [
+      87.057,
+      90.285
+     ]
+    },
+    "contra_cot": {
+     "est": 24.875,
+     "ci": [
+      22.562,
+      27.187
+     ]
+    },
+    "rat_any_cot": {
+     "est": 66.086,
+     "ci": [
+      62.331,
+      69.823
+     ]
+    },
+    "rat_last_cot": {
+     "est": 54.558,
+     "ci": [
+      50.875,
+      58.207
+     ]
+    },
+    "dissent_cot": {
+     "est": 43.968,
+     "ci": [
+      40.165,
+      47.88
+     ]
+    },
+    "tok_cot": {
+     "est": 52.081,
+     "ci": [
+      51.386,
+      52.838
+     ]
+    },
+    "body_tok_cot": {
+     "est": 51.081,
+     "ci": [
+      50.386,
+      51.838
+     ]
+    },
+    "claimed_cot": {
+     "est": 91.625,
+     "ci": [
+      89.375,
+      93.75
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.551,
+     "ci": [
+      1.501,
+      1.601
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 40.95,
+     "ci": [
+      38.06,
+      43.889
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 70.738,
+     "ci": [
+      68.274,
+      73.334
+     ]
+    },
+    "vgap_cot": {
+     "est": 29.787,
+     "ci": [
+      25.984,
+      33.568
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 54.293,
+     "ci": [
+      51.698,
+      56.821
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 61.26,
+     "ci": [
+      57.418,
+      64.987
+     ]
+    },
+    "claim_true_gate": {
+     "est": 54.466,
+     "ci": [
+      51.059,
+      57.881
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 83.838,
+     "ci": [
+      81.876,
+      85.805
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 16.964,
+     "ci": [
+      14.538,
+      19.397
+     ]
+    },
+    "any_false_gate": {
+     "est": 48.938,
+     "ci": [
+      45.688,
+      52.252
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 55.102,
+     "ci": [
+      51.674,
+      58.655
+     ]
+    },
+    "consistency_gate": {
+     "est": 87.825,
+     "ci": [
+      86.2,
+      89.512
+     ]
+    },
+    "contra_gate": {
+     "est": 21.5,
+     "ci": [
+      19.25,
+      23.562
+     ]
+    },
+    "rat_any_gate": {
+     "est": 78.954,
+     "ci": [
+      75.193,
+      82.648
+     ]
+    },
+    "rat_last_gate": {
+     "est": 74.665,
+     "ci": [
+      70.777,
+      78.429
+     ]
+    },
+    "dissent_gate": {
+     "est": 21.85,
+     "ci": [
+      18.599,
+      25.0
+     ]
+    },
+    "tok_gate": {
+     "est": 138.206,
+     "ci": [
+      129.37,
+      147.508
+     ]
+    },
+    "body_tok_gate": {
+     "est": 51.126,
+     "ci": [
+      50.289,
+      51.978
+     ]
+    },
+    "claimed_gate": {
+     "est": 88.812,
+     "ci": [
+      86.625,
+      90.875
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.434,
+     "ci": [
+      1.386,
+      1.479
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 23.134,
+     "ci": [
+      20.184,
+      26.125
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 82.562,
+     "ci": [
+      80.312,
+      84.851
+     ]
+    },
+    "vgap_gate": {
+     "est": 59.428,
+     "ci": [
+      55.81,
+      63.201
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 53.994,
+     "ci": [
+      50.628,
+      57.296
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 70.375,
+     "ci": [
+      66.351,
+      74.37
+     ]
+    },
+    "claim_true_afe": {
+     "est": 57.4,
+     "ci": [
+      54.062,
+      60.613
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 87.363,
+     "ci": [
+      85.624,
+      89.123
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 23.042,
+     "ci": [
+      20.24,
+      25.626
+     ]
+    },
+    "any_false_afe": {
+     "est": 47.5,
+     "ci": [
+      44.125,
+      50.875
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 47.98,
+     "ci": [
+      44.634,
+      51.382
+     ]
+    },
+    "consistency_afe": {
+     "est": 80.051,
+     "ci": [
+      77.996,
+      82.242
+     ]
+    },
+    "contra_afe": {
+     "est": 24.125,
+     "ci": [
+      21.812,
+      26.252
+     ]
+    },
+    "rat_any_afe": {
+     "est": 81.635,
+     "ci": [
+      78.601,
+      84.593
+     ]
+    },
+    "rat_last_afe": {
+     "est": 71.716,
+     "ci": [
+      68.289,
+      75.241
+     ]
+    },
+    "dissent_afe": {
+     "est": 31.501,
+     "ci": [
+      27.808,
+      34.94
+     ]
+    },
+    "tok_afe": {
+     "est": 30.476,
+     "ci": [
+      30.076,
+      30.883
+     ]
+    },
+    "body_tok_afe": {
+     "est": 29.476,
+     "ci": [
+      29.076,
+      29.883
+     ]
+    },
+    "claimed_afe": {
+     "est": 99.0,
+     "ci": [
+      98.438,
+      99.438
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.491,
+     "ci": [
+      1.466,
+      1.516
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 27.815,
+     "ci": [
+      24.916,
+      30.621
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 86.862,
+     "ci": [
+      84.906,
+      88.702
+     ]
+    },
+    "vgap_afe": {
+     "est": 59.047,
+     "ci": [
+      55.769,
+      62.586
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 56.942,
+     "ci": [
+      53.631,
+      60.066
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 79.088,
+     "ci": [
+      75.816,
+      82.213
+     ]
+    },
+    "n_mcot": {
+     "est": 493.0,
+     "ci": [
+      438.0,
+      541.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 83.164,
+     "ci": [
+      78.903,
+      87.371
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 76.065,
+     "ci": [
+      71.488,
+      80.588
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 83.976,
+     "ci": [
+      80.388,
+      87.207
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 80.73,
+     "ci": [
+      76.728,
+      84.391
+     ]
+    },
+    "n_mgate": {
+     "est": 735.0,
+     "ci": [
+      663.0,
+      802.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 79.864,
+     "ci": [
+      76.125,
+      83.494
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 71.156,
+     "ci": [
+      67.114,
+      75.065
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 81.769,
+     "ci": [
+      78.723,
+      84.767
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 79.184,
+     "ci": [
+      75.903,
+      82.338
+     ]
+    },
+    "n_rcot": {
+     "est": 253.0,
+     "ci": [
+      221.0,
+      285.025
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 32.806,
+     "ci": [
+      27.498,
+      38.627
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 32.411,
+     "ci": [
+      27.004,
+      38.206
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 77.075,
+     "ci": [
+      71.721,
+      82.102
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 75.889,
+     "ci": [
+      70.452,
+      81.028
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 0.811,
+     "ci": [
+      -3.58,
+      5.02
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 1.905,
+     "ci": [
+      -2.246,
+      6.066
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 44.269,
+     "ci": [
+      35.337,
+      51.985
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 4.665,
+     "ci": [
+      -0.422,
+      9.534
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": 8.027,
+     "ci": [
+      3.439,
+      12.633
+     ]
+    },
+    "acc_direct": {
+     "est": 53.375,
+     "ci": [
+      49.188,
+      57.939
+     ]
+    },
+    "post_acc_afe": {
+     "est": 53.625,
+     "ci": [
+      49.436,
+      58.25
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.25,
+     "ci": [
+      0.062,
+      0.5
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 1.317,
+     "ci": [
+      -1.527,
+      4.094
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 16.839,
+     "ci": [
+      13.758,
+      19.992
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -15.624,
+     "ci": [
+      -19.459,
+      -11.907
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -2.75,
+     "ci": [
+      -6.252,
+      0.625
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -6.863,
+     "ci": [
+      -10.258,
+      -3.594
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -8.626,
+     "ci": [
+      -10.976,
+      -6.179
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -0.75,
+     "ci": [
+      -3.812,
+      2.25
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 15.55,
+     "ci": [
+      10.997,
+      19.758
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 17.158,
+     "ci": [
+      12.301,
+      21.922
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -12.466,
+     "ci": [
+      -17.467,
+      -7.497
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -21.605,
+     "ci": [
+      -22.283,
+      -20.953
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -21.605,
+     "ci": [
+      -22.283,
+      -20.953
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 7.375,
+     "ci": [
+      5.25,
+      9.688
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.061,
+     "ci": [
+      -0.109,
+      -0.007
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": -13.135,
+     "ci": [
+      -16.857,
+      -9.536
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 16.124,
+     "ci": [
+      12.928,
+      19.329
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 29.259,
+     "ci": [
+      24.38,
+      34.103
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 2.649,
+     "ci": [
+      -0.353,
+      5.508
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 17.828,
+     "ci": [
+      13.11,
+      22.466
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": 2.934,
+     "ci": [
+      0.691,
+      5.207
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 3.524,
+     "ci": [
+      0.976,
+      6.142
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 6.078,
+     "ci": [
+      2.893,
+      9.428
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": -1.438,
+     "ci": [
+      -4.375,
+      1.25
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -7.122,
+     "ci": [
+      -9.898,
+      -4.563
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -7.775,
+     "ci": [
+      -10.086,
+      -5.373
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 2.625,
+     "ci": [
+      -0.252,
+      5.5
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 2.681,
+     "ci": [
+      -1.585,
+      6.735
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": -2.949,
+     "ci": [
+      -7.849,
+      1.95
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 9.651,
+     "ci": [
+      5.493,
+      14.123
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -107.73,
+     "ci": [
+      -117.023,
+      -98.827
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -21.65,
+     "ci": [
+      -22.496,
+      -20.867
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 10.188,
+     "ci": [
+      8.125,
+      12.312
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": 0.056,
+     "ci": [
+      0.012,
+      0.103
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": 4.681,
+     "ci": [
+      1.587,
+      8.071
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": 4.3,
+     "ci": [
+      1.539,
+      7.09
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": -0.382,
+     "ci": [
+      -4.783,
+      3.759
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": 2.948,
+     "ci": [
+      0.513,
+      5.552
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 8.713,
+     "ci": [
+      4.172,
+      13.264
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": -1.618,
+     "ci": [
+      -3.611,
+      0.543
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 13.315,
+     "ci": [
+      11.418,
+      15.316
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -21.702,
+     "ci": [
+      -24.159,
+      -19.273
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -1.312,
+     "ci": [
+      -3.438,
+      0.625
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": 0.259,
+     "ci": [
+      -2.129,
+      2.365
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -0.851,
+     "ci": [
+      -2.015,
+      0.315
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": -3.375,
+     "ci": [
+      -5.0,
+      -1.748
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 12.869,
+     "ci": [
+      10.226,
+      15.562
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 20.107,
+     "ci": [
+      17.353,
+      22.953
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -22.118,
+     "ci": [
+      -25.172,
+      -19.241
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 86.125,
+     "ci": [
+      77.295,
+      95.335
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 0.045,
+     "ci": [
+      -0.494,
+      0.632
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.812,
+     "ci": [
+      -3.875,
+      -1.811
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.117,
+     "ci": [
+      -0.142,
+      -0.093
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": -17.816,
+     "ci": [
+      -20.155,
+      -15.624
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 11.824,
+     "ci": [
+      9.841,
+      13.971
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": 29.641,
+     "ci": [
+      26.566,
+      32.807
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": -0.299,
+     "ci": [
+      -2.241,
+      1.813
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 9.115,
+     "ci": [
+      6.666,
+      11.702
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.585,
+     "ci": [
+      0.576,
+      0.594
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.221,
+     "ci": [
+      0.207,
+      0.236
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 2.654,
+     "ci": [
+      2.492,
+      2.827
+     ]
+    }
+   }
+  },
+  "twins": {
+   "n": 800,
+   "n_clusters": 200,
+   "n_direct_wrong": 368,
+   "acc": {
+    "cot": 57.88,
+    "gate": 54.12,
+    "afe": 54.0,
+    "direct": 54.0
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 99.9,
+   "afe_post_readout_acc": 54.1,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 57.729,
+     "ci": [
+      54.326,
+      61.042
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 71.953,
+     "ci": [
+      68.412,
+      75.267
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 41.227,
+     "ci": [
+      36.607,
+      45.75
+     ]
+    },
+    "any_false_cot": {
+     "est": 49.625,
+     "ci": [
+      45.75,
+      53.75
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 53.075,
+     "ci": [
+      49.139,
+      57.162
+     ]
+    },
+    "consistency_cot": {
+     "est": 87.968,
+     "ci": [
+      85.333,
+      90.178
+     ]
+    },
+    "contra_cot": {
+     "est": 26.125,
+     "ci": [
+      23.0,
+      29.5
+     ]
+    },
+    "rat_any_cot": {
+     "est": 67.391,
+     "ci": [
+      62.439,
+      72.223
+     ]
+    },
+    "rat_last_cot": {
+     "est": 57.065,
+     "ci": [
+      51.975,
+      62.05
+     ]
+    },
+    "dissent_cot": {
+     "est": 49.457,
+     "ci": [
+      44.355,
+      54.57
+     ]
+    },
+    "tok_cot": {
+     "est": 53.9,
+     "ci": [
+      52.785,
+      54.989
+     ]
+    },
+    "body_tok_cot": {
+     "est": 52.9,
+     "ci": [
+      51.785,
+      53.989
+     ]
+    },
+    "claimed_cot": {
+     "est": 93.5,
+     "ci": [
+      90.625,
+      96.0
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.585,
+     "ci": [
+      1.524,
+      1.643
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 42.681,
+     "ci": [
+      38.423,
+      46.773
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 73.506,
+     "ci": [
+      69.882,
+      77.167
+     ]
+    },
+    "vgap_cot": {
+     "est": 30.825,
+     "ci": [
+      25.009,
+      36.285
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 56.779,
+     "ci": [
+      53.169,
+      60.398
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 60.054,
+     "ci": [
+      54.809,
+      65.206
+     ]
+    },
+    "claim_true_gate": {
+     "est": 55.574,
+     "ci": [
+      50.584,
+      60.545
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 86.406,
+     "ci": [
+      83.357,
+      89.15
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 19.301,
+     "ci": [
+      16.421,
+      22.394
+     ]
+    },
+    "any_false_gate": {
+     "est": 47.375,
+     "ci": [
+      42.372,
+      52.5
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 52.204,
+     "ci": [
+      46.767,
+      57.704
+     ]
+    },
+    "consistency_gate": {
+     "est": 87.328,
+     "ci": [
+      84.822,
+      89.636
+     ]
+    },
+    "contra_gate": {
+     "est": 22.25,
+     "ci": [
+      19.375,
+      25.25
+     ]
+    },
+    "rat_any_gate": {
+     "est": 80.978,
+     "ci": [
+      76.19,
+      85.411
+     ]
+    },
+    "rat_last_gate": {
+     "est": 77.717,
+     "ci": [
+      72.466,
+      82.317
+     ]
+    },
+    "dissent_gate": {
+     "est": 27.174,
+     "ci": [
+      23.267,
+      31.5
+     ]
+    },
+    "tok_gate": {
+     "est": 135.721,
+     "ci": [
+      124.571,
+      148.061
+     ]
+    },
+    "body_tok_gate": {
+     "est": 52.663,
+     "ci": [
+      51.375,
+      53.986
+     ]
+    },
+    "claimed_gate": {
+     "est": 90.75,
+     "ci": [
+      87.747,
+      93.25
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.48,
+     "ci": [
+      1.415,
+      1.539
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 24.121,
+     "ci": [
+      20.562,
+      27.918
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 87.564,
+     "ci": [
+      84.495,
+      90.426
+     ]
+    },
+    "vgap_gate": {
+     "est": 63.443,
+     "ci": [
+      58.504,
+      67.842
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 55.947,
+     "ci": [
+      50.875,
+      60.825
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 70.109,
+     "ci": [
+      65.147,
+      75.066
+     ]
+    },
+    "claim_true_afe": {
+     "est": 60.05,
+     "ci": [
+      55.23,
+      64.651
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 89.767,
+     "ci": [
+      87.518,
+      91.961
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 26.064,
+     "ci": [
+      21.685,
+      30.77
+     ]
+    },
+    "any_false_afe": {
+     "est": 44.375,
+     "ci": [
+      39.75,
+      49.125
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 44.598,
+     "ci": [
+      39.999,
+      49.434
+     ]
+    },
+    "consistency_afe": {
+     "est": 79.774,
+     "ci": [
+      76.566,
+      82.75
+     ]
+    },
+    "contra_afe": {
+     "est": 24.625,
+     "ci": [
+      21.25,
+      28.253
+     ]
+    },
+    "rat_any_afe": {
+     "est": 79.348,
+     "ci": [
+      75.0,
+      83.54
+     ]
+    },
+    "rat_last_afe": {
+     "est": 68.75,
+     "ci": [
+      63.185,
+      74.044
+     ]
+    },
+    "dissent_afe": {
+     "est": 36.413,
+     "ci": [
+      30.699,
+      42.341
+     ]
+    },
+    "tok_afe": {
+     "est": 30.465,
+     "ci": [
+      29.941,
+      31.014
+     ]
+    },
+    "body_tok_afe": {
+     "est": 29.465,
+     "ci": [
+      28.941,
+      30.014
+     ]
+    },
+    "claimed_afe": {
+     "est": 99.5,
+     "ci": [
+      99.0,
+      99.875
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.511,
+     "ci": [
+      1.478,
+      1.546
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 31.774,
+     "ci": [
+      27.376,
+      36.492
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 89.813,
+     "ci": [
+      87.5,
+      92.067
+     ]
+    },
+    "vgap_afe": {
+     "est": 58.039,
+     "ci": [
+      52.585,
+      63.073
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 60.074,
+     "ci": [
+      55.442,
+      64.646
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 76.359,
+     "ci": [
+      71.506,
+      80.974
+     ]
+    },
+    "n_mcot": {
+     "est": 243.0,
+     "ci": [
+      207.0,
+      283.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 85.185,
+     "ci": [
+      80.078,
+      90.124
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 74.074,
+     "ci": [
+      67.965,
+      80.083
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 84.774,
+     "ci": [
+      79.498,
+      89.525
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 80.658,
+     "ci": [
+      74.79,
+      86.047
+     ]
+    },
+    "n_mgate": {
+     "est": 361.0,
+     "ci": [
+      313.0,
+      412.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 81.717,
+     "ci": [
+      76.902,
+      86.025
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 70.637,
+     "ci": [
+      65.616,
+      75.428
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 80.055,
+     "ci": [
+      75.698,
+      84.273
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 77.008,
+     "ci": [
+      72.093,
+      81.737
+     ]
+    },
+    "n_rcot": {
+     "est": 125.0,
+     "ci": [
+      102.975,
+      149.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 32.8,
+     "ci": [
+      23.727,
+      42.188
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 32.8,
+     "ci": [
+      23.727,
+      42.188
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 68.8,
+     "ci": [
+      60.869,
+      76.432
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 68.0,
+     "ci": [
+      59.842,
+      75.969
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": -0.412,
+     "ci": [
+      -6.226,
+      5.264
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": -1.662,
+     "ci": [
+      -7.105,
+      4.495
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 36.0,
+     "ci": [
+      23.076,
+      48.718
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 6.584,
+     "ci": [
+      -0.398,
+      13.494
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": 6.371,
+     "ci": [
+      0.526,
+      12.57
+     ]
+    },
+    "acc_direct": {
+     "est": 54.0,
+     "ci": [
+      47.5,
+      60.125
+     ]
+    },
+    "post_acc_afe": {
+     "est": 54.125,
+     "ci": [
+      47.747,
+      60.25
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.125,
+     "ci": [
+      0.0,
+      0.375
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 2.321,
+     "ci": [
+      -1.618,
+      6.275
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 17.814,
+     "ci": [
+      14.013,
+      21.568
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -15.163,
+     "ci": [
+      -21.226,
+      -9.022
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -5.25,
+     "ci": [
+      -9.625,
+      -0.875
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -8.477,
+     "ci": [
+      -12.815,
+      -4.199
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -8.194,
+     "ci": [
+      -11.998,
+      -4.477
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -1.5,
+     "ci": [
+      -5.625,
+      2.625
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 11.957,
+     "ci": [
+      5.817,
+      18.389
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 11.685,
+     "ci": [
+      4.692,
+      18.699
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -13.043,
+     "ci": [
+      -20.613,
+      -5.398
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -23.435,
+     "ci": [
+      -24.504,
+      -22.371
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -23.435,
+     "ci": [
+      -24.504,
+      -22.371
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 6.0,
+     "ci": [
+      3.5,
+      8.875
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.074,
+     "ci": [
+      -0.139,
+      -0.006
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": -10.907,
+     "ci": [
+      -16.425,
+      -5.248
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 16.308,
+     "ci": [
+      12.406,
+      20.267
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 27.214,
+     "ci": [
+      20.803,
+      34.218
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 3.295,
+     "ci": [
+      -0.967,
+      7.687
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 16.304,
+     "ci": [
+      9.749,
+      23.288
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": 4.475,
+     "ci": [
+      1.449,
+      7.584
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 3.361,
+     "ci": [
+      0.059,
+      6.713
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 6.762,
+     "ci": [
+      1.902,
+      11.818
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": -3.0,
+     "ci": [
+      -6.625,
+      0.878
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -7.606,
+     "ci": [
+      -11.159,
+      -4.029
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -7.554,
+     "ci": [
+      -11.301,
+      -3.878
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 2.375,
+     "ci": [
+      -1.875,
+      6.625
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": -1.63,
+     "ci": [
+      -7.258,
+      4.371
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": -8.967,
+     "ci": [
+      -15.54,
+      -2.07
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 9.239,
+     "ci": [
+      2.313,
+      15.909
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -105.256,
+     "ci": [
+      -117.303,
+      -94.136
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -23.198,
+     "ci": [
+      -24.426,
+      -21.986
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 8.75,
+     "ci": [
+      6.125,
+      11.875
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": 0.031,
+     "ci": [
+      -0.035,
+      0.1
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": 7.654,
+     "ci": [
+      2.995,
+      12.006
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": 2.249,
+     "ci": [
+      -1.173,
+      5.647
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": -5.404,
+     "ci": [
+      -10.998,
+      0.331
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": 4.127,
+     "ci": [
+      0.641,
+      7.76
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 6.25,
+     "ci": [
+      0.3,
+      12.388
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": -2.154,
+     "ci": [
+      -5.505,
+      1.238
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 14.453,
+     "ci": [
+      11.794,
+      17.196
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -21.925,
+     "ci": [
+      -26.109,
+      -17.888
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -2.25,
+     "ci": [
+      -5.375,
+      0.75
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -0.871,
+     "ci": [
+      -4.246,
+      2.332
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -0.64,
+     "ci": [
+      -2.285,
+      0.989
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": -3.875,
+     "ci": [
+      -6.25,
+      -1.5
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 13.587,
+     "ci": [
+      9.302,
+      17.663
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 20.652,
+     "ci": [
+      16.144,
+      25.065
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -22.283,
+     "ci": [
+      -26.39,
+      -18.209
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 81.821,
+     "ci": [
+      70.904,
+      93.712
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": -0.237,
+     "ci": [
+      -0.856,
+      0.403
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.75,
+     "ci": [
+      -4.125,
+      -1.5
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.105,
+     "ci": [
+      -0.136,
+      -0.074
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": -18.56,
+     "ci": [
+      -22.367,
+      -14.736
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 14.058,
+     "ci": [
+      11.217,
+      16.923
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": 32.619,
+     "ci": [
+      27.906,
+      37.292
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": -0.832,
+     "ci": [
+      -3.953,
+      2.365
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 10.054,
+     "ci": [
+      5.612,
+      14.286
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.565,
+     "ci": [
+      0.552,
+      0.579
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.224,
+     "ci": [
+      0.207,
+      0.245
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 2.518,
+     "ci": [
+      2.324,
+      2.733
+     ]
+    }
+   }
+  },
+  "syn": {
+   "n": 1000,
+   "n_clusters": 500,
+   "n_direct_wrong": 217,
+   "acc": {
+    "cot": 68.1,
+    "gate": 77.9,
+    "afe": 78.3,
+    "direct": 78.3
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 99.9,
+   "afe_post_readout_acc": 78.2,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 62.934,
+     "ci": [
+      60.064,
+      65.82
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 69.444,
+     "ci": [
+      66.748,
+      72.214
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 38.788,
+     "ci": [
+      32.757,
+      45.559
+     ]
+    },
+    "any_false_cot": {
+     "est": 45.3,
+     "ci": [
+      42.1,
+      48.3
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 47.286,
+     "ci": [
+      43.946,
+      50.416
+     ]
+    },
+    "consistency_cot": {
+     "est": 90.084,
+     "ci": [
+      88.137,
+      91.805
+     ]
+    },
+    "contra_cot": {
+     "est": 22.5,
+     "ci": [
+      20.1,
+      25.1
+     ]
+    },
+    "rat_any_cot": {
+     "est": 67.742,
+     "ci": [
+      60.714,
+      74.091
+     ]
+    },
+    "rat_last_cot": {
+     "est": 60.369,
+     "ci": [
+      53.554,
+      66.964
+     ]
+    },
+    "dissent_cot": {
+     "est": 41.475,
+     "ci": [
+      35.043,
+      48.586
+     ]
+    },
+    "tok_cot": {
+     "est": 52.04,
+     "ci": [
+      51.365,
+      52.673
+     ]
+    },
+    "body_tok_cot": {
+     "est": 51.04,
+     "ci": [
+      50.365,
+      51.673
+     ]
+    },
+    "claimed_cot": {
+     "est": 95.8,
+     "ci": [
+      94.5,
+      97.0
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.554,
+     "ci": [
+      1.512,
+      1.594
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 60.601,
+     "ci": [
+      57.515,
+      63.799
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 58.986,
+     "ci": [
+      51.659,
+      65.666
+     ]
+    },
+    "claim_true_gate": {
+     "est": 71.117,
+     "ci": [
+      68.223,
+      73.981
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 84.967,
+     "ci": [
+      83.003,
+      86.907
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 17.152,
+     "ci": [
+      13.003,
+      21.583
+     ]
+    },
+    "any_false_gate": {
+     "est": 34.9,
+     "ci": [
+      31.6,
+      37.902
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 37.128,
+     "ci": [
+      33.654,
+      40.342
+     ]
+    },
+    "consistency_gate": {
+     "est": 91.596,
+     "ci": [
+      89.841,
+      93.165
+     ]
+    },
+    "contra_gate": {
+     "est": 20.4,
+     "ci": [
+      18.0,
+      22.8
+     ]
+    },
+    "rat_any_gate": {
+     "est": 85.714,
+     "ci": [
+      80.889,
+      90.135
+     ]
+    },
+    "rat_last_gate": {
+     "est": 82.949,
+     "ci": [
+      77.948,
+      87.671
+     ]
+    },
+    "dissent_gate": {
+     "est": 22.581,
+     "ci": [
+      17.061,
+      28.44
+     ]
+    },
+    "tok_gate": {
+     "est": 130.864,
+     "ci": [
+      122.175,
+      139.265
+     ]
+    },
+    "body_tok_gate": {
+     "est": 53.038,
+     "ci": [
+      52.34,
+      53.732
+     ]
+    },
+    "claimed_gate": {
+     "est": 94.0,
+     "ci": [
+      92.4,
+      95.4
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.513,
+     "ci": [
+      1.469,
+      1.557
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 68.695,
+     "ci": [
+      65.616,
+      71.821
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 69.124,
+     "ci": [
+      62.442,
+      75.0
+     ]
+    },
+    "claim_true_afe": {
+     "est": 77.033,
+     "ci": [
+      74.416,
+      79.547
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 88.591,
+     "ci": [
+      86.881,
+      90.15
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 30.211,
+     "ci": [
+      24.24,
+      36.441
+     ]
+    },
+    "any_false_afe": {
+     "est": 32.5,
+     "ci": [
+      29.3,
+      35.7
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 33.028,
+     "ci": [
+      29.837,
+      36.235
+     ]
+    },
+    "consistency_afe": {
+     "est": 89.837,
+     "ci": [
+      87.832,
+      91.777
+     ]
+    },
+    "contra_afe": {
+     "est": 21.1,
+     "ci": [
+      18.7,
+      23.7
+     ]
+    },
+    "rat_any_afe": {
+     "est": 83.871,
+     "ci": [
+      78.712,
+      88.984
+     ]
+    },
+    "rat_last_afe": {
+     "est": 81.106,
+     "ci": [
+      75.845,
+      86.386
+     ]
+    },
+    "dissent_afe": {
+     "est": 31.336,
+     "ci": [
+      24.78,
+      38.096
+     ]
+    },
+    "tok_afe": {
+     "est": 37.372,
+     "ci": [
+      36.659,
+      38.164
+     ]
+    },
+    "body_tok_afe": {
+     "est": 36.372,
+     "ci": [
+      35.659,
+      37.164
+     ]
+    },
+    "claimed_afe": {
+     "est": 98.4,
+     "ci": [
+      97.6,
+      99.2
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.672,
+     "ci": [
+      1.631,
+      1.714
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 74.745,
+     "ci": [
+      71.766,
+      77.602
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 68.664,
+     "ci": [
+      61.859,
+      74.805
+     ]
+    },
+    "n_mcot": {
+     "est": 143.0,
+     "ci": [
+      116.975,
+      170.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 90.21,
+     "ci": [
+      85.039,
+      94.634
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 76.923,
+     "ci": [
+      69.564,
+      83.448
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 90.21,
+     "ci": [
+      85.211,
+      94.872
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 78.322,
+     "ci": [
+      71.199,
+      85.186
+     ]
+    },
+    "n_mgate": {
+     "est": 214.0,
+     "ci": [
+      184.0,
+      244.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 86.449,
+     "ci": [
+      81.549,
+      90.741
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 69.626,
+     "ci": [
+      62.98,
+      75.431
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 84.112,
+     "ci": [
+      78.894,
+      89.202
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 68.692,
+     "ci": [
+      61.881,
+      74.888
+     ]
+    },
+    "n_rcot": {
+     "est": 74.0,
+     "ci": [
+      58.0,
+      91.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 24.324,
+     "ci": [
+      14.706,
+      34.211
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 24.324,
+     "ci": [
+      14.706,
+      34.211
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 71.622,
+     "ci": [
+      61.328,
+      81.429
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 50.0,
+     "ci": [
+      38.356,
+      61.429
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 0.0,
+     "ci": [
+      -5.882,
+      6.061
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": -2.336,
+     "ci": [
+      -8.334,
+      3.705
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 47.297,
+     "ci": [
+      36.23,
+      58.667
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 1.399,
+     "ci": [
+      -6.063,
+      8.725
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": -0.935,
+     "ci": [
+      -7.763,
+      5.91
+     ]
+    },
+    "acc_direct": {
+     "est": 78.3,
+     "ci": [
+      75.3,
+      81.3
+     ]
+    },
+    "post_acc_afe": {
+     "est": 78.2,
+     "ci": [
+      75.2,
+      81.2
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": -0.1,
+     "ci": [
+      -0.3,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 14.099,
+     "ci": [
+      11.222,
+      16.637
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 19.146,
+     "ci": [
+      16.175,
+      21.95
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -8.576,
+     "ci": [
+      -14.512,
+      -2.436
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -12.8,
+     "ci": [
+      -16.2,
+      -9.098
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -14.258,
+     "ci": [
+      -17.58,
+      -10.586
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -0.246,
+     "ci": [
+      -2.798,
+      2.483
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -1.4,
+     "ci": [
+      -4.8,
+      2.3
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 16.129,
+     "ci": [
+      9.804,
+      22.581
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 20.737,
+     "ci": [
+      13.273,
+      28.169
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -10.138,
+     "ci": [
+      -17.181,
+      -2.804
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -14.668,
+     "ci": [
+      -15.506,
+      -13.715
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -14.668,
+     "ci": [
+      -15.506,
+      -13.715
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 2.6,
+     "ci": [
+      1.4,
+      3.9
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": 0.118,
+     "ci": [
+      0.066,
+      0.171
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 14.144,
+     "ci": [
+      10.762,
+      17.382
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 9.677,
+     "ci": [
+      2.912,
+      16.087
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": 5.917,
+     "ci": [
+      3.479,
+      8.283
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 3.624,
+     "ci": [
+      1.054,
+      6.05
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 13.059,
+     "ci": [
+      6.659,
+      19.157
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": -2.4,
+     "ci": [
+      -5.6,
+      1.0
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -4.099,
+     "ci": [
+      -7.213,
+      -0.677
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -1.758,
+     "ci": [
+      -4.216,
+      0.816
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 0.7,
+     "ci": [
+      -2.5,
+      4.3
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": -1.843,
+     "ci": [
+      -7.767,
+      4.212
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": -1.843,
+     "ci": [
+      -8.215,
+      4.808
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 8.756,
+     "ci": [
+      1.338,
+      16.578
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -93.492,
+     "ci": [
+      -101.728,
+      -84.956
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -16.666,
+     "ci": [
+      -17.538,
+      -15.696
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 4.4,
+     "ci": [
+      3.0,
+      6.0
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": 0.159,
+     "ci": [
+      0.108,
+      0.214
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": 6.05,
+     "ci": [
+      3.088,
+      8.901
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": -0.461,
+     "ci": [
+      -7.213,
+      6.335
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 8.183,
+     "ci": [
+      5.76,
+      10.546
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 15.522,
+     "ci": [
+      13.05,
+      18.045
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -21.636,
+     "ci": [
+      -27.219,
+      -16.361
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -10.4,
+     "ci": [
+      -13.2,
+      -7.8
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -10.158,
+     "ci": [
+      -13.002,
+      -7.381
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": 1.512,
+     "ci": [
+      0.196,
+      2.864
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": -2.1,
+     "ci": [
+      -4.0,
+      -0.3
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 17.972,
+     "ci": [
+      12.668,
+      23.81
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 22.581,
+     "ci": [
+      16.742,
+      28.504
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -18.894,
+     "ci": [
+      -24.519,
+      -13.764
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 78.824,
+     "ci": [
+      70.217,
+      87.249
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 1.998,
+     "ci": [
+      1.418,
+      2.559
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -1.8,
+     "ci": [
+      -2.8,
+      -0.9
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.041,
+     "ci": [
+      -0.07,
+      -0.014
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 8.094,
+     "ci": [
+      5.68,
+      10.478
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 10.138,
+     "ci": [
+      5.633,
+      14.835
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.718,
+     "ci": [
+      0.703,
+      0.735
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.286,
+     "ci": [
+      0.268,
+      0.306
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 2.515,
+     "ci": [
+      2.344,
+      2.679
+     ]
+    }
+   }
+  }
+ },
+ "internvl3_8b": {
+  "cues": {
+   "n": 1600,
+   "n_clusters": 400,
+   "n_direct_wrong": 581,
+   "acc": {
+    "cot": 68.44,
+    "gate": 63.44,
+    "afe": 63.69,
+    "direct": 63.69
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 100.0,
+   "afe_post_readout_acc": 63.7,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 69.596,
+     "ci": [
+      67.575,
+      71.395
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 74.694,
+     "ci": [
+      72.128,
+      76.923
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 60.745,
+     "ci": [
+      57.33,
+      63.86
+     ]
+    },
+    "any_false_cot": {
+     "est": 39.375,
+     "ci": [
+      37.25,
+      41.75
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 41.069,
+     "ci": [
+      38.9,
+      43.409
+     ]
+    },
+    "consistency_cot": {
+     "est": 92.829,
+     "ci": [
+      91.564,
+      94.094
+     ]
+    },
+    "contra_cot": {
+     "est": 21.75,
+     "ci": [
+      19.625,
+      23.875
+     ]
+    },
+    "rat_any_cot": {
+     "est": 49.914,
+     "ci": [
+      46.014,
+      53.698
+     ]
+    },
+    "rat_last_cot": {
+     "est": 47.16,
+     "ci": [
+      43.507,
+      50.791
+     ]
+    },
+    "dissent_cot": {
+     "est": 64.028,
+     "ci": [
+      60.145,
+      67.587
+     ]
+    },
+    "tok_cot": {
+     "est": 94.504,
+     "ci": [
+      93.174,
+      95.855
+     ]
+    },
+    "body_tok_cot": {
+     "est": 93.504,
+     "ci": [
+      92.174,
+      94.855
+     ]
+    },
+    "claimed_cot": {
+     "est": 95.875,
+     "ci": [
+      94.811,
+      96.812
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.607,
+     "ci": [
+      1.568,
+      1.644
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 66.405,
+     "ci": [
+      63.615,
+      68.944
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 72.727,
+     "ci": [
+      70.015,
+      75.297
+     ]
+    },
+    "vgap_cot": {
+     "est": 6.322,
+     "ci": [
+      2.568,
+      10.023
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 69.397,
+     "ci": [
+      67.244,
+      71.305
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 43.373,
+     "ci": [
+      39.573,
+      47.139
+     ]
+    },
+    "claim_true_gate": {
+     "est": 68.127,
+     "ci": [
+      65.746,
+      70.498
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 86.73,
+     "ci": [
+      84.976,
+      88.392
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 34.361,
+     "ci": [
+      31.236,
+      37.266
+     ]
+    },
+    "any_false_gate": {
+     "est": 39.5,
+     "ci": [
+      36.873,
+      42.188
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 43.111,
+     "ci": [
+      40.094,
+      46.012
+     ]
+    },
+    "consistency_gate": {
+     "est": 92.292,
+     "ci": [
+      90.891,
+      93.78
+     ]
+    },
+    "contra_gate": {
+     "est": 24.375,
+     "ci": [
+      22.248,
+      26.5
+     ]
+    },
+    "rat_any_gate": {
+     "est": 75.559,
+     "ci": [
+      72.258,
+      79.006
+     ]
+    },
+    "rat_last_gate": {
+     "est": 74.355,
+     "ci": [
+      71.135,
+      77.778
+     ]
+    },
+    "dissent_gate": {
+     "est": 42.169,
+     "ci": [
+      38.358,
+      45.849
+     ]
+    },
+    "tok_gate": {
+     "est": 333.553,
+     "ci": [
+      309.115,
+      356.824
+     ]
+    },
+    "body_tok_gate": {
+     "est": 96.909,
+     "ci": [
+      95.376,
+      98.432
+     ]
+    },
+    "claimed_gate": {
+     "est": 91.625,
+     "ci": [
+      90.188,
+      92.877
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.541,
+     "ci": [
+      1.501,
+      1.581
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 50.666,
+     "ci": [
+      47.746,
+      53.339
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 84.731,
+     "ci": [
+      82.63,
+      86.776
+     ]
+    },
+    "vgap_gate": {
+     "est": 34.065,
+     "ci": [
+      30.786,
+      37.646
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 68.241,
+     "ci": [
+      65.731,
+      70.615
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 63.855,
+     "ci": [
+      60.135,
+      67.669
+     ]
+    },
+    "claim_true_afe": {
+     "est": 65.506,
+     "ci": [
+      62.198,
+      69.014
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 94.941,
+     "ci": [
+      93.349,
+      96.473
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 14.244,
+     "ci": [
+      11.26,
+      17.242
+     ]
+    },
+    "any_false_afe": {
+     "est": 35.25,
+     "ci": [
+      31.812,
+      38.5
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 35.338,
+     "ci": [
+      31.909,
+      38.596
+     ]
+    },
+    "consistency_afe": {
+     "est": 93.296,
+     "ci": [
+      92.042,
+      94.549
+     ]
+    },
+    "contra_afe": {
+     "est": 8.188,
+     "ci": [
+      6.813,
+      9.562
+     ]
+    },
+    "rat_any_afe": {
+     "est": 88.812,
+     "ci": [
+      86.135,
+      91.348
+     ]
+    },
+    "rat_last_afe": {
+     "est": 88.468,
+     "ci": [
+      85.714,
+      91.031
+     ]
+    },
+    "dissent_afe": {
+     "est": 14.286,
+     "ci": [
+      11.512,
+      17.188
+     ]
+    },
+    "tok_afe": {
+     "est": 32.876,
+     "ci": [
+      32.327,
+      33.431
+     ]
+    },
+    "body_tok_afe": {
+     "est": 31.875,
+     "ci": [
+      31.324,
+      32.431
+     ]
+    },
+    "claimed_afe": {
+     "est": 99.75,
+     "ci": [
+      99.5,
+      99.938
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.167,
+     "ci": [
+      1.146,
+      1.188
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 34.957,
+     "ci": [
+      31.754,
+      37.99
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 95.44,
+     "ci": [
+      93.966,
+      96.865
+     ]
+    },
+    "vgap_afe": {
+     "est": 60.483,
+     "ci": [
+      57.119,
+      63.982
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 66.128,
+     "ci": [
+      62.734,
+      69.699
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 77.281,
+     "ci": [
+      74.211,
+      80.386
+     ]
+    },
+    "n_mcot": {
+     "est": 289.0,
+     "ci": [
+      253.975,
+      325.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 90.311,
+     "ci": [
+      87.0,
+      93.426
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 77.163,
+     "ci": [
+      72.451,
+      81.787
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 90.311,
+     "ci": [
+      86.769,
+      93.56
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 84.429,
+     "ci": [
+      80.144,
+      88.613
+     ]
+    },
+    "n_mgate": {
+     "est": 530.0,
+     "ci": [
+      474.0,
+      583.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 81.321,
+     "ci": [
+      78.154,
+      84.575
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 68.491,
+     "ci": [
+      64.916,
+      72.402
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 89.057,
+     "ci": [
+      86.29,
+      91.778
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 78.113,
+     "ci": [
+      74.951,
+      81.455
+     ]
+    },
+    "n_rcot": {
+     "est": 292.0,
+     "ci": [
+      255.0,
+      328.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 9.932,
+     "ci": [
+      6.834,
+      13.208
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 9.932,
+     "ci": [
+      6.834,
+      13.208
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 87.329,
+     "ci": [
+      83.214,
+      91.066
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 70.205,
+     "ci": [
+      65.021,
+      75.258
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 0.0,
+     "ci": [
+      -4.982,
+      4.828
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 7.736,
+     "ci": [
+      3.359,
+      11.847
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 77.397,
+     "ci": [
+      71.923,
+      82.519
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 7.266,
+     "ci": [
+      1.205,
+      13.504
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": 9.623,
+     "ci": [
+      4.789,
+      14.235
+     ]
+    },
+    "acc_direct": {
+     "est": 63.688,
+     "ci": [
+      60.062,
+      67.438
+     ]
+    },
+    "post_acc_afe": {
+     "est": 63.688,
+     "ci": [
+      60.062,
+      67.438
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": -4.089,
+     "ci": [
+      -7.644,
+      -0.318
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 20.247,
+     "ci": [
+      17.457,
+      23.276
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -46.501,
+     "ci": [
+      -50.991,
+      -41.964
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -4.125,
+     "ci": [
+      -8.127,
+      -0.248
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -5.731,
+     "ci": [
+      -9.718,
+      -1.83
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": 0.467,
+     "ci": [
+      -1.397,
+      2.348
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -13.562,
+     "ci": [
+      -16.062,
+      -11.062
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 38.898,
+     "ci": [
+      33.918,
+      43.802
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 41.308,
+     "ci": [
+      36.46,
+      45.946
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -49.742,
+     "ci": [
+      -54.277,
+      -44.984
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -61.627,
+     "ci": [
+      -63.123,
+      -60.079
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -61.629,
+     "ci": [
+      -63.125,
+      -60.082
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 3.875,
+     "ci": [
+      2.875,
+      5.0
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.441,
+     "ci": [
+      -0.485,
+      -0.395
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": -31.448,
+     "ci": [
+      -35.737,
+      -27.13
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 22.713,
+     "ci": [
+      19.704,
+      25.883
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 54.161,
+     "ci": [
+      48.916,
+      59.604
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": -3.269,
+     "ci": [
+      -7.044,
+      0.757
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 33.907,
+     "ci": [
+      28.927,
+      38.622
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": -2.62,
+     "ci": [
+      -5.233,
+      -0.015
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 8.211,
+     "ci": [
+      5.861,
+      10.726
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": -20.117,
+     "ci": [
+      -24.101,
+      -15.993
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": -4.25,
+     "ci": [
+      -7.125,
+      -1.5
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -7.772,
+     "ci": [
+      -10.595,
+      -5.088
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": 1.004,
+     "ci": [
+      -0.978,
+      2.871
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": -16.188,
+     "ci": [
+      -18.688,
+      -13.625
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 13.253,
+     "ci": [
+      8.925,
+      17.391
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 14.114,
+     "ci": [
+      9.841,
+      18.213
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": -27.883,
+     "ci": [
+      -32.518,
+      -23.102
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -300.677,
+     "ci": [
+      -324.065,
+      -276.318
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -65.034,
+     "ci": [
+      -66.727,
+      -63.407
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 8.125,
+     "ci": [
+      6.812,
+      9.625
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": -0.374,
+     "ci": [
+      -0.419,
+      -0.329
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": -15.709,
+     "ci": [
+      -19.123,
+      -12.259
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": 10.709,
+     "ci": [
+      8.149,
+      13.284
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": 26.418,
+     "ci": [
+      21.953,
+      30.654
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": -2.113,
+     "ci": [
+      -4.976,
+      0.912
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 13.425,
+     "ci": [
+      8.717,
+      18.132
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": -1.469,
+     "ci": [
+      -3.595,
+      0.769
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 12.036,
+     "ci": [
+      10.228,
+      14.008
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -26.384,
+     "ci": [
+      -29.566,
+      -23.216
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": 0.125,
+     "ci": [
+      -2.375,
+      2.502
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": 2.041,
+     "ci": [
+      -0.483,
+      4.6
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -0.537,
+     "ci": [
+      -1.888,
+      0.86
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": 2.625,
+     "ci": [
+      0.875,
+      4.437
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 25.645,
+     "ci": [
+      22.043,
+      29.346
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 27.194,
+     "ci": [
+      23.621,
+      30.912
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -21.859,
+     "ci": [
+      -25.277,
+      -18.363
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 239.049,
+     "ci": [
+      215.165,
+      262.338
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 3.406,
+     "ci": [
+      2.489,
+      4.311
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -4.25,
+     "ci": [
+      -5.625,
+      -3.062
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.066,
+     "ci": [
+      -0.098,
+      -0.036
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": -15.739,
+     "ci": [
+      -18.633,
+      -12.896
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 12.004,
+     "ci": [
+      9.948,
+      14.288
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": 27.743,
+     "ci": [
+      24.056,
+      31.313
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": -1.156,
+     "ci": [
+      -3.289,
+      1.045
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 20.482,
+     "ci": [
+      16.872,
+      24.167
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.348,
+     "ci": [
+      0.34,
+      0.356
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.099,
+     "ci": [
+      0.092,
+      0.106
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 3.53,
+     "ci": [
+      3.28,
+      3.778
+     ]
+    }
+   }
+  },
+  "twins": {
+   "n": 800,
+   "n_clusters": 200,
+   "n_direct_wrong": 293,
+   "acc": {
+    "cot": 66.5,
+    "gate": 63.62,
+    "afe": 63.38,
+    "direct": 63.38
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 100.0,
+   "afe_post_readout_acc": 63.4,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 68.56,
+     "ci": [
+      65.63,
+      71.581
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 76.093,
+     "ci": [
+      72.824,
+      79.445
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 56.144,
+     "ci": [
+      50.635,
+      61.405
+     ]
+    },
+    "any_false_cot": {
+     "est": 37.625,
+     "ci": [
+      34.25,
+      41.0
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 39.398,
+     "ci": [
+      35.921,
+      42.988
+     ]
+    },
+    "consistency_cot": {
+     "est": 92.801,
+     "ci": [
+      90.753,
+      94.682
+     ]
+    },
+    "contra_cot": {
+     "est": 19.125,
+     "ci": [
+      16.375,
+      22.0
+     ]
+    },
+    "rat_any_cot": {
+     "est": 50.171,
+     "ci": [
+      44.702,
+      55.894
+     ]
+    },
+    "rat_last_cot": {
+     "est": 46.758,
+     "ci": [
+      41.077,
+      52.613
+     ]
+    },
+    "dissent_cot": {
+     "est": 62.116,
+     "ci": [
+      56.642,
+      67.577
+     ]
+    },
+    "tok_cot": {
+     "est": 94.776,
+     "ci": [
+      92.845,
+      96.675
+     ]
+    },
+    "body_tok_cot": {
+     "est": 93.776,
+     "ci": [
+      91.845,
+      95.675
+     ]
+    },
+    "claimed_cot": {
+     "est": 95.5,
+     "ci": [
+      94.0,
+      96.875
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.562,
+     "ci": [
+      1.511,
+      1.615
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 64.107,
+     "ci": [
+      59.776,
+      68.209
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 73.203,
+     "ci": [
+      68.928,
+      77.138
+     ]
+    },
+    "vgap_cot": {
+     "est": 9.096,
+     "ci": [
+      3.364,
+      15.004
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 69.08,
+     "ci": [
+      66.004,
+      72.402
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 43.686,
+     "ci": [
+      38.095,
+      49.372
+     ]
+    },
+    "claim_true_gate": {
+     "est": 66.667,
+     "ci": [
+      63.061,
+      70.281
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 86.957,
+     "ci": [
+      84.546,
+      89.507
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 30.769,
+     "ci": [
+      26.682,
+      35.116
+     ]
+    },
+    "any_false_gate": {
+     "est": 39.5,
+     "ci": [
+      35.75,
+      43.25
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 42.53,
+     "ci": [
+      38.275,
+      46.909
+     ]
+    },
+    "consistency_gate": {
+     "est": 91.252,
+     "ci": [
+      89.145,
+      93.316
+     ]
+    },
+    "contra_gate": {
+     "est": 22.5,
+     "ci": [
+      19.625,
+      25.5
+     ]
+    },
+    "rat_any_gate": {
+     "est": 76.451,
+     "ci": [
+      71.929,
+      80.744
+     ]
+    },
+    "rat_last_gate": {
+     "est": 75.768,
+     "ci": [
+      71.052,
+      80.298
+     ]
+    },
+    "dissent_gate": {
+     "est": 37.201,
+     "ci": [
+      31.998,
+      42.568
+     ]
+    },
+    "tok_gate": {
+     "est": 318.725,
+     "ci": [
+      287.558,
+      352.197
+     ]
+    },
+    "body_tok_gate": {
+     "est": 97.483,
+     "ci": [
+      95.068,
+      99.805
+     ]
+    },
+    "claimed_gate": {
+     "est": 92.875,
+     "ci": [
+      91.0,
+      94.625
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.53,
+     "ci": [
+      1.475,
+      1.585
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 48.59,
+     "ci": [
+      44.626,
+      52.736
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 84.219,
+     "ci": [
+      81.141,
+      87.227
+     ]
+    },
+    "vgap_gate": {
+     "est": 35.629,
+     "ci": [
+      30.44,
+      40.574
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 67.16,
+     "ci": [
+      63.438,
+      70.684
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 65.188,
+     "ci": [
+      60.201,
+      70.036
+     ]
+    },
+    "claim_true_afe": {
+     "est": 62.325,
+     "ci": [
+      57.565,
+      66.877
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 93.504,
+     "ci": [
+      91.171,
+      95.712
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 9.302,
+     "ci": [
+      6.087,
+      13.006
+     ]
+    },
+    "any_false_afe": {
+     "est": 37.75,
+     "ci": [
+      33.25,
+      42.625
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 37.845,
+     "ci": [
+      33.25,
+      42.732
+     ]
+    },
+    "consistency_afe": {
+     "est": 93.985,
+     "ci": [
+      92.25,
+      95.494
+     ]
+    },
+    "contra_afe": {
+     "est": 7.25,
+     "ci": [
+      5.625,
+      9.0
+     ]
+    },
+    "rat_any_afe": {
+     "est": 92.833,
+     "ci": [
+      89.808,
+      95.548
+     ]
+    },
+    "rat_last_afe": {
+     "est": 92.491,
+     "ci": [
+      89.369,
+      95.21
+     ]
+    },
+    "dissent_afe": {
+     "est": 9.556,
+     "ci": [
+      6.498,
+      12.975
+     ]
+    },
+    "tok_afe": {
+     "est": 32.75,
+     "ci": [
+      31.981,
+      33.58
+     ]
+    },
+    "body_tok_afe": {
+     "est": 31.747,
+     "ci": [
+      30.979,
+      32.575
+     ]
+    },
+    "claimed_afe": {
+     "est": 99.75,
+     "ci": [
+      99.375,
+      100.0
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.161,
+     "ci": [
+      1.133,
+      1.191
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 31.478,
+     "ci": [
+      27.789,
+      35.215
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 93.506,
+     "ci": [
+      90.425,
+      96.262
+     ]
+    },
+    "vgap_afe": {
+     "est": 62.029,
+     "ci": [
+      57.23,
+      66.638
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 62.875,
+     "ci": [
+      57.933,
+      67.641
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 80.887,
+     "ci": [
+      76.854,
+      84.97
+     ]
+    },
+    "n_mcot": {
+     "est": 158.0,
+     "ci": [
+      134.0,
+      184.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 85.443,
+     "ci": [
+      79.605,
+      90.968
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 74.051,
+     "ci": [
+      66.862,
+      80.852
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 94.304,
+     "ci": [
+      89.999,
+      97.873
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 87.975,
+     "ci": [
+      82.313,
+      92.908
+     ]
+    },
+    "n_mgate": {
+     "est": 275.0,
+     "ci": [
+      238.0,
+      315.025
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 81.091,
+     "ci": [
+      76.895,
+      85.092
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 69.091,
+     "ci": [
+      64.312,
+      73.703
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 93.091,
+     "ci": [
+      89.873,
+      95.851
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 81.818,
+     "ci": [
+      77.536,
+      86.09
+     ]
+    },
+    "n_rcot": {
+     "est": 135.0,
+     "ci": [
+      109.0,
+      161.025
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 8.889,
+     "ci": [
+      4.687,
+      13.386
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 8.148,
+     "ci": [
+      4.082,
+      12.418
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 91.111,
+     "ci": [
+      86.26,
+      95.455
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 72.593,
+     "ci": [
+      65.853,
+      79.825
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 8.861,
+     "ci": [
+      1.673,
+      15.977
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 12.0,
+     "ci": [
+      6.666,
+      16.918
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 82.222,
+     "ci": [
+      75.714,
+      88.653
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 13.924,
+     "ci": [
+      5.517,
+      22.504
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": 12.727,
+     "ci": [
+      6.338,
+      19.331
+     ]
+    },
+    "acc_direct": {
+     "est": 63.375,
+     "ci": [
+      58.0,
+      68.375
+     ]
+    },
+    "post_acc_afe": {
+     "est": 63.375,
+     "ci": [
+      58.0,
+      68.375
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": -6.235,
+     "ci": [
+      -11.481,
+      -1.161
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 17.412,
+     "ci": [
+      13.098,
+      21.544
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -46.842,
+     "ci": [
+      -53.174,
+      -40.074
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": 0.125,
+     "ci": [
+      -5.125,
+      5.375
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -1.553,
+     "ci": [
+      -6.834,
+      3.658
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": 1.184,
+     "ci": [
+      -1.299,
+      3.609
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -11.875,
+     "ci": [
+      -15.003,
+      -8.622
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 42.662,
+     "ci": [
+      35.985,
+      48.912
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 45.734,
+     "ci": [
+      38.8,
+      52.014
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -52.56,
+     "ci": [
+      -59.108,
+      -45.704
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -62.026,
+     "ci": [
+      -64.219,
+      -59.802
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -62.029,
+     "ci": [
+      -64.223,
+      -59.802
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 4.25,
+     "ci": [
+      2.875,
+      5.75
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.401,
+     "ci": [
+      -0.46,
+      -0.345
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": -32.629,
+     "ci": [
+      -38.257,
+      -26.509
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 20.304,
+     "ci": [
+      15.148,
+      25.131
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 52.933,
+     "ci": [
+      45.001,
+      60.382
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": -6.205,
+     "ci": [
+      -11.685,
+      -0.914
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 37.201,
+     "ci": [
+      30.476,
+      44.17
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": -4.342,
+     "ci": [
+      -7.746,
+      -1.046
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 6.548,
+     "ci": [
+      3.26,
+      9.823
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": -21.467,
+     "ci": [
+      -26.785,
+      -16.039
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": -1.75,
+     "ci": [
+      -5.5,
+      1.875
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -4.686,
+     "ci": [
+      -8.243,
+      -1.021
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": 2.733,
+     "ci": [
+      0.086,
+      5.206
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": -15.25,
+     "ci": [
+      -18.5,
+      -11.875
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 16.382,
+     "ci": [
+      11.111,
+      21.632
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 16.724,
+     "ci": [
+      11.182,
+      22.153
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": -27.645,
+     "ci": [
+      -34.256,
+      -21.031
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -285.975,
+     "ci": [
+      -319.393,
+      -254.599
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -65.735,
+     "ci": [
+      -68.257,
+      -63.134
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 6.875,
+     "ci": [
+      5.125,
+      8.875
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": -0.369,
+     "ci": [
+      -0.43,
+      -0.308
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": -17.113,
+     "ci": [
+      -21.388,
+      -12.518
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": 9.287,
+     "ci": [
+      5.329,
+      13.134
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": 26.4,
+     "ci": [
+      20.675,
+      32.077
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": -4.285,
+     "ci": [
+      -8.25,
+      -0.212
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 15.7,
+     "ci": [
+      8.928,
+      22.373
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": -1.893,
+     "ci": [
+      -5.023,
+      1.118
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 10.864,
+     "ci": [
+      8.218,
+      13.591
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -25.375,
+     "ci": [
+      -30.153,
+      -20.487
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": 1.875,
+     "ci": [
+      -1.625,
+      5.375
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": 3.132,
+     "ci": [
+      -0.586,
+      6.866
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": -1.549,
+     "ci": [
+      -3.36,
+      0.318
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": 3.375,
+     "ci": [
+      0.75,
+      5.875
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 26.28,
+     "ci": [
+      20.07,
+      31.868
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 29.01,
+     "ci": [
+      23.221,
+      34.46
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -24.915,
+     "ci": [
+      -30.45,
+      -19.285
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 223.949,
+     "ci": [
+      193.07,
+      256.967
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 3.706,
+     "ci": [
+      2.159,
+      5.103
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.625,
+     "ci": [
+      -4.375,
+      -1.0
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.032,
+     "ci": [
+      -0.076,
+      0.011
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": -15.516,
+     "ci": [
+      -19.665,
+      -11.537
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 11.016,
+     "ci": [
+      7.934,
+      14.352
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": 26.533,
+     "ci": [
+      21.429,
+      31.842
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": -1.919,
+     "ci": [
+      -4.916,
+      1.071
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 21.502,
+     "ci": [
+      15.972,
+      26.938
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.346,
+     "ci": [
+      0.334,
+      0.357
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.103,
+     "ci": [
+      0.093,
+      0.114
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 3.363,
+     "ci": [
+      3.043,
+      3.7
+     ]
+    }
+   }
+  },
+  "syn": {
+   "n": 1000,
+   "n_clusters": 500,
+   "n_direct_wrong": 97,
+   "acc": {
+    "cot": 62.1,
+    "gate": 83.9,
+    "afe": 90.3,
+    "direct": 90.3
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 100.0,
+   "afe_post_readout_acc": 90.3,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 61.959,
+     "ci": [
+      58.868,
+      65.083
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 61.891,
+     "ci": [
+      58.695,
+      65.308
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 62.698,
+     "ci": [
+      52.585,
+      72.656
+     ]
+    },
+    "any_false_cot": {
+     "est": 40.6,
+     "ci": [
+      37.5,
+      43.502
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 44.13,
+     "ci": [
+      40.899,
+      47.25
+     ]
+    },
+    "consistency_cot": {
+     "est": 93.152,
+     "ci": [
+      91.503,
+      94.754
+     ]
+    },
+    "contra_cot": {
+     "est": 14.1,
+     "ci": [
+      12.0,
+      16.4
+     ]
+    },
+    "rat_any_cot": {
+     "est": 34.021,
+     "ci": [
+      25.555,
+      43.301
+     ]
+    },
+    "rat_last_cot": {
+     "est": 32.99,
+     "ci": [
+      24.468,
+      42.308
+     ]
+    },
+    "dissent_cot": {
+     "est": 58.763,
+     "ci": [
+      49.09,
+      67.678
+     ]
+    },
+    "tok_cot": {
+     "est": 86.677,
+     "ci": [
+      85.014,
+      88.384
+     ]
+    },
+    "body_tok_cot": {
+     "est": 85.677,
+     "ci": [
+      84.014,
+      87.384
+     ]
+    },
+    "claimed_cot": {
+     "est": 92.0,
+     "ci": [
+      90.398,
+      93.6
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.48,
+     "ci": [
+      1.433,
+      1.531
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 61.946,
+     "ci": [
+      58.805,
+      65.114
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 27.835,
+     "ci": [
+      20.0,
+      36.191
+     ]
+    },
+    "claim_true_gate": {
+     "est": 79.713,
+     "ci": [
+      77.257,
+      82.148
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 84.421,
+     "ci": [
+      82.387,
+      86.387
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 25.0,
+     "ci": [
+      16.529,
+      34.128
+     ]
+    },
+    "any_false_gate": {
+     "est": 24.4,
+     "ci": [
+      21.8,
+      27.0
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 27.171,
+     "ci": [
+      24.222,
+      29.944
+     ]
+    },
+    "consistency_gate": {
+     "est": 93.318,
+     "ci": [
+      91.574,
+      94.855
+     ]
+    },
+    "contra_gate": {
+     "est": 16.8,
+     "ci": [
+      14.6,
+      19.0
+     ]
+    },
+    "rat_any_gate": {
+     "est": 63.918,
+     "ci": [
+      54.385,
+      73.196
+     ]
+    },
+    "rat_last_gate": {
+     "est": 61.856,
+     "ci": [
+      52.426,
+      71.291
+     ]
+    },
+    "dissent_gate": {
+     "est": 24.742,
+     "ci": [
+      16.867,
+      33.333
+     ]
+    },
+    "tok_gate": {
+     "est": 322.381,
+     "ci": [
+      298.512,
+      348.695
+     ]
+    },
+    "body_tok_gate": {
+     "est": 94.256,
+     "ci": [
+      92.196,
+      96.281
+     ]
+    },
+    "claimed_gate": {
+     "est": 89.8,
+     "ci": [
+      87.898,
+      91.7
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.464,
+     "ci": [
+      1.414,
+      1.516
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 78.807,
+     "ci": [
+      76.132,
+      81.449
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 56.701,
+     "ci": [
+      46.667,
+      66.347
+     ]
+    },
+    "claim_true_afe": {
+     "est": 83.679,
+     "ci": [
+      81.374,
+      85.941
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 88.96,
+     "ci": [
+      87.147,
+      90.884
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 35.833,
+     "ci": [
+      26.271,
+      45.382
+     ]
+    },
+    "any_false_afe": {
+     "est": 17.2,
+     "ci": [
+      14.7,
+      19.6
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 17.2,
+     "ci": [
+      14.7,
+      19.6
+     ]
+    },
+    "consistency_afe": {
+     "est": 87.6,
+     "ci": [
+      85.6,
+      89.5
+     ]
+    },
+    "contra_afe": {
+     "est": 13.3,
+     "ci": [
+      11.398,
+      15.4
+     ]
+    },
+    "rat_any_afe": {
+     "est": 74.227,
+     "ci": [
+      65.384,
+      82.669
+     ]
+    },
+    "rat_last_afe": {
+     "est": 69.072,
+     "ci": [
+      60.255,
+      77.895
+     ]
+    },
+    "dissent_afe": {
+     "est": 34.021,
+     "ci": [
+      24.545,
+      43.478
+     ]
+    },
+    "tok_afe": {
+     "est": 36.467,
+     "ci": [
+      35.665,
+      37.285
+     ]
+    },
+    "body_tok_afe": {
+     "est": 35.467,
+     "ci": [
+      34.665,
+      36.285
+     ]
+    },
+    "claimed_afe": {
+     "est": 100.0,
+     "ci": [
+      100.0,
+      100.0
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.207,
+     "ci": [
+      1.181,
+      1.234
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 88.93,
+     "ci": [
+      86.82,
+      91.042
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 65.979,
+     "ci": [
+      56.381,
+      75.258
+     ]
+    },
+    "n_mcot": {
+     "est": 41.0,
+     "ci": [
+      29.0,
+      55.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 60.976,
+     "ci": [
+      46.507,
+      75.76
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 56.098,
+     "ci": [
+      42.222,
+      70.27
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 78.049,
+     "ci": [
+      64.514,
+      90.0
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 68.293,
+     "ci": [
+      53.058,
+      82.054
+     ]
+    },
+    "n_mgate": {
+     "est": 84.0,
+     "ci": [
+      63.0,
+      106.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 72.619,
+     "ci": [
+      63.329,
+      81.25
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 64.286,
+     "ci": [
+      54.021,
+      74.158
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 75.0,
+     "ci": [
+      65.0,
+      83.909
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 65.476,
+     "ci": [
+      54.348,
+      75.905
+     ]
+    },
+    "n_rcot": {
+     "est": 56.0,
+     "ci": [
+      42.0,
+      71.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 14.286,
+     "ci": [
+      5.556,
+      25.0
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 7.143,
+     "ci": [
+      1.639,
+      14.754
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 71.429,
+     "ci": [
+      59.255,
+      83.333
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 64.286,
+     "ci": [
+      51.784,
+      76.598
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 17.073,
+     "ci": [
+      -4.084,
+      37.041
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 2.381,
+     "ci": [
+      -10.976,
+      15.495
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 57.143,
+     "ci": [
+      41.538,
+      71.876
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": 12.195,
+     "ci": [
+      -11.111,
+      33.333
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": 1.19,
+     "ci": [
+      -15.792,
+      17.048
+     ]
+    },
+    "acc_direct": {
+     "est": 90.3,
+     "ci": [
+      88.0,
+      92.5
+     ]
+    },
+    "post_acc_afe": {
+     "est": 90.3,
+     "ci": [
+      88.0,
+      92.5
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 21.719,
+     "ci": [
+      17.854,
+      25.428
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 27.07,
+     "ci": [
+      23.384,
+      30.696
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -26.865,
+     "ci": [
+      -41.408,
+      -11.964
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -23.4,
+     "ci": [
+      -27.2,
+      -19.5
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -26.93,
+     "ci": [
+      -30.702,
+      -22.97
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -5.552,
+     "ci": [
+      -8.018,
+      -2.948
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -0.8,
+     "ci": [
+      -3.9,
+      2.3
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 40.206,
+     "ci": [
+      26.665,
+      53.064
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 36.082,
+     "ci": [
+      22.64,
+      48.454
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -24.742,
+     "ci": [
+      -36.957,
+      -12.902
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -50.21,
+     "ci": [
+      -52.242,
+      -48.214
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -50.21,
+     "ci": [
+      -52.242,
+      -48.214
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 8.0,
+     "ci": [
+      6.4,
+      9.602
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": -0.273,
+     "ci": [
+      -0.331,
+      -0.217
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 26.984,
+     "ci": [
+      23.121,
+      30.681
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 38.144,
+     "ci": [
+      25.0,
+      50.877
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": 3.965,
+     "ci": [
+      1.143,
+      6.552
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 4.539,
+     "ci": [
+      1.919,
+      7.129
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 10.833,
+     "ci": [
+      -2.571,
+      23.987
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": -7.2,
+     "ci": [
+      -10.1,
+      -4.1
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -9.971,
+     "ci": [
+      -12.972,
+      -6.684
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -5.718,
+     "ci": [
+      -8.35,
+      -3.059
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": -3.5,
+     "ci": [
+      -6.4,
+      -0.398
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 10.309,
+     "ci": [
+      -3.127,
+      23.586
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 7.216,
+     "ci": [
+      -6.14,
+      20.758
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 9.278,
+     "ci": [
+      -2.248,
+      20.455
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -285.914,
+     "ci": [
+      -311.978,
+      -262.069
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -58.789,
+     "ci": [
+      -61.136,
+      -56.453
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 10.2,
+     "ci": [
+      8.3,
+      12.102
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": -0.257,
+     "ci": [
+      -0.314,
+      -0.2
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": 10.123,
+     "ci": [
+      7.2,
+      12.892
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": 9.278,
+     "ci": [
+      -5.945,
+      25.006
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 17.754,
+     "ci": [
+      14.661,
+      20.8
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 22.531,
+     "ci": [
+      19.568,
+      25.447
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -37.698,
+     "ci": [
+      -49.798,
+      -25.806
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -16.2,
+     "ci": [
+      -19.3,
+      -13.2
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -16.959,
+     "ci": [
+      -20.284,
+      -13.692
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": 0.166,
+     "ci": [
+      -1.554,
+      1.849
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": 2.7,
+     "ci": [
+      0.5,
+      5.0
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 29.897,
+     "ci": [
+      18.365,
+      40.351
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 28.866,
+     "ci": [
+      17.241,
+      39.583
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -34.021,
+     "ci": [
+      -45.683,
+      -22.637
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 235.704,
+     "ci": [
+      212.447,
+      262.175
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 8.579,
+     "ci": [
+      7.105,
+      10.07
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.2,
+     "ci": [
+      -3.8,
+      -0.7
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.016,
+     "ci": [
+      -0.059,
+      0.025
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 16.861,
+     "ci": [
+      13.767,
+      19.934
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 28.866,
+     "ci": [
+      18.582,
+      38.962
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.421,
+     "ci": [
+      0.407,
+      0.434
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.113,
+     "ci": [
+      0.104,
+      0.122
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 3.719,
+     "ci": [
+      3.449,
+      4.026
+     ]
+    }
+   }
+  }
+ },
+ "molmo7b": {
+  "cues": {
+   "n": 1600,
+   "n_clusters": 400,
+   "n_direct_wrong": 190,
+   "acc": {
+    "cot": 75.31,
+    "gate": 86.0,
+    "afe": 88.12,
+    "direct": 88.12
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 99.9,
+   "afe_post_readout_acc": 88.1,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 83.328,
+     "ci": [
+      81.815,
+      84.868
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 85.061,
+     "ci": [
+      83.51,
+      86.487
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 70.37,
+     "ci": [
+      65.288,
+      75.419
+     ]
+    },
+    "any_false_cot": {
+     "est": 26.312,
+     "ci": [
+      24.125,
+      28.438
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 27.752,
+     "ci": [
+      25.518,
+      29.967
+     ]
+    },
+    "consistency_cot": {
+     "est": 86.223,
+     "ci": [
+      84.436,
+      88.013
+     ]
+    },
+    "contra_cot": {
+     "est": 24.438,
+     "ci": [
+      22.375,
+      26.438
+     ]
+    },
+    "rat_any_cot": {
+     "est": 43.684,
+     "ci": [
+      36.754,
+      50.262
+     ]
+    },
+    "rat_last_cot": {
+     "est": 36.316,
+     "ci": [
+      29.806,
+      42.857
+     ]
+    },
+    "dissent_cot": {
+     "est": 72.105,
+     "ci": [
+      65.76,
+      78.325
+     ]
+    },
+    "tok_cot": {
+     "est": 72.783,
+     "ci": [
+      71.707,
+      73.83
+     ]
+    },
+    "body_tok_cot": {
+     "est": 71.783,
+     "ci": [
+      70.707,
+      72.83
+     ]
+    },
+    "claimed_cot": {
+     "est": 94.812,
+     "ci": [
+      93.5,
+      96.125
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.859,
+     "ci": [
+      1.808,
+      1.917
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 79.185,
+     "ci": [
+      76.554,
+      81.636
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 86.769,
+     "ci": [
+      85.026,
+      88.408
+     ]
+    },
+    "vgap_cot": {
+     "est": 7.584,
+     "ci": [
+      4.531,
+      10.681
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 83.944,
+     "ci": [
+      82.448,
+      85.454
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 39.474,
+     "ci": [
+      32.795,
+      46.053
+     ]
+    },
+    "claim_true_gate": {
+     "est": 87.07,
+     "ci": [
+      85.766,
+      88.299
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 90.665,
+     "ci": [
+      89.511,
+      91.749
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 59.633,
+     "ci": [
+      54.205,
+      64.873
+     ]
+    },
+    "any_false_gate": {
+     "est": 20.312,
+     "ci": [
+      18.498,
+      22.312
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 21.989,
+     "ci": [
+      19.973,
+      24.236
+     ]
+    },
+    "consistency_gate": {
+     "est": 88.295,
+     "ci": [
+      86.617,
+      89.892
+     ]
+    },
+    "contra_gate": {
+     "est": 20.938,
+     "ci": [
+      19.125,
+      22.875
+     ]
+    },
+    "rat_any_gate": {
+     "est": 56.316,
+     "ci": [
+      49.432,
+      63.334
+     ]
+    },
+    "rat_last_gate": {
+     "est": 49.474,
+     "ci": [
+      42.553,
+      56.443
+     ]
+    },
+    "dissent_gate": {
+     "est": 63.158,
+     "ci": [
+      55.838,
+      69.894
+     ]
+    },
+    "tok_gate": {
+     "est": 194.933,
+     "ci": [
+      182.369,
+      208.068
+     ]
+    },
+    "body_tok_gate": {
+     "est": 73.645,
+     "ci": [
+      72.486,
+      74.864
+     ]
+    },
+    "claimed_gate": {
+     "est": 92.375,
+     "ci": [
+      90.938,
+      93.688
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.764,
+     "ci": [
+      1.712,
+      1.82
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 84.003,
+     "ci": [
+      81.876,
+      86.055
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 89.666,
+     "ci": [
+      88.022,
+      91.192
+     ]
+    },
+    "vgap_gate": {
+     "est": 5.663,
+     "ci": [
+      3.016,
+      8.433
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 87.663,
+     "ci": [
+      86.35,
+      88.92
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 49.474,
+     "ci": [
+      42.602,
+      56.523
+     ]
+    },
+    "claim_true_afe": {
+     "est": 88.076,
+     "ci": [
+      86.729,
+      89.437
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 92.663,
+     "ci": [
+      91.534,
+      93.815
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 51.33,
+     "ci": [
+      46.482,
+      56.288
+     ]
+    },
+    "any_false_afe": {
+     "est": 20.625,
+     "ci": [
+      18.5,
+      22.752
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 20.755,
+     "ci": [
+      18.663,
+      22.88
+     ]
+    },
+    "consistency_afe": {
+     "est": 92.893,
+     "ci": [
+      91.572,
+      94.144
+     ]
+    },
+    "contra_afe": {
+     "est": 19.438,
+     "ci": [
+      17.375,
+      21.562
+     ]
+    },
+    "rat_any_afe": {
+     "est": 74.737,
+     "ci": [
+      68.505,
+      80.645
+     ]
+    },
+    "rat_last_afe": {
+     "est": 73.684,
+     "ci": [
+      67.231,
+      79.671
+     ]
+    },
+    "dissent_afe": {
+     "est": 64.737,
+     "ci": [
+      58.241,
+      71.585
+     ]
+    },
+    "tok_afe": {
+     "est": 74.486,
+     "ci": [
+      73.297,
+      75.656
+     ]
+    },
+    "body_tok_afe": {
+     "est": 73.486,
+     "ci": [
+      72.297,
+      74.656
+     ]
+    },
+    "claimed_afe": {
+     "est": 99.375,
+     "ci": [
+      98.938,
+      99.75
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 2.118,
+     "ci": [
+      2.069,
+      2.164
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 84.207,
+     "ci": [
+      82.143,
+      86.341
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 91.624,
+     "ci": [
+      90.122,
+      93.147
+     ]
+    },
+    "vgap_afe": {
+     "est": 7.417,
+     "ci": [
+      4.8,
+      9.986
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 88.964,
+     "ci": [
+      87.433,
+      90.474
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 31.053,
+     "ci": [
+      24.21,
+      37.896
+     ]
+    },
+    "n_mcot": {
+     "est": 99.0,
+     "ci": [
+      82.0,
+      117.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 73.737,
+     "ci": [
+      65.049,
+      82.408
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 65.657,
+     "ci": [
+      56.18,
+      75.0
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 75.758,
+     "ci": [
+      66.965,
+      84.338
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 32.323,
+     "ci": [
+      22.935,
+      42.06
+     ]
+    },
+    "n_mgate": {
+     "est": 170.0,
+     "ci": [
+      148.0,
+      193.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 61.176,
+     "ci": [
+      53.985,
+      68.716
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 53.529,
+     "ci": [
+      46.111,
+      61.143
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 75.882,
+     "ci": [
+      69.427,
+      82.144
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 31.176,
+     "ci": [
+      24.161,
+      38.097
+     ]
+    },
+    "n_rcot": {
+     "est": 91.0,
+     "ci": [
+      74.975,
+      108.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 10.989,
+     "ci": [
+      4.877,
+      17.584
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 10.989,
+     "ci": [
+      4.877,
+      17.584
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 73.626,
+     "ci": [
+      63.828,
+      82.293
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 29.67,
+     "ci": [
+      20.429,
+      39.744
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 2.02,
+     "ci": [
+      -9.26,
+      13.592
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 14.706,
+     "ci": [
+      5.233,
+      24.375
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 62.637,
+     "ci": [
+      51.852,
+      72.369
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": -33.333,
+     "ci": [
+      -45.001,
+      -20.792
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": -22.353,
+     "ci": [
+      -31.252,
+      -13.497
+     ]
+    },
+    "acc_direct": {
+     "est": 88.125,
+     "ci": [
+      86.688,
+      89.625
+     ]
+    },
+    "post_acc_afe": {
+     "est": 88.062,
+     "ci": [
+      86.625,
+      89.562
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": -0.062,
+     "ci": [
+      -0.188,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 4.748,
+     "ci": [
+      3.088,
+      6.424
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 7.602,
+     "ci": [
+      5.849,
+      9.275
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -19.041,
+     "ci": [
+      -24.639,
+      -13.454
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -5.688,
+     "ci": [
+      -8.5,
+      -2.936
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -6.997,
+     "ci": [
+      -9.895,
+      -4.142
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": 6.67,
+     "ci": [
+      4.547,
+      8.843
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -5.0,
+     "ci": [
+      -7.75,
+      -2.188
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 31.053,
+     "ci": [
+      23.026,
+      39.798
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 37.368,
+     "ci": [
+      29.327,
+      45.932
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -7.368,
+     "ci": [
+      -15.206,
+      0.0
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": 1.703,
+     "ci": [
+      0.292,
+      3.003
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": 1.703,
+     "ci": [
+      0.292,
+      3.003
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 4.562,
+     "ci": [
+      3.188,
+      5.938
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": 0.258,
+     "ci": [
+      0.206,
+      0.308
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": 5.022,
+     "ci": [
+      2.151,
+      7.745
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 4.855,
+     "ci": [
+      2.889,
+      6.692
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": -0.167,
+     "ci": [
+      -3.637,
+      3.186
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 5.02,
+     "ci": [
+      3.16,
+      6.852
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": -8.421,
+     "ci": [
+      -16.59,
+      0.51
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": 1.005,
+     "ci": [
+      -0.484,
+      2.483
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 1.998,
+     "ci": [
+      0.503,
+      3.445
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": -8.303,
+     "ci": [
+      -14.157,
+      -2.537
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": 0.312,
+     "ci": [
+      -2.25,
+      2.877
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -1.234,
+     "ci": [
+      -3.855,
+      1.388
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": 4.598,
+     "ci": [
+      2.589,
+      6.586
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": -1.5,
+     "ci": [
+      -3.938,
+      1.0
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 18.421,
+     "ci": [
+      9.302,
+      27.321
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 24.211,
+     "ci": [
+      15.023,
+      33.018
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 1.579,
+     "ci": [
+      -6.522,
+      10.001
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -120.447,
+     "ci": [
+      -133.832,
+      -107.895
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -0.159,
+     "ci": [
+      -1.566,
+      1.278
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 7.0,
+     "ci": [
+      5.562,
+      8.439
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": 0.353,
+     "ci": [
+      0.301,
+      0.405
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": 0.204,
+     "ci": [
+      -2.125,
+      2.598
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": 1.958,
+     "ci": [
+      0.219,
+      3.789
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": 1.754,
+     "ci": [
+      -1.312,
+      4.671
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": 1.301,
+     "ci": [
+      -0.348,
+      2.934
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": -18.421,
+     "ci": [
+      -27.028,
+      -9.793
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 3.743,
+     "ci": [
+      2.738,
+      4.759
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 5.604,
+     "ci": [
+      4.528,
+      6.715
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -10.737,
+     "ci": [
+      -14.164,
+      -7.518
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -6.0,
+     "ci": [
+      -7.562,
+      -4.436
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -5.763,
+     "ci": [
+      -7.366,
+      -4.094
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": 2.072,
+     "ci": [
+      0.393,
+      3.654
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": -3.5,
+     "ci": [
+      -5.188,
+      -1.75
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 12.632,
+     "ci": [
+      7.107,
+      18.183
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 13.158,
+     "ci": [
+      7.735,
+      18.519
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -8.947,
+     "ci": [
+      -13.5,
+      -4.926
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 122.149,
+     "ci": [
+      109.444,
+      135.255
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 1.862,
+     "ci": [
+      1.147,
+      2.58
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.438,
+     "ci": [
+      -3.438,
+      -1.562
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.095,
+     "ci": [
+      -0.126,
+      -0.066
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": 4.818,
+     "ci": [
+      3.201,
+      6.457
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 2.897,
+     "ci": [
+      1.649,
+      4.166
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": -1.921,
+     "ci": [
+      -4.101,
+      0.188
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 3.719,
+     "ci": [
+      2.72,
+      4.707
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 10.0,
+     "ci": [
+      4.829,
+      15.185
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 1.023,
+     "ci": [
+      1.004,
+      1.041
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.382,
+     "ci": [
+      0.358,
+      0.409
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 2.678,
+     "ci": [
+      2.503,
+      2.856
+     ]
+    }
+   }
+  },
+  "twins": {
+   "n": 800,
+   "n_clusters": 200,
+   "n_direct_wrong": 94,
+   "acc": {
+    "cot": 74.25,
+    "gate": 86.0,
+    "afe": 88.25,
+    "direct": 88.25
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 100.0,
+   "afe_post_readout_acc": 88.2,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 82.943,
+     "ci": [
+      80.701,
+      85.045
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 84.309,
+     "ci": [
+      82.087,
+      86.474
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 71.779,
+     "ci": [
+      64.13,
+      79.412
+     ]
+    },
+    "any_false_cot": {
+     "est": 26.25,
+     "ci": [
+      23.25,
+      29.375
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 27.379,
+     "ci": [
+      24.282,
+      30.599
+     ]
+    },
+    "consistency_cot": {
+     "est": 87.223,
+     "ci": [
+      84.675,
+      89.61
+     ]
+    },
+    "contra_cot": {
+     "est": 24.5,
+     "ci": [
+      21.625,
+      27.5
+     ]
+    },
+    "rat_any_cot": {
+     "est": 38.298,
+     "ci": [
+      27.473,
+      49.0
+     ]
+    },
+    "rat_last_cot": {
+     "est": 30.851,
+     "ci": [
+      20.833,
+      41.238
+     ]
+    },
+    "dissent_cot": {
+     "est": 81.915,
+     "ci": [
+      73.333,
+      89.744
+     ]
+    },
+    "tok_cot": {
+     "est": 72.771,
+     "ci": [
+      71.242,
+      74.319
+     ]
+    },
+    "body_tok_cot": {
+     "est": 71.771,
+     "ci": [
+      70.242,
+      73.319
+     ]
+    },
+    "claimed_cot": {
+     "est": 95.875,
+     "ci": [
+      94.375,
+      97.25
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.869,
+     "ci": [
+      1.79,
+      1.949
+     ]
+    },
+    "claim_true_vinc_cot": {
+     "est": 81.776,
+     "ci": [
+      78.488,
+      84.993
+     ]
+    },
+    "claim_true_vcon_cot": {
+     "est": 83.848,
+     "ci": [
+      80.837,
+      86.599
+     ]
+    },
+    "vgap_cot": {
+     "est": 2.072,
+     "ci": [
+      -2.287,
+      6.481
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 83.481,
+     "ci": [
+      81.293,
+      85.55
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 34.043,
+     "ci": [
+      23.634,
+      44.333
+     ]
+    },
+    "claim_true_gate": {
+     "est": 87.198,
+     "ci": [
+      85.28,
+      89.054
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 90.633,
+     "ci": [
+      88.782,
+      92.395
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 59.873,
+     "ci": [
+      52.257,
+      67.885
+     ]
+    },
+    "any_false_gate": {
+     "est": 19.625,
+     "ci": [
+      16.875,
+      22.378
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 21.046,
+     "ci": [
+      18.231,
+      23.937
+     ]
+    },
+    "consistency_gate": {
+     "est": 87.936,
+     "ci": [
+      85.809,
+      90.027
+     ]
+    },
+    "contra_gate": {
+     "est": 20.875,
+     "ci": [
+      18.25,
+      23.5
+     ]
+    },
+    "rat_any_gate": {
+     "est": 53.191,
+     "ci": [
+      42.529,
+      63.965
+     ]
+    },
+    "rat_last_gate": {
+     "est": 44.681,
+     "ci": [
+      34.482,
+      54.84
+     ]
+    },
+    "dissent_gate": {
+     "est": 69.149,
+     "ci": [
+      60.194,
+      78.431
+     ]
+    },
+    "tok_gate": {
+     "est": 203.029,
+     "ci": [
+      182.273,
+      224.083
+     ]
+    },
+    "body_tok_gate": {
+     "est": 73.424,
+     "ci": [
+      71.606,
+      75.272
+     ]
+    },
+    "claimed_gate": {
+     "est": 93.25,
+     "ci": [
+      91.375,
+      95.0
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.758,
+     "ci": [
+      1.685,
+      1.834
+     ]
+    },
+    "claim_true_vinc_gate": {
+     "est": 86.08,
+     "ci": [
+      83.189,
+      88.83
+     ]
+    },
+    "claim_true_vcon_gate": {
+     "est": 88.092,
+     "ci": [
+      85.431,
+      90.609
+     ]
+    },
+    "vgap_gate": {
+     "est": 2.012,
+     "ci": [
+      -1.756,
+      5.841
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 87.636,
+     "ci": [
+      85.611,
+      89.535
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 47.872,
+     "ci": [
+      36.841,
+      58.512
+     ]
+    },
+    "claim_true_afe": {
+     "est": 88.165,
+     "ci": [
+      86.155,
+      90.039
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 92.574,
+     "ci": [
+      90.92,
+      94.122
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 54.412,
+     "ci": [
+      47.8,
+      60.894
+     ]
+    },
+    "any_false_afe": {
+     "est": 20.125,
+     "ci": [
+      17.247,
+      23.125
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 20.201,
+     "ci": [
+      17.271,
+      23.183
+     ]
+    },
+    "consistency_afe": {
+     "est": 93.35,
+     "ci": [
+      91.645,
+      94.981
+     ]
+    },
+    "contra_afe": {
+     "est": 20.0,
+     "ci": [
+      17.125,
+      23.0
+     ]
+    },
+    "rat_any_afe": {
+     "est": 78.723,
+     "ci": [
+      70.473,
+      86.366
+     ]
+    },
+    "rat_last_afe": {
+     "est": 77.66,
+     "ci": [
+      69.318,
+      85.589
+     ]
+    },
+    "dissent_afe": {
+     "est": 77.66,
+     "ci": [
+      69.231,
+      85.882
+     ]
+    },
+    "tok_afe": {
+     "est": 75.68,
+     "ci": [
+      74.031,
+      77.346
+     ]
+    },
+    "body_tok_afe": {
+     "est": 74.68,
+     "ci": [
+      73.031,
+      76.346
+     ]
+    },
+    "claimed_afe": {
+     "est": 99.625,
+     "ci": [
+      99.125,
+      100.0
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 2.208,
+     "ci": [
+      2.14,
+      2.274
+     ]
+    },
+    "claim_true_vinc_afe": {
+     "est": 82.867,
+     "ci": [
+      79.779,
+      85.679
+     ]
+    },
+    "claim_true_vcon_afe": {
+     "est": 93.172,
+     "ci": [
+      90.909,
+      95.158
+     ]
+    },
+    "vgap_afe": {
+     "est": 10.305,
+     "ci": [
+      6.803,
+      13.969
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 88.889,
+     "ci": [
+      86.552,
+      91.029
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 24.468,
+     "ci": [
+      15.382,
+      34.783
+     ]
+    },
+    "n_mcot": {
+     "est": 51.0,
+     "ci": [
+      38.0,
+      64.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 62.745,
+     "ci": [
+      50.0,
+      75.013
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 54.902,
+     "ci": [
+      40.426,
+      68.519
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 80.392,
+     "ci": [
+      69.091,
+      90.741
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 27.451,
+     "ci": [
+      15.556,
+      40.426
+     ]
+    },
+    "n_mgate": {
+     "est": 84.0,
+     "ci": [
+      68.0,
+      100.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 57.143,
+     "ci": [
+      46.913,
+      67.742
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 51.19,
+     "ci": [
+      40.0,
+      61.846
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 76.19,
+     "ci": [
+      67.238,
+      84.615
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 21.429,
+     "ci": [
+      12.787,
+      31.765
+     ]
+    },
+    "n_rcot": {
+     "est": 43.0,
+     "ci": [
+      31.0,
+      57.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 9.302,
+     "ci": [
+      2.128,
+      18.182
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 9.302,
+     "ci": [
+      2.128,
+      18.182
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 76.744,
+     "ci": [
+      63.889,
+      88.889
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 20.93,
+     "ci": [
+      8.696,
+      34.887
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 17.647,
+     "ci": [
+      0.0,
+      36.364
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 19.048,
+     "ci": [
+      5.618,
+      32.002
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 67.442,
+     "ci": [
+      51.613,
+      82.222
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": -27.451,
+     "ci": [
+      -44.682,
+      -8.511
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": -29.762,
+     "ci": [
+      -42.533,
+      -15.995
+     ]
+    },
+    "acc_direct": {
+     "est": 88.25,
+     "ci": [
+      86.125,
+      90.375
+     ]
+    },
+    "post_acc_afe": {
+     "est": 88.25,
+     "ci": [
+      86.125,
+      90.375
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 5.222,
+     "ci": [
+      2.64,
+      7.822
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 8.264,
+     "ci": [
+      5.885,
+      10.569
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -17.367,
+     "ci": [
+      -26.201,
+      -8.919
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -6.125,
+     "ci": [
+      -10.378,
+      -2.0
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -7.179,
+     "ci": [
+      -11.556,
+      -2.921
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": 6.127,
+     "ci": [
+      2.963,
+      9.348
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": -4.5,
+     "ci": [
+      -8.75,
+      -0.25
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 40.426,
+     "ci": [
+      26.437,
+      54.119
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 46.809,
+     "ci": [
+      33.325,
+      60.441
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -4.255,
+     "ci": [
+      -15.556,
+      6.579
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": 2.909,
+     "ci": [
+      0.974,
+      4.956
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": 2.909,
+     "ci": [
+      0.974,
+      4.956
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 3.75,
+     "ci": [
+      2.375,
+      5.25
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": 0.339,
+     "ci": [
+      0.262,
+      0.415
+     ]
+    },
+    "d_claim_true_vinc_afe-cot": {
+     "est": 1.091,
+     "ci": [
+      -2.942,
+      4.975
+     ]
+    },
+    "d_claim_true_vcon_afe-cot": {
+     "est": 9.324,
+     "ci": [
+      6.301,
+      12.475
+     ]
+    },
+    "d_vgap_afe-cot": {
+     "est": 8.233,
+     "ci": [
+      3.332,
+      13.361
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 5.408,
+     "ci": [
+      2.522,
+      8.208
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": -9.574,
+     "ci": [
+      -21.739,
+      3.509
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": 0.968,
+     "ci": [
+      -1.429,
+      3.318
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": 1.941,
+     "ci": [
+      -0.269,
+      4.183
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": -5.461,
+     "ci": [
+      -14.507,
+      3.028
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": 0.5,
+     "ci": [
+      -3.25,
+      4.125
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": -0.845,
+     "ci": [
+      -4.701,
+      2.916
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": 5.414,
+     "ci": [
+      2.713,
+      8.059
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": -0.875,
+     "ci": [
+      -4.378,
+      2.625
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 25.532,
+     "ci": [
+      11.903,
+      38.947
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 32.979,
+     "ci": [
+      19.443,
+      46.741
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 8.511,
+     "ci": [
+      -3.948,
+      20.455
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -127.349,
+     "ci": [
+      -148.006,
+      -106.744
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": 1.256,
+     "ci": [
+      -0.968,
+      3.509
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 6.375,
+     "ci": [
+      4.625,
+      8.375
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": 0.45,
+     "ci": [
+      0.372,
+      0.526
+     ]
+    },
+    "d_claim_true_vinc_afe-gate": {
+     "est": -3.213,
+     "ci": [
+      -6.665,
+      0.129
+     ]
+    },
+    "d_claim_true_vcon_afe-gate": {
+     "est": 5.08,
+     "ci": [
+      2.054,
+      7.909
+     ]
+    },
+    "d_vgap_afe-gate": {
+     "est": 8.292,
+     "ci": [
+      3.946,
+      12.905
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": 1.253,
+     "ci": [
+      -1.452,
+      3.98
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": -23.404,
+     "ci": [
+      -36.047,
+      -9.646
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 4.255,
+     "ci": [
+      2.901,
+      5.793
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 6.323,
+     "ci": [
+      4.863,
+      7.904
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -11.907,
+     "ci": [
+      -17.729,
+      -6.807
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -6.625,
+     "ci": [
+      -9.0,
+      -4.5
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -6.334,
+     "ci": [
+      -8.759,
+      -4.17
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": 0.713,
+     "ci": [
+      -1.534,
+      3.053
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": -3.625,
+     "ci": [
+      -6.5,
+      -1.0
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 14.894,
+     "ci": [
+      7.619,
+      22.772
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 13.83,
+     "ci": [
+      6.795,
+      20.879
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -12.766,
+     "ci": [
+      -19.792,
+      -6.742
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 130.257,
+     "ci": [
+      109.89,
+      150.402
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 1.653,
+     "ci": [
+      0.47,
+      2.865
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -2.625,
+     "ci": [
+      -4.0,
+      -1.375
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.111,
+     "ci": [
+      -0.157,
+      -0.064
+     ]
+    },
+    "d_claim_true_vinc_gate-cot": {
+     "est": 4.304,
+     "ci": [
+      1.997,
+      6.671
+     ]
+    },
+    "d_claim_true_vcon_gate-cot": {
+     "est": 4.244,
+     "ci": [
+      2.466,
+      6.009
+     ]
+    },
+    "d_vgap_gate-cot": {
+     "est": -0.059,
+     "ci": [
+      -2.956,
+      2.878
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 4.155,
+     "ci": [
+      2.719,
+      5.802
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 13.83,
+     "ci": [
+      6.729,
+      21.505
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 1.04,
+     "ci": [
+      1.013,
+      1.069
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.373,
+     "ci": [
+      0.338,
+      0.414
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 2.79,
+     "ci": [
+      2.517,
+      3.068
+     ]
+    }
+   }
+  },
+  "syn": {
+   "n": 1000,
+   "n_clusters": 500,
+   "n_direct_wrong": 114,
+   "acc": {
+    "cot": 73.0,
+    "gate": 87.3,
+    "afe": 88.6,
+    "direct": 88.6
+   },
+   "afe_answer_is_direct": true,
+   "afe_post_readout_agree_direct_pct": 99.9,
+   "afe_post_readout_acc": 88.5,
+   "afe_eos_pct": 100.0,
+   "boot": {
+    "claim_true_cot": {
+     "est": 78.429,
+     "ci": [
+      75.873,
+      80.879
+     ]
+    },
+    "claim_true_dc_cot": {
+     "est": 79.289,
+     "ci": [
+      76.645,
+      81.856
+     ]
+    },
+    "claim_true_dw_cot": {
+     "est": 70.37,
+     "ci": [
+      61.416,
+      78.75
+     ]
+    },
+    "any_false_cot": {
+     "est": 25.9,
+     "ci": [
+      23.2,
+      28.8
+     ]
+    },
+    "any_false_claimed_cot": {
+     "est": 28.183,
+     "ci": [
+      25.3,
+      31.23
+     ]
+    },
+    "consistency_cot": {
+     "est": 91.839,
+     "ci": [
+      90.098,
+      93.509
+     ]
+    },
+    "contra_cot": {
+     "est": 12.9,
+     "ci": [
+      10.9,
+      15.1
+     ]
+    },
+    "rat_any_cot": {
+     "est": 33.333,
+     "ci": [
+      24.528,
+      42.308
+     ]
+    },
+    "rat_last_cot": {
+     "est": 31.579,
+     "ci": [
+      22.726,
+      40.627
+     ]
+    },
+    "dissent_cot": {
+     "est": 58.772,
+     "ci": [
+      49.629,
+      68.184
+     ]
+    },
+    "tok_cot": {
+     "est": 72.065,
+     "ci": [
+      70.868,
+      73.248
+     ]
+    },
+    "body_tok_cot": {
+     "est": 71.065,
+     "ci": [
+      69.868,
+      72.248
+     ]
+    },
+    "claimed_cot": {
+     "est": 91.9,
+     "ci": [
+      90.1,
+      93.7
+     ]
+    },
+    "claims_per_item_cot": {
+     "est": 1.4,
+     "ci": [
+      1.349,
+      1.45
+     ]
+    },
+    "claim_true_xc_cot": {
+     "est": 78.283,
+     "ci": [
+      75.755,
+      80.792
+     ]
+    },
+    "rat_any_xc_cot": {
+     "est": 33.333,
+     "ci": [
+      24.528,
+      42.308
+     ]
+    },
+    "claim_true_gate": {
+     "est": 86.894,
+     "ci": [
+      84.71,
+      88.856
+     ]
+    },
+    "claim_true_dc_gate": {
+     "est": 91.847,
+     "ci": [
+      90.13,
+      93.413
+     ]
+    },
+    "claim_true_dw_gate": {
+     "est": 36.441,
+     "ci": [
+      26.606,
+      46.343
+     ]
+    },
+    "any_false_gate": {
+     "est": 16.0,
+     "ci": [
+      13.7,
+      18.4
+     ]
+    },
+    "any_false_claimed_gate": {
+     "est": 18.286,
+     "ci": [
+      15.713,
+      21.018
+     ]
+    },
+    "consistency_gate": {
+     "est": 92.914,
+     "ci": [
+      91.24,
+      94.464
+     ]
+    },
+    "contra_gate": {
+     "est": 11.6,
+     "ci": [
+      9.7,
+      13.6
+     ]
+    },
+    "rat_any_gate": {
+     "est": 59.649,
+     "ci": [
+      50.0,
+      68.469
+     ]
+    },
+    "rat_last_gate": {
+     "est": 56.14,
+     "ci": [
+      46.296,
+      65.217
+     ]
+    },
+    "dissent_gate": {
+     "est": 29.825,
+     "ci": [
+      21.239,
+      38.89
+     ]
+    },
+    "tok_gate": {
+     "est": 198.885,
+     "ci": [
+      183.738,
+      213.08
+     ]
+    },
+    "body_tok_gate": {
+     "est": 73.967,
+     "ci": [
+      72.48,
+      75.365
+     ]
+    },
+    "claimed_gate": {
+     "est": 87.5,
+     "ci": [
+      85.3,
+      89.6
+     ]
+    },
+    "claims_per_item_gate": {
+     "est": 1.32,
+     "ci": [
+      1.268,
+      1.37
+     ]
+    },
+    "claim_true_xc_gate": {
+     "est": 87.077,
+     "ci": [
+      84.871,
+      89.048
+     ]
+    },
+    "rat_any_xc_gate": {
+     "est": 57.018,
+     "ci": [
+      47.367,
+      66.072
+     ]
+    },
+    "claim_true_afe": {
+     "est": 85.39,
+     "ci": [
+      83.393,
+      87.375
+     ]
+    },
+    "claim_true_dc_afe": {
+     "est": 90.388,
+     "ci": [
+      88.716,
+      92.021
+     ]
+    },
+    "claim_true_dw_afe": {
+     "est": 44.286,
+     "ci": [
+      36.619,
+      51.208
+     ]
+    },
+    "any_false_afe": {
+     "est": 21.6,
+     "ci": [
+      18.9,
+      24.2
+     ]
+    },
+    "any_false_claimed_afe": {
+     "est": 21.929,
+     "ci": [
+      19.164,
+      24.621
+     ]
+    },
+    "consistency_afe": {
+     "est": 90.964,
+     "ci": [
+      89.036,
+      92.872
+     ]
+    },
+    "contra_afe": {
+     "est": 18.7,
+     "ci": [
+      16.1,
+      21.2
+     ]
+    },
+    "rat_any_afe": {
+     "est": 75.439,
+     "ci": [
+      67.543,
+      83.333
+     ]
+    },
+    "rat_last_afe": {
+     "est": 74.561,
+     "ci": [
+      66.393,
+      82.309
+     ]
+    },
+    "dissent_afe": {
+     "est": 50.0,
+     "ci": [
+      40.677,
+      59.092
+     ]
+    },
+    "tok_afe": {
+     "est": 63.803,
+     "ci": [
+      62.419,
+      65.217
+     ]
+    },
+    "body_tok_afe": {
+     "est": 62.803,
+     "ci": [
+      61.419,
+      64.217
+     ]
+    },
+    "claimed_afe": {
+     "est": 98.5,
+     "ci": [
+      97.8,
+      99.2
+     ]
+    },
+    "claims_per_item_afe": {
+     "est": 1.937,
+     "ci": [
+      1.888,
+      1.984
+     ]
+    },
+    "claim_true_xc_afe": {
+     "est": 85.031,
+     "ci": [
+      82.742,
+      87.231
+     ]
+    },
+    "rat_any_xc_afe": {
+     "est": 37.719,
+     "ci": [
+      29.23,
+      46.365
+     ]
+    },
+    "n_mcot": {
+     "est": 45.0,
+     "ci": [
+      31.0,
+      60.0
+     ]
+    },
+    "rat_mcot_cot": {
+     "est": 77.778,
+     "ci": [
+      64.58,
+      89.13
+     ]
+    },
+    "ratxc_mcot_cot": {
+     "est": 77.778,
+     "ci": [
+      64.58,
+      89.13
+     ]
+    },
+    "rat_mcot_afe": {
+     "est": 80.0,
+     "ci": [
+      67.33,
+      90.909
+     ]
+    },
+    "ratxc_mcot_afe": {
+     "est": 51.111,
+     "ci": [
+      36.957,
+      65.461
+     ]
+    },
+    "n_mgate": {
+     "est": 103.0,
+     "ci": [
+      83.0,
+      123.0
+     ]
+    },
+    "rat_mgate_gate": {
+     "est": 66.019,
+     "ci": [
+      55.932,
+      75.0
+     ]
+    },
+    "ratxc_mgate_gate": {
+     "est": 63.107,
+     "ci": [
+      53.058,
+      72.642
+     ]
+    },
+    "rat_mgate_afe": {
+     "est": 74.757,
+     "ci": [
+      66.315,
+      82.927
+     ]
+    },
+    "ratxc_mgate_afe": {
+     "est": 33.981,
+     "ci": [
+      25.0,
+      43.104
+     ]
+    },
+    "n_rcot": {
+     "est": 69.0,
+     "ci": [
+      54.0,
+      84.0
+     ]
+    },
+    "rat_rcot_cot": {
+     "est": 4.348,
+     "ci": [
+      0.0,
+      9.377
+     ]
+    },
+    "ratxc_rcot_cot": {
+     "est": 4.348,
+     "ci": [
+      0.0,
+      9.377
+     ]
+    },
+    "rat_rcot_afe": {
+     "est": 72.464,
+     "ci": [
+      61.536,
+      83.333
+     ]
+    },
+    "ratxc_rcot_afe": {
+     "est": 28.986,
+     "ci": [
+      18.571,
+      40.278
+     ]
+    },
+    "d_rat_mcot_afe-cot": {
+     "est": 2.222,
+     "ci": [
+      -15.557,
+      19.149
+     ]
+    },
+    "d_rat_mgate_afe-gate": {
+     "est": 8.738,
+     "ci": [
+      -2.248,
+      20.412
+     ]
+    },
+    "d_rat_rcot_afe-cot": {
+     "est": 68.116,
+     "ci": [
+      56.515,
+      79.662
+     ]
+    },
+    "d_ratxc_mcot_afe-cot": {
+     "est": -26.667,
+     "ci": [
+      -44.737,
+      -7.317
+     ]
+    },
+    "d_ratxc_mgate_afe-gate": {
+     "est": -29.126,
+     "ci": [
+      -41.748,
+      -16.667
+     ]
+    },
+    "acc_direct": {
+     "est": 88.6,
+     "ci": [
+      86.5,
+      90.7
+     ]
+    },
+    "post_acc_afe": {
+     "est": 88.5,
+     "ci": [
+      86.4,
+      90.5
+     ]
+    },
+    "d_post_acc_afe-direct": {
+     "est": -0.1,
+     "ci": [
+      -0.3,
+      0.0
+     ]
+    },
+    "d_claim_true_afe-cot": {
+     "est": 6.961,
+     "ci": [
+      4.202,
+      9.827
+     ]
+    },
+    "d_claim_true_dc_afe-cot": {
+     "est": 11.099,
+     "ci": [
+      8.347,
+      14.108
+     ]
+    },
+    "d_claim_true_dw_afe-cot": {
+     "est": -26.085,
+     "ci": [
+      -35.77,
+      -16.469
+     ]
+    },
+    "d_any_false_afe-cot": {
+     "est": -4.3,
+     "ci": [
+      -7.8,
+      -0.9
+     ]
+    },
+    "d_any_false_claimed_afe-cot": {
+     "est": -6.254,
+     "ci": [
+      -9.83,
+      -2.789
+     ]
+    },
+    "d_consistency_afe-cot": {
+     "est": -0.874,
+     "ci": [
+      -3.355,
+      1.805
+     ]
+    },
+    "d_contra_afe-cot": {
+     "est": 5.8,
+     "ci": [
+      2.5,
+      8.9
+     ]
+    },
+    "d_rat_any_afe-cot": {
+     "est": 42.105,
+     "ci": [
+      29.998,
+      54.31
+     ]
+    },
+    "d_rat_last_afe-cot": {
+     "est": 42.982,
+     "ci": [
+      30.841,
+      55.32
+     ]
+    },
+    "d_dissent_afe-cot": {
+     "est": -8.772,
+     "ci": [
+      -20.187,
+      2.521
+     ]
+    },
+    "d_tok_afe-cot": {
+     "est": -8.262,
+     "ci": [
+      -10.009,
+      -6.493
+     ]
+    },
+    "d_body_tok_afe-cot": {
+     "est": -8.262,
+     "ci": [
+      -10.009,
+      -6.493
+     ]
+    },
+    "d_claimed_afe-cot": {
+     "est": 6.6,
+     "ci": [
+      4.7,
+      8.5
+     ]
+    },
+    "d_claims_per_item_afe-cot": {
+     "est": 0.537,
+     "ci": [
+      0.48,
+      0.595
+     ]
+    },
+    "d_claim_true_xc_afe-cot": {
+     "est": 6.748,
+     "ci": [
+      3.811,
+      9.823
+     ]
+    },
+    "d_rat_any_xc_afe-cot": {
+     "est": 4.386,
+     "ci": [
+      -6.803,
+      15.91
+     ]
+    },
+    "d_claim_true_afe-gate": {
+     "est": -1.504,
+     "ci": [
+      -3.682,
+      0.827
+     ]
+    },
+    "d_claim_true_dc_afe-gate": {
+     "est": -1.459,
+     "ci": [
+      -3.643,
+      0.835
+     ]
+    },
+    "d_claim_true_dw_afe-gate": {
+     "est": 7.845,
+     "ci": [
+      -3.521,
+      18.203
+     ]
+    },
+    "d_any_false_afe-gate": {
+     "est": 5.6,
+     "ci": [
+      2.7,
+      8.3
+     ]
+    },
+    "d_any_false_claimed_afe-gate": {
+     "est": 3.643,
+     "ci": [
+      0.533,
+      6.483
+     ]
+    },
+    "d_consistency_afe-gate": {
+     "est": -1.95,
+     "ci": [
+      -4.31,
+      0.357
+     ]
+    },
+    "d_contra_afe-gate": {
+     "est": 7.1,
+     "ci": [
+      4.097,
+      10.1
+     ]
+    },
+    "d_rat_any_afe-gate": {
+     "est": 15.789,
+     "ci": [
+      5.084,
+      27.828
+     ]
+    },
+    "d_rat_last_afe-gate": {
+     "est": 18.421,
+     "ci": [
+      7.338,
+      30.648
+     ]
+    },
+    "d_dissent_afe-gate": {
+     "est": 20.175,
+     "ci": [
+      7.964,
+      32.111
+     ]
+    },
+    "d_tok_afe-gate": {
+     "est": -135.082,
+     "ci": [
+      -149.495,
+      -119.836
+     ]
+    },
+    "d_body_tok_afe-gate": {
+     "est": -11.164,
+     "ci": [
+      -13.026,
+      -9.262
+     ]
+    },
+    "d_claimed_afe-gate": {
+     "est": 11.0,
+     "ci": [
+      8.9,
+      13.3
+     ]
+    },
+    "d_claims_per_item_afe-gate": {
+     "est": 0.617,
+     "ci": [
+      0.553,
+      0.679
+     ]
+    },
+    "d_claim_true_xc_afe-gate": {
+     "est": -2.046,
+     "ci": [
+      -4.728,
+      0.653
+     ]
+    },
+    "d_rat_any_xc_afe-gate": {
+     "est": -19.298,
+     "ci": [
+      -31.968,
+      -6.451
+     ]
+    },
+    "d_claim_true_gate-cot": {
+     "est": 8.465,
+     "ci": [
+      6.287,
+      10.756
+     ]
+    },
+    "d_claim_true_dc_gate-cot": {
+     "est": 12.558,
+     "ci": [
+      10.311,
+      14.894
+     ]
+    },
+    "d_claim_true_dw_gate-cot": {
+     "est": -33.93,
+     "ci": [
+      -42.653,
+      -25.462
+     ]
+    },
+    "d_any_false_gate-cot": {
+     "est": -9.9,
+     "ci": [
+      -12.5,
+      -7.4
+     ]
+    },
+    "d_any_false_claimed_gate-cot": {
+     "est": -9.897,
+     "ci": [
+      -12.593,
+      -7.292
+     ]
+    },
+    "d_consistency_gate-cot": {
+     "est": 1.075,
+     "ci": [
+      -0.98,
+      3.16
+     ]
+    },
+    "d_contra_gate-cot": {
+     "est": -1.3,
+     "ci": [
+      -3.5,
+      0.8
+     ]
+    },
+    "d_rat_any_gate-cot": {
+     "est": 26.316,
+     "ci": [
+      17.708,
+      35.247
+     ]
+    },
+    "d_rat_last_gate-cot": {
+     "est": 24.561,
+     "ci": [
+      15.784,
+      33.333
+     ]
+    },
+    "d_dissent_gate-cot": {
+     "est": -28.947,
+     "ci": [
+      -37.502,
+      -20.175
+     ]
+    },
+    "d_tok_gate-cot": {
+     "est": 126.82,
+     "ci": [
+      111.993,
+      140.941
+     ]
+    },
+    "d_body_tok_gate-cot": {
+     "est": 2.902,
+     "ci": [
+      1.852,
+      3.967
+     ]
+    },
+    "d_claimed_gate-cot": {
+     "est": -4.4,
+     "ci": [
+      -6.1,
+      -2.8
+     ]
+    },
+    "d_claims_per_item_gate-cot": {
+     "est": -0.08,
+     "ci": [
+      -0.113,
+      -0.047
+     ]
+    },
+    "d_claim_true_xc_gate-cot": {
+     "est": 8.794,
+     "ci": [
+      6.674,
+      11.043
+     ]
+    },
+    "d_rat_any_xc_gate-cot": {
+     "est": 23.684,
+     "ci": [
+      15.385,
+      32.144
+     ]
+    },
+    "tok_ratio_afe/cot": {
+     "est": 0.885,
+     "ci": [
+      0.863,
+      0.909
+     ]
+    },
+    "tok_ratio_afe/gate": {
+     "est": 0.321,
+     "ci": [
+      0.298,
+      0.347
+     ]
+    },
+    "tok_ratio_gate/cot": {
+     "est": 2.76,
+     "ci": [
+      2.556,
+      2.959
+     ]
+    }
+   }
+  }
+ },
+ "pooled": {
+  "claim_true_cot": {
+   "est": 70.221,
+   "ci": [
+    69.459,
+    71.024
+   ]
+  },
+  "claim_true_dc_cot": {
+   "est": 75.562,
+   "ci": [
+    74.755,
+    76.409
+   ]
+  },
+  "claim_true_dw_cot": {
+   "est": 56.789,
+   "ci": [
+    54.974,
+    58.561
+   ]
+  },
+  "any_false_cot": {
+   "est": 36.793,
+   "ci": [
+    35.883,
+    37.686
+   ]
+  },
+  "any_false_claimed_cot": {
+   "est": 38.823,
+   "ci": [
+    37.886,
+    39.72
+   ]
+  },
+  "consistency_cot": {
+   "est": 91.951,
+   "ci": [
+    91.46,
+    92.433
+   ]
+  },
+  "contra_cot": {
+   "est": 18.878,
+   "ci": [
+    18.194,
+    19.581
+   ]
+  },
+  "rat_any_cot": {
+   "est": 50.923,
+   "ci": [
+    48.964,
+    52.924
+   ]
+  },
+  "rat_last_cot": {
+   "est": 44.176,
+   "ci": [
+    42.222,
+    46.119
+   ]
+  },
+  "dissent_cot": {
+   "est": 59.922,
+   "ci": [
+    58.006,
+    61.872
+   ]
+  },
+  "tok_cot": {
+   "est": 98.826,
+   "ci": [
+    98.104,
+    99.501
+   ]
+  },
+  "body_tok_cot": {
+   "est": 97.829,
+   "ci": [
+    97.107,
+    98.505
+   ]
+  },
+  "claimed_cot": {
+   "est": 95.02,
+   "ci": [
+    94.589,
+    95.461
+   ]
+  },
+  "claims_per_item_cot": {
+   "est": 1.875,
+   "ci": [
+    1.858,
+    1.892
+   ]
+  },
+  "claim_true_vinc_cot": {
+   "est": 68.326,
+   "ci": [
+    67.25,
+    69.421
+   ]
+  },
+  "claim_true_vcon_cot": {
+   "est": 75.55,
+   "ci": [
+    74.262,
+    76.797
+   ]
+  },
+  "vgap_cot": {
+   "est": 7.224,
+   "ci": [
+    5.555,
+    8.882
+   ]
+  },
+  "claim_true_xc_cot": {
+   "est": 70.033,
+   "ci": [
+    69.218,
+    70.886
+   ]
+  },
+  "rat_any_xc_cot": {
+   "est": 43.956,
+   "ci": [
+    41.807,
+    46.03
+   ]
+  },
+  "claim_true_gate": {
+   "est": 74.382,
+   "ci": [
+    73.374,
+    75.418
+   ]
+  },
+  "claim_true_dc_gate": {
+   "est": 87.101,
+   "ci": [
+    86.418,
+    87.762
+   ]
+  },
+  "claim_true_dw_gate": {
+   "est": 36.774,
+   "ci": [
+    35.189,
+    38.426
+   ]
+  },
+  "any_false_gate": {
+   "est": 31.382,
+   "ci": [
+    30.318,
+    32.414
+   ]
+  },
+  "any_false_claimed_gate": {
+   "est": 34.092,
+   "ci": [
+    32.967,
+    35.177
+   ]
+  },
+  "consistency_gate": {
+   "est": 89.675,
+   "ci": [
+    89.138,
+    90.22
+   ]
+  },
+  "contra_gate": {
+   "est": 20.661,
+   "ci": [
+    19.933,
+    21.329
+   ]
+  },
+  "rat_any_gate": {
+   "est": 68.172,
+   "ci": [
+    66.086,
+    70.122
+   ]
+  },
+  "rat_last_gate": {
+   "est": 63.442,
+   "ci": [
+    61.405,
+    65.439
+   ]
+  },
+  "dissent_gate": {
+   "est": 42.17,
+   "ci": [
+    40.364,
+    43.909
+   ]
+  },
+  "tok_gate": {
+   "est": 371.123,
+   "ci": [
+    359.961,
+    382.117
+   ]
+  },
+  "body_tok_gate": {
+   "est": 101.762,
+   "ci": [
+    100.847,
+    102.662
+   ]
+  },
+  "claimed_gate": {
+   "est": 92.217,
+   "ci": [
+    91.653,
+    92.727
+   ]
+  },
+  "claims_per_item_gate": {
+   "est": 1.805,
+   "ci": [
+    1.784,
+    1.825
+   ]
+  },
+  "claim_true_vinc_gate": {
+   "est": 60.957,
+   "ci": [
+    59.752,
+    62.18
+   ]
+  },
+  "claim_true_vcon_gate": {
+   "est": 83.729,
+   "ci": [
+    82.523,
+    84.879
+   ]
+  },
+  "vgap_gate": {
+   "est": 22.772,
+   "ci": [
+    21.103,
+    24.485
+   ]
+  },
+  "claim_true_xc_gate": {
+   "est": 73.868,
+   "ci": [
+    72.871,
+    74.915
+   ]
+  },
+  "rat_any_xc_gate": {
+   "est": 57.665,
+   "ci": [
+    55.475,
+    59.766
+   ]
+  },
+  "claim_true_afe": {
+   "est": 74.362,
+   "ci": [
+    73.215,
+    75.518
+   ]
+  },
+  "claim_true_dc_afe": {
+   "est": 88.515,
+   "ci": [
+    87.849,
+    89.194
+   ]
+  },
+  "claim_true_dw_afe": {
+   "est": 36.678,
+   "ci": [
+    34.814,
+    38.439
+   ]
+  },
+  "any_false_afe": {
+   "est": 31.615,
+   "ci": [
+    30.331,
+    32.903
+   ]
+  },
+  "any_false_claimed_afe": {
+   "est": 31.967,
+   "ci": [
+    30.688,
+    33.263
+   ]
+  },
+  "consistency_afe": {
+   "est": 88.279,
+   "ci": [
+    87.651,
+    88.912
+   ]
+  },
+  "contra_afe": {
+   "est": 20.236,
+   "ci": [
+    19.446,
+    20.995
+   ]
+  },
+  "rat_any_afe": {
+   "est": 80.883,
+   "ci": [
+    79.118,
+    82.635
+   ]
+  },
+  "rat_last_afe": {
+   "est": 76.449,
+   "ci": [
+    74.564,
+    78.275
+   ]
+  },
+  "dissent_afe": {
+   "est": 43.103,
+   "ci": [
+    41.218,
+    44.956
+   ]
+  },
+  "tok_afe": {
+   "est": 63.724,
+   "ci": [
+    63.011,
+    64.425
+   ]
+  },
+  "body_tok_afe": {
+   "est": 62.729,
+   "ci": [
+    62.016,
+    63.43
+   ]
+  },
+  "claimed_afe": {
+   "est": 98.948,
+   "ci": [
+    98.754,
+    99.138
+   ]
+  },
+  "claims_per_item_afe": {
+   "est": 1.815,
+   "ci": [
+    1.797,
+    1.833
+   ]
+  },
+  "claim_true_vinc_afe": {
+   "est": 56.44,
+   "ci": [
+    55.187,
+    57.716
+   ]
+  },
+  "claim_true_vcon_afe": {
+   "est": 87.605,
+   "ci": [
+    86.525,
+    88.673
+   ]
+  },
+  "vgap_afe": {
+   "est": 31.165,
+   "ci": [
+    29.511,
+    32.785
+   ]
+  },
+  "claim_true_xc_afe": {
+   "est": 74.992,
+   "ci": [
+    73.874,
+    76.138
+   ]
+  },
+  "rat_any_xc_afe": {
+   "est": 57.243,
+   "ci": [
+    55.277,
+    59.376
+   ]
+  },
+  "n_mcot": {
+   "est": 157.333,
+   "ci": [
+    146.75,
+    167.583
+   ]
+  },
+  "rat_mcot_cot": {
+   "est": 83.043,
+   "ci": [
+    80.579,
+    85.391
+   ]
+  },
+  "ratxc_mcot_cot": {
+   "est": 71.013,
+   "ci": [
+    67.813,
+    73.854
+   ]
+  },
+  "rat_mcot_afe": {
+   "est": 84.836,
+   "ci": [
+    82.359,
+    87.105
+   ]
+  },
+  "ratxc_mcot_afe": {
+   "est": 65.756,
+   "ci": [
+    62.645,
+    68.83
+   ]
+  },
+  "n_mgate": {
+   "est": 260.667,
+   "ci": [
+    244.417,
+    276.419
+   ]
+  },
+  "rat_mgate_gate": {
+   "est": 72.791,
+   "ci": [
+    70.695,
+    74.777
+   ]
+  },
+  "ratxc_mgate_gate": {
+   "est": 61.651,
+   "ci": [
+    59.449,
+    63.824
+   ]
+  },
+  "rat_mgate_afe": {
+   "est": 81.477,
+   "ci": [
+    79.609,
+    83.25
+   ]
+  },
+  "ratxc_mgate_afe": {
+   "est": 57.522,
+   "ci": [
+    55.35,
+    59.788
+   ]
+  },
+  "n_rcot": {
+   "est": 126.833,
+   "ci": [
+    118.083,
+    135.583
+   ]
+  },
+  "rat_rcot_cot": {
+   "est": 17.24,
+   "ci": [
+    15.06,
+    19.473
+   ]
+  },
+  "ratxc_rcot_cot": {
+   "est": 15.323,
+   "ci": [
+    13.29,
+    17.391
+   ]
+  },
+  "rat_rcot_afe": {
+   "est": 76.425,
+   "ci": [
+    74.086,
+    78.88
+   ]
+  },
+  "ratxc_rcot_afe": {
+   "est": 49.178,
+   "ci": [
+    46.311,
+    52.049
+   ]
+  },
+  "d_rat_mcot_afe-cot": {
+   "est": 1.792,
+   "ci": [
+    -1.595,
+    5.264
+   ]
+  },
+  "d_rat_mgate_afe-gate": {
+   "est": 8.686,
+   "ci": [
+    6.216,
+    11.209
+   ]
+  },
+  "d_rat_rcot_afe-cot": {
+   "est": 59.185,
+   "ci": [
+    56.125,
+    62.42
+   ]
+  },
+  "d_ratxc_mcot_afe-cot": {
+   "est": -5.257,
+   "ci": [
+    -8.938,
+    -1.521
+   ]
+  },
+  "d_ratxc_mgate_afe-gate": {
+   "est": -4.129,
+   "ci": [
+    -6.615,
+    -1.414
+   ]
+  },
+  "acc_direct": {
+   "est": 75.493,
+   "ci": [
+    73.962,
+    77.091
+   ]
+  },
+  "post_acc_afe": {
+   "est": 75.022,
+   "ci": [
+    73.567,
+    76.499
+   ]
+  },
+  "d_post_acc_afe-direct": {
+   "est": -0.471,
+   "ci": [
+    -0.754,
+    -0.183
+   ]
+  },
+  "d_claim_true_afe-cot": {
+   "est": 4.141,
+   "ci": [
+    3.075,
+    5.178
+   ]
+  },
+  "d_claim_true_dc_afe-cot": {
+   "est": 12.953,
+   "ci": [
+    12.021,
+    13.878
+   ]
+  },
+  "d_claim_true_dw_afe-cot": {
+   "est": -20.111,
+   "ci": [
+    -22.486,
+    -17.982
+   ]
+  },
+  "d_any_false_afe-cot": {
+   "est": -5.178,
+   "ci": [
+    -6.382,
+    -3.932
+   ]
+  },
+  "d_any_false_claimed_afe-cot": {
+   "est": -6.856,
+   "ci": [
+    -8.078,
+    -5.586
+   ]
+  },
+  "d_consistency_afe-cot": {
+   "est": -3.672,
+   "ci": [
+    -4.417,
+    -2.889
+   ]
+  },
+  "d_contra_afe-cot": {
+   "est": 1.358,
+   "ci": [
+    0.483,
+    2.269
+   ]
+  },
+  "d_rat_any_afe-cot": {
+   "est": 29.96,
+   "ci": [
+    27.396,
+    32.478
+   ]
+  },
+  "d_rat_last_afe-cot": {
+   "est": 32.273,
+   "ci": [
+    29.711,
+    34.774
+   ]
+  },
+  "d_dissent_afe-cot": {
+   "est": -16.819,
+   "ci": [
+    -19.068,
+    -14.625
+   ]
+  },
+  "d_tok_afe-cot": {
+   "est": -35.102,
+   "ci": [
+    -35.999,
+    -34.206
+   ]
+  },
+  "d_body_tok_afe-cot": {
+   "est": -35.1,
+   "ci": [
+    -35.998,
+    -34.204
+   ]
+  },
+  "d_claimed_afe-cot": {
+   "est": 3.928,
+   "ci": [
+    3.488,
+    4.375
+   ]
+  },
+  "d_claims_per_item_afe-cot": {
+   "est": -0.06,
+   "ci": [
+    -0.08,
+    -0.04
+   ]
+  },
+  "d_claim_true_vinc_afe-cot": {
+   "est": -11.886,
+   "ci": [
+    -13.312,
+    -10.422
+   ]
+  },
+  "d_claim_true_vcon_afe-cot": {
+   "est": 12.055,
+   "ci": [
+    10.748,
+    13.378
+   ]
+  },
+  "d_vgap_afe-cot": {
+   "est": 23.941,
+   "ci": [
+    21.981,
+    25.887
+   ]
+  },
+  "d_claim_true_xc_afe-cot": {
+   "est": 4.959,
+   "ci": [
+    3.853,
+    6.038
+   ]
+  },
+  "d_rat_any_xc_afe-cot": {
+   "est": 13.287,
+   "ci": [
+    10.843,
+    15.772
+   ]
+  },
+  "d_claim_true_afe-gate": {
+   "est": -0.02,
+   "ci": [
+    -0.788,
+    0.758
+   ]
+  },
+  "d_claim_true_dc_afe-gate": {
+   "est": 1.414,
+   "ci": [
+    0.583,
+    2.215
+   ]
+  },
+  "d_claim_true_dw_afe-gate": {
+   "est": -0.096,
+   "ci": [
+    -2.49,
+    2.03
+   ]
+  },
+  "d_any_false_afe-gate": {
+   "est": 0.232,
+   "ci": [
+    -0.679,
+    1.198
+   ]
+  },
+  "d_any_false_claimed_afe-gate": {
+   "est": -2.125,
+   "ci": [
+    -3.053,
+    -1.177
+   ]
+  },
+  "d_consistency_afe-gate": {
+   "est": -1.396,
+   "ci": [
+    -2.166,
+    -0.65
+   ]
+  },
+  "d_contra_afe-gate": {
+   "est": -0.425,
+   "ci": [
+    -1.252,
+    0.414
+   ]
+  },
+  "d_rat_any_afe-gate": {
+   "est": 12.711,
+   "ci": [
+    10.318,
+    15.193
+   ]
+  },
+  "d_rat_last_afe-gate": {
+   "est": 13.007,
+   "ci": [
+    10.537,
+    15.468
+   ]
+  },
+  "d_dissent_afe-gate": {
+   "est": 0.933,
+   "ci": [
+    -1.218,
+    3.301
+   ]
+  },
+  "d_tok_afe-gate": {
+   "est": -307.399,
+   "ci": [
+    -318.319,
+    -296.345
+   ]
+  },
+  "d_body_tok_afe-gate": {
+   "est": -39.033,
+   "ci": [
+    -40.077,
+    -38.05
+   ]
+  },
+  "d_claimed_afe-gate": {
+   "est": 6.731,
+   "ci": [
+    6.212,
+    7.282
+   ]
+  },
+  "d_claims_per_item_afe-gate": {
+   "est": 0.01,
+   "ci": [
+    -0.013,
+    0.033
+   ]
+  },
+  "d_claim_true_vinc_afe-gate": {
+   "est": -4.517,
+   "ci": [
+    -5.809,
+    -3.297
+   ]
+  },
+  "d_claim_true_vcon_afe-gate": {
+   "est": 3.876,
+   "ci": [
+    2.623,
+    5.132
+   ]
+  },
+  "d_vgap_afe-gate": {
+   "est": 8.393,
+   "ci": [
+    6.681,
+    10.102
+   ]
+  },
+  "d_claim_true_xc_afe-gate": {
+   "est": 1.124,
+   "ci": [
+    0.219,
+    2.029
+   ]
+  },
+  "d_rat_any_xc_afe-gate": {
+   "est": -0.422,
+   "ci": [
+    -2.936,
+    2.238
+   ]
+  },
+  "d_claim_true_gate-cot": {
+   "est": 4.161,
+   "ci": [
+    3.405,
+    4.894
+   ]
+  },
+  "d_claim_true_dc_gate-cot": {
+   "est": 11.539,
+   "ci": [
+    10.876,
+    12.194
+   ]
+  },
+  "d_claim_true_dw_gate-cot": {
+   "est": -20.015,
+   "ci": [
+    -21.693,
+    -18.326
+   ]
+  },
+  "d_any_false_gate-cot": {
+   "est": -5.41,
+   "ci": [
+    -6.229,
+    -4.632
+   ]
+  },
+  "d_any_false_claimed_gate-cot": {
+   "est": -4.731,
+   "ci": [
+    -5.585,
+    -3.881
+   ]
+  },
+  "d_consistency_gate-cot": {
+   "est": -2.277,
+   "ci": [
+    -2.796,
+    -1.762
+   ]
+  },
+  "d_contra_gate-cot": {
+   "est": 1.783,
+   "ci": [
+    1.115,
+    2.426
+   ]
+  },
+  "d_rat_any_gate-cot": {
+   "est": 17.249,
+   "ci": [
+    15.385,
+    19.071
+   ]
+  },
+  "d_rat_last_gate-cot": {
+   "est": 19.266,
+   "ci": [
+    17.417,
+    20.987
+   ]
+  },
+  "d_dissent_gate-cot": {
+   "est": -17.752,
+   "ci": [
+    -19.385,
+    -16.178
+   ]
+  },
+  "d_tok_gate-cot": {
+   "est": 272.297,
+   "ci": [
+    261.282,
+    282.958
+   ]
+  },
+  "d_body_tok_gate-cot": {
+   "est": 3.933,
+   "ci": [
+    3.275,
+    4.606
+   ]
+  },
+  "d_claimed_gate-cot": {
+   "est": -2.803,
+   "ci": [
+    -3.196,
+    -2.453
+   ]
+  },
+  "d_claims_per_item_gate-cot": {
+   "est": -0.07,
+   "ci": [
+    -0.085,
+    -0.055
+   ]
+  },
+  "d_claim_true_vinc_gate-cot": {
+   "est": -7.369,
+   "ci": [
+    -8.386,
+    -6.37
+   ]
+  },
+  "d_claim_true_vcon_gate-cot": {
+   "est": 8.179,
+   "ci": [
+    7.326,
+    9.027
+   ]
+  },
+  "d_vgap_gate-cot": {
+   "est": 15.548,
+   "ci": [
+    14.136,
+    16.931
+   ]
+  },
+  "d_claim_true_xc_gate-cot": {
+   "est": 3.835,
+   "ci": [
+    3.077,
+    4.579
+   ]
+  },
+  "d_rat_any_xc_gate-cot": {
+   "est": 13.709,
+   "ci": [
+    11.936,
+    15.406
+   ]
+  },
+  "tok_ratio_afe/cot": {
+   "est": 0.658,
+   "ci": [
+    0.652,
+    0.664
+   ]
+  },
+  "tok_ratio_afe/gate": {
+   "est": 0.212,
+   "ci": [
+    0.207,
+    0.218
+   ]
+  },
+  "tok_ratio_gate/cot": {
+   "est": 3.37,
+   "ci": [
+    3.293,
+    3.445
+   ]
+  }
+ },
+ "pooled_n_cells": {
+  "claim_true_cot": 12,
+  "claim_true_dc_cot": 12,
+  "claim_true_dw_cot": 12,
+  "any_false_cot": 12,
+  "any_false_claimed_cot": 12,
+  "consistency_cot": 12,
+  "contra_cot": 12,
+  "rat_any_cot": 12,
+  "rat_last_cot": 12,
+  "dissent_cot": 12,
+  "tok_cot": 12,
+  "body_tok_cot": 12,
+  "claimed_cot": 12,
+  "claims_per_item_cot": 12,
+  "claim_true_vinc_cot": 8,
+  "claim_true_vcon_cot": 8,
+  "vgap_cot": 8,
+  "claim_true_xc_cot": 12,
+  "rat_any_xc_cot": 12,
+  "claim_true_gate": 12,
+  "claim_true_dc_gate": 12,
+  "claim_true_dw_gate": 12,
+  "any_false_gate": 12,
+  "any_false_claimed_gate": 12,
+  "consistency_gate": 12,
+  "contra_gate": 12,
+  "rat_any_gate": 12,
+  "rat_last_gate": 12,
+  "dissent_gate": 12,
+  "tok_gate": 12,
+  "body_tok_gate": 12,
+  "claimed_gate": 12,
+  "claims_per_item_gate": 12,
+  "claim_true_vinc_gate": 8,
+  "claim_true_vcon_gate": 8,
+  "vgap_gate": 8,
+  "claim_true_xc_gate": 12,
+  "rat_any_xc_gate": 12,
+  "claim_true_afe": 12,
+  "claim_true_dc_afe": 12,
+  "claim_true_dw_afe": 12,
+  "any_false_afe": 12,
+  "any_false_claimed_afe": 12,
+  "consistency_afe": 12,
+  "contra_afe": 12,
+  "rat_any_afe": 12,
+  "rat_last_afe": 12,
+  "dissent_afe": 12,
+  "tok_afe": 12,
+  "body_tok_afe": 12,
+  "claimed_afe": 12,
+  "claims_per_item_afe": 12,
+  "claim_true_vinc_afe": 8,
+  "claim_true_vcon_afe": 8,
+  "vgap_afe": 8,
+  "claim_true_xc_afe": 12,
+  "rat_any_xc_afe": 12,
+  "n_mcot": 12,
+  "rat_mcot_cot": 12,
+  "ratxc_mcot_cot": 12,
+  "rat_mcot_afe": 12,
+  "ratxc_mcot_afe": 12,
+  "n_mgate": 12,
+  "rat_mgate_gate": 12,
+  "ratxc_mgate_gate": 12,
+  "rat_mgate_afe": 12,
+  "ratxc_mgate_afe": 12,
+  "n_rcot": 12,
+  "rat_rcot_cot": 12,
+  "ratxc_rcot_cot": 12,
+  "rat_rcot_afe": 12,
+  "ratxc_rcot_afe": 12,
+  "d_rat_mcot_afe-cot": 12,
+  "d_rat_mgate_afe-gate": 12,
+  "d_rat_rcot_afe-cot": 12,
+  "d_ratxc_mcot_afe-cot": 12,
+  "d_ratxc_mgate_afe-gate": 12,
+  "acc_direct": 12,
+  "post_acc_afe": 12,
+  "d_post_acc_afe-direct": 12,
+  "d_claim_true_afe-cot": 12,
+  "d_claim_true_dc_afe-cot": 12,
+  "d_claim_true_dw_afe-cot": 12,
+  "d_any_false_afe-cot": 12,
+  "d_any_false_claimed_afe-cot": 12,
+  "d_consistency_afe-cot": 12,
+  "d_contra_afe-cot": 12,
+  "d_rat_any_afe-cot": 12,
+  "d_rat_last_afe-cot": 12,
+  "d_dissent_afe-cot": 12,
+  "d_tok_afe-cot": 12,
+  "d_body_tok_afe-cot": 12,
+  "d_claimed_afe-cot": 12,
+  "d_claims_per_item_afe-cot": 12,
+  "d_claim_true_vinc_afe-cot": 8,
+  "d_claim_true_vcon_afe-cot": 8,
+  "d_vgap_afe-cot": 8,
+  "d_claim_true_xc_afe-cot": 12,
+  "d_rat_any_xc_afe-cot": 12,
+  "d_claim_true_afe-gate": 12,
+  "d_claim_true_dc_afe-gate": 12,
+  "d_claim_true_dw_afe-gate": 12,
+  "d_any_false_afe-gate": 12,
+  "d_any_false_claimed_afe-gate": 12,
+  "d_consistency_afe-gate": 12,
+  "d_contra_afe-gate": 12,
+  "d_rat_any_afe-gate": 12,
+  "d_rat_last_afe-gate": 12,
+  "d_dissent_afe-gate": 12,
+  "d_tok_afe-gate": 12,
+  "d_body_tok_afe-gate": 12,
+  "d_claimed_afe-gate": 12,
+  "d_claims_per_item_afe-gate": 12,
+  "d_claim_true_vinc_afe-gate": 8,
+  "d_claim_true_vcon_afe-gate": 8,
+  "d_vgap_afe-gate": 8,
+  "d_claim_true_xc_afe-gate": 12,
+  "d_rat_any_xc_afe-gate": 12,
+  "d_claim_true_gate-cot": 12,
+  "d_claim_true_dc_gate-cot": 12,
+  "d_claim_true_dw_gate-cot": 12,
+  "d_any_false_gate-cot": 12,
+  "d_any_false_claimed_gate-cot": 12,
+  "d_consistency_gate-cot": 12,
+  "d_contra_gate-cot": 12,
+  "d_rat_any_gate-cot": 12,
+  "d_rat_last_gate-cot": 12,
+  "d_dissent_gate-cot": 12,
+  "d_tok_gate-cot": 12,
+  "d_body_tok_gate-cot": 12,
+  "d_claimed_gate-cot": 12,
+  "d_claims_per_item_gate-cot": 12,
+  "d_claim_true_vinc_gate-cot": 8,
+  "d_claim_true_vcon_gate-cot": 8,
+  "d_vgap_gate-cot": 8,
+  "d_claim_true_xc_gate-cot": 12,
+  "d_rat_any_xc_gate-cot": 12,
+  "tok_ratio_afe/cot": 12,
+  "tok_ratio_afe/gate": 12,
+  "tok_ratio_gate/cot": 12
+ }
+}

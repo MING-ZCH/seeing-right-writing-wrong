@@ -1,0 +1,102 @@
+Exp-38 closed-model two-channel audit; open-model fit (21 pts, not refitted): y = 0.871 x -1.40
+CELL claude-opus-5-5      e9h      n= 576 cov 100.0 (576) | Dir  85.2 Dir(rel)  85.2 CoT  84.7 | written  84.7 agree|T 100.0 (488/488) agree|F 100.0 (88/88) | x  -0.52 [-2.43, 1.22] y  -0.52 [-2.43, 1.22] y_pred  -1.85 (y-pred  +1.33) acct y_hat -0.52 | D+C- 20 D-C+ 17 | false|D+C- 100.0 (20/20) false|D+C+ 0.0 (0/471) false|D+ 4.1
+  direct_nr: n=567 Dir  85.2 Dir(rel)  85.2 x  -0.71 y  -0.71 [-2.63, 1.05] y_pred  -2.02 D+C- 18 D-C+ 14
+  FIRST claim: judged both 246 agree4 100.0 kappa4 1.0 | cov  42.7 written  86.2 agree|T 100.0 (212) agree|F 100.0 (34) | first!=last 0.0 (0/246; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 3.3 D+C+ 0.0 D+C- 100.0 | x_first  -0.41 y_pred(first fit)  -2.44
+  judge claude-opus-5-5  cov 100.0 written  84.7 agree|T 100.0 agree|F 100.0 x  -0.52 y_pred  -1.85
+  judge gpt-6-astra      cov 100.0 written  84.7 agree|T 100.0 agree|F 100.0 x  -0.52 y_pred  -1.85
+  judges: both labelled 576/576 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (576) | rule v3 coverage 19.1 agree w/ consensus 68.2 (110)
+CELL gpt-6-astra          e9h      n= 576 cov 100.0 (576) | Dir  91.3 Dir(rel)  91.3 CoT  93.2 | written  93.2 agree|T 100.0 (537/537) agree|F 100.0 (39/39) | x  +1.91 [0.52, 3.3] y  +1.91 [0.52, 3.3] y_pred  +0.26 (y-pred  +1.65) acct y_hat 1.91 | D+C- 3 D-C+ 14 | false|D+C- 100.0 (3/3) false|D+C+ 0.0 (0/523) false|D+ 0.6
+  direct_nr: n=576 Dir  91.7 Dir(rel)  91.7 x  +1.56 y  +1.56 [0.17, 2.95] y_pred  -0.04 D+C- 4 D-C+ 13
+  FIRST claim: judged both 100 agree4 100.0 kappa4 1.0 | cov  17.4 written  96.0 agree|T 100.0 (96) agree|F 100.0 (4) | first!=last 0.0 (0/100; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 0.0 D+C+ 0.0 D+C- None | x_first  +2.00 y_pred(first fit)  -0.52
+  judge claude-opus-5-5  cov 100.0 written  93.2 agree|T 100.0 agree|F 100.0 x  +1.91 y_pred  +0.26
+  judge gpt-6-astra      cov 100.0 written  93.2 agree|T 100.0 agree|F 100.0 x  +1.91 y_pred  +0.26
+  judges: both labelled 576/576 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (576) | rule v3 coverage 26.2 agree w/ consensus 86.8 (151)
+CELL gemini-4-argon       e9h      n= 576 cov 100.0 (576) | Dir  96.7 Dir(rel)  96.7 CoT  96.9 | written  96.9 agree|T 100.0 (558/558) agree|F 100.0 (18/18) | x  +0.17 [-0.52, 1.04] y  +0.17 [-0.52, 1.04] y_pred  -1.25 (y-pred  +1.42) acct y_hat 0.17 | D+C- 3 D-C+ 4 | false|D+C- 100.0 (3/3) false|D+C+ 0.0 (0/554) false|D+ 0.5
+  FIRST claim: judged both 126 agree4 100.0 kappa4 1.0 | cov  21.9 written  98.4 agree|T 100.0 (124) agree|F 100.0 (2) | first!=last 0.0 (0/126; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 0.8 D+C+ 0.0 D+C- 100.0 | x_first  -0.79 y_pred(first fit)  -2.74
+  judge claude-opus-5-5  cov 100.0 written  96.9 agree|T 100.0 agree|F 100.0 x  +0.17 y_pred  -1.25
+  judge gpt-6-astra      cov 100.0 written  96.9 agree|T 100.0 agree|F 100.0 x  +0.17 y_pred  -1.25
+  judges: both labelled 576/576 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (576) | rule v3 coverage 99.8 agree w/ consensus 99.1 (575)
+CELL qwen3.8-max-0902     e9h      n= 575 cov 100.0 (575) | Dir  77.4 Dir(rel)  77.4 CoT  78.8 | written  78.8 agree|T 100.0 (453/453) agree|F 100.0 (122/122) | x  +1.39 [-1.56, 4.01] y  +1.39 [-1.56, 4.01] y_pred  -0.19 (y-pred  +1.58) acct y_hat 1.39 | D+C- 35 D-C+ 43 | false|D+C- 100.0 (35/35) false|D+C+ 0.0 (0/410) false|D+ 7.9
+  direct_nr: n=575 Dir  81.0 Dir(rel)  81.0 x  -2.26 y  -2.26 [-5.39, 0.87] y_pred  -3.37 D+C- 54 D-C+ 41
+  FIRST claim: judged both 99 agree4 100.0 kappa4 1.0 | cov  17.2 written  76.8 agree|T 100.0 (76) agree|F 100.0 (23) | first!=last 0.0 (0/99; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 11.7 D+C+ 0.0 D+C- 100.0 | x_first  -1.01 y_pred(first fit)  -2.91
+  judge claude-opus-5-5  cov 100.0 written  78.8 agree|T 100.0 agree|F 100.0 x  +1.39 y_pred  -0.19
+  judge gpt-6-astra      cov 100.0 written  78.8 agree|T 100.0 agree|F 100.0 x  +1.39 y_pred  -0.19
+  judges: both labelled 575/575 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (575) | rule v3 coverage 92.3 agree w/ consensus 86.8 (531)
+CELL hy4                  e9h      n= 561 cov 100.0 (561) | Dir  69.2 Dir(rel)  69.2 CoT  70.9 | written  70.9 agree|T 100.0 (398/398) agree|F 100.0 (163/163) | x  +1.78 [-2.16, 5.56] y  +1.78 [-2.16, 5.56] y_pred  +0.15 (y-pred  +1.63) acct y_hat 1.78 | D+C- 58 D-C+ 68 | false|D+C- 100.0 (58/58) false|D+C+ 0.0 (0/330) false|D+ 14.9
+  FIRST claim: judged both 97 agree4 100.0 kappa4 1.0 | cov  17.3 written  72.2 agree|T 100.0 (70) agree|F 100.0 (27) | first!=last 0.0 (0/97; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 10.9 D+C+ 0.0 D+C- 100.0 | x_first  +6.19 y_pred(first fit)  +2.80
+  judge claude-opus-5-5  cov 100.0 written  70.9 agree|T 100.0 agree|F 100.0 x  +1.78 y_pred  +0.15
+  judge gpt-6-astra      cov 100.0 written  70.9 agree|T 100.0 agree|F 100.0 x  +1.78 y_pred  +0.15
+  judges: both labelled 561/561 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (561) | rule v3 coverage 44.4 agree w/ consensus 68.3 (249)
+CELL deepseek-v4.1-flash  e9h      n= 567 cov 100.0 (567) | Dir  61.0 Dir(rel)  61.0 CoT  59.4 | written  59.4 agree|T 100.0 (337/337) agree|F 100.0 (230/230) | x  -1.59 [-5.46, 2.13] y  -1.59 [-5.46, 2.13] y_pred  -2.78 (y-pred  +1.19) acct y_hat -1.59 | D+C- 66 D-C+ 57 | false|D+C- 100.0 (66/66) false|D+C+ 0.0 (0/280) false|D+ 19.1
+  direct_nr: n=567 Dir  58.0 Dir(rel)  58.0 x  +1.41 y  +1.41 [-2.65, 5.8] y_pred  -0.17 D+C- 63 D-C+ 71
+  FIRST claim: judged both 100 agree4 100.0 kappa4 1.0 | cov  17.6 written  66.0 agree|T 100.0 (66) agree|F 100.0 (34) | first!=last 0.0 (0/100; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 16.1 D+C+ 0.0 D+C- 100.0 | x_first  +4.00 y_pred(first fit)  +1.07
+  judge claude-opus-5-5  cov 100.0 written  59.4 agree|T 100.0 agree|F 100.0 x  -1.59 y_pred  -2.78
+  judge gpt-6-astra      cov 100.0 written  59.4 agree|T 100.0 agree|F 100.0 x  -1.59 y_pred  -2.78
+  judges: both labelled 567/567 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (567) | rule v3 coverage 90.8 agree w/ consensus 91.3 (515)
+CELL claude-opus-5-5      e9x      n= 793 cov 100.0 (793) | Dir 100.0 Dir(rel) 100.0 CoT 100.0 | written 100.0 agree|T 100.0 (793/793) agree|F None (0/0) | x  +0.00 [0.0, 0.0] y  +0.00 [0.0, 0.0] y_pred  -1.40 (y-pred  +1.40) acct y_hat 0.0 | D+C- 0 D-C+ 0 | false|D+C- None (0/0) false|D+C+ 0.0 (0/793) false|D+ 0.0
+  direct_nr: n=746 Dir 100.0 Dir(rel) 100.0 x  +0.00 y  +0.00 [0.0, 0.0] y_pred  -1.40 D+C- 0 D-C+ 0
+  judge claude-opus-5-5  cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judge gpt-6-astra      cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judges: both labelled 793/793 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (793) | rule v3 coverage 30.9 agree w/ consensus 73.9 (245)
+CELL gpt-6-astra          e9x      n= 800 cov 100.0 (800) | Dir 100.0 Dir(rel) 100.0 CoT 100.0 | written 100.0 agree|T 100.0 (800/800) agree|F None (0/0) | x  +0.00 [0.0, 0.0] y  +0.00 [0.0, 0.0] y_pred  -1.40 (y-pred  +1.40) acct y_hat 0.0 | D+C- 0 D-C+ 0 | false|D+C- None (0/0) false|D+C+ 0.0 (0/800) false|D+ 0.0
+  direct_nr: n=800 Dir 100.0 Dir(rel) 100.0 x  +0.00 y  +0.00 [0.0, 0.0] y_pred  -1.40 D+C- 0 D-C+ 0
+  judge claude-opus-5-5  cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judge gpt-6-astra      cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judges: both labelled 800/800 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (800) | rule v3 coverage 41.0 agree w/ consensus 90.9 (328)
+CELL gemini-4-argon       e9x      n= 800 cov 100.0 (800) | Dir 100.0 Dir(rel) 100.0 CoT 100.0 | written 100.0 agree|T 100.0 (800/800) agree|F None (0/0) | x  +0.00 [0.0, 0.0] y  +0.00 [0.0, 0.0] y_pred  -1.40 (y-pred  +1.40) acct y_hat 0.0 | D+C- 0 D-C+ 0 | false|D+C- None (0/0) false|D+C+ 0.0 (0/800) false|D+ 0.0
+  judge claude-opus-5-5  cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judge gpt-6-astra      cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judges: both labelled 800/800 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (800) | rule v3 coverage 100.0 agree w/ consensus 96.5 (800)
+CELL qwen3.8-max-0902     e9x      n= 800 cov 100.0 (800) | Dir 100.0 Dir(rel) 100.0 CoT 100.0 | written 100.0 agree|T 100.0 (800/800) agree|F None (0/0) | x  +0.00 [0.0, 0.0] y  +0.00 [0.0, 0.0] y_pred  -1.40 (y-pred  +1.40) acct y_hat 0.0 | D+C- 0 D-C+ 0 | false|D+C- None (0/0) false|D+C+ 0.0 (0/800) false|D+ 0.0
+  direct_nr: n=800 Dir 100.0 Dir(rel) 100.0 x  +0.00 y  +0.00 [0.0, 0.0] y_pred  -1.40 D+C- 0 D-C+ 0
+  judge claude-opus-5-5  cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judge gpt-6-astra      cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judges: both labelled 800/800 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (800) | rule v3 coverage 85.5 agree w/ consensus 81.3 (684)
+CELL hy4                  e9x      n= 799 cov 100.0 (799) | Dir 100.0 Dir(rel) 100.0 CoT 100.0 | written 100.0 agree|T 100.0 (799/799) agree|F None (0/0) | x  +0.00 [0.0, 0.0] y  +0.00 [0.0, 0.0] y_pred  -1.40 (y-pred  +1.40) acct y_hat 0.0 | D+C- 0 D-C+ 0 | false|D+C- None (0/0) false|D+C+ 0.0 (0/799) false|D+ 0.0
+  judge claude-opus-5-5  cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judge gpt-6-astra      cov 100.0 written 100.0 agree|T 100.0 agree|F None x  +0.00 y_pred  -1.40
+  judges: both labelled 799/799 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (799) | rule v3 coverage 44.6 agree w/ consensus 73.3 (356)
+CELL deepseek-v4.1-flash  e9x      n= 793 cov 100.0 (793) | Dir  90.9 Dir(rel)  90.9 CoT  91.0 | written  91.0 agree|T 100.0 (722/722) agree|F 100.0 (71/71) | x  +0.13 [-1.64, 2.02] y  +0.13 [-1.64, 2.02] y_pred  -1.29 (y-pred  +1.42) acct y_hat 0.13 | D+C- 30 D-C+ 31 | false|D+C- 100.0 (30/30) false|D+C+ 0.0 (0/691) false|D+ 4.2
+  direct_nr: n=792 Dir  88.1 Dir(rel)  88.1 x  +2.90 y  +2.90 [0.88, 4.91] y_pred  +1.13 D+C- 22 D-C+ 45
+  judge claude-opus-5-5  cov 100.0 written  91.0 agree|T 100.0 agree|F 100.0 x  +0.13 y_pred  -1.29
+  judge gpt-6-astra      cov 100.0 written  91.0 agree|T 100.0 agree|F 100.0 x  +0.13 y_pred  -1.29
+  judges: both labelled 793/793 agree4 100.0 kappa4 1.0 agree(rel/no) 100.0 kappa(rel/no) 1.0 agree|both shape 100.0 (793) | rule v3 coverage 96.2 agree w/ consensus 93.4 (763)
+CELL deepseek-v4.1-flash  e9c_cues n=1566 cov  99.9 (1565) | Dir  89.5 Dir(rel)  89.5 CoT  90.7 | written  90.7 agree|T 100.0 (1420/1420) agree|F 100.0 (145/145) | x  +1.21 [-0.06, 2.38] y  +1.21 [-0.06, 2.38] y_pred  -0.35 (y-pred  +1.56) acct y_hat 1.21 | D+C- 45 D-C+ 64 | false|D+C- 100.0 (45/45) false|D+C+ 0.0 (0/1356) false|D+ 3.2
+  FIRST claim: judged both 99 agree4 100.0 kappa4 1.0 | cov   6.3 written  93.9 agree|T 100.0 (93) agree|F 100.0 (6) | first!=last 0.0 (0/99; F->T 0, T->F 0) | CoT right when first false 0.0 | false first | D+ 2.2 D+C+ 0.0 D+C- 100.0 | x_first  +4.04 y_pred(first fit)  +1.10
+  judge claude-opus-5-5  cov  99.9 written  90.7 agree|T 100.0 agree|F 100.0 x  +1.21 y_pred  -0.35
+  judge gpt-6-astra      cov 100.0 written  90.7 agree|T 100.0 agree|F 99.3 x  +1.15 y_pred  -0.40
+  judges: both labelled 1566/1566 agree4 99.9 kappa4 0.999 agree(rel/no) 99.9 kappa(rel/no) 0.999 agree|both shape 100.0 (1565) | rule v3 coverage 95.4 agree w/ consensus 94.0 (1493)
+JUDGES pooled: e9h: agree4 100.0 kappa4 1.0 kappa(rel/no) 1.0 agree|both shape 100.0 (n 3431); e9x: agree4 100.0 kappa4 1.0 kappa(rel/no) 1.0 agree|both shape 100.0 (n 4785); e9c_cues: agree4 99.9 kappa4 0.999 kappa(rel/no) 0.999 agree|both shape 100.0 (n 1566); all: agree4 100.0 kappa4 1.0 kappa(rel/no) 1.0 agree|both shape 100.0 (n 9782)
+SELF-JUDGE claude-opus-5-5|e9h: other judge disagrees on own texts 0.0% (names other shape 0.0%, n 576) vs other models' texts 0.0% (0.0%, n 2855)
+SELF-JUDGE claude-opus-5-5|e9x: other judge disagrees on own texts 0.0% (names other shape 0.0%, n 793) vs other models' texts 0.0% (0.0%, n 3992)
+SELF-JUDGE gpt-6-astra|e9h: other judge disagrees on own texts 0.0% (names other shape 0.0%, n 576) vs other models' texts 0.0% (0.0%, n 2855)
+SELF-JUDGE gpt-6-astra|e9x: other judge disagrees on own texts 0.0% (names other shape 0.0%, n 800) vs other models' texts 0.0% (0.0%, n 3985)
+OOS consensus                    n=13 MAE(fit) 1.44 (max 1.65, mean y-pred +1.44; off-ceiling sets 1.48) MAE(y=x) 0.0 | sign x~y [13, 13] pred~y [4, 13] excl |y|<1 [5, 5] | r(x,y) 1.0 x [-1.59, 1.91] y [-1.59, 1.91]
+OOS consensus_direct_nr          n=8 MAE(fit) 1.45 (max 1.77, mean y-pred +1.45; off-ceiling sets 1.4) MAE(y=x) 0.0 | sign x~y [8, 8] pred~y [3, 8] excl |y|<1 [4, 4] | r(x,y) 1.0 x [-2.26, 2.9] y [-2.26, 2.9]
+OOS judge_claude-opus-5-5        n=13 MAE(fit) 1.44 (max 1.65, mean y-pred +1.44; off-ceiling sets 1.48) MAE(y=x) 0.0 | sign x~y [13, 13] pred~y [4, 13] excl |y|<1 [5, 5] | r(x,y) 1.0 x [-1.59, 1.91] y [-1.59, 1.91]
+OOS judge_gpt-6-astra            n=13 MAE(fit) 1.45 (max 1.65, mean y-pred +1.45; off-ceiling sets 1.49) MAE(y=x) 0.0 | sign x~y [13, 13] pred~y [4, 13] excl |y|<1 [5, 5] | r(x,y) 1.0 x [-1.59, 1.91] y [-1.59, 1.91]
+GEMINI e9h answer level: Direct n 576 acc [96.7, 94.8, 98.4] unparsed 0 | CoT n 576 acc [96.9, 95.0, 98.6] | CoT-Direct [0.2, -0.5, 0.9] | d' Direct {'dprime': 3.66, 'ci': [3.26, 4.32], 'c': 0.11, 'n_pairs': 144, 'n_resp': 576, 'twin_flip': 93.4} CoT {'dprime': 3.7, 'ci': [3.29, 4.51], 'c': 0.1, 'n_pairs': 144, 'n_resp': 576, 'twin_flip': 93.8} | d' CoT-Direct [0.04, -0.16, 0.36]
+VALID-N e9c_cues|deepseek-v4.1-flash|occ|cot                 valid 1582/1600 (unparsed reply 0, API error only 18; empty text 0, letter alone on last line 0) acc valid-only 90.8 missing-as-wrong 89.8 with last-line recovery 89.8
+VALID-N e9c_cues|deepseek-v4.1-flash|occ|direct              valid 1582/1600 (unparsed reply 2, API error only 16; empty text 0, letter alone on last line 2) acc valid-only 89.5 missing-as-wrong 88.5 with last-line recovery 88.6
+VALID-N e9h|claude-opus-5-5|occ|direct_nr                    valid 567/576 (unparsed reply 9, API error only 0; empty text 0, letter alone on last line 9) acc valid-only 85.2 missing-as-wrong 83.9 with last-line recovery 85.4
+VALID-N e9h|deepseek-v4.1-flash|occ|direct                   valid 567/576 (unparsed reply 9, API error only 0; empty text 0, letter alone on last line 4) acc valid-only 61.0 missing-as-wrong 60.1 with last-line recovery 60.4
+VALID-N e9h|hy4|occ|cot                                      valid 570/576 (unparsed reply 6, API error only 0; empty text 6, letter alone on last line 0) acc valid-only 70.4 missing-as-wrong 69.6 with last-line recovery 69.6
+VALID-N e9h|hy4|occ|direct                                   valid 567/576 (unparsed reply 9, API error only 0; empty text 9, letter alone on last line 0) acc valid-only 69.0 missing-as-wrong 67.9 with last-line recovery 67.9
+VALID-N e9h|qwen3.8-max-0902|occ|direct                      valid 575/576 (unparsed reply 1, API error only 0; empty text 1, letter alone on last line 0) acc valid-only 77.4 missing-as-wrong 77.3 with last-line recovery 77.3
+VALID-N e9x|claude-opus-5-5|occ|direct                       valid 793/800 (unparsed reply 7, API error only 0; empty text 0, letter alone on last line 4) acc valid-only 100.0 missing-as-wrong 99.1 with last-line recovery 99.6
+VALID-N e9x|claude-opus-5-5|occ|direct_nr                    valid 752/800 (unparsed reply 48, API error only 0; empty text 0, letter alone on last line 44) acc valid-only 100.0 missing-as-wrong 94.0 with last-line recovery 99.5
+VALID-N e9x|claude-opus-5-5|syn_depth|direct                 valid 249/250 (unparsed reply 1, API error only 0; empty text 0, letter alone on last line 0) acc valid-only 96.0 missing-as-wrong 95.6 with last-line recovery 95.6
+VALID-N e9x|deepseek-v4.1-flash|blink_depth|cot              valid 122/124 (unparsed reply 2, API error only 0; empty text 2, letter alone on last line 0) acc valid-only 87.7 missing-as-wrong 86.3 with last-line recovery 86.3
+VALID-N e9x|deepseek-v4.1-flash|blink_depth|direct           valid 122/124 (unparsed reply 2, API error only 0; empty text 0, letter alone on last line 2) acc valid-only 87.7 missing-as-wrong 86.3 with last-line recovery 87.9
+VALID-N e9x|deepseek-v4.1-flash|blink_depth|direct_nr        valid 123/124 (unparsed reply 1, API error only 0; empty text 0, letter alone on last line 1) acc valid-only 90.2 missing-as-wrong 89.5 with last-line recovery 90.3
+VALID-N e9x|deepseek-v4.1-flash|occ|direct                   valid 793/800 (unparsed reply 7, API error only 0; empty text 0, letter alone on last line 5) acc valid-only 90.9 missing-as-wrong 90.1 with last-line recovery 90.8
+VALID-N e9x|deepseek-v4.1-flash|occ|direct_nr                valid 799/800 (unparsed reply 0, API error only 1; empty text 0, letter alone on last line 0) acc valid-only 88.1 missing-as-wrong 88.0 with last-line recovery 88.0
+VALID-N e9x|deepseek-v4.1-flash|syn_depth|direct             valid 248/250 (unparsed reply 2, API error only 0; empty text 0, letter alone on last line 2) acc valid-only 88.7 missing-as-wrong 88.0 with last-line recovery 88.8
+VALID-N e9x|gpt-6-astra|blink_depth|cot                      valid 122/124 (unparsed reply 0, API error only 2; empty text 0, letter alone on last line 0) acc valid-only 94.3 missing-as-wrong 92.7 with last-line recovery 92.7
+VALID-N e9x|gpt-6-astra|blink_depth|direct                   valid 122/124 (unparsed reply 0, API error only 2; empty text 0, letter alone on last line 0) acc valid-only 93.4 missing-as-wrong 91.9 with last-line recovery 91.9
+VALID-N e9x|hy4|blink_depth|cot                              valid 117/124 (unparsed reply 7, API error only 0; empty text 7, letter alone on last line 0) acc valid-only 90.6 missing-as-wrong 85.5 with last-line recovery 85.5
+VALID-N e9x|hy4|blink_depth|direct                           valid 114/124 (unparsed reply 10, API error only 0; empty text 10, letter alone on last line 0) acc valid-only 92.1 missing-as-wrong 84.7 with last-line recovery 84.7
+VALID-N e9x|hy4|blink_relation|direct                        valid 141/143 (unparsed reply 2, API error only 0; empty text 2, letter alone on last line 0) acc valid-only 89.4 missing-as-wrong 88.1 with last-line recovery 88.1
+VALID-N e9x|hy4|occ|direct                                   valid 799/800 (unparsed reply 1, API error only 0; empty text 1, letter alone on last line 0) acc valid-only 100.0 missing-as-wrong 99.9 with last-line recovery 99.9
+VALID-N e9x|hy4|syn_depth|cot                                valid 245/250 (unparsed reply 5, API error only 0; empty text 5, letter alone on last line 0) acc valid-only 94.3 missing-as-wrong 92.4 with last-line recovery 92.4
+VALID-N e9x|hy4|syn_depth|direct                             valid 246/250 (unparsed reply 4, API error only 0; empty text 4, letter alone on last line 0) acc valid-only 94.3 missing-as-wrong 92.8 with last-line recovery 92.8

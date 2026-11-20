@@ -1,0 +1,5672 @@
+{
+ "qwen3vl_8b": {
+  "coverage": {
+   "n": 1600,
+   "last": 1561,
+   "last_body": 1492,
+   "first": 1561,
+   "commit_or_last": 1561,
+   "judge": 968
+  },
+  "parser_vs_judge_cot": {
+   "n_judged_consensus": 968,
+   "n_parsed": 669,
+   "agree": {
+    "k": 627,
+    "n": 669,
+    "pct": 93.7,
+    "wilson": [
+     91.6,
+     95.3
+    ]
+   },
+   "agree_commits": {
+    "k": 144,
+    "n": 145,
+    "pct": 99.3,
+    "wilson": [
+     96.2,
+     99.9
+    ]
+   }
+  },
+  "cot|commit_or_last|C+": {
+   "n": 1210,
+   "cells": {
+    "true_cons": 1191,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.7,
+     100.0
+    ],
+    "n": 1191
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     16.8
+    ],
+    "n": 19
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 98.4
+  },
+  "cot|commit_or_last|C-": {
+   "n": 351,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 6,
+    "false_cons": 345,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     39.0
+    ],
+    "n": 6
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.9,
+     100.0
+    ],
+    "n": 345
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 1.7
+  },
+  "cot|commit_or_last|D+": {
+   "n": 1231,
+   "cells": {
+    "true_cons": 976,
+    "true_incons": 6,
+    "false_cons": 237,
+    "false_incons": 12
+   },
+   "p_cons_true": {
+    "mean": 99.4,
+    "ci": [
+     98.9,
+     99.8
+    ],
+    "wilson": [
+     98.7,
+     99.7
+    ],
+    "n": 982
+   },
+   "p_cons_false": {
+    "mean": 95.2,
+    "ci": [
+     92.4,
+     97.7
+    ],
+    "wilson": [
+     91.8,
+     97.2
+    ],
+    "n": 249
+   },
+   "diff": {
+    "mean": 4.2,
+    "ci": [
+     1.6,
+     7.1
+    ]
+   },
+   "share_true": 79.8
+  },
+  "cot|commit_or_last|D+|behind": {
+   "n": 514,
+   "cells": {
+    "true_cons": 400,
+    "true_incons": 4,
+    "false_cons": 100,
+    "false_incons": 10
+   },
+   "p_cons_true": {
+    "mean": 99.0,
+    "ci": [
+     98.0,
+     99.8
+    ],
+    "wilson": [
+     97.5,
+     99.6
+    ],
+    "n": 404
+   },
+   "p_cons_false": {
+    "mean": 90.9,
+    "ci": [
+     85.2,
+     95.7
+    ],
+    "wilson": [
+     84.1,
+     95.0
+    ],
+    "n": 110
+   },
+   "diff": {
+    "mean": 8.1,
+    "ci": [
+     3.1,
+     13.9
+    ]
+   },
+   "share_true": 78.6
+  },
+  "cot|commit_or_last|D+|front": {
+   "n": 717,
+   "cells": {
+    "true_cons": 576,
+    "true_incons": 2,
+    "false_cons": 137,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 99.7,
+    "ci": [
+     99.1,
+     100.0
+    ],
+    "wilson": [
+     98.7,
+     99.9
+    ],
+    "n": 578
+   },
+   "p_cons_false": {
+    "mean": 98.6,
+    "ci": [
+     96.3,
+     100.0
+    ],
+    "wilson": [
+     94.9,
+     99.6
+    ],
+    "n": 139
+   },
+   "diff": {
+    "mean": 1.1,
+    "ci": [
+     -0.5,
+     3.5
+    ]
+   },
+   "share_true": 80.6
+  },
+  "cot|commit_or_last|D-": {
+   "n": 330,
+   "cells": {
+    "true_cons": 215,
+    "true_incons": 0,
+    "false_cons": 108,
+    "false_incons": 7
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.2,
+     100.0
+    ],
+    "n": 215
+   },
+   "p_cons_false": {
+    "mean": 93.9,
+    "ci": [
+     89.2,
+     98.1
+    ],
+    "wilson": [
+     88.0,
+     97.0
+    ],
+    "n": 115
+   },
+   "diff": {
+    "mean": 6.1,
+    "ci": [
+     1.9,
+     10.8
+    ]
+   },
+   "share_true": 65.2
+  },
+  "cot|commit_or_last|D-|behind": {
+   "n": 267,
+   "cells": {
+    "true_cons": 188,
+    "true_incons": 0,
+    "false_cons": 72,
+    "false_incons": 7
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.0,
+     100.0
+    ],
+    "n": 188
+   },
+   "p_cons_false": {
+    "mean": 91.1,
+    "ci": [
+     84.1,
+     96.7
+    ],
+    "wilson": [
+     82.8,
+     95.6
+    ],
+    "n": 79
+   },
+   "diff": {
+    "mean": 8.9,
+    "ci": [
+     3.3,
+     15.9
+    ]
+   },
+   "share_true": 70.4
+  },
+  "cot|commit_or_last|D-|front": {
+   "n": 63,
+   "cells": {
+    "true_cons": 27,
+    "true_incons": 0,
+    "false_cons": 36,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     87.5,
+     100.0
+    ],
+    "n": 27
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     90.4,
+     100.0
+    ],
+    "n": 36
+   },
+   "diff": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "share_true": 42.9
+  },
+  "cot|commit_or_last|all": {
+   "n": 1561,
+   "cells": {
+    "true_cons": 1191,
+    "true_incons": 6,
+    "false_cons": 345,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 99.5,
+    "ci": [
+     99.1,
+     99.8
+    ],
+    "wilson": [
+     98.9,
+     99.8
+    ],
+    "n": 1197
+   },
+   "p_cons_false": {
+    "mean": 94.8,
+    "ci": [
+     92.4,
+     96.9
+    ],
+    "wilson": [
+     92.0,
+     96.6
+    ],
+    "n": 364
+   },
+   "diff": {
+    "mean": 4.7,
+    "ci": [
+     2.5,
+     7.1
+    ]
+   },
+   "share_true": 76.7
+  },
+  "cot|commit_or_last|behind": {
+   "n": 781,
+   "cells": {
+    "true_cons": 588,
+    "true_incons": 4,
+    "false_cons": 172,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 99.3,
+    "ci": [
+     98.6,
+     99.8
+    ],
+    "wilson": [
+     98.3,
+     99.7
+    ],
+    "n": 592
+   },
+   "p_cons_false": {
+    "mean": 91.0,
+    "ci": [
+     86.8,
+     94.8
+    ],
+    "wilson": [
+     86.1,
+     94.3
+    ],
+    "n": 189
+   },
+   "diff": {
+    "mean": 8.3,
+    "ci": [
+     4.4,
+     12.7
+    ]
+   },
+   "share_true": 75.8
+  },
+  "cot|commit_or_last|front": {
+   "n": 780,
+   "cells": {
+    "true_cons": 603,
+    "true_incons": 2,
+    "false_cons": 173,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 99.7,
+    "ci": [
+     99.2,
+     100.0
+    ],
+    "wilson": [
+     98.8,
+     99.9
+    ],
+    "n": 605
+   },
+   "p_cons_false": {
+    "mean": 98.9,
+    "ci": [
+     97.1,
+     100.0
+    ],
+    "wilson": [
+     95.9,
+     99.7
+    ],
+    "n": 175
+   },
+   "diff": {
+    "mean": 0.8,
+    "ci": [
+     -0.5,
+     2.7
+    ]
+   },
+   "share_true": 77.6
+  },
+  "cot|first|C+": {
+   "n": 1210,
+   "cells": {
+    "true_cons": 1167,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 43
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.7,
+     100.0
+    ],
+    "n": 1167
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     8.2
+    ],
+    "n": 43
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 96.4
+  },
+  "cot|first|C-": {
+   "n": 351,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 53,
+    "false_cons": 298,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     -0.0,
+     6.8
+    ],
+    "n": 53
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.7,
+     100.0
+    ],
+    "n": 298
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 15.1
+  },
+  "cot|first|D+": {
+   "n": 1231,
+   "cells": {
+    "true_cons": 956,
+    "true_incons": 21,
+    "false_cons": 222,
+    "false_incons": 32
+   },
+   "p_cons_true": {
+    "mean": 97.9,
+    "ci": [
+     97.0,
+     98.7
+    ],
+    "wilson": [
+     96.7,
+     98.6
+    ],
+    "n": 977
+   },
+   "p_cons_false": {
+    "mean": 87.4,
+    "ci": [
+     83.1,
+     91.3
+    ],
+    "wilson": [
+     82.8,
+     90.9
+    ],
+    "n": 254
+   },
+   "diff": {
+    "mean": 10.4,
+    "ci": [
+     6.4,
+     14.7
+    ]
+   },
+   "share_true": 79.4
+  },
+  "cot|first|D+|behind": {
+   "n": 514,
+   "cells": {
+    "true_cons": 389,
+    "true_incons": 17,
+    "false_cons": 87,
+    "false_incons": 21
+   },
+   "p_cons_true": {
+    "mean": 95.8,
+    "ci": [
+     93.8,
+     97.6
+    ],
+    "wilson": [
+     93.4,
+     97.4
+    ],
+    "n": 406
+   },
+   "p_cons_false": {
+    "mean": 80.6,
+    "ci": [
+     72.5,
+     87.6
+    ],
+    "wilson": [
+     72.1,
+     86.9
+    ],
+    "n": 108
+   },
+   "diff": {
+    "mean": 15.3,
+    "ci": [
+     7.9,
+     23.5
+    ]
+   },
+   "share_true": 79.0
+  },
+  "cot|first|D+|front": {
+   "n": 717,
+   "cells": {
+    "true_cons": 567,
+    "true_incons": 4,
+    "false_cons": 135,
+    "false_incons": 11
+   },
+   "p_cons_true": {
+    "mean": 99.3,
+    "ci": [
+     98.6,
+     99.8
+    ],
+    "wilson": [
+     98.2,
+     99.7
+    ],
+    "n": 571
+   },
+   "p_cons_false": {
+    "mean": 92.5,
+    "ci": [
+     88.2,
+     96.6
+    ],
+    "wilson": [
+     87.0,
+     95.7
+    ],
+    "n": 146
+   },
+   "diff": {
+    "mean": 6.8,
+    "ci": [
+     2.8,
+     11.1
+    ]
+   },
+   "share_true": 79.6
+  },
+  "cot|first|D-": {
+   "n": 330,
+   "cells": {
+    "true_cons": 211,
+    "true_incons": 32,
+    "false_cons": 76,
+    "false_incons": 11
+   },
+   "p_cons_true": {
+    "mean": 86.8,
+    "ci": [
+     82.4,
+     90.7
+    ],
+    "wilson": [
+     82.0,
+     90.5
+    ],
+    "n": 243
+   },
+   "p_cons_false": {
+    "mean": 87.4,
+    "ci": [
+     80.0,
+     93.7
+    ],
+    "wilson": [
+     78.8,
+     92.8
+    ],
+    "n": 87
+   },
+   "diff": {
+    "mean": -0.5,
+    "ci": [
+     -8.4,
+     8.1
+    ]
+   },
+   "share_true": 73.6
+  },
+  "cot|first|D-|behind": {
+   "n": 267,
+   "cells": {
+    "true_cons": 185,
+    "true_incons": 29,
+    "false_cons": 43,
+    "false_incons": 10
+   },
+   "p_cons_true": {
+    "mean": 86.4,
+    "ci": [
+     81.6,
+     90.8
+    ],
+    "wilson": [
+     81.2,
+     90.4
+    ],
+    "n": 214
+   },
+   "p_cons_false": {
+    "mean": 81.1,
+    "ci": [
+     70.7,
+     90.9
+    ],
+    "wilson": [
+     68.6,
+     89.4
+    ],
+    "n": 53
+   },
+   "diff": {
+    "mean": 5.3,
+    "ci": [
+     -5.9,
+     16.9
+    ]
+   },
+   "share_true": 80.1
+  },
+  "cot|first|D-|front": {
+   "n": 63,
+   "cells": {
+    "true_cons": 26,
+    "true_incons": 3,
+    "false_cons": 33,
+    "false_incons": 1
+   },
+   "p_cons_true": {
+    "mean": 89.7,
+    "ci": [
+     75.9,
+     100.0
+    ],
+    "wilson": [
+     73.6,
+     96.4
+    ],
+    "n": 29
+   },
+   "p_cons_false": {
+    "mean": 97.1,
+    "ci": [
+     90.3,
+     100.0
+    ],
+    "wilson": [
+     85.1,
+     99.5
+    ],
+    "n": 34
+   },
+   "diff": {
+    "mean": -7.4,
+    "ci": [
+     -21.9,
+     4.0
+    ]
+   },
+   "share_true": 46.0
+  },
+  "cot|first|all": {
+   "n": 1561,
+   "cells": {
+    "true_cons": 1167,
+    "true_incons": 53,
+    "false_cons": 298,
+    "false_incons": 43
+   },
+   "p_cons_true": {
+    "mean": 95.7,
+    "ci": [
+     94.5,
+     96.7
+    ],
+    "wilson": [
+     94.4,
+     96.7
+    ],
+    "n": 1220
+   },
+   "p_cons_false": {
+    "mean": 87.4,
+    "ci": [
+     83.6,
+     90.8
+    ],
+    "wilson": [
+     83.4,
+     90.5
+    ],
+    "n": 341
+   },
+   "diff": {
+    "mean": 8.3,
+    "ci": [
+     5.0,
+     12.0
+    ]
+   },
+   "share_true": 78.2
+  },
+  "cot|first|behind": {
+   "n": 781,
+   "cells": {
+    "true_cons": 574,
+    "true_incons": 46,
+    "false_cons": 130,
+    "false_incons": 31
+   },
+   "p_cons_true": {
+    "mean": 92.6,
+    "ci": [
+     90.3,
+     94.6
+    ],
+    "wilson": [
+     90.2,
+     94.4
+    ],
+    "n": 620
+   },
+   "p_cons_false": {
+    "mean": 80.7,
+    "ci": [
+     74.7,
+     86.6
+    ],
+    "wilson": [
+     74.0,
+     86.1
+    ],
+    "n": 161
+   },
+   "diff": {
+    "mean": 11.8,
+    "ci": [
+     5.7,
+     18.1
+    ]
+   },
+   "share_true": 79.4
+  },
+  "cot|first|front": {
+   "n": 780,
+   "cells": {
+    "true_cons": 593,
+    "true_incons": 7,
+    "false_cons": 168,
+    "false_incons": 12
+   },
+   "p_cons_true": {
+    "mean": 98.8,
+    "ci": [
+     97.9,
+     99.7
+    ],
+    "wilson": [
+     97.6,
+     99.4
+    ],
+    "n": 600
+   },
+   "p_cons_false": {
+    "mean": 93.3,
+    "ci": [
+     89.6,
+     96.7
+    ],
+    "wilson": [
+     88.7,
+     96.1
+    ],
+    "n": 180
+   },
+   "diff": {
+    "mean": 5.5,
+    "ci": [
+     2.1,
+     9.3
+    ]
+   },
+   "share_true": 76.9
+  },
+  "cot|judge_commit_or_comparator|D+": {
+   "n": 968,
+   "cells": {
+    "true_cons": 700,
+    "true_incons": 18,
+    "false_cons": 184,
+    "false_incons": 66
+   },
+   "p_cons_true": {
+    "mean": 97.5,
+    "ci": [
+     96.3,
+     98.6
+    ],
+    "wilson": [
+     96.1,
+     98.4
+    ],
+    "n": 718
+   },
+   "p_cons_false": {
+    "mean": 73.6,
+    "ci": [
+     67.5,
+     79.4
+    ],
+    "wilson": [
+     67.8,
+     78.7
+    ],
+    "n": 250
+   },
+   "diff": {
+    "mean": 23.9,
+    "ci": [
+     18.0,
+     30.0
+    ]
+   },
+   "share_true": 74.2
+  },
+  "cot|judge_commit_or_comparator|D+|behind": {
+   "n": 421,
+   "cells": {
+    "true_cons": 305,
+    "true_incons": 2,
+    "false_cons": 86,
+    "false_incons": 28
+   },
+   "p_cons_true": {
+    "mean": 99.3,
+    "ci": [
+     98.4,
+     100.0
+    ],
+    "wilson": [
+     97.7,
+     99.8
+    ],
+    "n": 307
+   },
+   "p_cons_false": {
+    "mean": 75.4,
+    "ci": [
+     68.0,
+     83.0
+    ],
+    "wilson": [
+     66.8,
+     82.4
+    ],
+    "n": 114
+   },
+   "diff": {
+    "mean": 23.9,
+    "ci": [
+     16.4,
+     31.2
+    ]
+   },
+   "share_true": 72.9
+  },
+  "cot|judge_commit_or_comparator|D+|front": {
+   "n": 547,
+   "cells": {
+    "true_cons": 395,
+    "true_incons": 16,
+    "false_cons": 98,
+    "false_incons": 38
+   },
+   "p_cons_true": {
+    "mean": 96.1,
+    "ci": [
+     94.2,
+     97.8
+    ],
+    "wilson": [
+     93.8,
+     97.6
+    ],
+    "n": 411
+   },
+   "p_cons_false": {
+    "mean": 72.1,
+    "ci": [
+     64.3,
+     79.5
+    ],
+    "wilson": [
+     64.0,
+     78.9
+    ],
+    "n": 136
+   },
+   "diff": {
+    "mean": 24.0,
+    "ci": [
+     16.3,
+     31.6
+    ]
+   },
+   "share_true": 75.1
+  },
+  "cot|last|C+": {
+   "n": 1210,
+   "cells": {
+    "true_cons": 1191,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.7,
+     100.0
+    ],
+    "n": 1191
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     16.8
+    ],
+    "n": 19
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 98.4
+  },
+  "cot|last|C-": {
+   "n": 351,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 5,
+    "false_cons": 346,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     -0.0,
+     43.4
+    ],
+    "n": 5
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.9,
+     100.0
+    ],
+    "n": 346
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 1.4
+  },
+  "cot|last|D+": {
+   "n": 1231,
+   "cells": {
+    "true_cons": 976,
+    "true_incons": 5,
+    "false_cons": 238,
+    "false_incons": 12
+   },
+   "p_cons_true": {
+    "mean": 99.5,
+    "ci": [
+     99.0,
+     99.9
+    ],
+    "wilson": [
+     98.8,
+     99.8
+    ],
+    "n": 981
+   },
+   "p_cons_false": {
+    "mean": 95.2,
+    "ci": [
+     92.5,
+     97.7
+    ],
+    "wilson": [
+     91.8,
+     97.2
+    ],
+    "n": 250
+   },
+   "diff": {
+    "mean": 4.3,
+    "ci": [
+     1.6,
+     7.1
+    ]
+   },
+   "share_true": 79.7
+  },
+  "cot|last|D+|behind": {
+   "n": 514,
+   "cells": {
+    "true_cons": 400,
+    "true_incons": 3,
+    "false_cons": 101,
+    "false_incons": 10
+   },
+   "p_cons_true": {
+    "mean": 99.3,
+    "ci": [
+     98.3,
+     100.0
+    ],
+    "wilson": [
+     97.8,
+     99.7
+    ],
+    "n": 403
+   },
+   "p_cons_false": {
+    "mean": 91.0,
+    "ci": [
+     85.6,
+     96.0
+    ],
+    "wilson": [
+     84.2,
+     95.0
+    ],
+    "n": 111
+   },
+   "diff": {
+    "mean": 8.3,
+    "ci": [
+     3.0,
+     13.8
+    ]
+   },
+   "share_true": 78.4
+  },
+  "cot|last|D+|front": {
+   "n": 717,
+   "cells": {
+    "true_cons": 576,
+    "true_incons": 2,
+    "false_cons": 137,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 99.7,
+    "ci": [
+     99.1,
+     100.0
+    ],
+    "wilson": [
+     98.7,
+     99.9
+    ],
+    "n": 578
+   },
+   "p_cons_false": {
+    "mean": 98.6,
+    "ci": [
+     96.3,
+     100.0
+    ],
+    "wilson": [
+     94.9,
+     99.6
+    ],
+    "n": 139
+   },
+   "diff": {
+    "mean": 1.1,
+    "ci": [
+     -0.5,
+     3.4
+    ]
+   },
+   "share_true": 80.6
+  },
+  "cot|last|D-": {
+   "n": 330,
+   "cells": {
+    "true_cons": 215,
+    "true_incons": 0,
+    "false_cons": 108,
+    "false_incons": 7
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.2,
+     100.0
+    ],
+    "n": 215
+   },
+   "p_cons_false": {
+    "mean": 93.9,
+    "ci": [
+     89.2,
+     98.2
+    ],
+    "wilson": [
+     88.0,
+     97.0
+    ],
+    "n": 115
+   },
+   "diff": {
+    "mean": 6.1,
+    "ci": [
+     1.8,
+     10.8
+    ]
+   },
+   "share_true": 65.2
+  },
+  "cot|last|D-|behind": {
+   "n": 267,
+   "cells": {
+    "true_cons": 188,
+    "true_incons": 0,
+    "false_cons": 72,
+    "false_incons": 7
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.0,
+     100.0
+    ],
+    "n": 188
+   },
+   "p_cons_false": {
+    "mean": 91.1,
+    "ci": [
+     84.5,
+     96.7
+    ],
+    "wilson": [
+     82.8,
+     95.6
+    ],
+    "n": 79
+   },
+   "diff": {
+    "mean": 8.9,
+    "ci": [
+     3.3,
+     15.5
+    ]
+   },
+   "share_true": 70.4
+  },
+  "cot|last|D-|front": {
+   "n": 63,
+   "cells": {
+    "true_cons": 27,
+    "true_incons": 0,
+    "false_cons": 36,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     87.5,
+     100.0
+    ],
+    "n": 27
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     90.4,
+     100.0
+    ],
+    "n": 36
+   },
+   "diff": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ]
+   },
+   "share_true": 42.9
+  },
+  "cot|last|all": {
+   "n": 1561,
+   "cells": {
+    "true_cons": 1191,
+    "true_incons": 5,
+    "false_cons": 346,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 99.6,
+    "ci": [
+     99.2,
+     99.9
+    ],
+    "wilson": [
+     99.0,
+     99.8
+    ],
+    "n": 1196
+   },
+   "p_cons_false": {
+    "mean": 94.8,
+    "ci": [
+     92.4,
+     97.0
+    ],
+    "wilson": [
+     92.0,
+     96.6
+    ],
+    "n": 365
+   },
+   "diff": {
+    "mean": 4.8,
+    "ci": [
+     2.6,
+     7.2
+    ]
+   },
+   "share_true": 76.6
+  },
+  "cot|last|behind": {
+   "n": 781,
+   "cells": {
+    "true_cons": 588,
+    "true_incons": 3,
+    "false_cons": 173,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 99.5,
+    "ci": [
+     98.8,
+     100.0
+    ],
+    "wilson": [
+     98.5,
+     99.8
+    ],
+    "n": 591
+   },
+   "p_cons_false": {
+    "mean": 91.1,
+    "ci": [
+     86.6,
+     94.7
+    ],
+    "wilson": [
+     86.1,
+     94.3
+    ],
+    "n": 190
+   },
+   "diff": {
+    "mean": 8.4,
+    "ci": [
+     4.7,
+     13.0
+    ]
+   },
+   "share_true": 75.7
+  },
+  "cot|last|front": {
+   "n": 780,
+   "cells": {
+    "true_cons": 603,
+    "true_incons": 2,
+    "false_cons": 173,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 99.7,
+    "ci": [
+     99.2,
+     100.0
+    ],
+    "wilson": [
+     98.8,
+     99.9
+    ],
+    "n": 605
+   },
+   "p_cons_false": {
+    "mean": 98.9,
+    "ci": [
+     97.1,
+     100.0
+    ],
+    "wilson": [
+     95.9,
+     99.7
+    ],
+    "n": 175
+   },
+   "diff": {
+    "mean": 0.8,
+    "ci": [
+     -0.5,
+     2.6
+    ]
+   },
+   "share_true": 77.6
+  },
+  "cot|last_body|C+": {
+   "n": 1159,
+   "cells": {
+    "true_cons": 1125,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 34
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.7,
+     100.0
+    ],
+    "n": 1125
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     10.2
+    ],
+    "n": 34
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 97.1
+  },
+  "cot|last_body|C-": {
+   "n": 333,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 48,
+    "false_cons": 285,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     7.4
+    ],
+    "n": 48
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.7,
+     100.0
+    ],
+    "n": 285
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 14.4
+  },
+  "cot|last_body|D+": {
+   "n": 1172,
+   "cells": {
+    "true_cons": 914,
+    "true_incons": 17,
+    "false_cons": 213,
+    "false_incons": 28
+   },
+   "p_cons_true": {
+    "mean": 98.2,
+    "ci": [
+     97.3,
+     98.9
+    ],
+    "wilson": [
+     97.1,
+     98.9
+    ],
+    "n": 931
+   },
+   "p_cons_false": {
+    "mean": 88.4,
+    "ci": [
+     83.9,
+     92.4
+    ],
+    "wilson": [
+     83.7,
+     91.8
+    ],
+    "n": 241
+   },
+   "diff": {
+    "mean": 9.8,
+    "ci": [
+     5.7,
+     14.4
+    ]
+   },
+   "share_true": 79.4
+  },
+  "cot|last_body|D+|behind": {
+   "n": 493,
+   "cells": {
+    "true_cons": 373,
+    "true_incons": 12,
+    "false_cons": 90,
+    "false_incons": 18
+   },
+   "p_cons_true": {
+    "mean": 96.9,
+    "ci": [
+     95.1,
+     98.5
+    ],
+    "wilson": [
+     94.6,
+     98.2
+    ],
+    "n": 385
+   },
+   "p_cons_false": {
+    "mean": 83.3,
+    "ci": [
+     75.5,
+     90.1
+    ],
+    "wilson": [
+     75.2,
+     89.2
+    ],
+    "n": 108
+   },
+   "diff": {
+    "mean": 13.5,
+    "ci": [
+     6.5,
+     21.3
+    ]
+   },
+   "share_true": 78.1
+  },
+  "cot|last_body|D+|front": {
+   "n": 679,
+   "cells": {
+    "true_cons": 541,
+    "true_incons": 5,
+    "false_cons": 123,
+    "false_incons": 10
+   },
+   "p_cons_true": {
+    "mean": 99.1,
+    "ci": [
+     98.2,
+     99.8
+    ],
+    "wilson": [
+     97.9,
+     99.6
+    ],
+    "n": 546
+   },
+   "p_cons_false": {
+    "mean": 92.5,
+    "ci": [
+     87.4,
+     97.0
+    ],
+    "wilson": [
+     86.7,
+     95.9
+    ],
+    "n": 133
+   },
+   "diff": {
+    "mean": 6.6,
+    "ci": [
+     2.0,
+     11.8
+    ]
+   },
+   "share_true": 80.4
+  },
+  "cot|last_body|D-": {
+   "n": 320,
+   "cells": {
+    "true_cons": 211,
+    "true_incons": 31,
+    "false_cons": 72,
+    "false_incons": 6
+   },
+   "p_cons_true": {
+    "mean": 87.2,
+    "ci": [
+     82.8,
+     91.0
+    ],
+    "wilson": [
+     82.4,
+     90.8
+    ],
+    "n": 242
+   },
+   "p_cons_false": {
+    "mean": 92.3,
+    "ci": [
+     86.1,
+     97.7
+    ],
+    "wilson": [
+     84.2,
+     96.4
+    ],
+    "n": 78
+   },
+   "diff": {
+    "mean": -5.1,
+    "ci": [
+     -12.2,
+     2.3
+    ]
+   },
+   "share_true": 75.6
+  },
+  "cot|last_body|D-|behind": {
+   "n": 257,
+   "cells": {
+    "true_cons": 184,
+    "true_incons": 30,
+    "false_cons": 37,
+    "false_incons": 6
+   },
+   "p_cons_true": {
+    "mean": 86.0,
+    "ci": [
+     81.2,
+     90.4
+    ],
+    "wilson": [
+     80.7,
+     90.0
+    ],
+    "n": 214
+   },
+   "p_cons_false": {
+    "mean": 86.0,
+    "ci": [
+     74.4,
+     95.6
+    ],
+    "wilson": [
+     72.7,
+     93.4
+    ],
+    "n": 43
+   },
+   "diff": {
+    "mean": -0.1,
+    "ci": [
+     -11.1,
+     12.7
+    ]
+   },
+   "share_true": 83.3
+  },
+  "cot|last_body|D-|front": {
+   "n": 63,
+   "cells": {
+    "true_cons": 27,
+    "true_incons": 1,
+    "false_cons": 35,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 96.4,
+    "ci": [
+     88.0,
+     100.0
+    ],
+    "wilson": [
+     82.3,
+     99.4
+    ],
+    "n": 28
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     90.1,
+     100.0
+    ],
+    "n": 35
+   },
+   "diff": {
+    "mean": -3.6,
+    "ci": [
+     -12.0,
+     0.0
+    ]
+   },
+   "share_true": 44.4
+  },
+  "cot|last_body|all": {
+   "n": 1492,
+   "cells": {
+    "true_cons": 1125,
+    "true_incons": 48,
+    "false_cons": 285,
+    "false_incons": 34
+   },
+   "p_cons_true": {
+    "mean": 95.9,
+    "ci": [
+     94.8,
+     97.0
+    ],
+    "wilson": [
+     94.6,
+     96.9
+    ],
+    "n": 1173
+   },
+   "p_cons_false": {
+    "mean": 89.3,
+    "ci": [
+     85.6,
+     92.8
+    ],
+    "wilson": [
+     85.5,
+     92.3
+    ],
+    "n": 319
+   },
+   "diff": {
+    "mean": 6.6,
+    "ci": [
+     3.0,
+     10.5
+    ]
+   },
+   "share_true": 78.6
+  },
+  "cot|last_body|behind": {
+   "n": 750,
+   "cells": {
+    "true_cons": 557,
+    "true_incons": 42,
+    "false_cons": 127,
+    "false_incons": 24
+   },
+   "p_cons_true": {
+    "mean": 93.0,
+    "ci": [
+     91.1,
+     94.9
+    ],
+    "wilson": [
+     90.7,
+     94.8
+    ],
+    "n": 599
+   },
+   "p_cons_false": {
+    "mean": 84.1,
+    "ci": [
+     78.1,
+     89.7
+    ],
+    "wilson": [
+     77.4,
+     89.1
+    ],
+    "n": 151
+   },
+   "diff": {
+    "mean": 8.9,
+    "ci": [
+     2.9,
+     15.2
+    ]
+   },
+   "share_true": 79.9
+  },
+  "cot|last_body|front": {
+   "n": 742,
+   "cells": {
+    "true_cons": 568,
+    "true_incons": 6,
+    "false_cons": 158,
+    "false_incons": 10
+   },
+   "p_cons_true": {
+    "mean": 99.0,
+    "ci": [
+     98.1,
+     99.7
+    ],
+    "wilson": [
+     97.7,
+     99.5
+    ],
+    "n": 574
+   },
+   "p_cons_false": {
+    "mean": 94.0,
+    "ci": [
+     90.1,
+     97.6
+    ],
+    "wilson": [
+     89.4,
+     96.7
+    ],
+    "n": 168
+   },
+   "diff": {
+    "mean": 4.9,
+    "ci": [
+     1.4,
+     9.0
+    ]
+   },
+   "share_true": 77.4
+  },
+  "desc_coverage": {
+   "n": 1600,
+   "judge_back": 366,
+   "judge_front": 792,
+   "judge_mixed": 318,
+   "parser_last": 1258,
+   "parser_first": 1258,
+   "judge_NC": 116,
+   "judge_none": 4,
+   "judge_unclear": 4
+  },
+  "desc|judge|D+": {
+   "n": 912,
+   "cells": {
+    "true_cons": 635,
+    "true_incons": 3,
+    "false_cons": 171,
+    "false_incons": 103
+   },
+   "p_cons_true": {
+    "mean": 99.5,
+    "ci": [
+     98.9,
+     100.0
+    ],
+    "wilson": [
+     98.6,
+     99.8
+    ],
+    "n": 638
+   },
+   "p_cons_false": {
+    "mean": 62.4,
+    "ci": [
+     55.4,
+     69.4
+    ],
+    "wilson": [
+     56.5,
+     67.9
+    ],
+    "n": 274
+   },
+   "diff": {
+    "mean": 37.1,
+    "ci": [
+     30.0,
+     44.2
+    ]
+   },
+   "share_true": 70.0
+  },
+  "desc|judge|D+|behind": {
+   "n": 375,
+   "cells": {
+    "true_cons": 260,
+    "true_incons": 0,
+    "false_cons": 66,
+    "false_incons": 49
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.5,
+     100.0
+    ],
+    "n": 260
+   },
+   "p_cons_false": {
+    "mean": 57.4,
+    "ci": [
+     48.0,
+     66.1
+    ],
+    "wilson": [
+     48.3,
+     66.0
+    ],
+    "n": 115
+   },
+   "diff": {
+    "mean": 42.6,
+    "ci": [
+     33.9,
+     52.0
+    ]
+   },
+   "share_true": 69.3
+  },
+  "desc|judge|D+|front": {
+   "n": 537,
+   "cells": {
+    "true_cons": 375,
+    "true_incons": 3,
+    "false_cons": 105,
+    "false_incons": 54
+   },
+   "p_cons_true": {
+    "mean": 99.2,
+    "ci": [
+     98.2,
+     100.0
+    ],
+    "wilson": [
+     97.7,
+     99.7
+    ],
+    "n": 378
+   },
+   "p_cons_false": {
+    "mean": 66.0,
+    "ci": [
+     58.2,
+     73.5
+    ],
+    "wilson": [
+     58.4,
+     72.9
+    ],
+    "n": 159
+   },
+   "diff": {
+    "mean": 33.2,
+    "ci": [
+     25.7,
+     41.0
+    ]
+   },
+   "share_true": 70.4
+  },
+  "desc|judge|D-": {
+   "n": 246,
+   "cells": {
+    "true_cons": 117,
+    "true_incons": 37,
+    "false_cons": 91,
+    "false_incons": 1
+   },
+   "p_cons_true": {
+    "mean": 76.0,
+    "ci": [
+     69.2,
+     82.2
+    ],
+    "wilson": [
+     68.6,
+     82.0
+    ],
+    "n": 154
+   },
+   "p_cons_false": {
+    "mean": 98.9,
+    "ci": [
+     96.5,
+     100.0
+    ],
+    "wilson": [
+     94.1,
+     99.8
+    ],
+    "n": 92
+   },
+   "diff": {
+    "mean": -22.9,
+    "ci": [
+     -29.7,
+     -16.6
+    ]
+   },
+   "share_true": 62.6
+  },
+  "desc|judge|D-|behind": {
+   "n": 204,
+   "cells": {
+    "true_cons": 102,
+    "true_incons": 34,
+    "false_cons": 67,
+    "false_incons": 1
+   },
+   "p_cons_true": {
+    "mean": 75.0,
+    "ci": [
+     67.9,
+     82.2
+    ],
+    "wilson": [
+     67.1,
+     81.5
+    ],
+    "n": 136
+   },
+   "p_cons_false": {
+    "mean": 98.5,
+    "ci": [
+     95.1,
+     100.0
+    ],
+    "wilson": [
+     92.1,
+     99.7
+    ],
+    "n": 68
+   },
+   "diff": {
+    "mean": -23.5,
+    "ci": [
+     -30.9,
+     -16.2
+    ]
+   },
+   "share_true": 66.7
+  },
+  "desc|judge|D-|front": {
+   "n": 42,
+   "cells": {
+    "true_cons": 15,
+    "true_incons": 3,
+    "false_cons": 24,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 83.3,
+    "ci": [
+     64.3,
+     100.0
+    ],
+    "wilson": [
+     60.8,
+     94.2
+    ],
+    "n": 18
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     86.2,
+     100.0
+    ],
+    "n": 24
+   },
+   "diff": {
+    "mean": -16.7,
+    "ci": [
+     -35.7,
+     0.0
+    ]
+   },
+   "share_true": 42.9
+  },
+  "desc|judge|all": {
+   "n": 1158,
+   "cells": {
+    "true_cons": 752,
+    "true_incons": 40,
+    "false_cons": 262,
+    "false_incons": 104
+   },
+   "p_cons_true": {
+    "mean": 94.9,
+    "ci": [
+     93.4,
+     96.4
+    ],
+    "wilson": [
+     93.2,
+     96.3
+    ],
+    "n": 792
+   },
+   "p_cons_false": {
+    "mean": 71.6,
+    "ci": [
+     65.8,
+     77.3
+    ],
+    "wilson": [
+     66.8,
+     76.0
+    ],
+    "n": 366
+   },
+   "diff": {
+    "mean": 23.4,
+    "ci": [
+     17.5,
+     29.1
+    ]
+   },
+   "share_true": 68.4
+  },
+  "desc|judge|behind": {
+   "n": 579,
+   "cells": {
+    "true_cons": 362,
+    "true_incons": 34,
+    "false_cons": 133,
+    "false_incons": 50
+   },
+   "p_cons_true": {
+    "mean": 91.4,
+    "ci": [
+     88.6,
+     94.0
+    ],
+    "wilson": [
+     88.2,
+     93.8
+    ],
+    "n": 396
+   },
+   "p_cons_false": {
+    "mean": 72.7,
+    "ci": [
+     66.1,
+     78.9
+    ],
+    "wilson": [
+     65.8,
+     78.6
+    ],
+    "n": 183
+   },
+   "diff": {
+    "mean": 18.7,
+    "ci": [
+     12.0,
+     25.8
+    ]
+   },
+   "share_true": 68.4
+  },
+  "desc|judge|desc+": {
+   "n": 856,
+   "cells": {
+    "true_cons": 752,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 104
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.5,
+     100.0
+    ],
+    "n": 752
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     3.6
+    ],
+    "n": 104
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 87.9
+  },
+  "desc|judge|desc-": {
+   "n": 302,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 40,
+    "false_cons": 262,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     -0.0,
+     8.8
+    ],
+    "n": 40
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.6,
+     100.0
+    ],
+    "n": 262
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 13.2
+  },
+  "desc|judge|front": {
+   "n": 579,
+   "cells": {
+    "true_cons": 390,
+    "true_incons": 6,
+    "false_cons": 129,
+    "false_incons": 54
+   },
+   "p_cons_true": {
+    "mean": 98.5,
+    "ci": [
+     97.2,
+     99.5
+    ],
+    "wilson": [
+     96.7,
+     99.3
+    ],
+    "n": 396
+   },
+   "p_cons_false": {
+    "mean": 70.5,
+    "ci": [
+     64.1,
+     77.0
+    ],
+    "wilson": [
+     63.5,
+     76.6
+    ],
+    "n": 183
+   },
+   "diff": {
+    "mean": 28.0,
+    "ci": [
+     21.5,
+     34.5
+    ]
+   },
+   "share_true": 68.4
+  },
+  "desc|parser_first|D+": {
+   "n": 1003,
+   "cells": {
+    "true_cons": 682,
+    "true_incons": 27,
+    "false_cons": 136,
+    "false_incons": 158
+   },
+   "p_cons_true": {
+    "mean": 96.2,
+    "ci": [
+     94.3,
+     97.8
+    ],
+    "wilson": [
+     94.5,
+     97.4
+    ],
+    "n": 709
+   },
+   "p_cons_false": {
+    "mean": 46.3,
+    "ci": [
+     38.8,
+     53.5
+    ],
+    "wilson": [
+     40.6,
+     52.0
+    ],
+    "n": 294
+   },
+   "diff": {
+    "mean": 49.9,
+    "ci": [
+     42.8,
+     57.3
+    ]
+   },
+   "share_true": 70.7
+  },
+  "desc|parser_first|D-": {
+   "n": 255,
+   "cells": {
+    "true_cons": 105,
+    "true_incons": 56,
+    "false_cons": 87,
+    "false_incons": 7
+   },
+   "p_cons_true": {
+    "mean": 65.2,
+    "ci": [
+     57.5,
+     72.6
+    ],
+    "wilson": [
+     57.6,
+     72.1
+    ],
+    "n": 161
+   },
+   "p_cons_false": {
+    "mean": 92.6,
+    "ci": [
+     86.1,
+     97.9
+    ],
+    "wilson": [
+     85.4,
+     96.3
+    ],
+    "n": 94
+   },
+   "diff": {
+    "mean": -27.3,
+    "ci": [
+     -36.9,
+     -17.9
+    ]
+   },
+   "share_true": 63.1
+  },
+  "desc|parser_first|all": {
+   "n": 1258,
+   "cells": {
+    "true_cons": 787,
+    "true_incons": 83,
+    "false_cons": 223,
+    "false_incons": 165
+   },
+   "p_cons_true": {
+    "mean": 90.5,
+    "ci": [
+     88.1,
+     92.6
+    ],
+    "wilson": [
+     88.3,
+     92.2
+    ],
+    "n": 870
+   },
+   "p_cons_false": {
+    "mean": 57.5,
+    "ci": [
+     51.1,
+     63.6
+    ],
+    "wilson": [
+     52.5,
+     62.3
+    ],
+    "n": 388
+   },
+   "diff": {
+    "mean": 33.0,
+    "ci": [
+     26.4,
+     39.4
+    ]
+   },
+   "share_true": 69.2
+  },
+  "desc|parser_first|behind": {
+   "n": 629,
+   "cells": {
+    "true_cons": 379,
+    "true_incons": 56,
+    "false_cons": 114,
+    "false_incons": 80
+   },
+   "p_cons_true": {
+    "mean": 87.1,
+    "ci": [
+     83.9,
+     90.2
+    ],
+    "wilson": [
+     83.7,
+     90.0
+    ],
+    "n": 435
+   },
+   "p_cons_false": {
+    "mean": 58.8,
+    "ci": [
+     52.6,
+     65.8
+    ],
+    "wilson": [
+     51.7,
+     65.5
+    ],
+    "n": 194
+   },
+   "diff": {
+    "mean": 28.4,
+    "ci": [
+     21.0,
+     35.1
+    ]
+   },
+   "share_true": 69.2
+  },
+  "desc|parser_first|front": {
+   "n": 629,
+   "cells": {
+    "true_cons": 408,
+    "true_incons": 27,
+    "false_cons": 109,
+    "false_incons": 85
+   },
+   "p_cons_true": {
+    "mean": 93.8,
+    "ci": [
+     91.3,
+     96.1
+    ],
+    "wilson": [
+     91.1,
+     95.7
+    ],
+    "n": 435
+   },
+   "p_cons_false": {
+    "mean": 56.2,
+    "ci": [
+     49.2,
+     63.0
+    ],
+    "wilson": [
+     49.2,
+     63.0
+    ],
+    "n": 194
+   },
+   "diff": {
+    "mean": 37.6,
+    "ci": [
+     30.8,
+     44.7
+    ]
+   },
+   "share_true": 69.2
+  },
+  "desc|parser_last|D+": {
+   "n": 1003,
+   "cells": {
+    "true_cons": 640,
+    "true_incons": 55,
+    "false_cons": 108,
+    "false_incons": 200
+   },
+   "p_cons_true": {
+    "mean": 92.1,
+    "ci": [
+     89.7,
+     94.5
+    ],
+    "wilson": [
+     89.8,
+     93.9
+    ],
+    "n": 695
+   },
+   "p_cons_false": {
+    "mean": 35.1,
+    "ci": [
+     28.6,
+     41.8
+    ],
+    "wilson": [
+     29.9,
+     40.5
+    ],
+    "n": 308
+   },
+   "diff": {
+    "mean": 57.0,
+    "ci": [
+     50.0,
+     63.8
+    ]
+   },
+   "share_true": 69.3
+  },
+  "desc|parser_last|D-": {
+   "n": 255,
+   "cells": {
+    "true_cons": 95,
+    "true_incons": 76,
+    "false_cons": 67,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 55.6,
+    "ci": [
+     47.5,
+     63.8
+    ],
+    "wilson": [
+     48.1,
+     62.8
+    ],
+    "n": 171
+   },
+   "p_cons_false": {
+    "mean": 79.8,
+    "ci": [
+     70.1,
+     88.8
+    ],
+    "wilson": [
+     70.0,
+     87.0
+    ],
+    "n": 84
+   },
+   "diff": {
+    "mean": -24.2,
+    "ci": [
+     -36.3,
+     -11.2
+    ]
+   },
+   "share_true": 67.1
+  },
+  "desc|parser_last|all": {
+   "n": 1258,
+   "cells": {
+    "true_cons": 735,
+    "true_incons": 131,
+    "false_cons": 175,
+    "false_incons": 217
+   },
+   "p_cons_true": {
+    "mean": 84.9,
+    "ci": [
+     81.7,
+     87.8
+    ],
+    "wilson": [
+     82.3,
+     87.1
+    ],
+    "n": 866
+   },
+   "p_cons_false": {
+    "mean": 44.6,
+    "ci": [
+     38.1,
+     50.7
+    ],
+    "wilson": [
+     39.8,
+     49.6
+    ],
+    "n": 392
+   },
+   "diff": {
+    "mean": 40.2,
+    "ci": [
+     33.2,
+     47.3
+    ]
+   },
+   "share_true": 68.8
+  },
+  "desc|parser_last|behind": {
+   "n": 629,
+   "cells": {
+    "true_cons": 351,
+    "true_incons": 82,
+    "false_cons": 88,
+    "false_incons": 108
+   },
+   "p_cons_true": {
+    "mean": 81.1,
+    "ci": [
+     77.3,
+     84.7
+    ],
+    "wilson": [
+     77.1,
+     84.5
+    ],
+    "n": 433
+   },
+   "p_cons_false": {
+    "mean": 44.9,
+    "ci": [
+     38.4,
+     51.5
+    ],
+    "wilson": [
+     38.1,
+     51.9
+    ],
+    "n": 196
+   },
+   "diff": {
+    "mean": 36.2,
+    "ci": [
+     28.3,
+     43.7
+    ]
+   },
+   "share_true": 68.8
+  },
+  "desc|parser_last|front": {
+   "n": 629,
+   "cells": {
+    "true_cons": 384,
+    "true_incons": 49,
+    "false_cons": 87,
+    "false_incons": 109
+   },
+   "p_cons_true": {
+    "mean": 88.7,
+    "ci": [
+     85.5,
+     91.6
+    ],
+    "wilson": [
+     85.4,
+     91.3
+    ],
+    "n": 433
+   },
+   "p_cons_false": {
+    "mean": 44.4,
+    "ci": [
+     37.2,
+     51.6
+    ],
+    "wilson": [
+     37.6,
+     51.4
+    ],
+    "n": 196
+   },
+   "diff": {
+    "mean": 44.3,
+    "ci": [
+     36.3,
+     51.8
+    ]
+   },
+   "share_true": 68.8
+  },
+  "desc_parser_vs_judge": {
+   "n": 453,
+   "agree_pct": 84.1
+  }
+ },
+ "molmo7b": {
+  "coverage": {
+   "n": 1600,
+   "last": 1514,
+   "last_body": 1507,
+   "first": 1514,
+   "commit_or_last": 1514,
+   "judge": 1215
+  },
+  "parser_vs_judge_cot": {
+   "n_judged_consensus": 1215,
+   "n_parsed": 795,
+   "agree": {
+    "k": 749,
+    "n": 795,
+    "pct": 94.2,
+    "wilson": [
+     92.4,
+     95.6
+    ]
+   },
+   "agree_commits": {
+    "k": 120,
+    "n": 132,
+    "pct": 90.9,
+    "wilson": [
+     84.8,
+     94.7
+    ]
+   }
+  },
+  "cot|commit_or_last|C+": {
+   "n": 1136,
+   "cells": {
+    "true_cons": 1072,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 64
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.6,
+     100.0
+    ],
+    "n": 1072
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     5.7
+    ],
+    "n": 64
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 94.4
+  },
+  "cot|commit_or_last|C-": {
+   "n": 378,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 176,
+    "false_cons": 202,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     2.1
+    ],
+    "n": 176
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.1,
+     100.0
+    ],
+    "n": 202
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 46.6
+  },
+  "cot|commit_or_last|D+": {
+   "n": 1339,
+   "cells": {
+    "true_cons": 993,
+    "true_incons": 142,
+    "false_cons": 144,
+    "false_incons": 60
+   },
+   "p_cons_true": {
+    "mean": 87.5,
+    "ci": [
+     85.6,
+     89.4
+    ],
+    "wilson": [
+     85.4,
+     89.3
+    ],
+    "n": 1135
+   },
+   "p_cons_false": {
+    "mean": 70.6,
+    "ci": [
+     64.3,
+     76.4
+    ],
+    "wilson": [
+     64.0,
+     76.4
+    ],
+    "n": 204
+   },
+   "diff": {
+    "mean": 16.9,
+    "ci": [
+     10.7,
+     23.4
+    ]
+   },
+   "share_true": 84.8
+  },
+  "cot|commit_or_last|D+|behind": {
+   "n": 626,
+   "cells": {
+    "true_cons": 448,
+    "true_incons": 72,
+    "false_cons": 63,
+    "false_incons": 43
+   },
+   "p_cons_true": {
+    "mean": 86.2,
+    "ci": [
+     83.4,
+     88.8
+    ],
+    "wilson": [
+     82.9,
+     88.9
+    ],
+    "n": 520
+   },
+   "p_cons_false": {
+    "mean": 59.4,
+    "ci": [
+     50.0,
+     68.5
+    ],
+    "wilson": [
+     49.9,
+     68.3
+    ],
+    "n": 106
+   },
+   "diff": {
+    "mean": 26.7,
+    "ci": [
+     17.4,
+     36.0
+    ]
+   },
+   "share_true": 83.1
+  },
+  "cot|commit_or_last|D+|front": {
+   "n": 713,
+   "cells": {
+    "true_cons": 545,
+    "true_incons": 70,
+    "false_cons": 81,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 88.6,
+    "ci": [
+     86.1,
+     91.0
+    ],
+    "wilson": [
+     85.9,
+     90.9
+    ],
+    "n": 615
+   },
+   "p_cons_false": {
+    "mean": 82.7,
+    "ci": [
+     74.7,
+     90.0
+    ],
+    "wilson": [
+     74.0,
+     88.9
+    ],
+    "n": 98
+   },
+   "diff": {
+    "mean": 6.0,
+    "ci": [
+     -2.0,
+     14.1
+    ]
+   },
+   "share_true": 86.3
+  },
+  "cot|commit_or_last|D-": {
+   "n": 175,
+   "cells": {
+    "true_cons": 79,
+    "true_incons": 34,
+    "false_cons": 58,
+    "false_incons": 4
+   },
+   "p_cons_true": {
+    "mean": 69.9,
+    "ci": [
+     61.4,
+     78.2
+    ],
+    "wilson": [
+     60.9,
+     77.6
+    ],
+    "n": 113
+   },
+   "p_cons_false": {
+    "mean": 93.5,
+    "ci": [
+     87.1,
+     98.5
+    ],
+    "wilson": [
+     84.6,
+     97.5
+    ],
+    "n": 62
+   },
+   "diff": {
+    "mean": -23.6,
+    "ci": [
+     -33.2,
+     -13.5
+    ]
+   },
+   "share_true": 64.6
+  },
+  "cot|commit_or_last|D-|behind": {
+   "n": 135,
+   "cells": {
+    "true_cons": 54,
+    "true_incons": 33,
+    "false_cons": 46,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 62.1,
+    "ci": [
+     52.3,
+     72.6
+    ],
+    "wilson": [
+     51.6,
+     71.5
+    ],
+    "n": 87
+   },
+   "p_cons_false": {
+    "mean": 95.8,
+    "ci": [
+     89.6,
+     100.0
+    ],
+    "wilson": [
+     86.0,
+     98.8
+    ],
+    "n": 48
+   },
+   "diff": {
+    "mean": -33.8,
+    "ci": [
+     -44.4,
+     -22.8
+    ]
+   },
+   "share_true": 64.4
+  },
+  "cot|commit_or_last|D-|front": {
+   "n": 40,
+   "cells": {
+    "true_cons": 25,
+    "true_incons": 1,
+    "false_cons": 12,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 96.2,
+    "ci": [
+     87.5,
+     100.0
+    ],
+    "wilson": [
+     81.1,
+     99.3
+    ],
+    "n": 26
+   },
+   "p_cons_false": {
+    "mean": 85.7,
+    "ci": [
+     63.6,
+     100.0
+    ],
+    "wilson": [
+     60.1,
+     96.0
+    ],
+    "n": 14
+   },
+   "diff": {
+    "mean": 10.4,
+    "ci": [
+     -7.7,
+     33.3
+    ]
+   },
+   "share_true": 65.0
+  },
+  "cot|commit_or_last|all": {
+   "n": 1514,
+   "cells": {
+    "true_cons": 1072,
+    "true_incons": 176,
+    "false_cons": 202,
+    "false_incons": 64
+   },
+   "p_cons_true": {
+    "mean": 85.9,
+    "ci": [
+     83.9,
+     87.7
+    ],
+    "wilson": [
+     83.9,
+     87.7
+    ],
+    "n": 1248
+   },
+   "p_cons_false": {
+    "mean": 75.9,
+    "ci": [
+     71.1,
+     81.1
+    ],
+    "wilson": [
+     70.5,
+     80.7
+    ],
+    "n": 266
+   },
+   "diff": {
+    "mean": 10.0,
+    "ci": [
+     4.5,
+     15.1
+    ]
+   },
+   "share_true": 82.4
+  },
+  "cot|commit_or_last|behind": {
+   "n": 761,
+   "cells": {
+    "true_cons": 502,
+    "true_incons": 105,
+    "false_cons": 109,
+    "false_incons": 45
+   },
+   "p_cons_true": {
+    "mean": 82.7,
+    "ci": [
+     79.8,
+     85.5
+    ],
+    "wilson": [
+     79.5,
+     85.5
+    ],
+    "n": 607
+   },
+   "p_cons_false": {
+    "mean": 70.8,
+    "ci": [
+     63.2,
+     77.5
+    ],
+    "wilson": [
+     63.2,
+     77.4
+    ],
+    "n": 154
+   },
+   "diff": {
+    "mean": 11.9,
+    "ci": [
+     4.7,
+     19.9
+    ]
+   },
+   "share_true": 79.8
+  },
+  "cot|commit_or_last|front": {
+   "n": 753,
+   "cells": {
+    "true_cons": 570,
+    "true_incons": 71,
+    "false_cons": 93,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 88.9,
+    "ci": [
+     86.5,
+     91.2
+    ],
+    "wilson": [
+     86.3,
+     91.1
+    ],
+    "n": 641
+   },
+   "p_cons_false": {
+    "mean": 83.0,
+    "ci": [
+     75.8,
+     89.5
+    ],
+    "wilson": [
+     75.0,
+     88.9
+    ],
+    "n": 112
+   },
+   "diff": {
+    "mean": 5.9,
+    "ci": [
+     -1.1,
+     13.7
+    ]
+   },
+   "share_true": 85.1
+  },
+  "cot|first|C+": {
+   "n": 1136,
+   "cells": {
+    "true_cons": 1052,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 84
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.6,
+     100.0
+    ],
+    "n": 1052
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     4.4
+    ],
+    "n": 84
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 92.6
+  },
+  "cot|first|C-": {
+   "n": 378,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 223,
+    "false_cons": 155,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     1.7
+    ],
+    "n": 223
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     97.6,
+     100.0
+    ],
+    "n": 155
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 59.0
+  },
+  "cot|first|D+": {
+   "n": 1339,
+   "cells": {
+    "true_cons": 973,
+    "true_incons": 172,
+    "false_cons": 114,
+    "false_incons": 80
+   },
+   "p_cons_true": {
+    "mean": 85.0,
+    "ci": [
+     83.0,
+     86.9
+    ],
+    "wilson": [
+     82.8,
+     86.9
+    ],
+    "n": 1145
+   },
+   "p_cons_false": {
+    "mean": 58.8,
+    "ci": [
+     52.4,
+     65.1
+    ],
+    "wilson": [
+     51.7,
+     65.5
+    ],
+    "n": 194
+   },
+   "diff": {
+    "mean": 26.2,
+    "ci": [
+     19.7,
+     32.6
+    ]
+   },
+   "share_true": 85.5
+  },
+  "cot|first|D+|behind": {
+   "n": 626,
+   "cells": {
+    "true_cons": 445,
+    "true_incons": 104,
+    "false_cons": 31,
+    "false_incons": 46
+   },
+   "p_cons_true": {
+    "mean": 81.1,
+    "ci": [
+     77.9,
+     84.2
+    ],
+    "wilson": [
+     77.6,
+     84.1
+    ],
+    "n": 549
+   },
+   "p_cons_false": {
+    "mean": 40.3,
+    "ci": [
+     30.0,
+     50.9
+    ],
+    "wilson": [
+     30.0,
+     51.4
+    ],
+    "n": 77
+   },
+   "diff": {
+    "mean": 40.8,
+    "ci": [
+     30.2,
+     51.7
+    ]
+   },
+   "share_true": 87.7
+  },
+  "cot|first|D+|front": {
+   "n": 713,
+   "cells": {
+    "true_cons": 528,
+    "true_incons": 68,
+    "false_cons": 83,
+    "false_incons": 34
+   },
+   "p_cons_true": {
+    "mean": 88.6,
+    "ci": [
+     86.1,
+     91.0
+    ],
+    "wilson": [
+     85.8,
+     90.9
+    ],
+    "n": 596
+   },
+   "p_cons_false": {
+    "mean": 70.9,
+    "ci": [
+     62.4,
+     79.4
+    ],
+    "wilson": [
+     62.2,
+     78.4
+    ],
+    "n": 117
+   },
+   "diff": {
+    "mean": 17.7,
+    "ci": [
+     9.2,
+     26.7
+    ]
+   },
+   "share_true": 83.6
+  },
+  "cot|first|D-": {
+   "n": 175,
+   "cells": {
+    "true_cons": 79,
+    "true_incons": 51,
+    "false_cons": 41,
+    "false_incons": 4
+   },
+   "p_cons_true": {
+    "mean": 60.8,
+    "ci": [
+     52.6,
+     68.4
+    ],
+    "wilson": [
+     52.2,
+     68.7
+    ],
+    "n": 130
+   },
+   "p_cons_false": {
+    "mean": 91.1,
+    "ci": [
+     82.0,
+     97.9
+    ],
+    "wilson": [
+     79.3,
+     96.5
+    ],
+    "n": 45
+   },
+   "diff": {
+    "mean": -30.3,
+    "ci": [
+     -41.2,
+     -19.1
+    ]
+   },
+   "share_true": 74.3
+  },
+  "cot|first|D-|behind": {
+   "n": 135,
+   "cells": {
+    "true_cons": 54,
+    "true_incons": 46,
+    "false_cons": 33,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 54.0,
+    "ci": [
+     44.1,
+     63.9
+    ],
+    "wilson": [
+     44.3,
+     63.4
+    ],
+    "n": 100
+   },
+   "p_cons_false": {
+    "mean": 94.3,
+    "ci": [
+     85.3,
+     100.0
+    ],
+    "wilson": [
+     81.4,
+     98.4
+    ],
+    "n": 35
+   },
+   "diff": {
+    "mean": -40.3,
+    "ci": [
+     -52.5,
+     -28.2
+    ]
+   },
+   "share_true": 74.1
+  },
+  "cot|first|D-|front": {
+   "n": 40,
+   "cells": {
+    "true_cons": 25,
+    "true_incons": 5,
+    "false_cons": 8,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 83.3,
+    "ci": [
+     69.0,
+     94.5
+    ],
+    "wilson": [
+     66.4,
+     92.7
+    ],
+    "n": 30
+   },
+   "p_cons_false": {
+    "mean": 80.0,
+    "ci": [
+     50.0,
+     100.0
+    ],
+    "wilson": [
+     49.0,
+     94.3
+    ],
+    "n": 10
+   },
+   "diff": {
+    "mean": 3.3,
+    "ci": [
+     -23.6,
+     34.8
+    ]
+   },
+   "share_true": 75.0
+  },
+  "cot|first|all": {
+   "n": 1514,
+   "cells": {
+    "true_cons": 1052,
+    "true_incons": 223,
+    "false_cons": 155,
+    "false_incons": 84
+   },
+   "p_cons_true": {
+    "mean": 82.5,
+    "ci": [
+     80.4,
+     84.5
+    ],
+    "wilson": [
+     80.3,
+     84.5
+    ],
+    "n": 1275
+   },
+   "p_cons_false": {
+    "mean": 64.9,
+    "ci": [
+     59.4,
+     70.5
+    ],
+    "wilson": [
+     58.6,
+     70.6
+    ],
+    "n": 239
+   },
+   "diff": {
+    "mean": 17.7,
+    "ci": [
+     11.6,
+     23.6
+    ]
+   },
+   "share_true": 84.2
+  },
+  "cot|first|behind": {
+   "n": 761,
+   "cells": {
+    "true_cons": 499,
+    "true_incons": 150,
+    "false_cons": 64,
+    "false_incons": 48
+   },
+   "p_cons_true": {
+    "mean": 76.9,
+    "ci": [
+     73.8,
+     80.1
+    ],
+    "wilson": [
+     73.5,
+     80.0
+    ],
+    "n": 649
+   },
+   "p_cons_false": {
+    "mean": 57.1,
+    "ci": [
+     48.4,
+     66.4
+    ],
+    "wilson": [
+     47.9,
+     65.9
+    ],
+    "n": 112
+   },
+   "diff": {
+    "mean": 19.7,
+    "ci": [
+     10.5,
+     28.6
+    ]
+   },
+   "share_true": 85.3
+  },
+  "cot|first|front": {
+   "n": 753,
+   "cells": {
+    "true_cons": 553,
+    "true_incons": 73,
+    "false_cons": 91,
+    "false_incons": 36
+   },
+   "p_cons_true": {
+    "mean": 88.3,
+    "ci": [
+     85.8,
+     90.7
+    ],
+    "wilson": [
+     85.6,
+     90.6
+    ],
+    "n": 626
+   },
+   "p_cons_false": {
+    "mean": 71.7,
+    "ci": [
+     63.2,
+     79.7
+    ],
+    "wilson": [
+     63.3,
+     78.8
+    ],
+    "n": 127
+   },
+   "diff": {
+    "mean": 16.7,
+    "ci": [
+     8.3,
+     25.1
+    ]
+   },
+   "share_true": 83.1
+  },
+  "cot|judge_commit_or_comparator|D+": {
+   "n": 1215,
+   "cells": {
+    "true_cons": 980,
+    "true_incons": 111,
+    "false_cons": 68,
+    "false_incons": 56
+   },
+   "p_cons_true": {
+    "mean": 89.8,
+    "ci": [
+     88.2,
+     91.4
+    ],
+    "wilson": [
+     87.9,
+     91.5
+    ],
+    "n": 1091
+   },
+   "p_cons_false": {
+    "mean": 54.8,
+    "ci": [
+     46.5,
+     63.6
+    ],
+    "wilson": [
+     46.1,
+     63.3
+    ],
+    "n": 124
+   },
+   "diff": {
+    "mean": 35.0,
+    "ci": [
+     26.2,
+     43.4
+    ]
+   },
+   "share_true": 89.8
+  },
+  "cot|judge_commit_or_comparator|D+|behind": {
+   "n": 563,
+   "cells": {
+    "true_cons": 444,
+    "true_incons": 65,
+    "false_cons": 15,
+    "false_incons": 39
+   },
+   "p_cons_true": {
+    "mean": 87.2,
+    "ci": [
+     84.5,
+     89.9
+    ],
+    "wilson": [
+     84.0,
+     89.9
+    ],
+    "n": 509
+   },
+   "p_cons_false": {
+    "mean": 27.8,
+    "ci": [
+     16.3,
+     40.5
+    ],
+    "wilson": [
+     17.6,
+     40.9
+    ],
+    "n": 54
+   },
+   "diff": {
+    "mean": 59.5,
+    "ci": [
+     46.6,
+     71.3
+    ]
+   },
+   "share_true": 90.4
+  },
+  "cot|judge_commit_or_comparator|D+|front": {
+   "n": 652,
+   "cells": {
+    "true_cons": 536,
+    "true_incons": 46,
+    "false_cons": 53,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 92.1,
+    "ci": [
+     90.0,
+     94.2
+    ],
+    "wilson": [
+     89.6,
+     94.0
+    ],
+    "n": 582
+   },
+   "p_cons_false": {
+    "mean": 75.7,
+    "ci": [
+     64.6,
+     85.5
+    ],
+    "wilson": [
+     64.5,
+     84.2
+    ],
+    "n": 70
+   },
+   "diff": {
+    "mean": 16.4,
+    "ci": [
+     6.3,
+     27.3
+    ]
+   },
+   "share_true": 89.3
+  },
+  "cot|last|C+": {
+   "n": 1136,
+   "cells": {
+    "true_cons": 1072,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 64
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.6,
+     100.0
+    ],
+    "n": 1072
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     5.7
+    ],
+    "n": 64
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 94.4
+  },
+  "cot|last|C-": {
+   "n": 378,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 151,
+    "false_cons": 227,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     2.5
+    ],
+    "n": 151
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.3,
+     100.0
+    ],
+    "n": 227
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 39.9
+  },
+  "cot|last|D+": {
+   "n": 1339,
+   "cells": {
+    "true_cons": 993,
+    "true_incons": 118,
+    "false_cons": 168,
+    "false_incons": 60
+   },
+   "p_cons_true": {
+    "mean": 89.4,
+    "ci": [
+     87.6,
+     91.2
+    ],
+    "wilson": [
+     87.4,
+     91.1
+    ],
+    "n": 1111
+   },
+   "p_cons_false": {
+    "mean": 73.7,
+    "ci": [
+     68.3,
+     79.1
+    ],
+    "wilson": [
+     67.6,
+     79.0
+    ],
+    "n": 228
+   },
+   "diff": {
+    "mean": 15.7,
+    "ci": [
+     10.0,
+     21.2
+    ]
+   },
+   "share_true": 83.0
+  },
+  "cot|last|D+|behind": {
+   "n": 626,
+   "cells": {
+    "true_cons": 448,
+    "true_incons": 49,
+    "false_cons": 86,
+    "false_incons": 43
+   },
+   "p_cons_true": {
+    "mean": 90.1,
+    "ci": [
+     87.8,
+     92.6
+    ],
+    "wilson": [
+     87.2,
+     92.5
+    ],
+    "n": 497
+   },
+   "p_cons_false": {
+    "mean": 66.7,
+    "ci": [
+     58.7,
+     74.2
+    ],
+    "wilson": [
+     58.2,
+     74.2
+    ],
+    "n": 129
+   },
+   "diff": {
+    "mean": 23.5,
+    "ci": [
+     15.3,
+     31.7
+    ]
+   },
+   "share_true": 79.4
+  },
+  "cot|last|D+|front": {
+   "n": 713,
+   "cells": {
+    "true_cons": 545,
+    "true_incons": 69,
+    "false_cons": 82,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 88.8,
+    "ci": [
+     86.2,
+     91.0
+    ],
+    "wilson": [
+     86.0,
+     91.0
+    ],
+    "n": 614
+   },
+   "p_cons_false": {
+    "mean": 82.8,
+    "ci": [
+     74.8,
+     90.2
+    ],
+    "wilson": [
+     74.2,
+     89.0
+    ],
+    "n": 99
+   },
+   "diff": {
+    "mean": 5.9,
+    "ci": [
+     -2.0,
+     14.4
+    ]
+   },
+   "share_true": 86.1
+  },
+  "cot|last|D-": {
+   "n": 175,
+   "cells": {
+    "true_cons": 79,
+    "true_incons": 33,
+    "false_cons": 59,
+    "false_incons": 4
+   },
+   "p_cons_true": {
+    "mean": 70.5,
+    "ci": [
+     62.1,
+     78.6
+    ],
+    "wilson": [
+     61.5,
+     78.2
+    ],
+    "n": 112
+   },
+   "p_cons_false": {
+    "mean": 93.7,
+    "ci": [
+     86.9,
+     98.5
+    ],
+    "wilson": [
+     84.8,
+     97.5
+    ],
+    "n": 63
+   },
+   "diff": {
+    "mean": -23.1,
+    "ci": [
+     -33.3,
+     -13.2
+    ]
+   },
+   "share_true": 64.0
+  },
+  "cot|last|D-|behind": {
+   "n": 135,
+   "cells": {
+    "true_cons": 54,
+    "true_incons": 32,
+    "false_cons": 47,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 62.8,
+    "ci": [
+     52.3,
+     72.8
+    ],
+    "wilson": [
+     52.2,
+     72.3
+    ],
+    "n": 86
+   },
+   "p_cons_false": {
+    "mean": 95.9,
+    "ci": [
+     89.8,
+     100.0
+    ],
+    "wilson": [
+     86.3,
+     98.9
+    ],
+    "n": 49
+   },
+   "diff": {
+    "mean": -33.1,
+    "ci": [
+     -44.9,
+     -22.2
+    ]
+   },
+   "share_true": 63.7
+  },
+  "cot|last|D-|front": {
+   "n": 40,
+   "cells": {
+    "true_cons": 25,
+    "true_incons": 1,
+    "false_cons": 12,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 96.2,
+    "ci": [
+     87.5,
+     100.0
+    ],
+    "wilson": [
+     81.1,
+     99.3
+    ],
+    "n": 26
+   },
+   "p_cons_false": {
+    "mean": 85.7,
+    "ci": [
+     66.7,
+     100.0
+    ],
+    "wilson": [
+     60.1,
+     96.0
+    ],
+    "n": 14
+   },
+   "diff": {
+    "mean": 10.4,
+    "ci": [
+     -6.9,
+     30.8
+    ]
+   },
+   "share_true": 65.0
+  },
+  "cot|last|all": {
+   "n": 1514,
+   "cells": {
+    "true_cons": 1072,
+    "true_incons": 151,
+    "false_cons": 227,
+    "false_incons": 64
+   },
+   "p_cons_true": {
+    "mean": 87.7,
+    "ci": [
+     85.8,
+     89.4
+    ],
+    "wilson": [
+     85.7,
+     89.4
+    ],
+    "n": 1223
+   },
+   "p_cons_false": {
+    "mean": 78.0,
+    "ci": [
+     73.5,
+     82.4
+    ],
+    "wilson": [
+     72.9,
+     82.4
+    ],
+    "n": 291
+   },
+   "diff": {
+    "mean": 9.6,
+    "ci": [
+     4.9,
+     14.5
+    ]
+   },
+   "share_true": 80.8
+  },
+  "cot|last|behind": {
+   "n": 761,
+   "cells": {
+    "true_cons": 502,
+    "true_incons": 81,
+    "false_cons": 133,
+    "false_incons": 45
+   },
+   "p_cons_true": {
+    "mean": 86.1,
+    "ci": [
+     83.2,
+     88.7
+    ],
+    "wilson": [
+     83.1,
+     88.7
+    ],
+    "n": 583
+   },
+   "p_cons_false": {
+    "mean": 74.7,
+    "ci": [
+     68.5,
+     80.6
+    ],
+    "wilson": [
+     67.9,
+     80.5
+    ],
+    "n": 178
+   },
+   "diff": {
+    "mean": 11.4,
+    "ci": [
+     4.9,
+     17.9
+    ]
+   },
+   "share_true": 76.6
+  },
+  "cot|last|front": {
+   "n": 753,
+   "cells": {
+    "true_cons": 570,
+    "true_incons": 70,
+    "false_cons": 94,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 89.1,
+    "ci": [
+     86.7,
+     91.4
+    ],
+    "wilson": [
+     86.4,
+     91.3
+    ],
+    "n": 640
+   },
+   "p_cons_false": {
+    "mean": 83.2,
+    "ci": [
+     76.4,
+     89.7
+    ],
+    "wilson": [
+     75.2,
+     89.0
+    ],
+    "n": 113
+   },
+   "diff": {
+    "mean": 5.9,
+    "ci": [
+     -1.2,
+     13.2
+    ]
+   },
+   "share_true": 85.0
+  },
+  "cot|last_body|C+": {
+   "n": 1132,
+   "cells": {
+    "true_cons": 1070,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 62
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.6,
+     100.0
+    ],
+    "n": 1070
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     -0.0,
+     5.8
+    ],
+    "n": 62
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 94.5
+  },
+  "cot|last_body|C-": {
+   "n": 375,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 163,
+    "false_cons": 212,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     2.3
+    ],
+    "n": 163
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     98.2,
+     100.0
+    ],
+    "n": 212
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 43.5
+  },
+  "cot|last_body|D+": {
+   "n": 1335,
+   "cells": {
+    "true_cons": 992,
+    "true_incons": 127,
+    "false_cons": 158,
+    "false_incons": 58
+   },
+   "p_cons_true": {
+    "mean": 88.7,
+    "ci": [
+     86.8,
+     90.4
+    ],
+    "wilson": [
+     86.7,
+     90.4
+    ],
+    "n": 1119
+   },
+   "p_cons_false": {
+    "mean": 73.1,
+    "ci": [
+     67.7,
+     78.8
+    ],
+    "wilson": [
+     66.9,
+     78.6
+    ],
+    "n": 216
+   },
+   "diff": {
+    "mean": 15.5,
+    "ci": [
+     9.9,
+     21.0
+    ]
+   },
+   "share_true": 83.8
+  },
+  "cot|last_body|D+|behind": {
+   "n": 624,
+   "cells": {
+    "true_cons": 449,
+    "true_incons": 57,
+    "false_cons": 77,
+    "false_incons": 41
+   },
+   "p_cons_true": {
+    "mean": 88.7,
+    "ci": [
+     86.2,
+     91.4
+    ],
+    "wilson": [
+     85.7,
+     91.2
+    ],
+    "n": 506
+   },
+   "p_cons_false": {
+    "mean": 65.3,
+    "ci": [
+     56.8,
+     73.2
+    ],
+    "wilson": [
+     56.3,
+     73.2
+    ],
+    "n": 118
+   },
+   "diff": {
+    "mean": 23.5,
+    "ci": [
+     15.3,
+     32.1
+    ]
+   },
+   "share_true": 81.1
+  },
+  "cot|last_body|D+|front": {
+   "n": 711,
+   "cells": {
+    "true_cons": 543,
+    "true_incons": 70,
+    "false_cons": 81,
+    "false_incons": 17
+   },
+   "p_cons_true": {
+    "mean": 88.6,
+    "ci": [
+     86.1,
+     91.1
+    ],
+    "wilson": [
+     85.8,
+     90.9
+    ],
+    "n": 613
+   },
+   "p_cons_false": {
+    "mean": 82.7,
+    "ci": [
+     74.8,
+     89.6
+    ],
+    "wilson": [
+     74.0,
+     88.9
+    ],
+    "n": 98
+   },
+   "diff": {
+    "mean": 5.9,
+    "ci": [
+     -1.6,
+     14.1
+    ]
+   },
+   "share_true": 86.2
+  },
+  "cot|last_body|D-": {
+   "n": 172,
+   "cells": {
+    "true_cons": 78,
+    "true_incons": 36,
+    "false_cons": 54,
+    "false_incons": 4
+   },
+   "p_cons_true": {
+    "mean": 68.4,
+    "ci": [
+     60.0,
+     76.9
+    ],
+    "wilson": [
+     59.4,
+     76.2
+    ],
+    "n": 114
+   },
+   "p_cons_false": {
+    "mean": 93.1,
+    "ci": [
+     86.4,
+     98.5
+    ],
+    "wilson": [
+     83.6,
+     97.3
+    ],
+    "n": 58
+   },
+   "diff": {
+    "mean": -24.7,
+    "ci": [
+     -34.4,
+     -14.8
+    ]
+   },
+   "share_true": 66.3
+  },
+  "cot|last_body|D-|behind": {
+   "n": 133,
+   "cells": {
+    "true_cons": 54,
+    "true_incons": 35,
+    "false_cons": 42,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 60.7,
+    "ci": [
+     50.0,
+     70.6
+    ],
+    "wilson": [
+     50.3,
+     70.2
+    ],
+    "n": 89
+   },
+   "p_cons_false": {
+    "mean": 95.5,
+    "ci": [
+     88.6,
+     100.0
+    ],
+    "wilson": [
+     84.9,
+     98.7
+    ],
+    "n": 44
+   },
+   "diff": {
+    "mean": -34.8,
+    "ci": [
+     -46.2,
+     -23.8
+    ]
+   },
+   "share_true": 66.9
+  },
+  "cot|last_body|D-|front": {
+   "n": 39,
+   "cells": {
+    "true_cons": 24,
+    "true_incons": 1,
+    "false_cons": 12,
+    "false_incons": 2
+   },
+   "p_cons_true": {
+    "mean": 96.0,
+    "ci": [
+     87.5,
+     100.0
+    ],
+    "wilson": [
+     80.5,
+     99.3
+    ],
+    "n": 25
+   },
+   "p_cons_false": {
+    "mean": 85.7,
+    "ci": [
+     64.7,
+     100.0
+    ],
+    "wilson": [
+     60.1,
+     96.0
+    ],
+    "n": 14
+   },
+   "diff": {
+    "mean": 10.3,
+    "ci": [
+     -7.7,
+     32.8
+    ]
+   },
+   "share_true": 64.1
+  },
+  "cot|last_body|all": {
+   "n": 1507,
+   "cells": {
+    "true_cons": 1070,
+    "true_incons": 163,
+    "false_cons": 212,
+    "false_incons": 62
+   },
+   "p_cons_true": {
+    "mean": 86.8,
+    "ci": [
+     85.0,
+     88.6
+    ],
+    "wilson": [
+     84.8,
+     88.6
+    ],
+    "n": 1233
+   },
+   "p_cons_false": {
+    "mean": 77.4,
+    "ci": [
+     72.6,
+     82.2
+    ],
+    "wilson": [
+     72.1,
+     81.9
+    ],
+    "n": 274
+   },
+   "diff": {
+    "mean": 9.4,
+    "ci": [
+     4.3,
+     14.4
+    ]
+   },
+   "share_true": 81.8
+  },
+  "cot|last_body|behind": {
+   "n": 757,
+   "cells": {
+    "true_cons": 503,
+    "true_incons": 92,
+    "false_cons": 119,
+    "false_incons": 43
+   },
+   "p_cons_true": {
+    "mean": 84.5,
+    "ci": [
+     81.8,
+     87.3
+    ],
+    "wilson": [
+     81.4,
+     87.2
+    ],
+    "n": 595
+   },
+   "p_cons_false": {
+    "mean": 73.5,
+    "ci": [
+     66.7,
+     79.7
+    ],
+    "wilson": [
+     66.2,
+     79.7
+    ],
+    "n": 162
+   },
+   "diff": {
+    "mean": 11.1,
+    "ci": [
+     4.0,
+     18.4
+    ]
+   },
+   "share_true": 78.6
+  },
+  "cot|last_body|front": {
+   "n": 750,
+   "cells": {
+    "true_cons": 567,
+    "true_incons": 71,
+    "false_cons": 93,
+    "false_incons": 19
+   },
+   "p_cons_true": {
+    "mean": 88.9,
+    "ci": [
+     86.5,
+     91.2
+    ],
+    "wilson": [
+     86.2,
+     91.1
+    ],
+    "n": 638
+   },
+   "p_cons_false": {
+    "mean": 83.0,
+    "ci": [
+     75.5,
+     89.6
+    ],
+    "wilson": [
+     75.0,
+     88.9
+    ],
+    "n": 112
+   },
+   "diff": {
+    "mean": 5.8,
+    "ci": [
+     -1.1,
+     13.5
+    ]
+   },
+   "share_true": 85.1
+  },
+  "desc_coverage": {
+   "n": 1600,
+   "judge_front": 1104,
+   "parser_last": 1000,
+   "parser_first": 1000,
+   "judge_mixed": 262,
+   "judge_back": 64,
+   "judge_NC": 100,
+   "judge_none": 24,
+   "judge_unclear": 46
+  },
+  "desc|judge|D+": {
+   "n": 1041,
+   "cells": {
+    "true_cons": 814,
+    "true_incons": 175,
+    "false_cons": 31,
+    "false_incons": 21
+   },
+   "p_cons_true": {
+    "mean": 82.3,
+    "ci": [
+     80.3,
+     84.4
+    ],
+    "wilson": [
+     79.8,
+     84.6
+    ],
+    "n": 989
+   },
+   "p_cons_false": {
+    "mean": 59.6,
+    "ci": [
+     48.6,
+     70.6
+    ],
+    "wilson": [
+     46.1,
+     71.8
+    ],
+    "n": 52
+   },
+   "diff": {
+    "mean": 22.7,
+    "ci": [
+     11.1,
+     34.0
+    ]
+   },
+   "share_true": 95.0
+  },
+  "desc|judge|D+|behind": {
+   "n": 482,
+   "cells": {
+    "true_cons": 324,
+    "true_incons": 134,
+    "false_cons": 12,
+    "false_incons": 12
+   },
+   "p_cons_true": {
+    "mean": 70.7,
+    "ci": [
+     66.9,
+     74.3
+    ],
+    "wilson": [
+     66.4,
+     74.7
+    ],
+    "n": 458
+   },
+   "p_cons_false": {
+    "mean": 50.0,
+    "ci": [
+     28.6,
+     71.4
+    ],
+    "wilson": [
+     31.4,
+     68.6
+    ],
+    "n": 24
+   },
+   "diff": {
+    "mean": 20.7,
+    "ci": [
+     -0.1,
+     42.3
+    ]
+   },
+   "share_true": 95.0
+  },
+  "desc|judge|D+|front": {
+   "n": 559,
+   "cells": {
+    "true_cons": 490,
+    "true_incons": 41,
+    "false_cons": 19,
+    "false_incons": 9
+   },
+   "p_cons_true": {
+    "mean": 92.3,
+    "ci": [
+     90.0,
+     94.3
+    ],
+    "wilson": [
+     89.7,
+     94.3
+    ],
+    "n": 531
+   },
+   "p_cons_false": {
+    "mean": 67.9,
+    "ci": [
+     50.0,
+     84.0
+    ],
+    "wilson": [
+     49.3,
+     82.1
+    ],
+    "n": 28
+   },
+   "diff": {
+    "mean": 24.4,
+    "ci": [
+     7.7,
+     42.8
+    ]
+   },
+   "share_true": 95.0
+  },
+  "desc|judge|D-": {
+   "n": 127,
+   "cells": {
+    "true_cons": 53,
+    "true_incons": 62,
+    "false_cons": 9,
+    "false_incons": 3
+   },
+   "p_cons_true": {
+    "mean": 46.1,
+    "ci": [
+     37.2,
+     54.9
+    ],
+    "wilson": [
+     37.3,
+     55.2
+    ],
+    "n": 115
+   },
+   "p_cons_false": {
+    "mean": 75.0,
+    "ci": [
+     44.4,
+     100.0
+    ],
+    "wilson": [
+     46.8,
+     91.1
+    ],
+    "n": 12
+   },
+   "diff": {
+    "mean": -28.9,
+    "ci": [
+     -54.5,
+     1.2
+    ]
+   },
+   "share_true": 90.6
+  },
+  "desc|judge|D-|behind": {
+   "n": 102,
+   "cells": {
+    "true_cons": 33,
+    "true_incons": 61,
+    "false_cons": 5,
+    "false_incons": 3
+   },
+   "p_cons_true": {
+    "mean": 35.1,
+    "ci": [
+     26.4,
+     44.3
+    ],
+    "wilson": [
+     26.2,
+     45.2
+    ],
+    "n": 94
+   },
+   "p_cons_false": {
+    "mean": 62.5,
+    "ci": [
+     25.0,
+     100.0
+    ],
+    "wilson": [
+     30.6,
+     86.3
+    ],
+    "n": 8
+   },
+   "diff": {
+    "mean": -27.4,
+    "ci": [
+     -64.3,
+     9.4
+    ]
+   },
+   "share_true": 92.2
+  },
+  "desc|judge|D-|front": {
+   "n": 25,
+   "cells": {
+    "true_cons": 20,
+    "true_incons": 1,
+    "false_cons": 4,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 95.2,
+    "ci": [
+     85.0,
+     100.0
+    ],
+    "wilson": [
+     77.3,
+     99.2
+    ],
+    "n": 21
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     51.0,
+     100.0
+    ],
+    "n": 4
+   },
+   "diff": {
+    "mean": -4.8,
+    "ci": [
+     -15.0,
+     0.0
+    ]
+   },
+   "share_true": 84.0
+  },
+  "desc|judge|all": {
+   "n": 1168,
+   "cells": {
+    "true_cons": 867,
+    "true_incons": 237,
+    "false_cons": 40,
+    "false_incons": 24
+   },
+   "p_cons_true": {
+    "mean": 78.5,
+    "ci": [
+     76.7,
+     80.4
+    ],
+    "wilson": [
+     76.0,
+     80.9
+    ],
+    "n": 1104
+   },
+   "p_cons_false": {
+    "mean": 62.5,
+    "ci": [
+     53.6,
+     71.4
+    ],
+    "wilson": [
+     50.3,
+     73.3
+    ],
+    "n": 64
+   },
+   "diff": {
+    "mean": 16.0,
+    "ci": [
+     7.1,
+     25.0
+    ]
+   },
+   "share_true": 94.5
+  },
+  "desc|judge|behind": {
+   "n": 584,
+   "cells": {
+    "true_cons": 357,
+    "true_incons": 195,
+    "false_cons": 17,
+    "false_incons": 15
+   },
+   "p_cons_true": {
+    "mean": 64.7,
+    "ci": [
+     61.3,
+     68.1
+    ],
+    "wilson": [
+     60.6,
+     68.5
+    ],
+    "n": 552
+   },
+   "p_cons_false": {
+    "mean": 53.1,
+    "ci": [
+     36.0,
+     69.6
+    ],
+    "wilson": [
+     36.4,
+     69.1
+    ],
+    "n": 32
+   },
+   "diff": {
+    "mean": 11.5,
+    "ci": [
+     -4.5,
+     28.7
+    ]
+   },
+   "share_true": 94.5
+  },
+  "desc|judge|desc+": {
+   "n": 891,
+   "cells": {
+    "true_cons": 867,
+    "true_incons": 0,
+    "false_cons": 0,
+    "false_incons": 24
+   },
+   "p_cons_true": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     99.6,
+     100.0
+    ],
+    "n": 867
+   },
+   "p_cons_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     13.8
+    ],
+    "n": 24
+   },
+   "diff": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ]
+   },
+   "share_true": 97.3
+  },
+  "desc|judge|desc-": {
+   "n": 277,
+   "cells": {
+    "true_cons": 0,
+    "true_incons": 237,
+    "false_cons": 40,
+    "false_incons": 0
+   },
+   "p_cons_true": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "wilson": [
+     0.0,
+     1.6
+    ],
+    "n": 237
+   },
+   "p_cons_false": {
+    "mean": 100.0,
+    "ci": [
+     100.0,
+     100.0
+    ],
+    "wilson": [
+     91.2,
+     100.0
+    ],
+    "n": 40
+   },
+   "diff": {
+    "mean": -100.0,
+    "ci": [
+     -100.0,
+     -100.0
+    ]
+   },
+   "share_true": 85.6
+  },
+  "desc|judge|front": {
+   "n": 584,
+   "cells": {
+    "true_cons": 510,
+    "true_incons": 42,
+    "false_cons": 23,
+    "false_incons": 9
+   },
+   "p_cons_true": {
+    "mean": 92.4,
+    "ci": [
+     90.2,
+     94.4
+    ],
+    "wilson": [
+     89.9,
+     94.3
+    ],
+    "n": 552
+   },
+   "p_cons_false": {
+    "mean": 71.9,
+    "ci": [
+     56.2,
+     87.1
+    ],
+    "wilson": [
+     54.6,
+     84.4
+    ],
+    "n": 32
+   },
+   "diff": {
+    "mean": 20.5,
+    "ci": [
+     5.7,
+     36.3
+    ]
+   },
+   "share_true": 94.5
+  },
+  "desc|parser_first|D+": {
+   "n": 897,
+   "cells": {
+    "true_cons": 662,
+    "true_incons": 116,
+    "false_cons": 45,
+    "false_incons": 74
+   },
+   "p_cons_true": {
+    "mean": 85.1,
+    "ci": [
+     82.9,
+     87.2
+    ],
+    "wilson": [
+     82.4,
+     87.4
+    ],
+    "n": 778
+   },
+   "p_cons_false": {
+    "mean": 37.8,
+    "ci": [
+     30.4,
+     45.1
+    ],
+    "wilson": [
+     29.6,
+     46.8
+    ],
+    "n": 119
+   },
+   "diff": {
+    "mean": 47.3,
+    "ci": [
+     39.5,
+     54.8
+    ]
+   },
+   "share_true": 86.7
+  },
+  "desc|parser_first|D-": {
+   "n": 103,
+   "cells": {
+    "true_cons": 34,
+    "true_incons": 46,
+    "false_cons": 15,
+    "false_incons": 8
+   },
+   "p_cons_true": {
+    "mean": 42.5,
+    "ci": [
+     31.9,
+     53.2
+    ],
+    "wilson": [
+     32.3,
+     53.4
+    ],
+    "n": 80
+   },
+   "p_cons_false": {
+    "mean": 65.2,
+    "ci": [
+     42.9,
+     85.0
+    ],
+    "wilson": [
+     44.9,
+     81.2
+    ],
+    "n": 23
+   },
+   "diff": {
+    "mean": -22.7,
+    "ci": [
+     -45.7,
+     0.6
+    ]
+   },
+   "share_true": 77.7
+  },
+  "desc|parser_first|all": {
+   "n": 1000,
+   "cells": {
+    "true_cons": 696,
+    "true_incons": 162,
+    "false_cons": 60,
+    "false_incons": 82
+   },
+   "p_cons_true": {
+    "mean": 81.1,
+    "ci": [
+     79.0,
+     83.3
+    ],
+    "wilson": [
+     78.4,
+     83.6
+    ],
+    "n": 858
+   },
+   "p_cons_false": {
+    "mean": 42.3,
+    "ci": [
+     34.7,
+     50.0
+    ],
+    "wilson": [
+     34.4,
+     50.5
+    ],
+    "n": 142
+   },
+   "diff": {
+    "mean": 38.9,
+    "ci": [
+     30.7,
+     46.8
+    ]
+   },
+   "share_true": 85.8
+  },
+  "desc|parser_first|behind": {
+   "n": 500,
+   "cells": {
+    "true_cons": 303,
+    "true_incons": 126,
+    "false_cons": 31,
+    "false_incons": 40
+   },
+   "p_cons_true": {
+    "mean": 70.6,
+    "ci": [
+     66.8,
+     74.3
+    ],
+    "wilson": [
+     66.2,
+     74.7
+    ],
+    "n": 429
+   },
+   "p_cons_false": {
+    "mean": 43.7,
+    "ci": [
+     32.9,
+     55.4
+    ],
+    "wilson": [
+     32.7,
+     55.2
+    ],
+    "n": 71
+   },
+   "diff": {
+    "mean": 27.0,
+    "ci": [
+     15.0,
+     37.7
+    ]
+   },
+   "share_true": 85.8
+  },
+  "desc|parser_first|front": {
+   "n": 500,
+   "cells": {
+    "true_cons": 393,
+    "true_incons": 36,
+    "false_cons": 29,
+    "false_incons": 42
+   },
+   "p_cons_true": {
+    "mean": 91.6,
+    "ci": [
+     88.8,
+     94.0
+    ],
+    "wilson": [
+     88.6,
+     93.9
+    ],
+    "n": 429
+   },
+   "p_cons_false": {
+    "mean": 40.8,
+    "ci": [
+     28.9,
+     52.7
+    ],
+    "wilson": [
+     30.2,
+     52.5
+    ],
+    "n": 71
+   },
+   "diff": {
+    "mean": 50.8,
+    "ci": [
+     38.4,
+     62.9
+    ]
+   },
+   "share_true": 85.8
+  },
+  "desc|parser_last|D+": {
+   "n": 897,
+   "cells": {
+    "true_cons": 574,
+    "true_incons": 108,
+    "false_cons": 53,
+    "false_incons": 162
+   },
+   "p_cons_true": {
+    "mean": 84.2,
+    "ci": [
+     81.7,
+     86.6
+    ],
+    "wilson": [
+     81.2,
+     86.7
+    ],
+    "n": 682
+   },
+   "p_cons_false": {
+    "mean": 24.7,
+    "ci": [
+     19.3,
+     30.4
+    ],
+    "wilson": [
+     19.4,
+     30.8
+    ],
+    "n": 215
+   },
+   "diff": {
+    "mean": 59.5,
+    "ci": [
+     53.2,
+     65.5
+    ]
+   },
+   "share_true": 76.0
+  },
+  "desc|parser_last|D-": {
+   "n": 103,
+   "cells": {
+    "true_cons": 30,
+    "true_incons": 42,
+    "false_cons": 19,
+    "false_incons": 12
+   },
+   "p_cons_true": {
+    "mean": 41.7,
+    "ci": [
+     31.0,
+     52.1
+    ],
+    "wilson": [
+     31.0,
+     53.2
+    ],
+    "n": 72
+   },
+   "p_cons_false": {
+    "mean": 61.3,
+    "ci": [
+     42.9,
+     79.2
+    ],
+    "wilson": [
+     43.8,
+     76.3
+    ],
+    "n": 31
+   },
+   "diff": {
+    "mean": -19.6,
+    "ci": [
+     -40.5,
+     1.8
+    ]
+   },
+   "share_true": 69.9
+  },
+  "desc|parser_last|all": {
+   "n": 1000,
+   "cells": {
+    "true_cons": 604,
+    "true_incons": 150,
+    "false_cons": 72,
+    "false_incons": 174
+   },
+   "p_cons_true": {
+    "mean": 80.1,
+    "ci": [
+     77.6,
+     82.6
+    ],
+    "wilson": [
+     77.1,
+     82.8
+    ],
+    "n": 754
+   },
+   "p_cons_false": {
+    "mean": 29.3,
+    "ci": [
+     23.8,
+     35.2
+    ],
+    "wilson": [
+     23.9,
+     35.2
+    ],
+    "n": 246
+   },
+   "diff": {
+    "mean": 50.8,
+    "ci": [
+     44.6,
+     56.7
+    ]
+   },
+   "share_true": 75.4
+  },
+  "desc|parser_last|behind": {
+   "n": 500,
+   "cells": {
+    "true_cons": 260,
+    "true_incons": 117,
+    "false_cons": 40,
+    "false_incons": 83
+   },
+   "p_cons_true": {
+    "mean": 69.0,
+    "ci": [
+     64.6,
+     73.3
+    ],
+    "wilson": [
+     64.1,
+     73.4
+    ],
+    "n": 377
+   },
+   "p_cons_false": {
+    "mean": 32.5,
+    "ci": [
+     24.4,
+     40.8
+    ],
+    "wilson": [
+     24.9,
+     41.2
+    ],
+    "n": 123
+   },
+   "diff": {
+    "mean": 36.4,
+    "ci": [
+     27.5,
+     45.1
+    ]
+   },
+   "share_true": 75.4
+  },
+  "desc|parser_last|front": {
+   "n": 500,
+   "cells": {
+    "true_cons": 344,
+    "true_incons": 33,
+    "false_cons": 32,
+    "false_incons": 91
+   },
+   "p_cons_true": {
+    "mean": 91.2,
+    "ci": [
+     88.3,
+     93.9
+    ],
+    "wilson": [
+     88.0,
+     93.7
+    ],
+    "n": 377
+   },
+   "p_cons_false": {
+    "mean": 26.0,
+    "ci": [
+     18.6,
+     34.1
+    ],
+    "wilson": [
+     19.1,
+     34.4
+    ],
+    "n": 123
+   },
+   "diff": {
+    "mean": 65.2,
+    "ci": [
+     57.0,
+     72.9
+    ]
+   },
+   "share_true": 75.4
+  },
+  "desc_parser_vs_judge": {
+   "n": 372,
+   "agree_pct": 85.5
+  }
+ }
+}

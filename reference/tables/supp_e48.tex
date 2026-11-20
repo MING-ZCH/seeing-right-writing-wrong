@@ -1,0 +1,41 @@
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Model / writing arm} & \textbf{\shortstack{MiMo-VL-7B-RL\\think}} & \textbf{\shortstack{MiMo-VL-7B-RL\\short CoT}} & \textbf{\shortstack{GLM-4.1V-9B-Th.\\think}} & \textbf{\shortstack{GLM-4.1V-9B-Th.\\short CoT}} \\
+\midrule
+\multicolumn{5}{@{}l@{}}{\textit{\textbf{Who reads occlusion? Cue-factorial set, \texttt{Direct} (empty think block)}}} \\
+Accuracy (\%) & $73.9${\tiny[71.5,76.4]} & $73.9${\tiny[71.5,76.4]} & $73.9${\tiny[71.3,76.4]} & $73.9${\tiny[71.3,76.4]} \\
+Occlusion weight $d'$ & $2.39${\tiny[2.17,2.71]} & $2.39${\tiny[2.17,2.71]} & $3.13${\tiny[2.79,4.26]} & $3.13${\tiny[2.79,4.26]} \\
+Follows lower-is-closer (\%) & $74.3$ & $74.3$ & $75.9$ & $75.9$ \\
+Occlusion-competent & \textbf{yes} & \textbf{yes} & \textbf{yes} & \textbf{yes} \\
+\midrule
+\multicolumn{5}{@{}l@{}}{\textit{\textbf{Claim 1: what writing does to cue reliance (writing arm$-$\texttt{Direct}, cue set)}}} \\
+Writing-arm accuracy (\%) & $79.6$ & $77.1$ & $82.1$ & $81.0$ \\
+Occlusion weight $\Delta d'$ (probit) & $-0.54${\tiny[$-$0.80,$-$0.30]} & $-0.26${\tiny[$-$0.54,+0.00]} & $+0.43${\tiny[$-$0.70,+0.82]} & $-0.08${\tiny[$-$1.24,+0.35]} \\
+Vertical weight $\Delta d'$ & $-1.49$$^\ast$ & $-0.94$$^\ast$ & $-0.97$$^\ast$ & $-1.18$$^\ast$ \\
+Occlusion AME $\Delta$ (pts, primary) & $+11.2$$^\ast$ & $+6.2$$^\ast$ & $+16.7$$^\ast$ & $+14.2$$^\ast$ \\
+Height AME $\Delta$ (pts) & $-24.9$$^\ast$ & $-15.8$$^\ast$ & $-19.7$$^\ast$ & $-18.5$$^\ast$ \\
+Cue-set accuracy $\Delta$ (pts) & $+5.7${\tiny[+3.6,+7.9]} & $+3.2${\tiny[+1.3,+5.1]} & $+8.2${\tiny[+6.4,+10.1]} & $+7.1${\tiny[+5.4,+8.9]} \\
+Cue-set $\Delta d'_\mathrm{pair}$ & $+0.68$$^\ast$ & $+0.46$$^\ast$ & $+1.01$$^\ast$ & $+0.77$$^\ast$ \\
+\texttt{D+C$-$} / \texttt{D$-$C+}; net (pts) & $130$ / $221$; $+5.7$ & $107$ / $158$; $+3.2$ & $32$ / $164$; $+8.2$ & $50$ / $164$; $+7.1$ \\
+\midrule
+\multicolumn{5}{@{}l@{}}{\textit{\textbf{Occlusion twins ($800$ queries)}}} \\
+\texttt{Direct} / writing-arm accuracy (\%) & $76.9$ / $80.9$ & $76.9$ / $81.1$ & $76.6$ / $86.2$ & $76.6$ / $83.8$ \\
+Accuracy $\Delta$ (pts) & $+4.0${\tiny[+0.6,+7.2]} & $+4.2${\tiny[+1.6,+7.0]} & $+9.6${\tiny[+6.9,+12.4]} & $+7.1${\tiny[+4.6,+9.9]} \\
+Twins $\Delta d'_\mathrm{pair}$ & $+0.59$$^\ast$ & $+0.53$$^\ast$ & $+1.57$$^\ast$ & $+0.90$$^\ast$ \\
+\texttt{D+C$-$} / \texttt{D$-$C+} & $71$ / $103$ & $43$ / $77$ & $11$ / $88$ & $21$ / $78$ \\
+\midrule
+\multicolumn{5}{@{}l@{}}{\textit{\textbf{Written relation, two-judge extraction (last front/behind statement, conclusion kept)}}} \\
+Coverage: cues / twins (\%) & $95.2$ / $96.0$ & $98.1$ / $97.6$ & $97.8$ / $98.2$ & $98.5$ / $98.9$ \\
+Written relation accuracy, cues (\%) & $80.7$ & $78.3$ & $82.9$ & $82.0$ \\
+Answer agrees: true / false relation, cues (\%) & $98.9$ / $94.2$ & $99.1$ / $98.8$ & $99.2$ / $96.3$ & $99.2$ / $99.3$ \\
+Two channels, cues: $x$ / $y$ (pts) & $+6.5$$^\ast$ / $+5.7$ & $+3.8$$^\ast$ / $+3.2$ & $+8.4$$^\ast$ / $+8.2$ & $+7.5$$^\ast$ / $+7.1$ \\
+Two channels, twins: $x$ / $y$ (pts) & $+5.0$$^\ast$ / $+4.0$ & $+4.7$$^\ast$ / $+4.2$ & $+9.5$$^\ast$ / $+9.6$ & $+7.5$$^\ast$ / $+7.1$ \\
+\midrule
+\multicolumn{5}{@{}l@{}}{\textit{\textbf{Held-out natural depth: \texttt{Direct} / writing arm (\%), $\Delta$ (pts)}}} \\
+BLINK Rel.\ Depth ($124$) & $71.8$ / $79.8$; $+8.1$ & $71.8$ / $68.5$; $-3.2$ & $92.7$ / $91.1$; $-1.6$ & $92.7$ / $91.9$; $-0.8$ \\
+CV-Bench 3D Depth ($600$) & $81.7$ / $86.0$; $+4.3$$^\ast$ & $81.7$ / $82.7$; $+1.0$ & $87.8$ / $92.2$; $+4.3$$^\ast$ & $87.8$ / $92.0$; $+4.2$$^\ast$ \\
+BLINK: $x$ / $y$ (pts), judges (coverage) & $+8.5$ / $+8.1$ (94\%) & $-0.9$ / $-3.2$ (94\%) & $-0.9$ / $-1.6$ (94\%) & $-0.9$ / $-0.8$ (94\%) \\
+CV-Bench: $x$ / $y$ (pts), judges (coverage) & $+4.9$$^\ast$ / $+4.3$ (98\%) & $+1.0$ / $+1.0$ (100\%) & $+4.7$$^\ast$ / $+4.3$ (100\%) & $+4.0$$^\ast$ / $+4.2$ (99\%) \\
+\bottomrule
+\multicolumn{5}{p{0.95\linewidth}}{\scriptsize Same cue-factorial queries ($1{,}600$), occlusion twins ($800$), image budget and statistics as \cref{M-tab:profile} and \cref{tab:supp_e31}; one greedy run per model. Neither chat template has a thinking switch, so \texttt{Direct} = empty think block, then ``Answer: (''. think: the model's native trace ($\le 4{,}096$ tokens, mean $150$ / $120$ tokens for MiMo-VL / GLM-4.1V), closed, then ``Answer: (''. short CoT: empty think block, then ``Let's think step by step.'' ($\le 512$ tokens) and the same-turn readout. Readout: MiMo-VL exact full-vocabulary letter scores (vLLM V0), GLM-4.1V top-20 letter scores (vLLM V1). Probability-scale AME is the primary cue-effect scale (\cref{M-tab:profile,sec:supp_cues}). $^\ast$: $95\%$ CI excludes zero (twin-pair or image bootstrap). $x$: last written relation accuracy minus \texttt{Direct} accuracy on items with a relation; $y$: writing arm$-$\texttt{Direct} accuracy on all items. Two-judge rows: relation named by both Claude Opus 5.5 and GPT-6-Astra (text only); synthetic sets with the conclusion kept (prompt of \cref{tab:supp_e38}), natural sets with the conclusion removed (prompt of \cref{tab:supp_e35}). The rule parser (v3) misassigns two-clause sentences that name both shapes (``the triangle is in front, and the circle is behind it''), which are frequent in the think traces (GLM-4.1V coverage $60$--$67\%$), so written-relation numbers use the two judges; parser-v3 rows are in the released outputs.} \\
+\end{tabular}

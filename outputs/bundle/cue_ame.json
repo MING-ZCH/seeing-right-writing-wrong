@@ -1,0 +1,1244 @@
+{
+ "nb": 1000,
+ "models": {
+  "qwen3b": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 4.7,
+      "ci": [
+       2.8,
+       6.7
+      ]
+     },
+     "cot": {
+      "est": 6.0,
+      "ci": [
+       1.9,
+       9.8
+      ]
+     },
+     "cot-direct": {
+      "est": 1.3,
+      "ci": [
+       -2.8,
+       5.5
+      ]
+     },
+     "retained": 1.27
+    },
+    "diff": {
+     "direct": {
+      "est": 4.9,
+      "ci": [
+       -4.3,
+       13.8
+      ]
+     },
+     "cot": {
+      "est": 6.0,
+      "ci": [
+       0.5,
+       11.2
+      ]
+     },
+     "cot-direct": {
+      "est": 1.1,
+      "ci": [
+       -5.5,
+       7.9
+      ]
+     },
+     "retained": 1.23
+    },
+    "probit_d": {
+     "direct": 0.69,
+     "cot": 0.18
+    },
+    "auc_from_diff": {
+     "direct": 0.524,
+     "cot": 0.53
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 92.4,
+      "ci": [
+       90.2,
+       94.1
+      ]
+     },
+     "cot": {
+      "est": 38.7,
+      "ci": [
+       34.8,
+       42.6
+      ]
+     },
+     "cot-direct": {
+      "est": -53.6,
+      "ci": [
+       -57.5,
+       -49.6
+      ]
+     },
+     "retained": 0.42
+    },
+    "diff": {
+     "direct": {
+      "est": 92.4,
+      "ci": [
+       90.1,
+       94.1
+      ]
+     },
+     "cot": {
+      "est": 39.0,
+      "ci": [
+       35.0,
+       42.7
+      ]
+     },
+     "cot-direct": {
+      "est": -53.4,
+      "ci": [
+       -57.4,
+       -49.4
+      ]
+     },
+     "retained": 0.42
+    },
+    "probit_d": {
+     "direct": 4.08,
+     "cot": 1.08
+    },
+    "auc_from_diff": {
+     "direct": 0.962,
+     "cot": 0.695
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": 0.5,
+      "ci": [
+       -1.5,
+       2.4
+      ]
+     },
+     "cot": {
+      "est": -2.8,
+      "ci": [
+       -6.4,
+       1.3
+      ]
+     },
+     "cot-direct": {
+      "est": -3.3,
+      "ci": [
+       -7.3,
+       0.8
+      ]
+     },
+     "retained": -5.71
+    },
+    "diff": {
+     "direct": {
+      "est": 0.1,
+      "ci": [
+       -8.4,
+       9.6
+      ]
+     },
+     "cot": {
+      "est": -2.7,
+      "ci": [
+       -7.9,
+       2.9
+      ]
+     },
+     "cot-direct": {
+      "est": -2.9,
+      "ci": [
+       -9.5,
+       3.7
+      ]
+     },
+     "retained": -22.0
+    },
+    "probit_d": {
+     "direct": 0.07,
+     "cot": -0.08
+    },
+    "auc_from_diff": {
+     "direct": 0.501,
+     "cot": 0.486
+    }
+   }
+  },
+  "qwen7b": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 6.5,
+      "ci": [
+       4.5,
+       8.7
+      ]
+     },
+     "cot": {
+      "est": 13.3,
+      "ci": [
+       9.8,
+       17.0
+      ]
+     },
+     "cot-direct": {
+      "est": 6.8,
+      "ci": [
+       3.1,
+       10.8
+      ]
+     },
+     "retained": 2.04
+    },
+    "diff": {
+     "direct": {
+      "est": 6.8,
+      "ci": [
+       -2.6,
+       15.5
+      ]
+     },
+     "cot": {
+      "est": 13.8,
+      "ci": [
+       8.4,
+       19.0
+      ]
+     },
+     "cot-direct": {
+      "est": 7.0,
+      "ci": [
+       1.0,
+       13.8
+      ]
+     },
+     "retained": 2.04
+    },
+    "probit_d": {
+     "direct": 0.91,
+     "cot": 0.57
+    },
+    "auc_from_diff": {
+     "direct": 0.534,
+     "cot": 0.569
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 91.5,
+      "ci": [
+       89.3,
+       93.5
+      ]
+     },
+     "cot": {
+      "est": 41.4,
+      "ci": [
+       37.5,
+       45.2
+      ]
+     },
+     "cot-direct": {
+      "est": -50.1,
+      "ci": [
+       -54.1,
+       -46.3
+      ]
+     },
+     "retained": 0.45
+    },
+    "diff": {
+     "direct": {
+      "est": 91.5,
+      "ci": [
+       89.1,
+       93.5
+      ]
+     },
+     "cot": {
+      "est": 41.0,
+      "ci": [
+       36.7,
+       45.3
+      ]
+     },
+     "cot-direct": {
+      "est": -50.5,
+      "ci": [
+       -54.7,
+       -46.7
+      ]
+     },
+     "retained": 0.45
+    },
+    "probit_d": {
+     "direct": 3.86,
+     "cot": 1.68
+    },
+    "auc_from_diff": {
+     "direct": 0.957,
+     "cot": 0.705
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": -1.1,
+      "ci": [
+       -3.0,
+       0.9
+      ]
+     },
+     "cot": {
+      "est": 1.5,
+      "ci": [
+       -2.1,
+       5.2
+      ]
+     },
+     "cot-direct": {
+      "est": 2.6,
+      "ci": [
+       -1.2,
+       6.4
+      ]
+     },
+     "retained": -1.37
+    },
+    "diff": {
+     "direct": {
+      "est": -1.5,
+      "ci": [
+       -9.9,
+       8.0
+      ]
+     },
+     "cot": {
+      "est": 1.0,
+      "ci": [
+       -4.2,
+       6.6
+      ]
+     },
+     "cot-direct": {
+      "est": 2.5,
+      "ci": [
+       -3.5,
+       8.5
+      ]
+     },
+     "retained": -0.67
+    },
+    "probit_d": {
+     "direct": -0.13,
+     "cot": 0.07
+    },
+    "auc_from_diff": {
+     "direct": 0.492,
+     "cot": 0.505
+    }
+   }
+  },
+  "internvl3_8b": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 27.3,
+      "ci": [
+       24.3,
+       30.3
+      ]
+     },
+     "cot": {
+      "est": 36.9,
+      "ci": [
+       32.9,
+       40.8
+      ]
+     },
+     "cot-direct": {
+      "est": 9.6,
+      "ci": [
+       4.9,
+       14.3
+      ]
+     },
+     "retained": 1.35
+    },
+    "diff": {
+     "direct": {
+      "est": 27.4,
+      "ci": [
+       20.0,
+       34.5
+      ]
+     },
+     "cot": {
+      "est": 36.9,
+      "ci": [
+       32.6,
+       41.2
+      ]
+     },
+     "cot-direct": {
+      "est": 9.5,
+      "ci": [
+       2.8,
+       16.5
+      ]
+     },
+     "retained": 1.35
+    },
+    "probit_d": {
+     "direct": 1.81,
+     "cot": 1.24
+    },
+    "auc_from_diff": {
+     "direct": 0.637,
+     "cot": 0.684
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 70.0,
+      "ci": [
+       67.0,
+       73.2
+      ]
+     },
+     "cot": {
+      "est": 17.1,
+      "ci": [
+       12.9,
+       20.9
+      ]
+     },
+     "cot-direct": {
+      "est": -52.9,
+      "ci": [
+       -57.8,
+       -48.0
+      ]
+     },
+     "retained": 0.24
+    },
+    "diff": {
+     "direct": {
+      "est": 70.1,
+      "ci": [
+       65.9,
+       73.9
+      ]
+     },
+     "cot": {
+      "est": 17.3,
+      "ci": [
+       11.9,
+       22.5
+      ]
+     },
+     "cot-direct": {
+      "est": -52.8,
+      "ci": [
+       -57.8,
+       -47.7
+      ]
+     },
+     "retained": 0.25
+    },
+    "probit_d": {
+     "direct": 3.05,
+     "cot": 0.61
+    },
+    "auc_from_diff": {
+     "direct": 0.85,
+     "cot": 0.586
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": 2.2,
+      "ci": [
+       -0.8,
+       5.4
+      ]
+     },
+     "cot": {
+      "est": 6.8,
+      "ci": [
+       3.2,
+       10.4
+      ]
+     },
+     "cot-direct": {
+      "est": 4.6,
+      "ci": [
+       -0.4,
+       8.9
+      ]
+     },
+     "retained": 3.11
+    },
+    "diff": {
+     "direct": {
+      "est": 2.1,
+      "ci": [
+       -5.3,
+       10.1
+      ]
+     },
+     "cot": {
+      "est": 6.6,
+      "ci": [
+       1.2,
+       11.9
+      ]
+     },
+     "cot-direct": {
+      "est": 4.5,
+      "ci": [
+       -3.0,
+       11.3
+      ]
+     },
+     "retained": 3.12
+    },
+    "probit_d": {
+     "direct": 0.13,
+     "cot": 0.24
+    },
+    "auc_from_diff": {
+     "direct": 0.511,
+     "cot": 0.533
+    }
+   }
+  },
+  "phi35v": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 19.2,
+      "ci": [
+       15.6,
+       22.8
+      ]
+     },
+     "cot": {
+      "est": 14.4,
+      "ci": [
+       10.4,
+       18.4
+      ]
+     },
+     "cot-direct": {
+      "est": -4.9,
+      "ci": [
+       -10.0,
+       0.1
+      ]
+     },
+     "retained": 0.75
+    },
+    "diff": {
+     "direct": {
+      "est": 19.0,
+      "ci": [
+       14.5,
+       23.6
+      ]
+     },
+     "cot": {
+      "est": 14.5,
+      "ci": [
+       10.5,
+       18.6
+      ]
+     },
+     "cot-direct": {
+      "est": -4.5,
+      "ci": [
+       -9.9,
+       0.5
+      ]
+     },
+     "retained": 0.76
+    },
+    "probit_d": {
+     "direct": 0.72,
+     "cot": 0.4
+    },
+    "auc_from_diff": {
+     "direct": 0.595,
+     "cot": 0.573
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 24.7,
+      "ci": [
+       21.2,
+       28.3
+      ]
+     },
+     "cot": {
+      "est": 10.4,
+      "ci": [
+       6.6,
+       14.6
+      ]
+     },
+     "cot-direct": {
+      "est": -14.2,
+      "ci": [
+       -19.1,
+       -9.1
+      ]
+     },
+     "retained": 0.42
+    },
+    "diff": {
+     "direct": {
+      "est": 25.2,
+      "ci": [
+       21.1,
+       29.5
+      ]
+     },
+     "cot": {
+      "est": 10.7,
+      "ci": [
+       6.8,
+       15.3
+      ]
+     },
+     "cot-direct": {
+      "est": -14.5,
+      "ci": [
+       -19.7,
+       -9.1
+      ]
+     },
+     "retained": 0.42
+    },
+    "probit_d": {
+     "direct": 0.91,
+     "cot": 0.29
+    },
+    "auc_from_diff": {
+     "direct": 0.626,
+     "cot": 0.553
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": -13.3,
+      "ci": [
+       -16.6,
+       -9.8
+      ]
+     },
+     "cot": {
+      "est": 0.1,
+      "ci": [
+       -3.8,
+       4.6
+      ]
+     },
+     "cot-direct": {
+      "est": 13.4,
+      "ci": [
+       8.4,
+       18.7
+      ]
+     },
+     "retained": -0.01
+    },
+    "diff": {
+     "direct": {
+      "est": -13.5,
+      "ci": [
+       -17.9,
+       -8.8
+      ]
+     },
+     "cot": {
+      "est": 0.3,
+      "ci": [
+       -4.0,
+       5.0
+      ]
+     },
+     "cot-direct": {
+      "est": 13.8,
+      "ci": [
+       8.7,
+       19.1
+      ]
+     },
+     "retained": -0.02
+    },
+    "probit_d": {
+     "direct": -0.5,
+     "cot": 0.0
+    },
+    "auc_from_diff": {
+     "direct": 0.432,
+     "cot": 0.501
+    }
+   }
+  },
+  "molmo7b": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 76.2,
+      "ci": [
+       73.6,
+       78.8
+      ]
+     },
+     "cot": {
+      "est": 50.1,
+      "ci": [
+       46.2,
+       54.0
+      ]
+     },
+     "cot-direct": {
+      "est": -26.1,
+      "ci": [
+       -30.4,
+       -21.6
+      ]
+     },
+     "retained": 0.66
+    },
+    "diff": {
+     "direct": {
+      "est": 76.4,
+      "ci": [
+       73.6,
+       79.1
+      ]
+     },
+     "cot": {
+      "est": 50.1,
+      "ci": [
+       46.3,
+       54.4
+      ]
+     },
+     "cot-direct": {
+      "est": -26.2,
+      "ci": [
+       -30.5,
+       -21.9
+      ]
+     },
+     "retained": 0.66
+    },
+    "probit_d": {
+     "direct": 2.72,
+     "cot": 1.54
+    },
+    "auc_from_diff": {
+     "direct": 0.882,
+     "cot": 0.751
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 14.4,
+      "ci": [
+       11.8,
+       17.0
+      ]
+     },
+     "cot": {
+      "est": 8.4,
+      "ci": [
+       4.6,
+       12.5
+      ]
+     },
+     "cot-direct": {
+      "est": -5.9,
+      "ci": [
+       -10.2,
+       -2.0
+      ]
+     },
+     "retained": 0.59
+    },
+    "diff": {
+     "direct": {
+      "est": 14.6,
+      "ci": [
+       6.6,
+       22.3
+      ]
+     },
+     "cot": {
+      "est": 8.3,
+      "ci": [
+       2.1,
+       14.8
+      ]
+     },
+     "cot-direct": {
+      "est": -6.3,
+      "ci": [
+       -11.4,
+       -1.4
+      ]
+     },
+     "retained": 0.57
+    },
+    "probit_d": {
+     "direct": 0.85,
+     "cot": 0.3
+    },
+    "auc_from_diff": {
+     "direct": 0.573,
+     "cot": 0.542
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": -1.7,
+      "ci": [
+       -4.3,
+       0.9
+      ]
+     },
+     "cot": {
+      "est": -0.6,
+      "ci": [
+       -4.8,
+       3.5
+      ]
+     },
+     "cot-direct": {
+      "est": 1.1,
+      "ci": [
+       -3.4,
+       5.1
+      ]
+     },
+     "retained": 0.37
+    },
+    "diff": {
+     "direct": {
+      "est": -1.6,
+      "ci": [
+       -9.3,
+       6.2
+      ]
+     },
+     "cot": {
+      "est": -0.6,
+      "ci": [
+       -6.9,
+       5.6
+      ]
+     },
+     "cot-direct": {
+      "est": 1.0,
+      "ci": [
+       -4.1,
+       6.0
+      ]
+     },
+     "retained": 0.38
+    },
+    "probit_d": {
+     "direct": -0.1,
+     "cot": -0.02
+    },
+    "auc_from_diff": {
+     "direct": 0.492,
+     "cot": 0.497
+    }
+   }
+  },
+  "qwen3vl_8b": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 56.7,
+      "ci": [
+       53.7,
+       59.6
+      ]
+     },
+     "cot": {
+      "est": 54.6,
+      "ci": [
+       50.3,
+       58.5
+      ]
+     },
+     "cot-direct": {
+      "est": -2.1,
+      "ci": [
+       -6.7,
+       2.4
+      ]
+     },
+     "retained": 0.96
+    },
+    "diff": {
+     "direct": {
+      "est": 57.8,
+      "ci": [
+       54.1,
+       61.7
+      ]
+     },
+     "cot": {
+      "est": 54.6,
+      "ci": [
+       49.9,
+       59.1
+      ]
+     },
+     "cot-direct": {
+      "est": -3.1,
+      "ci": [
+       -9.4,
+       3.1
+      ]
+     },
+     "retained": 0.95
+    },
+    "probit_d": {
+     "direct": 2.79,
+     "cot": 1.78
+    },
+    "auc_from_diff": {
+     "direct": 0.789,
+     "cot": 0.773
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 26.0,
+      "ci": [
+       23.3,
+       28.9
+      ]
+     },
+     "cot": {
+      "est": -16.5,
+      "ci": [
+       -20.7,
+       -12.5
+      ]
+     },
+     "cot-direct": {
+      "est": -42.5,
+      "ci": [
+       -47.5,
+       -37.7
+      ]
+     },
+     "retained": -0.63
+    },
+    "diff": {
+     "direct": {
+      "est": 24.7,
+      "ci": [
+       18.4,
+       30.9
+      ]
+     },
+     "cot": {
+      "est": -16.9,
+      "ci": [
+       -24.0,
+       -10.4
+      ]
+     },
+     "cot-direct": {
+      "est": -41.6,
+      "ci": [
+       -46.5,
+       -37.0
+      ]
+     },
+     "retained": -0.69
+    },
+    "probit_d": {
+     "direct": 1.49,
+     "cot": -0.64
+    },
+    "auc_from_diff": {
+     "direct": 0.623,
+     "cot": 0.415
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": -7.3,
+      "ci": [
+       -10.2,
+       -4.5
+      ]
+     },
+     "cot": {
+      "est": -14.0,
+      "ci": [
+       -18.0,
+       -9.9
+      ]
+     },
+     "cot-direct": {
+      "est": -6.7,
+      "ci": [
+       -11.0,
+       -2.1
+      ]
+     },
+     "retained": 1.92
+    },
+    "diff": {
+     "direct": {
+      "est": -6.8,
+      "ci": [
+       -12.9,
+       -0.5
+      ]
+     },
+     "cot": {
+      "est": -14.4,
+      "ci": [
+       -21.0,
+       -7.5
+      ]
+     },
+     "cot-direct": {
+      "est": -7.6,
+      "ci": [
+       -13.6,
+       -2.1
+      ]
+     },
+     "retained": 2.13
+    },
+    "probit_d": {
+     "direct": -0.43,
+     "cot": -0.55
+    },
+    "auc_from_diff": {
+     "direct": 0.466,
+     "cot": 0.428
+    }
+   }
+  },
+  "internvl35_8b": {
+   "n": 1600,
+   "occlusion": {
+    "ame": {
+     "direct": {
+      "est": 10.9,
+      "ci": [
+       8.6,
+       13.3
+      ]
+     },
+     "cot": {
+      "est": 20.0,
+      "ci": [
+       16.4,
+       23.8
+      ]
+     },
+     "cot-direct": {
+      "est": 9.1,
+      "ci": [
+       5.4,
+       12.8
+      ]
+     },
+     "retained": 1.83
+    },
+    "diff": {
+     "direct": {
+      "est": 11.1,
+      "ci": [
+       2.5,
+       19.9
+      ]
+     },
+     "cot": {
+      "est": 20.2,
+      "ci": [
+       13.0,
+       27.6
+      ]
+     },
+     "cot-direct": {
+      "est": 9.1,
+      "ci": [
+       5.0,
+       13.6
+      ]
+     },
+     "retained": 1.82
+    },
+    "probit_d": {
+     "direct": 1.49,
+     "cot": 0.89
+    },
+    "auc_from_diff": {
+     "direct": 0.556,
+     "cot": 0.601
+    }
+   },
+   "vertical": {
+    "ame": {
+     "direct": {
+      "est": 87.8,
+      "ci": [
+       85.4,
+       90.3
+      ]
+     },
+     "cot": {
+      "est": 63.2,
+      "ci": [
+       59.7,
+       66.9
+      ]
+     },
+     "cot-direct": {
+      "est": -24.6,
+      "ci": [
+       -28.0,
+       -21.0
+      ]
+     },
+     "retained": 0.72
+    },
+    "diff": {
+     "direct": {
+      "est": 87.9,
+      "ci": [
+       85.2,
+       90.5
+      ]
+     },
+     "cot": {
+      "est": 63.5,
+      "ci": [
+       59.4,
+       67.6
+      ]
+     },
+     "cot-direct": {
+      "est": -24.4,
+      "ci": [
+       -28.0,
+       -20.7
+      ]
+     },
+     "retained": 0.72
+    },
+    "probit_d": {
+     "direct": 4.35,
+     "cot": 2.16
+    },
+    "auc_from_diff": {
+     "direct": 0.939,
+     "cot": 0.817
+    }
+   },
+   "size": {
+    "ame": {
+     "direct": {
+      "est": -3.4,
+      "ci": [
+       -5.6,
+       -1.1
+      ]
+     },
+     "cot": {
+      "est": -7.8,
+      "ci": [
+       -11.2,
+       -3.9
+      ]
+     },
+     "cot-direct": {
+      "est": -4.4,
+      "ci": [
+       -8.1,
+       -0.6
+      ]
+     },
+     "retained": 2.3
+    },
+    "diff": {
+     "direct": {
+      "est": -3.6,
+      "ci": [
+       -11.5,
+       5.5
+      ]
+     },
+     "cot": {
+      "est": -8.3,
+      "ci": [
+       -14.9,
+       -0.5
+      ]
+     },
+     "cot-direct": {
+      "est": -4.6,
+      "ci": [
+       -8.8,
+       -0.3
+      ]
+     },
+     "retained": 2.28
+    },
+    "probit_d": {
+     "direct": -0.38,
+     "cot": -0.35
+    },
+    "auc_from_diff": {
+     "direct": 0.482,
+     "cot": 0.459
+    }
+   }
+  }
+ }
+}

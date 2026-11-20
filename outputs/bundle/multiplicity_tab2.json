@@ -1,0 +1,2520 @@
+{
+ "_doc": "BH multiplicity check with the estimators shown in main-paper Tab. 2.\n\nThe published family (multiplicity.json, 60 tests) uses all-500 Synthetic Depth d'_pair and pooled twin d'. Tab. 2 shows\nthe 431-overlap Synthetic Depth d'_pair and the pair-matched twin d'_pair. Here we compute two-sided percentile-bootstrap\np-values (floor 1/(B+1); rigor_e17o.boot_p) for those two estimators and rerun BH (q < 0.05):\n  swap: the two published families replaced by the Tab. 2 estimators (60 tests);\n  add:  the Tab. 2 estimators added to the published 60 (75 tests).\nBootstraps: Synthetic Depth 431 image resamples (2,000, seed 28); twins scene resamples (2,000, seed 28).\n-> outputs/bundle/multiplicity_tab2.json\nUsage: python multiplicity_tab2.py\n",
+ "syn431": {
+  "qwen3b": {
+   "n": 431,
+   "est": -1.5380630064450589,
+   "ci": [
+    -2.1240535561912988,
+    -1.1569373778216354
+   ],
+   "p": 0.0009995002498750624
+  },
+  "qwen7b": {
+   "n": 431,
+   "est": -0.14235312665188726,
+   "ci": [
+    -0.31128028455331724,
+    0.02975036712637768
+   ],
+   "p": 0.09695152423788106
+  },
+  "internvl3_8b": {
+   "n": 431,
+   "est": -0.9400257674843716,
+   "ci": [
+    -1.2514670642529442,
+    -0.668529352692382
+   ],
+   "p": 0.0009995002498750624
+  },
+  "phi35v": {
+   "n": 431,
+   "est": -0.2055865280110411,
+   "ci": [
+    -0.40632758880546166,
+    -0.012266642897555203
+   ],
+   "p": 0.04097951024487756
+  },
+  "molmo7b": {
+   "n": 431,
+   "est": -0.7823820766584828,
+   "ci": [
+    -1.309901255626849,
+    -0.3455412524745953
+   ],
+   "p": 0.0029985007496251873
+  },
+  "qwen3vl_8b": {
+   "n": 431,
+   "est": -1.5509298838847263,
+   "ci": [
+    -2.1624936047819845,
+    -1.1935688990716051
+   ],
+   "p": 0.0009995002498750624
+  },
+  "internvl35_8b": {
+   "n": 431,
+   "est": 0.18874038459403508,
+   "ci": [
+    0.022390991823602713,
+    0.3639778064421498
+   ],
+   "p": 0.031984007996002
+  }
+ },
+ "twins_pair": {
+  "qwen3b": {
+   "n_units": 400,
+   "est": 0.07951102090206988,
+   "ci": [
+    -0.05324982100214298,
+    0.21722707337845817
+   ],
+   "p": 0.22788605697151423
+  },
+  "qwen7b": {
+   "n_units": 400,
+   "est": 0.3218471527107869,
+   "ci": [
+    0.18374965996740095,
+    0.4800663801920944
+   ],
+   "p": 0.0009995002498750624
+  },
+  "internvl3_8b": {
+   "n_units": 400,
+   "est": 0.6501297879629955,
+   "ci": [
+    0.42401061979106724,
+    0.9284854094995986
+   ],
+   "p": 0.0009995002498750624
+  },
+  "phi35v": {
+   "n_units": 400,
+   "est": -0.4353860744102922,
+   "ci": [
+    -0.6846143584498128,
+    -0.18528328599073426
+   ],
+   "p": 0.0009995002498750624
+  },
+  "molmo7b": {
+   "n_units": 400,
+   "est": -0.8832373492313002,
+   "ci": [
+    -1.7111017235847414,
+    -0.34315981671572837
+   ],
+   "p": 0.001999000499750125
+  },
+  "qwen3vl_8b": {
+   "n_units": 400,
+   "est": 0.018994398547929947,
+   "ci": [
+    -0.5483802363803253,
+    0.7700613670323241
+   ],
+   "p": 0.9695152423788106
+  },
+  "qwen3vl_8b_think": {
+   "n_units": 400,
+   "est": -1.376219401670717,
+   "ci": [
+    -1.7690512046593327,
+    -0.6090937900679423
+   ],
+   "p": 0.008995502248875561
+  },
+  "internvl35_8b": {
+   "n_units": 400,
+   "est": 0.2297138870094665,
+   "ci": [
+    0.1330979878569797,
+    0.3351602014872623
+   ],
+   "p": 0.0009995002498750624
+  }
+ },
+ "published": {
+  "n_tests": 60,
+  "nominal": 53,
+  "survive": 52,
+  "nominal_not_surviving": [
+   [
+    "twin_ddprime",
+    "qwen7b",
+    0.21,
+    0.052
+   ]
+  ],
+  "tests": [
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3b",
+    "est": -8.77,
+    "ci": [
+     -10.55,
+     -7.08
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3b",
+    "est": -8.28,
+    "ci": [
+     -10.04,
+     -6.5
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen7b",
+    "est": -3.86,
+    "ci": [
+     -5.36,
+     -2.36
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen7b",
+    "est": -4.56,
+    "ci": [
+     -6.08,
+     -3.05
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "internvl3_8b",
+    "est": -5.12,
+    "ci": [
+     -6.51,
+     -3.8
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "internvl3_8b",
+    "est": -4.14,
+    "ci": [
+     -5.57,
+     -2.82
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "phi35v",
+    "est": -9.19,
+    "ci": [
+     -11.26,
+     -7.1
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "phi35v",
+    "est": -6.88,
+    "ci": [
+     -8.98,
+     -4.88
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "molmo7b",
+    "est": -1.68,
+    "ci": [
+     -3.57,
+     0.24
+    ],
+    "p": 0.095,
+    "q": 0.10363636363636364,
+    "survives": false
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "molmo7b",
+    "est": -1.61,
+    "ci": [
+     -3.58,
+     0.35
+    ],
+    "p": 0.1274,
+    "q": 0.1365,
+    "survives": false
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3vl_8b",
+    "est": -3.51,
+    "ci": [
+     -4.7,
+     -2.34
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3vl_8b",
+    "est": -4.0,
+    "ci": [
+     -5.19,
+     -2.86
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3vl_8b_think",
+    "est": -1.44,
+    "ci": [
+     -2.41,
+     -0.46
+    ],
+    "p": 0.0075,
+    "q": 0.010227272727272725,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3vl_8b_think",
+    "est": -1.4,
+    "ci": [
+     -2.49,
+     -0.39
+    ],
+    "p": 0.009,
+    "q": 0.011999999999999999,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "internvl35_8b",
+    "est": 2.53,
+    "ci": [
+     1.33,
+     3.72
+    ],
+    "p": 0.0005,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "internvl35_8b",
+    "est": 1.79,
+    "ci": [
+     0.56,
+     2.94
+    ],
+    "p": 0.002,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen3b",
+    "est": -1.772,
+    "ci": [
+     -2.15,
+     -1.47
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen7b",
+    "est": -0.581,
+    "ci": [
+     -0.78,
+     -0.39
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "internvl3_8b",
+    "est": -1.834,
+    "ci": [
+     -2.15,
+     -1.56
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "phi35v",
+    "est": -0.396,
+    "ci": [
+     -0.59,
+     -0.2
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "molmo7b",
+    "est": -1.191,
+    "ci": [
+     -1.46,
+     -0.96
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.184,
+    "ci": [
+     -1.42,
+     -0.98
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.237,
+    "ci": [
+     0.06,
+     0.42
+    ],
+    "p": 0.013993003498250875,
+    "q": 0.018251743693370705,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen3b",
+    "est": 0.052,
+    "ci": [
+     -0.2,
+     0.31
+    ],
+    "p": 0.6646676661669165,
+    "q": 0.6927570697409916,
+    "survives": false
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen7b",
+    "est": 0.214,
+    "ci": [
+     0.01,
+     0.43
+    ],
+    "p": 0.04597701149425287,
+    "q": 0.0520494469746259,
+    "survives": false
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.429,
+    "ci": [
+     0.15,
+     0.7
+    ],
+    "p": 0.0029985007496251873,
+    "q": 0.004388049877500274,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "phi35v",
+    "est": -0.23,
+    "ci": [
+     -0.43,
+     -0.05
+    ],
+    "p": 0.01999000499750125,
+    "q": 0.02447755713979745,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "molmo7b",
+    "est": -0.944,
+    "ci": [
+     -1.23,
+     -0.68
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -0.457,
+    "ci": [
+     -0.87,
+     -0.08
+    ],
+    "p": 0.025987006496751622,
+    "q": 0.03057294881970779,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": -0.645,
+    "ci": [
+     -1.25,
+     -0.25
+    ],
+    "p": 0.0029985007496251873,
+    "q": 0.004388049877500274,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.253,
+    "ci": [
+     0.09,
+     0.41
+    ],
+    "p": 0.00399800099950025,
+    "q": 0.005711429999286071,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3b",
+    "est": -0.49,
+    "ci": [
+     -0.788,
+     -0.215
+    ],
+    "p": 0.001999000499750125,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen7b",
+    "est": -0.249,
+    "ci": [
+     -0.531,
+     0.017
+    ],
+    "p": 0.07196401799100449,
+    "q": 0.07996001999000499,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.052,
+    "ci": [
+     -0.16,
+     0.272
+    ],
+    "p": 0.6696651674162919,
+    "q": 0.6927570697409916,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "phi35v",
+    "est": -1.207,
+    "ci": [
+     -1.51,
+     -0.904
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "molmo7b",
+    "est": -0.429,
+    "ci": [
+     -0.811,
+     -0.102
+    ],
+    "p": 0.0069965017491254375,
+    "q": 0.009762560580175028,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -0.592,
+    "ci": [
+     -1.03,
+     -0.271
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": 0.041,
+    "ci": [
+     -0.297,
+     0.362
+    ],
+    "p": 0.8245877061469266,
+    "q": 0.8245877061469266,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "internvl35_8b",
+    "est": -0.023,
+    "ci": [
+     -0.235,
+     0.189
+    ],
+    "p": 0.8205897051474262,
+    "q": 0.8245877061469266,
+    "survives": false
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen3b",
+    "est": -0.509,
+    "ci": [
+     -0.81,
+     -0.24
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen3b",
+    "est": -2.993,
+    "ci": [
+     -3.47,
+     -2.69
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen7b",
+    "est": -0.342,
+    "ci": [
+     -0.76,
+     -0.07
+    ],
+    "p": 0.015984015984015984,
+    "q": 0.02040512678810551,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen7b",
+    "est": -2.189,
+    "ci": [
+     -2.6,
+     -1.94
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "internvl3_8b",
+    "est": -0.565,
+    "ci": [
+     -0.92,
+     -0.32
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "internvl3_8b",
+    "est": -2.442,
+    "ci": [
+     -2.81,
+     -2.21
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "phi35v",
+    "est": -0.314,
+    "ci": [
+     -0.49,
+     -0.15
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "phi35v",
+    "est": -0.615,
+    "ci": [
+     -0.79,
+     -0.45
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "molmo7b",
+    "est": -1.177,
+    "ci": [
+     -1.39,
+     -1.01
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "molmo7b",
+    "est": -0.549,
+    "ci": [
+     -0.72,
+     -0.33
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen3vl_8b",
+    "est": -1.009,
+    "ci": [
+     -1.36,
+     -0.7
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen3vl_8b",
+    "est": -2.134,
+    "ci": [
+     -2.38,
+     -1.91
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "internvl35_8b",
+    "est": -0.6,
+    "ci": [
+     -1.07,
+     -0.32
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "internvl35_8b",
+    "est": -2.194,
+    "ci": [
+     -2.81,
+     -1.89
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.003076923076923077,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "qwen3b",
+    "est": -1.505,
+    "ci": [
+     -1.987,
+     -1.156
+    ],
+    "p": 0.001,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "qwen7b",
+    "est": -0.16,
+    "ci": [
+     -0.319,
+     -0.008
+    ],
+    "p": 0.03898,
+    "q": 0.044976923076923074,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "internvl3_8b",
+    "est": -0.938,
+    "ci": [
+     -1.233,
+     -0.673
+    ],
+    "p": 0.001,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "phi35v",
+    "est": -0.228,
+    "ci": [
+     -0.412,
+     -0.048
+    ],
+    "p": 0.02099,
+    "q": 0.025188000000000002,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "molmo7b",
+    "est": -0.73,
+    "ci": [
+     -1.137,
+     -0.413
+    ],
+    "p": 0.001,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.316,
+    "ci": [
+     -1.772,
+     -0.982
+    ],
+    "p": 0.001,
+    "q": 0.0025,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.201,
+    "ci": [
+     0.046,
+     0.36
+    ],
+    "p": 0.01899,
+    "q": 0.023737499999999998,
+    "survives": true
+   }
+  ]
+ },
+ "swap": {
+  "n_tests": 60,
+  "nominal": 51,
+  "survive": 51,
+  "nominal_not_surviving": [],
+  "tests": [
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3b",
+    "est": -8.77,
+    "ci": [
+     -10.55,
+     -7.08
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3b",
+    "est": -8.28,
+    "ci": [
+     -10.04,
+     -6.5
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen7b",
+    "est": -3.86,
+    "ci": [
+     -5.36,
+     -2.36
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen7b",
+    "est": -4.56,
+    "ci": [
+     -6.08,
+     -3.05
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "internvl3_8b",
+    "est": -5.12,
+    "ci": [
+     -6.51,
+     -3.8
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "internvl3_8b",
+    "est": -4.14,
+    "ci": [
+     -5.57,
+     -2.82
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "phi35v",
+    "est": -9.19,
+    "ci": [
+     -11.26,
+     -7.1
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "phi35v",
+    "est": -6.88,
+    "ci": [
+     -8.98,
+     -4.88
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "molmo7b",
+    "est": -1.68,
+    "ci": [
+     -3.57,
+     0.24
+    ],
+    "p": 0.095,
+    "q": 0.10754716981132076,
+    "survives": false
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "molmo7b",
+    "est": -1.61,
+    "ci": [
+     -3.58,
+     0.35
+    ],
+    "p": 0.1274,
+    "q": 0.1389818181818182,
+    "survives": false
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3vl_8b",
+    "est": -3.51,
+    "ci": [
+     -4.7,
+     -2.34
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3vl_8b",
+    "est": -4.0,
+    "ci": [
+     -5.19,
+     -2.86
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3vl_8b_think",
+    "est": -1.44,
+    "ci": [
+     -2.41,
+     -0.46
+    ],
+    "p": 0.0075,
+    "q": 0.009999999999999998,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3vl_8b_think",
+    "est": -1.4,
+    "ci": [
+     -2.49,
+     -0.39
+    ],
+    "p": 0.009,
+    "q": 0.011489361702127658,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "internvl35_8b",
+    "est": 2.53,
+    "ci": [
+     1.33,
+     3.72
+    ],
+    "p": 0.0005,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "internvl35_8b",
+    "est": 1.79,
+    "ci": [
+     0.56,
+     2.94
+    ],
+    "p": 0.002,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen3b",
+    "est": -1.772,
+    "ci": [
+     -2.15,
+     -1.47
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen7b",
+    "est": -0.581,
+    "ci": [
+     -0.78,
+     -0.39
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "internvl3_8b",
+    "est": -1.834,
+    "ci": [
+     -2.15,
+     -1.56
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "phi35v",
+    "est": -0.396,
+    "ci": [
+     -0.59,
+     -0.2
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "molmo7b",
+    "est": -1.191,
+    "ci": [
+     -1.46,
+     -0.96
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.184,
+    "ci": [
+     -1.42,
+     -0.98
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.237,
+    "ci": [
+     0.06,
+     0.42
+    ],
+    "p": 0.013993003498250875,
+    "q": 0.017491254372813594,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3b",
+    "est": -0.49,
+    "ci": [
+     -0.788,
+     -0.215
+    ],
+    "p": 0.001999000499750125,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen7b",
+    "est": -0.249,
+    "ci": [
+     -0.531,
+     0.017
+    ],
+    "p": 0.07196401799100449,
+    "q": 0.08303540537423594,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.052,
+    "ci": [
+     -0.16,
+     0.272
+    ],
+    "p": 0.6696651674162919,
+    "q": 0.7049107025434651,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "phi35v",
+    "est": -1.207,
+    "ci": [
+     -1.51,
+     -0.904
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "molmo7b",
+    "est": -0.429,
+    "ci": [
+     -0.811,
+     -0.102
+    ],
+    "p": 0.0069965017491254375,
+    "q": 0.009540684203352868,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -0.592,
+    "ci": [
+     -1.03,
+     -0.271
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": 0.041,
+    "ci": [
+     -0.297,
+     0.362
+    ],
+    "p": 0.8245877061469266,
+    "q": 0.8385637689629761,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "internvl35_8b",
+    "est": -0.023,
+    "ci": [
+     -0.235,
+     0.189
+    ],
+    "p": 0.8205897051474262,
+    "q": 0.8385637689629761,
+    "survives": false
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen3b",
+    "est": -0.509,
+    "ci": [
+     -0.81,
+     -0.24
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen3b",
+    "est": -2.993,
+    "ci": [
+     -3.47,
+     -2.69
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen7b",
+    "est": -0.342,
+    "ci": [
+     -0.76,
+     -0.07
+    ],
+    "p": 0.015984015984015984,
+    "q": 0.019572264470223654,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen7b",
+    "est": -2.189,
+    "ci": [
+     -2.6,
+     -1.94
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "internvl3_8b",
+    "est": -0.565,
+    "ci": [
+     -0.92,
+     -0.32
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "internvl3_8b",
+    "est": -2.442,
+    "ci": [
+     -2.81,
+     -2.21
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "phi35v",
+    "est": -0.314,
+    "ci": [
+     -0.49,
+     -0.15
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "phi35v",
+    "est": -0.615,
+    "ci": [
+     -0.79,
+     -0.45
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "molmo7b",
+    "est": -1.177,
+    "ci": [
+     -1.39,
+     -1.01
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "molmo7b",
+    "est": -0.549,
+    "ci": [
+     -0.72,
+     -0.33
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen3vl_8b",
+    "est": -1.009,
+    "ci": [
+     -1.36,
+     -0.7
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen3vl_8b",
+    "est": -2.134,
+    "ci": [
+     -2.38,
+     -1.91
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "internvl35_8b",
+    "est": -0.6,
+    "ci": [
+     -1.07,
+     -0.32
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "internvl35_8b",
+    "est": -2.194,
+    "ci": [
+     -2.81,
+     -1.89
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "qwen3b",
+    "est": -1.5380630064450589,
+    "ci": [
+     -2.1240535561912988,
+     -1.1569373778216354
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "qwen7b",
+    "est": -0.14235312665188726,
+    "ci": [
+     -0.31128028455331724,
+     0.02975036712637768
+    ],
+    "p": 0.09695152423788106,
+    "q": 0.10772391581986784,
+    "survives": false
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "internvl3_8b",
+    "est": -0.9400257674843716,
+    "ci": [
+     -1.2514670642529442,
+     -0.668529352692382
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "phi35v",
+    "est": -0.2055865280110411,
+    "ci": [
+     -0.40632758880546166,
+     -0.012266642897555203
+    ],
+    "p": 0.04097951024487756,
+    "q": 0.048211188523385365,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "molmo7b",
+    "est": -0.7823820766584828,
+    "ci": [
+     -1.309901255626849,
+     -0.3455412524745953
+    ],
+    "p": 0.0029985007496251873,
+    "q": 0.004183954534360726,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.5509298838847263,
+    "ci": [
+     -2.1624936047819845,
+     -1.1935688990716051
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.18874038459403508,
+    "ci": [
+     0.022390991823602713,
+     0.3639778064421498
+    ],
+    "p": 0.031984007996002,
+    "q": 0.038380809595202396,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen3b",
+    "est": 0.07951102090206988,
+    "ci": [
+     -0.05324982100214298,
+     0.21722707337845817
+    ],
+    "p": 0.22788605697151423,
+    "q": 0.24416363246947953,
+    "survives": false
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen7b",
+    "est": 0.3218471527107869,
+    "ci": [
+     0.18374965996740095,
+     0.4800663801920944
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.6501297879629955,
+    "ci": [
+     0.42401061979106724,
+     0.9284854094995986
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "phi35v",
+    "est": -0.4353860744102922,
+    "ci": [
+     -0.6846143584498128,
+     -0.18528328599073426
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "molmo7b",
+    "est": -0.8832373492313002,
+    "ci": [
+     -1.7111017235847414,
+     -0.34315981671572837
+    ],
+    "p": 0.001999000499750125,
+    "q": 0.002857142857142857,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen3vl_8b",
+    "est": 0.018994398547929947,
+    "ci": [
+     -0.5483802363803253,
+     0.7700613670323241
+    ],
+    "p": 0.9695152423788106,
+    "q": 0.9695152423788106,
+    "survives": false
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": -1.376219401670717,
+    "ci": [
+     -1.7690512046593327,
+     -0.6090937900679423
+    ],
+    "p": 0.008995502248875561,
+    "q": 0.011489361702127658,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.2297138870094665,
+    "ci": [
+     0.1330979878569797,
+     0.3351602014872623
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.002306539038173221,
+    "survives": true
+   }
+  ]
+ },
+ "add": {
+  "n_tests": 75,
+  "nominal": 65,
+  "survive": 64,
+  "nominal_not_surviving": [
+   [
+    "twin_ddprime",
+    "qwen7b",
+    0.21,
+    0.0531
+   ]
+  ],
+  "tests": [
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3b",
+    "est": -8.77,
+    "ci": [
+     -10.55,
+     -7.08
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3b",
+    "est": -8.28,
+    "ci": [
+     -10.04,
+     -6.5
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen7b",
+    "est": -3.86,
+    "ci": [
+     -5.36,
+     -2.36
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen7b",
+    "est": -4.56,
+    "ci": [
+     -6.08,
+     -3.05
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "internvl3_8b",
+    "est": -5.12,
+    "ci": [
+     -6.51,
+     -3.8
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "internvl3_8b",
+    "est": -4.14,
+    "ci": [
+     -5.57,
+     -2.82
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "phi35v",
+    "est": -9.19,
+    "ci": [
+     -11.26,
+     -7.1
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "phi35v",
+    "est": -6.88,
+    "ci": [
+     -8.98,
+     -4.88
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "molmo7b",
+    "est": -1.68,
+    "ci": [
+     -3.57,
+     0.24
+    ],
+    "p": 0.095,
+    "q": 0.10634328358208955,
+    "survives": false
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "molmo7b",
+    "est": -1.61,
+    "ci": [
+     -3.58,
+     0.35
+    ],
+    "p": 0.1274,
+    "q": 0.13847826086956525,
+    "survives": false
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3vl_8b",
+    "est": -3.51,
+    "ci": [
+     -4.7,
+     -2.34
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3vl_8b",
+    "est": -4.0,
+    "ci": [
+     -5.19,
+     -2.86
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "qwen3vl_8b_think",
+    "est": -1.44,
+    "ci": [
+     -2.41,
+     -0.46
+    ],
+    "p": 0.0075,
+    "q": 0.01061320754716981,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "qwen3vl_8b_think",
+    "est": -1.4,
+    "ci": [
+     -2.49,
+     -0.39
+    ],
+    "p": 0.009,
+    "q": 0.012272727272727272,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_direct",
+    "model": "internvl35_8b",
+    "est": 2.53,
+    "ci": [
+     1.33,
+     3.72
+    ],
+    "p": 0.0005,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "tab1_cot_minus_fillerturn",
+    "model": "internvl35_8b",
+    "est": 1.79,
+    "ci": [
+     0.56,
+     2.94
+    ],
+    "p": 0.002,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen3b",
+    "est": -1.772,
+    "ci": [
+     -2.15,
+     -1.47
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen7b",
+    "est": -0.581,
+    "ci": [
+     -0.78,
+     -0.39
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "internvl3_8b",
+    "est": -1.834,
+    "ci": [
+     -2.15,
+     -1.56
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "phi35v",
+    "est": -0.396,
+    "ci": [
+     -0.59,
+     -0.2
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "molmo7b",
+    "est": -1.191,
+    "ci": [
+     -1.46,
+     -0.96
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.184,
+    "ci": [
+     -1.42,
+     -0.98
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_pooled_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.237,
+    "ci": [
+     0.06,
+     0.42
+    ],
+    "p": 0.013993003498250875,
+    "q": 0.018740629685157422,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen3b",
+    "est": 0.052,
+    "ci": [
+     -0.2,
+     0.31
+    ],
+    "p": 0.6646676661669165,
+    "q": 0.6975678827253041,
+    "survives": false
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen7b",
+    "est": 0.214,
+    "ci": [
+     0.01,
+     0.43
+    ],
+    "p": 0.04597701149425287,
+    "q": 0.05305039787798408,
+    "survives": false
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.429,
+    "ci": [
+     0.15,
+     0.7
+    ],
+    "p": 0.0029985007496251873,
+    "q": 0.004497751124437781,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "phi35v",
+    "est": -0.23,
+    "ci": [
+     -0.43,
+     -0.05
+    ],
+    "p": 0.01999000499750125,
+    "q": 0.02541102330190837,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "molmo7b",
+    "est": -0.944,
+    "ci": [
+     -1.23,
+     -0.68
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -0.457,
+    "ci": [
+     -0.87,
+     -0.08
+    ],
+    "p": 0.025987006496751622,
+    "q": 0.03195123749600609,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": -0.645,
+    "ci": [
+     -1.25,
+     -0.25
+    ],
+    "p": 0.0029985007496251873,
+    "q": 0.004497751124437781,
+    "survives": true
+   },
+   {
+    "family": "twin_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.253,
+    "ci": [
+     0.09,
+     0.41
+    ],
+    "p": 0.00399800099950025,
+    "q": 0.0058794132345591915,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3b",
+    "est": -0.49,
+    "ci": [
+     -0.788,
+     -0.215
+    ],
+    "p": 0.001999000499750125,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen7b",
+    "est": -0.249,
+    "ci": [
+     -0.531,
+     0.017
+    ],
+    "p": 0.07196401799100449,
+    "q": 0.08177729317159602,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.052,
+    "ci": [
+     -0.16,
+     0.272
+    ],
+    "p": 0.6696651674162919,
+    "q": 0.6975678827253041,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "phi35v",
+    "est": -1.207,
+    "ci": [
+     -1.51,
+     -0.904
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "molmo7b",
+    "est": -0.429,
+    "ci": [
+     -0.811,
+     -0.102
+    ],
+    "p": 0.0069965017491254375,
+    "q": 0.010091108292007843,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -0.592,
+    "ci": [
+     -1.03,
+     -0.271
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": 0.041,
+    "ci": [
+     -0.297,
+     0.362
+    ],
+    "p": 0.8245877061469266,
+    "q": 0.8357307832570202,
+    "survives": false
+   },
+   {
+    "family": "cvb3d_ddprime",
+    "model": "internvl35_8b",
+    "est": -0.023,
+    "ci": [
+     -0.235,
+     0.189
+    ],
+    "p": 0.8205897051474262,
+    "q": 0.8357307832570202,
+    "survives": false
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen3b",
+    "est": -0.509,
+    "ci": [
+     -0.81,
+     -0.24
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen3b",
+    "est": -2.993,
+    "ci": [
+     -3.47,
+     -2.69
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen7b",
+    "est": -0.342,
+    "ci": [
+     -0.76,
+     -0.07
+    ],
+    "p": 0.015984015984015984,
+    "q": 0.0210315999789684,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen7b",
+    "est": -2.189,
+    "ci": [
+     -2.6,
+     -1.94
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "internvl3_8b",
+    "est": -0.565,
+    "ci": [
+     -0.92,
+     -0.32
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "internvl3_8b",
+    "est": -2.442,
+    "ci": [
+     -2.81,
+     -2.21
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "phi35v",
+    "est": -0.314,
+    "ci": [
+     -0.49,
+     -0.15
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "phi35v",
+    "est": -0.615,
+    "ci": [
+     -0.79,
+     -0.45
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "molmo7b",
+    "est": -1.177,
+    "ci": [
+     -1.39,
+     -1.01
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "molmo7b",
+    "est": -0.549,
+    "ci": [
+     -0.72,
+     -0.33
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "qwen3vl_8b",
+    "est": -1.009,
+    "ci": [
+     -1.36,
+     -0.7
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "qwen3vl_8b",
+    "est": -2.134,
+    "ci": [
+     -2.38,
+     -1.91
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_occlusion",
+    "model": "internvl35_8b",
+    "est": -0.6,
+    "ci": [
+     -1.07,
+     -0.32
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "cue_glm_vertical",
+    "model": "internvl35_8b",
+    "est": -2.194,
+    "ci": [
+     -2.81,
+     -1.89
+    ],
+    "p": 0.001998001998001998,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "qwen3b",
+    "est": -1.505,
+    "ci": [
+     -1.987,
+     -1.156
+    ],
+    "p": 0.001,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "qwen7b",
+    "est": -0.16,
+    "ci": [
+     -0.319,
+     -0.008
+    ],
+    "p": 0.03898,
+    "q": 0.04640476190476191,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "internvl3_8b",
+    "est": -0.938,
+    "ci": [
+     -1.233,
+     -0.673
+    ],
+    "p": 0.001,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "phi35v",
+    "est": -0.228,
+    "ci": [
+     -0.412,
+     -0.048
+    ],
+    "p": 0.02099,
+    "q": 0.026237500000000004,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "molmo7b",
+    "est": -0.73,
+    "ci": [
+     -1.137,
+     -0.413
+    ],
+    "p": 0.001,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.316,
+    "ci": [
+     -1.772,
+     -0.982
+    ],
+    "p": 0.001,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn_dpair_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.201,
+    "ci": [
+     0.046,
+     0.36
+    ],
+    "p": 0.01899,
+    "q": 0.024556034482758622,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "qwen3b",
+    "est": -1.5380630064450589,
+    "ci": [
+     -2.1240535561912988,
+     -1.1569373778216354
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "qwen7b",
+    "est": -0.14235312665188726,
+    "ci": [
+     -0.31128028455331724,
+     0.02975036712637768
+    ],
+    "p": 0.09695152423788106,
+    "q": 0.1069318282035453,
+    "survives": false
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "internvl3_8b",
+    "est": -0.9400257674843716,
+    "ci": [
+     -1.2514670642529442,
+     -0.668529352692382
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "phi35v",
+    "est": -0.2055865280110411,
+    "ci": [
+     -0.40632758880546166,
+     -0.012266642897555203
+    ],
+    "p": 0.04097951024487756,
+    "q": 0.04802286356821589,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "molmo7b",
+    "est": -0.7823820766584828,
+    "ci": [
+     -1.309901255626849,
+     -0.3455412524745953
+    ],
+    "p": 0.0029985007496251873,
+    "q": 0.004497751124437781,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "qwen3vl_8b",
+    "est": -1.5509298838847263,
+    "ci": [
+     -2.1624936047819845,
+     -1.1935688990716051
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "syn431_dpair_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.18874038459403508,
+    "ci": [
+     0.022390991823602713,
+     0.3639778064421498
+    ],
+    "p": 0.031984007996002,
+    "q": 0.038690332253228224,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen3b",
+    "est": 0.07951102090206988,
+    "ci": [
+     -0.05324982100214298,
+     0.21722707337845817
+    ],
+    "p": 0.22788605697151423,
+    "q": 0.24416363246947956,
+    "survives": false
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen7b",
+    "est": 0.3218471527107869,
+    "ci": [
+     0.18374965996740095,
+     0.4800663801920944
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "internvl3_8b",
+    "est": 0.6501297879629955,
+    "ci": [
+     0.42401061979106724,
+     0.9284854094995986
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "phi35v",
+    "est": -0.4353860744102922,
+    "ci": [
+     -0.6846143584498128,
+     -0.18528328599073426
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "molmo7b",
+    "est": -0.8832373492313002,
+    "ci": [
+     -1.7111017235847414,
+     -0.34315981671572837
+    ],
+    "p": 0.001999000499750125,
+    "q": 0.0031914893617021275,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen3vl_8b",
+    "est": 0.018994398547929947,
+    "ci": [
+     -0.5483802363803253,
+     0.7700613670323241
+    ],
+    "p": 0.9695152423788106,
+    "q": 0.9695152423788106,
+    "survives": false
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "qwen3vl_8b_think",
+    "est": -1.376219401670717,
+    "ci": [
+     -1.7690512046593327,
+     -0.6090937900679423
+    ],
+    "p": 0.008995502248875561,
+    "q": 0.012272727272727272,
+    "survives": true
+   },
+   {
+    "family": "twin_dpair_ddprime",
+    "model": "internvl35_8b",
+    "est": 0.2297138870094665,
+    "ci": [
+     0.1330979878569797,
+     0.3351602014872623
+    ],
+    "p": 0.0009995002498750624,
+    "q": 0.0024193548387096775,
+    "survives": true
+   }
+  ]
+ }
+}

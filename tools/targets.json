@@ -1,0 +1,1009 @@
+{
+ "items": [
+  {
+   "label": "tab:behavioral_main",
+   "number": "Tab. 1",
+   "kind": "table",
+   "file": "tab2_behavioral_and_tasks.tex",
+   "note": "hand-maintained table; every number is read from outputs/bundle/numbers.json (build_bundle.load_main)",
+   "reference": "reference/tables/tab2_behavioral_and_tasks.tex",
+   "regenerated": "tables/tab2_behavioral_and_tasks.tex",
+   "bundle": [
+    "outputs/bundle/numbers.json"
+   ]
+  },
+  {
+   "label": "tab:profile",
+   "number": "Tab. 2",
+   "kind": "table",
+   "file": "tab2_model_profile.tex",
+   "note": null,
+   "reference": "reference/tables/tab2_model_profile.tex",
+   "regenerated": "tables/tab2_model_profile.tex",
+   "run": "make_e27_tables",
+   "command": "python scripts/paper_tools/make_e27_tables.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/commit_nulls.json",
+    "outputs/bundle/common_scale.json",
+    "outputs/bundle/e27_reframe.json",
+    "outputs/bundle/e6_eval.json",
+    "outputs/bundle/heldout_split.json",
+    "outputs/bundle/imgswap.json",
+    "outputs/bundle/law1.json",
+    "outputs/bundle/law2.json",
+    "outputs/bundle/relation_sensitivity.json"
+   ],
+   "per_item_inputs": [],
+   "producers": {}
+  },
+  {
+   "label": "fig:teaser",
+   "number": "Fig. 1",
+   "kind": "figure",
+   "file": "fig1_teaser.pdf",
+   "note": null,
+   "regenerated": "figures/fig1_teaser.pdf",
+   "reference_data": "reference/figures/fig1_teaser.data.json",
+   "regenerated_data": "figures/fig1_teaser.data.json",
+   "run": "make_figures_v3",
+   "command": "python scripts/make_figures_v3.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/commit_baseline.json",
+    "outputs/bundle/commit_nulls.json",
+    "outputs/bundle/cue_ame.json",
+    "outputs/bundle/dprime_ci.json",
+    "outputs/bundle/e31_cue_ladder.json",
+    "outputs/bundle/e3x_same_subset.json",
+    "outputs/bundle/e9x_summary.json",
+    "outputs/bundle/judge2.json",
+    "outputs/bundle/numbers.json",
+    "outputs/bundle/swap_split.json"
+   ],
+   "per_item_inputs": [
+    "data/items/occlusion/images/occ085.png",
+    "data/items/occlusion/images/occ085_cf.png",
+    "data/items/occlusion/items.jsonl",
+    "data/items/occlusion/items_cf.jsonl",
+    "outputs/e2b/internvl35_8b.jsonl",
+    "outputs/e2b/internvl3_8b.jsonl",
+    "outputs/e2b/molmo7b.jsonl",
+    "outputs/e2b/phi35v.jsonl",
+    "outputs/e2b/qwen3b.jsonl",
+    "outputs/e2b/qwen3vl_8b.jsonl",
+    "outputs/e2b/qwen7b.jsonl",
+    "outputs/e2d/qwen3vl_8b.jsonl",
+    "outputs/e4/internvl35_8b.json",
+    "outputs/e4/qwen3vl_8b.json",
+    "outputs/legacy_v2/e1/internvl3_8b.json",
+    "outputs/legacy_v2/e1/molmo7b.json",
+    "outputs/legacy_v2/e1/phi35v.json",
+    "outputs/legacy_v2/e1/qwen3b.json",
+    "outputs/legacy_v2/e1/qwen7b.json"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "fig:error_onset",
+   "number": "Fig. 2",
+   "kind": "figure",
+   "file": "fig2_error_onset.pdf",
+   "note": null,
+   "regenerated": "figures/fig2_error_onset.pdf",
+   "reference_data": "reference/figures/fig2_error_onset.data.json",
+   "regenerated_data": "figures/fig2_error_onset.data.json",
+   "run": "make_figures_v3",
+   "command": "python scripts/make_figures_v3.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/commit_baseline.json",
+    "outputs/bundle/commit_nulls.json",
+    "outputs/bundle/cue_ame.json",
+    "outputs/bundle/dprime_ci.json",
+    "outputs/bundle/e31_cue_ladder.json",
+    "outputs/bundle/e3x_same_subset.json",
+    "outputs/bundle/e9x_summary.json",
+    "outputs/bundle/judge2.json",
+    "outputs/bundle/numbers.json",
+    "outputs/bundle/swap_split.json"
+   ],
+   "per_item_inputs": [
+    "data/items/occlusion/images/occ085.png",
+    "data/items/occlusion/images/occ085_cf.png",
+    "data/items/occlusion/items.jsonl",
+    "data/items/occlusion/items_cf.jsonl",
+    "outputs/e2b/internvl35_8b.jsonl",
+    "outputs/e2b/internvl3_8b.jsonl",
+    "outputs/e2b/molmo7b.jsonl",
+    "outputs/e2b/phi35v.jsonl",
+    "outputs/e2b/qwen3b.jsonl",
+    "outputs/e2b/qwen3vl_8b.jsonl",
+    "outputs/e2b/qwen7b.jsonl",
+    "outputs/e2d/qwen3vl_8b.jsonl",
+    "outputs/e4/internvl35_8b.json",
+    "outputs/e4/qwen3vl_8b.json",
+    "outputs/legacy_v2/e1/internvl3_8b.json",
+    "outputs/legacy_v2/e1/molmo7b.json",
+    "outputs/legacy_v2/e1/phi35v.json",
+    "outputs/legacy_v2/e1/qwen3b.json",
+    "outputs/legacy_v2/e1/qwen7b.json"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "fig:cues",
+   "number": "Fig. 3",
+   "kind": "figure",
+   "file": "fig_cues.pdf",
+   "note": null,
+   "regenerated": "figures/fig_cues.pdf",
+   "reference_data": "reference/figures/fig_cues.data.json",
+   "regenerated_data": "figures/fig_cues.data.json",
+   "run": "make_fig_cues",
+   "command": "python scripts/make_fig_cues.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/cue_ame.json",
+    "outputs/bundle/cues.json",
+    "outputs/bundle/e31_cue_ladder.json",
+    "outputs/bundle/ladder_cues.json"
+   ],
+   "per_item_inputs": [],
+   "producers": {}
+  },
+  {
+   "label": "fig:swaps",
+   "number": "Fig. 4",
+   "kind": "figure",
+   "file": "fig3_swaps.pdf",
+   "note": null,
+   "regenerated": "figures/fig3_swaps.pdf",
+   "reference_data": "reference/figures/fig3_swaps.data.json",
+   "regenerated_data": "figures/fig3_swaps.data.json",
+   "run": "make_figures_v3",
+   "command": "python scripts/make_figures_v3.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/commit_baseline.json",
+    "outputs/bundle/commit_nulls.json",
+    "outputs/bundle/cue_ame.json",
+    "outputs/bundle/dprime_ci.json",
+    "outputs/bundle/e31_cue_ladder.json",
+    "outputs/bundle/e3x_same_subset.json",
+    "outputs/bundle/e9x_summary.json",
+    "outputs/bundle/judge2.json",
+    "outputs/bundle/numbers.json",
+    "outputs/bundle/swap_split.json"
+   ],
+   "per_item_inputs": [
+    "data/items/occlusion/images/occ085.png",
+    "data/items/occlusion/images/occ085_cf.png",
+    "data/items/occlusion/items.jsonl",
+    "data/items/occlusion/items_cf.jsonl",
+    "outputs/e2b/internvl35_8b.jsonl",
+    "outputs/e2b/internvl3_8b.jsonl",
+    "outputs/e2b/molmo7b.jsonl",
+    "outputs/e2b/phi35v.jsonl",
+    "outputs/e2b/qwen3b.jsonl",
+    "outputs/e2b/qwen3vl_8b.jsonl",
+    "outputs/e2b/qwen7b.jsonl",
+    "outputs/e2d/qwen3vl_8b.jsonl",
+    "outputs/e4/internvl35_8b.json",
+    "outputs/e4/qwen3vl_8b.json",
+    "outputs/legacy_v2/e1/internvl3_8b.json",
+    "outputs/legacy_v2/e1/molmo7b.json",
+    "outputs/legacy_v2/e1/phi35v.json",
+    "outputs/legacy_v2/e1/qwen3b.json",
+    "outputs/legacy_v2/e1/qwen7b.json"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "fig:coco_examples",
+   "number": "Fig. 5",
+   "kind": "figure",
+   "file": "supp_e62_examples.pdf",
+   "note": "draws 5 COCO-composite twin pairs; the composites are not shipped (COCO images are third-party): regenerate them with scripts/e62_stimuli.py from COCO val2017, then run the command",
+   "regenerated": "figures/supp_e62_examples.pdf",
+   "run": "e62_fig",
+   "command": "python scripts/e62_fig.py",
+   "inputs_shipped": true,
+   "bundle": [],
+   "per_item_inputs": [
+    "outputs/e62/stimuli/items_final.jsonl"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "fig:two_channel",
+   "number": "Fig. 6",
+   "kind": "figure",
+   "file": "fig_two_channel.pdf",
+   "note": null,
+   "regenerated": "figures/fig_two_channel.pdf",
+   "reference_data": "reference/figures/fig_two_channel.data.json",
+   "regenerated_data": "figures/fig_two_channel.data.json",
+   "run": "rigor_e32_fig",
+   "command": "python scripts/rigor_e32.py --only fig",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e31_cue_ladder.json",
+    "outputs/bundle/two_channel.json",
+    "outputs/bundle/two_channel_accounting.json"
+   ],
+   "per_item_inputs": [],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_evidence",
+   "number": "Tab. S1",
+   "kind": "table",
+   "file": "tab_s_evidence.tex",
+   "note": "evidence map written by hand (text only, no computed numbers)",
+   "reference": "reference/tables/tab_s_evidence.tex",
+   "regenerated": "tables/tab_s_evidence.tex",
+   "bundle": []
+  },
+  {
+   "label": "tab:supp_tasks",
+   "number": "Tab. S2",
+   "kind": "table",
+   "file": "tab_s_tasks.tex",
+   "note": null,
+   "reference": "reference/tables/tab_s_tasks.tex",
+   "regenerated": "tables/tab_s_tasks.tex",
+   "run": "make_supp_task_table",
+   "command": "python scripts/paper_tools/make_supp_task_table.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/numbers.json"
+   ],
+   "per_item_inputs": [],
+   "producers": {},
+   "hand_added": {
+    "what": "pooled-row columns Fil+t-Direct and Fil+t-Fil",
+    "from": [
+     "outputs/bundle/numbers.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e54a",
+   "number": "Tab. S3",
+   "kind": "table",
+   "file": "supp_e54a.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e54a.tex",
+   "regenerated": "tables/supp_e54a.tex",
+   "run": "rigor_e54_a",
+   "command": "python scripts/rigor_e54.py --only a",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e45_uniform_two_channel.json",
+    "outputs/bundle/rigor_e54.txt",
+    "outputs/bundle/syn_depth_geometry.json"
+   ],
+   "per_item_inputs": [
+    "outputs/e10/qwen7b_cues.jsonl",
+    "outputs/e2d/qwen7b.jsonl",
+    "outputs/e2d/qwen7b_behind.jsonl",
+    "outputs/e45/items.jsonl",
+    "outputs/e45/judge_claude-opus-5-5.jsonl",
+    "outputs/e45/judge_gpt-6-astra.jsonl",
+    "outputs/e54/judge_claude-opus-5-5.jsonl",
+    "outputs/e54/judge_gpt-6-astra.jsonl",
+    "outputs/e54/tasks.jsonl"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_e57",
+   "number": "Tab. S4",
+   "kind": "table",
+   "file": "supp_e57.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e57.tex",
+   "regenerated": "tables/supp_e57.tex",
+   "run": "rigor_e57",
+   "command": "python scripts/rigor_e57.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/commit_baseline.json",
+    "outputs/bundle/commit_nulls.json",
+    "outputs/bundle/e30_argedit.json",
+    "outputs/bundle/e30_reparse.json",
+    "outputs/bundle/e54_decomp.json",
+    "outputs/bundle/e57_sentence32b.json",
+    "outputs/bundle/imgswap.json",
+    "outputs/bundle/syn_depth_geometry.json"
+   ],
+   "per_item_inputs": [
+    "outputs/e10/qwen7b_cues.jsonl",
+    "outputs/e17/qwen3vl_8b_ctrl.json",
+    "outputs/e28/qwen3vl_8b_cues_traj.jsonl",
+    "outputs/e28/qwen3vl_8b_twins_traj.jsonl",
+    "outputs/e2b/qwen3vl_8b.jsonl",
+    "outputs/e2d/qwen7b.jsonl",
+    "outputs/e2d/qwen7b_behind.jsonl",
+    "outputs/e4/qwen3vl_8b.json",
+    "outputs/e45/items.jsonl",
+    "outputs/e45/judge_claude-opus-5-5.jsonl",
+    "outputs/e45/judge_gpt-6-astra.jsonl",
+    "outputs/e57/e54/judge_claude-opus-5-5.jsonl",
+    "outputs/e57/e54/judge_gpt-6-astra.jsonl",
+    "outputs/e57/e54/tasks.jsonl",
+    "outputs/e57/judge_claude-opus-5-5_commit_cues_e20.jsonl",
+    "outputs/e57/judge_claude-opus-5-5_commit_cues_ontop.jsonl",
+    "outputs/e57/judge_claude-opus-5-5_commit_twins_e20.jsonl",
+    "outputs/e57/judge_gpt-6-astra_commit_cues_e20.jsonl",
+    "outputs/e57/judge_gpt-6-astra_commit_cues_ontop.jsonl",
+    "outputs/e57/judge_gpt-6-astra_commit_twins_e20.jsonl",
+    "outputs/e57/qwen3vl_32b_ctrl.json",
+    "outputs/e57/qwen3vl_32b_cues_argedit_dcp.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_argedit_jstar.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_imgswap.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_imgswap_trunc.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_reread.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_traj.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_trajtwin.jsonl",
+    "outputs/e57/qwen3vl_32b_cues_uncond.jsonl",
+    "outputs/e57/qwen3vl_32b_twins_imgswap.jsonl",
+    "outputs/e57/qwen3vl_32b_twins_reread.jsonl",
+    "outputs/e57/qwen3vl_32b_twins_traj.jsonl",
+    "outputs/e57/qwen3vl_32b_twins_uncond.jsonl",
+    "outputs/e57/qwen3vl_8b_cues_imgswap_trunc.jsonl",
+    "outputs/e57/qwen3vl_8b_cues_trajtwin.jsonl",
+    "outputs/e57/qwen3vl_8b_cues_uncond.jsonl",
+    "outputs/e57/qwen3vl_8b_twins_uncond.jsonl"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_e59",
+   "number": "Tab. S5",
+   "kind": "table",
+   "file": "supp_e59.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e59.tex",
+   "regenerated": "tables/supp_e59.tex",
+   "run": "rigor_e59",
+   "command": "python scripts/rigor_e59.py",
+   "inputs_shipped": true,
+   "bundle": [],
+   "per_item_inputs": [
+    "outputs/e52/molmo7b_0.jsonl",
+    "outputs/e52/molmo7b_1.jsonl",
+    "outputs/e52/molmo7b_2.jsonl",
+    "outputs/e52/molmo7b_3.jsonl",
+    "outputs/e52/qwen3vl_8b_0.jsonl",
+    "outputs/e52/qwen3vl_8b_1.jsonl",
+    "outputs/e52/qwen3vl_8b_x_0.jsonl",
+    "outputs/e52/qwen7b_0.jsonl",
+    "outputs/e52/qwen7b_1.jsonl",
+    "outputs/e52/qwen7b_x_0.jsonl",
+    "outputs/e59/internvl35_8b_conflict_0.jsonl",
+    "outputs/e59/internvl35_8b_conflict_1.jsonl",
+    "outputs/e59/internvl35_8b_lr_0.jsonl",
+    "outputs/e59/internvl35_8b_occ_0.jsonl",
+    "outputs/e59/internvl35_8b_occ_1.jsonl",
+    "outputs/e59/internvl3_8b_conflict_0.jsonl",
+    "outputs/e59/internvl3_8b_conflict_1.jsonl",
+    "outputs/e59/internvl3_8b_lr_0.jsonl",
+    "outputs/e59/internvl3_8b_occ_0.jsonl",
+    "outputs/e59/internvl3_8b_occ_1.jsonl",
+    "outputs/e59/lr_internvl35_8b.json",
+    "outputs/e59/lr_internvl3_8b.json",
+    "outputs/e59/lr_qwen7b.json",
+    "outputs/e59/molmo7b_occ_0.jsonl",
+    "outputs/e59/molmo7b_occ_1.jsonl",
+    "outputs/e59/phi35v_occ_0.jsonl",
+    "outputs/e59/phi35v_occ_1.jsonl",
+    "outputs/e59/qwen3b_occ_0.jsonl",
+    "outputs/e59/qwen3b_occ_1.jsonl",
+    "outputs/e59/qwen3vl_8b_occ_0.jsonl",
+    "outputs/e59/qwen3vl_8b_occ_1.jsonl",
+    "outputs/e59/qwen7b_conflict_0.jsonl",
+    "outputs/e59/qwen7b_conflict_1.jsonl",
+    "outputs/e59/qwen7b_lr_0.jsonl",
+    "outputs/e59/qwen7b_occ_0.jsonl",
+    "outputs/e59/qwen7b_occ_1.jsonl",
+    "outputs/e59/sample_internvl35_8b.json",
+    "outputs/e59/sample_internvl3_8b.json",
+    "outputs/e59/sample_molmo7b.json",
+    "outputs/e59/sample_phi35v.json",
+    "outputs/e59/sample_qwen3b.json",
+    "outputs/e59/sample_qwen3vl_8b.json",
+    "outputs/e59/sample_qwen7b.json"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_e60",
+   "number": "Tab. S6",
+   "kind": "table",
+   "file": "supp_e60.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e60.tex",
+   "regenerated": "tables/supp_e60.tex",
+   "run": "rigor_e60",
+   "command": "python scripts/rigor_e60.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e60_mirror.json",
+    "outputs/bundle/rigor_e60.txt"
+   ],
+   "per_item_inputs": [
+    "outputs/e3x/internvl35_8b.jsonl",
+    "outputs/e3x/internvl3_8b.jsonl",
+    "outputs/e3x/molmo7b.jsonl",
+    "outputs/e3x/phi35v.jsonl",
+    "outputs/e3x/qwen3b.jsonl",
+    "outputs/e3x/qwen3vl_8b.jsonl",
+    "outputs/e3x/qwen7b.jsonl",
+    "outputs/e4/internvl35_8b.json",
+    "outputs/e4/qwen3vl_8b.json",
+    "outputs/e60/internvl35_8b.jsonl",
+    "outputs/e60/internvl3_8b.jsonl",
+    "outputs/e60/items.jsonl",
+    "outputs/e60/judge_rel_claude-opus-5-5.jsonl",
+    "outputs/e60/judge_rel_gpt-6-astra.jsonl",
+    "outputs/e60/molmo7b.jsonl",
+    "outputs/e60/phi35v.jsonl",
+    "outputs/e60/qwen3b.jsonl",
+    "outputs/e60/qwen3vl_8b.jsonl",
+    "outputs/e60/qwen7b.jsonl",
+    "outputs/e60/rel_tasks.jsonl",
+    "outputs/e6x/internvl35_8b_direct.jsonl",
+    "outputs/e6x/internvl35_8b_rest.jsonl",
+    "outputs/e6x/internvl3_8b_direct.jsonl",
+    "outputs/e6x/internvl3_8b_rest.jsonl",
+    "outputs/e6x/molmo7b_direct.jsonl",
+    "outputs/e6x/molmo7b_rest.jsonl",
+    "outputs/e6x/phi35v_direct.jsonl",
+    "outputs/e6x/phi35v_rest.jsonl",
+    "outputs/e6x/qwen3b_direct.jsonl",
+    "outputs/e6x/qwen3b_rest.jsonl",
+    "outputs/e6x/qwen3vl_8b_direct.jsonl",
+    "outputs/e6x/qwen3vl_8b_rest.jsonl",
+    "outputs/e6x/qwen7b_direct.jsonl",
+    "outputs/e6x/qwen7b_rest.jsonl",
+    "outputs/legacy_v2/e1/internvl3_8b.json",
+    "outputs/legacy_v2/e1/molmo7b.json",
+    "outputs/legacy_v2/e1/phi35v.json",
+    "outputs/legacy_v2/e1/qwen3b.json",
+    "outputs/legacy_v2/e1/qwen7b.json",
+    "outputs/legacy_v2/e5/internvl3_8b.json",
+    "outputs/legacy_v2/e5/phi35v.json",
+    "outputs/legacy_v2/e5/qwen3b.json",
+    "outputs/legacy_v2/e5/qwen7b.json"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_e62",
+   "number": "Tab. S7",
+   "kind": "table",
+   "file": "supp_e62.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e62.tex",
+   "regenerated": "tables/supp_e62.tex",
+   "run": "rigor_e62",
+   "command": "python scripts/rigor_e62.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e62_natural_twins.json",
+    "outputs/bundle/rigor_e62.txt"
+   ],
+   "per_item_inputs": [
+    "outputs/e62/internvl35_8b.jsonl",
+    "outputs/e62/internvl3_8b.jsonl",
+    "outputs/e62/judge_rel_claude-opus-5-5.jsonl",
+    "outputs/e62/judge_rel_gpt-6-astra.jsonl",
+    "outputs/e62/molmo7b.jsonl",
+    "outputs/e62/phi35v.jsonl",
+    "outputs/e62/qwen3b.jsonl",
+    "outputs/e62/qwen3vl_32b.jsonl",
+    "outputs/e62/qwen3vl_8b.jsonl",
+    "outputs/e62/qwen7b.jsonl",
+    "outputs/e62/rel_rows.json",
+    "outputs/e62/rel_tasks.jsonl",
+    "outputs/e62/stimuli/items_final.jsonl",
+    "outputs/e62/stimuli/manifest.json"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_e61",
+   "number": "Tab. S8",
+   "kind": "table",
+   "file": "supp_e61.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e61.tex",
+   "regenerated": "tables/supp_e61.tex",
+   "run": "rigor_e61",
+   "command": "python scripts/rigor_e61.py",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e50_closed_image_blind.json",
+    "outputs/bundle/e61_closed_fixed_rcut.json"
+   ],
+   "per_item_inputs": [
+    "outputs/e61/gen_claude-opus-5-5.jsonl",
+    "outputs/e61/gen_deepseek-v4.1-flash.jsonl",
+    "outputs/e61/gen_gemini-4-argon.jsonl",
+    "outputs/e61/gen_gpt-6-astra.jsonl",
+    "outputs/e61/gen_hy4.jsonl",
+    "outputs/e61/gen_qwen3.8-max-0902.jsonl",
+    "outputs/e61/items.jsonl",
+    "outputs/e61/pilot.jsonl",
+    "outputs/e9h/claude-opus-5-5.jsonl",
+    "outputs/e9h/deepseek-v4.1-flash.jsonl",
+    "outputs/e9h/gemini-4-argon.jsonl",
+    "outputs/e9h/gpt-6-astra.jsonl",
+    "outputs/e9h/hy4.jsonl",
+    "outputs/e9h/qwen3.8-max-0902.jsonl"
+   ],
+   "producers": {},
+   "hand_added": {
+    "what": "edits (Gemini-4-Argon gray-image cells printed as '--'; math-mode minus signs)",
+    "from": [
+     "outputs/bundle/e61_closed_fixed_rcut.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e50",
+   "number": "Tab. S9",
+   "kind": "table",
+   "file": "supp_e50.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e50.tex",
+   "regenerated": "tables/supp_e50.tex",
+   "run": "e50_analyze",
+   "command": "python scripts/e50_closed_image_blind.py analyze",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e50_closed_image_blind.json"
+   ],
+   "per_item_inputs": [
+    "outputs/e38/judge_claude-opus-5-5.jsonl",
+    "outputs/e38/judge_gpt-6-astra.jsonl",
+    "outputs/e45/judge_claude-opus-5-5.jsonl",
+    "outputs/e45/judge_claude-opus-5-5_pre.jsonl",
+    "outputs/e45/judge_gpt-6-astra.jsonl",
+    "outputs/e45/judge_gpt-6-astra_pre.jsonl",
+    "outputs/e50/gen_claude-opus-5-5.jsonl",
+    "outputs/e50/gen_deepseek-v4.1-flash.jsonl",
+    "outputs/e50/gen_gemini-4-argon.jsonl",
+    "outputs/e50/gen_gpt-6-astra.jsonl",
+    "outputs/e50/gen_hy4.jsonl",
+    "outputs/e50/gen_qwen3.8-max-0902.jsonl",
+    "outputs/e50/judge_claude-opus-5-5.jsonl",
+    "outputs/e50/judge_gpt-6-astra.jsonl",
+    "outputs/e50/presence_claude-opus-5-5.jsonl",
+    "outputs/e50/presence_gpt-6-astra.jsonl",
+    "outputs/e50/sample.json",
+    "outputs/e9h/claude-opus-5-5.jsonl",
+    "outputs/e9h/deepseek-v4.1-flash.jsonl",
+    "outputs/e9h/gemini-4-argon.jsonl",
+    "outputs/e9h/gpt-6-astra.jsonl",
+    "outputs/e9h/hy4.jsonl",
+    "outputs/e9h/qwen3.8-max-0902.jsonl"
+   ],
+   "producers": {},
+   "hand_added": {
+    "what": "columns / footer",
+    "from": [
+     "outputs/bundle/e50_closed_image_blind.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e45",
+   "number": "Tab. S10",
+   "kind": "table",
+   "file": "supp_e45.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e45.tex",
+   "regenerated": "tables/supp_e45.tex",
+   "run": "e45_analyze",
+   "command": "python scripts/e45_uniform_two_channel.py analyze",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e35_natural_two_channel.json",
+    "outputs/bundle/e45_uniform_two_channel.json"
+   ],
+   "per_item_inputs": [
+    "outputs/e35/items.jsonl",
+    "outputs/e35/judge_claude-opus-5-5.jsonl",
+    "outputs/e35/judge_gpt-6-astra.jsonl",
+    "outputs/e38/judge_claude-opus-5-5.jsonl",
+    "outputs/e38/judge_gpt-6-astra.jsonl",
+    "outputs/e45/items.jsonl",
+    "outputs/e45/judge_claude-opus-5-5.jsonl",
+    "outputs/e45/judge_claude-opus-5-5_pre.jsonl",
+    "outputs/e45/judge_claude-opus-5-5_prefilter.jsonl",
+    "outputs/e45/judge_claude-opus-5-5_strict.jsonl",
+    "outputs/e45/judge_gpt-6-astra.jsonl",
+    "outputs/e45/judge_gpt-6-astra_pre.jsonl",
+    "outputs/e45/judge_gpt-6-astra_prefilter.jsonl",
+    "outputs/e45/judge_gpt-6-astra_strict.jsonl"
+   ],
+   "producers": {},
+   "hand_added": {
+    "what": "footer, half-up rounded cells and the ceiling-model row",
+    "from": [
+     "outputs/bundle/e45_uniform_two_channel.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e35",
+   "number": "Tab. S11",
+   "kind": "table",
+   "file": "supp_e35.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e35.tex",
+   "regenerated": "tables/supp_e35.tex",
+   "run": "e35_analyze",
+   "command": "python scripts/e35_natural_two_channel.py analyze",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e35_natural_two_channel.json",
+    "outputs/bundle/e45_uniform_two_channel.json",
+    "outputs/bundle/syn_overlap_metrics.json",
+    "outputs/bundle/two_channel.json"
+   ],
+   "per_item_inputs": [
+    "outputs/e10/internvl35_8b_cues.jsonl",
+    "outputs/e10/internvl3_8b_cues.jsonl",
+    "outputs/e10/molmo7b_cues.jsonl",
+    "outputs/e10/phi35v_cues.jsonl",
+    "outputs/e10/qwen3b_cues.jsonl",
+    "outputs/e10/qwen3vl_8b_cues.jsonl",
+    "outputs/e10/qwen7b_cues.jsonl",
+    "outputs/e1x/internvl3_8b.jsonl",
+    "outputs/e1x/molmo7b.jsonl",
+    "outputs/e1x/phi35v.jsonl",
+    "outputs/e1x/qwen3b.jsonl",
+    "outputs/e1x/qwen7b.jsonl",
+    "outputs/e2b/internvl35_8b.jsonl",
+    "outputs/e2b/internvl3_8b.jsonl",
+    "outputs/e2b/molmo7b.jsonl",
+    "outputs/e2b/phi35v.jsonl",
+    "outputs/e2b/qwen3b.jsonl",
+    "outputs/e2b/qwen3vl_8b.jsonl",
+    "outputs/e2b/qwen7b.jsonl",
+    "outputs/e2d/internvl35_8b.jsonl",
+    "outputs/e2d/internvl35_8b_behind.jsonl",
+    "outputs/e2d/internvl3_8b.jsonl",
+    "outputs/e2d/internvl3_8b_behind.jsonl",
+    "outputs/e2d/molmo7b.jsonl",
+    "outputs/e2d/molmo7b_behind.jsonl",
+    "outputs/e2d/phi35v.jsonl",
+    "outputs/e2d/phi35v_behind.jsonl",
+    "outputs/e2d/qwen3b.jsonl",
+    "outputs/e2d/qwen3b_behind.jsonl",
+    "outputs/e2d/qwen3vl_8b.jsonl",
+    "outputs/e2d/qwen3vl_8b_behind.jsonl",
+    "outputs/e2d/qwen3vl_8b_think.jsonl",
+    "outputs/e2d/qwen3vl_8b_think_behind.jsonl",
+    "outputs/e2d/qwen7b.jsonl",
+    "outputs/e2d/qwen7b_behind.jsonl",
+    "outputs/e35/items.jsonl",
+    "outputs/e35/judge_claude-opus-5-5.jsonl",
+    "outputs/e35/judge_gpt-6-astra.jsonl",
+    "outputs/e4/internvl35_8b.json",
+    "outputs/e4/qwen3vl_8b.json"
+   ],
+   "producers": {},
+   "hand_added": {
+    "what": "footer (incl. the synthetic fit of Tab. S10)",
+    "from": [
+     "outputs/bundle/e35_natural_two_channel.json",
+     "outputs/bundle/e45_uniform_two_channel.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e58b",
+   "number": "Tab. S12",
+   "kind": "table",
+   "file": "supp_e58b.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e58b.tex",
+   "regenerated": "tables/supp_e58b.tex",
+   "run": "rigor_e58_b",
+   "command": "python scripts/rigor_e58.py --only b",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e45_uniform_two_channel.json",
+    "outputs/bundle/numbers.json",
+    "outputs/bundle/rigor_e58.txt"
+   ],
+   "per_item_inputs": [
+    "outputs/e1x/internvl3_8b.jsonl",
+    "outputs/e1x/molmo7b.jsonl",
+    "outputs/e1x/phi35v.jsonl",
+    "outputs/e1x/qwen3b.jsonl",
+    "outputs/e1x/qwen7b.jsonl",
+    "outputs/e4/internvl35_8b.json",
+    "outputs/e4/qwen3vl_8b.json",
+    "outputs/e4/qwen3vl_8b_think.json",
+    "outputs/e45/items.jsonl",
+    "outputs/e45/judge_claude-opus-5-5.jsonl",
+    "outputs/e45/judge_gpt-6-astra.jsonl"
+   ],
+   "producers": {}
+  },
+  {
+   "label": "tab:supp_e31",
+   "number": "Tab. S13",
+   "kind": "table",
+   "file": "supp_e31.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e31.tex",
+   "regenerated": "tables/supp_e31.tex",
+   "run": "rigor_e31_table",
+   "command": "python scripts/rigor_e31.py --table-only",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e31_cue_ladder.json"
+   ],
+   "per_item_inputs": [],
+   "producers": {
+    "rigor_e31_full": "python scripts/rigor_e31.py"
+   },
+   "hand_added": {
+    "what": "height-AME row",
+    "from": [
+     "outputs/bundle/e31_cue_ladder.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e43",
+   "number": "Tab. S14",
+   "kind": "table",
+   "file": "supp_e43.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e43.tex",
+   "regenerated": "tables/supp_e43.tex",
+   "run": "rigor_e43_table",
+   "command": "python scripts/rigor_e43.py --table-only",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e43_big_open.json"
+   ],
+   "per_item_inputs": [],
+   "producers": {
+    "rigor_e43_full": "python scripts/rigor_e43.py"
+   },
+   "hand_added": {
+    "what": "height-AME row",
+    "from": [
+     "outputs/bundle/e43_big_open.json"
+    ]
+   }
+  },
+  {
+   "label": "tab:supp_e48",
+   "number": "Tab. S15",
+   "kind": "table",
+   "file": "supp_e48.tex",
+   "note": null,
+   "reference": "reference/tables/supp_e48.tex",
+   "regenerated": "tables/supp_e48.tex",
+   "run": "rigor_e48_table",
+   "command": "python scripts/rigor_e48.py --table-only",
+   "inputs_shipped": true,
+   "bundle": [
+    "outputs/bundle/e48_nat_two_channel.json",
+    "outputs/bundle/e48_reasoning_open.json",
+    "outputs/bundle/e48_syn_judge.json",
+    "outputs/bundle/rigor_e48.txt"
+   ],
+   "per_item_inputs": [],
+   "producers": {
+    "rigor_e48_full": "python scripts/rigor_e48.py"
+   },
+   "hand_added": {
+    "what": "height-AME row and footer",
+    "from": [
+     "outputs/bundle/e48_reasoning_open.json"
+    ]
+   }
+  }
+ ],
+ "runs": {
+  "make_e27_tables": {
+   "argv": [
+    "scripts/paper_tools/make_e27_tables.py"
+   ],
+   "command": "python scripts/paper_tools/make_e27_tables.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "make_supp_task_table": {
+   "argv": [
+    "scripts/paper_tools/make_supp_task_table.py"
+   ],
+   "command": "python scripts/paper_tools/make_supp_task_table.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "make_figures_v3": {
+   "argv": [
+    "scripts/make_figures_v3.py"
+   ],
+   "command": "python scripts/make_figures_v3.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "make_fig_cues": {
+   "argv": [
+    "scripts/make_fig_cues.py"
+   ],
+   "command": "python scripts/make_fig_cues.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "e62_fig": {
+   "argv": [
+    "scripts/e62_fig.py"
+   ],
+   "command": "python scripts/e62_fig.py",
+   "default": false,
+   "inputs_shipped": true
+  },
+  "rigor_e32_fig": {
+   "argv": [
+    "scripts/rigor_e32.py",
+    "--only",
+    "fig"
+   ],
+   "command": "python scripts/rigor_e32.py --only fig",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e54_a": {
+   "argv": [
+    "scripts/rigor_e54.py",
+    "--only",
+    "a"
+   ],
+   "command": "python scripts/rigor_e54.py --only a",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e57": {
+   "argv": [
+    "scripts/rigor_e57.py"
+   ],
+   "command": "python scripts/rigor_e57.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e59": {
+   "argv": [
+    "scripts/rigor_e59.py"
+   ],
+   "command": "python scripts/rigor_e59.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e60": {
+   "argv": [
+    "scripts/rigor_e60.py"
+   ],
+   "command": "python scripts/rigor_e60.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e62": {
+   "argv": [
+    "scripts/rigor_e62.py"
+   ],
+   "command": "python scripts/rigor_e62.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e61": {
+   "argv": [
+    "scripts/rigor_e61.py"
+   ],
+   "command": "python scripts/rigor_e61.py",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "e50_analyze": {
+   "argv": [
+    "scripts/e50_closed_image_blind.py",
+    "analyze"
+   ],
+   "command": "python scripts/e50_closed_image_blind.py analyze",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "e45_analyze": {
+   "argv": [
+    "scripts/e45_uniform_two_channel.py",
+    "analyze"
+   ],
+   "command": "python scripts/e45_uniform_two_channel.py analyze",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "e35_analyze": {
+   "argv": [
+    "scripts/e35_natural_two_channel.py",
+    "analyze"
+   ],
+   "command": "python scripts/e35_natural_two_channel.py analyze",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e58_b": {
+   "argv": [
+    "scripts/rigor_e58.py",
+    "--only",
+    "b"
+   ],
+   "command": "python scripts/rigor_e58.py --only b",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e31_table": {
+   "argv": [
+    "scripts/rigor_e31.py",
+    "--table-only"
+   ],
+   "command": "python scripts/rigor_e31.py --table-only",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e43_table": {
+   "argv": [
+    "scripts/rigor_e43.py",
+    "--table-only"
+   ],
+   "command": "python scripts/rigor_e43.py --table-only",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e48_table": {
+   "argv": [
+    "scripts/rigor_e48.py",
+    "--table-only"
+   ],
+   "command": "python scripts/rigor_e48.py --table-only",
+   "default": true,
+   "inputs_shipped": true
+  },
+  "rigor_e31_full": {
+   "argv": [
+    "scripts/rigor_e31.py"
+   ],
+   "command": "python scripts/rigor_e31.py",
+   "default": false,
+   "inputs_shipped": true
+  },
+  "rigor_e43_full": {
+   "argv": [
+    "scripts/rigor_e43.py"
+   ],
+   "command": "python scripts/rigor_e43.py",
+   "default": false,
+   "inputs_shipped": true
+  },
+  "rigor_e48_full": {
+   "argv": [
+    "scripts/rigor_e48.py"
+   ],
+   "command": "python scripts/rigor_e48.py",
+   "default": false,
+   "inputs_shipped": true
+  }
+ }
+}

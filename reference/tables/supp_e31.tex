@@ -1,0 +1,27 @@
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Model} & \textbf{\shortstack{Qwen3-VL\\32B}} & \textbf{\shortstack{Qwen3-VL\\8B-Think.$^\dagger$}} \\
+\midrule
+\multicolumn{3}{@{}l@{}}{\textit{\textbf{Who reads occlusion? Cue-factorial set, \texttt{Direct}}}} \\
+Accuracy (\%) & $96.3${\tiny[95.4,97.2]} & $88.7${\tiny[87.3,90.1]} \\
+Occlusion weight $d'$ & $6.77${\tiny[6.22,8.47]}$^\S$ & $4.92${\tiny[4.42,5.67]} \\
+Follows lower-is-closer (\%) & $52.7$ & $59.4$ \\
+Occlusion-competent & \textbf{yes} & \textbf{yes} \\
+\midrule
+\multicolumn{3}{@{}l@{}}{\textit{\textbf{Claim 1: what writing does to cue reliance (\texttt{CoT}$-$\texttt{Direct})}}} \\
+Occlusion weight $\Delta d'$ (probit) & $-3.31${\tiny[$-$4.95,$-$2.68]} & $-2.24${\tiny[$-$3.04,$-$1.70]} \\
+Vertical weight $\Delta d'$ & $-1.96$$^\ast$ & $-2.33$$^\ast$ \\
+Occlusion AME $\Delta$ (pts, primary) & $-12.0$$^\ast$ & $-2.6$ \\
+Height AME $\Delta$ (pts) & $-17.7$$^\ast$ & $-26.2$$^\ast$ \\
+Cue-set accuracy $\Delta$ (pts) & $-6.0$$^\ast$ & $-1.4$ \\
+Describe$-$\texttt{Dir.}: occl.\ $\Delta d'$ / acc.\ $\Delta$ & $-3.17$$^\ast$ / $-3.7$$^\ast$ & $-2.84$$^\ast$ / $-10.1$$^\ast$ \\
+Cue-set $\Delta d'_\mathrm{pair}$: \texttt{CoT} / Describe & $-1.49$$^\ast$$^\ddagger$ / $-1.55$$^\ast$ & $-0.48$ / $-1.59$$^\ast$ \\
+Twins: \texttt{CoT} $\Delta d'_\mathrm{pair}$ & $-1.23$$^\ast$$^\ddagger$ & $-1.38$$^\ast$$^\ddagger$ \\
+\texttt{D+C$-$} / \texttt{D$-$C+}; net (pts) & $150$ / $54$; $-6.0$ & $177$ / $155$; $-1.4$ \\
+\midrule
+\multicolumn{3}{@{}l@{}}{\textit{\textbf{Written relation (\texttt{CoT}, parser v3)}}} \\
+First claim: true front / lower / larger (\%) & $85.5$ / $44.4$ / $47.0$ & $78.0$ / $46.5$ / $50.0$ \\
+Answer agrees with last rel.: true / false (\%) & $99.4$ / $80.9$ & $97.8$ / $68.2$ \\
+\bottomrule
+\multicolumn{3}{p{0.95\linewidth}}{\scriptsize Same $1{,}600$ cue-factorial queries, readout (top-20 letter scores, vLLM V1), image budget and statistics as \cref{M-tab:profile}; one run per column. Probability-scale AME is the primary cue-effect scale (\cref{M-tab:profile,sec:supp_cues}). $^\dagger$\texttt{CoT} = native thinking trace (mean $193$ tokens), \texttt{Direct} = empty think block. $^\S$Probit quasi-separated ($\max|\beta|>2.5$); use the AME row. $^\ddagger$No both-wrong unit under \texttt{Direct}, so \texttt{Direct} $d'_\mathrm{pair}$ is a lower bound and its change is not interpretable. $^\ast$: $95\%$ CI excludes zero (twin-pair bootstrap). Describe: question-blind description, then the question.} \\
+\end{tabular}

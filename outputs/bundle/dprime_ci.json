@@ -1,0 +1,239 @@
+{
+ "qwen3b": {
+  "n_pairs": 200,
+  "dprime_direct": 0.08,
+  "dprime_direct_ci": [
+   -0.26,
+   0.4
+  ],
+  "dprime_cot": 0.13,
+  "dprime_cot_ci": [
+   -0.06,
+   0.32
+  ],
+  "dprime_cot_minus_direct": 0.05,
+  "diff_ci": [
+   -0.2,
+   0.31
+  ],
+  "c_direct": -0.04,
+  "c_cot": -0.16,
+  "dprime_desc": 0.25,
+  "dprime_desc_ci": [
+   0.1,
+   0.42
+  ],
+  "dprime_desc_minus_direct": 0.18,
+  "desc_diff_ci": [
+   -0.08,
+   0.44
+  ],
+  "c_desc": -0.26
+ },
+ "qwen7b": {
+  "n_pairs": 200,
+  "dprime_direct": 0.2,
+  "dprime_direct_ci": [
+   -0.14,
+   0.52
+  ],
+  "dprime_cot": 0.42,
+  "dprime_cot_ci": [
+   0.2,
+   0.62
+  ],
+  "dprime_cot_minus_direct": 0.21,
+  "diff_ci": [
+   0.01,
+   0.43
+  ],
+  "c_direct": -0.04,
+  "c_cot": -0.25,
+  "dprime_desc": -0.21,
+  "dprime_desc_ci": [
+   -0.34,
+   -0.07
+  ],
+  "dprime_desc_minus_direct": -0.41,
+  "desc_diff_ci": [
+   -0.77,
+   -0.0
+  ],
+  "c_desc": -0.46
+ },
+ "internvl3_8b": {
+  "n_pairs": 200,
+  "dprime_direct": 0.7,
+  "dprime_direct_ci": [
+   0.42,
+   1.0
+  ],
+  "dprime_cot": 1.13,
+  "dprime_cot_ci": [
+   0.91,
+   1.36
+  ],
+  "dprime_cot_minus_direct": 0.43,
+  "diff_ci": [
+   0.15,
+   0.7
+  ],
+  "c_direct": -0.24,
+  "c_cot": -0.7,
+  "dprime_desc": 0.83,
+  "dprime_desc_ci": [
+   0.67,
+   1.0
+  ],
+  "dprime_desc_minus_direct": 0.13,
+  "desc_diff_ci": [
+   -0.25,
+   0.51
+  ],
+  "c_desc": -0.53
+ },
+ "phi35v": {
+  "n_pairs": 200,
+  "dprime_direct": 0.69,
+  "dprime_direct_ci": [
+   0.53,
+   0.87
+  ],
+  "dprime_cot": 0.46,
+  "dprime_cot_ci": [
+   0.29,
+   0.63
+  ],
+  "dprime_cot_minus_direct": -0.23,
+  "diff_ci": [
+   -0.43,
+   -0.05
+  ],
+  "c_direct": -0.16,
+  "c_cot": -0.34,
+  "dprime_desc": 0.2,
+  "dprime_desc_ci": [
+   0.08,
+   0.33
+  ],
+  "dprime_desc_minus_direct": -0.49,
+  "desc_diff_ci": [
+   -0.7,
+   -0.29
+  ],
+  "c_desc": 0.03
+ },
+ "molmo7b": {
+  "n_pairs": 200,
+  "dprime_direct": 2.41,
+  "dprime_direct_ci": [
+   2.2,
+   2.66
+  ],
+  "dprime_cot": 1.46,
+  "dprime_cot_ci": [
+   1.28,
+   1.67
+  ],
+  "dprime_cot_minus_direct": -0.94,
+  "diff_ci": [
+   -1.23,
+   -0.68
+  ],
+  "c_direct": -0.21,
+  "c_cot": -0.5,
+  "dprime_desc": 1.2,
+  "dprime_desc_ci": [
+   1.04,
+   1.37
+  ],
+  "dprime_desc_minus_direct": -1.21,
+  "desc_diff_ci": [
+   -1.47,
+   -0.98
+  ],
+  "c_desc": -0.43
+ },
+ "qwen3vl_8b": {
+  "n_pairs": 200,
+  "dprime_direct": 2.25,
+  "dprime_direct_ci": [
+   2.0,
+   2.58
+  ],
+  "dprime_cot": 1.8,
+  "dprime_cot_ci": [
+   1.57,
+   2.05
+  ],
+  "dprime_cot_minus_direct": -0.46,
+  "diff_ci": [
+   -0.87,
+   -0.08
+  ],
+  "c_direct": -0.74,
+  "c_cot": -0.47,
+  "dprime_desc": 1.63,
+  "dprime_desc_ci": [
+   1.37,
+   1.93
+  ],
+  "dprime_desc_minus_direct": -0.62,
+  "desc_diff_ci": [
+   -1.01,
+   -0.3
+  ],
+  "c_desc": -0.5
+ },
+ "qwen3vl_8b_think": {
+  "n_pairs": 200,
+  "dprime_direct": 3.05,
+  "dprime_direct_ci": [
+   2.74,
+   3.68
+  ],
+  "dprime_cot": 2.4,
+  "dprime_cot_ci": [
+   2.19,
+   2.66
+  ],
+  "dprime_cot_minus_direct": -0.65,
+  "diff_ci": [
+   -1.25,
+   -0.25
+  ],
+  "c_direct": -0.85,
+  "c_cot": -0.02
+ },
+ "internvl35_8b": {
+  "n_pairs": 200,
+  "dprime_direct": 0.34,
+  "dprime_direct_ci": [
+   0.04,
+   0.65
+  ],
+  "dprime_cot": 0.59,
+  "dprime_cot_ci": [
+   0.35,
+   0.85
+  ],
+  "dprime_cot_minus_direct": 0.25,
+  "diff_ci": [
+   0.09,
+   0.41
+  ],
+  "c_direct": -0.14,
+  "c_cot": -0.26,
+  "dprime_desc": 0.64,
+  "dprime_desc_ci": [
+   0.43,
+   0.87
+  ],
+  "dprime_desc_minus_direct": 0.31,
+  "desc_diff_ci": [
+   -0.07,
+   0.68
+  ],
+  "c_desc": -0.93
+ }
+}

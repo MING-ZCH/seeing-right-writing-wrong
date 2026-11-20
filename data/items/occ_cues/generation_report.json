@@ -1,0 +1,24 @@
+{
+ "n_base": 400,
+ "n_twins": 400,
+ "seed": 1,
+ "cells": {
+  "front_larger|front_higher": 100,
+  "front_larger|front_lower": 100,
+  "front_smaller|front_higher": 100,
+  "front_smaller|front_lower": 100
+ },
+ "yes_base": 200,
+ "ratio_larger": [
+  1.244,
+  1.796
+ ],
+ "ratio_smaller": [
+  0.545,
+  0.804
+ ],
+ "hidden_frac_range": [
+  0.15,
+  0.55
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "deepseek_twins": {
+  "occ_sdt": {
+   "direct": {
+    "dprime": 2.66,
+    "ci": [
+     2.44,
+     2.92
+    ],
+    "c": 0.02,
+    "n_pairs": 200,
+    "n_resp": 793,
+    "twin_flip": 81.7
+   },
+   "direct_nr": {
+    "dprime": 2.35,
+    "ci": [
+     2.15,
+     2.59
+    ],
+    "c": -0.02,
+    "n_pairs": 200,
+    "n_resp": 799,
+    "twin_flip": 76.2
+   },
+   "cot": {
+    "dprime": 2.66,
+    "ci": [
+     2.43,
+     2.94
+    ],
+    "c": 0.08,
+    "n_pairs": 200,
+    "n_resp": 800,
+    "twin_flip": 81.8
+   }
+  },
+  "occ_sdt_diff": {
+   "cot_minus_direct": [
+    0.0,
+    -0.23,
+    0.24
+   ],
+   "cot_minus_direct_nr": [
+    0.31,
+    0.08,
+    0.54
+   ],
+   "direct_nr_minus_direct": [
+    -0.31,
+    -0.53,
+    -0.09
+   ]
+  }
+ },
+ "qwen38max_hard": {
+  "occ_sdt": {
+   "direct": {
+    "dprime": 1.5,
+    "ci": [
+     1.24,
+     1.78
+    ],
+    "c": 0.04,
+    "n_pairs": 144,
+    "n_resp": 575,
+    "twin_flip": 62.7
+   },
+   "direct_nr": {
+    "dprime": 1.76,
+    "ci": [
+     1.48,
+     2.06
+    ],
+    "c": 0.04,
+    "n_pairs": 144,
+    "n_resp": 576,
+    "twin_flip": 67.7
+   },
+   "cot": {
+    "dprime": 1.6,
+    "ci": [
+     1.34,
+     1.88
+    ],
+    "c": 0.06,
+    "n_pairs": 144,
+    "n_resp": 576,
+    "twin_flip": 65.3
+   }
+  },
+  "occ_sdt_diff": {
+   "cot_minus_direct": [
+    0.1,
+    -0.1,
+    0.28
+   ],
+   "cot_minus_direct_nr": [
+    -0.16,
+    -0.4,
+    0.06
+   ],
+   "direct_nr_minus_direct": [
+    0.26,
+    0.02,
+    0.5
+   ]
+  },
+  "occ_both": {
+   "direct": {
+    "n": 576,
+    "acc": [
+     77.3,
+     73.1,
+     81.2
+    ],
+    "unparsed": 1,
+    "reasoning_tokens": 4909.2,
+    "frac_with_reasoning": 1.0,
+    "completion_tokens": 4913.9
+   },
+   "direct_nr": {
+    "n": 576,
+    "acc": [
+     81.1,
+     77.1,
+     84.9
+    ],
+    "unparsed": 0,
+    "reasoning_tokens": 0.0,
+    "frac_with_reasoning": 0.0,
+    "completion_tokens": 2.6
+   },
+   "cot": {
+    "n": 576,
+    "acc": [
+     78.8,
+     74.8,
+     82.6
+    ],
+    "unparsed": 0,
+    "reasoning_tokens": 5275.1,
+    "frac_with_reasoning": 1.0,
+    "completion_tokens": 5396.6
+   },
+   "cot_minus_direct": [
+    1.6,
+    -1.4,
+    4.3
+   ],
+   "cot_minus_direct_nr": [
+    -2.3,
+    -5.6,
+    0.9
+   ],
+   "direct_nr_minus_direct": [
+    3.8,
+    0.3,
+    7.3
+   ]
+  }
+ }
+}

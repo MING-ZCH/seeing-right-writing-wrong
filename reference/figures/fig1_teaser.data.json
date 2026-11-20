@@ -1,0 +1,304 @@
+{
+  "panel_a": {
+    "t_junction_px": {
+      "occ085": [
+        149.0,
+        227.0
+      ],
+      "occ085_cf": [
+        155.0,
+        241.0
+      ]
+    },
+    "occ085": {
+      "image_path": "vtax/exps/items/occlusion/images/occ085.png",
+      "question": "Is the blue hexagon in front of the purple triangle?",
+      "gold": "A",
+      "gold_label": "Yes",
+      "front_name": "blue hexagon",
+      "back_name": "purple triangle",
+      "direct_top20": {
+        "A": -0.00014041867689229548,
+        "B": -8.875140190124512
+      },
+      "direct_pred": "A",
+      "direct_pred_label": "Yes",
+      "direct_correct": true,
+      "cot_top20": {
+        "A": -3.635817120084539e-05,
+        "B": -10.250036239624023
+      },
+      "cot_pred": "A",
+      "cot_pred_label": "Yes",
+      "cot_correct": true,
+      "cot_excerpt_plotted": "The blue hexagon is drawn on top of the purple triangle…",
+      "cot_full_text": "Let's think step by step. We are looking at a 2D image with two shapes: a purple triangle and a blue hexagon.\n\nIn 2D images, we often use **overlapping** to imply **depth** or **front/back** relationships. The shape that is drawn on top of another shape is perceived as being in front.\n\nLooking at the image:\n- The blue hexagon is positioned such that it overlaps with the purple triangle.\n- Specifically, the bottom part of the purple triangle is covered by the blue hexagon.\n- The blue hexagon is drawn on top of the purple triangle in the image.\n\nTherefore, based on the visual representation, the blue hexagon is in front of the purple triangle.\n\nThe answer is: **(A) yes**"
+    },
+    "occ085_cf": {
+      "image_path": "vtax/exps/items/occlusion/images/occ085_cf.png",
+      "question": "Is the blue hexagon in front of the purple triangle?",
+      "gold": "B",
+      "gold_label": "No",
+      "front_name": "purple triangle",
+      "back_name": "blue hexagon",
+      "direct_top20": {
+        "A": -3.7732467651367188,
+        "B": -0.023246727883815765
+      },
+      "direct_pred": "B",
+      "direct_pred_label": "No",
+      "direct_correct": true,
+      "cot_top20": {
+        "A": -2.1815061700181104e-05,
+        "B": -10.750021934509277
+      },
+      "cot_pred": "A",
+      "cot_pred_label": "Yes",
+      "cot_correct": false,
+      "cot_excerpt_plotted": "…the blue hexagon is visually placed on top of the purple triangle.",
+      "cot_full_text": "Let's think step by step. We are looking at a 2D image with two shapes: a blue hexagon and a purple triangle.\n\nIn 2D images, we often use **overlapping** to imply **depth** or **front/back** relationships. The shape that is drawn **on top** of another shape is perceived as being **in front**.\n\nLooking at the image:\n- The blue hexagon is positioned such that its top-right portion is **overlapping** the purple triangle.\n- The purple triangle is partially covered by the blue hexagon.\n\nThis means the blue hexagon is visually placed **on top** of the purple triangle.\n\nTherefore, the blue hexagon is in front of the purple triangle.\n\nThe correct answer is: **(A) yes**"
+    }
+  },
+  "panel_b": {
+    "source": "judge2.json",
+    "metric": "two-judge consensus share judged 'incorrect' among clear agreed items (95% Wilson CI), with individual Opus 5.5 and GPT-6-Astra markers",
+    "agreement": {
+      "n": 480,
+      "n_both_clear": 464,
+      "unclear_j1": 11,
+      "unclear_j2": 13,
+      "judge_judge_agreement": 0.961,
+      "judge_judge_kappa": 0.922,
+      "three_way_agreement_incl_unclear": 0.946,
+      "rule_vs_claude_agreement": 0.753,
+      "rule_vs_claude_kappa": 0.505,
+      "rule_vs_gpt_agreement": 0.792,
+      "rule_vs_gpt_kappa": 0.585
+    },
+    "models_plotted": [
+      "qwen3b",
+      "qwen7b",
+      "internvl3_8b",
+      "phi35v",
+      "molmo7b",
+      "qwen3vl_8b"
+    ],
+    "skipped_models": [
+      "internvl35_8b"
+    ],
+    "values": {
+      "qwen3b": {
+        "D+C-": {
+          "consensus_incorrect_pct": 97.3,
+          "consensus_ci_pct": [
+            86.2,
+            99.5
+          ],
+          "consensus_n": 37,
+          "opus_incorrect_pct": 94.7,
+          "opus_n_clear": 38,
+          "gpt_incorrect_pct": 97.4,
+          "gpt_n_clear": 38,
+          "n_total_sampled": 40
+        },
+        "D+C+": {
+          "consensus_incorrect_pct": 10.8,
+          "consensus_ci_pct": [
+            4.3,
+            24.7
+          ],
+          "consensus_n": 37,
+          "opus_incorrect_pct": 15.4,
+          "opus_n_clear": 39,
+          "gpt_incorrect_pct": 10.5,
+          "gpt_n_clear": 38,
+          "n_total_sampled": 40
+        }
+      },
+      "qwen7b": {
+        "D+C-": {
+          "consensus_incorrect_pct": 66.7,
+          "consensus_ci_pct": [
+            51.0,
+            79.4
+          ],
+          "consensus_n": 39,
+          "opus_incorrect_pct": 67.5,
+          "opus_n_clear": 40,
+          "gpt_incorrect_pct": 65.0,
+          "gpt_n_clear": 40,
+          "n_total_sampled": 40
+        },
+        "D+C+": {
+          "consensus_incorrect_pct": 25.7,
+          "consensus_ci_pct": [
+            14.2,
+            42.1
+          ],
+          "consensus_n": 35,
+          "opus_incorrect_pct": 30.8,
+          "opus_n_clear": 39,
+          "gpt_incorrect_pct": 26.3,
+          "gpt_n_clear": 38,
+          "n_total_sampled": 40
+        }
+      },
+      "internvl3_8b": {
+        "D+C-": {
+          "consensus_incorrect_pct": 97.4,
+          "consensus_ci_pct": [
+            86.8,
+            99.5
+          ],
+          "consensus_n": 39,
+          "opus_incorrect_pct": 97.4,
+          "opus_n_clear": 39,
+          "gpt_incorrect_pct": 97.5,
+          "gpt_n_clear": 40,
+          "n_total_sampled": 40
+        },
+        "D+C+": {
+          "consensus_incorrect_pct": 21.1,
+          "consensus_ci_pct": [
+            11.1,
+            36.3
+          ],
+          "consensus_n": 38,
+          "opus_incorrect_pct": 21.1,
+          "opus_n_clear": 38,
+          "gpt_incorrect_pct": 21.1,
+          "gpt_n_clear": 38,
+          "n_total_sampled": 40
+        }
+      },
+      "phi35v": {
+        "D+C-": {
+          "consensus_incorrect_pct": 92.3,
+          "consensus_ci_pct": [
+            79.7,
+            97.3
+          ],
+          "consensus_n": 39,
+          "opus_incorrect_pct": 90.0,
+          "opus_n_clear": 40,
+          "gpt_incorrect_pct": 92.5,
+          "gpt_n_clear": 40,
+          "n_total_sampled": 40
+        },
+        "D+C+": {
+          "consensus_incorrect_pct": 14.3,
+          "consensus_ci_pct": [
+            6.3,
+            29.4
+          ],
+          "consensus_n": 35,
+          "opus_incorrect_pct": 21.1,
+          "opus_n_clear": 38,
+          "gpt_incorrect_pct": 13.5,
+          "gpt_n_clear": 37,
+          "n_total_sampled": 40
+        }
+      },
+      "molmo7b": {
+        "D+C-": {
+          "consensus_incorrect_pct": 58.3,
+          "consensus_ci_pct": [
+            42.2,
+            72.9
+          ],
+          "consensus_n": 36,
+          "opus_incorrect_pct": 59.0,
+          "opus_n_clear": 39,
+          "gpt_incorrect_pct": 59.0,
+          "gpt_n_clear": 39,
+          "n_total_sampled": 40
+        },
+        "D+C+": {
+          "consensus_incorrect_pct": 5.4,
+          "consensus_ci_pct": [
+            1.5,
+            17.7
+          ],
+          "consensus_n": 37,
+          "opus_incorrect_pct": 12.5,
+          "opus_n_clear": 40,
+          "gpt_incorrect_pct": 5.1,
+          "gpt_n_clear": 39,
+          "n_total_sampled": 40
+        }
+      },
+      "qwen3vl_8b": {
+        "D+C-": {
+          "consensus_incorrect_pct": 77.1,
+          "consensus_ci_pct": [
+            61.0,
+            87.9
+          ],
+          "consensus_n": 35,
+          "opus_incorrect_pct": 69.2,
+          "opus_n_clear": 39,
+          "gpt_incorrect_pct": 77.5,
+          "gpt_n_clear": 40,
+          "n_total_sampled": 40
+        },
+        "D+C+": {
+          "consensus_incorrect_pct": 12.8,
+          "consensus_ci_pct": [
+            5.6,
+            26.7
+          ],
+          "consensus_n": 39,
+          "opus_incorrect_pct": 15.0,
+          "opus_n_clear": 40,
+          "gpt_incorrect_pct": 12.5,
+          "gpt_n_clear": 40,
+          "n_total_sampled": 40
+        }
+      }
+    }
+  },
+  "panel_c": {
+    "rows": [
+      {
+        "label": "Qwen3-VL-8B, same rationale",
+        "before_or_direct": 64.6,
+        "after_written": 3.7
+      },
+      {
+        "label": "Qwen3-VL-32B, same rationale",
+        "before_or_direct": 86.9,
+        "after_written": 3.0
+      },
+      {
+        "label": "Rendered twins (7 open)",
+        "before_or_direct": 30.957142857142856,
+        "after_written": 4.942857142857143
+      },
+      {
+        "label": "Mirrored photos (7 open)",
+        "before_or_direct": 69.6,
+        "after_written": 3.4
+      },
+      {
+        "label": "COCO twins (7 open)",
+        "before_or_direct": 20.5,
+        "after_written": 3.0
+      },
+      {
+        "label": "Qwen3.8-Max (closed)",
+        "before_or_direct": 62.0,
+        "after_written": 1.3
+      },
+      {
+        "label": "Claude Opus 5.5 (closed)",
+        "before_or_direct": 74.0,
+        "after_written": 74.0
+      },
+      {
+        "label": "GPT-6-Astra (closed)",
+        "before_or_direct": 90.0,
+        "after_written": 90.0
+      }
+    ]
+  }
+}

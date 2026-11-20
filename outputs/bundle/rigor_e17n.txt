@@ -1,0 +1,39 @@
+SYN-POOLED qwen3b           d' 2.32 -> 0.55 (-1.77 [-2.15, -1.47]) c -0.71 -> -0.94 | sens. loss pooled 26.9 vs single 29.2 | pair both-correct 66.4 -> 23.6
+SYN-TERC qwen3b           low: no 60.0->37.5 yes 95.1->86.6 loss -15.4 | mid: no 71.2->21.9 yes 98.9->89.9 loss -27.2 | high: no 81.7->12.2 yes 98.8->90.0 loss -39.5 | CoT yes on high-no 87.8
+SYN-SMALL qwen3b           ratio<=1.8 n=55 acc 72.7 -> 63.6 (-9.1 [-21.8, 3.6])
+SYN-POOLED qwen7b           d' 1.6 -> 1.02 (-0.58 [-0.78, -0.39]) c +0.23 -> +0.23 | sens. loss pooled 9.3 vs single 7.5 | pair both-correct 69.2 -> 50.2
+SYN-TERC qwen7b           low: no 72.5->77.5 yes 68.3->50.0 loss -6.8 | mid: no 86.3->71.2 yes 75.3->62.9 loss -13.6 | high: no 95.1->87.8 yes 75.0->75.0 loss -3.7 | CoT yes on high-no 12.2
+SYN-SMALL qwen7b           ratio<=1.8 n=55 acc 72.7 -> 58.2 (-14.5 [-29.1, 1.8])
+SYN-POOLED internvl3_8b     d' 2.62 -> 0.79 (-1.83 [-2.15, -1.56]) c +0.16 -> -0.34 | sens. loss pooled 25.2 vs single 24.5 | pair both-correct 85.8 -> 41.6
+SYN-TERC internvl3_8b     low: no 91.2->66.2 yes 82.9->86.6 loss -10.5 | mid: no 94.5->56.2 yes 86.5->82.0 loss -19.8 | high: no 97.6->39.0 yes 95.0->65.0 loss -44.4 | CoT yes on high-no 61.0
+SYN-SMALL internvl3_8b     ratio<=1.8 n=55 acc 80.0 -> 70.9 (-9.1 [-23.6, 5.5])
+SYN-POOLED phi35v           d' 0.79 -> 0.39 (-0.40 [-0.59, -0.2]) c -0.23 -> +0.05 | sens. loss pooled 7.6 vs single 4.2 | pair both-correct 45.8 -> 31.8
+SYN-TERC phi35v           low: no 45.0->52.5 yes 73.2->68.3 loss +1.2 | mid: no 56.2->61.6 yes 84.3->56.2 loss -13.0 | high: no 54.9->69.5 yes 60.0->46.2 loss +0.6 | CoT yes on high-no 30.5
+SYN-SMALL phi35v           ratio<=1.8 n=55 acc 60.0 -> 61.8 (+1.8 [-12.7, 16.4])
+SYN-POOLED molmo7b          d' 2.48 -> 1.29 (-1.19 [-1.46, -0.96]) c +0.27 -> -0.28 | sens. loss pooled 15.2 vs single 13.7 | pair both-correct 79.4 -> 52.2
+SYN-TERC molmo7b          low: no 91.2->53.8 yes 78.0->90.2 loss -12.3 | mid: no 94.5->60.3 yes 96.6->94.4 loss -16.7 | high: no 91.5->81.7 yes 92.5->73.8 loss -14.2 | CoT yes on high-no 18.3
+SYN-SMALL molmo7b          ratio<=1.8 n=55 acc 78.2 -> 67.3 (-10.9 [-25.5, 3.6])
+SYN-POOLED qwen3vl_8b       d' 1.87 -> 0.69 (-1.18 [-1.42, -0.98]) c -0.65 -> -0.54 | sens. loss pooled 19.1 vs single 19.3 | pair both-correct 57.8 -> 35.4
+SYN-TERC qwen3vl_8b       low: no 70.0->51.2 yes 93.9->92.7 loss -9.9 | mid: no 63.0->38.4 yes 97.8->84.3 loss -18.5 | high: no 50.0->28.0 yes 95.0->68.8 loss -24.1 | CoT yes on high-no 72.0
+SYN-SMALL qwen3vl_8b       ratio<=1.8 n=55 acc 83.6 -> 80.0 (-3.6 [-16.4, 9.1])
+SYN-TERC qwen3vl_8b_think low: no 82.5->57.5 yes 93.9->95.1 loss -11.7 | mid: no 86.3->74.0 yes 98.9->94.4 loss -8.0 | high: no 87.8->54.9 yes 91.2->87.5 loss -18.5 | CoT yes on high-no 45.1
+SYN-SMALL qwen3vl_8b_think ratio<=1.8 n=55 acc 89.1 -> 76.4 (-12.7 [-21.8, -5.4])
+SYN-POOLED internvl35_8b    d' 0.35 -> 0.59 (+0.24 [0.06, 0.42]) c -0.63 -> -0.68 | sens. loss pooled -4.6 vs single -5.8 | pair both-correct 29.8 -> 32.8
+SYN-TERC internvl35_8b    low: no 55.0->52.5 yes 81.7->86.6 loss +1.2 | mid: no 28.8->28.8 yes 76.4->82.0 loss +3.1 | high: no 9.8->28.0 yes 82.5->80.0 loss +8.0 | CoT yes on high-no 72.0
+SYN-SMALL internvl35_8b    ratio<=1.8 n=55 acc 72.7 -> 70.9 (-1.8 [-14.5, 10.9])
+TWINS qwen3b 0.08->0.13 (+0.05 [-0.20, +0.31]) rises (n.s.) | qwen7b 0.20->0.42 (+0.21 [+0.01, +0.43]) rises (CI>0) | internvl3_8b 0.70->1.13 (+0.43 [+0.15, +0.70]) rises (CI>0) | phi35v 0.69->0.46 (-0.23 [-0.43, -0.05]) falls (CI<0) | molmo7b 2.41->1.46 (-0.94 [-1.23, -0.68]) falls (CI<0) | qwen3vl_8b 2.25->1.80 (-0.46 [-0.87, -0.08]) falls (CI<0) | qwen3vl_8b_think 3.05->2.40 (-0.65 [-1.25, -0.25]) falls (CI<0) | internvl35_8b 0.34->0.59 (+0.25 [+0.09, +0.41]) rises (CI>0)
+RESCUE qwen3b         D-C+ n=212 committed 206 (P0<0.5 84.4%) relational 85.0% concl 3.4% | D+C- relational 85.4% concl 4.1%
+RESCUE qwen7b         D-C+ n=171 committed 161 (P0<0.5 90.1%) relational 87.6% concl 2.5% | D+C- relational 87.6% concl 3.9%
+RESCUE internvl3_8b   D-C+ n=121 committed 110 (P0<0.5 88.4%) relational 85.5% concl 1.8% | D+C- relational 82.3% concl 7.7%
+RESCUE phi35v         D-C+ n=323 committed 248 (P0<0.5 75.2%) relational 85.1% concl 4.8% | D+C- relational 83.2% concl 7.4%
+RESCUE molmo7b        D-C+ n=373 committed 327 (P0<0.5 72.7%) relational 71.3% concl 8.0% | D+C- relational 69.3% concl 15.7%
+RESCUE qwen3vl_8b     D-C+ n=90 committed 85 (P0<0.5 87.8%) relational 75.3% concl 0.0% | D+C- relational 83.3% concl 0.5%
+RESCUE internvl35_8b  D-C+ n=191 committed 174 (P0<0.5 90.1%) relational 89.7% concl 2.3% | D+C- relational 88.5% concl 4.8%
+RESCUE-JUDGE qwen3b         n=20 judgeable 14 consistent 78.6 contradict 21.4 noclaim 5.0 | D+C- commits contradict 100.0
+RESCUE-JUDGE qwen7b         n=38 judgeable 32 consistent 84.4 contradict 15.6 noclaim 0.0 | D+C- commits contradict 57.1
+RESCUE-JUDGE internvl3_8b   n=30 judgeable 18 consistent 88.9 contradict 11.1 noclaim 26.7 | D+C- commits contradict 97.1
+RESCUE-JUDGE phi35v         n=40 judgeable 33 consistent 69.7 contradict 30.3 noclaim 0.0 | D+C- commits contradict 100.0
+RESCUE-JUDGE molmo7b        n=25 judgeable 24 consistent 87.5 contradict 12.5 noclaim 0.0 | D+C- commits contradict 77.4
+RESCUE-JUDGE qwen3vl_8b     n=28 judgeable 17 consistent 70.6 contradict 29.4 noclaim 25.0 | D+C- commits contradict 96.3
+RESCUE-JUDGE internvl35_8b  n=40 judgeable 37 consistent 89.2 contradict 10.8 noclaim 5.0 | D+C- commits contradict 91.4
+RESCUE-JUDGE pooled         n=221 judgeable 175 consistent 81.7 contradict 18.3 noclaim 8.1 | D+C- commits contradict 88.5

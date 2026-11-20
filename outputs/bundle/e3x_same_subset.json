@@ -1,0 +1,261 @@
+{
+ "qwen3b": {
+  "n_same_subset": 641,
+  "S_original_same_subset": {
+   "mean": 12.6,
+   "lo": 10.1,
+   "hi": 15.2,
+   "n": 641
+  },
+  "S_gray_same_subset": {
+   "mean": 2.7,
+   "lo": 1.4,
+   "hi": 4.0,
+   "n": 641
+  },
+  "S_mirror_same_subset": {
+   "mean": 1.4,
+   "lo": 0.2,
+   "hi": 2.7,
+   "n": 641
+  },
+  "S_original_full": {
+   "mean": 6.8,
+   "lo": 5.8,
+   "hi": 7.8,
+   "n": 2732
+  },
+  "S_gray_full": {
+   "mean": 3.3,
+   "lo": 2.5,
+   "hi": 4.1,
+   "n": 2732
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 373,
+   "syn_relpos": 268
+  }
+ },
+ "qwen7b": {
+  "n_same_subset": 650,
+  "S_original_same_subset": {
+   "mean": 55.4,
+   "lo": 51.8,
+   "hi": 58.9,
+   "n": 650
+  },
+  "S_gray_same_subset": {
+   "mean": 22.9,
+   "lo": 19.9,
+   "hi": 26.0,
+   "n": 650
+  },
+  "S_mirror_same_subset": {
+   "mean": 2.9,
+   "lo": 1.1,
+   "hi": 5.0,
+   "n": 650
+  },
+  "S_original_full": {
+   "mean": 36.3,
+   "lo": 34.2,
+   "hi": 38.2,
+   "n": 2848
+  },
+  "S_gray_full": {
+   "mean": 21.9,
+   "lo": 20.0,
+   "hi": 23.8,
+   "n": 2848
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 382,
+   "syn_relpos": 268
+  }
+ },
+ "internvl3_8b": {
+  "n_same_subset": 651,
+  "S_original_same_subset": {
+   "mean": 85.1,
+   "lo": 81.8,
+   "hi": 88.1,
+   "n": 651
+  },
+  "S_gray_same_subset": {
+   "mean": 24.6,
+   "lo": 21.2,
+   "hi": 28.3,
+   "n": 651
+  },
+  "S_mirror_same_subset": {
+   "mean": -23.7,
+   "lo": -27.4,
+   "hi": -20.0,
+   "n": 651
+  },
+  "S_original_full": {
+   "mean": 61.1,
+   "lo": 59.0,
+   "hi": 63.2,
+   "n": 2850
+  },
+  "S_gray_full": {
+   "mean": 27.2,
+   "lo": 25.2,
+   "hi": 29.0,
+   "n": 2850
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 383,
+   "syn_relpos": 268
+  }
+ },
+ "phi35v": {
+  "n_same_subset": 443,
+  "S_original_same_subset": {
+   "mean": 0.2,
+   "lo": 0.0,
+   "hi": 0.7,
+   "n": 443
+  },
+  "S_gray_same_subset": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n": 443
+  },
+  "S_mirror_same_subset": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n": 443
+  },
+  "S_original_full": {
+   "mean": 0.1,
+   "lo": -0.1,
+   "hi": 0.4,
+   "n": 1635
+  },
+  "S_gray_full": {
+   "mean": 0.1,
+   "lo": 0.0,
+   "hi": 0.2,
+   "n": 1635
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 234,
+   "syn_relpos": 209
+  }
+ },
+ "molmo7b": {
+  "n_same_subset": 651,
+  "S_original_same_subset": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n": 651
+  },
+  "S_gray_same_subset": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n": 651
+  },
+  "S_mirror_same_subset": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.0,
+   "n": 651
+  },
+  "S_original_full": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.1,
+   "n": 2830
+  },
+  "S_gray_full": {
+   "mean": 0.0,
+   "lo": 0.0,
+   "hi": 0.1,
+   "n": 2830
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 383,
+   "syn_relpos": 268
+  }
+ },
+ "qwen3vl_8b": {
+  "n_same_subset": 646,
+  "S_original_same_subset": {
+   "mean": 3.1,
+   "lo": 1.9,
+   "hi": 4.5,
+   "n": 646
+  },
+  "S_gray_same_subset": {
+   "mean": 0.5,
+   "lo": 0.0,
+   "hi": 1.1,
+   "n": 646
+  },
+  "S_mirror_same_subset": {
+   "mean": 0.2,
+   "lo": 0.0,
+   "hi": 0.5,
+   "n": 646
+  },
+  "S_original_full": {
+   "mean": 1.8,
+   "lo": 1.3,
+   "hi": 2.3,
+   "n": 2786
+  },
+  "S_gray_full": {
+   "mean": 0.1,
+   "lo": 0.0,
+   "hi": 0.3,
+   "n": 2786
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 378,
+   "syn_relpos": 268
+  }
+ },
+ "internvl35_8b": {
+  "n_same_subset": 651,
+  "S_original_same_subset": {
+   "mean": 85.7,
+   "lo": 82.4,
+   "hi": 88.8,
+   "n": 651
+  },
+  "S_gray_same_subset": {
+   "mean": 70.7,
+   "lo": 66.7,
+   "hi": 74.5,
+   "n": 651
+  },
+  "S_mirror_same_subset": {
+   "mean": -34.6,
+   "lo": -40.4,
+   "hi": -28.9,
+   "n": 651
+  },
+  "S_original_full": {
+   "mean": 68.2,
+   "lo": 65.9,
+   "hi": 70.6,
+   "n": 2849
+  },
+  "S_gray_full": {
+   "mean": 49.8,
+   "lo": 47.4,
+   "hi": 52.3,
+   "n": 2849
+  },
+  "tasks_same_subset": {
+   "cvb_relation": 383,
+   "syn_relpos": 268
+  }
+ }
+}

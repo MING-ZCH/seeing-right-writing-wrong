@@ -1,0 +1,18 @@
+# Main env: Qwen2.5-VL-3B/7B, InternVL3-8B, Phi-3.5-Vision, Molmo-7B-D (HF transformers forward/generate).
+# transformers 4.51.x matches the original probe/patching runs; torch 2.6.0 matches vLLM 0.8.4.
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.51.3
+tokenizers==0.21.1
+accelerate==1.6.0
+safetensors==0.5.3
+huggingface-hub==0.30.2
+datasets==3.5.0
+numpy==1.26.4
+pillow==11.2.1
+einops==0.8.1
+timm==1.0.15
+sentencepiece==0.2.0
+protobuf==4.25.6
+tqdm==4.67.1
+pyarrow==19.0.1

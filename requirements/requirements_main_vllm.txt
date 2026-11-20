@@ -1,0 +1,2 @@
+# Optional: original-protocol greedy R generation (gen_rationales_vllm.py). Pins torch==2.6.0.
+vllm==0.8.4

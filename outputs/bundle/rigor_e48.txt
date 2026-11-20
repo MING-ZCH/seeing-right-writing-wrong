@@ -1,0 +1,186 @@
+READOUT MiMo-VL-7B-RL cues: {"direct": {"n": 1600, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9973, "letter_mass_min": 0.9919, "unparsed": 0, "exact_eq_top20_pct": 100.0}, "think": {"n": 1600, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9997, "letter_mass_min": 0.769, "unparsed": 0, "exact_eq_top20_pct": 100.0, "gen_tokens": {"mean": 149.7, "median": 121.0, "max": 4096, "trunc_pct": 0.31, "empty_pct": 0.0}}, "cot": {"n": 1600, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9997, "letter_mass_min": 0.9972, "unparsed": 0, "exact_eq_top20_pct": 100.0, "gen_tokens": {"mean": 160.1, "median": 154.0, "max": 427, "trunc_pct": 0.0, "empty_pct": 0.0}}}
+READOUT MiMo-VL-7B-RL twins: {"direct": {"n": 800, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9974, "letter_mass_min": 0.9923, "unparsed": 0, "exact_eq_top20_pct": 100.0}, "think": {"n": 800, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9997, "letter_mass_min": 0.8134, "unparsed": 0, "exact_eq_top20_pct": 100.0, "gen_tokens": {"mean": 146.1, "median": 122.0, "max": 4096, "trunc_pct": 0.25, "empty_pct": 0.0}}, "cot": {"n": 800, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9997, "letter_mass_min": 0.9968, "unparsed": 0, "exact_eq_top20_pct": 100.0, "gen_tokens": {"mean": 157.7, "median": 152.5, "max": 451, "trunc_pct": 0.0, "empty_pct": 0.0}}}
+READOUT MiMo-VL-7B-RL nat: {"direct": {"n": 724, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.999, "letter_mass_min": 0.9605, "unparsed": 0, "exact_eq_top20_pct": 99.59}, "think": {"n": 724, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9998, "letter_mass_min": 0.452, "unparsed": 0, "exact_eq_top20_pct": 100.0, "gen_tokens": {"mean": 239.1, "median": 162.5, "max": 3183, "trunc_pct": 0.0, "empty_pct": 0.0}}, "cot": {"n": 724, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9999, "letter_mass_min": 0.2279, "unparsed": 0, "exact_eq_top20_pct": 100.0, "gen_tokens": {"mean": 268.2, "median": 288.0, "max": 512, "trunc_pct": 0.28, "empty_pct": 0.0}}}
+== MiMo-VL-7B-RL cues native thinking (mimo_vl_7b_rl|cues|think) n=1600 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC MiMo-VL-7B-RL cues native thinking: Direct 73.9 [71.5, 76.4] (rule CI, (scene, phrasing) clusters) / 73.9 [70.9, 77.0] (twin-pair clusters) | CoT 79.6 [77.3, 81.8] | CoT-Dir +5.7 [+3.6, +7.9]
+RULE MiMo-VL-7B-RL cues native thinking: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 71.5, occlusion d' CI lo 2.17)
+GLM MiMo-VL-7B-RL cues native thinking direct: occl +2.39 [+2.17, +2.71] height +2.41 [+2.16, +2.72] size +0.01 [-0.17, +0.21] (max|b| 1.2, separated False)
+GLM MiMo-VL-7B-RL cues native thinking cot   : occl +1.85 [+1.71, +2.04] height +0.91 [+0.75, +1.08] size -0.15 [-0.31, +0.00] (max|b| 0.93, separated False)
+GLM MiMo-VL-7B-RL cues native thinking cot-direct: occl -0.54 [-0.80, -0.30] height -1.49 [-1.80, -1.26] size -0.16 [-0.32, +0.00] | common scale s 0.575 [0.511, 0.644] delta_occ +0.238 [0.2, 0.277]
+AME MiMo-VL-7B-RL cues native thinking occlusion: direct +48.0 [+44.6, +51.5] cot +59.2 [+55.5, +63.1] | cot-direct +11.2 [+7.8, +15.0]
+AME MiMo-VL-7B-RL cues native thinking vertical : direct +48.4 [+45.0, +52.0] cot +23.5 [+19.4, +27.4] | cot-direct -24.9 [-28.6, -21.6]
+AME MiMo-VL-7B-RL cues native thinking size     : direct +0.3 [-3.3, +3.8] cot -3.7 [-7.7, -0.1] | cot-direct -4.0 [-7.8, -0.5]
+DPAIR MiMo-VL-7B-RL cues native thinking: direct 0.95 [0.801, 1.104] cot 1.63 [1.43, 1.896] | cot-direct +0.68 [+0.51, +0.92] | splits BC/SF/SB/BW direct [59.8, 16.5, 11.9, 11.9] cot [63.1, 19.8, 13.2, 3.9]
+CELLS MiMo-VL-7B-RL cues native thinking (Direct vs CoT): D+C- 130 D-C+ 221 D+C+ 1053 D-C- 196 | churn 21.9% net +5.69 pts
+LOWER MiMo-VL-7B-RL cues native thinking: follows lower-is-closer direct 74.3 [71.5, 77.2] cot 61.8 [58.6, 65.2]
+CLAIM MiMo-VL-7B-RL cues native thinking first_claim_cot: parsed 1412/1600 (88.2%) names front 74.1 [71.7, 76.3] lower 53.1 [49.8, 56.4] larger 46.2 [42.9, 49.5]
+FOLLOW MiMo-VL-7B-RL cues native thinking follow_cot_last all: coverage 1410/1600 | P(agree|true) 96.9 [95.8, 97.9] (n=1069) P(agree|false) 72.4 [67.4, 77.2] (n=341) cells {'true_cons': 1036, 'true_incons': 33, 'false_cons': 247, 'false_incons': 94}
+FOLLOW MiMo-VL-7B-RL cues native thinking follow_cot_last D+: coverage 1410/1600 | P(agree|true) 98.2 [97.3, 99.0] (n=879) P(agree|false) 55.9 [48.3, 62.8] (n=177) cells {'true_cons': 863, 'true_incons': 16, 'false_cons': 99, 'false_incons': 78}
+FOLLOW MiMo-VL-7B-RL cues native thinking follow_cot_last D-: coverage 1410/1600 | P(agree|true) 91.1 [87.1, 94.8] (n=190) P(agree|false) 90.2 [85.5, 94.5] (n=164) cells {'true_cons': 173, 'true_incons': 17, 'false_cons': 148, 'false_incons': 16}
+TOKENS MiMo-VL-7B-RL cues native thinking: CoT {'mean': 149.7, 'median': 121.0, 'max': 4096, 'trunc_pct': 0.31}
+TWINS MiMo-VL-7B-RL cues native thinking: d'pair Direct 1.11 -> CoT 1.70 delta +0.59 [+0.26, +1.00] (BW units Direct 38, CoT 14)
+L3 MiMo-VL-7B-RL cues native thinking cues: last-claim coverage 88.1% written acc 75.8 vs Direct on parsed 74.9 -> x +0.92 [-1.76, 3.63] | y (CoT-Direct, all) +5.69 [3.5, 7.75] | like-for-like y +5.25 | agree(last) 91.0 | 21-point fit predicts y -0.60 (y - x +4.77)
+L3 MiMo-VL-7B-RL cues native thinking twins: last-claim coverage 91.9% written acc 78.8 vs Direct on parsed 77.3 -> x +1.50 [-2.58, 5.59] | y (CoT-Direct, all) +4.00 [0.38, 7.5] | like-for-like y +4.22 | agree(last) 92.7 | 21-point fit predicts y -0.09 (y - x +2.50)
+== MiMo-VL-7B-RL cues short CoT (mimo_vl_7b_rl|cues|cot) n=1600 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC MiMo-VL-7B-RL cues short CoT: Direct 73.9 [71.5, 76.4] (rule CI, (scene, phrasing) clusters) / 73.9 [70.9, 77.0] (twin-pair clusters) | CoT 77.1 [74.6, 79.6] | CoT-Dir +3.2 [+1.3, +5.1]
+RULE MiMo-VL-7B-RL cues short CoT: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 71.5, occlusion d' CI lo 2.17)
+GLM MiMo-VL-7B-RL cues short CoT direct: occl +2.39 [+2.17, +2.71] height +2.41 [+2.16, +2.72] size +0.01 [-0.17, +0.21] (max|b| 1.2, separated False)
+GLM MiMo-VL-7B-RL cues short CoT cot   : occl +2.14 [+1.96, +2.35] height +1.46 [+1.30, +1.66] size -0.24 [-0.41, -0.06] (max|b| 1.07, separated False)
+GLM MiMo-VL-7B-RL cues short CoT cot-direct: occl -0.26 [-0.54, +0.00] height -0.94 [-1.26, -0.71] size -0.25 [-0.44, -0.07] | common scale s 0.749 [0.664, 0.831] delta_occ +0.172 [0.125, 0.226]
+AME MiMo-VL-7B-RL cues short CoT occlusion: direct +48.0 [+44.6, +51.5] cot +54.2 [+50.3, +57.7] | cot-direct +6.2 [+2.8, +9.7]
+AME MiMo-VL-7B-RL cues short CoT vertical : direct +48.4 [+45.0, +52.0] cot +32.6 [+29.2, +36.0] | cot-direct -15.8 [-19.7, -12.5]
+AME MiMo-VL-7B-RL cues short CoT size     : direct +0.3 [-3.3, +3.8] cot -5.1 [-8.5, -1.4] | cot-direct -5.3 [-8.9, -1.7]
+DPAIR MiMo-VL-7B-RL cues short CoT: direct 0.95 [0.801, 1.104] cot 1.41 [1.221, 1.627] | cot-direct +0.46 [+0.30, +0.66] | splits BC/SF/SB/BW direct [59.8, 16.5, 11.9, 11.9] cot [59.6, 20.1, 14.9, 5.4]
+CELLS MiMo-VL-7B-RL cues short CoT (Direct vs CoT): D+C- 107 D-C+ 158 D+C+ 1076 D-C- 259 | churn 16.6% net +3.19 pts
+LOWER MiMo-VL-7B-RL cues short CoT: follows lower-is-closer direct 74.3 [71.5, 77.2] cot 66.1 [63.1, 69.4]
+CLAIM MiMo-VL-7B-RL cues short CoT first_claim_cot: parsed 1585/1600 (99.1%) names front 76.4 [74.2, 78.6] lower 61.5 [58.4, 64.9] larger 45.4 [41.9, 48.8]
+FOLLOW MiMo-VL-7B-RL cues short CoT follow_cot_last all: coverage 1585/1600 | P(agree|true) 97.8 [96.9, 98.6] (n=1202) P(agree|false) 86.7 [83.2, 89.8] (n=383) cells {'true_cons': 1175, 'true_incons': 27, 'false_cons': 332, 'false_incons': 51}
+FOLLOW MiMo-VL-7B-RL cues short CoT follow_cot_last D+: coverage 1585/1600 | P(agree|true) 99.1 [98.5, 99.6] (n=1034) P(agree|false) 67.4 [59.9, 74.7] (n=141) cells {'true_cons': 1025, 'true_incons': 9, 'false_cons': 95, 'false_incons': 46}
+FOLLOW MiMo-VL-7B-RL cues short CoT follow_cot_last D-: coverage 1585/1600 | P(agree|true) 89.3 [84.2, 94.1] (n=168) P(agree|false) 97.9 [96.0, 99.6] (n=242) cells {'true_cons': 150, 'true_incons': 18, 'false_cons': 237, 'false_incons': 5}
+TOKENS MiMo-VL-7B-RL cues short CoT: CoT {'mean': 160.1, 'median': 154.0, 'max': 427, 'trunc_pct': 0.0}
+TWINS MiMo-VL-7B-RL cues short CoT: d'pair Direct 1.11 -> CoT 1.63 delta +0.53 [+0.32, +0.79] (BW units Direct 38, CoT 16)
+L3 MiMo-VL-7B-RL cues short CoT cues: last-claim coverage 99.1% written acc 75.8 vs Direct on parsed 74.1 -> x +1.70 [-0.57, 4.09] | y (CoT-Direct, all) +3.19 [1.31, 5.06] | like-for-like y +3.22 | agree(last) 95.1 | 21-point fit predicts y +0.08 (y - x +1.49)
+L3 MiMo-VL-7B-RL cues short CoT twins: last-claim coverage 98.4% written acc 78.9 vs Direct on parsed 76.9 -> x +2.03 [-1.52, 5.16] | y (CoT-Direct, all) +4.25 [1.38, 6.88] | like-for-like y +4.07 | agree(last) 94.4 | 21-point fit predicts y +0.37 (y - x +2.22)
+== MiMo-VL-7B-RL twins native thinking (mimo_vl_7b_rl|twins|think) n=800 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 0.0%
+ACC MiMo-VL-7B-RL twins native thinking: Direct 76.9 [73.5, 80.0] (rule CI, (scene, phrasing) clusters) / 76.9 [72.8, 81.0] (twin-pair clusters) | CoT 80.9 [77.8, 83.9] | CoT-Dir +4.0 [+0.6, +7.2]
+RULE MiMo-VL-7B-RL twins native thinking: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 73.5, occlusion d' CI lo 1.2)
+GLM MiMo-VL-7B-RL twins native thinking direct: occl +1.37 [+1.20, +1.62] height +2.45 [+2.10, +3.02] size -1.37 [-1.62, -1.20] (max|b| 1.22, separated False)
+GLM MiMo-VL-7B-RL twins native thinking cot   : occl +0.98 [+0.86, +1.12] height +0.88 [+0.64, +1.15] size -0.98 [-1.12, -0.86] (max|b| 0.49, separated False)
+GLM MiMo-VL-7B-RL twins native thinking cot-direct: occl -0.39 [-0.63, -0.22] height -1.57 [-2.06, -1.24] size +0.39 [+0.22, +0.63] | common scale s 0.496 [0.402, 0.584] delta_occ +0.150 [0.106, 0.193]
+AME MiMo-VL-7B-RL twins native thinking occlusion: direct +26.8 [+23.6, +30.0] cot +30.8 [+28.0, +33.5] | cot-direct +4.0 [+0.5, +7.4]
+AME MiMo-VL-7B-RL twins native thinking vertical : direct +43.9 [+38.0, +49.4] cot +21.6 [+15.8, +27.0] | cot-direct -22.3 [-28.5, -16.1]
+AME MiMo-VL-7B-RL twins native thinking size     : direct -26.8 [-30.0, -23.6] cot -30.8 [-33.5, -28.0] | cot-direct -4.0 [-7.4, -0.5]
+DPAIR MiMo-VL-7B-RL twins native thinking: direct 1.11 [0.895, 1.371] cot 1.70 [1.424, 2.107] | cot-direct +0.59 [+0.26, +0.99] | splits BC/SF/SB/BW direct [63.2, 15.5, 11.8, 9.5] cot [65.2, 20.2, 11.0, 3.5]
+CELLS MiMo-VL-7B-RL twins native thinking (Direct vs CoT): D+C- 71 D-C+ 103 D+C+ 544 D-C- 82 | churn 21.8% net +4.00 pts
+LOWER MiMo-VL-7B-RL twins native thinking: follows lower-is-closer direct 72.1 [67.4, 76.5] cot 61.1 [56.0, 65.9]
+CLAIM MiMo-VL-7B-RL twins native thinking first_claim_cot: parsed 735/800 (91.9%) names front 78.8 [75.7, 81.7] lower 54.8 [49.7, 59.6] larger 21.2 [18.3, 24.3]
+FOLLOW MiMo-VL-7B-RL twins native thinking follow_cot_last all: coverage 735/800 | P(agree|true) 97.1 [95.8, 98.4] (n=579) P(agree|false) 76.3 [69.2, 82.9] (n=156) cells {'true_cons': 562, 'true_incons': 17, 'false_cons': 119, 'false_incons': 37}
+FOLLOW MiMo-VL-7B-RL twins native thinking follow_cot_last D+: coverage 735/800 | P(agree|true) 98.5 [97.4, 99.6] (n=480) P(agree|false) 62.5 [51.2, 72.5] (n=88) cells {'true_cons': 473, 'true_incons': 7, 'false_cons': 55, 'false_incons': 33}
+FOLLOW MiMo-VL-7B-RL twins native thinking follow_cot_last D-: coverage 735/800 | P(agree|true) 89.9 [84.4, 95.3] (n=99) P(agree|false) 94.1 [88.1, 98.7] (n=68) cells {'true_cons': 89, 'true_incons': 10, 'false_cons': 64, 'false_incons': 4}
+TOKENS MiMo-VL-7B-RL twins native thinking: CoT {'mean': 146.1, 'median': 122.0, 'max': 4096, 'trunc_pct': 0.25}
+TWINS MiMo-VL-7B-RL twins native thinking: d'pair Direct 1.11 -> CoT 1.70 delta +0.59 [+0.26, +1.00] (BW units Direct 38, CoT 14)
+L3 MiMo-VL-7B-RL twins native thinking cues: last-claim coverage 91.9% written acc 78.8 vs Direct on parsed 77.3 -> x +1.50 [-2.58, 5.59] | y (CoT-Direct, all) +4.00 [0.38, 7.5] | like-for-like y +4.22 | agree(last) 92.7 | 21-point fit predicts y -0.09 (y - x +2.50)
+== MiMo-VL-7B-RL twins short CoT (mimo_vl_7b_rl|twins|cot) n=800 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 0.0%
+ACC MiMo-VL-7B-RL twins short CoT: Direct 76.9 [73.5, 80.0] (rule CI, (scene, phrasing) clusters) / 76.9 [72.8, 81.0] (twin-pair clusters) | CoT 81.1 [77.9, 84.1] | CoT-Dir +4.2 [+1.6, +7.0]
+RULE MiMo-VL-7B-RL twins short CoT: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 73.5, occlusion d' CI lo 1.2)
+GLM MiMo-VL-7B-RL twins short CoT direct: occl +1.37 [+1.20, +1.62] height +2.45 [+2.10, +3.02] size -1.37 [-1.62, -1.20] (max|b| 1.22, separated False)
+GLM MiMo-VL-7B-RL twins short CoT cot   : occl +1.24 [+1.11, +1.41] height +1.43 [+1.20, +1.70] size -1.24 [-1.41, -1.11] (max|b| 0.72, separated False)
+GLM MiMo-VL-7B-RL twins short CoT cot-direct: occl -0.13 [-0.41, +0.09] height -1.01 [-1.53, -0.63] size +0.13 [-0.09, +0.41] | common scale s 0.71 [0.583, 0.838] delta_occ +0.135 [0.091, 0.175]
+AME MiMo-VL-7B-RL twins short CoT occlusion: direct +26.8 [+23.6, +30.0] cot +31.0 [+28.0, +33.6] | cot-direct +4.2 [+1.7, +6.4]
+AME MiMo-VL-7B-RL twins short CoT vertical : direct +43.9 [+38.0, +49.4] cot +28.3 [+23.5, +32.9] | cot-direct -15.6 [-19.9, -10.9]
+AME MiMo-VL-7B-RL twins short CoT size     : direct -26.8 [-30.0, -23.6] cot -31.0 [-33.6, -28.0] | cot-direct -4.2 [-6.4, -1.7]
+DPAIR MiMo-VL-7B-RL twins short CoT: direct 1.11 [0.895, 1.371] cot 1.63 [1.379, 1.983] | cot-direct +0.53 [+0.31, +0.81] | splits BC/SF/SB/BW direct [63.2, 15.5, 11.8, 9.5] cot [66.2, 19.8, 10.0, 4.0]
+CELLS MiMo-VL-7B-RL twins short CoT (Direct vs CoT): D+C- 43 D-C+ 77 D+C+ 572 D-C- 108 | churn 15.0% net +4.25 pts
+LOWER MiMo-VL-7B-RL twins short CoT: follows lower-is-closer direct 72.1 [67.4, 76.5] cot 63.9 [58.8, 68.8]
+CLAIM MiMo-VL-7B-RL twins short CoT first_claim_cot: parsed 787/800 (98.4%) names front 81.2 [78.5, 84.0] lower 59.5 [54.5, 64.5] larger 18.8 [16.1, 21.5]
+FOLLOW MiMo-VL-7B-RL twins short CoT follow_cot_last all: coverage 787/800 | P(agree|true) 97.7 [96.6, 98.9] (n=621) P(agree|false) 81.9 [75.6, 87.7] (n=166) cells {'true_cons': 607, 'true_incons': 14, 'false_cons': 136, 'false_incons': 30}
+FOLLOW MiMo-VL-7B-RL twins short CoT follow_cot_last D+: coverage 787/800 | P(agree|true) 99.3 [98.5, 99.8] (n=539) P(agree|false) 59.1 [47.2, 71.0] (n=66) cells {'true_cons': 535, 'true_incons': 4, 'false_cons': 39, 'false_incons': 27}
+FOLLOW MiMo-VL-7B-RL twins short CoT follow_cot_last D-: coverage 787/800 | P(agree|true) 87.8 [81.0, 94.0] (n=82) P(agree|false) 97.0 [93.3, 100.0] (n=100) cells {'true_cons': 72, 'true_incons': 10, 'false_cons': 97, 'false_incons': 3}
+TOKENS MiMo-VL-7B-RL twins short CoT: CoT {'mean': 157.7, 'median': 152.5, 'max': 451, 'trunc_pct': 0.0}
+TWINS MiMo-VL-7B-RL twins short CoT: d'pair Direct 1.11 -> CoT 1.63 delta +0.53 [+0.32, +0.79] (BW units Direct 38, CoT 16)
+L3 MiMo-VL-7B-RL twins short CoT cues: last-claim coverage 98.4% written acc 78.9 vs Direct on parsed 76.9 -> x +2.03 [-1.52, 5.16] | y (CoT-Direct, all) +4.25 [1.38, 6.88] | like-for-like y +4.07 | agree(last) 94.4 | 21-point fit predicts y +0.37 (y - x +2.22)
+NAT MiMo-VL-7B-RL blink n=124: Direct 71.8 [63.7, 79.8] | think 79.8 [72.6, 86.3] delta +8.1 [-0.8, +16.1] D+C- 11 D-C+ 21 | cot 68.5 [60.5, 76.6] delta -3.2 [-12.1, +5.7] D+C- 19 D-C+ 15
+NAT MiMo-VL-7B-RL cvb n=600: Direct 81.7 [78.7, 84.8] | think 86.0 [83.2, 88.7] delta +4.3 [+1.3, +7.3] D+C- 28 D-C+ 54 | cot 82.7 [79.7, 85.8] delta +1.0 [-2.3, +4.3] D+C- 48 D-C+ 54
+NAT MiMo-VL-7B-RL pooled n=724: Direct 80.0 [77.1, 82.9] | think 84.9 [82.5, 87.4] delta +5.0 [+2.1, +7.9] D+C- 39 D-C+ 75 | cot 80.2 [77.3, 83.3] delta +0.3 [-3.0, +3.3] D+C- 67 D-C+ 69
+READOUT GLM-4.1V-9B-Thinking cues: {"direct": {"n": 1600, "top20_missing_letter_pct": 0.06, "letter_mass_median": 0.9509, "letter_mass_min": 0.8717, "unparsed": 0}, "think": {"n": 1600, "top20_missing_letter_pct": 0.44, "letter_mass_median": 0.9518, "letter_mass_min": 0.4243, "unparsed": 0, "gen_tokens": {"mean": 119.7, "median": 79.0, "max": 1320, "trunc_pct": 0.0, "empty_pct": 0.0}}, "cot": {"n": 1600, "top20_missing_letter_pct": 3.06, "letter_mass_median": 0.9918, "letter_mass_min": 0.4703, "unparsed": 0, "gen_tokens": {"mean": 111.1, "median": 100.0, "max": 512, "trunc_pct": 0.56, "empty_pct": 0.0}}}
+READOUT GLM-4.1V-9B-Thinking twins: {"direct": {"n": 800, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9513, "letter_mass_min": 0.8907, "unparsed": 0}, "think": {"n": 800, "top20_missing_letter_pct": 1.38, "letter_mass_median": 0.9521, "letter_mass_min": 0.245, "unparsed": 0, "gen_tokens": {"mean": 119.9, "median": 78.0, "max": 2082, "trunc_pct": 0.0, "empty_pct": 0.0}}, "cot": {"n": 800, "top20_missing_letter_pct": 2.75, "letter_mass_median": 0.9912, "letter_mass_min": 0.4622, "unparsed": 0, "gen_tokens": {"mean": 114.1, "median": 100.0, "max": 512, "trunc_pct": 1.0, "empty_pct": 0.0}}}
+READOUT GLM-4.1V-9B-Thinking nat: {"direct": {"n": 724, "top20_missing_letter_pct": 0.55, "letter_mass_median": 0.9237, "letter_mass_min": 0.6222, "unparsed": 0}, "think": {"n": 724, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.977, "letter_mass_min": 0.4069, "unparsed": 0, "gen_tokens": {"mean": 200.8, "median": 85.0, "max": 4096, "trunc_pct": 0.41, "empty_pct": 0.0}}, "cot": {"n": 724, "top20_missing_letter_pct": 0.0, "letter_mass_median": 0.9974, "letter_mass_min": 0.4057, "unparsed": 0, "gen_tokens": {"mean": 125.2, "median": 103.0, "max": 512, "trunc_pct": 1.38, "empty_pct": 0.0}}}
+== GLM-4.1V-9B-Thinking cues native thinking (glm41v_9b_think|cues|think) n=1600 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC GLM-4.1V-9B-Thinking cues native thinking: Direct 73.9 [71.3, 76.4] (rule CI, (scene, phrasing) clusters) / 73.9 [70.6, 77.0] (twin-pair clusters) | CoT 82.1 [79.8, 84.4] | CoT-Dir +8.2 [+6.4, +10.1]
+RULE GLM-4.1V-9B-Thinking cues native thinking: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 71.3, occlusion d' CI lo 2.79)
+GLM GLM-4.1V-9B-Thinking cues native thinking direct: occl +3.13 [+2.79, +4.26] height +3.26 [+2.93, +4.40] size -0.55 [-0.77, -0.35] (max|b| 1.63, separated False)
+GLM GLM-4.1V-9B-Thinking cues native thinking cot   : occl +3.57 [+3.30, +3.94] height +2.29 [+2.05, +2.63] size -0.93 [-1.14, -0.71] (max|b| 1.78, separated False)
+GLM GLM-4.1V-9B-Thinking cues native thinking cot-direct: occl +0.43 [-0.70, +0.82] height -0.97 [-2.09, -0.62] size -0.37 [-0.59, -0.17] | common scale s 0.922 [0.681, 1.03] delta_occ +0.338 [0.279, 0.397]
+AME GLM-4.1V-9B-Thinking cues native thinking occlusion: direct +47.5 [+44.0, +51.2] cot +64.2 [+61.5, +67.3] | cot-direct +16.7 [+13.6, +19.6]
+AME GLM-4.1V-9B-Thinking cues native thinking vertical : direct +52.0 [+48.3, +55.6] cot +32.3 [+29.3, +35.2] | cot-direct -19.7 [-22.9, -16.7]
+AME GLM-4.1V-9B-Thinking cues native thinking size     : direct -9.7 [-13.3, -6.1] cot -12.8 [-15.8, -9.7] | cot-direct -3.1 [-6.2, +0.0]
+DPAIR GLM-4.1V-9B-Thinking cues native thinking: direct 0.88 [0.745, 1.038] cot 1.89 [1.651, 2.196] | cot-direct +1.01 [+0.81, +1.27] | splits BC/SF/SB/BW direct [61.4, 11.9, 13.1, 13.6] cot [66.9, 16.8, 13.8, 2.6]
+CELLS GLM-4.1V-9B-Thinking cues native thinking (Direct vs CoT): D+C- 32 D-C+ 164 D+C+ 1150 D-C- 254 | churn 12.2% net +8.25 pts
+LOWER GLM-4.1V-9B-Thinking cues native thinking: follows lower-is-closer direct 75.9 [73.0, 78.9] cot 66.1 [62.8, 69.6]
+CLAIM GLM-4.1V-9B-Thinking cues native thinking first_claim_cot: parsed 1070/1600 (66.9%) names front 61.7 [58.8, 64.5] lower 57.7 [54.6, 60.6] larger 49.1 [45.9, 52.1]
+FOLLOW GLM-4.1V-9B-Thinking cues native thinking follow_cot_last all: coverage 1070/1600 | P(agree|true) 91.9 [89.5, 94.0] (n=681) P(agree|false) 38.6 [33.8, 43.3] (n=389) cells {'true_cons': 626, 'true_incons': 55, 'false_cons': 150, 'false_incons': 239}
+FOLLOW GLM-4.1V-9B-Thinking cues native thinking follow_cot_last D+: coverage 1070/1600 | P(agree|true) 98.2 [97.0, 99.2] (n=560) P(agree|false) 7.0 [4.0, 10.4] (n=227) cells {'true_cons': 550, 'true_incons': 10, 'false_cons': 16, 'false_incons': 211}
+FOLLOW GLM-4.1V-9B-Thinking cues native thinking follow_cot_last D-: coverage 1070/1600 | P(agree|true) 62.8 [53.5, 72.4] (n=121) P(agree|false) 82.7 [77.5, 88.1] (n=162) cells {'true_cons': 76, 'true_incons': 45, 'false_cons': 134, 'false_incons': 28}
+TOKENS GLM-4.1V-9B-Thinking cues native thinking: CoT {'mean': 119.7, 'median': 79.0, 'max': 1320, 'trunc_pct': 0.0}
+TWINS GLM-4.1V-9B-Thinking cues native thinking: d'pair Direct 1.03 -> CoT 2.60 delta +1.57 [+1.16, +2.66] (BW units Direct 44, CoT 3)
+L3 GLM-4.1V-9B-Thinking cues native thinking cues: last-claim coverage 66.9% written acc 63.6 vs Direct on parsed 73.5 -> x -9.91 [-13.35, -6.24] | y (CoT-Direct, all) +8.25 [6.44, 10.25] | like-for-like y +7.29 | agree(last) 72.5 | 21-point fit predicts y -10.03 (y - x +18.16)
+L3 GLM-4.1V-9B-Thinking cues native thinking twins: last-claim coverage 60.2% written acc 61.0 vs Direct on parsed 73.9 -> x -12.86 [-17.58, -7.99] | y (CoT-Direct, all) +9.62 [7.0, 12.5] | like-for-like y +9.75 | agree(last) 70.3 | 21-point fit predicts y -12.60 (y - x +22.48)
+== GLM-4.1V-9B-Thinking cues short CoT (glm41v_9b_think|cues|cot) n=1600 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC GLM-4.1V-9B-Thinking cues short CoT: Direct 73.9 [71.3, 76.4] (rule CI, (scene, phrasing) clusters) / 73.9 [70.6, 77.0] (twin-pair clusters) | CoT 81.0 [78.6, 83.4] | CoT-Dir +7.1 [+5.4, +8.9]
+RULE GLM-4.1V-9B-Thinking cues short CoT: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 71.3, occlusion d' CI lo 2.79)
+GLM GLM-4.1V-9B-Thinking cues short CoT direct: occl +3.13 [+2.79, +4.26] height +3.26 [+2.93, +4.40] size -0.55 [-0.77, -0.35] (max|b| 1.63, separated False)
+GLM GLM-4.1V-9B-Thinking cues short CoT cot   : occl +3.05 [+2.76, +3.51] height +2.08 [+1.81, +2.50] size -0.58 [-0.78, -0.37] (max|b| 1.53, separated False)
+GLM GLM-4.1V-9B-Thinking cues short CoT cot-direct: occl -0.08 [-1.24, +0.35] height -1.18 [-2.33, -0.79] size -0.02 [-0.21, +0.17] | common scale s 0.803 [0.585, 0.924] delta_occ +0.268 [0.22, 0.316]
+AME GLM-4.1V-9B-Thinking cues short CoT occlusion: direct +47.5 [+44.0, +51.2] cot +61.7 [+58.4, +64.9] | cot-direct +14.2 [+11.2, +17.3]
+AME GLM-4.1V-9B-Thinking cues short CoT vertical : direct +52.0 [+48.3, +55.6] cot +33.5 [+30.1, +36.8] | cot-direct -18.5 [-21.6, -15.5]
+AME GLM-4.1V-9B-Thinking cues short CoT size     : direct -9.7 [-13.3, -6.1] cot -9.4 [-12.8, -6.1] | cot-direct +0.3 [-3.0, +3.5]
+DPAIR GLM-4.1V-9B-Thinking cues short CoT: direct 0.88 [0.745, 1.038] cot 1.66 [1.457, 1.918] | cot-direct +0.77 [+0.61, +0.99] | splits BC/SF/SB/BW direct [61.4, 11.9, 13.1, 13.6] cot [65.9, 23.6, 6.6, 3.9]
+CELLS GLM-4.1V-9B-Thinking cues short CoT (Direct vs CoT): D+C- 50 D-C+ 164 D+C+ 1132 D-C- 254 | churn 13.4% net +7.12 pts
+LOWER GLM-4.1V-9B-Thinking cues short CoT: follows lower-is-closer direct 75.9 [73.0, 78.9] cot 66.9 [63.6, 70.4]
+CLAIM GLM-4.1V-9B-Thinking cues short CoT first_claim_cot: parsed 1548/1600 (96.8%) names front 78.3 [76.1, 80.3] lower 64.1 [60.9, 67.4] larger 46.6 [42.9, 50.0]
+FOLLOW GLM-4.1V-9B-Thinking cues short CoT follow_cot_last all: coverage 1548/1600 | P(agree|true) 98.5 [97.8, 99.2] (n=1238) P(agree|false) 86.1 [82.3, 89.7] (n=310) cells {'true_cons': 1220, 'true_incons': 18, 'false_cons': 267, 'false_incons': 43}
+FOLLOW GLM-4.1V-9B-Thinking cues short CoT follow_cot_last D+: coverage 1548/1600 | P(agree|true) 99.9 [99.7, 100.0] (n=1075) P(agree|false) 56.8 [46.6, 66.7] (n=81) cells {'true_cons': 1074, 'true_incons': 1, 'false_cons': 46, 'false_incons': 35}
+FOLLOW GLM-4.1V-9B-Thinking cues short CoT follow_cot_last D-: coverage 1548/1600 | P(agree|true) 89.6 [84.6, 94.3] (n=163) P(agree|false) 96.5 [94.0, 98.7] (n=229) cells {'true_cons': 146, 'true_incons': 17, 'false_cons': 221, 'false_incons': 8}
+TOKENS GLM-4.1V-9B-Thinking cues short CoT: CoT {'mean': 111.1, 'median': 100.0, 'max': 512, 'trunc_pct': 0.56}
+TWINS GLM-4.1V-9B-Thinking cues short CoT: d'pair Direct 1.03 -> CoT 1.93 delta +0.90 [+0.63, +1.34] (BW units Direct 44, CoT 10)
+L3 GLM-4.1V-9B-Thinking cues short CoT cues: last-claim coverage 96.8% written acc 80.0 vs Direct on parsed 74.7 -> x +5.30 [3.43, 7.32] | y (CoT-Direct, all) +7.12 [5.38, 9.0] | like-for-like y +6.91 | agree(last) 96.1 | 21-point fit predicts y +3.22 (y - x +1.82)
+L3 GLM-4.1V-9B-Thinking cues short CoT twins: last-claim coverage 95.9% written acc 80.8 vs Direct on parsed 77.2 -> x +3.65 [1.17, 6.24] | y (CoT-Direct, all) +7.12 [4.62, 9.75] | like-for-like y +6.39 | agree(last) 95.4 | 21-point fit predicts y +1.78 (y - x +3.47)
+== GLM-4.1V-9B-Thinking twins native thinking (glm41v_9b_think|twins|think) n=800 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 0.0%
+ACC GLM-4.1V-9B-Thinking twins native thinking: Direct 76.6 [73.1, 79.8] (rule CI, (scene, phrasing) clusters) / 76.6 [72.4, 80.9] (twin-pair clusters) | CoT 86.2 [83.6, 88.9] | CoT-Dir +9.6 [+6.9, +12.4]
+RULE GLM-4.1V-9B-Thinking twins native thinking: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 73.1, occlusion d' CI lo 1.96)
+GLM GLM-4.1V-9B-Thinking twins native thinking direct: occl +2.04 [+1.96, +2.15] height +3.92 [+3.76, +4.10] size -2.04 [-2.15, -1.96] (max|b| 1.96, separated False)
+GLM GLM-4.1V-9B-Thinking twins native thinking cot   : occl +1.89 [+1.63, +2.43] height +1.83 [+1.41, +2.65] size -1.89 [-2.43, -1.63] (max|b| 0.95, separated False)
+GLM GLM-4.1V-9B-Thinking twins native thinking cot-direct: occl -0.15 [-0.41, +0.37] height -2.08 [-2.50, -1.30] size +0.15 [-0.37, +0.41] | common scale s 0.629 [0.525, 0.843] delta_occ +0.303 [0.253, 0.392]
+AME GLM-4.1V-9B-Thinking twins native thinking occlusion: direct +26.4 [+22.3, +30.4] cot +36.1 [+33.7, +38.5] | cot-direct +9.7 [+6.8, +12.5]
+AME GLM-4.1V-9B-Thinking twins native thinking vertical : direct +47.0 [+41.5, +52.4] cot +24.3 [+19.9, +28.4] | cot-direct -22.7 [-27.3, -18.3]
+AME GLM-4.1V-9B-Thinking twins native thinking size     : direct -26.4 [-30.4, -22.3] cot -36.1 [-38.5, -33.7] | cot-direct -9.7 [-12.5, -6.8]
+DPAIR GLM-4.1V-9B-Thinking twins native thinking: direct 1.03 [0.836, 1.26] cot 2.60 [2.16, 3.754] | cot-direct +1.57 [+1.17, +2.66] | splits BC/SF/SB/BW direct [64.2, 13.8, 11.0, 11.0] cot [73.2, 16.0, 10.0, 0.8]
+CELLS GLM-4.1V-9B-Thinking twins native thinking (Direct vs CoT): D+C- 11 D-C+ 88 D+C+ 602 D-C- 99 | churn 12.4% net +9.62 pts
+LOWER GLM-4.1V-9B-Thinking twins native thinking: follows lower-is-closer direct 73.4 [68.6, 77.6] cot 62.2 [56.8, 67.5]
+CLAIM GLM-4.1V-9B-Thinking twins native thinking first_claim_cot: parsed 482/800 (60.2%) names front 59.5 [55.1, 63.6] lower 61.0 [56.6, 65.4] larger 40.5 [36.4, 44.9]
+FOLLOW GLM-4.1V-9B-Thinking twins native thinking follow_cot_last all: coverage 482/800 | P(agree|true) 94.2 [91.4, 96.5] (n=294) P(agree|false) 33.0 [26.4, 39.8] (n=188) cells {'true_cons': 277, 'true_incons': 17, 'false_cons': 62, 'false_incons': 126}
+FOLLOW GLM-4.1V-9B-Thinking twins native thinking follow_cot_last D+: coverage 482/800 | P(agree|true) 99.6 [98.6, 100.0] (n=246) P(agree|false) 5.5 [1.8, 10.1] (n=110) cells {'true_cons': 245, 'true_incons': 1, 'false_cons': 6, 'false_incons': 104}
+FOLLOW GLM-4.1V-9B-Thinking twins native thinking follow_cot_last D-: coverage 482/800 | P(agree|true) 66.7 [53.3, 78.7] (n=48) P(agree|false) 71.8 [61.9, 81.0] (n=78) cells {'true_cons': 32, 'true_incons': 16, 'false_cons': 56, 'false_incons': 22}
+TOKENS GLM-4.1V-9B-Thinking twins native thinking: CoT {'mean': 119.9, 'median': 78.0, 'max': 2082, 'trunc_pct': 0.0}
+TWINS GLM-4.1V-9B-Thinking twins native thinking: d'pair Direct 1.03 -> CoT 2.60 delta +1.57 [+1.16, +2.66] (BW units Direct 44, CoT 3)
+L3 GLM-4.1V-9B-Thinking twins native thinking cues: last-claim coverage 60.2% written acc 61.0 vs Direct on parsed 73.9 -> x -12.86 [-17.58, -7.99] | y (CoT-Direct, all) +9.62 [7.0, 12.5] | like-for-like y +9.75 | agree(last) 70.3 | 21-point fit predicts y -12.60 (y - x +22.48)
+== GLM-4.1V-9B-Thinking twins short CoT (glm41v_9b_think|twins|cot) n=800 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 0.0%
+ACC GLM-4.1V-9B-Thinking twins short CoT: Direct 76.6 [73.1, 79.8] (rule CI, (scene, phrasing) clusters) / 76.6 [72.4, 80.9] (twin-pair clusters) | CoT 83.8 [80.8, 86.8] | CoT-Dir +7.1 [+4.6, +9.9]
+RULE GLM-4.1V-9B-Thinking twins short CoT: competent=True {'cue_acc_ci_lo_gt70': True, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 73.1, occlusion d' CI lo 1.96)
+GLM GLM-4.1V-9B-Thinking twins short CoT direct: occl +2.04 [+1.96, +2.15] height +3.92 [+3.76, +4.10] size -2.04 [-2.15, -1.96] (max|b| 1.96, separated False)
+GLM GLM-4.1V-9B-Thinking twins short CoT cot   : occl +1.57 [+1.37, +1.89] height +1.77 [+1.41, +2.27] size -1.57 [-1.89, -1.37] (max|b| 0.89, separated False)
+GLM GLM-4.1V-9B-Thinking twins short CoT cot-direct: occl -0.47 [-0.67, -0.18] height -2.15 [-2.49, -1.65] size +0.47 [+0.18, +0.67] | common scale s 0.564 [0.485, 0.69] delta_occ +0.210 [0.168, 0.262]
+AME GLM-4.1V-9B-Thinking twins short CoT occlusion: direct +26.4 [+22.3, +30.4] cot +33.4 [+30.8, +36.0] | cot-direct +7.0 [+4.4, +9.9]
+AME GLM-4.1V-9B-Thinking twins short CoT vertical : direct +47.0 [+41.5, +52.4] cot +27.5 [+22.8, +32.0] | cot-direct -19.5 [-24.5, -14.7]
+AME GLM-4.1V-9B-Thinking twins short CoT size     : direct -26.4 [-30.4, -22.3] cot -33.4 [-36.0, -30.8] | cot-direct -7.0 [-9.9, -4.4]
+DPAIR GLM-4.1V-9B-Thinking twins short CoT: direct 1.03 [0.836, 1.26] cot 1.93 [1.615, 2.455] | cot-direct +0.90 [+0.61, +1.34] | splits BC/SF/SB/BW direct [64.2, 13.8, 11.0, 11.0] cot [70.0, 22.0, 5.5, 2.5]
+CELLS GLM-4.1V-9B-Thinking twins short CoT (Direct vs CoT): D+C- 21 D-C+ 78 D+C+ 592 D-C- 109 | churn 12.4% net +7.12 pts
+LOWER GLM-4.1V-9B-Thinking twins short CoT: follows lower-is-closer direct 73.4 [68.6, 77.6] cot 63.8 [58.5, 68.9]
+CLAIM GLM-4.1V-9B-Thinking twins short CoT first_claim_cot: parsed 767/800 (95.9%) names front 79.1 [75.6, 82.4] lower 65.1 [60.3, 69.7] larger 20.9 [17.6, 24.4]
+FOLLOW GLM-4.1V-9B-Thinking twins short CoT follow_cot_last all: coverage 767/800 | P(agree|true) 98.9 [98.0, 99.7] (n=620) P(agree|false) 81.0 [75.0, 86.8] (n=147) cells {'true_cons': 613, 'true_incons': 7, 'false_cons': 119, 'false_incons': 28}
+FOLLOW GLM-4.1V-9B-Thinking twins short CoT follow_cot_last D+: coverage 767/800 | P(agree|true) 100.0 [100.0, 100.0] (n=552) P(agree|false) 50.0 [35.0, 64.1] (n=40) cells {'true_cons': 552, 'true_incons': 0, 'false_cons': 20, 'false_incons': 20}
+FOLLOW GLM-4.1V-9B-Thinking twins short CoT follow_cot_last D-: coverage 767/800 | P(agree|true) 89.7 [82.9, 96.4] (n=68) P(agree|false) 92.5 [87.0, 97.1] (n=107) cells {'true_cons': 61, 'true_incons': 7, 'false_cons': 99, 'false_incons': 8}
+TOKENS GLM-4.1V-9B-Thinking twins short CoT: CoT {'mean': 114.1, 'median': 100.0, 'max': 512, 'trunc_pct': 1.0}
+TWINS GLM-4.1V-9B-Thinking twins short CoT: d'pair Direct 1.03 -> CoT 1.93 delta +0.90 [+0.63, +1.34] (BW units Direct 44, CoT 10)
+L3 GLM-4.1V-9B-Thinking twins short CoT cues: last-claim coverage 95.9% written acc 80.8 vs Direct on parsed 77.2 -> x +3.65 [1.17, 6.24] | y (CoT-Direct, all) +7.12 [4.62, 9.75] | like-for-like y +6.39 | agree(last) 95.4 | 21-point fit predicts y +1.78 (y - x +3.47)
+NAT GLM-4.1V-9B-Thinking blink n=124: Direct 92.7 [87.9, 96.8] | think 91.1 [85.5, 96.0] delta -1.6 [-4.8, +1.6] D+C- 3 D-C+ 1 | cot 91.9 [87.1, 96.8] delta -0.8 [-4.0, +1.6] D+C- 2 D-C+ 1
+NAT GLM-4.1V-9B-Thinking cvb n=600: Direct 87.8 [85.2, 90.3] | think 92.2 [90.0, 94.3] delta +4.3 [+2.3, +6.3] D+C- 8 D-C+ 34 | cot 92.0 [89.8, 94.2] delta +4.2 [+2.0, +6.5] D+C- 11 D-C+ 36
+NAT GLM-4.1V-9B-Thinking pooled n=724: Direct 88.7 [86.3, 90.9] | think 92.0 [90.1, 93.9] delta +3.3 [+1.5, +5.1] D+C- 11 D-C+ 35 | cot 92.0 [89.9, 93.9] delta +3.3 [+1.5, +5.2] D+C- 13 D-C+ 37
+JUDGE-SYN (Exp-38 prompt, conclusion kept; consensus of Claude Opus 5.5 + GPT-6-Astra): 4-way agreement 98.64% on 9600 texts
+JUDGE-SYN glm41v_9b_think|cot|cues: coverage 98.5% written 82.0 vs Direct on parsed 74.5 -> x +7.49 [5.63, 9.46] | y +7.12 [5.38, 9.0] | agree 99.2 | P(agree|true) 99.2 [98.7, 99.7] (n 1292) P(agree|false) 99.3 [98.2, 100.0] (n 284) | y - x -0.37 | 21-point fit predicts +5.12
+JUDGE-SYN glm41v_9b_think|cot|twins: coverage 98.9% written 84.7 vs Direct on parsed 77.2 -> x +7.46 [4.93, 10.13] | y +7.12 [4.62, 9.75] | agree 99.2 | P(agree|true) 99.3 [98.6, 99.9] (n 670) P(agree|false) 99.2 [97.2, 100.0] (n 121) | y - x -0.34 | 21-point fit predicts +5.10
+JUDGE-SYN glm41v_9b_think|think|cues: coverage 97.8% written 82.9 vs Direct on parsed 74.5 -> x +8.37 [6.51, 10.49] | y +8.25 [6.44, 10.25] | agree 98.7 | P(agree|true) 99.2 [98.7, 99.6] (n 1297) P(agree|false) 96.3 [93.5, 98.6] (n 268) | y - x -0.12 | 21-point fit predicts +5.89
+JUDGE-SYN glm41v_9b_think|think|twins: coverage 98.2% written 86.6 vs Direct on parsed 77.1 -> x +9.54 [6.72, 12.48] | y +9.62 [7.0, 12.5] | agree 99.5 | P(agree|true) 99.7 [99.3, 100.0] (n 681) P(agree|false) 98.1 [94.9, 100.0] (n 105) | y - x +0.08 | 21-point fit predicts +6.91
+JUDGE-SYN mimo_vl_7b_rl|cot|cues: coverage 98.1% written 78.3 vs Direct on parsed 74.4 -> x +3.82 [1.85, 5.86] | y +3.19 [1.31, 5.06] | agree 99.0 | P(agree|true) 99.1 [98.6, 99.6] (n 1228) P(agree|false) 98.8 [97.6, 99.7] (n 341) | y - x -0.63 | 21-point fit predicts +1.93
+JUDGE-SYN mimo_vl_7b_rl|cot|twins: coverage 97.6% written 81.3 vs Direct on parsed 76.6 -> x +4.74 [1.92, 7.31] | y +4.25 [1.38, 6.88] | agree 99.2 | P(agree|true) 99.7 [99.2, 100.0] (n 635) P(agree|false) 97.3 [94.4, 99.4] (n 146) | y - x -0.49 | 21-point fit predicts +2.73
+JUDGE-SYN mimo_vl_7b_rl|think|cues: coverage 95.2% written 80.7 vs Direct on parsed 74.2 -> x +6.50 [3.91, 8.88] | y +5.69 [3.5, 7.75] | agree 98.0 | P(agree|true) 98.9 [98.2, 99.4] (n 1229) P(agree|false) 94.2 [91.3, 96.7] (n 294) | y - x -0.81 | 21-point fit predicts +4.26
+JUDGE-SYN mimo_vl_7b_rl|think|twins: coverage 96.0% written 82.2 vs Direct on parsed 77.2 -> x +4.95 [1.18, 8.61] | y +4.00 [0.38, 7.5] | agree 98.7 | P(agree|true) 99.2 [98.5, 99.8] (n 631) P(agree|false) 96.3 [93.1, 99.3] (n 137) | y - x -0.95 | 21-point fit predicts +2.91
+JUDGE-NAT (Exp-35 prompt, conclusion removed; consensus): 4-way agreement 99.62% on 2896 texts
+JUDGE-NAT glm41v_9b_think|cot|blink: n 124 coverage 94.4% written 91.5 vs Direct on parsed 92.3 -> x -0.85 [-4.2, 1.74] | y -0.81 [-4.03, 1.61] | agree 100.0 | P(agree|true) 100.0 (n 107) P(agree|false) 100.0 (n 10) | D+C- 2 D-C+ 1
+JUDGE-NAT glm41v_9b_think|cot|cvb3d: n 600 coverage 99.2% written 92.1 vs Direct on parsed 88.1 -> x +4.03 [1.85, 6.23] | y +4.17 [2.0, 6.33] | agree 99.8 | P(agree|true) 100.0 (n 548) P(agree|false) 97.9 (n 47) | D+C- 11 D-C+ 36
+JUDGE-NAT glm41v_9b_think|think|blink: n 124 coverage 93.5% written 91.4 vs Direct on parsed 92.2 -> x -0.86 [-4.5, 2.61] | y -1.61 [-4.84, 0.81] | agree 99.1 | P(agree|true) 99.1 (n 106) P(agree|false) 100.0 (n 10) | D+C- 3 D-C+ 1
+JUDGE-NAT glm41v_9b_think|think|cvb3d: n 600 coverage 99.5% written 92.5 vs Direct on parsed 87.8 -> x +4.69 [2.67, 6.88] | y +4.33 [2.33, 6.5] | agree 99.5 | P(agree|true) 99.6 (n 552) P(agree|false) 97.8 (n 45) | D+C- 8 D-C+ 34
+JUDGE-NAT mimo_vl_7b_rl|cot|blink: n 124 coverage 93.5% written 71.6 vs Direct on parsed 72.4 -> x -0.86 [-10.19, 7.97] | y -3.23 [-12.12, 5.65] | agree 99.1 | P(agree|true) 98.8 (n 83) P(agree|false) 100.0 (n 33) | D+C- 19 D-C+ 15
+JUDGE-NAT mimo_vl_7b_rl|cot|cvb3d: n 600 coverage 100.0% written 82.7 vs Direct on parsed 81.7 -> x +1.00 [-2.17, 4.33] | y +1.00 [-2.17, 4.33] | agree 100.0 | P(agree|true) 100.0 (n 496) P(agree|false) 100.0 (n 104) | D+C- 48 D-C+ 54
+JUDGE-NAT mimo_vl_7b_rl|think|blink: n 124 coverage 94.4% written 81.2 vs Direct on parsed 72.7 -> x +8.55 [-0.81, 17.39] | y +8.06 [-0.81, 16.94] | agree 97.4 | P(agree|true) 98.9 (n 95) P(agree|false) 90.9 (n 22) | D+C- 11 D-C+ 21
+JUDGE-NAT mimo_vl_7b_rl|think|cvb3d: n 600 coverage 98.2% written 86.8 vs Direct on parsed 81.8 -> x +4.92 [2.02, 8.01] | y +4.33 [1.5, 7.33] | agree 99.3 | P(agree|true) 99.4 (n 511) P(agree|false) 98.7 (n 78) | D+C- 28 D-C+ 54

@@ -1,0 +1,15 @@
+{
+ "n_base": 200,
+ "n_twins": 200,
+ "yes_base": 100,
+ "yes_twin": 100,
+ "front_above_base": 100,
+ "max_area_ratio": 0.9981587184680538,
+ "mean_area_ratio": 0.7701759216159292,
+ "violations_area": 0,
+ "hidden_frac_range": [
+  0.15107682417229187,
+  0.44858178992358505
+ ],
+ "seed": 0
+}

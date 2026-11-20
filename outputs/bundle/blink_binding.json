@@ -1,0 +1,66 @@
+{
+ "n": 120,
+ "agree": 0.833,
+ "cot_wrong|claude-opus-5-5": {
+  "CORRECT": 22.2,
+  "SWAPPED": 4.2,
+  "MISNAMED": 41.7,
+  "NONE": 31.9,
+  "UNCLEAR": 0.0,
+  "UNPARSED": 0.0,
+  "n": 72
+ },
+ "cot_wrong|gpt-6-astra": {
+  "CORRECT": 26.4,
+  "SWAPPED": 2.8,
+  "MISNAMED": 40.3,
+  "NONE": 27.8,
+  "UNCLEAR": 0.0,
+  "UNPARSED": 2.8,
+  "n": 72
+ },
+ "cot_wrong|consensus": {
+  "CORRECT": 21.3,
+  "SWAPPED": 3.3,
+  "MISNAMED": 42.6,
+  "NONE": 32.8,
+  "UNCLEAR": 0.0,
+  "n": 61
+ },
+ "cot_wrong|binding_error_both_judges": 38.9,
+ "cot_right|claude-opus-5-5": {
+  "CORRECT": 43.8,
+  "SWAPPED": 6.2,
+  "MISNAMED": 20.8,
+  "NONE": 29.2,
+  "UNCLEAR": 0.0,
+  "UNPARSED": 0.0,
+  "n": 48
+ },
+ "cot_right|gpt-6-astra": {
+  "CORRECT": 33.3,
+  "SWAPPED": 4.2,
+  "MISNAMED": 29.2,
+  "NONE": 27.1,
+  "UNCLEAR": 0.0,
+  "UNPARSED": 6.2,
+  "n": 48
+ },
+ "cot_right|consensus": {
+  "CORRECT": 41.0,
+  "SWAPPED": 5.1,
+  "MISNAMED": 23.1,
+  "NONE": 30.8,
+  "UNCLEAR": 0.0,
+  "n": 39
+ },
+ "cot_right|binding_error_both_judges": 25.0,
+ "rule_mentions_both_labels": {
+  "qwen3b": 100.0,
+  "qwen7b": 100.0,
+  "internvl3_8b": 100.0,
+  "molmo7b": 100.0,
+  "qwen3vl_8b": 100.0,
+  "internvl35_8b": 100.0
+ }
+}

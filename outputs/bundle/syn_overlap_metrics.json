@@ -1,0 +1,4502 @@
+[
+ {
+  "uid": "syn_depth_0",
+  "contact": 0.369,
+  "px": [
+   3745,
+   662
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_1",
+  "contact": 0.328,
+  "px": [
+   795,
+   5041
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_2",
+  "contact": 0.278,
+  "px": [
+   1497,
+   4141
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_3",
+  "contact": 0.508,
+  "px": [
+   4325,
+   1221
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_4",
+  "contact": 0.426,
+  "px": [
+   299,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_5",
+  "contact": 0.515,
+  "px": [
+   49,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_6",
+  "contact": 0.522,
+  "px": [
+   659,
+   5965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_7",
+  "contact": 0.399,
+  "px": [
+   1752,
+   6509
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_8",
+  "contact": 0.343,
+  "px": [
+   4197,
+   642
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_9",
+  "contact": 0.588,
+  "px": [
+   3961,
+   758
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_10",
+  "contact": 0.435,
+  "px": [
+   4851,
+   1736
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_11",
+  "contact": 0.417,
+  "px": [
+   2485,
+   1337
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_12",
+  "contact": 0.81,
+  "px": [
+   6237,
+   104
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_13",
+  "contact": 0.423,
+  "px": [
+   2665,
+   1415
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_14",
+  "contact": 0.416,
+  "px": [
+   1504,
+   3613
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_15",
+  "contact": 0.407,
+  "px": [
+   4669,
+   1569
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_16",
+  "contact": 0.006,
+  "px": [
+   3403,
+   1849
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_17",
+  "contact": 0.562,
+  "px": [
+   996,
+   3445
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_18",
+  "contact": 0.277,
+  "px": [
+   847,
+   4513
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_19",
+  "contact": 0.377,
+  "px": [
+   1223,
+   2775
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_20",
+  "contact": 0.458,
+  "px": [
+   1743,
+   3961
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_21",
+  "contact": 0.332,
+  "px": [
+   1085,
+   4197
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_22",
+  "contact": 0.409,
+  "px": [
+   1810,
+   4705
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_23",
+  "contact": 0.397,
+  "px": [
+   3445,
+   1681
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_24",
+  "contact": 0.015,
+  "px": [
+   4513,
+   1275
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_25",
+  "contact": 0.377,
+  "px": [
+   600,
+   7921
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_26",
+  "contact": 0.368,
+  "px": [
+   1364,
+   4325
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_27",
+  "contact": 0.565,
+  "px": [
+   4851,
+   671
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_28",
+  "contact": 0.346,
+  "px": [
+   7569,
+   717
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_29",
+  "contact": 0.476,
+  "px": [
+   913,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_30",
+  "contact": 0.444,
+  "px": [
+   3916,
+   777
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_31",
+  "contact": 0.194,
+  "px": [
+   1312,
+   2346
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_32",
+  "contact": 0.5,
+  "px": [
+   56,
+   6241
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_33",
+  "contact": 0.319,
+  "px": [
+   3012,
+   2965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_34",
+  "contact": 0.444,
+  "px": [
+   3785,
+   1185
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_35",
+  "contact": 0.496,
+  "px": [
+   3613,
+   1677
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_36",
+  "contact": 0.419,
+  "px": [
+   3281,
+   1827
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_37",
+  "contact": 0.488,
+  "px": [
+   902,
+   4901
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_38",
+  "contact": 0.418,
+  "px": [
+   2009,
+   3081
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_39",
+  "contact": 0.214,
+  "px": [
+   3916,
+   1061
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_40",
+  "contact": 0.5,
+  "px": [
+   9409,
+   21
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_41",
+  "contact": 0.289,
+  "px": [
+   1038,
+   5697
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_42",
+  "contact": 0.383,
+  "px": [
+   7569,
+   462
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_43",
+  "contact": 0.43,
+  "px": [
+   370,
+   8649
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_44",
+  "contact": 0.533,
+  "px": [
+   347,
+   8649
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_45",
+  "contact": 0.23,
+  "px": [
+   1799,
+   2521
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_46",
+  "contact": 0.379,
+  "px": [
+   5929,
+   456
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_47",
+  "contact": 0.0,
+  "px": [
+   9801,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_48",
+  "contact": 0.381,
+  "px": [
+   508,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_49",
+  "contact": 0.459,
+  "px": [
+   6509,
+   604
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_50",
+  "contact": 0.5,
+  "px": [
+   579,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_51",
+  "contact": 0.362,
+  "px": [
+   2521,
+   1343
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_52",
+  "contact": 0.422,
+  "px": [
+   780,
+   4141
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_53",
+  "contact": 0.336,
+  "px": [
+   889,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_54",
+  "contact": 0.46,
+  "px": [
+   601,
+   6889
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_55",
+  "contact": 0.436,
+  "px": [
+   5965,
+   715
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_56",
+  "contact": 0.199,
+  "px": [
+   1353,
+   3741
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_57",
+  "contact": 0.432,
+  "px": [
+   1273,
+   4141
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_58",
+  "contact": 0.0,
+  "px": [
+   1741,
+   2485
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_59",
+  "contact": 1.0,
+  "px": [
+   7225,
+   9
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_60",
+  "contact": 0.071,
+  "px": [
+   2207,
+   4095
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_61",
+  "contact": 0.382,
+  "px": [
+   4429,
+   816
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_62",
+  "contact": 0.5,
+  "px": [
+   4513,
+   356
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_63",
+  "contact": 0.393,
+  "px": [
+   6237,
+   1234
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_64",
+  "contact": 0.216,
+  "px": [
+   2813,
+   1448
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_65",
+  "contact": 0.44,
+  "px": [
+   2236,
+   3961
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_66",
+  "contact": 0.0,
+  "px": [
+   1711,
+   2665
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_67",
+  "contact": 0.42,
+  "px": [
+   9409,
+   169
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_68",
+  "contact": 0.388,
+  "px": [
+   903,
+   2965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_69",
+  "contact": 0.211,
+  "px": [
+   1048,
+   3281
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_70",
+  "contact": 0.379,
+  "px": [
+   2485,
+   1361
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_71",
+  "contact": 0.444,
+  "px": [
+   110,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_72",
+  "contact": 0.385,
+  "px": [
+   7409,
+   1604
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_73",
+  "contact": 0.407,
+  "px": [
+   9801,
+   225
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_74",
+  "contact": 0.42,
+  "px": [
+   1739,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_75",
+  "contact": 0.484,
+  "px": [
+   7721,
+   295
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_76",
+  "contact": 0.277,
+  "px": [
+   4656,
+   2040
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_77",
+  "contact": 0.398,
+  "px": [
+   6561,
+   687
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_78",
+  "contact": 0.619,
+  "px": [
+   25,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_79",
+  "contact": 0.314,
+  "px": [
+   1049,
+   4141
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_80",
+  "contact": 0.398,
+  "px": [
+   1734,
+   3977
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_81",
+  "contact": 0.287,
+  "px": [
+   757,
+   5625
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_82",
+  "contact": 0.4,
+  "px": [
+   1805,
+   3121
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_83",
+  "contact": 0.5,
+  "px": [
+   9801,
+   125
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_84",
+  "contact": 0.471,
+  "px": [
+   2965,
+   1360
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_85",
+  "contact": 0.31,
+  "px": [
+   4669,
+   1495
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_86",
+  "contact": 0.444,
+  "px": [
+   437,
+   4325
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_87",
+  "contact": 0.452,
+  "px": [
+   2813,
+   1072
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_88",
+  "contact": 0.33,
+  "px": [
+   1839,
+   3121
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_89",
+  "contact": 0.386,
+  "px": [
+   587,
+   2346
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_90",
+  "contact": 0.45,
+  "px": [
+   274,
+   4429
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_91",
+  "contact": 0.0,
+  "px": [
+   2965,
+   1176
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_92",
+  "contact": 0.234,
+  "px": [
+   3613,
+   1641
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_93",
+  "contact": 0.389,
+  "px": [
+   6561,
+   380
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_94",
+  "contact": 0.265,
+  "px": [
+   3785,
+   1827
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_95",
+  "contact": 0.0,
+  "px": [
+   1176,
+   2665
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_96",
+  "contact": 0.0,
+  "px": [
+   2485,
+   841
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_97",
+  "contact": 0.42,
+  "px": [
+   2521,
+   812
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_98",
+  "contact": 0.966,
+  "px": [
+   7409,
+   30
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_99",
+  "contact": 0.323,
+  "px": [
+   1260,
+   2775
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_100",
+  "contact": 0.0,
+  "px": [
+   9409,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_101",
+  "contact": 0.46,
+  "px": [
+   5329,
+   1026
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_102",
+  "contact": 0.5,
+  "px": [
+   728,
+   7409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_103",
+  "contact": 0.446,
+  "px": [
+   2665,
+   1770
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_104",
+  "contact": 0.363,
+  "px": [
+   437,
+   6889
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_105",
+  "contact": 0.336,
+  "px": [
+   5329,
+   495
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_106",
+  "contact": 0.346,
+  "px": [
+   2965,
+   2192
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_107",
+  "contact": 0.0,
+  "px": [
+   925,
+   4278
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_108",
+  "contact": 0.504,
+  "px": [
+   566,
+   4656
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_109",
+  "contact": 0.413,
+  "px": [
+   9801,
+   196
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_110",
+  "contact": 0.402,
+  "px": [
+   4513,
+   363
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_111",
+  "contact": 0.677,
+  "px": [
+   327,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_112",
+  "contact": 0.962,
+  "px": [
+   7409,
+   55
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_113",
+  "contact": 0.397,
+  "px": [
+   5417,
+   737
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_114",
+  "contact": 0.467,
+  "px": [
+   194,
+   5041
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_115",
+  "contact": 0.239,
+  "px": [
+   6237,
+   717
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_116",
+  "contact": 0.411,
+  "px": [
+   1519,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_117",
+  "contact": 0.487,
+  "px": [
+   146,
+   5329
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_118",
+  "contact": 0.526,
+  "px": [
+   445,
+   4513
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_119",
+  "contact": 0.321,
+  "px": [
+   3741,
+   1920
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_120",
+  "contact": 0.4,
+  "px": [
+   2346,
+   1750
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_121",
+  "contact": 0.275,
+  "px": [
+   3570,
+   2361
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_122",
+  "contact": 0.507,
+  "px": [
+   1437,
+   4513
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_123",
+  "contact": 0.63,
+  "px": [
+   66,
+   5625
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_124",
+  "contact": 0.319,
+  "px": [
+   2965,
+   756
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_125",
+  "contact": 0.364,
+  "px": [
+   4917,
+   1397
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_126",
+  "contact": 0.392,
+  "px": [
+   1560,
+   3281
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_127",
+  "contact": 0.48,
+  "px": [
+   1883,
+   4705
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_128",
+  "contact": 0.462,
+  "px": [
+   1777,
+   3121
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_129",
+  "contact": 0.427,
+  "px": [
+   423,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_130",
+  "contact": 0.277,
+  "px": [
+   951,
+   6509
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_131",
+  "contact": 0.576,
+  "px": [
+   234,
+   7105
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_132",
+  "contact": 0.45,
+  "px": [
+   1221,
+   2965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_133",
+  "contact": 0.395,
+  "px": [
+   1053,
+   3961
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_134",
+  "contact": 0.724,
+  "px": [
+   78,
+   3977
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_135",
+  "contact": 0.347,
+  "px": [
+   1459,
+   8281
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_136",
+  "contact": 0.278,
+  "px": [
+   1227,
+   3916
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_137",
+  "contact": 0.193,
+  "px": [
+   3745,
+   1581
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_138",
+  "contact": 0.36,
+  "px": [
+   2665,
+   1235
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_139",
+  "contact": 0.308,
+  "px": [
+   2719,
+   2628
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_140",
+  "contact": 0.456,
+  "px": [
+   4278,
+   536
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_141",
+  "contact": 0.63,
+  "px": [
+   66,
+   6889
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_142",
+  "contact": 0.399,
+  "px": [
+   1465,
+   4669
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_143",
+  "contact": 0.352,
+  "px": [
+   4429,
+   2268
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_144",
+  "contact": 0.361,
+  "px": [
+   956,
+   7921
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_145",
+  "contact": 0.359,
+  "px": [
+   4761,
+   935
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_146",
+  "contact": 0.462,
+  "px": [
+   4325,
+   921
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_147",
+  "contact": 0.282,
+  "px": [
+   5929,
+   1182
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_148",
+  "contact": 0.465,
+  "px": [
+   2775,
+   823
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_149",
+  "contact": 0.205,
+  "px": [
+   839,
+   3977
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_150",
+  "contact": 0.383,
+  "px": [
+   957,
+   2926
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_151",
+  "contact": 0.0,
+  "px": [
+   6237,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_152",
+  "contact": 0.409,
+  "px": [
+   5417,
+   1767
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_153",
+  "contact": 0.34,
+  "px": [
+   766,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_154",
+  "contact": 0.385,
+  "px": [
+   6889,
+   614
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_155",
+  "contact": 0.571,
+  "px": [
+   9801,
+   37
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_156",
+  "contact": 0.374,
+  "px": [
+   2163,
+   4669
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_157",
+  "contact": 0.438,
+  "px": [
+   6509,
+   1155
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_158",
+  "contact": 0.306,
+  "px": [
+   4669,
+   1087
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_159",
+  "contact": 0.67,
+  "px": [
+   4656,
+   726
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_160",
+  "contact": 0.345,
+  "px": [
+   3121,
+   768
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_161",
+  "contact": 0.305,
+  "px": [
+   1489,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_162",
+  "contact": 0.38,
+  "px": [
+   6241,
+   1110
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_163",
+  "contact": 0.365,
+  "px": [
+   3613,
+   1144
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_164",
+  "contact": 0.392,
+  "px": [
+   1808,
+   4851
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_165",
+  "contact": 0.484,
+  "px": [
+   1366,
+   4669
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_166",
+  "contact": 0.199,
+  "px": [
+   2775,
+   1035
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_167",
+  "contact": 0.894,
+  "px": [
+   5697,
+   92
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_168",
+  "contact": 0.415,
+  "px": [
+   1383,
+   7105
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_169",
+  "contact": 0.287,
+  "px": [
+   983,
+   5697
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_170",
+  "contact": 0.183,
+  "px": [
+   793,
+   5041
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_171",
+  "contact": 0.338,
+  "px": [
+   1728,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_172",
+  "contact": 0.342,
+  "px": [
+   3916,
+   811
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_173",
+  "contact": 0.314,
+  "px": [
+   2493,
+   3977
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_174",
+  "contact": 0.41,
+  "px": [
+   599,
+   5417
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_175",
+  "contact": 0.37,
+  "px": [
+   426,
+   7105
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_176",
+  "contact": 0.429,
+  "px": [
+   6561,
+   348
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_177",
+  "contact": 0.298,
+  "px": [
+   2381,
+   3042
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_178",
+  "contact": 0.0,
+  "px": [
+   1201,
+   2926
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_179",
+  "contact": 0.359,
+  "px": [
+   7225,
+   1225
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_180",
+  "contact": 0.319,
+  "px": [
+   4429,
+   2554
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_181",
+  "contact": 0.595,
+  "px": [
+   7105,
+   602
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_182",
+  "contact": 0.341,
+  "px": [
+   5625,
+   1045
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_183",
+  "contact": 0.32,
+  "px": [
+   4669,
+   1206
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_184",
+  "contact": 0.733,
+  "px": [
+   16,
+   6241
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_185",
+  "contact": 0.0,
+  "px": [
+   9409,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_186",
+  "contact": 0.0,
+  "px": [
+   3081,
+   1513
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_187",
+  "contact": 0.294,
+  "px": [
+   1491,
+   4705
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_188",
+  "contact": 0.513,
+  "px": [
+   7409,
+   575
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_189",
+  "contact": 0.329,
+  "px": [
+   668,
+   3977
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_190",
+  "contact": 0.423,
+  "px": [
+   7409,
+   1543
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_191",
+  "contact": 0.444,
+  "px": [
+   1163,
+   3403
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_192",
+  "contact": 0.0,
+  "px": [
+   1711,
+   2965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_193",
+  "contact": 0.287,
+  "px": [
+   3121,
+   819
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_194",
+  "contact": 0.889,
+  "px": [
+   9,
+   7921
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_195",
+  "contact": 0.433,
+  "px": [
+   9025,
+   132
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_196",
+  "contact": 0.288,
+  "px": [
+   1359,
+   3916
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_197",
+  "contact": 0.406,
+  "px": [
+   7409,
+   1088
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_198",
+  "contact": 0.056,
+  "px": [
+   903,
+   2813
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_199",
+  "contact": 0.52,
+  "px": [
+   5697,
+   229
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_200",
+  "contact": 0.168,
+  "px": [
+   2813,
+   2143
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_201",
+  "contact": 0.031,
+  "px": [
+   1741,
+   3741
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_202",
+  "contact": 0.39,
+  "px": [
+   3613,
+   534
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_203",
+  "contact": 0.475,
+  "px": [
+   669,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_204",
+  "contact": 0.436,
+  "px": [
+   388,
+   7409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_205",
+  "contact": 0.427,
+  "px": [
+   994,
+   3240
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_206",
+  "contact": 0.455,
+  "px": [
+   6241,
+   111
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_207",
+  "contact": 0.593,
+  "px": [
+   196,
+   4705
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_208",
+  "contact": 1.0,
+  "px": [
+   4,
+   9801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_209",
+  "contact": 0.531,
+  "px": [
+   4851,
+   578
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_210",
+  "contact": 0.228,
+  "px": [
+   4761,
+   1350
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_211",
+  "contact": 0.457,
+  "px": [
+   1041,
+   4197
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_212",
+  "contact": 0.264,
+  "px": [
+   2381,
+   2530
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_213",
+  "contact": 0.35,
+  "px": [
+   5329,
+   624
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_214",
+  "contact": 0.328,
+  "px": [
+   1417,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_215",
+  "contact": 0.331,
+  "px": [
+   2813,
+   648
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_216",
+  "contact": 0.42,
+  "px": [
+   8281,
+   169
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_217",
+  "contact": 0.45,
+  "px": [
+   2521,
+   1545
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_218",
+  "contact": 0.244,
+  "px": [
+   1059,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_219",
+  "contact": 0.465,
+  "px": [
+   1330,
+   4278
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_220",
+  "contact": 0.511,
+  "px": [
+   5697,
+   804
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_221",
+  "contact": 0.45,
+  "px": [
+   3240,
+   984
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_222",
+  "contact": 0.343,
+  "px": [
+   1759,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_223",
+  "contact": 0.273,
+  "px": [
+   565,
+   4761
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_224",
+  "contact": 0.377,
+  "px": [
+   8281,
+   600
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_225",
+  "contact": 0.436,
+  "px": [
+   3745,
+   609
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_226",
+  "contact": 0.451,
+  "px": [
+   6237,
+   1059
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_227",
+  "contact": 0.75,
+  "px": [
+   43,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_228",
+  "contact": 0.37,
+  "px": [
+   618,
+   7409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_229",
+  "contact": 0.407,
+  "px": [
+   1953,
+   2346
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_230",
+  "contact": 0.383,
+  "px": [
+   4095,
+   1454
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_231",
+  "contact": 0.442,
+  "px": [
+   4141,
+   484
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_232",
+  "contact": 0.267,
+  "px": [
+   4095,
+   1856
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_233",
+  "contact": 0.444,
+  "px": [
+   6241,
+   221
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_234",
+  "contact": 0.467,
+  "px": [
+   4761,
+   81
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_235",
+  "contact": 0.0,
+  "px": [
+   0,
+   9801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_236",
+  "contact": 0.282,
+  "px": [
+   1399,
+   4917
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_237",
+  "contact": 0.528,
+  "px": [
+   1041,
+   4325
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_238",
+  "contact": 0.398,
+  "px": [
+   6889,
+   773
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_239",
+  "contact": 0.467,
+  "px": [
+   7921,
+   81
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_240",
+  "contact": 0.286,
+  "px": [
+   2628,
+   3192
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_241",
+  "contact": 0.451,
+  "px": [
+   4901,
+   689
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_242",
+  "contact": 0.37,
+  "px": [
+   7105,
+   1646
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_243",
+  "contact": 0.362,
+  "px": [
+   7105,
+   496
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_244",
+  "contact": 0.0,
+  "px": [
+   1201,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_245",
+  "contact": 0.472,
+  "px": [
+   3281,
+   1475
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_246",
+  "contact": 0.0,
+  "px": [
+   3240,
+   1321
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_247",
+  "contact": 0.155,
+  "px": [
+   5417,
+   1711
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_248",
+  "contact": 0.547,
+  "px": [
+   5965,
+   728
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_249",
+  "contact": 0.592,
+  "px": [
+   3403,
+   427
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_250",
+  "contact": 0.39,
+  "px": [
+   361,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_251",
+  "contact": 0.364,
+  "px": [
+   1257,
+   3961
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_252",
+  "contact": 0.0,
+  "px": [
+   841,
+   2346
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_253",
+  "contact": 0.401,
+  "px": [
+   1143,
+   2381
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_254",
+  "contact": 0.178,
+  "px": [
+   1411,
+   2381
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_255",
+  "contact": 0.277,
+  "px": [
+   2040,
+   3916
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_256",
+  "contact": 0.204,
+  "px": [
+   1455,
+   2965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_257",
+  "contact": 0.387,
+  "px": [
+   8281,
+   476
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_258",
+  "contact": 0.7,
+  "px": [
+   34,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_259",
+  "contact": 0.386,
+  "px": [
+   2521,
+   1562
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_260",
+  "contact": 0.323,
+  "px": [
+   2965,
+   2424
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_261",
+  "contact": 0.381,
+  "px": [
+   2813,
+   1330
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_262",
+  "contact": 0.439,
+  "px": [
+   7569,
+   121
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_263",
+  "contact": 0.464,
+  "px": [
+   250,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_264",
+  "contact": 0.386,
+  "px": [
+   6241,
+   1074
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_265",
+  "contact": 0.535,
+  "px": [
+   53,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_266",
+  "contact": 0.44,
+  "px": [
+   216,
+   6241
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_267",
+  "contact": 0.393,
+  "px": [
+   5965,
+   911
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_268",
+  "contact": 0.405,
+  "px": [
+   456,
+   9801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_269",
+  "contact": 0.426,
+  "px": [
+   3916,
+   1581
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_270",
+  "contact": 0.433,
+  "px": [
+   3785,
+   1042
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_271",
+  "contact": 0.311,
+  "px": [
+   923,
+   5929
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_272",
+  "contact": 0.296,
+  "px": [
+   2377,
+   3785
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_273",
+  "contact": 0.348,
+  "px": [
+   3916,
+   1809
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_274",
+  "contact": 0.387,
+  "px": [
+   1015,
+   4513
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_275",
+  "contact": 0.479,
+  "px": [
+   5697,
+   1079
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_276",
+  "contact": 0.532,
+  "px": [
+   6801,
+   376
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_277",
+  "contact": 0.396,
+  "px": [
+   1327,
+   3403
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_278",
+  "contact": 0.332,
+  "px": [
+   4669,
+   2488
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_279",
+  "contact": 0.361,
+  "px": [
+   4325,
+   1139
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_280",
+  "contact": 0.561,
+  "px": [
+   479,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_281",
+  "contact": 0.352,
+  "px": [
+   9025,
+   704
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_282",
+  "contact": 0.0,
+  "px": [
+   0,
+   8281
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_283",
+  "contact": 0.369,
+  "px": [
+   863,
+   7921
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_284",
+  "contact": 0.344,
+  "px": [
+   886,
+   5041
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_285",
+  "contact": 0.401,
+  "px": [
+   4669,
+   1942
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_286",
+  "contact": 0.389,
+  "px": [
+   688,
+   6241
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_287",
+  "contact": 0.533,
+  "px": [
+   4513,
+   855
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_288",
+  "contact": 0.352,
+  "px": [
+   3281,
+   836
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_289",
+  "contact": 0.237,
+  "px": [
+   2521,
+   2457
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_290",
+  "contact": 0.317,
+  "px": [
+   889,
+   3916
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_291",
+  "contact": 0.422,
+  "px": [
+   385,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_292",
+  "contact": 0.416,
+  "px": [
+   1230,
+   3916
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_293",
+  "contact": 0.346,
+  "px": [
+   1461,
+   2628
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_294",
+  "contact": 0.369,
+  "px": [
+   3745,
+   1971
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_295",
+  "contact": 0.489,
+  "px": [
+   5417,
+   165
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_296",
+  "contact": 0.391,
+  "px": [
+   5625,
+   517
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_297",
+  "contact": 0.125,
+  "px": [
+   3081,
+   1885
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_298",
+  "contact": 0.557,
+  "px": [
+   160,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_299",
+  "contact": 0.374,
+  "px": [
+   5625,
+   532
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_300",
+  "contact": 0.477,
+  "px": [
+   614,
+   4705
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_301",
+  "contact": 0.271,
+  "px": [
+   4429,
+   804
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_302",
+  "contact": 0.793,
+  "px": [
+   34,
+   6509
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_303",
+  "contact": 0.475,
+  "px": [
+   5417,
+   677
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_304",
+  "contact": 0.226,
+  "px": [
+   2521,
+   1041
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_305",
+  "contact": 0.295,
+  "px": [
+   5965,
+   587
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_306",
+  "contact": 0.311,
+  "px": [
+   1006,
+   5965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_307",
+  "contact": 0.208,
+  "px": [
+   3240,
+   1439
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_308",
+  "contact": 0.287,
+  "px": [
+   1089,
+   5625
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_309",
+  "contact": 0.226,
+  "px": [
+   5169,
+   1298
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_310",
+  "contact": 0.429,
+  "px": [
+   386,
+   7921
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_311",
+  "contact": 0.338,
+  "px": [
+   3081,
+   1939
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_312",
+  "contact": 0.75,
+  "px": [
+   53,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_313",
+  "contact": 0.306,
+  "px": [
+   1015,
+   5929
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_314",
+  "contact": 0.5,
+  "px": [
+   5417,
+   540
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_315",
+  "contact": 0.52,
+  "px": [
+   891,
+   4141
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_316",
+  "contact": 0.202,
+  "px": [
+   3785,
+   1348
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_317",
+  "contact": 0.174,
+  "px": [
+   1017,
+   5041
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_318",
+  "contact": 0.487,
+  "px": [
+   7225,
+   146
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_319",
+  "contact": 0.337,
+  "px": [
+   3977,
+   1623
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_320",
+  "contact": 0.212,
+  "px": [
+   1298,
+   4095
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_321",
+  "contact": 0.305,
+  "px": [
+   2775,
+   2295
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_322",
+  "contact": 0.224,
+  "px": [
+   2926,
+   969
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_323",
+  "contact": 0.0,
+  "px": [
+   5697,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_324",
+  "contact": 0.38,
+  "px": [
+   6889,
+   529
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_325",
+  "contact": 0.466,
+  "px": [
+   8281,
+   154
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_326",
+  "contact": 0.456,
+  "px": [
+   272,
+   8649
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_327",
+  "contact": 0.381,
+  "px": [
+   8649,
+   750
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_328",
+  "contact": 0.44,
+  "px": [
+   1683,
+   4278
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_329",
+  "contact": 0.523,
+  "px": [
+   3961,
+   821
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_330",
+  "contact": 0.478,
+  "px": [
+   3961,
+   1485
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_331",
+  "contact": 0.375,
+  "px": [
+   4325,
+   1744
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_332",
+  "contact": 0.0,
+  "px": [
+   1201,
+   4095
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_333",
+  "contact": 0.542,
+  "px": [
+   301,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_334",
+  "contact": 0.332,
+  "px": [
+   1960,
+   2628
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_335",
+  "contact": 0.34,
+  "px": [
+   5965,
+   1295
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_336",
+  "contact": 0.0,
+  "px": [
+   4656,
+   1105
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_337",
+  "contact": 0.418,
+  "px": [
+   1703,
+   5965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_338",
+  "contact": 0.47,
+  "px": [
+   5929,
+   319
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_339",
+  "contact": 0.284,
+  "px": [
+   4429,
+   1214
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_340",
+  "contact": 0.346,
+  "px": [
+   1223,
+   3613
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_341",
+  "contact": 0.218,
+  "px": [
+   2521,
+   1619
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_342",
+  "contact": 0.317,
+  "px": [
+   6241,
+   812
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_343",
+  "contact": 0.38,
+  "px": [
+   529,
+   7921
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_344",
+  "contact": 0.505,
+  "px": [
+   4513,
+   967
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_345",
+  "contact": 0.424,
+  "px": [
+   6889,
+   322
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_346",
+  "contact": 0.611,
+  "px": [
+   58,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_347",
+  "contact": 0.394,
+  "px": [
+   7225,
+   324
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_348",
+  "contact": 0.089,
+  "px": [
+   2521,
+   1885
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_349",
+  "contact": 0.0,
+  "px": [
+   0,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_350",
+  "contact": 0.382,
+  "px": [
+   973,
+   4917
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_351",
+  "contact": 0.382,
+  "px": [
+   1712,
+   4141
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_352",
+  "contact": 0.245,
+  "px": [
+   4197,
+   832
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_353",
+  "contact": 0.394,
+  "px": [
+   698,
+   7225
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_354",
+  "contact": 0.0,
+  "px": [
+   8649,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_355",
+  "contact": 0.503,
+  "px": [
+   6801,
+   614
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_356",
+  "contact": 0.298,
+  "px": [
+   4513,
+   1182
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_357",
+  "contact": 0.487,
+  "px": [
+   130,
+   7225
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_358",
+  "contact": 0.403,
+  "px": [
+   1529,
+   3121
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_359",
+  "contact": 0.367,
+  "px": [
+   1585,
+   8281
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_360",
+  "contact": 0.496,
+  "px": [
+   519,
+   5169
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_361",
+  "contact": 0.3,
+  "px": [
+   1391,
+   3745
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_362",
+  "contact": 0.529,
+  "px": [
+   50,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_363",
+  "contact": 0.304,
+  "px": [
+   1596,
+   4705
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_364",
+  "contact": 0.0,
+  "px": [
+   9801,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_365",
+  "contact": 0.266,
+  "px": [
+   3403,
+   1291
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_366",
+  "contact": 0.392,
+  "px": [
+   5169,
+   625
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_367",
+  "contact": 0.434,
+  "px": [
+   452,
+   4917
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_368",
+  "contact": 0.439,
+  "px": [
+   5329,
+   439
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_369",
+  "contact": 0.396,
+  "px": [
+   1588,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_370",
+  "contact": 0.583,
+  "px": [
+   286,
+   5965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_371",
+  "contact": 0.239,
+  "px": [
+   2813,
+   1294
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_372",
+  "contact": 0.5,
+  "px": [
+   4095,
+   909
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_373",
+  "contact": 0.413,
+  "px": [
+   554,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_374",
+  "contact": 0.42,
+  "px": [
+   8281,
+   169
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_375",
+  "contact": 0.478,
+  "px": [
+   830,
+   5965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_376",
+  "contact": 0.439,
+  "px": [
+   7409,
+   1218
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_377",
+  "contact": 0.374,
+  "px": [
+   2673,
+   2813
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_378",
+  "contact": 0.216,
+  "px": [
+   2133,
+   2521
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_379",
+  "contact": 0.466,
+  "px": [
+   4465,
+   1460
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_380",
+  "contact": 0.421,
+  "px": [
+   3403,
+   1842
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_381",
+  "contact": 0.299,
+  "px": [
+   2965,
+   1558
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_382",
+  "contact": 0.45,
+  "px": [
+   9801,
+   352
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_383",
+  "contact": 0.26,
+  "px": [
+   6237,
+   1490
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_384",
+  "contact": 0.2,
+  "px": [
+   3081,
+   2491
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_385",
+  "contact": 0.565,
+  "px": [
+   107,
+   6561
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_386",
+  "contact": 0.314,
+  "px": [
+   4278,
+   674
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_387",
+  "contact": 0.31,
+  "px": [
+   2186,
+   2346
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_388",
+  "contact": 0.442,
+  "px": [
+   4465,
+   1774
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_389",
+  "contact": 0.45,
+  "px": [
+   4429,
+   365
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_390",
+  "contact": 0.116,
+  "px": [
+   760,
+   4197
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_391",
+  "contact": 0.43,
+  "px": [
+   296,
+   6801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_392",
+  "contact": 0.157,
+  "px": [
+   2665,
+   1449
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_393",
+  "contact": 0.346,
+  "px": [
+   780,
+   4095
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_394",
+  "contact": 0.419,
+  "px": [
+   3916,
+   1059
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_395",
+  "contact": 0.275,
+  "px": [
+   891,
+   5417
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_396",
+  "contact": 0.487,
+  "px": [
+   388,
+   5169
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_397",
+  "contact": 0.487,
+  "px": [
+   6561,
+   567
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_398",
+  "contact": 0.395,
+  "px": [
+   5169,
+   576
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_399",
+  "contact": 0.485,
+  "px": [
+   192,
+   7409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_400",
+  "contact": 0.326,
+  "px": [
+   1202,
+   4278
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_401",
+  "contact": 0.327,
+  "px": [
+   952,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_402",
+  "contact": 0.471,
+  "px": [
+   3445,
+   705
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_403",
+  "contact": 0.391,
+  "px": [
+   579,
+   8649
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_404",
+  "contact": 0.338,
+  "px": [
+   6561,
+   772
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_405",
+  "contact": 0.161,
+  "px": [
+   2345,
+   3741
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_406",
+  "contact": 0.9,
+  "px": [
+   10,
+   7569
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_407",
+  "contact": 0.394,
+  "px": [
+   4761,
+   631
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_408",
+  "contact": 0.315,
+  "px": [
+   1297,
+   3741
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_409",
+  "contact": 0.402,
+  "px": [
+   581,
+   9409
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_410",
+  "contact": 0.327,
+  "px": [
+   3785,
+   2922
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_411",
+  "contact": 0.736,
+  "px": [
+   7409,
+   121
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_412",
+  "contact": 0.704,
+  "px": [
+   5697,
+   176
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_413",
+  "contact": 0.255,
+  "px": [
+   3281,
+   2112
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_414",
+  "contact": 0.198,
+  "px": [
+   3745,
+   1012
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_415",
+  "contact": 0.456,
+  "px": [
+   4429,
+   1010
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_416",
+  "contact": 0.423,
+  "px": [
+   1191,
+   4901
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_417",
+  "contact": 0.361,
+  "px": [
+   2346,
+   1239
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_418",
+  "contact": 1.0,
+  "px": [
+   7409,
+   16
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_419",
+  "contact": 0.401,
+  "px": [
+   2107,
+   3081
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_420",
+  "contact": 0.386,
+  "px": [
+   1308,
+   5169
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_421",
+  "contact": 0.349,
+  "px": [
+   1268,
+   4901
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_422",
+  "contact": 0.0,
+  "px": [
+   0,
+   9801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_423",
+  "contact": 0.319,
+  "px": [
+   652,
+   6241
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_424",
+  "contact": 0.439,
+  "px": [
+   121,
+   5929
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_425",
+  "contact": 0.314,
+  "px": [
+   1148,
+   2628
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_426",
+  "contact": 0.606,
+  "px": [
+   4917,
+   169
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_427",
+  "contact": 1.0,
+  "px": [
+   8649,
+   9
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_428",
+  "contact": 0.347,
+  "px": [
+   5697,
+   830
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_429",
+  "contact": 0.639,
+  "px": [
+   4278,
+   126
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_430",
+  "contact": 0.068,
+  "px": [
+   1625,
+   3403
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_431",
+  "contact": 0.389,
+  "px": [
+   1751,
+   3741
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_432",
+  "contact": 0.417,
+  "px": [
+   1264,
+   5417
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_433",
+  "contact": 0.0,
+  "px": [
+   7569,
+   0
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_434",
+  "contact": 0.438,
+  "px": [
+   860,
+   5929
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_435",
+  "contact": 0.136,
+  "px": [
+   2173,
+   2813
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_436",
+  "contact": 0.394,
+  "px": [
+   464,
+   6241
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_437",
+  "contact": 0.385,
+  "px": [
+   650,
+   4917
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_438",
+  "contact": 0.385,
+  "px": [
+   5625,
+   441
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_439",
+  "contact": 0.371,
+  "px": [
+   4325,
+   1309
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_440",
+  "contact": 0.433,
+  "px": [
+   393,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_441",
+  "contact": 0.643,
+  "px": [
+   7409,
+   160
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_442",
+  "contact": 0.382,
+  "px": [
+   5965,
+   740
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_443",
+  "contact": 0.57,
+  "px": [
+   6561,
+   345
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_444",
+  "contact": 0.27,
+  "px": [
+   3613,
+   1276
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_445",
+  "contact": 0.227,
+  "px": [
+   2665,
+   2253
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_446",
+  "contact": 0.348,
+  "px": [
+   1435,
+   8281
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_447",
+  "contact": 0.43,
+  "px": [
+   2926,
+   1895
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_448",
+  "contact": 0.341,
+  "px": [
+   2665,
+   693
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_449",
+  "contact": 0.515,
+  "px": [
+   5625,
+   49
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_450",
+  "contact": 0.47,
+  "px": [
+   232,
+   4917
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_451",
+  "contact": 0.577,
+  "px": [
+   4851,
+   400
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_452",
+  "contact": 0.71,
+  "px": [
+   4669,
+   166
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_453",
+  "contact": 0.592,
+  "px": [
+   4513,
+   627
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_454",
+  "contact": 0.385,
+  "px": [
+   441,
+   9801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_455",
+  "contact": 0.335,
+  "px": [
+   1711,
+   2381
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_456",
+  "contact": 0.231,
+  "px": [
+   2829,
+   2775
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_457",
+  "contact": 0.414,
+  "px": [
+   487,
+   5965
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_458",
+  "contact": 0.467,
+  "px": [
+   2521,
+   494
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_459",
+  "contact": 0.373,
+  "px": [
+   2926,
+   673
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_460",
+  "contact": 0.305,
+  "px": [
+   1088,
+   4197
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_461",
+  "contact": 0.406,
+  "px": [
+   1858,
+   7105
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_462",
+  "contact": 0.25,
+  "px": [
+   1963,
+   4278
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_463",
+  "contact": 0.401,
+  "px": [
+   3977,
+   466
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_464",
+  "contact": 0.22,
+  "px": [
+   1422,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_465",
+  "contact": 0.445,
+  "px": [
+   3403,
+   876
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_466",
+  "contact": 0.489,
+  "px": [
+   4901,
+   1035
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_467",
+  "contact": 0.383,
+  "px": [
+   4761,
+   1036
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_468",
+  "contact": 0.403,
+  "px": [
+   1178,
+   4197
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_469",
+  "contact": 0.0,
+  "px": [
+   0,
+   7105
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_470",
+  "contact": 0.566,
+  "px": [
+   265,
+   3961
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_471",
+  "contact": 0.069,
+  "px": [
+   1680,
+   3570
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_472",
+  "contact": 0.225,
+  "px": [
+   3121,
+   1212
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_473",
+  "contact": 0.343,
+  "px": [
+   2541,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_474",
+  "contact": 0.0,
+  "px": [
+   0,
+   9025
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_475",
+  "contact": 0.406,
+  "px": [
+   868,
+   3403
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_476",
+  "contact": 0.189,
+  "px": [
+   2381,
+   2467
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_477",
+  "contact": 0.313,
+  "px": [
+   5329,
+   801
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_478",
+  "contact": 0.37,
+  "px": [
+   512,
+   3785
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_479",
+  "contact": 0.239,
+  "px": [
+   4761,
+   920
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_480",
+  "contact": 0.304,
+  "px": [
+   1920,
+   2485
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_481",
+  "contact": 0.0,
+  "px": [
+   1521,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_482",
+  "contact": 0.43,
+  "px": [
+   4917,
+   288
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_483",
+  "contact": 0.407,
+  "px": [
+   334,
+   5929
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_484",
+  "contact": 0.481,
+  "px": [
+   351,
+   4325
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_485",
+  "contact": 0.431,
+  "px": [
+   313,
+   7721
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_486",
+  "contact": 0.194,
+  "px": [
+   708,
+   5169
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_487",
+  "contact": 0.406,
+  "px": [
+   7105,
+   1520
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_488",
+  "contact": 0.484,
+  "px": [
+   3961,
+   320
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_489",
+  "contact": 0.356,
+  "px": [
+   4465,
+   992
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_490",
+  "contact": 0.476,
+  "px": [
+   1132,
+   4465
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_491",
+  "contact": 0.256,
+  "px": [
+   645,
+   5625
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_492",
+  "contact": 0.244,
+  "px": [
+   1542,
+   2775
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_493",
+  "contact": 1.0,
+  "px": [
+   7105,
+   12
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_494",
+  "contact": 0.396,
+  "px": [
+   476,
+   6801
+  ],
+  "answer": "no"
+ },
+ {
+  "uid": "syn_depth_495",
+  "contact": 0.247,
+  "px": [
+   4669,
+   739
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_496",
+  "contact": 0.53,
+  "px": [
+   2926,
+   1069
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_497",
+  "contact": 0.293,
+  "px": [
+   2346,
+   2261
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_498",
+  "contact": 0.348,
+  "px": [
+   4851,
+   1031
+  ],
+  "answer": "yes"
+ },
+ {
+  "uid": "syn_depth_499",
+  "contact": 0.579,
+  "px": [
+   4669,
+   248
+  ],
+  "answer": "yes"
+ }
+]

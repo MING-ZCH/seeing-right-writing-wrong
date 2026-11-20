@@ -1,0 +1,38 @@
+R29 / A4: which cluster unit the CIs of Tabs. S3 (supp_e54a), S6 (supp_e60), S20 (supp_judge) use, and recomputation
+with image / scene clustering where several analysed units share an image or scene.
+
+S3  rigor_e54.share_boot on bundle/e54_decomp.json _records. Per-model rows: clusters = Exp-45 'cl' (cue set: the 400
+    twin-pair scenes, 4 prompts each; twins: the 200 scenes, both twin images and both phrasings; Syn. Depth 431: the
+    image), strata = model x set. Pooled 'All seven' row: same clusters, strata = model x set, i.e. the same scene is
+    resampled independently for each of the 7 models. Recomputed here: (a) as published; (b) scene clusters shared across
+    models (strata = set; one draw of a scene takes its D+C- records of all 7 models); (c) item level (no clustering).
+S6  rigor_e60.Boot: clusters = CV-Bench item ('group' = idx); one draw is shared by all models and contexts. Checked
+    here: CV-Bench source photo (test.json source_filename) of the 151 kept items.
+S20 make_supp_tables.judge_table: Wilson intervals on the judged first claims (one claim per Synthetic Depth item);
+    consensus from bundle/judge2.json (Wilson); Rule (all) from bundle/claim_strat.json (bootstrap over item uids).
+    Checked here: items per image, and the post-'unclear' denominators behind each judged rate.
+-> outputs/bundle/r29_cluster_check.json, outputs/bundle/rigor_r29_cluster_check.txt
+
+S3 (supp_e54a) D+C- shares (a) false relation / (b) true relation, wrong answer / (c) none, 95% CI:
+  All seven, published (model x set strata, scene clusters)   n 3014 clusters 2474: a 56.6 [55.1, 58.2]  b 23.8 [22.5, 25.1]  c 19.6 [18.3, 20.9]
+  All seven, scene shared across models (set strata)          n 3014 clusters 905: a 56.6 [54.7, 58.6]  b 23.8 [22.2, 25.4]  c 19.6 [18.2, 21.0]
+  All seven, item level (no clustering)                       n 3014 clusters 3014: a 56.6 [55.0, 58.2]  b 23.8 [22.5, 25.1]  c 19.6 [18.2, 20.8]
+  (bundle 'pooled|all': a 56.6 [55.1, 58.3]  b 23.8 [22.5, 25.1]  c 19.6 [18.2, 20.9])
+  qwen3b         scene clusters: a 65.5 [61.3, 69.6] b 7.0 [4.9, 9.3] | item level: a [61.3, 69.8] b [4.9, 9.4]
+  qwen7b         scene clusters: a 63.8 [58.5, 68.8] b 21.6 [17.6, 25.8] | item level: a [58.6, 68.8] b [17.5, 26.0]
+  internvl3_8b   scene clusters: a 52.1 [47.6, 56.3] b 22.9 [19.3, 26.5] | item level: a [47.4, 56.4] b [19.4, 26.5]
+  phi35v         scene clusters: a 38.0 [34.1, 42.0] b 28.4 [25.0, 31.6] | item level: a [34.0, 42.1] b [24.9, 32.1]
+  molmo7b        scene clusters: a 23.3 [20.0, 26.6] b 61.0 [57.3, 65.0] | item level: a [20.0, 26.8] b [57.3, 64.7]
+  qwen3vl_8b     scene clusters: a 96.0 [94.2, 97.7] b 1.9 [0.8, 3.2] | item level: a [94.3, 97.7] b [0.6, 3.2]
+  internvl35_8b  scene clusters: a 83.1 [77.7, 88.1] b 5.6 [2.3, 9.1] | item level: a [77.4, 88.7] b [2.3, 9.0]
+
+S6 (supp_e60): 151 kept CV-Bench 2D Relation items, 151 distinct source photos (items per photo {1: 151}); bootstrap clusters 151 (items per cluster {1: 151}). Item bootstrap = image bootstrap; nothing to recompute.
+
+S20 (supp_judge): Synthetic Depth has 500 items on 500 distinct images; at most 1 judged claim per model x group x judge x item, so Wilson / item bootstrap intervals are image-level. Post-'unclear' denominators (sampled n -> Opus / GPT / consensus):
+  qwen3b         D+C-: 40 -> 38/38/37  D+C+: 40 -> 39/38/37  D-C+: 21 -> 20/17/16
+  qwen7b         D+C-: 40 -> 40/40/39  D+C+: 40 -> 39/38/35  D-C+: 40 -> 40/40/39
+  internvl3_8b   D+C-: 40 -> 39/40/39  D+C+: 40 -> 38/38/38  D-C+: 32 -> 28/26/25
+  phi35v         D+C-: 40 -> 40/40/39  D+C+: 40 -> 38/37/35  D-C+: 40 -> 40/39/34
+  molmo7b        D+C-: 40 -> 39/39/36  D+C+: 40 -> 40/39/37  D-C+: 29 -> 29/27/26
+  qwen3vl_8b     D+C-: 40 -> 39/40/35  D+C+: 40 -> 40/40/39  D-C+: 31 -> 30/29/27
+  totals: sampled 673, Opus 656, GPT 645, consensus 613

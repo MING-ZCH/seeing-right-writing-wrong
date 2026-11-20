@@ -1,0 +1,29 @@
+% Exp-54 (rigor_e54.py --only a). Suggested caption: Decomposition of CoT losses (D+C$-$: Direct right, CoT
+% wrong) and rescues (D$-$C+) by the last written relation of the conclusion-removed rationale (Exp-45 two-judge
+% consensus). (a) false relation (writing wrong), split by the reason the text gives (two-judge consensus):
+% affirmation = no visual reason and the relation affirms the queried subject; height = vertical position
+% (incl. 'on top' = higher); size = larger is closer; occl. = misread overlap; other = other reason or
+% judges disagree. (b) true relation, wrong answer (answering wrong): mapping = the question is not the written
+% proposition in its own words (other shape, converse or contrary predicate); reversal = question restated,
+% the removed conclusion states the opposite answer; other. (c) no relation. Shares in % of D+C$-$ with
+% item-cluster bootstrap 95% CIs (2,000 draws). Mirror: D$-$C+ with a true relation (a'), a false relation
+% but a right answer (b') and no relation (c'). Pooled rows resample clusters within each model x set.
+% Counting 'on top / over / above' wording that names the upper shape as height (rule) raises height to 10% of
+% all D+C$-$ (Qwen3-VL-8B 11%); counting the conclusion as written relation (v3) moves Molmo-7B-D to 61% (a).
+\begin{tabular}{lr rrrrrr rrrr r rrrr}
+\toprule
+ & & \multicolumn{6}{c}{(a) false relation} & \multicolumn{4}{c}{(b) true relation, wrong answer} & (c) & \multicolumn{4}{c}{D$-$C+ mirror} \\
+\cmidrule(lr){3-8}\cmidrule(lr){9-12}\cmidrule(lr){14-17}
+Model (pooled over sets) & $n$ & all & aff. & height & size & occl. & other & all & map. & rev. & other & none & $n$ & (a') & (b') & (c') \\
+\midrule
+Qwen2.5-VL-3B & 470 & 66 [61, 70] & 20 & 10 & 1 & 13 & 21 & 7 [5, 9] & 5 & 2 & 0 & 27 & 376 & 67 & 7 & 26 \\
+Qwen2.5-VL-7B & 365 & 64 [59, 69] & 1 & 17 & 0 & 41 & 5 & 22 [18, 26] & 19 & 3 & 0 & 15 & 417 & 64 & 24 & 12 \\
+InternVL3-8B & 449 & 52 [48, 56] & 1 & 2 & 0 & 47 & 2 & 23 [20, 27] & 18 & 5 & 0 & 25 & 453 & 81 & 4 & 15 \\
+Phi-3.5-V & 539 & 38 [34, 42] & 9 & 6 & 1 & 12 & 10 & 28 [25, 32] & 25 & 3 & 0 & 34 & 446 & 55 & 13 & 32 \\
+Molmo-7B-D & 541 & 23 [20, 27] & 2 & 2 & 0 & 15 & 4 & 61 [57, 65] & 46 & 15 & 0 & 16 & 159 & 81 & 4 & 15 \\
+Qwen3-VL-8B & 473 & 96 [94, 98] & 0 & 0 & 0 & 96 & 0 & 2 [1, 3] & 2 & 0 & 0 & 2 & 345 & 99 & 1 & 1 \\
+InternVL3.5-8B & 177 & 83 [77, 89] & 2 & 4 & 0 & 67 & 10 & 6 [3, 9] & 4 & 2 & 0 & 11 & 306 & 94 & 2 & 4 \\
+\midrule
+All seven (all sets) & 3014 & 57 [55, 59] & 5 & 6 & 1 & 38 & 7 & 24 [22, 25] & 19 & 5 & 0 & 20 & 2502 & 75 & 9 & 16 \\
+\bottomrule
+\end{tabular}

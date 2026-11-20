@@ -1,0 +1,90 @@
+== InternVL3.5-38B (internvl35_38b) n=1600 arms ['direct', 'cot', 'desc'] unparsed {'direct': 0, 'cot': 0, 'desc': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC InternVL3.5-38B: Direct 64.2 [61.5, 67.0] (rule CI, (scene, phrasing) clusters) / 64.2 [60.4, 68.1] (twin-pair clusters) | CoT 75.8 [73.4, 78.0] | CoT-Dir +11.6 [+8.2, +15.0] | Desc 70.4 [67.3, 73.7] Desc-Dir +6.2 [-0.7, +12.3] Desc-CoT -5.4 [-9.8, -1.1]
+RULE InternVL3.5-38B: competent=False {'cue_acc_ci_lo_gt70': False, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 61.5, occlusion d' CI lo 1.83)
+GLM InternVL3.5-38B direct: occl +2.13 [+1.83, +2.58] height +3.47 [+3.13, +4.00] size -0.31 [-0.54, -0.09] (max|b| 1.73, separated False)
+GLM InternVL3.5-38B cot   : occl +1.64 [+1.48, +1.80] height +0.60 [+0.45, +0.75] size -0.08 [-0.23, +0.08] (max|b| 0.82, separated False)
+GLM InternVL3.5-38B desc  : occl +1.59 [+1.42, +1.82] height -1.77 [-2.02, -1.58] size -0.14 [-0.32, +0.05] (max|b| 0.89, separated False)
+GLM InternVL3.5-38B cot-direct: occl -0.49 [-0.96, -0.18] height -2.87 [-3.38, -2.52] size +0.23 [+0.02, +0.46] | common scale s 0.335 [0.286, 0.384] delta_occ +0.461 [0.395, 0.528]
+GLM InternVL3.5-38B desc-direct: occl -0.53 [-1.04, -0.17] height -5.24 [-5.78, -4.88] size +0.17 [-0.12, +0.47] | common scale s -0.163 [-0.219, -0.107] delta_occ +0.970 [0.885, 1.09]
+GLM InternVL3.5-38B desc-cot: occl -0.04 [-0.28, +0.23] height -2.37 [-2.64, -2.16] size -0.07 [-0.31, +0.18] | common scale s 0.514 [0.363, 0.681] delta_occ +0.377 [0.282, 0.491]
+AME InternVL3.5-38B occlusion: direct +28.6 [+25.6, +31.9] cot +51.7 [+47.4, +55.6] desc +41.2 [+36.7, +45.6] | cot-direct +23.1 [+18.8, +27.3] desc-direct +12.7 [+7.1, +18.0] desc-cot -10.4 [-16.5, -4.6]
+AME InternVL3.5-38B vertical : direct +69.2 [+66.0, +72.2] cot +16.2 [+11.9, +20.3] desc -47.9 [-52.6, -43.6] | cot-direct -53.0 [-57.3, -49.1] desc-direct -117.1 [-122.7, -111.8] desc-cot -64.1 [-69.7, -58.2]
+AME InternVL3.5-38B size     : direct -4.6 [-8.0, -1.4] cot -2.0 [-6.1, +2.2] desc -3.4 [-7.5, +1.2] | cot-direct +2.6 [-1.6, +6.8] desc-direct +1.2 [-4.1, +7.2] desc-cot -1.4 [-7.2, +4.5]
+DPAIR InternVL3.5-38B: direct 0.46 [0.337, 0.585] cot 1.36 [1.179, 1.554] desc 0.89 [0.734, 1.078] | cot-direct +0.90 [+0.73, +1.09] desc-direct +0.43 [+0.19, +0.69] desc-cot -0.47 [-0.74, -0.19] | splits BC/SF/SB/BW direct [52.4, 19.2, 4.5, 23.9] cot [57.2, 29.1, 8.0, 5.6] desc [52.4, 24.8, 11.4, 11.5]
+CELLS InternVL3.5-38B (Direct vs CoT): D+C- 134 D-C+ 319 D+C+ 894 D-C- 253 | churn 28.3% net +11.56 pts | Desc: D+X- 424 D-X+ 523 churn 59.2% net +6.19
+LOWER InternVL3.5-38B: follows lower-is-closer direct 84.9 [82.9, 86.9] cot 58.1 [55.1, 61.5] desc 26.1 [23.2, 29.2]
+CLAIM InternVL3.5-38B first_claim_cot: parsed 1532/1600 (95.8%) names front 73.4 [70.8, 75.8] lower 56.6 [53.2, 59.8] larger 50.1 [46.8, 53.4]
+CLAIM InternVL3.5-38B first_claim_desc: parsed 1138/1600 (71.1%) names front 70.3 [66.5, 74.2] lower 25.3 [21.6, 29.0] larger 42.5 [37.9, 47.2]
+FOLLOW InternVL3.5-38B follow_cot_last all: coverage 1532/1600 | P(agree|true) 95.9 [94.8, 97.1] (n=1135) P(agree|false) 81.4 [77.2, 85.4] (n=397) cells {'true_cons': 1089, 'true_incons': 46, 'false_cons': 323, 'false_incons': 74}
+FOLLOW InternVL3.5-38B follow_cot_last D+: coverage 1532/1600 | P(agree|true) 97.9 [97.0, 98.8] (n=810) P(agree|false) 65.3 [58.2, 72.2] (n=173) cells {'true_cons': 793, 'true_incons': 17, 'false_cons': 113, 'false_incons': 60}
+FOLLOW InternVL3.5-38B follow_cot_last D-: coverage 1532/1600 | P(agree|true) 91.1 [87.9, 94.0] (n=325) P(agree|false) 93.8 [90.6, 96.7] (n=224) cells {'true_cons': 296, 'true_incons': 29, 'false_cons': 210, 'false_incons': 14}
+FOLLOW InternVL3.5-38B follow_desc_last all: coverage 1056/1600 | P(agree|true) 92.9 [90.6, 95.2] (n=804) P(agree|false) 87.7 [82.1, 92.4] (n=252) cells {'true_cons': 747, 'true_incons': 57, 'false_cons': 221, 'false_incons': 31}
+FOLLOW InternVL3.5-38B follow_desc_last D+: coverage 1056/1600 | P(agree|true) 90.7 [87.0, 94.0] (n=428) P(agree|false) 90.0 [84.7, 94.4] (n=229) cells {'true_cons': 388, 'true_incons': 40, 'false_cons': 206, 'false_incons': 23}
+FOLLOW InternVL3.5-38B follow_desc_last D-: coverage 1056/1600 | P(agree|true) 95.5 [92.6, 97.9] (n=376) P(agree|false) 65.2 [40.0, 90.0] (n=23) cells {'true_cons': 359, 'true_incons': 17, 'false_cons': 15, 'false_incons': 8}
+TOKENS InternVL3.5-38B: CoT {'mean': 41.6, 'median': 35.0, 'max': 131, 'trunc_pct': 0.0} | Desc {'mean': 136.0, 'trunc_pct': 0.0} | Direct re-read same 100.0%
+L3 InternVL3.5-38B cues: last-claim coverage 95.8% written acc 74.1 vs Direct on parsed 64.2 -> x +9.92 [6.19, 13.58] | y (CoT-Direct, all) +11.56 [8.31, 15.25] | like-for-like y +11.75 | agree(last) 92.2 | 21-point fit predicts y +7.24 (y - x +1.64)
+== Qwen2.5-VL-32B (qwen32b) n=1600 arms ['direct', 'cot', 'desc'] unparsed {'direct': 0, 'cot': 0, 'desc': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC Qwen2.5-VL-32B: Direct 61.7 [59.4, 64.1] (rule CI, (scene, phrasing) clusters) / 61.7 [58.6, 64.7] (twin-pair clusters) | CoT 56.1 [53.8, 58.4] | CoT-Dir -5.6 [-8.4, -2.8] | Desc 60.1 [56.6, 63.5] Desc-Dir -1.6 [-7.2, +3.8] Desc-CoT +4.0 [-0.3, +8.3]
+RULE Qwen2.5-VL-32B: competent=False {'cue_acc_ci_lo_gt70': False, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 59.4, occlusion d' CI lo 0.74)
+GLM Qwen2.5-VL-32B direct: occl +0.92 [+0.74, +1.12] height +1.66 [+1.48, +1.87] size -0.39 [-0.58, -0.21] (max|b| 0.83, separated False)
+GLM Qwen2.5-VL-32B cot   : occl +0.42 [+0.28, +0.55] height +0.46 [+0.31, +0.62] size -0.57 [-0.72, -0.42] (max|b| 0.29, separated False)
+GLM Qwen2.5-VL-32B desc  : occl +0.61 [+0.44, +0.77] height -1.15 [-1.33, -1.00] size +0.10 [-0.07, +0.28] (max|b| 0.58, separated False)
+GLM Qwen2.5-VL-32B cot-direct: occl -0.50 [-0.69, -0.33] height -1.19 [-1.38, -1.03] size -0.18 [-0.36, -0.00] | common scale s 0.368 [0.298, 0.435] delta_occ +0.040 [-0.02, 0.097]
+GLM Qwen2.5-VL-32B desc-direct: occl -0.31 [-0.57, -0.07] height -2.81 [-3.07, -2.59] size +0.49 [+0.26, +0.74] | common scale s -0.369 [-0.489, -0.263] delta_occ +0.477 [0.402, 0.553]
+GLM Qwen2.5-VL-32B desc-cot: occl +0.19 [-0.02, +0.41] height -1.62 [-1.85, -1.43] size +0.67 [+0.46, +0.90] | common scale s -0.463 [-0.811, -0.147] delta_occ +0.404 [0.321, 0.485]
+AME Qwen2.5-VL-32B occlusion: direct +22.9 [+18.8, +27.0] cot +12.4 [+8.1, +16.7] desc +20.4 [+14.9, +25.7] | cot-direct -10.5 [-15.0, -5.8] desc-direct -2.6 [-9.1, +3.4] desc-cot +7.9 [+1.3, +14.1]
+AME Qwen2.5-VL-32B vertical : direct +44.3 [+40.3, +48.7] cot +13.7 [+9.9, +17.9] desc -41.5 [-47.1, -36.2] | cot-direct -30.6 [-35.4, -25.8] desc-direct -85.8 [-92.3, -79.2] desc-cot -55.2 [-62.0, -49.1]
+AME Qwen2.5-VL-32B size     : direct -9.5 [-13.6, -5.5] cot -17.1 [-21.2, -12.9] desc +3.2 [-1.9, +8.7] | cot-direct -7.6 [-12.1, -2.9] desc-direct +12.7 [+6.4, +19.3] desc-cot +20.3 [+13.7, +26.7]
+DPAIR Qwen2.5-VL-32B: direct 0.55 [0.401, 0.7] cot 0.30 [0.18, 0.422] desc 0.43 [0.277, 0.591] | cot-direct -0.25 [-0.39, -0.12] desc-direct -0.12 [-0.37, +0.14] desc-cot +0.13 [-0.07, +0.34] | splits BC/SF/SB/BW direct [38.4, 43.4, 3.2, 15.0] cot [30.1, 45.1, 6.8, 18.0] desc [38.8, 24.2, 18.4, 18.6]
+CELLS Qwen2.5-VL-32B (Direct vs CoT): D+C- 263 D-C+ 173 D+C+ 724 D-C- 440 | churn 27.2% net -5.62 pts | Desc: D+X- 405 D-X+ 379 churn 49.0% net -1.62
+LOWER Qwen2.5-VL-32B: follows lower-is-closer direct 72.3 [70.0, 74.8] cot 57.8 [55.4, 60.1] desc 29.4 [26.4, 32.3]
+CLAIM Qwen2.5-VL-32B first_claim_cot: parsed 1514/1600 (94.6%) names front 56.7 [54.3, 59.2] lower 46.0 [43.5, 48.4] larger 41.1 [38.6, 43.4]
+CLAIM Qwen2.5-VL-32B first_claim_desc: parsed 938/1600 (58.6%) names front 59.1 [54.4, 63.7] lower 23.5 [19.7, 27.3] larger 51.8 [47.1, 56.5]
+FOLLOW Qwen2.5-VL-32B follow_cot_last all: coverage 1514/1600 | P(agree|true) 80.7 [78.5, 83.1] (n=880) P(agree|false) 77.6 [74.5, 80.6] (n=634) cells {'true_cons': 710, 'true_incons': 170, 'false_cons': 492, 'false_incons': 142}
+FOLLOW Qwen2.5-VL-32B follow_cot_last D+: coverage 1514/1600 | P(agree|true) 91.3 [89.2, 93.4] (n=609) P(agree|false) 58.8 [53.6, 63.8] (n=323) cells {'true_cons': 556, 'true_incons': 53, 'false_cons': 190, 'false_incons': 133}
+FOLLOW Qwen2.5-VL-32B follow_cot_last D-: coverage 1514/1600 | P(agree|true) 56.8 [51.3, 62.3] (n=271) P(agree|false) 97.1 [95.1, 98.8] (n=311) cells {'true_cons': 154, 'true_incons': 117, 'false_cons': 302, 'false_incons': 9}
+FOLLOW Qwen2.5-VL-32B follow_desc_last all: coverage 908/1600 | P(agree|true) 87.7 [83.9, 91.5] (n=578) P(agree|false) 83.9 [78.1, 89.4] (n=330) cells {'true_cons': 507, 'true_incons': 71, 'false_cons': 277, 'false_incons': 53}
+FOLLOW Qwen2.5-VL-32B follow_desc_last D+: coverage 908/1600 | P(agree|true) 87.7 [82.3, 92.6] (n=332) P(agree|false) 83.7 [76.9, 89.8] (n=246) cells {'true_cons': 291, 'true_incons': 41, 'false_cons': 206, 'false_incons': 40}
+FOLLOW Qwen2.5-VL-32B follow_desc_last D-: coverage 908/1600 | P(agree|true) 87.8 [82.0, 92.6] (n=246) P(agree|false) 84.5 [73.7, 93.9] (n=84) cells {'true_cons': 216, 'true_incons': 30, 'false_cons': 71, 'false_incons': 13}
+TOKENS Qwen2.5-VL-32B: CoT {'mean': 156.7, 'median': 156.0, 'max': 244, 'trunc_pct': 0.0} | Desc {'mean': 348.9, 'trunc_pct': 0.12} | Direct re-read same 100.0%
+L3 Qwen2.5-VL-32B cues: last-claim coverage 94.6% written acc 58.1 vs Direct on parsed 61.6 -> x -3.43 [-6.83, -0.13] | y (CoT-Direct, all) -5.62 [-8.25, -2.94] | like-for-like y -5.28 | agree(last) 79.4 | 21-point fit predicts y -4.39 (y - x -2.19)
+== Qwen2.5-VL-7B (qwen7b) n=1600 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC Qwen2.5-VL-7B: Direct 53.4 [50.2, 56.6] (rule CI, (scene, phrasing) clusters) / 53.4 [48.7, 57.9] (twin-pair clusters) | CoT 56.9 [54.1, 59.7] | CoT-Dir +3.5 [+0.4, +6.6]
+RULE Qwen2.5-VL-7B: competent=False {'cue_acc_ci_lo_gt70': False, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 50.2, occlusion d' CI lo 0.67)
+GLM Qwen2.5-VL-7B direct: occl +0.91 [+0.67, +1.27] height +3.86 [+3.62, +4.26] size -0.13 [-0.39, +0.12] (max|b| 1.93, separated False)
+GLM Qwen2.5-VL-7B cot   : occl +0.57 [+0.42, +0.74] height +1.68 [+1.51, +1.86] size +0.07 [-0.08, +0.22] (max|b| 0.84, separated False)
+GLM Qwen2.5-VL-7B cot-direct: occl -0.34 [-0.71, -0.07] height -2.19 [-2.64, -1.90] size +0.20 [-0.08, +0.47] | common scale s 0.443 [0.383, 0.497] delta_occ +0.083 [-0.009, 0.169]
+AME Qwen2.5-VL-7B occlusion: direct +6.5 [+4.5, +8.7] cot +13.3 [+9.8, +17.0] | cot-direct +6.8 [+3.1, +10.8]
+AME Qwen2.5-VL-7B vertical : direct +91.5 [+89.3, +93.5] cot +41.4 [+37.5, +45.2] | cot-direct -50.1 [-54.1, -46.3]
+AME Qwen2.5-VL-7B size     : direct -1.1 [-3.0, +0.9] cot +1.5 [-2.1, +5.2] | cot-direct +2.6 [-1.2, +6.4]
+DPAIR Qwen2.5-VL-7B: direct 0.09 [-0.028, 0.205] cot 0.34 [0.204, 0.482] | cot-direct +0.25 [+0.16, +0.36] | splits BC/SF/SB/BW direct [49.6, 5.5, 2.0, 42.9] cot [31.2, 33.2, 18.0, 17.5]
+CELLS Qwen2.5-VL-7B (Direct vs CoT): D+C- 197 D-C+ 253 D+C+ 657 D-C- 493 | churn 28.1% net +3.50 pts
+LOWER Qwen2.5-VL-7B: follows lower-is-closer direct 95.6 [94.4, 96.7] cot 70.4 [68.4, 72.4]
+CLAIM Qwen2.5-VL-7B first_claim_cot: parsed 1466/1600 (91.6%) names front 53.4 [50.4, 56.2] lower 66.4 [64.0, 68.7] larger 46.3 [43.6, 49.1]
+FOLLOW Qwen2.5-VL-7B follow_cot_last all: coverage 1466/1600 | P(agree|true) 90.5 [88.4, 92.7] (n=833) P(agree|false) 86.3 [83.1, 88.9] (n=633) cells {'true_cons': 754, 'true_incons': 79, 'false_cons': 546, 'false_incons': 87}
+FOLLOW Qwen2.5-VL-7B follow_cot_last D+: coverage 1466/1600 | P(agree|true) 96.8 [95.2, 98.2] (n=563) P(agree|false) 70.4 [64.2, 76.1] (n=226) cells {'true_cons': 545, 'true_incons': 18, 'false_cons': 159, 'false_incons': 67}
+FOLLOW Qwen2.5-VL-7B follow_cot_last D-: coverage 1466/1600 | P(agree|true) 77.4 [72.6, 82.3] (n=270) P(agree|false) 95.1 [92.8, 97.0] (n=407) cells {'true_cons': 209, 'true_incons': 61, 'false_cons': 387, 'false_incons': 20}
+TOKENS Qwen2.5-VL-7B: CoT {'mean': 52.1, 'median': 50.0, 'max': 121, 'trunc_pct': 0.0}
+TWINS Qwen2.5-VL-7B: d'pair Direct 0.10 -> CoT 0.42 delta +0.32 [+0.17, +0.48] (BW units Direct 168, CoT 60)
+L3 Qwen2.5-VL-7B cues: last-claim coverage 91.6% written acc 56.8 vs Direct on parsed 53.8 -> x +3.00 [-0.94, 6.86] | y (CoT-Direct, all) +3.50 [0.12, 6.38] | like-for-like y +3.55 | agree(last) 88.7 | 21-point fit predicts y +1.21 (y - x +0.50)
+L3 Qwen2.5-VL-7B twins: last-claim coverage 93.4% written acc 57.8 vs Direct on parsed 53.5 -> x +4.28 [-1.19, 9.54] | y (CoT-Direct, all) +4.00 [-0.25, 8.12] | like-for-like y +4.42 | agree(last) 88.9 | 21-point fit predicts y +2.33 (y - x -0.28)
+== InternVL3.5-8B (internvl35_8b) n=1600 arms ['direct', 'cot'] unparsed {'direct': 0, 'cot': 0} | items identical to the e10 cue runs (meta, gold, question): 100.0%
+ACC InternVL3.5-8B: Direct 55.6 [52.5, 58.8] (rule CI, (scene, phrasing) clusters) / 55.6 [51.1, 60.0] (twin-pair clusters) | CoT 60.1 [56.5, 63.7] | CoT-Dir +4.6 [+2.4, +6.8]
+RULE InternVL3.5-8B: competent=False {'cue_acc_ci_lo_gt70': False, 'glm_occl_ci_lo_gt0': True} (Direct acc CI lo 52.5, occlusion d' CI lo 1.18)
+GLM InternVL3.5-8B direct: occl +1.49 [+1.18, +2.03] height +4.35 [+3.99, +5.02] size -0.38 [-0.65, -0.13] (max|b| 2.18, separated False)
+GLM InternVL3.5-8B cot   : occl +0.89 [+0.73, +1.06] height +2.16 [+1.99, +2.35] size -0.35 [-0.51, -0.20] (max|b| 1.08, separated False)
+GLM InternVL3.5-8B cot-direct: occl -0.60 [-1.11, -0.30] height -2.19 [-2.82, -1.82] size +0.03 [-0.24, +0.30] | common scale s 0.509 [0.436, 0.567] delta_occ +0.066 [-0.028, 0.147]
+AME InternVL3.5-8B occlusion: direct +10.9 [+8.6, +13.3] cot +20.0 [+16.4, +23.8] | cot-direct +9.1 [+5.4, +12.8]
+AME InternVL3.5-8B vertical : direct +87.8 [+85.4, +90.3] cot +63.2 [+59.7, +66.9] | cot-direct -24.6 [-28.0, -21.0]
+AME InternVL3.5-8B size     : direct -3.4 [-5.6, -1.1] cot -7.8 [-11.2, -3.9] | cot-direct -4.4 [-8.1, -0.6]
+DPAIR InternVL3.5-8B: direct 0.15 [0.031, 0.271] cot 0.34 [0.221, 0.478] | cot-direct +0.20 [+0.13, +0.26] | splits BC/SF/SB/BW direct [49.9, 10.0, 1.4, 38.8] cot [45.6, 21.4, 7.6, 25.4]
+CELLS InternVL3.5-8B (Direct vs CoT): D+C- 86 D-C+ 159 D+C+ 803 D-C- 552 | churn 15.3% net +4.56 pts
+LOWER InternVL3.5-8B: follows lower-is-closer direct 93.8 [92.5, 95.1] cot 81.6 [79.6, 83.8]
+CLAIM InternVL3.5-8B first_claim_cot: parsed 1418/1600 (88.6%) names front 62.1 [59.0, 65.0] lower 65.1 [62.1, 68.1] larger 45.3 [42.0, 48.6]
+FOLLOW InternVL3.5-8B follow_cot_last all: coverage 1418/1600 | P(agree|true) 85.3 [82.5, 88.2] (n=880) P(agree|false) 78.1 [73.7, 82.1] (n=538) cells {'true_cons': 751, 'true_incons': 129, 'false_cons': 420, 'false_incons': 118}
+FOLLOW InternVL3.5-8B follow_cot_last D+: coverage 1418/1600 | P(agree|true) 98.7 [97.6, 99.5] (n=627) P(agree|false) 39.5 [32.9, 46.3] (n=177) cells {'true_cons': 619, 'true_incons': 8, 'false_cons': 70, 'false_incons': 107}
+FOLLOW InternVL3.5-8B follow_cot_last D-: coverage 1418/1600 | P(agree|true) 52.2 [46.0, 58.4] (n=253) P(agree|false) 97.0 [94.7, 98.9] (n=361) cells {'true_cons': 132, 'true_incons': 121, 'false_cons': 350, 'false_incons': 11}
+TOKENS InternVL3.5-8B: CoT {'mean': 60.7, 'median': 52.0, 'max': 200, 'trunc_pct': 0.0}
+TWINS InternVL3.5-8B: d'pair Direct 0.18 -> CoT 0.41 delta +0.23 [+0.13, +0.34] (BW units Direct 145, CoT 88)
+L3 InternVL3.5-8B cues: last-claim coverage 88.6% written acc 62.1 vs Direct on parsed 56.7 -> x +5.36 [1.52, 9.33] | y (CoT-Direct, all) +4.56 [2.38, 6.88] | like-for-like y +4.58 | agree(last) 82.6 | 21-point fit predicts y +3.27 (y - x -0.80)
+L3 InternVL3.5-8B twins: last-claim coverage 89.8% written acc 66.8 vs Direct on parsed 57.1 -> x +9.75 [4.47, 15.43] | y (CoT-Direct, all) +4.63 [1.37, 8.0] | like-for-like y +4.87 | agree(last) 81.8 | 21-point fit predicts y +7.09 (y - x -5.12)

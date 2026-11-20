@@ -1,0 +1,340 @@
+{
+ "_doc": "Unified Qwen3-VL scale-ladder table on the original twins, one run per size.\n\nRuns: 2B / 4B / 32B from outputs/scale (open-model protocol); 8B from outputs/e10 (the re-run behind the per-half and\nAUC ladder rows of ladder_cues.json), and, for reference, the 8B main twin run outputs/e2d (Tab. S14 / S15).\nPer size: Direct / CoT accuracy (both phrasings), front-lower accuracy, pooled d' (subject-in-front, both phrasings,\nlog-linear correction), pair-matched d'_pair = ln[(BC+.5)/(BW+.5)]/1.702 over (scene, phrasing) units of the two twins,\nwith CoT-Direct differences and 95% scene-bootstrap CIs (2,000; both twins and both phrasings of a scene kept together).\nPer-half occlusion-minus-size and AUC changes are copied from ladder_cues.json (rigor_e17g.py).\n-> outputs/bundle/ladder_unified.json\nUsage: python ladder_unified.py\n",
+ "2b": {
+  "direct": {
+   "n": 800,
+   "acc": 64.125,
+   "acc_front_lower": 73.0,
+   "dprime": 1.6090593861722429,
+   "dpair": 2.2520445347166236,
+   "n_units": 400,
+   "BC": 115,
+   "BW": 2
+  },
+  "cot": {
+   "n": 800,
+   "acc": 66.375,
+   "acc_front_lower": 70.5,
+   "dprime": 1.1646745227557442,
+   "dpair": 1.1281934534764262,
+   "n_units": 400,
+   "BC": 153,
+   "BW": 22
+  },
+  "cot-direct": {
+   "dprime": {
+    "est": -0.44438486341649863,
+    "ci": [
+     -0.8914063121618343,
+     -0.10490124855853364
+    ]
+   },
+   "dpair": {
+    "est": -1.1238510812401974,
+    "ci": [
+     -2.1853444611830364,
+     -0.5679081030327364
+    ]
+   },
+   "acc": {
+    "est": 2.25,
+    "ci": [
+     -0.7499999999999951,
+     5.249999999999999
+    ]
+   }
+  },
+  "per_half_occ_minus_size": {
+   "d": -0.58,
+   "ci": [
+    -0.87,
+    -0.25
+   ]
+  },
+  "auc": {
+   "direct": 0.861,
+   "cot": 0.73,
+   "diff": {
+    "diff": -0.131,
+    "ci": [
+     -0.172,
+     -0.092
+    ]
+   }
+  },
+  "halves_acc": {
+   "direct": {
+    "front_lower": 73.1,
+    "front_higher": 55.0
+   },
+   "cot": {
+    "front_lower": 70.4,
+    "front_higher": 62.3
+   }
+  }
+ },
+ "4b": {
+  "direct": {
+   "n": 800,
+   "acc": 83.875,
+   "acc_front_lower": 93.75,
+   "dprime": 2.699830976742114,
+   "dpair": 3.0565061727350966,
+   "n_units": 400,
+   "BC": 272,
+   "BW": 1
+  },
+  "cot": {
+   "n": 800,
+   "acc": 75.625,
+   "acc_front_lower": 71.0,
+   "dprime": 1.7740072718967241,
+   "dpair": 1.8313853935144397,
+   "n_units": 400,
+   "BC": 214,
+   "BW": 9
+  },
+  "cot-direct": {
+   "dprime": {
+    "est": -0.9258237048453897,
+    "ci": [
+     -1.432632452689601,
+     -0.500022237903499
+    ]
+   },
+   "dpair": {
+    "est": -1.2251207792206569,
+    "ci": [
+     -2.1232793806911543,
+     -0.40873444743572684
+    ]
+   },
+   "acc": {
+    "est": -8.25,
+    "ci": [
+     -12.124999999999996,
+     -4.374999999999996
+    ]
+   }
+  },
+  "per_half_occ_minus_size": {
+   "d": -0.98,
+   "ci": [
+    -1.48,
+    -0.54
+   ]
+  },
+  "auc": {
+   "direct": 0.982,
+   "cot": 0.792,
+   "diff": {
+    "diff": -0.19,
+    "ci": [
+     -0.221,
+     -0.157
+    ]
+   }
+  },
+  "halves_acc": {
+   "direct": {
+    "front_lower": 93.8,
+    "front_higher": 73.9
+   },
+   "cot": {
+    "front_lower": 71.1,
+    "front_higher": 80.2
+   }
+  }
+ },
+ "8b": {
+  "direct": {
+   "n": 800,
+   "acc": 81.125,
+   "acc_front_lower": 92.5,
+   "dprime": 2.254889829558932,
+   "dpair": 1.8844779350425769,
+   "n_units": 400,
+   "BC": 259,
+   "BW": 10
+  },
+  "cot": {
+   "n": 800,
+   "acc": 78.625,
+   "acc_front_lower": 73.5,
+   "dprime": 1.728867207771892,
+   "dpair": 1.7863531458146953,
+   "n_units": 400,
+   "BC": 240,
+   "BW": 11
+  },
+  "cot-direct": {
+   "dprime": {
+    "est": -0.5260226217870401,
+    "ci": [
+     -0.9620177943622678,
+     -0.14009405474838185
+    ]
+   },
+   "dpair": {
+    "est": -0.09812478922788159,
+    "ci": [
+     -0.664055453800876,
+     0.5180641289890021
+    ]
+   },
+   "acc": {
+    "est": -2.5,
+    "ci": [
+     -6.75,
+     1.6249999999999987
+    ]
+   }
+  },
+  "per_half_occ_minus_size": {
+   "d": -0.85,
+   "ci": [
+    -1.18,
+    -0.53
+   ]
+  },
+  "auc": {
+   "direct": 0.939,
+   "cot": 0.846,
+   "diff": {
+    "diff": -0.093,
+    "ci": [
+     -0.124,
+     -0.057
+    ]
+   }
+  },
+  "halves_acc": {
+   "direct": {
+    "front_lower": 92.5,
+    "front_higher": 69.6
+   },
+   "cot": {
+    "front_lower": 73.6,
+    "front_higher": 83.7
+   }
+  }
+ },
+ "8b_main_e2d": {
+  "direct": {
+   "n": 800,
+   "acc": 81.125,
+   "acc_front_lower": 92.5,
+   "dprime": 2.254889829558932,
+   "dpair": 1.8844779350425769,
+   "n_units": 400,
+   "BC": 259,
+   "BW": 10
+  },
+  "cot": {
+   "n": 800,
+   "acc": 79.125,
+   "acc_front_lower": 73.0,
+   "dprime": 1.797453862832906,
+   "dpair": 1.9034723335905068,
+   "n_units": 400,
+   "BC": 242,
+   "BW": 9
+  },
+  "cot-direct": {
+   "dprime": {
+    "est": -0.45743596672602616,
+    "ci": [
+     -0.8831347366886547,
+     -0.0595597086084349
+    ]
+   },
+   "dpair": {
+    "est": 0.018994398547929947,
+    "ci": [
+     -0.5601159950469482,
+     0.7536482147474762
+    ]
+   },
+   "acc": {
+    "est": -2.0,
+    "ci": [
+     -6.000000000000005,
+     2.124999999999999
+    ]
+   }
+  }
+ },
+ "32b": {
+  "direct": {
+   "n": 800,
+   "acc": 96.375,
+   "acc_front_lower": 99.25,
+   "dprime": 4.47383282977493,
+   "dpair": 3.884075231914077,
+   "n_units": 400,
+   "BC": 371,
+   "BW": 0
+  },
+  "cot": {
+   "n": 800,
+   "acc": 89.625,
+   "acc_front_lower": 83.0,
+   "dprime": 2.5100727314925546,
+   "dpair": 2.654006643869187,
+   "n_units": 400,
+   "BC": 320,
+   "BW": 3
+  },
+  "cot-direct": {
+   "dprime": {
+    "est": -1.9637600982823757,
+    "ci": [
+     -2.2409068771936136,
+     -1.657207292923695
+    ]
+   },
+   "dpair": {
+    "est": -1.2300685880448898,
+    "ci": [
+     -1.6885476570721787,
+     -0.07703020185622654
+    ]
+   },
+   "acc": {
+    "est": -6.75,
+    "ci": [
+     -9.250000000000004,
+     -4.249999999999998
+    ]
+   }
+  },
+  "per_half_occ_minus_size": {
+   "d": -1.72,
+   "ci": [
+    -2.07,
+    -1.36
+   ]
+  },
+  "auc": {
+   "direct": 0.998,
+   "cot": 0.942,
+   "diff": {
+    "diff": -0.056,
+    "ci": [
+     -0.07,
+     -0.042
+    ]
+   }
+  },
+  "halves_acc": {
+   "direct": {
+    "front_lower": 99.3,
+    "front_higher": 93.5
+   },
+   "cot": {
+    "front_lower": 83.1,
+    "front_higher": 96.2
+   }
+  }
+ }
+}

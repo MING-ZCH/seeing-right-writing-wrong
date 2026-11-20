@@ -1,0 +1,591 @@
+{
+ "_doc": "R29 / A4: which cluster unit the CIs of Tabs. S3 (supp_e54a), S6 (supp_e60), S20 (supp_judge) use, and recomputation\nwith image / scene clustering where several analysed units share an image or scene.\n\nS3  rigor_e54.share_boot on bundle/e54_decomp.json _records. Per-model rows: clusters = Exp-45 'cl' (cue set: the 400\n    twin-pair scenes, 4 prompts each; twins: the 200 scenes, both twin images and both phrasings; Syn. Depth 431: the\n    image), strata = model x set. Pooled 'All seven' row: same clusters, strata = model x set, i.e. the same scene is\n    resampled independently for each of the 7 models. Recomputed here: (a) as published; (b) scene clusters shared across\n    models (strata = set; one draw of a scene takes its D+C- records of all 7 models); (c) item level (no clustering).\nS6  rigor_e60.Boot: clusters = CV-Bench item ('group' = idx); one draw is shared by all models and contexts. Checked\n    here: CV-Bench source photo (test.json source_filename) of the 151 kept items.\nS20 make_supp_tables.judge_table: Wilson intervals on the judged first claims (one claim per Synthetic Depth item);\n    consensus from bundle/judge2.json (Wilson); Rule (all) from bundle/claim_strat.json (bootstrap over item uids).\n    Checked here: items per image, and the post-'unclear' denominators behind each judged rate.\n-> outputs/bundle/r29_cluster_check.json, outputs/bundle/rigor_r29_cluster_check.txt\nUsage: python r29_cluster_check.py\n",
+ "S3_supp_e54a": {
+  "cluster_sizes": {
+   "cues": {
+    "n_clusters_qwen3vl_8b": 310,
+    "records_per_cluster": {
+     "3": 22,
+     "2": 116,
+     "1": 169,
+     "4": 3
+    }
+   },
+   "twins": {
+    "n_clusters_qwen3vl_8b": 145,
+    "records_per_cluster": {
+     "1": 93,
+     "2": 43,
+     "3": 7,
+     "4": 2
+    }
+   },
+   "syn431": {
+    "n_clusters_qwen3vl_8b": 131,
+    "records_per_cluster": {
+     "1": 131
+    }
+   }
+  },
+  "rows": {
+   "all|published (model x set strata, scene clusters)": {
+    "n": 3014,
+    "n_clusters": 2474,
+    "a": {
+     "pct": 56.635700066356996,
+     "ci": [
+      55.08427148248274,
+      58.192861608948995
+     ]
+    },
+    "b": {
+     "pct": 23.788984737889848,
+     "ci": [
+      22.532379666831183,
+      25.117681328090804
+     ]
+    },
+    "c": {
+     "pct": 19.575315195753152,
+     "ci": [
+      18.30461981310393,
+      20.922761580016093
+     ]
+    }
+   },
+   "all|scene shared across models (set strata)": {
+    "n": 3014,
+    "n_clusters": 905,
+    "a": {
+     "pct": 56.635700066356996,
+     "ci": [
+      54.69055382728036,
+      58.64201087818144
+     ]
+    },
+    "b": {
+     "pct": 23.788984737889848,
+     "ci": [
+      22.233453715863554,
+      25.391692937167036
+     ]
+    },
+    "c": {
+     "pct": 19.575315195753152,
+     "ci": [
+      18.238167248720902,
+      20.963940452711956
+     ]
+    }
+   },
+   "all|item level (no clustering)": {
+    "n": 3014,
+    "n_clusters": 3014,
+    "a": {
+     "pct": 56.635700066356996,
+     "ci": [
+      55.04313205043132,
+      58.228268082282675
+     ]
+    },
+    "b": {
+     "pct": 23.788984737889848,
+     "ci": [
+      22.495023224950234,
+      25.149303251493034
+     ]
+    },
+    "c": {
+     "pct": 19.575315195753152,
+     "ci": [
+      18.181818181818183,
+      20.836927670869272
+     ]
+    }
+   },
+   "qwen3b|scene": {
+    "n": 470,
+    "n_clusters": 376,
+    "a": {
+     "pct": 65.53191489361701,
+     "ci": [
+      61.29032258064516,
+      69.61039076732574
+     ]
+    },
+    "b": {
+     "pct": 7.021276595744681,
+     "ci": [
+      4.9350950075199,
+      9.287257019438446
+     ]
+    },
+    "c": {
+     "pct": 27.4468085106383,
+     "ci": [
+      23.628691983122362,
+      31.53376699821096
+     ]
+    }
+   },
+   "qwen3b|item": {
+    "n": 470,
+    "n_clusters": 470,
+    "a": {
+     "pct": 65.53191489361701,
+     "ci": [
+      61.27659574468085,
+      69.7872340425532
+     ]
+    },
+    "b": {
+     "pct": 7.021276595744681,
+     "ci": [
+      4.8936170212765955,
+      9.361702127659575
+     ]
+    },
+    "c": {
+     "pct": 27.4468085106383,
+     "ci": [
+      23.404255319148938,
+      31.48936170212766
+     ]
+    }
+   },
+   "qwen7b|scene": {
+    "n": 365,
+    "n_clusters": 311,
+    "a": {
+     "pct": 63.83561643835617,
+     "ci": [
+      58.543417366946784,
+      68.83558422361082
+     ]
+    },
+    "b": {
+     "pct": 21.643835616438356,
+     "ci": [
+      17.59738166861072,
+      25.824404761904763
+     ]
+    },
+    "c": {
+     "pct": 14.520547945205479,
+     "ci": [
+      10.81081081081081,
+      18.46644623758594
+     ]
+    }
+   },
+   "qwen7b|item": {
+    "n": 365,
+    "n_clusters": 365,
+    "a": {
+     "pct": 63.83561643835617,
+     "ci": [
+      58.63013698630137,
+      68.76712328767123
+     ]
+    },
+    "b": {
+     "pct": 21.643835616438356,
+     "ci": [
+      17.534246575342465,
+      26.027397260273972
+     ]
+    },
+    "c": {
+     "pct": 14.520547945205479,
+     "ci": [
+      10.95890410958904,
+      18.08219178082192
+     ]
+    }
+   },
+   "internvl3_8b|scene": {
+    "n": 449,
+    "n_clusters": 370,
+    "a": {
+     "pct": 52.11581291759465,
+     "ci": [
+      47.61904761904762,
+      56.34774401203455
+     ]
+    },
+    "b": {
+     "pct": 22.93986636971047,
+     "ci": [
+      19.32534305003778,
+      26.511880687563195
+     ]
+    },
+    "c": {
+     "pct": 24.94432071269488,
+     "ci": [
+      21.064289757984618,
+      28.972382652525457
+     ]
+    }
+   },
+   "internvl3_8b|item": {
+    "n": 449,
+    "n_clusters": 449,
+    "a": {
+     "pct": 52.11581291759465,
+     "ci": [
+      47.438752783964375,
+      56.35300668151445
+     ]
+    },
+    "b": {
+     "pct": 22.93986636971047,
+     "ci": [
+      19.37639198218263,
+      26.50334075723831
+     ]
+    },
+    "c": {
+     "pct": 24.94432071269488,
+     "ci": [
+      20.929844097995545,
+      28.953229398663698
+     ]
+    }
+   },
+   "phi35v|scene": {
+    "n": 539,
+    "n_clusters": 442,
+    "a": {
+     "pct": 38.03339517625232,
+     "ci": [
+      34.12783051386753,
+      42.045762225139484
+     ]
+    },
+    "b": {
+     "pct": 28.385899814471244,
+     "ci": [
+      25.047046550780323,
+      31.629266683690837
+     ]
+    },
+    "c": {
+     "pct": 33.58070500927644,
+     "ci": [
+      29.98028156334829,
+      37.13794457133534
+     ]
+    }
+   },
+   "phi35v|item": {
+    "n": 539,
+    "n_clusters": 539,
+    "a": {
+     "pct": 38.03339517625232,
+     "ci": [
+      33.95176252319109,
+      42.119666048237455
+     ]
+    },
+    "b": {
+     "pct": 28.385899814471244,
+     "ci": [
+      24.860853432282003,
+      32.0964749536178
+     ]
+    },
+    "c": {
+     "pct": 33.58070500927644,
+     "ci": [
+      29.684601113172544,
+      37.47680890538033
+     ]
+    }
+   },
+   "molmo7b|scene": {
+    "n": 541,
+    "n_clusters": 443,
+    "a": {
+     "pct": 23.290203327171906,
+     "ci": [
+      19.963361499867972,
+      26.591811465176722
+     ]
+    },
+    "b": {
+     "pct": 60.998151571164506,
+     "ci": [
+      57.30075388984498,
+      65.04717812289459
+     ]
+    },
+    "c": {
+     "pct": 15.711645101663585,
+     "ci": [
+      12.754066375093013,
+      18.726591760299627
+     ]
+    }
+   },
+   "molmo7b|item": {
+    "n": 541,
+    "n_clusters": 541,
+    "a": {
+     "pct": 23.290203327171906,
+     "ci": [
+      19.963031423290204,
+      26.80221811460259
+     ]
+    },
+    "b": {
+     "pct": 60.998151571164506,
+     "ci": [
+      57.296672828096106,
+      64.69500924214418
+     ]
+    },
+    "c": {
+     "pct": 15.711645101663585,
+     "ci": [
+      12.74953789279113,
+      18.66913123844732
+     ]
+    }
+   },
+   "qwen3vl_8b|scene": {
+    "n": 473,
+    "n_clusters": 366,
+    "a": {
+     "pct": 95.9830866807611,
+     "ci": [
+      94.16666666666667,
+      97.6545842217484
+     ]
+    },
+    "b": {
+     "pct": 1.9027484143763214,
+     "ci": [
+      0.824657592243697,
+      3.1847133757961785
+     ]
+    },
+    "c": {
+     "pct": 2.1141649048625792,
+     "ci": [
+      0.8638843375288597,
+      3.4934497816593884
+     ]
+    }
+   },
+   "qwen3vl_8b|item": {
+    "n": 473,
+    "n_clusters": 473,
+    "a": {
+     "pct": 95.9830866807611,
+     "ci": [
+      94.29175475687104,
+      97.67441860465115
+     ]
+    },
+    "b": {
+     "pct": 1.9027484143763214,
+     "ci": [
+      0.6342494714587738,
+      3.171247357293869
+     ]
+    },
+    "c": {
+     "pct": 2.1141649048625792,
+     "ci": [
+      0.8456659619450317,
+      3.5940803382663846
+     ]
+    }
+   },
+   "internvl35_8b|scene": {
+    "n": 177,
+    "n_clusters": 166,
+    "a": {
+     "pct": 83.05084745762711,
+     "ci": [
+      77.65194567520709,
+      88.13559322033898
+     ]
+    },
+    "b": {
+     "pct": 5.649717514124294,
+     "ci": [
+      2.312138728323699,
+      9.142857142857142
+     ]
+    },
+    "c": {
+     "pct": 11.299435028248588,
+     "ci": [
+      6.935419573450269,
+      16.113361266294216
+     ]
+    }
+   },
+   "internvl35_8b|item": {
+    "n": 177,
+    "n_clusters": 177,
+    "a": {
+     "pct": 83.05084745762711,
+     "ci": [
+      77.40112994350282,
+      88.7005649717514
+     ]
+    },
+    "b": {
+     "pct": 5.649717514124294,
+     "ci": [
+      2.2598870056497176,
+      9.03954802259887
+     ]
+    },
+    "c": {
+     "pct": 11.299435028248588,
+     "ci": [
+      6.779661016949152,
+      16.38418079096045
+     ]
+    }
+   }
+  }
+ },
+ "S6_supp_e60": {
+  "n_items": 151,
+  "n_source_photos": 151,
+  "items_per_photo": {
+   "1": 151
+  },
+  "n_bootstrap_clusters": 151,
+  "items_per_cluster": {
+   "1": 151
+  },
+  "note": "rigor_e60.Boot draws one index matrix (seed 60) shared by all models and contexts, so the 7-model mean CI already resamples the same items jointly across models; each mirror twin is the same item's image."
+ },
+ "S20_supp_judge": {
+  "n_syn_items": 500,
+  "n_distinct_images": 500,
+  "max_rows_per_model_group_judge_item": 1,
+  "denominators": {
+   "qwen3b|D+C-": {
+    "n_sampled": 40,
+    "n_opus": 38,
+    "n_gpt": 38,
+    "n_consensus": 37
+   },
+   "qwen3b|D+C+": {
+    "n_sampled": 40,
+    "n_opus": 39,
+    "n_gpt": 38,
+    "n_consensus": 37
+   },
+   "qwen3b|D-C+": {
+    "n_sampled": 21,
+    "n_opus": 20,
+    "n_gpt": 17,
+    "n_consensus": 16
+   },
+   "qwen7b|D+C-": {
+    "n_sampled": 40,
+    "n_opus": 40,
+    "n_gpt": 40,
+    "n_consensus": 39
+   },
+   "qwen7b|D+C+": {
+    "n_sampled": 40,
+    "n_opus": 39,
+    "n_gpt": 38,
+    "n_consensus": 35
+   },
+   "qwen7b|D-C+": {
+    "n_sampled": 40,
+    "n_opus": 40,
+    "n_gpt": 40,
+    "n_consensus": 39
+   },
+   "internvl3_8b|D+C-": {
+    "n_sampled": 40,
+    "n_opus": 39,
+    "n_gpt": 40,
+    "n_consensus": 39
+   },
+   "internvl3_8b|D+C+": {
+    "n_sampled": 40,
+    "n_opus": 38,
+    "n_gpt": 38,
+    "n_consensus": 38
+   },
+   "internvl3_8b|D-C+": {
+    "n_sampled": 32,
+    "n_opus": 28,
+    "n_gpt": 26,
+    "n_consensus": 25
+   },
+   "phi35v|D+C-": {
+    "n_sampled": 40,
+    "n_opus": 40,
+    "n_gpt": 40,
+    "n_consensus": 39
+   },
+   "phi35v|D+C+": {
+    "n_sampled": 40,
+    "n_opus": 38,
+    "n_gpt": 37,
+    "n_consensus": 35
+   },
+   "phi35v|D-C+": {
+    "n_sampled": 40,
+    "n_opus": 40,
+    "n_gpt": 39,
+    "n_consensus": 34
+   },
+   "molmo7b|D+C-": {
+    "n_sampled": 40,
+    "n_opus": 39,
+    "n_gpt": 39,
+    "n_consensus": 36
+   },
+   "molmo7b|D+C+": {
+    "n_sampled": 40,
+    "n_opus": 40,
+    "n_gpt": 39,
+    "n_consensus": 37
+   },
+   "molmo7b|D-C+": {
+    "n_sampled": 29,
+    "n_opus": 29,
+    "n_gpt": 27,
+    "n_consensus": 26
+   },
+   "qwen3vl_8b|D+C-": {
+    "n_sampled": 40,
+    "n_opus": 39,
+    "n_gpt": 40,
+    "n_consensus": 35
+   },
+   "qwen3vl_8b|D+C+": {
+    "n_sampled": 40,
+    "n_opus": 40,
+    "n_gpt": 40,
+    "n_consensus": 39
+   },
+   "qwen3vl_8b|D-C+": {
+    "n_sampled": 31,
+    "n_opus": 30,
+    "n_gpt": 29,
+    "n_consensus": 27
+   }
+  },
+  "totals": {
+   "n_sampled": 673,
+   "n_opus": 656,
+   "n_gpt": 645,
+   "n_consensus": 613
+  }
+ }
+}

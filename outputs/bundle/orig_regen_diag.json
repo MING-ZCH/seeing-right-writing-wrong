@@ -1,0 +1,203 @@
+{
+ "qwen3b": {
+  "all": {
+   "acc": 6.9,
+   "raw_prefix_identical": 0.0,
+   "cont_reproduces": 24.8,
+   "acc_if_diverged": 9.1,
+   "acc_if_raw_rewritten": 6.9,
+   "acc_if_reproduced": 0.0,
+   "n": 218,
+   "n_reproduced": 54
+  },
+  "syn": {
+   "acc": 4.9,
+   "raw_prefix_identical": 0.0,
+   "cont_reproduces": 22.2,
+   "acc_if_diverged": 6.2,
+   "acc_if_raw_rewritten": 4.9,
+   "acc_if_reproduced": 0.0,
+   "n": 144,
+   "n_reproduced": 32
+  },
+  "occ": {
+   "acc": 10.8,
+   "raw_prefix_identical": 0.0,
+   "cont_reproduces": 29.7,
+   "acc_if_diverged": 15.4,
+   "acc_if_raw_rewritten": 10.8,
+   "acc_if_reproduced": 0.0,
+   "n": 74,
+   "n_reproduced": 22
+  }
+ },
+ "qwen7b": {
+  "all": {
+   "acc": 3.6,
+   "raw_prefix_identical": 100.0,
+   "cont_reproduces": 57.1,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 3.6,
+   "acc_if_diverged": 8.3,
+   "n": 112,
+   "n_reproduced": 64
+  },
+  "syn": {
+   "acc": 3.8,
+   "raw_prefix_identical": 100.0,
+   "cont_reproduces": 48.7,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 3.8,
+   "acc_if_diverged": 7.5,
+   "n": 78,
+   "n_reproduced": 38
+  },
+  "occ": {
+   "acc": 2.9,
+   "raw_prefix_identical": 100.0,
+   "cont_reproduces": 76.5,
+   "acc_if_diverged": 12.5,
+   "acc_if_raw_identical": 2.9,
+   "acc_if_reproduced": 0.0,
+   "n": 34,
+   "n_reproduced": 26
+  }
+ },
+ "internvl3_8b": {
+  "all": {
+   "acc": 13.9,
+   "raw_prefix_identical": 24.2,
+   "cont_reproduces": 14.9,
+   "acc_if_diverged": 16.4,
+   "acc_if_raw_rewritten": 12.9,
+   "acc_if_raw_identical": 17.0,
+   "acc_if_reproduced": 0.0,
+   "n": 194,
+   "n_reproduced": 29
+  },
+  "syn": {
+   "acc": 11.8,
+   "raw_prefix_identical": 24.3,
+   "cont_reproduces": 16.0,
+   "acc_if_diverged": 14.0,
+   "acc_if_raw_rewritten": 10.1,
+   "acc_if_raw_identical": 17.1,
+   "acc_if_reproduced": 0.0,
+   "n": 144,
+   "n_reproduced": 23
+  },
+  "occ": {
+   "acc": 20.0,
+   "raw_prefix_identical": 24.0,
+   "cont_reproduces": 12.0,
+   "acc_if_diverged": 22.7,
+   "acc_if_raw_identical": 16.7,
+   "acc_if_raw_rewritten": 21.1,
+   "acc_if_reproduced": 0.0,
+   "n": 50,
+   "n_reproduced": 6
+  }
+ },
+ "phi35v": {
+  "all": {
+   "acc": 0.8,
+   "raw_prefix_identical": 100.0,
+   "cont_reproduces": 93.1,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 0.8,
+   "acc_if_diverged": 11.1,
+   "n": 130,
+   "n_reproduced": 121
+  },
+  "syn": {
+   "acc": 0.0,
+   "raw_prefix_identical": 100.0,
+   "cont_reproduces": 93.6,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 0.0,
+   "acc_if_diverged": 0.0,
+   "n": 94,
+   "n_reproduced": 88
+  },
+  "occ": {
+   "acc": 2.8,
+   "raw_prefix_identical": 100.0,
+   "cont_reproduces": 91.7,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 2.8,
+   "acc_if_diverged": 33.3,
+   "n": 36,
+   "n_reproduced": 33
+  }
+ },
+ "molmo7b": {
+  "all": {
+   "acc": 21.1,
+   "raw_prefix_identical": 37.1,
+   "cont_reproduces": 24.6,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 16.9,
+   "acc_if_diverged": 28.0,
+   "acc_if_raw_rewritten": 23.6,
+   "n": 175,
+   "n_reproduced": 43
+  },
+  "syn": {
+   "acc": 16.0,
+   "raw_prefix_identical": 35.1,
+   "cont_reproduces": 33.0,
+   "acc_if_reproduced": 0.0,
+   "acc_if_raw_identical": 3.0,
+   "acc_if_diverged": 23.8,
+   "acc_if_raw_rewritten": 23.0,
+   "n": 94,
+   "n_reproduced": 31
+  },
+  "occ": {
+   "acc": 27.2,
+   "raw_prefix_identical": 39.5,
+   "cont_reproduces": 14.8,
+   "acc_if_diverged": 31.9,
+   "acc_if_raw_rewritten": 24.5,
+   "acc_if_raw_identical": 31.2,
+   "acc_if_reproduced": 0.0,
+   "n": 81,
+   "n_reproduced": 12
+  }
+ },
+ "qwen3vl_8b": {
+  "all": {
+   "acc": 6.0,
+   "raw_prefix_identical": 13.1,
+   "cont_reproduces": 9.3,
+   "acc_if_diverged": 6.0,
+   "acc_if_raw_identical": 16.7,
+   "acc_if_raw_rewritten": 4.4,
+   "acc_if_reproduced": 5.9,
+   "n": 183,
+   "n_reproduced": 17
+  },
+  "syn": {
+   "acc": 7.0,
+   "raw_prefix_identical": 19.1,
+   "cont_reproduces": 11.3,
+   "acc_if_diverged": 6.9,
+   "acc_if_raw_identical": 13.6,
+   "acc_if_raw_rewritten": 5.4,
+   "acc_if_reproduced": 7.7,
+   "n": 115,
+   "n_reproduced": 13
+  },
+  "occ": {
+   "acc": 4.4,
+   "raw_prefix_identical": 2.9,
+   "cont_reproduces": 5.9,
+   "acc_if_diverged": 4.7,
+   "acc_if_raw_rewritten": 3.0,
+   "acc_if_raw_identical": 50.0,
+   "acc_if_reproduced": 0.0,
+   "n": 68,
+   "n_reproduced": 4
+  }
+ }
+}

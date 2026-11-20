@@ -1,0 +1,26 @@
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+\textbf{Model} & \textbf{\shortstack{Qwen2.5-VL\\3B}} & \textbf{\shortstack{Qwen2.5-VL\\7B}} & \textbf{\shortstack{InternVL3\\8B}} & \textbf{\shortstack{Phi-3.5\\Vision}} & \textbf{\shortstack{Molmo\\7B-D}} & \textbf{\shortstack{Qwen3-VL\\8B}} & \textbf{\shortstack{InternVL3.5\\8B}} \\
+\midrule
+\rowcolor{tabgray}\multicolumn{8}{@{}l@{}}{\textit{\textbf{What \texttt{Direct} relies on (cue-factorial set)}}} \\
+Accuracy (\%) & $52.4$ & $53.4$ & $63.7$ & $59.5$ & $88.2$ & $78.9$ & $55.6$ \\
+Follows lower-is-closer (\%) & $96.2$ & $95.6$ & $84.9$ & $62.6$ & $57.2$ & $62.2$ & $93.8$ \\
+Reads occlusion & no & no & no & no & \textbf{yes} & \textbf{yes} & no \\
+\midrule
+\rowcolor{tabgray}\multicolumn{8}{@{}l@{}}{\textit{\textbf{Stage 2: the answer follows the written text}}} \\
+\cellcolor{tabred}Commit at a relational sentence (\%) & \cellcolor{tabred}$85.4$ & \cellcolor{tabred}$87.6$ & \cellcolor{tabred}$82.3$ & \cellcolor{tabred}$83.2$ & \cellcolor{tabred}$69.3$ & \cellcolor{tabred}$83.3$ & \cellcolor{tabred}$88.5$ \\
+Answer = written relation: true / false (\%) & $77.2$ / $75.5$ & $90.5$ / $86.3$ & $96.0$ / $86.6$ & $83.8$ / $83.0$ & $87.7$ / $78.0$ & $99.6$ / $94.8$ & $85.3$ / $78.1$ \\
+True first-claim edit $-$ \texttt{Direct} (pts) & $+15.9$$^\ast$ & $+27.2$$^\ast$ & $+19.5$$^\ast$ & $+34.9$$^\ast$ & $-12.3$$^\ast$ & $+14.3$$^\ast$ & -- \\
+Twin image effect: \texttt{Direct} / own $R_\mathrm{cut}$ (pts) & $+3.0$ / $+2.0$ & $+8.0$ / $+3.9$ & $+26.8$ / $+5.0$ & $+26.8$ / $+4.4$ & $+76.5$ / $+8.9$ & $+62.3$ / $+8.4$ & $+13.3$ / $+2.0$ \\
+\midrule
+\rowcolor{tabgray}\multicolumn{8}{@{}l@{}}{\textit{\textbf{Stage 1: written relations are often false (commit sentences contradicting the image)}}} \\
+\cellcolor{tabred}\texttt{Syn.\ Depth} 431: commit / matched (\%) & \cellcolor{tabred}$100$\,/\,$7$ & \cellcolor{tabred}$52$\,/\,$7$ & \cellcolor{tabred}$97$\,/\,$16$ & \cellcolor{tabred}$100$\,/\,$19$ & \cellcolor{tabred}$77$\,/\,$10$ & \cellcolor{tabred}$96$\,/\,$4$ & \cellcolor{tabred}$91$\,/\,$0$ \\
+\midrule
+\rowcolor{tabgray}\multicolumn{8}{@{}l@{}}{\textit{\textbf{Cue re-weighting and net effect (\texttt{CoT}$-$\texttt{Direct}, pts)}}} \\
+Cue set: height effect (AME) & $-53.6$$^\ast$ & $-50.1$$^\ast$ & $-52.9$$^\ast$ & $-14.2$$^\ast$ & $-5.9$$^\ast$ & $-42.5$$^\ast$ & $-24.6$$^\ast$ \\
+Cue set: accuracy & $+0.6$ & $+3.5$$^\ast$ & $+4.8$$^\ast$ & $-2.3$ & $-13.1$$^\ast$ & $-1.6$ & $+4.6$$^\ast$ \\
+\texttt{Syn.\ Depth} 431: accuracy & $-25.8$$^\ast$ & $-8.4$$^\ast$ & $-23.9$$^\ast$ & $-4.4$ & $-13.9$$^\ast$ & $-20.2$$^\ast$ & $+4.4$$^\ast$ \\
+\cellcolor{tabred}Held-out $767$: accuracy & \cellcolor{tabred}$-0.1$ & \cellcolor{tabred}$-3.1$ & \cellcolor{tabred}$+1.3$ & \cellcolor{tabred}$+0.3$ & \cellcolor{tabred}$+0.0$ & \cellcolor{tabred}$-0.5$ & \cellcolor{tabred}$+0.3$ \\
+\quad depth items ($324$) & $-2.2$ & $-4.9$ & $-3.7$ & $+0.0$$^\ddagger$ & $-5.6$ & $-4.6$ & $-4.6$ \\
+\bottomrule
+\end{tabular}
