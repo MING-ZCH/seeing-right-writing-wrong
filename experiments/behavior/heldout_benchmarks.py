@@ -1,7 +1,7 @@
 """E6x: frozen-protocol held-out benchmarks (BLINK val spatial tasks, 3DSRBench real-image subset).
 
 Stage ``direct``: Direct readout only (outputs/e6x/<model>_direct.jsonl). Predictions are then written by
-``e6_predict.py`` (timestamped, with input sha256) before stage ``rest`` runs:
+``experiments/behavior/heldout_predict.py`` (timestamped, with input sha256) before stage ``rest`` runs:
   cot    greedy R (512) + same-turn readout
   vote4  4 samples at T=0.7 + same-turn readout per sample (original e6 protocol)
   desc   question-blind description, then q and readout (E5x)
@@ -70,7 +70,7 @@ def main() -> None:
     sfx = f"_limit{args.limit}" if args.limit else ""
     if args.stage == "rest" and not args.limit:
         preds = [f for f in os.listdir(f"{vx.OUT}/e6x") if f.startswith(f"predictions_{args.model}_")]
-        assert preds, "run e6_predict.py on the Direct outputs before stage rest"
+        assert preds, "run experiments.behavior.heldout_predict on the Direct outputs before stage rest"
     items = load_heldout(args.limit)
     print(f"[e6x] {args.model}: {len(items)} held-out items", flush=True)
     llm = vx.make_llm(args.model)
