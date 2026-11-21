@@ -1,5 +1,5 @@
 {
- "note": "Natural-object occlusion twins (Exp-62). Images are composites of COCO val2017 objects and backgrounds and are not shipped; rebuild them with scripts/e62_stimuli.py (select / download / build / finalize) and check them against images_sha256.",
+ "note": "Natural-object occlusion twins (Exp-62). Images are composites of COCO val2017 objects and backgrounds and are not shipped; rebuild them with data_gen/coco_occlusion_twins.py (select / download / build / finalize) and check them against images_sha256.",
  "n_pairs": 233,
  "n_images": 466,
  "seed": 62,

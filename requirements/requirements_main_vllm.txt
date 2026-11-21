@@ -1,2 +1,2 @@
-# Optional: original-protocol greedy R generation (gen_rationales_vllm.py). Pins torch==2.6.0.
+# vLLM for the GPU runners of the main env (V0 engine, exact full-vocabulary readout). Pins torch==2.6.0.
 vllm==0.8.4

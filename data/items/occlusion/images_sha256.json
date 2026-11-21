@@ -1,6 +1,6 @@
 {
- "generator": "scripts/e2_occlusion_set.py",
- "command": "python scripts/e2_occlusion_set.py --out-dir data/items/occlusion",
+ "generator": "data_gen/occlusion_twins.py",
+ "command": "python -m data_gen.occlusion_twins --out-dir data/items/occlusion",
  "images_shipped": true,
  "n_images": 400,
  "check": "regenerated at build time; 400/400 images kept on the original storage and the item files are byte-identical to the regeneration",

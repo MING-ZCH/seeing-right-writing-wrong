@@ -1,8 +1,7 @@
-# CPU regeneration of the tables and figures from the shipped outputs (versions used for the check in docs/REPRODUCE.md, Python 3.11).
+# CPU environment (Python 3.11): data builders, LLM-judge scripts and the CPU analysis steps.
+# GPU runners: see requirements/ (bash requirements/setup_envs.sh main|qwen3vl).
 numpy==2.2.6
 scipy==1.15.2
-matplotlib==3.10.1
-scikit-learn==1.6.1
-pillow==11.2.1
 pandas==2.2.3
-statsmodels==0.14.4
+pyarrow==19.0.1
+pillow==11.2.1

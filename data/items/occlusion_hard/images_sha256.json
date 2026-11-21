@@ -1,6 +1,6 @@
 {
- "generator": "scripts/e2_occlusion_hard.py",
- "command": "python scripts/e2_occlusion_hard.py --out-dir data/items/occlusion_hard --n 144 --levels L3,L3b,L4",
+ "generator": "data_gen/hard_occlusion_set.py",
+ "command": "python -m data_gen.hard_occlusion_set --out-dir data/items/occlusion_hard --n 144 --levels L3,L3b,L4",
  "images_shipped": false,
  "n_images": 288,
  "check": "regenerated at build time; 288/288 images kept on the original storage and the item files are byte-identical to the regeneration",

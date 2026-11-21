@@ -1,3 +1,0 @@
-# Local CPU smoke tests only.
-numpy==2.2.6
-pillow==11.2.1

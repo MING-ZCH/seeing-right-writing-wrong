@@ -42,11 +42,11 @@
 - [Method](#method)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-  - [Quick Start (CPU)](#quick-start-cpu)
   - [Repository Layout](#repository-layout)
-  - [Re-running the Experiments (GPU / API)](#re-running-the-experiments-gpu--api)
-  - [Data Sources and Licences](#data-sources-and-licences)
-- [Results](#results)
+  - [Data](#data)
+  - [Running the Experiments](#running-the-experiments)
+  - [Model Outputs](#model-outputs)
+  - [Code Map](#code-map)
 - [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
 
@@ -80,82 +80,46 @@ The analysis protocol measures where in the rationale the answer stops depending
 
 ### Installation
 
-The CPU analysis needs Python 3.11 and the pinned packages in `requirements.txt` (numpy, scipy, pandas, matplotlib, scikit-learn, statsmodels, pillow).
-
 ```bash
 git clone https://github.com/MING-ZCH/seeing-right-writing-wrong.git
 cd seeing-right-writing-wrong
 python3.11 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt     # CPU: data builders, LLM judges, CPU analysis steps
+source env.example.sh               # VTAX_ROOT, VTAX_DATA_ROOT, PYTHONPATH, API endpoint
 ```
 
-### Quick Start (CPU)
-
-Regenerate every table and figure from the shipped per-item outputs and compare them with the copies the paper was compiled from. No GPU, network, model or dataset is needed. The full run takes about 3 minutes on 4 CPU threads.
-
-```bash
-source env.example.sh               # sets VTAX_ROOT and the other paths (all inside the repository)
-python tools/unpack_outputs.py      # decompress outputs/**/*.gz next to the .gz files
-python tools/regen_tables.py        # run every table / figure generator, then tools/check_tables.py
-```
-
-The last line should read `23/23 items OK`. Results go to `regenerated/` (tables, figures, logs and `check_report.json`). One item at a time: `python tools/regen_tables.py --list` prints all commands and `python tools/regen_tables.py --only rigor_e60` runs one. The COCO example figure is reported as "not regenerated" because the COCO composites are not shipped (see [Data Sources and Licences](#data-sources-and-licences)). A few generators also rewrite their summary file in `outputs/bundle/`; run `git checkout -- outputs/bundle` to restore the shipped copies.
-
-[docs/REPRODUCE.md](docs/REPRODUCE.md) maps each paper table and figure to its script, inputs and check result. [docs/MANIFEST.md](docs/MANIFEST.md) lists every file with its sha256.
+The GPU runners need one of two pinned environments: `bash requirements/setup_envs.sh main` (Qwen2.5-VL, InternVL3, Phi-3.5-Vision, Molmo; PyTorch 2.6.0, Transformers 4.51.3) or `bash requirements/setup_envs.sh qwen3vl` (Qwen3-VL, InternVL3.5; PyTorch 2.8.0, Transformers 4.57.1). Add `WITH_VLLM=1` to install the pinned vLLM version (0.8.4 or 0.11.0). Runs used bfloat16 and greedy decoding; the engine settings are in `srww/vllm_utils.py` (`make_llm`).
 
 ### Repository Layout
 
 ```
 seeing-right-writing-wrong/
-├── scripts/            # experiment runners, LLM-judge scripts, analysis and figure scripts
-│   ├── vtax_paths.py   #   all paths, derived from VTAX_ROOT / VTAX_DATA_ROOT
-│   ├── api_client.py   #   minimal client for an OpenAI-compatible chat-completions endpoint
-│   ├── legacy_v2/      #   protocol module of the original runs (data loading, prompts, readout)
-│   └── paper_tools/    #   generators of two summary tables
-├── tools/              # unpack_outputs.py, regen_tables.py, check_tables.py, targets.json
-├── outputs/
-│   ├── bundle/         # aggregated results (JSON / TXT) read by the table and figure scripts
-│   └── <experiment>/   # per-item outputs (.jsonl.gz / .json.gz): readouts, rationales, judge labels
+├── srww/               # core library
+│   ├── protocol.py     #   prompts, conditions, filler text, data loaders and top-20 readout of the original runs
+│   ├── vllm_utils.py   #   vLLM engines, exact full-vocabulary readout at "Answer: (", rationale generation
+│   ├── rcut.py         #   rationale truncation: R_cut and conclusion removal
+│   ├── claim_parse.py  #   sentence split, sentence types, written-relation parsers
+│   ├── records.py      #   readers for per-item readout records
+│   ├── cue_glm.py      #   probit GLM of the cue-factorial answers
+│   ├── common.py       #   item / prompt types, cluster bootstrap and sign-flip tests, HF model adapters
+│   ├── api_client.py   #   client for an OpenAI-compatible chat-completions endpoint
+│   └── paths.py        #   all paths, derived from VTAX_ROOT / VTAX_DATA_ROOT
+├── data_gen/           # stimulus and item builders
+├── experiments/        # runners, grouped by paper section (see Code Map)
+├── judges/             # LLM-judge scripts (prompts are defined in each script)
 ├── data/
 │   ├── items/          # synthetic stimuli: occlusion twins, cue-factorial set, hard occlusion set
 │   ├── coco_composites/# COCO ids, paste parameters, questions, image sha256 (no images)
-│   └── benchmark_ids/  # item ids of the public benchmarks used (no benchmark content)
-├── reference/          # tables and figure data the paper was compiled from
-├── requirements/       # pinned environments for the CPU analysis and the GPU runs
-├── docs/               # REPRODUCE.md (table → script mapping), MANIFEST.md / .json
+│   └── benchmark_ids/  # ids of the public benchmark items used (no benchmark content)
+├── requirements/       # pinned GPU environments and setup_envs.sh
 ├── assets/             # README figures
-├── env.example.sh      # environment variables (paths, API endpoint)
-└── requirements.txt    # CPU analysis environment
+├── env.example.sh
+└── requirements.txt
 ```
 
-### Re-running the Experiments (GPU / API)
+Run every script from the repository root as a module, e.g. `python -m experiments.occlusion.twins_readout --help`. Outputs are written to `outputs/<experiment id>/`.
 
-The shipped outputs were produced by the runner scripts in `scripts/` (one directory per experiment in `outputs/`; the runner for each is listed in [docs/REPRODUCE.md](docs/REPRODUCE.md#how-the-gpu-and-api-experiments-were-run)). Re-running a runner overwrites the shipped outputs of that experiment.
-
-1. **Environments.** `bash scripts/setup_envs.sh main` creates the environment for Qwen2.5-VL, InternVL3, Phi-3.5-Vision and Molmo (PyTorch 2.6.0, Transformers 4.51.3); `bash scripts/setup_envs.sh qwen3vl` creates the one for Qwen3-VL and InternVL3.5 (PyTorch 2.8.0, Transformers 4.57.1). Add `WITH_VLLM=1` to also install the pinned vLLM version.
-2. **Models and data.** Put checkpoints under `$VTAX_DATA_ROOT/models/<Hugging Face repo name>` (e.g. `Qwen2.5-VL-7B-Instruct`, `Qwen3-VL-8B-Instruct`, `InternVL3-8B`) and benchmarks under `$VTAX_DATA_ROOT/datasets/`. `VTAX_DATA_ROOT` defaults to `external/` inside the repository.
-3. **Closed models and LLM judges.** Any OpenAI-compatible chat-completions endpoint works:
-   ```bash
-   export OPENAI_COMPAT_BASE_URL="https://<your-endpoint>/v1"
-   export OPENAI_COMPAT_API_KEY="<your-key>"     # keep it in your shell, never commit it
-   ```
-4. **Run** from the repository root, for example:
-   ```bash
-   source env.example.sh
-   python scripts/e2d.py --model qwen3b --limit 5        # Direct / CoT readouts on occlusion twins
-   python scripts/e3x.py --model qwen7b --limit 5        # fixed-rationale image swaps on rendered twins
-   python scripts/e60_run.py --model qwen7b --limit 3    # fixed rationale, mirrored CV-Bench photos
-   ```
-
-### Data Sources and Licences
-
-- **Synthetic stimuli** (`data/items/`) are generated by our scripts and released with the code. The hard occlusion set ships only sha256 hashes (150 MB of noise-textured PNGs); regenerate it with `python scripts/e2_occlusion_hard.py --out-dir data/items/occlusion_hard --n 144 --levels L3,L3b,L4`.
-- **COCO occlusion twins** are not shipped because they contain COCO pixels. `data/coco_composites/` holds the COCO ids, paste parameters, questions and the sha256 of every composite. To rebuild them, download COCO val2017 images and `instances_val2017.json` into `$VTAX_DATA_ROOT/datasets/coco2017_val/` and run `python scripts/e62_stimuli.py select|download|build|sheets|finalize`. COCO annotations are licensed CC BY 4.0, and the images follow the licences of their Flickr owners.
-- **Public benchmarks** (CV-Bench, BLINK, 3DSRBench, VSI-Bench, MindCube) are not redistributed. `data/benchmark_ids/` lists only the ids of the items that appear in the shipped outputs. Download the benchmarks from their official releases and follow their licences; `scripts/build_items.py` builds the item files (set `CVBENCH_HF_ID` to the Hugging Face id of CV-Bench).
-- **Model outputs** in `outputs/` include text generated by the evaluated open and closed models. Closed models are referred to by their API model ids.
-- **LoRA pilot**: the training and evaluation scripts are `scripts/e63_train.py` and `scripts/e63_eval.py`; the pilot's checkpoints and per-item outputs are not included in this release.
-
-## Results
+### Data
 
 <p align="center">
   <img src="assets/stimuli-strip.png" alt="Stimulus suites" width="95%" />
@@ -163,13 +127,145 @@ The shipped outputs were produced by the runner scripts in `scripts/` (one direc
 
 *Five binary spatial suites: cue-factorial twins, Synthetic Depth, hard occlusion, COCO occlusion twins and mirrored CV-Bench photos.*
 
-<p align="center">
-  <img src="assets/two-channel.png" alt="Written relation vs. net CoT effect" width="55%" />
-  &nbsp;
-  <img src="assets/conclusion-swaps.png" alt="Appended conclusion swaps" width="40%" />
-</p>
+- **Synthetic stimuli (included).** `data/items/occlusion/` (200 occlusion twin pairs, 400 images), `data/items/occ_cues/` (cue-factorial set, 800 images) and `data/items/occlusion_hard/` (difficulty-calibrated hard set; items and image sha256 only). Each folder has the item files, a generation report and `images_sha256.json`. Regenerate a set with its builder:
+  ```bash
+  python -m data_gen.occlusion_twins --out-dir data/items/occlusion
+  python -m data_gen.cue_factorial_set --out-dir data/items/occ_cues --n 400
+  python -m data_gen.hard_occlusion_set --out-dir data/items/occlusion_hard --n 144 --levels L3,L3b,L4
+  ```
+- **COCO occlusion twins (rebuild).** The 466 composites contain COCO pixels and are not shipped. Put `annotations/instances_val2017.json` under `$VTAX_DATA_ROOT/datasets/coco2017_val/`, then:
+  ```bash
+  python -m data_gen.coco_occlusion_twins select     # candidate objects and background crops
+  python -m data_gen.coco_occlusion_twins download   # the needed val2017 images
+  python -m data_gen.coco_occlusion_twins build      # -> outputs/e62/stimuli/
+  # write {"drop_pairs": [...]} with the 7 dropped_pairs of data/coco_composites/manifest.json
+  # to outputs/e62/stimuli/handcheck/drop.json, then
+  python -m data_gen.coco_occlusion_twins finalize   # items_final.jsonl + manifest.json
+  ```
+  Compare the result with `data/coco_composites/` (items, pairs and the sha256 of every image).
+- **Mirrored CV-Bench items.** `python -m data_gen.mirrored_cvbench build`, the text judge `python -m judges.mirrored_cvbench_judge text --judge <judge>`, then `python -m data_gen.mirrored_cvbench finalize`.
+- **Public benchmarks (download).** Benchmarks are not redistributed; `data/benchmark_ids/` lists the item ids we used. Expected locations under `$VTAX_DATA_ROOT/datasets/`: `cv_bench/hf_dataset` (CV-Bench test split saved with `datasets.save_to_disk`), `spatial_probing/` (Synthetic Depth Ordering and Relative Position: `depth_ordering.json`, `relative_position.json` and images), `heldout/BLINK/{Spatial_Relation,Relative_Depth}/val-00000-of-00001.parquet` and `heldout/3DSRBench/3dsrbench_v1_vlmevalkit.tsv`. The loaders are `srww/protocol.py` (main pool) and `experiments/behavior/heldout_benchmarks.py` (held-out pool).
+- **Models.** Checkpoints are read from `$VTAX_DATA_ROOT/models/<Hugging Face repo name>` (e.g. `Qwen2.5-VL-7B-Instruct`, `Qwen3-VL-8B-Instruct`, `InternVL3_5-8B`, `Molmo-7B-D-0924`); the full list is `MODELS` in `srww/protocol.py` and `srww/vllm_utils.py`.
 
-*Left: the net CoT effect follows the accuracy of the written relation relative to Direct (one point per model and occlusion set). Right: with an appended gold or wrong concluding sentence, three models check it against their rationale body, while the others copy whichever option it names.*
+### Running the Experiments
+
+Closed models and LLM judges use any OpenAI-compatible chat-completions endpoint:
+
+```bash
+export OPENAI_COMPAT_BASE_URL="https://<your-endpoint>/v1"
+export OPENAI_COMPAT_API_KEY="<your-key>"     # keep it in your shell, never commit it
+```
+
+A few commands per section (add `--limit N` for a quick run; every script has `--help`):
+
+```bash
+# Behavioral controls on the main pool and the held-out pool (GPU)
+python -m experiments.behavior.behavior_factorial --model qwen7b --limit 20
+python -m experiments.behavior.exact_readout --model qwen7b --limit 20
+python -m experiments.behavior.heldout_benchmarks --model qwen7b --stage direct
+
+# Occlusion twins and cue-factorial set: Direct / CoT readouts (GPU)
+python -m experiments.occlusion.twins_readout --model qwen3vl_8b --limit 5
+python -m experiments.interventions.structured_state --model qwen3vl_8b --set cues --limit 5
+
+# Commit onset: forced readout after every rationale sentence (GPU), commit-sentence judge (API)
+python -m experiments.commit_onset.sentence_trajectory --model qwen7b --limit 5
+python -m judges.commit_sentence_judge --judge claude-opus-5-5
+
+# Fixed-rationale image swaps (GPU)
+python -m experiments.fixed_rationale.conclusion_swap --model qwen7b --limit 5
+python -m experiments.fixed_rationale.mirrored_cvbench_swap --model qwen7b --limit 3
+python -m experiments.fixed_rationale.coco_twins_swap --model qwen3vl_8b --limit 3
+
+# Claim edits and attention knockouts (GPU)
+python -m experiments.claim_edits.first_claim_edit --model qwen7b --limit 5 --sets occ --modes inplace
+python -m experiments.knockouts.rcut_knockout --model qwen7b --stage sample
+python -m experiments.knockouts.rcut_knockout --model qwen7b --stage main --set occ
+
+# Cue analysis and two-channel accounting (CPU, plus text-only judge calls)
+python -m experiments.cue_analysis.cue_ame
+python -m experiments.two_channel.uniform_two_channel build
+python -m experiments.two_channel.uniform_two_channel judge --judge gpt-6-astra
+python -m experiments.two_channel.uniform_two_channel analyze
+python -m experiments.two_channel.two_channel_fit --only two,acct
+
+# Closed models (API)
+python -m experiments.closed_models.occlusion_audit --model gpt-6-astra --items-dir data/items/occlusion_hard --tasks occ --out-dir outputs/e9h --limit 5
+python -m experiments.closed_models.image_blind sample
+python -m experiments.closed_models.image_blind gen --model gpt-6-astra --limit 5
+python -m experiments.closed_models.fixed_rcut build
+
+# Label-free interventions
+python -m experiments.interventions.prompt_variants --model qwen3vl_8b --set cues --limit 5
+python -m experiments.interventions.body_relation_readout
+
+# LoRA pilot (Qwen3-VL-8B)
+python -m experiments.lora_pilot.stimuli build
+python -m experiments.lora_pilot.generate gen --shard 0 --nshard 8
+python -m experiments.lora_pilot.generate build
+torchrun --nproc_per_node 2 experiments/lora_pilot/train.py train --arm cf
+python -m experiments.lora_pilot.evaluate --model qwen3vl_8b_e63cf --sets coco,e60,heldout
+```
+
+Most analysis steps read the outputs of earlier runs from `outputs/`; unzip the released outputs (below) to start from the paper's runs. Model keys (`qwen3b`, `qwen7b`, `internvl3_8b`, `phi35v`, `molmo7b`, `qwen3vl_8b`, `qwen3vl_8b_think`, `internvl35_8b`, `qwen3vl_32b`, ...) are defined in `srww/protocol.py` and `srww/vllm_utils.py`.
+
+### Model Outputs
+
+Per-item model outputs and judge labels are available as a release asset: [srww_outputs_v1.zip](https://github.com/MING-ZCH/seeing-right-writing-wrong/releases/tag/v1.0). Unzip it in the repository root to get `outputs/` (one folder per experiment id, plain JSON / JSONL, aggregated results in `outputs/bundle/`); `outputs/README.txt` describes each folder. The outputs include text generated by the evaluated open and closed models; closed models are referred to by their API model ids.
+
+### Code Map
+
+Experiment ids match the output folders in `outputs/`.
+
+| Module | Id | What it does |
+|---|---|---|
+| `experiments/behavior/behavior_factorial.py` | e1 | main pool: greedy CoT, forced readout under all conditions (Direct, CoT, filler, turn) |
+| `experiments/behavior/conclusion_edit.py` | e5 | R<sub>cut</sub> and appended conclusion swaps |
+| `experiments/behavior/exact_readout.py` | e1x | exact full-vocabulary readout of the stored main-pool rationales |
+| `experiments/behavior/qwen3vl_main_pool.py` | e4 | Qwen3-VL / InternVL3.5 main-pool runs (vLLM V1) |
+| `experiments/behavior/rationale_ablation.py` | e2a | rationales regenerated under image ablations |
+| `experiments/behavior/reasoning_formats.py` | e5x | question-blind description and other zero-training formats |
+| `experiments/behavior/heldout_benchmarks.py`, `heldout_evaluate.py` | e6x, e6 | held-out pool (BLINK, 3DSRBench) under the frozen protocol |
+| `experiments/behavior/dprime_ci.py` | | pooled d′ / c with twin-pair bootstrap CIs |
+| `experiments/occlusion/twins_readout.py`, `twins_readout_thinking.py` | e2d | occlusion twins: Direct / CoT readouts, both phrasings |
+| `experiments/occlusion/thinking_description.py` | e31 | Qwen3-VL-8B-Thinking: description arm on the cue set |
+| `experiments/occlusion/reasoning_models.py` | e48 | MiMo-VL-7B-RL, GLM-4.1V-9B-Thinking |
+| `experiments/cue_analysis/cue_ame.py` | r18 | cue AMEs (occlusion, height, size) of Direct and CoT answers |
+| `experiments/cue_analysis/cue_congruence.py` | e13 | cue-congruence cells, d′ per cell |
+| `experiments/commit_onset/sentence_trajectory.py` | e2b | forced readout after every rationale sentence |
+| `experiments/commit_onset/prefix_trajectory.py`, `dc_groups.py` | e2b | HF-adapter variant with sentence typing |
+| `experiments/commit_onset/cue_set_pipeline.py` | e28 | sentence-level pipeline on the cue set |
+| `experiments/commit_onset/qwen3vl_32b_pipeline.py` | e57 | sentence-level pipeline on Qwen3-VL-32B |
+| `experiments/fixed_rationale/conclusion_swap.py` | e3x | fixed rationale (R, R<sub>cut</sub>), rendered twin swap |
+| `experiments/fixed_rationale/mirrored_cvbench_swap.py` | e60 | fixed rationale, mirrored CV-Bench photo |
+| `experiments/fixed_rationale/coco_twins_swap.py` | e62 | Direct, CoT and fixed-rationale swap on COCO twins |
+| `experiments/claim_edits/first_claim_edit.py` | e2f | replace the first written claim (true / false / neutral) |
+| `experiments/claim_edits/commit_claim_edit.py` | e29 | claim edits at the commit sentence |
+| `experiments/claim_edits/argument_order_edit.py` | e30 | argument-order edits, gray-image prefix readout |
+| `experiments/knockouts/attention_knockout.py` | e52 | attention-edge knockouts at the answer position |
+| `experiments/knockouts/rcut_knockout.py` | e59 | knockouts on R<sub>cut</sub>, seven open models |
+| `experiments/two_channel/two_channel_fit.py` | e32, e36 | two-channel fit and accounting on the synthetic sets |
+| `experiments/two_channel/natural_two_channel.py` | e35 | out-of-sample test on natural depth items |
+| `experiments/two_channel/uniform_two_channel.py`, `uniform_analysis.py` | e45 | two-channel analysis under one conclusion-removal protocol |
+| `experiments/closed_models/occlusion_audit.py` | e9x, e9h | closed models: Direct and CoT answers |
+| `experiments/closed_models/image_blind.py`, `image_blind_analysis.py` | e50 | closed models under the real, a gray and the twin image |
+| `experiments/closed_models/fixed_rcut.py` | e61 | closed models with their own R<sub>cut</sub> fixed |
+| `experiments/interventions/structured_state.py` | e10 | structured grounded-state condition; cue-set readouts |
+| `experiments/interventions/prompt_variants.py` | e44 | label-free CoT prefix variants |
+| `experiments/interventions/body_relation_readout.py` | e58 | label-free readout of the written body relation |
+| `experiments/lora_pilot/*.py` | e63 | LoRA pilot: stimuli, rationales, training, evaluation |
+| `data_gen/occlusion_twins.py`, `cue_factorial_set.py`, `hard_occlusion_set.py` | | rendered stimulus sets |
+| `data_gen/mirrored_cvbench.py`, `coco_occlusion_twins.py` | e60, e62 | natural-image twin items |
+| `judges/occlusion_claim_judge.py`, `occlusion_claim_judge2.py` | e2 | first-claim audit with the image |
+| `judges/cue_claim_judge.py` | e16 | text-only first-claim parse on the cue set |
+| `judges/commit_sentence_judge.py`, `cue_commit_judge.py` | e20, e28 | commit sentence j\* against the image |
+| `judges/claim_edit_judge.py`, `cue_audit_judge.py` | e29, e30 | judge calls of the claim-edit runs |
+| `judges/closed_relation_judge.py` | e38 | last written relation in closed-model CoT |
+| `judges/reasoning_relation_judge.py` | e48 | written relation, reasoning models |
+| `judges/closed_image_blind_judge.py` | e50 | written relation and image presence, closed models |
+| `judges/decomposition_judge.py` | e54 | subtypes of Direct-right, CoT-wrong losses |
+| `judges/qwen3vl_32b_judge.py` | e57 | judge calls of the Qwen3-VL-32B pipeline |
+| `judges/mirrored_cvbench_judge.py`, `coco_twins_judge.py` | e60, e62 | item filters and relation labels |
 
 ## Citation
 
@@ -186,7 +282,7 @@ If you find this work helpful, please cite:
 
 ## License
 
-The code in this repository is released under the [MIT License](LICENSE). Benchmark data, COCO images and model checkpoints are not included and remain under their own licences.
+The code in this repository is released under the [MIT License](LICENSE). Benchmark data, COCO images and model checkpoints are not included and remain under their own licences (COCO annotations: CC BY 4.0; images: licences of their Flickr owners).
 
 ## Acknowledgments
 

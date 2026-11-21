@@ -1,6 +1,6 @@
 {
- "generator": "scripts/e12_cue_set.py",
- "command": "python scripts/e12_cue_set.py --out-dir data/items/occ_cues --n 400",
+ "generator": "data_gen/cue_factorial_set.py",
+ "command": "python -m data_gen.cue_factorial_set --out-dir data/items/occ_cues --n 400",
  "images_shipped": true,
  "n_images": 800,
  "check": "regenerated at build time; 284/284 images kept on the original storage and the item files are byte-identical to the regeneration",
