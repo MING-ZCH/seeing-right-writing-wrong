@@ -1,0 +1,4002 @@
+[
+  {
+    "image_path": "images/depth_0000.png",
+    "question": "Is the purple circle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0001.png",
+    "question": "Is the purple diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0002.png",
+    "question": "Is the yellow circle in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0003.png",
+    "question": "Is the purple diamond in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0004.png",
+    "question": "Is the purple diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0005.png",
+    "question": "Is the cyan diamond in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0006.png",
+    "question": "Is the gray square in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0007.png",
+    "question": "Is the cyan square in front of the purple circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0008.png",
+    "question": "Is the yellow circle in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0009.png",
+    "question": "Is the yellow diamond in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0010.png",
+    "question": "Is the yellow triangle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0011.png",
+    "question": "Is the purple triangle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0012.png",
+    "question": "Is the blue circle in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0013.png",
+    "question": "Is the blue diamond in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0014.png",
+    "question": "Is the purple circle in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0015.png",
+    "question": "Is the green circle in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0016.png",
+    "question": "Is the red triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0017.png",
+    "question": "Is the green square in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0018.png",
+    "question": "Is the orange triangle in front of the gray diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0019.png",
+    "question": "Is the orange circle in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0020.png",
+    "question": "Is the orange square in front of the gray diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0021.png",
+    "question": "Is the yellow triangle in front of the gray circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0022.png",
+    "question": "Is the orange circle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0023.png",
+    "question": "Is the yellow diamond in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0024.png",
+    "question": "Is the green diamond in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0025.png",
+    "question": "Is the orange triangle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0026.png",
+    "question": "Is the orange circle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0027.png",
+    "question": "Is the blue triangle in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0028.png",
+    "question": "Is the blue square in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0029.png",
+    "question": "Is the gray circle in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0030.png",
+    "question": "Is the blue triangle in front of the green circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0031.png",
+    "question": "Is the yellow circle in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0032.png",
+    "question": "Is the gray triangle in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0033.png",
+    "question": "Is the green square in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0034.png",
+    "question": "Is the green diamond in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0035.png",
+    "question": "Is the purple diamond in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0036.png",
+    "question": "Is the cyan diamond in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0037.png",
+    "question": "Is the purple circle in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0038.png",
+    "question": "Is the red square in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0039.png",
+    "question": "Is the blue triangle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0040.png",
+    "question": "Is the gray square in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0041.png",
+    "question": "Is the yellow diamond in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0042.png",
+    "question": "Is the green square in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0043.png",
+    "question": "Is the gray diamond in front of the orange square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0044.png",
+    "question": "Is the blue circle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0045.png",
+    "question": "Is the purple circle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0046.png",
+    "question": "Is the orange square in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0047.png",
+    "question": "Is the cyan square in front of the green circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0048.png",
+    "question": "Is the red diamond in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0049.png",
+    "question": "Is the gray circle in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0050.png",
+    "question": "Is the blue circle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0051.png",
+    "question": "Is the gray diamond in front of the purple circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0052.png",
+    "question": "Is the orange triangle in front of the purple diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0053.png",
+    "question": "Is the purple circle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0054.png",
+    "question": "Is the green circle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0055.png",
+    "question": "Is the blue circle in front of the yellow triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0056.png",
+    "question": "Is the cyan diamond in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0057.png",
+    "question": "Is the gray square in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0058.png",
+    "question": "Is the gray circle in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0059.png",
+    "question": "Is the gray square in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0060.png",
+    "question": "Is the orange square in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0061.png",
+    "question": "Is the blue circle in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0062.png",
+    "question": "Is the red diamond in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0063.png",
+    "question": "Is the red circle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0064.png",
+    "question": "Is the orange diamond in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0065.png",
+    "question": "Is the yellow square in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0066.png",
+    "question": "Is the red triangle in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0067.png",
+    "question": "Is the cyan square in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0068.png",
+    "question": "Is the red triangle in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0069.png",
+    "question": "Is the orange triangle in front of the gray diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0070.png",
+    "question": "Is the red triangle in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0071.png",
+    "question": "Is the yellow triangle in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0072.png",
+    "question": "Is the blue circle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0073.png",
+    "question": "Is the blue square in front of the green diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0074.png",
+    "question": "Is the orange square in front of the red circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0075.png",
+    "question": "Is the gray circle in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0076.png",
+    "question": "Is the blue triangle in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0077.png",
+    "question": "Is the yellow square in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0078.png",
+    "question": "Is the cyan diamond in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0079.png",
+    "question": "Is the purple triangle in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0080.png",
+    "question": "Is the green square in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0081.png",
+    "question": "Is the gray triangle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0082.png",
+    "question": "Is the blue circle in front of the yellow diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0083.png",
+    "question": "Is the red square in front of the green diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0084.png",
+    "question": "Is the gray diamond in front of the blue square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0085.png",
+    "question": "Is the yellow circle in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0086.png",
+    "question": "Is the yellow triangle in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0087.png",
+    "question": "Is the gray diamond in front of the purple circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0088.png",
+    "question": "Is the purple circle in front of the yellow diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0089.png",
+    "question": "Is the cyan diamond in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0090.png",
+    "question": "Is the yellow diamond in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0091.png",
+    "question": "Is the red diamond in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0092.png",
+    "question": "Is the purple diamond in front of the yellow triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0093.png",
+    "question": "Is the yellow square in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0094.png",
+    "question": "Is the green diamond in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0095.png",
+    "question": "Is the purple triangle in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0096.png",
+    "question": "Is the purple triangle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0097.png",
+    "question": "Is the cyan diamond in front of the yellow triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0098.png",
+    "question": "Is the purple circle in front of the cyan diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0099.png",
+    "question": "Is the gray circle in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0100.png",
+    "question": "Is the purple square in front of the green diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0101.png",
+    "question": "Is the green square in front of the yellow circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0102.png",
+    "question": "Is the gray square in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0103.png",
+    "question": "Is the red diamond in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0104.png",
+    "question": "Is the orange diamond in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0105.png",
+    "question": "Is the gray square in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0106.png",
+    "question": "Is the yellow diamond in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0107.png",
+    "question": "Is the cyan diamond in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0108.png",
+    "question": "Is the orange circle in front of the yellow triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0109.png",
+    "question": "Is the yellow square in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0110.png",
+    "question": "Is the gray diamond in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0111.png",
+    "question": "Is the gray square in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0112.png",
+    "question": "Is the red circle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0113.png",
+    "question": "Is the purple circle in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0114.png",
+    "question": "Is the yellow diamond in front of the gray square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0115.png",
+    "question": "Is the yellow circle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0116.png",
+    "question": "Is the yellow square in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0117.png",
+    "question": "Is the yellow diamond in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0118.png",
+    "question": "Is the red circle in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0119.png",
+    "question": "Is the orange triangle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0120.png",
+    "question": "Is the blue triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0121.png",
+    "question": "Is the yellow triangle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0122.png",
+    "question": "Is the purple square in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0123.png",
+    "question": "Is the blue circle in front of the red square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0124.png",
+    "question": "Is the green diamond in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0125.png",
+    "question": "Is the cyan circle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0126.png",
+    "question": "Is the green square in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0127.png",
+    "question": "Is the blue square in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0128.png",
+    "question": "Is the blue square in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0129.png",
+    "question": "Is the red circle in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0130.png",
+    "question": "Is the purple triangle in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0131.png",
+    "question": "Is the cyan triangle in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0132.png",
+    "question": "Is the purple square in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0133.png",
+    "question": "Is the orange triangle in front of the yellow diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0134.png",
+    "question": "Is the cyan diamond in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0135.png",
+    "question": "Is the yellow circle in front of the gray square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0136.png",
+    "question": "Is the blue circle in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0137.png",
+    "question": "Is the blue circle in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0138.png",
+    "question": "Is the blue diamond in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0139.png",
+    "question": "Is the orange square in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0140.png",
+    "question": "Is the green triangle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0141.png",
+    "question": "Is the blue circle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0142.png",
+    "question": "Is the red square in front of the gray circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0143.png",
+    "question": "Is the blue circle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0144.png",
+    "question": "Is the gray circle in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0145.png",
+    "question": "Is the red square in front of the yellow circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0146.png",
+    "question": "Is the yellow diamond in front of the blue circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0147.png",
+    "question": "Is the purple square in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0148.png",
+    "question": "Is the gray triangle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0149.png",
+    "question": "Is the cyan triangle in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0150.png",
+    "question": "Is the purple circle in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0151.png",
+    "question": "Is the purple circle in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0152.png",
+    "question": "Is the orange circle in front of the blue square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0153.png",
+    "question": "Is the orange diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0154.png",
+    "question": "Is the purple square in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0155.png",
+    "question": "Is the gray square in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0156.png",
+    "question": "Is the cyan square in front of the red circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0157.png",
+    "question": "Is the purple circle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0158.png",
+    "question": "Is the orange circle in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0159.png",
+    "question": "Is the red triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0160.png",
+    "question": "Is the yellow diamond in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0161.png",
+    "question": "Is the green diamond in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0162.png",
+    "question": "Is the gray square in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0163.png",
+    "question": "Is the purple diamond in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0164.png",
+    "question": "Is the gray circle in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0165.png",
+    "question": "Is the cyan square in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0166.png",
+    "question": "Is the cyan triangle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0167.png",
+    "question": "Is the purple circle in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0168.png",
+    "question": "Is the purple square in front of the gray circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0169.png",
+    "question": "Is the red diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0170.png",
+    "question": "Is the cyan triangle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0171.png",
+    "question": "Is the red circle in front of the yellow triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0172.png",
+    "question": "Is the orange triangle in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0173.png",
+    "question": "Is the orange square in front of the gray circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0174.png",
+    "question": "Is the green triangle in front of the cyan circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0175.png",
+    "question": "Is the cyan diamond in front of the red circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0176.png",
+    "question": "Is the green square in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0177.png",
+    "question": "Is the cyan diamond in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0178.png",
+    "question": "Is the purple diamond in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0179.png",
+    "question": "Is the green square in front of the blue circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0180.png",
+    "question": "Is the cyan circle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0181.png",
+    "question": "Is the blue circle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0182.png",
+    "question": "Is the red square in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0183.png",
+    "question": "Is the red circle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0184.png",
+    "question": "Is the green triangle in front of the red square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0185.png",
+    "question": "Is the orange square in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0186.png",
+    "question": "Is the blue triangle in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0187.png",
+    "question": "Is the purple square in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0188.png",
+    "question": "Is the orange circle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0189.png",
+    "question": "Is the blue diamond in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0190.png",
+    "question": "Is the yellow circle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0191.png",
+    "question": "Is the green square in front of the gray triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0192.png",
+    "question": "Is the gray triangle in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0193.png",
+    "question": "Is the purple diamond in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0194.png",
+    "question": "Is the blue triangle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0195.png",
+    "question": "Is the yellow square in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0196.png",
+    "question": "Is the green diamond in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0197.png",
+    "question": "Is the yellow circle in front of the blue square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0198.png",
+    "question": "Is the purple triangle in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0199.png",
+    "question": "Is the orange circle in front of the gray diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0200.png",
+    "question": "Is the red diamond in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0201.png",
+    "question": "Is the red diamond in front of the yellow triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0202.png",
+    "question": "Is the blue diamond in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0203.png",
+    "question": "Is the blue circle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0204.png",
+    "question": "Is the red diamond in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0205.png",
+    "question": "Is the yellow square in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0206.png",
+    "question": "Is the purple square in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0207.png",
+    "question": "Is the cyan circle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0208.png",
+    "question": "Is the blue diamond in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0209.png",
+    "question": "Is the green triangle in front of the blue circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0210.png",
+    "question": "Is the green square in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0211.png",
+    "question": "Is the orange square in front of the purple circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0212.png",
+    "question": "Is the blue diamond in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0213.png",
+    "question": "Is the orange square in front of the green diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0214.png",
+    "question": "Is the red circle in front of the yellow triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0215.png",
+    "question": "Is the cyan diamond in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0216.png",
+    "question": "Is the red square in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0217.png",
+    "question": "Is the red diamond in front of the blue square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0218.png",
+    "question": "Is the yellow diamond in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0219.png",
+    "question": "Is the blue circle in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0220.png",
+    "question": "Is the blue circle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0221.png",
+    "question": "Is the yellow triangle in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0222.png",
+    "question": "Is the cyan circle in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0223.png",
+    "question": "Is the red diamond in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0224.png",
+    "question": "Is the purple square in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0225.png",
+    "question": "Is the purple circle in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0226.png",
+    "question": "Is the blue circle in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0227.png",
+    "question": "Is the yellow circle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0228.png",
+    "question": "Is the blue diamond in front of the cyan circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0229.png",
+    "question": "Is the purple square in front of the gray triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0230.png",
+    "question": "Is the yellow triangle in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0231.png",
+    "question": "Is the orange diamond in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0232.png",
+    "question": "Is the cyan triangle in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0233.png",
+    "question": "Is the blue square in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0234.png",
+    "question": "Is the red square in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0235.png",
+    "question": "Is the gray triangle in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0236.png",
+    "question": "Is the red diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0237.png",
+    "question": "Is the red square in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0238.png",
+    "question": "Is the cyan square in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0239.png",
+    "question": "Is the red square in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0240.png",
+    "question": "Is the red triangle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0241.png",
+    "question": "Is the gray diamond in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0242.png",
+    "question": "Is the yellow circle in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0243.png",
+    "question": "Is the blue circle in front of the red diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0244.png",
+    "question": "Is the gray diamond in front of the cyan triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0245.png",
+    "question": "Is the orange diamond in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0246.png",
+    "question": "Is the green triangle in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0247.png",
+    "question": "Is the orange circle in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0248.png",
+    "question": "Is the green circle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0249.png",
+    "question": "Is the orange triangle in front of the purple circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0250.png",
+    "question": "Is the gray diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0251.png",
+    "question": "Is the green circle in front of the orange diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0252.png",
+    "question": "Is the red diamond in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0253.png",
+    "question": "Is the blue square in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0254.png",
+    "question": "Is the gray triangle in front of the green diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0255.png",
+    "question": "Is the orange circle in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0256.png",
+    "question": "Is the green square in front of the gray diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0257.png",
+    "question": "Is the blue square in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0258.png",
+    "question": "Is the green diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0259.png",
+    "question": "Is the red diamond in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0260.png",
+    "question": "Is the purple diamond in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0261.png",
+    "question": "Is the cyan diamond in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0262.png",
+    "question": "Is the orange square in front of the red diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0263.png",
+    "question": "Is the cyan circle in front of the orange square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0264.png",
+    "question": "Is the gray square in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0265.png",
+    "question": "Is the orange triangle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0266.png",
+    "question": "Is the gray triangle in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0267.png",
+    "question": "Is the yellow circle in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0268.png",
+    "question": "Is the orange triangle in front of the gray square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0269.png",
+    "question": "Is the orange triangle in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0270.png",
+    "question": "Is the blue diamond in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0271.png",
+    "question": "Is the red circle in front of the orange square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0272.png",
+    "question": "Is the purple circle in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0273.png",
+    "question": "Is the blue triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0274.png",
+    "question": "Is the cyan triangle in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0275.png",
+    "question": "Is the green circle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0276.png",
+    "question": "Is the blue circle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0277.png",
+    "question": "Is the green square in front of the yellow triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0278.png",
+    "question": "Is the green circle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0279.png",
+    "question": "Is the yellow diamond in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0280.png",
+    "question": "Is the red circle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0281.png",
+    "question": "Is the green square in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0282.png",
+    "question": "Is the gray diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0283.png",
+    "question": "Is the blue triangle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0284.png",
+    "question": "Is the purple triangle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0285.png",
+    "question": "Is the purple circle in front of the blue square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0286.png",
+    "question": "Is the blue circle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0287.png",
+    "question": "Is the cyan diamond in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0288.png",
+    "question": "Is the purple diamond in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0289.png",
+    "question": "Is the blue diamond in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0290.png",
+    "question": "Is the green diamond in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0291.png",
+    "question": "Is the purple circle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0292.png",
+    "question": "Is the purple circle in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0293.png",
+    "question": "Is the yellow circle in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0294.png",
+    "question": "Is the yellow circle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0295.png",
+    "question": "Is the gray circle in front of the red diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0296.png",
+    "question": "Is the green square in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0297.png",
+    "question": "Is the green triangle in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0298.png",
+    "question": "Is the red diamond in front of the yellow circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0299.png",
+    "question": "Is the red square in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0300.png",
+    "question": "Is the cyan circle in front of the yellow diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0301.png",
+    "question": "Is the yellow circle in front of the gray diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0302.png",
+    "question": "Is the orange diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0303.png",
+    "question": "Is the cyan circle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0304.png",
+    "question": "Is the yellow diamond in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0305.png",
+    "question": "Is the red circle in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0306.png",
+    "question": "Is the gray diamond in front of the cyan circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0307.png",
+    "question": "Is the blue triangle in front of the yellow circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0308.png",
+    "question": "Is the purple triangle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0309.png",
+    "question": "Is the orange circle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0310.png",
+    "question": "Is the red diamond in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0311.png",
+    "question": "Is the cyan triangle in front of the green circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0312.png",
+    "question": "Is the green circle in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0313.png",
+    "question": "Is the green diamond in front of the red square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0314.png",
+    "question": "Is the red circle in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0315.png",
+    "question": "Is the gray square in front of the purple diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0316.png",
+    "question": "Is the orange diamond in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0317.png",
+    "question": "Is the green triangle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0318.png",
+    "question": "Is the purple square in front of the gray diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0319.png",
+    "question": "Is the red circle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0320.png",
+    "question": "Is the yellow circle in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0321.png",
+    "question": "Is the orange triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0322.png",
+    "question": "Is the gray triangle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0323.png",
+    "question": "Is the cyan circle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0324.png",
+    "question": "Is the gray square in front of the red triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0325.png",
+    "question": "Is the red square in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0326.png",
+    "question": "Is the blue circle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0327.png",
+    "question": "Is the cyan square in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0328.png",
+    "question": "Is the orange square in front of the red triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0329.png",
+    "question": "Is the yellow diamond in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0330.png",
+    "question": "Is the purple diamond in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0331.png",
+    "question": "Is the green diamond in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0332.png",
+    "question": "Is the red circle in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0333.png",
+    "question": "Is the gray triangle in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0334.png",
+    "question": "Is the yellow circle in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0335.png",
+    "question": "Is the blue circle in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0336.png",
+    "question": "Is the cyan triangle in front of the gray diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0337.png",
+    "question": "Is the green square in front of the gray circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0338.png",
+    "question": "Is the red square in front of the blue circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0339.png",
+    "question": "Is the gray circle in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0340.png",
+    "question": "Is the orange triangle in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0341.png",
+    "question": "Is the yellow diamond in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0342.png",
+    "question": "Is the orange square in front of the red diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0343.png",
+    "question": "Is the orange diamond in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0344.png",
+    "question": "Is the purple diamond in front of the green circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0345.png",
+    "question": "Is the orange square in front of the green circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0346.png",
+    "question": "Is the blue triangle in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0347.png",
+    "question": "Is the yellow square in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0348.png",
+    "question": "Is the gray diamond in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0349.png",
+    "question": "Is the orange diamond in front of the gray square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0350.png",
+    "question": "Is the green triangle in front of the yellow circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0351.png",
+    "question": "Is the green circle in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0352.png",
+    "question": "Is the purple circle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0353.png",
+    "question": "Is the blue diamond in front of the orange square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0354.png",
+    "question": "Is the purple square in front of the green circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0355.png",
+    "question": "Is the cyan circle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0356.png",
+    "question": "Is the red diamond in front of the purple circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0357.png",
+    "question": "Is the red diamond in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0358.png",
+    "question": "Is the red square in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0359.png",
+    "question": "Is the blue circle in front of the red square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0360.png",
+    "question": "Is the red square in front of the gray circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0361.png",
+    "question": "Is the cyan square in front of the yellow circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0362.png",
+    "question": "Is the cyan diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0363.png",
+    "question": "Is the yellow square in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0364.png",
+    "question": "Is the blue square in front of the gray diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0365.png",
+    "question": "Is the green triangle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0366.png",
+    "question": "Is the red circle in front of the yellow triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0367.png",
+    "question": "Is the blue triangle in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0368.png",
+    "question": "Is the orange square in front of the yellow circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0369.png",
+    "question": "Is the green circle in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0370.png",
+    "question": "Is the purple diamond in front of the red circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0371.png",
+    "question": "Is the blue diamond in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0372.png",
+    "question": "Is the green triangle in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0373.png",
+    "question": "Is the cyan diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0374.png",
+    "question": "Is the cyan square in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0375.png",
+    "question": "Is the gray square in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0376.png",
+    "question": "Is the cyan circle in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0377.png",
+    "question": "Is the gray square in front of the purple diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0378.png",
+    "question": "Is the green circle in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0379.png",
+    "question": "Is the purple triangle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0380.png",
+    "question": "Is the blue triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0381.png",
+    "question": "Is the cyan diamond in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0382.png",
+    "question": "Is the orange square in front of the purple circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0383.png",
+    "question": "Is the blue circle in front of the green diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0384.png",
+    "question": "Is the yellow triangle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0385.png",
+    "question": "Is the orange circle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0386.png",
+    "question": "Is the yellow triangle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0387.png",
+    "question": "Is the green circle in front of the gray triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0388.png",
+    "question": "Is the orange triangle in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0389.png",
+    "question": "Is the yellow circle in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0390.png",
+    "question": "Is the gray diamond in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0391.png",
+    "question": "Is the purple diamond in front of the cyan circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0392.png",
+    "question": "Is the blue diamond in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0393.png",
+    "question": "Is the cyan diamond in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0394.png",
+    "question": "Is the green triangle in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0395.png",
+    "question": "Is the blue triangle in front of the yellow circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0396.png",
+    "question": "Is the blue triangle in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0397.png",
+    "question": "Is the red square in front of the blue circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0398.png",
+    "question": "Is the green circle in front of the blue diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0399.png",
+    "question": "Is the blue diamond in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0400.png",
+    "question": "Is the red diamond in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0401.png",
+    "question": "Is the gray diamond in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0402.png",
+    "question": "Is the purple diamond in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0403.png",
+    "question": "Is the purple triangle in front of the gray square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0404.png",
+    "question": "Is the yellow square in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0405.png",
+    "question": "Is the green square in front of the cyan triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0406.png",
+    "question": "Is the yellow diamond in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0407.png",
+    "question": "Is the blue square in front of the yellow circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0408.png",
+    "question": "Is the blue diamond in front of the yellow triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0409.png",
+    "question": "Is the yellow circle in front of the purple square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0410.png",
+    "question": "Is the orange diamond in front of the gray square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0411.png",
+    "question": "Is the gray circle in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0412.png",
+    "question": "Is the green circle in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0413.png",
+    "question": "Is the blue diamond in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0414.png",
+    "question": "Is the red circle in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0415.png",
+    "question": "Is the blue circle in front of the orange square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0416.png",
+    "question": "Is the yellow square in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0417.png",
+    "question": "Is the gray triangle in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0418.png",
+    "question": "Is the gray circle in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0419.png",
+    "question": "Is the gray square in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0420.png",
+    "question": "Is the green square in front of the red circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0421.png",
+    "question": "Is the cyan square in front of the red diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0422.png",
+    "question": "Is the cyan triangle in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0423.png",
+    "question": "Is the gray diamond in front of the yellow square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0424.png",
+    "question": "Is the yellow diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0425.png",
+    "question": "Is the yellow circle in front of the cyan triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0426.png",
+    "question": "Is the cyan circle in front of the red diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0427.png",
+    "question": "Is the green square in front of the orange circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0428.png",
+    "question": "Is the red circle in front of the green diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0429.png",
+    "question": "Is the gray triangle in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0430.png",
+    "question": "Is the orange diamond in front of the gray triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0431.png",
+    "question": "Is the orange circle in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0432.png",
+    "question": "Is the green square in front of the orange circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0433.png",
+    "question": "Is the blue square in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0434.png",
+    "question": "Is the red triangle in front of the green square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0435.png",
+    "question": "Is the yellow square in front of the cyan diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0436.png",
+    "question": "Is the green circle in front of the orange square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0437.png",
+    "question": "Is the purple diamond in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0438.png",
+    "question": "Is the red square in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0439.png",
+    "question": "Is the red diamond in front of the cyan circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0440.png",
+    "question": "Is the yellow circle in front of the red square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0441.png",
+    "question": "Is the cyan circle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0442.png",
+    "question": "Is the blue circle in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0443.png",
+    "question": "Is the blue square in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0444.png",
+    "question": "Is the green diamond in front of the yellow triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0445.png",
+    "question": "Is the red diamond in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0446.png",
+    "question": "Is the yellow circle in front of the cyan square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0447.png",
+    "question": "Is the green triangle in front of the cyan square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0448.png",
+    "question": "Is the cyan diamond in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0449.png",
+    "question": "Is the red square in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0450.png",
+    "question": "Is the yellow diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0451.png",
+    "question": "Is the yellow triangle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0452.png",
+    "question": "Is the gray circle in front of the cyan diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0453.png",
+    "question": "Is the purple diamond in front of the green square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0454.png",
+    "question": "Is the gray diamond in front of the red square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0455.png",
+    "question": "Is the green circle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0456.png",
+    "question": "Is the green square in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0457.png",
+    "question": "Is the purple diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0458.png",
+    "question": "Is the red diamond in front of the green triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0459.png",
+    "question": "Is the blue triangle in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0460.png",
+    "question": "Is the blue diamond in front of the cyan circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0461.png",
+    "question": "Is the orange square in front of the purple circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0462.png",
+    "question": "Is the yellow circle in front of the gray triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0463.png",
+    "question": "Is the cyan circle in front of the purple triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0464.png",
+    "question": "Is the yellow circle in front of the orange triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0465.png",
+    "question": "Is the purple triangle in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0466.png",
+    "question": "Is the green diamond in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0467.png",
+    "question": "Is the green square in front of the red circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0468.png",
+    "question": "Is the blue square in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0469.png",
+    "question": "Is the yellow diamond in front of the red circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0470.png",
+    "question": "Is the purple triangle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0471.png",
+    "question": "Is the orange square in front of the blue triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0472.png",
+    "question": "Is the cyan diamond in front of the orange triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0473.png",
+    "question": "Is the yellow square in front of the cyan triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0474.png",
+    "question": "Is the cyan circle in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0475.png",
+    "question": "Is the orange circle in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0476.png",
+    "question": "Is the gray diamond in front of the yellow square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0477.png",
+    "question": "Is the blue square in front of the purple diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0478.png",
+    "question": "Is the orange triangle in front of the blue diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0479.png",
+    "question": "Is the red square in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0480.png",
+    "question": "Is the blue square in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0481.png",
+    "question": "Is the green square in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0482.png",
+    "question": "Is the green circle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0483.png",
+    "question": "Is the purple triangle in front of the orange square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0484.png",
+    "question": "Is the red triangle in front of the purple diamond?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0485.png",
+    "question": "Is the blue diamond in front of the cyan circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0486.png",
+    "question": "Is the yellow diamond in front of the green circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0487.png",
+    "question": "Is the orange circle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0488.png",
+    "question": "Is the green diamond in front of the gray triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0489.png",
+    "question": "Is the red triangle in front of the yellow diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0490.png",
+    "question": "Is the red square in front of the green triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0491.png",
+    "question": "Is the gray diamond in front of the blue square?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0492.png",
+    "question": "Is the cyan circle in front of the purple triangle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0493.png",
+    "question": "Is the yellow circle in front of the purple square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0494.png",
+    "question": "Is the orange diamond in front of the blue circle?",
+    "answer": "no",
+    "task_type": "depth_ordering",
+    "spatial_label": 0,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0495.png",
+    "question": "Is the orange circle in front of the cyan triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0496.png",
+    "question": "Is the yellow triangle in front of the gray circle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0497.png",
+    "question": "Is the green triangle in front of the red square?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0498.png",
+    "question": "Is the cyan triangle in front of the orange diamond?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  },
+  {
+    "image_path": "images/depth_0499.png",
+    "question": "Is the green circle in front of the blue triangle?",
+    "answer": "yes",
+    "task_type": "depth_ordering",
+    "spatial_label": 1,
+    "source": "synthetic"
+  }
+]

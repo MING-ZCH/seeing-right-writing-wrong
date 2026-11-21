@@ -1,0 +1,12 @@
+{
+  "samples_per_task": {
+    "relative_position": 500,
+    "depth_ordering": 500
+  },
+  "image_size": [
+    448,
+    448
+  ],
+  "generation_seed": 42,
+  "note": "orientation scenes of the original generator are drawn (random stream) but not written"
+}

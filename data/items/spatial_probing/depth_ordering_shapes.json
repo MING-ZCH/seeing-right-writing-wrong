@@ -1,0 +1,9502 @@
+[
+  {
+    "image": "depth_0000.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 217,
+        "y": 210,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 191,
+        "y": 193,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0001.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 204,
+        "y": 175,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 241,
+        "y": 197,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0002.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 225,
+        "y": 181,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 184,
+        "y": 211,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0003.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 245,
+        "y": 232,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 267,
+        "y": 204,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0004.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 148,
+        "y": 168,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 192,
+        "y": 181,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0005.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 144,
+        "y": 183,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 178,
+        "y": 201,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0006.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 255,
+        "y": 242,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 276,
+        "y": 270,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0007.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 297,
+        "y": 234,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 249,
+        "y": 247,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0008.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 301,
+        "y": 181,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 274,
+        "y": 206,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0009.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 144,
+        "y": 231,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 171,
+        "y": 215,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0010.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 211,
+        "y": 205,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 185,
+        "y": 216,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0011.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 217,
+        "y": 286,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 238,
+        "y": 258,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0012.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 243,
+        "y": 265,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 217,
+        "y": 248,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0013.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 314,
+        "y": 223,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 283,
+        "y": 208,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0014.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 225,
+        "y": 240,
+        "size": 28
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 190,
+        "y": 251,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0015.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 194,
+        "y": 256,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 173,
+        "y": 284,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0016.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 237,
+        "y": 260,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 282,
+        "y": 283,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0017.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 188,
+        "y": 225,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 208,
+        "y": 203,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0018.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 211,
+        "y": 154,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 168,
+        "y": 177,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0019.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 279,
+        "y": 227,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 243,
+        "y": 204,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0020.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 224,
+        "y": 235,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 190,
+        "y": 219,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0021.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 209,
+        "y": 294,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 242,
+        "y": 272,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0022.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 217,
+        "y": 290,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 181,
+        "y": 266,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0023.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 285,
+        "y": 173,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 255,
+        "y": 200,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0024.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 142,
+        "y": 298,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 190,
+        "y": 270,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0025.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 208,
+        "y": 228,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 167,
+        "y": 213,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0026.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 249,
+        "y": 189,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 205,
+        "y": 207,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0027.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 171,
+        "y": 204,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 194,
+        "y": 180,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0028.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 138,
+        "y": 225,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 177,
+        "y": 253,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0029.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 297,
+        "y": 212,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 254,
+        "y": 183,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0030.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 192,
+        "y": 293,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 227,
+        "y": 272,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0031.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 192,
+        "y": 243,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 221,
+        "y": 265,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0032.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 205,
+        "y": 277,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 179,
+        "y": 259,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0033.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 300,
+        "y": 271,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 253,
+        "y": 284,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0034.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 156,
+        "y": 210,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 183,
+        "y": 183,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0035.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 222,
+        "y": 174,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 244,
+        "y": 191,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0036.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 259,
+        "y": 167,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 282,
+        "y": 197,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0037.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 206,
+        "y": 256,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 228,
+        "y": 233,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0038.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 314,
+        "y": 211,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 281,
+        "y": 199,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0039.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 192,
+        "y": 153,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 222,
+        "y": 175,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0040.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 259,
+        "y": 170,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 282,
+        "y": 200,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0041.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 275,
+        "y": 229,
+        "size": 26
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 229,
+        "y": 254,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0042.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 238,
+        "y": 270,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 200,
+        "y": 256,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0043.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 218,
+        "y": 199,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 259,
+        "y": 224,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0044.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 229,
+        "y": 270,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 207,
+        "y": 243,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0045.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 234,
+        "y": 186,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 279,
+        "y": 167,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0046.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 261,
+        "y": 304,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 227,
+        "y": 280,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0047.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 240,
+        "y": 301,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 213,
+        "y": 273,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0048.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 164,
+        "y": 215,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 192,
+        "y": 245,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0049.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 216,
+        "y": 279,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 180,
+        "y": 264,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0050.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 273,
+        "y": 207,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 232,
+        "y": 179,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0051.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 146,
+        "y": 156,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 181,
+        "y": 169,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0052.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 202,
+        "y": 269,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 168,
+        "y": 252,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0053.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 149,
+        "y": 152,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 195,
+        "y": 180,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0054.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 235,
+        "y": 279,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 265,
+        "y": 264,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0055.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 217,
+        "y": 275,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 257,
+        "y": 264,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0056.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 248,
+        "y": 227,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 212,
+        "y": 240,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0057.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 290,
+        "y": 184,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 249,
+        "y": 196,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0058.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 314,
+        "y": 260,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 275,
+        "y": 281,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0059.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 266,
+        "y": 301,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 241,
+        "y": 282,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0060.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 250,
+        "y": 156,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 207,
+        "y": 184,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0061.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 227,
+        "y": 248,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 260,
+        "y": 229,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0062.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 188,
+        "y": 200,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 164,
+        "y": 227,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0063.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 260,
+        "y": 145,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 215,
+        "y": 166,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0064.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 137,
+        "y": 250,
+        "size": 28
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 173,
+        "y": 229,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0065.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 221,
+        "y": 258,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 251,
+        "y": 282,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0066.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 223,
+        "y": 229,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 270,
+        "y": 200,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0067.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 133,
+        "y": 216,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 169,
+        "y": 195,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0068.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 174,
+        "y": 277,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 196,
+        "y": 256,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0069.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 253,
+        "y": 171,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 203,
+        "y": 187,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0070.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 225,
+        "y": 244,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 256,
+        "y": 220,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0071.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 208,
+        "y": 279,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 184,
+        "y": 268,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0072.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 231,
+        "y": 169,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 280,
+        "y": 192,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0073.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 212,
+        "y": 176,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 168,
+        "y": 200,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0074.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 135,
+        "y": 148,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 172,
+        "y": 178,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0075.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 253,
+        "y": 296,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 213,
+        "y": 275,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0076.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 230,
+        "y": 249,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 270,
+        "y": 263,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0077.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 229,
+        "y": 276,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 260,
+        "y": 246,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0078.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 233,
+        "y": 201,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 266,
+        "y": 174,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0079.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 202,
+        "y": 227,
+        "size": 29
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 169,
+        "y": 257,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0080.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 234,
+        "y": 234,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 210,
+        "y": 213,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0081.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 324,
+        "y": 211,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 280,
+        "y": 235,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0082.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 303,
+        "y": 176,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 278,
+        "y": 202,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0083.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 236,
+        "y": 186,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 203,
+        "y": 214,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0084.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 245,
+        "y": 159,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 270,
+        "y": 179,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0085.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 280,
+        "y": 256,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 239,
+        "y": 284,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0086.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 191,
+        "y": 184,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 225,
+        "y": 195,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0087.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 288,
+        "y": 224,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 261,
+        "y": 211,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0088.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 224,
+        "y": 286,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 188,
+        "y": 261,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0089.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 167,
+        "y": 250,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 200,
+        "y": 232,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0090.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 292,
+        "y": 264,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 269,
+        "y": 243,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0091.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 290,
+        "y": 293,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 241,
+        "y": 278,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0092.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 195,
+        "y": 235,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 240,
+        "y": 224,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0093.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 252,
+        "y": 241,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 216,
+        "y": 252,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0094.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 245,
+        "y": 180,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 195,
+        "y": 199,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0095.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 218,
+        "y": 230,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 169,
+        "y": 200,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0096.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 278,
+        "y": 168,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 245,
+        "y": 193,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0097.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 199,
+        "y": 269,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 232,
+        "y": 258,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0098.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 246,
+        "y": 208,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 272,
+        "y": 228,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0099.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 199,
+        "y": 195,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 175,
+        "y": 215,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0100.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 274,
+        "y": 205,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 249,
+        "y": 179,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0101.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 285,
+        "y": 248,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 251,
+        "y": 260,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0102.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 303,
+        "y": 147,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 267,
+        "y": 171,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0103.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 254,
+        "y": 148,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 233,
+        "y": 171,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0104.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 187,
+        "y": 199,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 231,
+        "y": 180,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0105.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 155,
+        "y": 166,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 194,
+        "y": 190,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0106.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 166,
+        "y": 299,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 202,
+        "y": 276,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0107.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 227,
+        "y": 185,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 183,
+        "y": 202,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0108.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 224,
+        "y": 185,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 246,
+        "y": 174,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0109.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 216,
+        "y": 157,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 258,
+        "y": 179,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0110.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 173,
+        "y": 190,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 211,
+        "y": 204,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0111.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 281,
+        "y": 231,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 256,
+        "y": 246,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0112.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 212,
+        "y": 203,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 191,
+        "y": 228,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0113.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 270,
+        "y": 204,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 231,
+        "y": 183,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0114.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 214,
+        "y": 236,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 234,
+        "y": 224,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0115.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 136,
+        "y": 254,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 186,
+        "y": 282,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0116.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 124,
+        "y": 196,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 170,
+        "y": 176,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0117.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 238,
+        "y": 173,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 266,
+        "y": 195,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0118.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 201,
+        "y": 214,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 221,
+        "y": 235,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0119.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 146,
+        "y": 186,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 181,
+        "y": 198,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0120.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 211,
+        "y": 222,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 181,
+        "y": 202,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0121.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 174,
+        "y": 184,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 205,
+        "y": 212,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0122.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 270,
+        "y": 212,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 248,
+        "y": 183,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0123.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 288,
+        "y": 202,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 265,
+        "y": 219,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0124.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 207,
+        "y": 246,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 178,
+        "y": 270,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0125.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 214,
+        "y": 239,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 250,
+        "y": 266,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0126.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 185,
+        "y": 136,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 213,
+        "y": 164,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0127.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 234,
+        "y": 243,
+        "size": 29
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 209,
+        "y": 272,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0128.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 212,
+        "y": 207,
+        "size": 28
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 187,
+        "y": 226,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0129.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 216,
+        "y": 214,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 251,
+        "y": 226,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0130.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 217,
+        "y": 209,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 263,
+        "y": 233,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0131.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 235,
+        "y": 238,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 274,
+        "y": 254,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0132.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 247,
+        "y": 227,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 274,
+        "y": 247,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0133.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 202,
+        "y": 250,
+        "size": 29
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 222,
+        "y": 226,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0134.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 301,
+        "y": 241,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 278,
+        "y": 251,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0135.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 148,
+        "y": 185,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 196,
+        "y": 174,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0136.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 212,
+        "y": 179,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 165,
+        "y": 165,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0137.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 191,
+        "y": 260,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 231,
+        "y": 236,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0138.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 232,
+        "y": 209,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 195,
+        "y": 199,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0139.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 197,
+        "y": 261,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 245,
+        "y": 240,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0140.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 311,
+        "y": 194,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 282,
+        "y": 171,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0141.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 230,
+        "y": 249,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 257,
+        "y": 272,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0142.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 142,
+        "y": 221,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 185,
+        "y": 211,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0143.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 155,
+        "y": 245,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 196,
+        "y": 262,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0144.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 235,
+        "y": 284,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 281,
+        "y": 256,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0145.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 260,
+        "y": 250,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 234,
+        "y": 222,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0146.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 183,
+        "y": 138,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 206,
+        "y": 164,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0147.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 284,
+        "y": 164,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 238,
+        "y": 176,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0148.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 158,
+        "y": 287,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 181,
+        "y": 263,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0149.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 315,
+        "y": 240,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 269,
+        "y": 254,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0150.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 157,
+        "y": 249,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 177,
+        "y": 266,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0151.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 300,
+        "y": 261,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 279,
+        "y": 272,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0152.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 197,
+        "y": 265,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 168,
+        "y": 242,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0153.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 274,
+        "y": 255,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 225,
+        "y": 233,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0154.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 158,
+        "y": 265,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 195,
+        "y": 248,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0155.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 242,
+        "y": 242,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 271,
+        "y": 267,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0156.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 129,
+        "y": 179,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 171,
+        "y": 166,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0157.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 213,
+        "y": 257,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 254,
+        "y": 235,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0158.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 240,
+        "y": 244,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 283,
+        "y": 227,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0159.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 195,
+        "y": 238,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 170,
+        "y": 213,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0160.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 148,
+        "y": 180,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 173,
+        "y": 207,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0161.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 282,
+        "y": 217,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 253,
+        "y": 234,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0162.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 138,
+        "y": 165,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 167,
+        "y": 190,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0163.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 255,
+        "y": 186,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 221,
+        "y": 169,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0164.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 184,
+        "y": 276,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 232,
+        "y": 251,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0165.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 217,
+        "y": 257,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 189,
+        "y": 269,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0166.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 329,
+        "y": 200,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 282,
+        "y": 177,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0167.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 279,
+        "y": 243,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 259,
+        "y": 224,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0168.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 235,
+        "y": 269,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 191,
+        "y": 280,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0169.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 300,
+        "y": 215,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 254,
+        "y": 189,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0170.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 120,
+        "y": 196,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 167,
+        "y": 213,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0171.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 303,
+        "y": 275,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 255,
+        "y": 254,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0172.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 265,
+        "y": 190,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 225,
+        "y": 172,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0173.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 173,
+        "y": 193,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 215,
+        "y": 213,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0174.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 274,
+        "y": 198,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 247,
+        "y": 175,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0175.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 184,
+        "y": 188,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 231,
+        "y": 202,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0176.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 183,
+        "y": 174,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 221,
+        "y": 199,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0177.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 123,
+        "y": 267,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 166,
+        "y": 250,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0178.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 267,
+        "y": 256,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 219,
+        "y": 277,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0179.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 173,
+        "y": 247,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 212,
+        "y": 276,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0180.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 238,
+        "y": 188,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 202,
+        "y": 217,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0181.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 184,
+        "y": 281,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 209,
+        "y": 254,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0182.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 216,
+        "y": 280,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 256,
+        "y": 256,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0183.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 125,
+        "y": 293,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 165,
+        "y": 273,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0184.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 223,
+        "y": 262,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 247,
+        "y": 277,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0185.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 299,
+        "y": 246,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 277,
+        "y": 216,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0186.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 212,
+        "y": 221,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 165,
+        "y": 246,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0187.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 267,
+        "y": 290,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 220,
+        "y": 266,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0188.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 216,
+        "y": 266,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 247,
+        "y": 249,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0189.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 218,
+        "y": 154,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 253,
+        "y": 177,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0190.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 221,
+        "y": 253,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 262,
+        "y": 278,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0191.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 249,
+        "y": 260,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 217,
+        "y": 241,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0192.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 201,
+        "y": 234,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 251,
+        "y": 208,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0193.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 230,
+        "y": 184,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 189,
+        "y": 198,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0194.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 192,
+        "y": 199,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 213,
+        "y": 217,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0195.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 249,
+        "y": 155,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 212,
+        "y": 169,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0196.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 146,
+        "y": 238,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 173,
+        "y": 264,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0197.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 201,
+        "y": 219,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 249,
+        "y": 208,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0198.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 179,
+        "y": 144,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 229,
+        "y": 174,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0199.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 148,
+        "y": 204,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 170,
+        "y": 186,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0200.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 254,
+        "y": 253,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 209,
+        "y": 282,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0201.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 293,
+        "y": 172,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 245,
+        "y": 182,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0202.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 169,
+        "y": 214,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 192,
+        "y": 242,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0203.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 278,
+        "y": 192,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 243,
+        "y": 172,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0204.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 307,
+        "y": 200,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 276,
+        "y": 225,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0205.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 299,
+        "y": 266,
+        "size": 20
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 262,
+        "y": 239,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0206.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 296,
+        "y": 252,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 272,
+        "y": 267,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0207.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 234,
+        "y": 237,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 213,
+        "y": 224,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0208.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 206,
+        "y": 241,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 226,
+        "y": 265,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0209.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 199,
+        "y": 280,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 225,
+        "y": 250,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0210.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 276,
+        "y": 203,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 230,
+        "y": 215,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0211.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 314,
+        "y": 208,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 282,
+        "y": 222,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0212.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 319,
+        "y": 267,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 279,
+        "y": 241,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0213.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 319,
+        "y": 255,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 280,
+        "y": 273,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0214.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 294,
+        "y": 266,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 247,
+        "y": 238,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0215.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 239,
+        "y": 261,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 273,
+        "y": 274,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0216.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 158,
+        "y": 214,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 197,
+        "y": 192,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0217.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 215,
+        "y": 170,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 242,
+        "y": 185,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0218.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 241,
+        "y": 213,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 192,
+        "y": 241,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0219.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 217,
+        "y": 240,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 252,
+        "y": 220,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0220.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 224,
+        "y": 292,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 253,
+        "y": 270,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0221.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 249,
+        "y": 226,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 275,
+        "y": 197,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0222.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 303,
+        "y": 254,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 278,
+        "y": 276,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0223.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 163,
+        "y": 230,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 204,
+        "y": 252,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0224.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 264,
+        "y": 271,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 217,
+        "y": 253,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0225.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 257,
+        "y": 281,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 224,
+        "y": 267,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0226.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 252,
+        "y": 286,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 221,
+        "y": 259,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0227.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 295,
+        "y": 234,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 263,
+        "y": 258,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0228.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 241,
+        "y": 254,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 198,
+        "y": 277,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0229.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 198,
+        "y": 183,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 234,
+        "y": 170,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0230.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 215,
+        "y": 272,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 168,
+        "y": 248,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0231.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 192,
+        "y": 184,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 220,
+        "y": 203,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0232.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 298,
+        "y": 142,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 265,
+        "y": 164,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0233.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 244,
+        "y": 202,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 273,
+        "y": 172,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0234.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 233,
+        "y": 230,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 255,
+        "y": 220,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0235.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 199,
+        "y": 211,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 173,
+        "y": 233,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0236.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 240,
+        "y": 178,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 283,
+        "y": 205,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0237.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 218,
+        "y": 207,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 238,
+        "y": 179,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0238.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 217,
+        "y": 202,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 180,
+        "y": 226,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0239.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 205,
+        "y": 196,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 233,
+        "y": 208,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0240.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 255,
+        "y": 272,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 205,
+        "y": 256,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0241.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 166,
+        "y": 205,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 189,
+        "y": 177,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0242.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 165,
+        "y": 264,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 210,
+        "y": 235,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0243.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 279,
+        "y": 283,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 235,
+        "y": 259,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0244.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 177,
+        "y": 233,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 216,
+        "y": 261,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0245.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 222,
+        "y": 165,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 202,
+        "y": 192,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0246.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 280,
+        "y": 190,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 237,
+        "y": 215,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0247.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 228,
+        "y": 292,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 275,
+        "y": 262,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0248.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 168,
+        "y": 199,
+        "size": 26
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 192,
+        "y": 219,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0249.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 257,
+        "y": 265,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 235,
+        "y": 242,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0250.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 194,
+        "y": 198,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 243,
+        "y": 182,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0251.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 181,
+        "y": 182,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 224,
+        "y": 166,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0252.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 279,
+        "y": 263,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 247,
+        "y": 284,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0253.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 262,
+        "y": 302,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 235,
+        "y": 282,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0254.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 326,
+        "y": 196,
+        "size": 28
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 276,
+        "y": 213,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0255.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 166,
+        "y": 264,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 203,
+        "y": 280,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0256.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 315,
+        "y": 299,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 271,
+        "y": 276,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0257.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 293,
+        "y": 181,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 251,
+        "y": 167,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0258.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 170,
+        "y": 283,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 192,
+        "y": 259,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0259.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 257,
+        "y": 233,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 221,
+        "y": 222,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0260.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 298,
+        "y": 218,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 252,
+        "y": 230,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0261.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 278,
+        "y": 287,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 255,
+        "y": 257,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0262.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 188,
+        "y": 190,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 217,
+        "y": 203,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0263.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 183,
+        "y": 233,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 222,
+        "y": 216,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0264.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 188,
+        "y": 210,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 217,
+        "y": 186,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0265.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 180,
+        "y": 202,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 206,
+        "y": 231,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0266.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 254,
+        "y": 251,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 227,
+        "y": 267,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0267.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 200,
+        "y": 208,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 245,
+        "y": 189,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0268.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 237,
+        "y": 220,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 282,
+        "y": 250,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0269.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 215,
+        "y": 233,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 237,
+        "y": 251,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0270.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 247,
+        "y": 206,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 211,
+        "y": 221,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0271.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 217,
+        "y": 189,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 263,
+        "y": 205,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0272.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 118,
+        "y": 217,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 166,
+        "y": 237,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0273.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 257,
+        "y": 180,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 233,
+        "y": 208,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0274.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 195,
+        "y": 204,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 170,
+        "y": 175,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0275.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 160,
+        "y": 202,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 192,
+        "y": 182,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0276.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 199,
+        "y": 196,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 229,
+        "y": 177,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0277.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 192,
+        "y": 280,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 233,
+        "y": 252,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0278.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 127,
+        "y": 177,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 175,
+        "y": 191,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0279.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 285,
+        "y": 176,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 238,
+        "y": 165,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0280.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 244,
+        "y": 219,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 219,
+        "y": 233,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0281.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 222,
+        "y": 152,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 174,
+        "y": 181,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0282.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 237,
+        "y": 261,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 216,
+        "y": 282,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0283.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 198,
+        "y": 195,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 242,
+        "y": 170,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0284.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 209,
+        "y": 204,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 238,
+        "y": 185,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0285.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 314,
+        "y": 254,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 280,
+        "y": 239,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0286.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 294,
+        "y": 256,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 256,
+        "y": 245,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0287.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 260,
+        "y": 297,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 231,
+        "y": 275,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0288.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 227,
+        "y": 230,
+        "size": 28
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 257,
+        "y": 250,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0289.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 202,
+        "y": 146,
+        "size": 29
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 243,
+        "y": 175,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0290.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 237,
+        "y": 200,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 262,
+        "y": 218,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0291.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 138,
+        "y": 206,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 177,
+        "y": 182,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0292.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 160,
+        "y": 209,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 198,
+        "y": 183,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0293.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 208,
+        "y": 256,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 171,
+        "y": 244,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0294.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 195,
+        "y": 166,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 168,
+        "y": 188,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0295.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 237,
+        "y": 213,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 258,
+        "y": 238,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0296.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 233,
+        "y": 256,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 268,
+        "y": 268,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0297.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 223,
+        "y": 193,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 260,
+        "y": 217,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0298.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 191,
+        "y": 282,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 217,
+        "y": 252,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0299.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 157,
+        "y": 155,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 188,
+        "y": 179,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0300.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 173,
+        "y": 179,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 196,
+        "y": 206,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0301.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 248,
+        "y": 209,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 205,
+        "y": 193,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0302.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 282,
+        "y": 174,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 256,
+        "y": 188,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0303.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 270,
+        "y": 250,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 237,
+        "y": 234,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0304.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 260,
+        "y": 232,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 224,
+        "y": 257,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0305.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 208,
+        "y": 197,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 166,
+        "y": 225,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0306.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 275,
+        "y": 139,
+        "size": 26
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 231,
+        "y": 168,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0307.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 205,
+        "y": 227,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 235,
+        "y": 254,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0308.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 270,
+        "y": 255,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 228,
+        "y": 231,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0309.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 177,
+        "y": 202,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 227,
+        "y": 183,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0310.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 276,
+        "y": 231,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 238,
+        "y": 207,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0311.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 214,
+        "y": 267,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 243,
+        "y": 282,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0312.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 207,
+        "y": 198,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 182,
+        "y": 211,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0313.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 327,
+        "y": 240,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 284,
+        "y": 260,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0314.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 212,
+        "y": 243,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 238,
+        "y": 231,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0315.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 240,
+        "y": 234,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 211,
+        "y": 213,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0316.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 229,
+        "y": 202,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 182,
+        "y": 190,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0317.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 280,
+        "y": 251,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 234,
+        "y": 226,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0318.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 189,
+        "y": 207,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 167,
+        "y": 179,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0319.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 240,
+        "y": 214,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 209,
+        "y": 184,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0320.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 235,
+        "y": 237,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 198,
+        "y": 251,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0321.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 231,
+        "y": 265,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 265,
+        "y": 278,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0322.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 163,
+        "y": 164,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 192,
+        "y": 180,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0323.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 246,
+        "y": 169,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 224,
+        "y": 179,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0324.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 235,
+        "y": 215,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 273,
+        "y": 228,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0325.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 154,
+        "y": 244,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 187,
+        "y": 270,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0326.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 261,
+        "y": 154,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 227,
+        "y": 178,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0327.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 137,
+        "y": 167,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 179,
+        "y": 182,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0328.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 260,
+        "y": 263,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 224,
+        "y": 249,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0329.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 157,
+        "y": 224,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 186,
+        "y": 212,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0330.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 247,
+        "y": 210,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 213,
+        "y": 221,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0331.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 263,
+        "y": 200,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 228,
+        "y": 171,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0332.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 168,
+        "y": 199,
+        "size": 20
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 209,
+        "y": 216,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0333.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 218,
+        "y": 188,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 198,
+        "y": 166,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0334.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 215,
+        "y": 209,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 189,
+        "y": 227,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0335.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 292,
+        "y": 292,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 247,
+        "y": 269,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0336.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 297,
+        "y": 241,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 248,
+        "y": 269,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0337.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 223,
+        "y": 240,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 198,
+        "y": 269,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0338.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 212,
+        "y": 171,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 184,
+        "y": 198,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0339.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 235,
+        "y": 153,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 194,
+        "y": 178,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0340.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 241,
+        "y": 243,
+        "size": 29
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 220,
+        "y": 216,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0341.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 298,
+        "y": 285,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 271,
+        "y": 258,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0342.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 314,
+        "y": 307,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 274,
+        "y": 277,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0343.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 175,
+        "y": 230,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 217,
+        "y": 241,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0344.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 306,
+        "y": 254,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 272,
+        "y": 240,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0345.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 248,
+        "y": 217,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 282,
+        "y": 235,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0346.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 242,
+        "y": 266,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 269,
+        "y": 250,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0347.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 206,
+        "y": 218,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 167,
+        "y": 201,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0348.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 186,
+        "y": 196,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 235,
+        "y": 171,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0349.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 305,
+        "y": 233,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 283,
+        "y": 207,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0350.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 262,
+        "y": 292,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 219,
+        "y": 278,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0351.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 204,
+        "y": 195,
+        "size": 28
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 169,
+        "y": 220,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0352.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 261,
+        "y": 294,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 217,
+        "y": 281,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0353.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 181,
+        "y": 224,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 222,
+        "y": 244,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0354.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 242,
+        "y": 289,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 262,
+        "y": 274,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0355.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 254,
+        "y": 233,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 226,
+        "y": 221,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0356.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 250,
+        "y": 204,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 201,
+        "y": 223,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0357.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 220,
+        "y": 230,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 248,
+        "y": 256,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0358.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 182,
+        "y": 310,
+        "size": 23
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 207,
+        "y": 281,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0359.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 293,
+        "y": 249,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 243,
+        "y": 268,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0360.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 300,
+        "y": 258,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 271,
+        "y": 244,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0361.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 210,
+        "y": 229,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 170,
+        "y": 206,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0362.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 301,
+        "y": 275,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 278,
+        "y": 246,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0363.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 329,
+        "y": 263,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 281,
+        "y": 241,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0364.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 238,
+        "y": 190,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 265,
+        "y": 217,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0365.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 207,
+        "y": 214,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 179,
+        "y": 235,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0366.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 269,
+        "y": 203,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 244,
+        "y": 179,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0367.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 235,
+        "y": 223,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 207,
+        "y": 200,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0368.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 285,
+        "y": 245,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 255,
+        "y": 267,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0369.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 126,
+        "y": 291,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 165,
+        "y": 269,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0370.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 161,
+        "y": 165,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 191,
+        "y": 175,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0371.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 231,
+        "y": 271,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 260,
+        "y": 247,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0372.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 246,
+        "y": 286,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 269,
+        "y": 263,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0373.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 308,
+        "y": 222,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 275,
+        "y": 197,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0374.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 323,
+        "y": 222,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 284,
+        "y": 235,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0375.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 144,
+        "y": 258,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 170,
+        "y": 283,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0376.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 302,
+        "y": 195,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 261,
+        "y": 181,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0377.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 198,
+        "y": 230,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 235,
+        "y": 246,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0378.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 168,
+        "y": 259,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 215,
+        "y": 239,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0379.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 158,
+        "y": 232,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 183,
+        "y": 203,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0380.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 230,
+        "y": 273,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 194,
+        "y": 260,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0381.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 233,
+        "y": 237,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 195,
+        "y": 261,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0382.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 203,
+        "y": 193,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 164,
+        "y": 171,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0383.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 292,
+        "y": 258,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 242,
+        "y": 228,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0384.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 316,
+        "y": 143,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 279,
+        "y": 165,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0385.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 191,
+        "y": 293,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 211,
+        "y": 283,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0386.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 211,
+        "y": 217,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 164,
+        "y": 189,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0387.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 225,
+        "y": 299,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 188,
+        "y": 272,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0388.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 204,
+        "y": 209,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 170,
+        "y": 199,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0389.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 279,
+        "y": 254,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 244,
+        "y": 244,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0390.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 189,
+        "y": 201,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 238,
+        "y": 179,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0391.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 311,
+        "y": 195,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 272,
+        "y": 212,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0392.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 120,
+        "y": 212,
+        "size": 29
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 165,
+        "y": 240,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0393.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 191,
+        "y": 261,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 229,
+        "y": 247,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0394.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 305,
+        "y": 196,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 264,
+        "y": 172,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0395.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 286,
+        "y": 169,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 243,
+        "y": 191,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0396.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 140,
+        "y": 184,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 169,
+        "y": 167,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0397.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 173,
+        "y": 304,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 207,
+        "y": 283,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0398.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 252,
+        "y": 149,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 281,
+        "y": 169,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0399.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 257,
+        "y": 256,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 227,
+        "y": 230,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0400.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 243,
+        "y": 259,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 218,
+        "y": 277,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0401.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 268,
+        "y": 239,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 223,
+        "y": 219,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0402.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 241,
+        "y": 178,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 264,
+        "y": 199,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0403.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 223,
+        "y": 183,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 269,
+        "y": 208,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0404.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 248,
+        "y": 288,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 204,
+        "y": 272,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0405.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 223,
+        "y": 235,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 261,
+        "y": 263,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0406.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 220,
+        "y": 251,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 245,
+        "y": 278,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0407.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 241,
+        "y": 208,
+        "size": 22
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 211,
+        "y": 230,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0408.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 210,
+        "y": 223,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 184,
+        "y": 241,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0409.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 288,
+        "y": 254,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 246,
+        "y": 276,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0410.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 150,
+        "y": 292,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 199,
+        "y": 276,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0411.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 203,
+        "y": 261,
+        "size": 26
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 173,
+        "y": 245,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0412.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 199,
+        "y": 240,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 224,
+        "y": 269,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0413.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 236,
+        "y": 220,
+        "size": 27
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 278,
+        "y": 250,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0414.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 171,
+        "y": 155,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 217,
+        "y": 167,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0415.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 163,
+        "y": 201,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 193,
+        "y": 191,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0416.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 220,
+        "y": 222,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 262,
+        "y": 240,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0417.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 208,
+        "y": 220,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 228,
+        "y": 239,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0418.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 306,
+        "y": 236,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 282,
+        "y": 256,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0419.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "gray",
+        "x": 190,
+        "y": 217,
+        "size": 27
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 230,
+        "y": 205,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0420.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 170,
+        "y": 156,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 203,
+        "y": 185,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0421.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 305,
+        "y": 160,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 261,
+        "y": 183,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0422.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 157,
+        "y": 245,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 181,
+        "y": 255,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0423.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 327,
+        "y": 254,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 283,
+        "y": 236,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0424.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 214,
+        "y": 212,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 241,
+        "y": 222,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0425.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 297,
+        "y": 230,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 257,
+        "y": 216,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0426.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 212,
+        "y": 196,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 186,
+        "y": 211,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0427.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 173,
+        "y": 154,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 201,
+        "y": 174,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0428.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 247,
+        "y": 270,
+        "size": 27
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 212,
+        "y": 241,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0429.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 202,
+        "y": 301,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 222,
+        "y": 275,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0430.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 285,
+        "y": 191,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 250,
+        "y": 220,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0431.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 302,
+        "y": 190,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 265,
+        "y": 175,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0432.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 303,
+        "y": 186,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 262,
+        "y": 199,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0433.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 174,
+        "y": 158,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 197,
+        "y": 178,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0434.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 225,
+        "y": 263,
+        "size": 28
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 266,
+        "y": 250,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0435.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 275,
+        "y": 222,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 228,
+        "y": 252,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0436.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 305,
+        "y": 268,
+        "size": 20
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 268,
+        "y": 248,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0437.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 246,
+        "y": 272,
+        "size": 29
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 222,
+        "y": 247,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0438.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 247,
+        "y": 160,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 282,
+        "y": 171,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0439.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 303,
+        "y": 202,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 263,
+        "y": 223,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0440.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 187,
+        "y": 259,
+        "size": 24
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 225,
+        "y": 246,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0441.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 141,
+        "y": 221,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 164,
+        "y": 235,
+        "size": 49
+      }
+    ]
+  },
+  {
+    "image": "depth_0442.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 267,
+        "y": 293,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 230,
+        "y": 279,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0443.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 212,
+        "y": 255,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 181,
+        "y": 241,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0444.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 202,
+        "y": 236,
+        "size": 30
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 244,
+        "y": 257,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0445.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 255,
+        "y": 227,
+        "size": 25
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 206,
+        "y": 245,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0446.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 223,
+        "y": 258,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 176,
+        "y": 231,
+        "size": 46
+      }
+    ]
+  },
+  {
+    "image": "depth_0447.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "cyan",
+        "x": 227,
+        "y": 251,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 251,
+        "y": 229,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0448.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 236,
+        "y": 233,
+        "size": 24
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 203,
+        "y": 245,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0449.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 205,
+        "y": 237,
+        "size": 26
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 225,
+        "y": 227,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0450.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 250,
+        "y": 195,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 227,
+        "y": 212,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0451.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 252,
+        "y": 252,
+        "size": 20
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 283,
+        "y": 223,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0452.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 197,
+        "y": 221,
+        "size": 26
+      },
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 174,
+        "y": 231,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0453.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 178,
+        "y": 246,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 209,
+        "y": 259,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0454.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 184,
+        "y": 254,
+        "size": 30
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 226,
+        "y": 234,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0455.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 253,
+        "y": 259,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 218,
+        "y": 240,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0456.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 215,
+        "y": 248,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 254,
+        "y": 264,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0457.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 189,
+        "y": 251,
+        "size": 30
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 216,
+        "y": 231,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0458.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 183,
+        "y": 289,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "red",
+        "x": 204,
+        "y": 278,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0459.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 280,
+        "y": 193,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 249,
+        "y": 165,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0460.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 321,
+        "y": 195,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 282,
+        "y": 176,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0461.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 123,
+        "y": 240,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "purple",
+        "x": 172,
+        "y": 225,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0462.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 274,
+        "y": 247,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 235,
+        "y": 263,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0463.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 212,
+        "y": 181,
+        "size": 28
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 185,
+        "y": 192,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0464.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 238,
+        "y": 154,
+        "size": 22
+      },
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 205,
+        "y": 174,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0465.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 240,
+        "y": 248,
+        "size": 25
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 268,
+        "y": 220,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0466.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 228,
+        "y": 246,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 188,
+        "y": 236,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0467.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 280,
+        "y": 238,
+        "size": 29
+      },
+      {
+        "type": "square",
+        "color": "green",
+        "x": 257,
+        "y": 260,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0468.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 297,
+        "y": 282,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 273,
+        "y": 254,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0469.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 157,
+        "y": 219,
+        "size": 22
+      },
+      {
+        "type": "circle",
+        "color": "red",
+        "x": 177,
+        "y": 229,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0470.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 178,
+        "y": 162,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 209,
+        "y": 173,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0471.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 203,
+        "y": 197,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 248,
+        "y": 211,
+        "size": 43
+      }
+    ]
+  },
+  {
+    "image": "depth_0472.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 236,
+        "y": 205,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "cyan",
+        "x": 205,
+        "y": 180,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0473.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 136,
+        "y": 226,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 174,
+        "y": 238,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0474.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 156,
+        "y": 259,
+        "size": 23
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 182,
+        "y": 270,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0475.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 202,
+        "y": 160,
+        "size": 21
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 182,
+        "y": 174,
+        "size": 42
+      }
+    ]
+  },
+  {
+    "image": "depth_0476.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "yellow",
+        "x": 274,
+        "y": 208,
+        "size": 26
+      },
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 228,
+        "y": 184,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0477.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 304,
+        "y": 289,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 269,
+        "y": 259,
+        "size": 37
+      }
+    ]
+  },
+  {
+    "image": "depth_0478.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "orange",
+        "x": 130,
+        "y": 182,
+        "size": 22
+      },
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 167,
+        "y": 194,
+        "size": 44
+      }
+    ]
+  },
+  {
+    "image": "depth_0479.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 328,
+        "y": 181,
+        "size": 25
+      },
+      {
+        "type": "square",
+        "color": "red",
+        "x": 284,
+        "y": 203,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0480.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 200,
+        "y": 215,
+        "size": 24
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 225,
+        "y": 239,
+        "size": 36
+      }
+    ]
+  },
+  {
+    "image": "depth_0481.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "green",
+        "x": 258,
+        "y": 226,
+        "size": 20
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 210,
+        "y": 243,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0482.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 311,
+        "y": 180,
+        "size": 21
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 283,
+        "y": 201,
+        "size": 40
+      }
+    ]
+  },
+  {
+    "image": "depth_0483.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 246,
+        "y": 195,
+        "size": 27
+      },
+      {
+        "type": "square",
+        "color": "orange",
+        "x": 215,
+        "y": 216,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0484.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 239,
+        "y": 160,
+        "size": 21
+      },
+      {
+        "type": "diamond",
+        "color": "purple",
+        "x": 212,
+        "y": 184,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0485.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "blue",
+        "x": 249,
+        "y": 254,
+        "size": 23
+      },
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 207,
+        "y": 241,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0486.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 241,
+        "y": 188,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 191,
+        "y": 170,
+        "size": 41
+      }
+    ]
+  },
+  {
+    "image": "depth_0487.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 225,
+        "y": 263,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 175,
+        "y": 278,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0488.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "gray",
+        "x": 229,
+        "y": 263,
+        "size": 20
+      },
+      {
+        "type": "diamond",
+        "color": "green",
+        "x": 205,
+        "y": 249,
+        "size": 45
+      }
+    ]
+  },
+  {
+    "image": "depth_0489.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "yellow",
+        "x": 215,
+        "y": 217,
+        "size": 28
+      },
+      {
+        "type": "triangle",
+        "color": "red",
+        "x": 259,
+        "y": 188,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0490.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 278,
+        "y": 249,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 247,
+        "y": 222,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0491.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "gray",
+        "x": 200,
+        "y": 188,
+        "size": 21
+      },
+      {
+        "type": "square",
+        "color": "blue",
+        "x": 245,
+        "y": 200,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0492.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "cyan",
+        "x": 281,
+        "y": 225,
+        "size": 23
+      },
+      {
+        "type": "triangle",
+        "color": "purple",
+        "x": 234,
+        "y": 212,
+        "size": 38
+      }
+    ]
+  },
+  {
+    "image": "depth_0493.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "purple",
+        "x": 259,
+        "y": 294,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "yellow",
+        "x": 279,
+        "y": 280,
+        "size": 48
+      }
+    ]
+  },
+  {
+    "image": "depth_0494.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 221,
+        "y": 163,
+        "size": 25
+      },
+      {
+        "type": "circle",
+        "color": "blue",
+        "x": 257,
+        "y": 186,
+        "size": 47
+      }
+    ]
+  },
+  {
+    "image": "depth_0495.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 180,
+        "y": 193,
+        "size": 20
+      },
+      {
+        "type": "circle",
+        "color": "orange",
+        "x": 219,
+        "y": 165,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0496.png",
+    "shapes_back_to_front": [
+      {
+        "type": "circle",
+        "color": "gray",
+        "x": 179,
+        "y": 187,
+        "size": 30
+      },
+      {
+        "type": "triangle",
+        "color": "yellow",
+        "x": 199,
+        "y": 174,
+        "size": 39
+      }
+    ]
+  },
+  {
+    "image": "depth_0497.png",
+    "shapes_back_to_front": [
+      {
+        "type": "square",
+        "color": "red",
+        "x": 248,
+        "y": 235,
+        "size": 26
+      },
+      {
+        "type": "triangle",
+        "color": "green",
+        "x": 226,
+        "y": 265,
+        "size": 35
+      }
+    ]
+  },
+  {
+    "image": "depth_0498.png",
+    "shapes_back_to_front": [
+      {
+        "type": "diamond",
+        "color": "orange",
+        "x": 168,
+        "y": 223,
+        "size": 29
+      },
+      {
+        "type": "triangle",
+        "color": "cyan",
+        "x": 207,
+        "y": 208,
+        "size": 50
+      }
+    ]
+  },
+  {
+    "image": "depth_0499.png",
+    "shapes_back_to_front": [
+      {
+        "type": "triangle",
+        "color": "blue",
+        "x": 285,
+        "y": 236,
+        "size": 24
+      },
+      {
+        "type": "circle",
+        "color": "green",
+        "x": 257,
+        "y": 252,
+        "size": 39
+      }
+    ]
+  }
+]
