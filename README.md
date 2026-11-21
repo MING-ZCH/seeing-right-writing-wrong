@@ -5,8 +5,8 @@
 **Where Short Chain-of-Thought Breaks Spatial VQA**
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX">
-    <img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg" alt="arXiv" />
+  <a href="https://ming-zch.github.io/seeing-right-writing-wrong/assets/paper.pdf">
+    <img src="https://img.shields.io/badge/Paper-PDF-b31b1b.svg" alt="Paper" />
   </a>
   <a href="https://ming-zch.github.io/seeing-right-writing-wrong/">
     <img src="https://img.shields.io/badge/🌐%20Homepage-blue" alt="Project Homepage" />
@@ -24,8 +24,8 @@
 
 ## 🔥News
 
-- **[Nov. 2026]**: Our paper is released on [arXiv](https://arxiv.org/abs/XXXX.XXXXX), check it out!
-- **[Nov. 2026]**: Code, prompts, and per-item model outputs are released!
+- **[Nov. 2026]**: Our paper is available as a [PDF](https://ming-zch.github.io/seeing-right-writing-wrong/assets/paper.pdf) on the project page and has been submitted to arXiv, check it out!
+- **[Nov. 2026]**: All our datasets and code are open-sourced, including prompts and per-item model outputs!
 
 ## ✨ Highlights
 
@@ -179,7 +179,7 @@ If you find this work helpful, please cite:
 @article{zhang2026seeing,
   title   = {Seeing Right, Writing Wrong: Where Short Chain-of-Thought Breaks Spatial {VQA}},
   author  = {Zhang, Chenhao},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint},
   year    = {2026}
 }
 ```
