@@ -8,6 +8,9 @@
   <a href="https://arxiv.org/abs/2611.28665">
     <img src="https://img.shields.io/badge/arXiv-2611.28665-b31b1b.svg" alt="arXiv" />
   </a>
+  <a href="https://huggingface.co/papers/2611.28665">
+    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Paper-yellow" alt="Hugging Face Paper" />
+  </a>
   <a href="https://ming-zch.github.io/seeing-right-writing-wrong/">
     <img src="https://img.shields.io/badge/🌐%20Homepage-blue" alt="Project Homepage" />
   </a>
